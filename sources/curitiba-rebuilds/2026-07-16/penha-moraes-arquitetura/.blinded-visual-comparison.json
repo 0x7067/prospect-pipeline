@@ -1,0 +1,67 @@
+{
+  "blind": true,
+  "build_id": "45962261c2c0cfbb7896dc8616105e96cd6c0bd20b688fbf92a0a6b3a363159e",
+  "desktop": {
+    "average_margin": 8.286,
+    "confidence": 0.99,
+    "current_label": "B",
+    "notes": "A presents a complete, credible architecture-specific editorial experience with clear hierarchy and actions. B exposes only a blank loading surface, so it cannot support discovery or conversion.",
+    "proposed_label": "A",
+    "scores": {
+      "current": {
+        "brand_fit": 0.5,
+        "conversion_clarity": 0.0,
+        "credibility": 0.0,
+        "generic_ai_resistance": 0.5,
+        "hierarchy": 0.0,
+        "mobile_usability": 0.5,
+        "readability_accessibility": 0.5
+      },
+      "proposed": {
+        "brand_fit": 9.0,
+        "conversion_clarity": 8.5,
+        "credibility": 9.0,
+        "generic_ai_resistance": 8.5,
+        "hierarchy": 9.0,
+        "mobile_usability": 7.5,
+        "readability_accessibility": 8.5
+      }
+    },
+    "winner": "A"
+  },
+  "finalized_at": "2026-07-17T00:25:23.365086+00:00",
+  "mapping_verified": true,
+  "mobile": {
+    "average_margin": 1.786,
+    "confidence": 0.91,
+    "current_label": "A",
+    "notes": "B preserves strong editorial hierarchy, visible calls to action, evidence, portfolio structure, contact details, and disclosure across the complete mobile journey. A is visually appealing but offers only a hero view with weaker task and conversion clarity.",
+    "proposed_label": "B",
+    "scores": {
+      "current": {
+        "brand_fit": 8.0,
+        "conversion_clarity": 4.5,
+        "credibility": 7.0,
+        "generic_ai_resistance": 7.5,
+        "hierarchy": 7.5,
+        "mobile_usability": 6.5,
+        "readability_accessibility": 7.0
+      },
+      "proposed": {
+        "brand_fit": 8.5,
+        "conversion_clarity": 8.5,
+        "credibility": 9.0,
+        "generic_ai_resistance": 8.5,
+        "hierarchy": 8.5,
+        "mobile_usability": 9.0,
+        "readability_accessibility": 8.5
+      }
+    },
+    "winner": "B"
+  },
+  "package_sha256": "b19541a46bd456a5e36fefaf48aa31a88b68f86298f292de6fc81b8a0197c842",
+  "schema": 3,
+  "status": "pass",
+  "token": "ZX5RlKxXuoZNIVJ8QPb-z1N6R7oTql72",
+  "verdict_sha256": "8ae39cd027919960ed56234a44cd7c8533d083dacddd8300236b05b91c019cab"
+}

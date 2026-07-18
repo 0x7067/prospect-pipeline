@@ -1,0 +1,719 @@
+{
+  "build_id": "c86a4b7506850da2284daf370b87ef11daaf480cdc009a6faa4835a7476de575",
+  "detector": {
+    "expected_cli_version": "3.2.1",
+    "path": "/opt/data/bin/impeccable",
+    "resolved_path": "/opt/data/lib/node_modules/impeccable/cli/bin/cli.js",
+    "scans": [
+      {
+        "exit_code": 2,
+        "findings": [
+          {
+            "antipattern": "cramped-padding",
+            "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/index.html",
+            "line": 0,
+            "name": "Cramped padding",
+            "severity": "warning",
+            "snippet": "<section> \"hero\": children flush against bg on right/bottom/left (no inset)"
+          },
+          {
+            "antipattern": "cramped-padding",
+            "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/index.html",
+            "line": 0,
+            "name": "Cramped padding",
+            "severity": "warning",
+            "snippet": "<section> \"portfolio\": children flush against bg on all sides (no inset)"
+          },
+          {
+            "antipattern": "cramped-padding",
+            "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/index.html",
+            "line": 0,
+            "name": "Cramped padding",
+            "severity": "warning",
+            "snippet": "<section> \"cta-band\": children flush against bg on all sides (no inset)"
+          },
+          {
+            "antipattern": "overused-font",
+            "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/index.html",
+            "line": 0,
+            "name": "Overused font",
+            "severity": "warning",
+            "snippet": "Primary font: roboto"
+          },
+          {
+            "antipattern": "overused-font",
+            "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/index.html",
+            "line": 0,
+            "name": "Overused font",
+            "severity": "warning",
+            "snippet": "Primary font: montserrat"
+          },
+          {
+            "antipattern": "flat-type-hierarchy",
+            "description": "Font sizes are too close together \u2014 no clear visual hierarchy. Use fewer sizes with more contrast (aim for at least a 1.25 ratio between steps).",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/index.html",
+            "line": 0,
+            "name": "Flat type hierarchy",
+            "severity": "warning",
+            "snippet": "Sizes: 12.8px, 13.6px, 15.2px, 16px, 17.6px, 18px, 20px, 21.6px (ratio 1.7:1)"
+          },
+          {
+            "antipattern": "cramped-padding",
+            "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+            "line": 0,
+            "name": "Cramped padding",
+            "severity": "warning",
+            "snippet": "<section> \"proposal-hero\": children flush against bg on all sides (no inset)"
+          },
+          {
+            "antipattern": "cramped-padding",
+            "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+            "line": 0,
+            "name": "Cramped padding",
+            "severity": "warning",
+            "snippet": "<section> \"proposal-section\": children flush against border-bottom on bottom (no inset)"
+          },
+          {
+            "antipattern": "cramped-padding",
+            "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+            "line": 0,
+            "name": "Cramped padding",
+            "severity": "warning",
+            "snippet": "<div> \"compare-card\": children flush against bg on top/right (no inset)"
+          },
+          {
+            "antipattern": "cramped-padding",
+            "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+            "line": 0,
+            "name": "Cramped padding",
+            "severity": "warning",
+            "snippet": "<div> \"compare-card\": children flush against bg on top/right (no inset)"
+          },
+          {
+            "antipattern": "cramped-padding",
+            "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+            "line": 0,
+            "name": "Cramped padding",
+            "severity": "warning",
+            "snippet": "<section> \"proposal-section\": children flush against border-bottom on bottom (no inset)"
+          },
+          {
+            "antipattern": "cramped-padding",
+            "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+            "line": 0,
+            "name": "Cramped padding",
+            "severity": "warning",
+            "snippet": "<section> \"proposal-section\": children flush against border-bottom on bottom (no inset)"
+          },
+          {
+            "antipattern": "cramped-padding",
+            "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+            "line": 0,
+            "name": "Cramped padding",
+            "severity": "warning",
+            "snippet": "<div> \"next-step\": children flush against bg on top/right/left (no inset)"
+          },
+          {
+            "antipattern": "cramped-padding",
+            "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+            "line": 0,
+            "name": "Cramped padding",
+            "severity": "warning",
+            "snippet": "<section> \"proposal-section\": children flush against border-bottom on bottom (no inset)"
+          },
+          {
+            "antipattern": "cramped-padding",
+            "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+            "line": 0,
+            "name": "Cramped padding",
+            "severity": "warning",
+            "snippet": "<div> \"container\": children flush against border-top on top (no inset)"
+          },
+          {
+            "antipattern": "overused-font",
+            "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+            "line": 0,
+            "name": "Overused font",
+            "severity": "warning",
+            "snippet": "Primary font: montserrat"
+          },
+          {
+            "antipattern": "overused-font",
+            "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+            "line": 0,
+            "name": "Overused font",
+            "severity": "warning",
+            "snippet": "Primary font: roboto"
+          },
+          {
+            "antipattern": "flat-type-hierarchy",
+            "description": "Font sizes are too close together \u2014 no clear visual hierarchy. Use fewer sizes with more contrast (aim for at least a 1.25 ratio between steps).",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+            "line": 0,
+            "name": "Flat type hierarchy",
+            "severity": "warning",
+            "snippet": "Sizes: 12.8px, 13.6px, 16px, 16.8px, 18.4px, 20px, 22.4px (ratio 1.7:1)"
+          }
+        ],
+        "mode": "raw"
+      },
+      {
+        "exit_code": 2,
+        "findings": [
+          {
+            "antipattern": "cramped-padding",
+            "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/index.html",
+            "line": 0,
+            "name": "Cramped padding",
+            "severity": "warning",
+            "snippet": "<section> \"hero\": children flush against bg on right/bottom/left (no inset)"
+          },
+          {
+            "antipattern": "cramped-padding",
+            "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/index.html",
+            "line": 0,
+            "name": "Cramped padding",
+            "severity": "warning",
+            "snippet": "<section> \"portfolio\": children flush against bg on all sides (no inset)"
+          },
+          {
+            "antipattern": "cramped-padding",
+            "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/index.html",
+            "line": 0,
+            "name": "Cramped padding",
+            "severity": "warning",
+            "snippet": "<section> \"cta-band\": children flush against bg on all sides (no inset)"
+          },
+          {
+            "antipattern": "overused-font",
+            "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/index.html",
+            "line": 0,
+            "name": "Overused font",
+            "severity": "warning",
+            "snippet": "Primary font: roboto"
+          },
+          {
+            "antipattern": "overused-font",
+            "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/index.html",
+            "line": 0,
+            "name": "Overused font",
+            "severity": "warning",
+            "snippet": "Primary font: montserrat"
+          },
+          {
+            "antipattern": "flat-type-hierarchy",
+            "description": "Font sizes are too close together \u2014 no clear visual hierarchy. Use fewer sizes with more contrast (aim for at least a 1.25 ratio between steps).",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/index.html",
+            "line": 0,
+            "name": "Flat type hierarchy",
+            "severity": "warning",
+            "snippet": "Sizes: 12.8px, 13.6px, 15.2px, 16px, 17.6px, 18px, 20px, 21.6px (ratio 1.7:1)"
+          },
+          {
+            "antipattern": "cramped-padding",
+            "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+            "line": 0,
+            "name": "Cramped padding",
+            "severity": "warning",
+            "snippet": "<section> \"proposal-hero\": children flush against bg on all sides (no inset)"
+          },
+          {
+            "antipattern": "cramped-padding",
+            "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+            "line": 0,
+            "name": "Cramped padding",
+            "severity": "warning",
+            "snippet": "<section> \"proposal-section\": children flush against border-bottom on bottom (no inset)"
+          },
+          {
+            "antipattern": "cramped-padding",
+            "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+            "line": 0,
+            "name": "Cramped padding",
+            "severity": "warning",
+            "snippet": "<div> \"compare-card\": children flush against bg on top/right (no inset)"
+          },
+          {
+            "antipattern": "cramped-padding",
+            "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+            "line": 0,
+            "name": "Cramped padding",
+            "severity": "warning",
+            "snippet": "<div> \"compare-card\": children flush against bg on top/right (no inset)"
+          },
+          {
+            "antipattern": "cramped-padding",
+            "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+            "line": 0,
+            "name": "Cramped padding",
+            "severity": "warning",
+            "snippet": "<section> \"proposal-section\": children flush against border-bottom on bottom (no inset)"
+          },
+          {
+            "antipattern": "cramped-padding",
+            "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+            "line": 0,
+            "name": "Cramped padding",
+            "severity": "warning",
+            "snippet": "<section> \"proposal-section\": children flush against border-bottom on bottom (no inset)"
+          },
+          {
+            "antipattern": "cramped-padding",
+            "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+            "line": 0,
+            "name": "Cramped padding",
+            "severity": "warning",
+            "snippet": "<div> \"next-step\": children flush against bg on top/right/left (no inset)"
+          },
+          {
+            "antipattern": "cramped-padding",
+            "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+            "line": 0,
+            "name": "Cramped padding",
+            "severity": "warning",
+            "snippet": "<section> \"proposal-section\": children flush against border-bottom on bottom (no inset)"
+          },
+          {
+            "antipattern": "cramped-padding",
+            "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+            "line": 0,
+            "name": "Cramped padding",
+            "severity": "warning",
+            "snippet": "<div> \"container\": children flush against border-top on top (no inset)"
+          },
+          {
+            "antipattern": "overused-font",
+            "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+            "line": 0,
+            "name": "Overused font",
+            "severity": "warning",
+            "snippet": "Primary font: montserrat"
+          },
+          {
+            "antipattern": "overused-font",
+            "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+            "line": 0,
+            "name": "Overused font",
+            "severity": "warning",
+            "snippet": "Primary font: roboto"
+          },
+          {
+            "antipattern": "flat-type-hierarchy",
+            "description": "Font sizes are too close together \u2014 no clear visual hierarchy. Use fewer sizes with more contrast (aim for at least a 1.25 ratio between steps).",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+            "line": 0,
+            "name": "Flat type hierarchy",
+            "severity": "warning",
+            "snippet": "Sizes: 12.8px, 13.6px, 16px, 16.8px, 18.4px, 20px, 22.4px (ratio 1.7:1)"
+          }
+        ],
+        "mode": "design-aware"
+      }
+    ],
+    "sha256": "62e2bb19a4dc7aecf10ea0ec824a20d3ecb174e65b212eb371cc9b2da271935d"
+  },
+  "findings": [
+    {
+      "antipattern": "cramped-padding",
+      "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/index.html",
+      "line": 0,
+      "name": "Cramped padding",
+      "severity": "warning",
+      "snippet": "<section> \"hero\": children flush against bg on right/bottom/left (no inset)"
+    },
+    {
+      "antipattern": "cramped-padding",
+      "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/index.html",
+      "line": 0,
+      "name": "Cramped padding",
+      "severity": "warning",
+      "snippet": "<section> \"portfolio\": children flush against bg on all sides (no inset)"
+    },
+    {
+      "antipattern": "cramped-padding",
+      "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/index.html",
+      "line": 0,
+      "name": "Cramped padding",
+      "severity": "warning",
+      "snippet": "<section> \"cta-band\": children flush against bg on all sides (no inset)"
+    },
+    {
+      "antipattern": "overused-font",
+      "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/index.html",
+      "line": 0,
+      "name": "Overused font",
+      "severity": "warning",
+      "snippet": "Primary font: roboto"
+    },
+    {
+      "antipattern": "overused-font",
+      "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/index.html",
+      "line": 0,
+      "name": "Overused font",
+      "severity": "warning",
+      "snippet": "Primary font: montserrat"
+    },
+    {
+      "antipattern": "flat-type-hierarchy",
+      "description": "Font sizes are too close together \u2014 no clear visual hierarchy. Use fewer sizes with more contrast (aim for at least a 1.25 ratio between steps).",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/index.html",
+      "line": 0,
+      "name": "Flat type hierarchy",
+      "severity": "warning",
+      "snippet": "Sizes: 12.8px, 13.6px, 15.2px, 16px, 17.6px, 18px, 20px, 21.6px (ratio 1.7:1)"
+    },
+    {
+      "antipattern": "cramped-padding",
+      "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+      "line": 0,
+      "name": "Cramped padding",
+      "severity": "warning",
+      "snippet": "<section> \"proposal-hero\": children flush against bg on all sides (no inset)"
+    },
+    {
+      "antipattern": "cramped-padding",
+      "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+      "line": 0,
+      "name": "Cramped padding",
+      "severity": "warning",
+      "snippet": "<section> \"proposal-section\": children flush against border-bottom on bottom (no inset)"
+    },
+    {
+      "antipattern": "cramped-padding",
+      "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+      "line": 0,
+      "name": "Cramped padding",
+      "severity": "warning",
+      "snippet": "<div> \"compare-card\": children flush against bg on top/right (no inset)"
+    },
+    {
+      "antipattern": "cramped-padding",
+      "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+      "line": 0,
+      "name": "Cramped padding",
+      "severity": "warning",
+      "snippet": "<div> \"compare-card\": children flush against bg on top/right (no inset)"
+    },
+    {
+      "antipattern": "cramped-padding",
+      "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+      "line": 0,
+      "name": "Cramped padding",
+      "severity": "warning",
+      "snippet": "<section> \"proposal-section\": children flush against border-bottom on bottom (no inset)"
+    },
+    {
+      "antipattern": "cramped-padding",
+      "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+      "line": 0,
+      "name": "Cramped padding",
+      "severity": "warning",
+      "snippet": "<section> \"proposal-section\": children flush against border-bottom on bottom (no inset)"
+    },
+    {
+      "antipattern": "cramped-padding",
+      "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+      "line": 0,
+      "name": "Cramped padding",
+      "severity": "warning",
+      "snippet": "<div> \"next-step\": children flush against bg on top/right/left (no inset)"
+    },
+    {
+      "antipattern": "cramped-padding",
+      "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+      "line": 0,
+      "name": "Cramped padding",
+      "severity": "warning",
+      "snippet": "<section> \"proposal-section\": children flush against border-bottom on bottom (no inset)"
+    },
+    {
+      "antipattern": "cramped-padding",
+      "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+      "line": 0,
+      "name": "Cramped padding",
+      "severity": "warning",
+      "snippet": "<div> \"container\": children flush against border-top on top (no inset)"
+    },
+    {
+      "antipattern": "overused-font",
+      "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+      "line": 0,
+      "name": "Overused font",
+      "severity": "warning",
+      "snippet": "Primary font: montserrat"
+    },
+    {
+      "antipattern": "overused-font",
+      "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+      "line": 0,
+      "name": "Overused font",
+      "severity": "warning",
+      "snippet": "Primary font: roboto"
+    },
+    {
+      "antipattern": "flat-type-hierarchy",
+      "description": "Font sizes are too close together \u2014 no clear visual hierarchy. Use fewer sizes with more contrast (aim for at least a 1.25 ratio between steps).",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+      "line": 0,
+      "name": "Flat type hierarchy",
+      "severity": "warning",
+      "snippet": "Sizes: 12.8px, 13.6px, 16px, 16.8px, 18.4px, 20px, 22.4px (ratio 1.7:1)"
+    },
+    {
+      "antipattern": "cramped-padding",
+      "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/index.html",
+      "line": 0,
+      "name": "Cramped padding",
+      "severity": "warning",
+      "snippet": "<section> \"hero\": children flush against bg on right/bottom/left (no inset)"
+    },
+    {
+      "antipattern": "cramped-padding",
+      "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/index.html",
+      "line": 0,
+      "name": "Cramped padding",
+      "severity": "warning",
+      "snippet": "<section> \"portfolio\": children flush against bg on all sides (no inset)"
+    },
+    {
+      "antipattern": "cramped-padding",
+      "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/index.html",
+      "line": 0,
+      "name": "Cramped padding",
+      "severity": "warning",
+      "snippet": "<section> \"cta-band\": children flush against bg on all sides (no inset)"
+    },
+    {
+      "antipattern": "overused-font",
+      "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/index.html",
+      "line": 0,
+      "name": "Overused font",
+      "severity": "warning",
+      "snippet": "Primary font: roboto"
+    },
+    {
+      "antipattern": "overused-font",
+      "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/index.html",
+      "line": 0,
+      "name": "Overused font",
+      "severity": "warning",
+      "snippet": "Primary font: montserrat"
+    },
+    {
+      "antipattern": "flat-type-hierarchy",
+      "description": "Font sizes are too close together \u2014 no clear visual hierarchy. Use fewer sizes with more contrast (aim for at least a 1.25 ratio between steps).",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/index.html",
+      "line": 0,
+      "name": "Flat type hierarchy",
+      "severity": "warning",
+      "snippet": "Sizes: 12.8px, 13.6px, 15.2px, 16px, 17.6px, 18px, 20px, 21.6px (ratio 1.7:1)"
+    },
+    {
+      "antipattern": "cramped-padding",
+      "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+      "line": 0,
+      "name": "Cramped padding",
+      "severity": "warning",
+      "snippet": "<section> \"proposal-hero\": children flush against bg on all sides (no inset)"
+    },
+    {
+      "antipattern": "cramped-padding",
+      "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+      "line": 0,
+      "name": "Cramped padding",
+      "severity": "warning",
+      "snippet": "<section> \"proposal-section\": children flush against border-bottom on bottom (no inset)"
+    },
+    {
+      "antipattern": "cramped-padding",
+      "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+      "line": 0,
+      "name": "Cramped padding",
+      "severity": "warning",
+      "snippet": "<div> \"compare-card\": children flush against bg on top/right (no inset)"
+    },
+    {
+      "antipattern": "cramped-padding",
+      "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+      "line": 0,
+      "name": "Cramped padding",
+      "severity": "warning",
+      "snippet": "<div> \"compare-card\": children flush against bg on top/right (no inset)"
+    },
+    {
+      "antipattern": "cramped-padding",
+      "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+      "line": 0,
+      "name": "Cramped padding",
+      "severity": "warning",
+      "snippet": "<section> \"proposal-section\": children flush against border-bottom on bottom (no inset)"
+    },
+    {
+      "antipattern": "cramped-padding",
+      "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+      "line": 0,
+      "name": "Cramped padding",
+      "severity": "warning",
+      "snippet": "<section> \"proposal-section\": children flush against border-bottom on bottom (no inset)"
+    },
+    {
+      "antipattern": "cramped-padding",
+      "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+      "line": 0,
+      "name": "Cramped padding",
+      "severity": "warning",
+      "snippet": "<div> \"next-step\": children flush against bg on top/right/left (no inset)"
+    },
+    {
+      "antipattern": "cramped-padding",
+      "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+      "line": 0,
+      "name": "Cramped padding",
+      "severity": "warning",
+      "snippet": "<section> \"proposal-section\": children flush against border-bottom on bottom (no inset)"
+    },
+    {
+      "antipattern": "cramped-padding",
+      "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) \u2014 children land flush against the boundary line. Add at least 8px (ideally 12\u201316px) of padding inside bordered, outlined, or colored containers.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+      "line": 0,
+      "name": "Cramped padding",
+      "severity": "warning",
+      "snippet": "<div> \"container\": children flush against border-top on top (no inset)"
+    },
+    {
+      "antipattern": "overused-font",
+      "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+      "line": 0,
+      "name": "Overused font",
+      "severity": "warning",
+      "snippet": "Primary font: montserrat"
+    },
+    {
+      "antipattern": "overused-font",
+      "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+      "line": 0,
+      "name": "Overused font",
+      "severity": "warning",
+      "snippet": "Primary font: roboto"
+    },
+    {
+      "antipattern": "flat-type-hierarchy",
+      "description": "Font sizes are too close together \u2014 no clear visual hierarchy. Use fewer sizes with more contrast (aim for at least a 1.25 ratio between steps).",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/proposal.html",
+      "line": 0,
+      "name": "Flat type hierarchy",
+      "severity": "warning",
+      "snippet": "Sizes: 12.8px, 13.6px, 16px, 16.8px, 18.4px, 20px, 22.4px (ratio 1.7:1)"
+    }
+  ],
+  "gate_exit_code": 2,
+  "generated_at": "2026-07-18T03:38:30.021886+00:00",
+  "impeccable_skill_commit": "44c27a72af98394c32691ba79358811bff86bde6",
+  "policy_sha256": "d56c0bb5c23e51da7f521f70fb0c95067ff625deae6c7ba16f2de0f8ed032723",
+  "policy_version": "prospect-brand-style-gate-v1",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant",
+  "release_manifest": {
+    "assets/hero-conceito-bem-estar.jpg": {
+      "sha256": "2b291defc80de6a270840025ddc392eba773b3121063d362b9ad5cdd96fc5171",
+      "size": 600995
+    },
+    "assets/logo-sarnelli.png": {
+      "sha256": "d08150a648083007285bc656b79d6604b3662743c712242caf46a5f99b19af5f",
+      "size": 13173
+    },
+    "assets/projeto-centro-medico-erasto.jpg": {
+      "sha256": "9b73adde34d8c07842e97854b35a55ab15fd6e5bf7ff119a045a4cb9ab54b5f2",
+      "size": 551851
+    },
+    "assets/projeto-erastinho.jpg": {
+      "sha256": "40414de2c122f2f95d9756bff624c0dc2fc6bed5134bfa2c2e12c36a76b56e40",
+      "size": 456919
+    },
+    "index.html": {
+      "sha256": "f774c4d4e2086e46ed3ea21cf633017fd70e6ce6a2915302b4c199e4b655b399",
+      "size": 10583
+    },
+    "proposal.html": {
+      "sha256": "9b2f7ba325e62ecde986788fab9292853be5bad77dc95a7b2fbfee7fee2e014a",
+      "size": 7472
+    },
+    "rationale.html": {
+      "sha256": "df38877663f1b0dbdf10c311223176a793440c1281f329f4b33ea78f0a011904",
+      "size": 515
+    },
+    "script.js": {
+      "sha256": "eb43b3f2f620ef46ba0e9597ac9d18d1672e2dfa35d0540dd9ff00d53fa2fc77",
+      "size": 1642
+    },
+    "styles.css": {
+      "sha256": "27455c8f91b41dd692150fa6a49e1d9d238b68539c0865a7a5264e0051c964c4",
+      "size": 18356
+    }
+  },
+  "schema": 3,
+  "status": "findings"
+}

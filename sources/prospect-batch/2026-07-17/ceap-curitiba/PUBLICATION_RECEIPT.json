@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "status": "published_temporary_preview",
+  "provider": "cloudflare-temporary-account",
+  "deployment_method": "wrangler 4.111.0 deploy --temporary --compatibility-date 2026-07-17 --assets",
+  "deployed_at_utc": "2026-07-17T12:11:11Z",
+  "name": "ceap-curitiba-preview",
+  "url": "https://ceap-curitiba-preview.magnificent-xylophone.workers.dev",
+  "version_id": "1c75f4fd-e26a-49ff-9d29-b60430e28651",
+  "publication_manifest": "PUBLICATION_MANIFEST.json",
+  "publication_manifest_sha256": "b38d475ddec7ebed65d9d42ab721ac98bda57d24c9c2ded031f08b4fdb69a47b",
+  "published_file_count": 12,
+  "live_hash_verification": {
+    "status": "passed",
+    "matched": 12,
+    "mismatched": 0,
+    "root_status": 200,
+    "proposal_status": 200
+  },
+  "prospect_contacted": false,
+  "official_domain_modified": false
+}

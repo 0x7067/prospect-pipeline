@@ -1,0 +1,29 @@
+{
+  "business_name": "Centro Médico Trinità",
+  "official_url": "https://trinitacuritiba.com.br/",
+  "run_date": "2026-07-15",
+  "category": "Clínica médica, ortopedia e cirurgia da mão",
+  "address": "Rua Padre Anchieta, 2540, salas 1003 e 1004, Bigorrilho, Curitiba–PR",
+  "active_evidence": "- O site está online por HTTPS e divulga o novo endereço. - O widget da Doctoralia lista 13 especialistas disponíveis. - Há profissionais adicionados ao site em maio de 2025. - Perfis médicos, convênios, telefone e formulário de consulta estão ativos. - O endereço informado foi localizado no Bigorrilho pelo OpenStreetMap.",
+  "opportunity_score": 9.1,
+  "confidence": "alta",
+  "problems": [
+    "A página ainda contém conteúdo demonstrativo em inglês do tema WordPress, como “A futuristic future ahead of you”, “Why you need to buy right away?”, “Premium Build” e “Great Audio”. Embora nem tudo apareça imediatamente na tela, está presente no DOM e pode ser indexado.",
+    "No primeiro acesso, um grande modal de “novo endereço” encobre o hero, ao mesmo tempo em que uma barra de cookies ocupa a parte inferior; são duas barreiras antes do usuário chegar ao agendamento.",
+    "A seção da equipe apresenta um enorme espaço vazio no layout renderizado antes de a página chegar às áreas de atuação.",
+    "Os indicadores institucionais aparecem sem números — apenas símbolos como “+” e “%” ao lado de “clientes atendidos” e “clientes satisfeitos”.",
+    "A política de privacidade ainda identifica a clínica no endereço antigo, Rua Padre Anchieta, 1691, enquanto o restante do site informa o número 2540.",
+    "O site bloqueia zoom do usuário com user-scalable=no, prejudicando acessibilidade, especialmente para pacientes idosos."
+  ],
+  "rebuild_angle": "“Jornada de agendamento por sintoma, especialidade e médico, com confiança clínica e acessibilidade.”",
+  "roi_mechanism": "Consultas médicas e procedimentos ortopédicos têm alto valor por lead. O site já recebe procura e possui integração de agenda, mas problemas de acabamento, acessibilidade e informação contraditória reduzem confiança. Um rebuild pode:  - criar páginas indexáveis para cada especialidade; - encaminhar o paciente diretamente ao profissional correto; - integrar Doctoralia e WhatsApp sem CTAs concorrentes; - corrigir LGPD, acessibilidade e dados locais; - medir agendamentos por especialidade e origem.",
+  "evidence_links": [
+    "https://trinitacuritiba.com.br/",
+    "https://wa.me/41992094863",
+    "https://www.instagram.com/clinica.trinita/",
+    "https://trinitacuritiba.com.br/portfolio/dra-beatriz-canhoto-carula/",
+    "https://trinitacuritiba.com.br/politica-de-privacidade/",
+    "https://www.doctoralia.com.br/clinicas/centro-medico-trinita?saasonly=true"
+  ],
+  "source_audit": "/opt/data/cron/output/bd2acb816e97/2026-07-15_08-50-32.md"
+}

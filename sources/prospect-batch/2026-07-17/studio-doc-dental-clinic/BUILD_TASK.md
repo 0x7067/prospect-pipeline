@@ -1,0 +1,11 @@
+# Build task — Studio DOC Dental Clinic
+
+Research `prospect.json` and every official/evidence URL first. Verify live identity, logo, palette, typography, clinic imagery, professionals/CRO, specialties, hours, address, phone, email, and scheduling links. Download only official public assets and record exact source URLs and factual-copy sources in `SOURCE_MANIFEST.md`. Omit anything unverified. Never invent clinical claims, outcomes, testimonials, credentials, technology, metrics, awards, or guarantees.
+
+Create from scratch: `index.html`, `proposal.html`, `styles.css`, `script.js`, `assets/`, `SOURCE_MANIFEST.md`, and `BUILD_REPORT.md`. Static only; no framework, package manager, fake form, CMS, or backend.
+
+`index.html` must be a production-realistic clinic website: distinctive to Studio DOC, premium but clinically credible, accessible, mobile-intentional, with a single dominant verified scheduling pathway. Avoid generic blue/white medical styling, stock clichés, card-grid sameness, pills everywhere, invented proof, and desktop sections mechanically stacked on mobile. Use verified professionals and specialties only. Production navigation/footer must not link to `proposal.html`, and production copy must contain no proposal/redesign/concept/prototype/audit/evidence/before-after/non-affiliation/limitations language.
+
+`proposal.html` is a separate sales document and must not impersonate the clinic. Lead with opportunity/result, then proposed visual evidence, prioritized improvements, deliverables, dependencies, sequence/timeline, one explicit next step, and compact disclosure at the bottom.
+
+Read and satisfy `PROSPECT_BRAND_STYLE_GATE.md`: average >=4.0, no score <3.0, and brand fidelity, distinctiveness, hero, below-fold, mobile, proposal each >=4.0. Serve and verify at 1440x900 and 390x844: no overflow, errors, broken assets, inaccessible menu behavior, undersized tap targets, or forbidden production language; menu must close by button/link/Escape and update its accessible label. Record actual commands/results and limitations in `BUILD_REPORT.md`. Do not publish. Complete working files, not a plan.

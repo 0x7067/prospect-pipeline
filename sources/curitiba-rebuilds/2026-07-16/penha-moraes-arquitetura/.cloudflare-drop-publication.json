@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "status": "published_temporary_preview",
+  "build_id": "8e8c18a301d1140568df357d4a96fb411cdb8274d48290395e3b0595b049d4b0",
+  "provider": "cloudflare-temporary-account",
+  "deployment_method": "wrangler 4.111.0 deploy --temporary",
+  "public_url": "https://penha-moraes-arquitetura-preview.relieved-jujube.workers.dev",
+  "version_id": "4b40b004-9f5c-43c2-8532-ccb488e89895",
+  "published_at": "2026-07-17T02:23:48+00:00",
+  "claim_expires_at": "2026-07-17T02:54:35+00:00",
+  "verified": {
+    "homepage": true,
+    "proposal": true,
+    "rationale_redirect": true,
+    "comparison": true,
+    "current_desktop_capture": true,
+    "current_mobile_capture": true,
+    "proposed_desktop_capture": true,
+    "proposed_mobile_capture": true,
+    "live_assets_match_local_sha256": true,
+    "desktop_no_horizontal_overflow": true,
+    "mobile_no_horizontal_overflow": true,
+    "console_errors": 0
+  },
+  "outreach_sent": false
+}

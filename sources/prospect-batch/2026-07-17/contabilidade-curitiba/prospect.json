@@ -1,0 +1,28 @@
+{
+  "business_name": "Contabilidade Curitiba",
+  "official_url": "https://contabilidadecuritiba.com/",
+  "run_date": "2026-07-15",
+  "category": "Contabilidade empresarial, fiscal e trabalhista",
+  "address": "Rua Newton França Bitencourt, 460, Ahú, Curitiba–PR",
+  "active_evidence": "- O domínio oficial continua online e responde por HTTPS. - A página mantém endereço, telefone fixo, WhatsApp e e-mail corporativo. - O botão de WhatsApp aponta para o número atualmente divulgado. - O site apresenta serviços empresariais e formulário de contato incorporado.  Observação: a presença digital é claramente antiga; a confirmação de atividade vem do site e dos canais públicos ainda oferecidos, sem sinal recente comparável aos dois primeiros prospects.",
+  "opportunity_score": 8.6,
+  "confidence": "média",
+  "problems": [
+    "O arquivo robots.txt anuncia um sitemap de outro domínio, karolinebettes.com.br, erro grave que pode confundir rastreadores e prejudicar indexação.",
+    "O servidor informa que a página inicial foi modificada pela última vez em 12/03/2021; o sitemap lista datas de 2020.",
+    "O layout renderizado contém espaços verticais enormes e seções quase vazias, empurrando serviços e contato para muito abaixo da dobra.",
+    "O formulário incorporado aparece com campos sem rótulos visíveis, oferecendo pouca orientação e baixa acessibilidade.",
+    "A página tem aproximadamente 25 links sem texto ou rótulo acessível, H1 vazio e nenhum idioma declarado no HTML.",
+    "Não foi encontrada política de privacidade funcional; a URL testada retorna 404, apesar da coleta de nome, e-mail, telefone e mensagem."
+  ],
+  "rebuild_angle": "“Modernização da aquisição digital sem perder o histórico de mais de 30 anos.”",
+  "roi_mechanism": "O escritório afirma ter mais de 30 anos e atende serviços recorrentes de alto valor, como contabilidade empresarial e condominial. Um único contrato pode pagar o projeto. O retorno viria de:  - recuperação de SEO local e correção técnica; - landing pages para abertura de empresa, e-commerce, condomínios e troca de contador; - formulário curto com rastreamento de origem; - prova de experiência, equipe e registro no CRC; - atualização de LGPD e acessibilidade.",
+  "evidence_links": [
+    "https://contabilidadecuritiba.com/",
+    "https://api.whatsapp.com/send?phone=5541988413809",
+    "https://contabilidadecuritiba.com/robots.txt",
+    "https://contabilidadecuritiba.com/sitemap.xml",
+    "https://contabilidadecuritiba.com/imposto-de-renda.html"
+  ],
+  "source_audit": "/opt/data/cron/output/bd2acb816e97/2026-07-15_08-50-32.md"
+}

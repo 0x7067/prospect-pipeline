@@ -1,0 +1,304 @@
+{
+  "index-desktop": {
+    "status": 200,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/images/logo-davinci-primary.png",
+        "complete": true,
+        "naturalWidth": 313,
+        "clientWidth": 147
+      },
+      {
+        "src": "assets/images/hero-fundo-escuro.jpg",
+        "complete": true,
+        "naturalWidth": 2000,
+        "clientWidth": 1440
+      },
+      {
+        "src": "assets/images/icon-plantao-24h.png",
+        "complete": true,
+        "naturalWidth": 56,
+        "clientWidth": 44
+      },
+      {
+        "src": "assets/images/icon-especialistas.png",
+        "complete": true,
+        "naturalWidth": 57,
+        "clientWidth": 44
+      },
+      {
+        "src": "assets/images/icon-estrutura.png",
+        "complete": true,
+        "naturalWidth": 56,
+        "clientWidth": 44
+      },
+      {
+        "src": "assets/images/icon-cameras.png",
+        "complete": true,
+        "naturalWidth": 57,
+        "clientWidth": 44
+      },
+      {
+        "src": "assets/images/a-clinica-hero.png",
+        "complete": true,
+        "naturalWidth": 497,
+        "clientWidth": 482
+      },
+      {
+        "src": "assets/images/facility-recepcao.jpg",
+        "complete": true,
+        "naturalWidth": 600,
+        "clientWidth": 169
+      },
+      {
+        "src": "assets/images/facility-consultorio.jpg",
+        "complete": true,
+        "naturalWidth": 600,
+        "clientWidth": 169
+      },
+      {
+        "src": "assets/images/facility-centro-cirurgico.jpg",
+        "complete": true,
+        "naturalWidth": 600,
+        "clientWidth": 169
+      },
+      {
+        "src": "assets/images/facility-internamento-01.jpg",
+        "complete": true,
+        "naturalWidth": 600,
+        "clientWidth": 169
+      },
+      {
+        "src": "assets/images/facility-isolamento.jpg",
+        "complete": true,
+        "naturalWidth": 600,
+        "clientWidth": 169
+      },
+      {
+        "src": "assets/images/facility-farmacia.jpg",
+        "complete": true,
+        "naturalWidth": 600,
+        "clientWidth": 169
+      },
+      {
+        "src": "assets/images/facility-isolamento.jpg",
+        "complete": true,
+        "naturalWidth": 600,
+        "clientWidth": 473
+      },
+      {
+        "src": "assets/images/facility-banho-tosa-01.jpg",
+        "complete": true,
+        "naturalWidth": 600,
+        "clientWidth": 500
+      },
+      {
+        "src": "assets/images/map-endereco.png",
+        "complete": true,
+        "naturalWidth": 318,
+        "clientWidth": 525
+      },
+      {
+        "src": "assets/images/logo-davinci-responsive.png",
+        "complete": true,
+        "naturalWidth": 97,
+        "clientWidth": 40
+      }
+    ]
+  },
+  "index-mobile": {
+    "status": 200,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/images/logo-davinci-primary.png",
+        "complete": true,
+        "naturalWidth": 313,
+        "clientWidth": 146
+      },
+      {
+        "src": "assets/images/hero-fundo-escuro.jpg",
+        "complete": true,
+        "naturalWidth": 2000,
+        "clientWidth": 390
+      },
+      {
+        "src": "assets/images/icon-plantao-24h.png",
+        "complete": true,
+        "naturalWidth": 56,
+        "clientWidth": 44
+      },
+      {
+        "src": "assets/images/icon-especialistas.png",
+        "complete": true,
+        "naturalWidth": 57,
+        "clientWidth": 44
+      },
+      {
+        "src": "assets/images/icon-estrutura.png",
+        "complete": true,
+        "naturalWidth": 56,
+        "clientWidth": 44
+      },
+      {
+        "src": "assets/images/icon-cameras.png",
+        "complete": true,
+        "naturalWidth": 57,
+        "clientWidth": 44
+      },
+      {
+        "src": "assets/images/a-clinica-hero.png",
+        "complete": true,
+        "naturalWidth": 497,
+        "clientWidth": 338
+      },
+      {
+        "src": "assets/images/facility-recepcao.jpg",
+        "complete": true,
+        "naturalWidth": 600,
+        "clientWidth": 162
+      },
+      {
+        "src": "assets/images/facility-consultorio.jpg",
+        "complete": true,
+        "naturalWidth": 600,
+        "clientWidth": 162
+      },
+      {
+        "src": "assets/images/facility-centro-cirurgico.jpg",
+        "complete": true,
+        "naturalWidth": 600,
+        "clientWidth": 162
+      },
+      {
+        "src": "assets/images/facility-internamento-01.jpg",
+        "complete": true,
+        "naturalWidth": 600,
+        "clientWidth": 162
+      },
+      {
+        "src": "assets/images/facility-isolamento.jpg",
+        "complete": true,
+        "naturalWidth": 600,
+        "clientWidth": 162
+      },
+      {
+        "src": "assets/images/facility-farmacia.jpg",
+        "complete": true,
+        "naturalWidth": 600,
+        "clientWidth": 162
+      },
+      {
+        "src": "assets/images/facility-isolamento.jpg",
+        "complete": true,
+        "naturalWidth": 600,
+        "clientWidth": 350
+      },
+      {
+        "src": "assets/images/facility-banho-tosa-01.jpg",
+        "complete": true,
+        "naturalWidth": 600,
+        "clientWidth": 350
+      },
+      {
+        "src": "assets/images/map-endereco.png",
+        "complete": true,
+        "naturalWidth": 318,
+        "clientWidth": 350
+      },
+      {
+        "src": "assets/images/logo-davinci-responsive.png",
+        "complete": true,
+        "naturalWidth": 97,
+        "clientWidth": 40
+      }
+    ],
+    "menu": {
+      "before": "Abrir menu",
+      "opened": "true",
+      "after": "Fechar menu",
+      "closedAfterEscape": "false"
+    }
+  },
+  "proposal-desktop": {
+    "status": 200,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/evidence/official-site-desktop-1440-viewport.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 569
+      },
+      {
+        "src": "assets/evidence/proposed-desktop-1440.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 569
+      },
+      {
+        "src": "assets/evidence/official-site-mobile-viewport.png",
+        "complete": true,
+        "naturalWidth": 780,
+        "clientWidth": 569
+      },
+      {
+        "src": "assets/evidence/proposed-mobile-390.png",
+        "complete": true,
+        "naturalWidth": 390,
+        "clientWidth": 569
+      }
+    ]
+  },
+  "proposal-mobile": {
+    "status": 200,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/evidence/official-site-desktop-1440-viewport.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 350
+      },
+      {
+        "src": "assets/evidence/proposed-desktop-1440.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 350
+      },
+      {
+        "src": "assets/evidence/official-site-mobile-viewport.png",
+        "complete": true,
+        "naturalWidth": 780,
+        "clientWidth": 350
+      },
+      {
+        "src": "assets/evidence/proposed-mobile-390.png",
+        "complete": true,
+        "naturalWidth": 390,
+        "clientWidth": 350
+      }
+    ]
+  }
+}

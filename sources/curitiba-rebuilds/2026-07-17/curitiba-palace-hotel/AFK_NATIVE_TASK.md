@@ -1,0 +1,132 @@
+/impeccable craft a complete evidence-bounded static website redesign for the qualified prospect below.
+
+Build the static site in /opt/data/projects/curitiba-rebuilds/2026-07-17/curitiba-palace-hotel only. Never publish, contact the business, submit forms, or call external services.
+
+MANDATORY FIRST STEP BEFORE WRITING OR MODIFYING ANY SITE CODE:
+Invoke the locally provisioned Impeccable skill with `/impeccable craft`. Read PRODUCT.md and DESIGN.md, shape the UX, and write `.impeccable-craft-receipt.json` with schema=1, status=complete, command=craft, skill_commit=44c27a72af98394c32691ba79358811bff86bde6, a stable nonempty builder_id identifying this AFK run, and a truthful summary. If craft cannot complete, write a failure receipt and stop. Builders cannot self-approve any later review.
+
+Use only evidence in prospect.json, PRODUCT.md, and BRAND_SOURCE.md for business-specific facts. Delete unsupported claims rather than hedging, guessing, or presenting placeholders. Required files: index.html, proposal.html, rationale.html, styles.css, script.js, README.md, SITE_REVIEW.md, SOURCE_MANIFEST.md. index.html must be production-realistic with no proposal/redesign/prototype/disclosure language and no link to proposal.html. proposal.html is the separate persuasive independent sales document. rationale.html must only redirect compatibly to proposal.html. If deliverable_tier is early_visual_direction, never mark it production-complete or ready for publication.
+
+SPEED BUDGET: target 20 minutes. Make one coherent design/build pass, one desktop/mobile browser-validation pass, and at most one consolidated repair pass. Do not inspect Impeccable detector source code, repeatedly reopen unchanged pages, or chase one advisory at a time. Run the detector at most twice: once after the complete implementation and once after a single consolidated fix pass. If blocking findings remain after the second run, write a truthful failed build receipt listing them and stop; independent review or a bounded correction task will decide the next action.
+
+After public files are final, run the pinned detector gate first: `python3 /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-17/curitiba-palace-hotel`. Only when its schema-3 receipt is current and clean, run `/opt/data/scripts/capture_curitiba_comparison.mjs /opt/data/projects/curitiba-rebuilds/2026-07-17/curitiba-palace-hotel` to create build-bound exact viewport and full-page captures. Copy the detector `build_id` into the ready receipt and include a stable nonempty `builder_id`. Produce truthful current/proposed desktop/mobile captures; never substitute a failed capture. Use safe inert demo actions and no tracking. Do not write approval, critique, audit, visual-verdict, design-review, human-approval, or publication receipts. Finish only with a truthful ready or failed build receipt.
+
+QUALIFIED PROSPECT BRIEF:
+{
+  "business_name": "Curitiba Palace Hotel",
+  "slug": "curitiba-palace-hotel",
+  "official_url": "https://www.curitibapalacehotel.com.br/",
+  "run_date": "2026-07-17",
+  "category": "hotel, restaurante e hospedagem",
+  "opportunity_score": 8.2,
+  "confidence": "média",
+  "active_evidence": "O site oficial respondeu HTTP 200 em 2026-07-17, exibe endereço no Centro, telefone, quartos, serviços, restaurante e reserva online. A captura mobile também registrou overflow e falhas de recursos/iframe.",
+  "problems": [
+    "A captura mobile em 390px apresentou scrollWidth de 768px, indicando overflow horizontal.",
+    "O widget externo de reservas falha por X-Frame-Options sameorigin, criando uma área operacional quebrada na home.",
+    "Duas imagens oficiais retornaram falha de carregamento na captura e diversos blocos lazy permaneceram sem src utilizável.",
+    "A home mistura páginas de hotel com muitos artigos de turismo e conteúdo social, diluindo a decisão de reservar.",
+    "O footer expõe link com telefone mascarado e há dependência de scripts/recursos externos para uma jornada essencial."
+  ],
+  "rebuild_angle": "Tradição no centro, reserva sem ruído: quartos, café da manhã e localização reunidos em uma jornada direta que preserva o tom azul institucional.",
+  "roi_mechanism": "Uma reserva direta de quarto ou consumo de café/restaurante tem valor mensurável; remover overflow e tornar o caminho de reserva resiliente pode recuperar intenção perdida no mobile.",
+  "concept_thesis": "Este conceito só pode pertencer ao Curitiba Palace porque trata a tradição de mais de 30 anos, a localização central e a hospitalidade documentada como um roteiro de estadia, não como um portal genérico de turismo.",
+  "concept_rules": [
+    "Composição: priorizar reserva, quartos e localização em três blocos antes do conteúdo editorial.",
+    "Tipografia: preservar Cabin e Source Sans Pro observados, usando Cabin para hospitalidade e Source Sans para utilidades.",
+    "Imagem: não depender de lazy-loading externo para comunicar quartos; usar apenas assets confirmados e fallback sólido.",
+    "Cor: preservar azul #112468, marrom #463939 e verde #30B066 para ações de reserva.",
+    "Promessa: usar apenas tradição, centro de Curitiba, café da manhã, serviços e linguagem de avaliações publicadas.",
+    "Conversão: oferecer reserva externa como link seguro de página inteira, nunca iframe quebrado, com telefone e WhatsApp verificáveis."
+  ],
+  "brand_source": {
+    "logo_sources": [
+      "https://lirp.cdn-website.com/aa42eb07/dms3rep/multi/opt/logo-curitibapalace-40110x-117w.png",
+      "https://www.curitibapalacehotel.com.br/"
+    ],
+    "colors": [
+      "#112468 — azul dominante observado",
+      "#463939 — marrom de texto observado",
+      "#30B066 — verde de CTA observado",
+      "#F7F7F5 — neutro observado"
+    ],
+    "typography": "O site observado usa Cabin, Source Sans Pro e Montserrat; manter Cabin/Source Sans e reduzir a mistura.",
+    "personality_words": [
+      "tradicional",
+      "acolhedora",
+      "central"
+    ],
+    "strongest_public_language": [
+      "Elegância, conforto e tradição no coração de Curitiba",
+      "Há mais de 30 anos localizado no centro de Curitiba",
+      "Quartos limpos e decorados para que você sinta-se em casa",
+      "Recepção 24h"
+    ],
+    "services": [
+      "hospedagem",
+      "café da manhã aberto ao público",
+      "bar e restaurante",
+      "recepção 24h",
+      "estacionamento com manobrista",
+      "room service",
+      "lavanderia"
+    ],
+    "locations": [
+      "Rua Desembargador Ermelino de Leão, 45, Curitiba/PR"
+    ],
+    "contacts": [
+      "+55 41 3322-8081",
+      "https://www.curitibapalacehotel.com.br/",
+      "https://tripadvisor.com//Hotel_Review-g303441-d2691371-Reviews-Curitiba_Palace_Hotel-Curitiba_State_of_Parana.html"
+    ],
+    "visual_assets": [
+      {
+        "role": "logo",
+        "url": "https://lirp.cdn-website.com/aa42eb07/dms3rep/multi/opt/logo-curitibapalace-40110x-117w.png",
+        "provenance": "official site logo observed 2026-07-17"
+      },
+      {
+        "role": "rating",
+        "url": "https://lirp.cdn-website.com/aa42eb07/dms3rep/multi/opt/nota-booking%40110x-172w.png",
+        "provenance": "official site asset labeled nota 9,8 no Booking"
+      },
+      {
+        "role": "award",
+        "url": "https://irp.cdn-website.com/aa42eb07/dms3rep/multi/TC-Winner-2021.gif",
+        "provenance": "official site asset labeled Travelers Choice 2021"
+      },
+      {
+        "role": "hotel imagery",
+        "url": "https://www.curitibapalacehotel.com.br/",
+        "provenance": "official homepage image modules; browser capture recorded some external image failures"
+      }
+    ],
+    "original_screenshots": {
+      "desktop": "/opt/data/projects/curitiba-rebuilds/2026-07-17/curitiba-palace-hotel/evidence/original/desktop-1440x900.png",
+      "mobile": "/opt/data/projects/curitiba-rebuilds/2026-07-17/curitiba-palace-hotel/evidence/original/mobile-390x844.png"
+    },
+    "equity_to_preserve": [
+      "blue CPH logo and institutional palette",
+      "30+ years claim as published",
+      "central Curitiba location",
+      "room/café/hospitality content",
+      "Booking/Tripadvisor proof as displayed on official site"
+    ],
+    "weaknesses_not_to_copy": [
+      "mobile overflow",
+      "broken iframe reservation dependency",
+      "failed/lazy external images",
+      "tourism content diluting booking",
+      "masked contact link"
+    ]
+  },
+  "evidence_links": [
+    "https://www.curitibapalacehotel.com.br/",
+    "https://www.curitibapalacehotel.com.br/5-parques-para-conhecer-em-curitiba",
+    "https://lirp.cdn-website.com/aa42eb07/dms3rep/multi/opt/logo-curitibapalace-40110x-117w.png",
+    "https://lirp.cdn-website.com/aa42eb07/dms3rep/multi/opt/nota-booking%40110x-172w.png"
+  ],
+  "source_audit": "/opt/data/site-inspect/curitiba-palace.json",
+  "deliverable_tier": "early_visual_direction"
+}
+

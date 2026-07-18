@@ -1,0 +1,239 @@
+{
+  "centro-medico-trinita": {
+    "title": "Centro Médico Trinità",
+    "desktop": {
+      "current": {
+        "ok": true,
+        "path": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/centro-medico-trinita-desktop-current.png",
+        "status": 200,
+        "final_url": "https://trinitacuritiba.com.br/",
+        "errors": []
+      },
+      "proposed": {
+        "ok": true,
+        "path": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/centro-medico-trinita-desktop-proposed.png",
+        "status": 200,
+        "final_url": "https://centro-medico-trinita-preview.azure-purple.workers.dev/",
+        "errors": []
+      },
+      "comparison": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/centro-medico-trinita-desktop-current-vs-proposed.jpg"
+    },
+    "mobile": {
+      "current": {
+        "ok": true,
+        "path": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/centro-medico-trinita-mobile-current.png",
+        "status": 200,
+        "final_url": "https://trinitacuritiba.com.br/",
+        "errors": []
+      },
+      "proposed": {
+        "ok": true,
+        "path": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/centro-medico-trinita-mobile-proposed.png",
+        "status": 200,
+        "final_url": "https://centro-medico-trinita-preview.azure-purple.workers.dev/",
+        "errors": []
+      },
+      "comparison": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/centro-medico-trinita-mobile-current-vs-proposed.jpg"
+    }
+  },
+  "klistocch-moveis": {
+    "title": "Klistocch Móveis",
+    "desktop": {
+      "current": {
+        "ok": true,
+        "path": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/klistocch-moveis-desktop-current.png",
+        "status": 200,
+        "final_url": "https://www.klistocch.com.br/",
+        "errors": [
+          "pageerror: handleImageLoadError is not defined",
+          "pageerror: Unexpected token ')'"
+        ]
+      },
+      "proposed": {
+        "ok": true,
+        "path": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/klistocch-moveis-desktop-proposed.png",
+        "status": 200,
+        "final_url": "https://klistocch-moveis-preview.azure-purple.workers.dev/",
+        "errors": []
+      },
+      "comparison": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/klistocch-moveis-desktop-current-vs-proposed.jpg"
+    },
+    "mobile": {
+      "current": {
+        "ok": true,
+        "path": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/klistocch-moveis-mobile-current.png",
+        "status": 200,
+        "final_url": "https://www.klistocch.com.br/",
+        "errors": [
+          "pageerror: handleImageLoadError is not defined",
+          "pageerror: Unexpected token ')'"
+        ]
+      },
+      "proposed": {
+        "ok": true,
+        "path": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/klistocch-moveis-mobile-proposed.png",
+        "status": 200,
+        "final_url": "https://klistocch-moveis-preview.azure-purple.workers.dev/",
+        "errors": []
+      },
+      "comparison": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/klistocch-moveis-mobile-current-vs-proposed.jpg"
+    }
+  },
+  "studio-doc-dental-clinic": {
+    "title": "Studio DOC Dental Clinic",
+    "desktop": {
+      "current": {
+        "ok": true,
+        "path": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/studio-doc-dental-clinic-desktop-current.png",
+        "status": 200,
+        "final_url": "https://studiodoc.com.br/",
+        "errors": [
+          "pageerror: Cannot read properties of null (reading 'className')",
+          "pageerror: Cannot read properties of null (reading 'className')",
+          "pageerror: Cannot read properties of null (reading 'className')",
+          "pageerror: Cannot read properties of null (reading 'className')"
+        ]
+      },
+      "proposed": {
+        "ok": true,
+        "path": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/studio-doc-dental-clinic-desktop-proposed.png",
+        "status": 200,
+        "final_url": "https://studio-doc-dental-preview.azure-purple.workers.dev/",
+        "errors": []
+      },
+      "comparison": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/studio-doc-dental-clinic-desktop-current-vs-proposed.jpg"
+    },
+    "mobile": {
+      "current": {
+        "ok": true,
+        "path": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/studio-doc-dental-clinic-mobile-current.png",
+        "status": 200,
+        "final_url": "https://studiodoc.com.br/",
+        "errors": [
+          "pageerror: Cannot read properties of null (reading 'style')",
+          "pageerror: Cannot read properties of null (reading 'className')",
+          "pageerror: Cannot read properties of null (reading 'className')",
+          "pageerror: Cannot read properties of null (reading 'className')",
+          "pageerror: Cannot read properties of null (reading 'className')"
+        ]
+      },
+      "proposed": {
+        "ok": true,
+        "path": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/studio-doc-dental-clinic-mobile-proposed.png",
+        "status": 200,
+        "final_url": "https://studio-doc-dental-preview.azure-purple.workers.dev/",
+        "errors": []
+      },
+      "comparison": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/studio-doc-dental-clinic-mobile-current-vs-proposed.jpg"
+    }
+  },
+  "rosetti-advogados": {
+    "title": "Rosetti Advogados Associados",
+    "desktop": {
+      "current": {
+        "ok": true,
+        "path": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/rosetti-advogados-desktop-current.png",
+        "status": 200,
+        "final_url": "https://rosettiadvogados.adv.br/",
+        "errors": []
+      },
+      "proposed": {
+        "ok": true,
+        "path": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/rosetti-advogados-desktop-proposed.png",
+        "status": 200,
+        "final_url": "https://rosetti-advogados-preview.azure-purple.workers.dev/",
+        "errors": []
+      },
+      "comparison": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/rosetti-advogados-desktop-current-vs-proposed.jpg"
+    },
+    "mobile": {
+      "current": {
+        "ok": true,
+        "path": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/rosetti-advogados-mobile-current.png",
+        "status": 200,
+        "final_url": "https://rosettiadvogados.adv.br/",
+        "errors": []
+      },
+      "proposed": {
+        "ok": true,
+        "path": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/rosetti-advogados-mobile-proposed.png",
+        "status": 200,
+        "final_url": "https://rosetti-advogados-preview.azure-purple.workers.dev/",
+        "errors": []
+      },
+      "comparison": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/rosetti-advogados-mobile-current-vs-proposed.jpg"
+    }
+  },
+  "da-vinci-veterinaria": {
+    "title": "Da Vinci Clínica Veterinária 24h",
+    "desktop": {
+      "current": {
+        "ok": true,
+        "path": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/da-vinci-veterinaria-desktop-current.png",
+        "status": 200,
+        "final_url": "https://www.veterinariadavinci.com.br/",
+        "errors": []
+      },
+      "proposed": {
+        "ok": true,
+        "path": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/da-vinci-veterinaria-desktop-proposed.png",
+        "status": 200,
+        "final_url": "https://da-vinci-veterinaria-preview.azure-purple.workers.dev/",
+        "errors": []
+      },
+      "comparison": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/da-vinci-veterinaria-desktop-current-vs-proposed.jpg"
+    },
+    "mobile": {
+      "current": {
+        "ok": true,
+        "path": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/da-vinci-veterinaria-mobile-current.png",
+        "status": 200,
+        "final_url": "https://www.veterinariadavinci.com.br/",
+        "errors": []
+      },
+      "proposed": {
+        "ok": true,
+        "path": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/da-vinci-veterinaria-mobile-proposed.png",
+        "status": 200,
+        "final_url": "https://da-vinci-veterinaria-preview.azure-purple.workers.dev/",
+        "errors": []
+      },
+      "comparison": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/da-vinci-veterinaria-mobile-current-vs-proposed.jpg"
+    }
+  },
+  "instituto-zetola": {
+    "title": "Instituto Zétola Odontologia",
+    "desktop": {
+      "current": {
+        "ok": false,
+        "url": "https://www.institutozetola.com.br/",
+        "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.institutozetola.com.br/\", waiting until \"domcontentloaded\"\n",
+        "errors": []
+      },
+      "proposed": {
+        "ok": true,
+        "path": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/instituto-zetola-desktop-proposed.png",
+        "status": 200,
+        "final_url": "https://instituto-zetola-preview.azure-purple.workers.dev/",
+        "errors": []
+      },
+      "comparison": null
+    },
+    "mobile": {
+      "current": {
+        "ok": false,
+        "url": "https://www.institutozetola.com.br/",
+        "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.institutozetola.com.br/\", waiting until \"domcontentloaded\"\n",
+        "errors": []
+      },
+      "proposed": {
+        "ok": true,
+        "path": "/opt/data/projects/prospect-batch/2026-07-17/comparisons/instituto-zetola-mobile-proposed.png",
+        "status": 200,
+        "final_url": "https://instituto-zetola-preview.azure-purple.workers.dev/",
+        "errors": []
+      },
+      "comparison": null
+    }
+  }
+}

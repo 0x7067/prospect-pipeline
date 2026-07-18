@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "status": "published_temporary_preview",
+  "provider": "cloudflare-temporary-account",
+  "deployed_at_utc": "2026-07-17T12:40:27Z",
+  "production_url": "https://cavassin-engenharia-preview.magnificent-xylophone.workers.dev/",
+  "proposal_url": "https://cavassin-engenharia-preview.magnificent-xylophone.workers.dev/proposal.html",
+  "version_id": "853a4c19-dcf3-41bb-a671-9c60946254fb",
+  "publication_manifest_sha256": "3dd6880c2d551880e856a3375deeb3c30604196c7e4e06e32313583c7b0ec67f",
+  "live_integrity": {
+    "matched_files": 10,
+    "total_files": 10,
+    "production_http": 200,
+    "proposal_http": 200
+  },
+  "official_domain_modified": false,
+  "outreach_performed": false,
+  "notes": "Temporary preview only. Claim credential intentionally not stored."
+}

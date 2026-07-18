@@ -1,0 +1,136 @@
+{
+  "index-desktop": {
+    "status": 200,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/logo.png",
+        "complete": true,
+        "naturalWidth": 239,
+        "clientWidth": 148,
+        "clientHeight": 56
+      },
+      {
+        "src": "assets/toxina-banner.png",
+        "complete": true,
+        "naturalWidth": 1080,
+        "clientWidth": 620,
+        "clientHeight": 501
+      },
+      {
+        "src": "assets/logo.png",
+        "complete": true,
+        "naturalWidth": 239,
+        "clientWidth": 296,
+        "clientHeight": 112
+      },
+      {
+        "src": "assets/logo.png",
+        "complete": true,
+        "naturalWidth": 239,
+        "clientWidth": 105,
+        "clientHeight": 40
+      }
+    ]
+  },
+  "index-mobile": {
+    "status": 200,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/logo.png",
+        "complete": true,
+        "naturalWidth": 239,
+        "clientWidth": 125,
+        "clientHeight": 47
+      },
+      {
+        "src": "assets/toxina-banner.png",
+        "complete": true,
+        "naturalWidth": 1080,
+        "clientWidth": 350,
+        "clientHeight": 250
+      },
+      {
+        "src": "assets/logo.png",
+        "complete": true,
+        "naturalWidth": 239,
+        "clientWidth": 148,
+        "clientHeight": 56
+      },
+      {
+        "src": "assets/logo.png",
+        "complete": true,
+        "naturalWidth": 239,
+        "clientWidth": 105,
+        "clientHeight": 40
+      }
+    ],
+    "menu": {
+      "before": "MENU",
+      "opened": "true",
+      "after": "Fechar menu",
+      "closedAfterEscape": "false"
+    }
+  },
+  "proposal-desktop": {
+    "status": 200,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "evidence/current-home-desktop.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 461,
+        "clientHeight": 290
+      },
+      {
+        "src": "evidence/proposed-desktop.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 461,
+        "clientHeight": 290
+      }
+    ]
+  },
+  "proposal-mobile": {
+    "status": 200,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "evidence/current-home-desktop.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 232,
+        "clientHeight": 220
+      },
+      {
+        "src": "evidence/proposed-desktop.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 232,
+        "clientHeight": 220
+      }
+    ]
+  }
+}

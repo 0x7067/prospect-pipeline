@@ -1,0 +1,15 @@
+{
+  "name": "contabilidade-curitiba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "bash -c 'python3 -m http.server 4173 --bind 127.0.0.1 >/tmp/contabilidade-curitiba-test-server.log 2>&1 & pid=$!; trap \"kill $pid 2>/dev/null || true\" EXIT; sleep 1; PLAYWRIGHT_BROWSERS_PATH=.browsers node research/verify.mjs'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "playwright": "^1.61.1"
+  }
+}

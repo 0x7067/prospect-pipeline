@@ -1,0 +1,244 @@
+{
+  "index-desktop": {
+    "status": 200,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/images/logo-klistocch.png",
+        "complete": true,
+        "naturalWidth": 860,
+        "clientWidth": 148
+      },
+      {
+        "src": "assets/images/sala.png",
+        "complete": true,
+        "naturalWidth": 1079,
+        "clientWidth": 720
+      },
+      {
+        "src": "assets/images/sala.png",
+        "complete": true,
+        "naturalWidth": 1079,
+        "clientWidth": 917
+      },
+      {
+        "src": "assets/images/cozinha.png",
+        "complete": true,
+        "naturalWidth": 1920,
+        "clientWidth": 451
+      },
+      {
+        "src": "assets/images/dormitorio.png",
+        "complete": true,
+        "naturalWidth": 1050,
+        "clientWidth": 451
+      },
+      {
+        "src": "assets/images/gourmet.png",
+        "complete": true,
+        "naturalWidth": 1620,
+        "clientWidth": 451
+      },
+      {
+        "src": "assets/images/banheiro.png",
+        "complete": true,
+        "naturalWidth": 1620,
+        "clientWidth": 451
+      },
+      {
+        "src": "assets/images/lavanderia.png",
+        "complete": true,
+        "naturalWidth": 1920,
+        "clientWidth": 451
+      },
+      {
+        "src": "assets/images/home-office.jpg",
+        "complete": true,
+        "naturalWidth": 1816,
+        "clientWidth": 917
+      },
+      {
+        "src": "assets/images/fabrica.png",
+        "complete": true,
+        "naturalWidth": 1050,
+        "clientWidth": 725
+      },
+      {
+        "src": "assets/images/logo-32-anos.png",
+        "complete": true,
+        "naturalWidth": 340,
+        "clientWidth": 150
+      },
+      {
+        "src": "assets/images/showroom.png",
+        "complete": true,
+        "naturalWidth": 1050,
+        "clientWidth": 725
+      },
+      {
+        "src": "assets/images/detalhe-quarto.png",
+        "complete": true,
+        "naturalWidth": 824,
+        "clientWidth": 621
+      },
+      {
+        "src": "assets/images/logo-klistocch.png",
+        "complete": true,
+        "naturalWidth": 860,
+        "clientWidth": 150
+      }
+    ]
+  },
+  "index-mobile": {
+    "status": 200,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/images/logo-klistocch.png",
+        "complete": true,
+        "naturalWidth": 860,
+        "clientWidth": 148
+      },
+      {
+        "src": "assets/images/sala.png",
+        "complete": true,
+        "naturalWidth": 1079,
+        "clientWidth": 390
+      },
+      {
+        "src": "assets/images/sala.png",
+        "complete": true,
+        "naturalWidth": 1079,
+        "clientWidth": 334
+      },
+      {
+        "src": "assets/images/cozinha.png",
+        "complete": true,
+        "naturalWidth": 1920,
+        "clientWidth": 334
+      },
+      {
+        "src": "assets/images/dormitorio.png",
+        "complete": true,
+        "naturalWidth": 1050,
+        "clientWidth": 334
+      },
+      {
+        "src": "assets/images/gourmet.png",
+        "complete": true,
+        "naturalWidth": 1620,
+        "clientWidth": 334
+      },
+      {
+        "src": "assets/images/banheiro.png",
+        "complete": true,
+        "naturalWidth": 1620,
+        "clientWidth": 334
+      },
+      {
+        "src": "assets/images/lavanderia.png",
+        "complete": true,
+        "naturalWidth": 1920,
+        "clientWidth": 334
+      },
+      {
+        "src": "assets/images/home-office.jpg",
+        "complete": true,
+        "naturalWidth": 1816,
+        "clientWidth": 334
+      },
+      {
+        "src": "assets/images/fabrica.png",
+        "complete": true,
+        "naturalWidth": 1050,
+        "clientWidth": 334
+      },
+      {
+        "src": "assets/images/logo-32-anos.png",
+        "complete": true,
+        "naturalWidth": 340,
+        "clientWidth": 150
+      },
+      {
+        "src": "assets/images/showroom.png",
+        "complete": true,
+        "naturalWidth": 1050,
+        "clientWidth": 334
+      },
+      {
+        "src": "assets/images/detalhe-quarto.png",
+        "complete": true,
+        "naturalWidth": 824,
+        "clientWidth": 334
+      },
+      {
+        "src": "assets/images/logo-klistocch.png",
+        "complete": true,
+        "naturalWidth": 860,
+        "clientWidth": 150
+      }
+    ],
+    "menu": {
+      "before": "Abrir menu",
+      "opened": "true",
+      "after": "Fechar menu",
+      "closedAfterEscape": "false"
+    }
+  },
+  "proposal-desktop": {
+    "status": 200,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/proposal/current-home-desktop.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 408
+      },
+      {
+        "src": "assets/proposal/proposed-home-desktop.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 408
+      }
+    ]
+  },
+  "proposal-mobile": {
+    "status": 200,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/proposal/current-home-desktop.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 292
+      },
+      {
+        "src": "assets/proposal/proposed-home-desktop.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 292
+      }
+    ]
+  }
+}

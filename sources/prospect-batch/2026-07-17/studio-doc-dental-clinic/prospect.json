@@ -1,0 +1,33 @@
+{
+  "business_name": "Studio DOC Dental Clinic",
+  "official_url": "https://studiodoc.com.br/",
+  "run_date": "2026-07-16",
+  "category": "Clínica odontológica particular",
+  "address": "DOC Castelo Batel, Av. Visconde de Guarapuava, 4628, sala 810, Ala DOC, Batel, Curitiba/PR",
+  "active_evidence": [
+    "Site oficial e páginas de contato, localização, especialidades e profissionais responderam HTTP 200 em 2026-07-16 e publicam horário de segunda a sexta, 08:30–18:30.",
+    "O site identifica quatro profissionais com CRO/PR e mantém telefone, e-mail e endereço coerentes nas páginas oficiais."
+  ],
+  "opportunity_score": 8.2,
+  "confidence": "média-alta",
+  "problems": [
+    "O botão Whatsapp do widget flutuante tem href vazio no DOM ao vivo, impedindo o principal contato rápido.",
+    "Todos os CTAs Agendar consulta/avaliação levam apenas à página genérica de contato; não há agenda, seleção de tratamento/profissional ou link direto funcional para WhatsApp.",
+    "A home não tem meta description nem H1 detectável, limitando SEO local e estrutura acessível.",
+    "Os quatro nomes do corpo clínico aparecem duplicados na estrutura da home; 11 de 29 imagens HTML não têm texto alternativo.",
+    "A página de contato expõe ao visitante duas vezes a instrução técnica em inglês Please leave this field empty; na home, chat flutuante e barra de cookies ocupam simultaneamente parte do hero."
+  ],
+  "rebuild_angle": "Experiência premium orientada a agendamento, com páginas de tratamentos e profissionais, prova clínica/ética, SEO local, WhatsApp funcional com contexto, formulário curto por necessidade e mobile sem sobreposições.",
+  "roi_mechanism": "Implantes, estética e reabilitação têm alto valor por paciente; remover atrito no contato e captar intenção por tratamento pode elevar avaliações agendadas e reduzir perdas de leads no mobile.",
+  "public_contacts": {
+    "phone": "(41) 4101-8888",
+    "email": "contato@studiodoc.com.br"
+  },
+  "evidence_links": [
+    "https://studiodoc.com.br/",
+    "https://studiodoc.com.br/contato/",
+    "https://studiodoc.com.br/localizacao/",
+    "https://studiodoc.com.br/especialidades/"
+  ],
+  "outreach_hook": "A clínica já comunica equipe e estrutura de alto padrão; a abordagem deve ser objetiva e respeitosa: o botão flutuante de WhatsApp hoje não abre destino algum, enquanto todos os agendamentos terminam num contato genérico — uma oportunidade direta de recuperar avaliações de alto valor."
+}

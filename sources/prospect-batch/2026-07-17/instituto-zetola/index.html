@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Instituto Zétola Odontologia — Clínica odontológica no Bigorrilho, Curitiba</title>
+<meta name="description" content="Instituto Zétola Odontologia: tradição de três gerações em Curitiba, especialidades organizadas do diagnóstico ao sorriso, conduzidas pelo Dr. André Zétola (CRO 7877). Agende sua avaliação.">
+<link rel="icon" href="assets/images/favicon-32.png" sizes="32x32">
+<link rel="icon" href="assets/images/favicon-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="assets/images/favicon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,900;1,500;1,600&family=Source+Sans+Pro:wght@300;400;600;700&family=Advent+Pro:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="site-header">
+  <div class="container site-header__bar">
+    <a class="brand" href="#topo">
+      <img src="assets/images/logo-instituto-zetola.png" alt="Instituto Zétola Odontologia">
+      <span class="brand__name" aria-hidden="true"><strong>Zétola</strong>Odontologia</span>
+    </a>
+
+    <nav class="primary-nav" aria-label="Navegação principal">
+      <ul class="primary-nav__list">
+        <li><a href="#topo" aria-current="page">Início</a></li>
+        <li><a href="#especialidades">Especialidades</a></li>
+        <li><a href="#equipe">Equipe</a></li>
+        <li><a href="#historia">Nossa história</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a class="header-actions__phone" href="tel:+554130242202">
+        <svg class="icon-inline" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.9.34 1.79.65 2.65a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.43-1.27a2 2 0 0 1 2.11-.45c.86.31 1.75.53 2.65.65A2 2 0 0 1 22 16.92z"/></svg>
+        (41) 3024-2202
+      </a>
+      <a class="btn btn-primary" href="https://wa.me/5541999631503?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%21" target="_blank" rel="noopener noreferrer">
+        <svg class="icon-inline" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.03 0C5.5 0 .2 5.3.2 11.85c0 2.09.55 4.13 1.6 5.93L0 24l6.4-1.68a11.8 11.8 0 0 0 5.62 1.43h.01c6.53 0 11.83-5.3 11.83-11.85 0-3.17-1.23-6.14-3.34-8.42zM12.03 21.4a9.5 9.5 0 0 1-4.85-1.33l-.35-.2-3.8 1 1.02-3.7-.23-.38a9.53 9.53 0 1 1 17.7-5c0 5.27-4.28 9.6-9.5 9.6zm5.2-7.14c-.28-.14-1.67-.82-1.93-.92-.26-.1-.45-.14-.64.14-.19.28-.74.92-.9 1.1-.17.19-.33.21-.61.07-.28-.14-1.19-.44-2.26-1.4-.84-.75-1.4-1.67-1.56-1.95-.16-.28-.02-.43.12-.57.13-.13.28-.33.42-.5.14-.16.19-.28.28-.47.1-.19.05-.35-.02-.5-.07-.14-.64-1.54-.87-2.1-.23-.55-.47-.48-.64-.49-.16-.01-.35-.01-.54-.01-.19 0-.5.07-.76.35-.26.28-1 1-1 2.42 0 1.43 1.02 2.82 1.17 3 .14.19 2.01 3.08 4.88 4.32.68.29 1.22.47 1.63.6.68.22 1.31.19 1.8.11.55-.08 1.67-.68 1.9-1.35.24-.66.24-1.22.17-1.34-.07-.12-.26-.19-.54-.33z"/></svg>
+        Agendar avaliação
+      </a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mobileNav" aria-label="Abrir menu">
+        <span class="menu-toggle__icon" aria-hidden="true"><span></span><span></span><span></span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobileNav" data-open="false">
+  <div class="mobile-nav__scrim" data-nav-scrim></div>
+  <div class="mobile-nav__panel" role="dialog" aria-modal="true" aria-label="Menu de navegação">
+    <div class="mobile-nav__top">
+      <img src="assets/images/logo-instituto-zetola.png" alt="Instituto Zétola Odontologia" style="height:36px;">
+      <button class="mobile-nav__close" id="menuClose" type="button" aria-label="Fechar menu">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <ul class="mobile-nav__list">
+      <li><a data-nav-link href="#topo">Início</a></li>
+      <li><a data-nav-link href="#especialidades">Especialidades</a></li>
+      <li><a data-nav-link href="#equipe">Equipe</a></li>
+      <li><a data-nav-link href="#historia">Nossa história</a></li>
+      <li><a data-nav-link href="#contato">Contato</a></li>
+    </ul>
+    <div class="mobile-nav__contact">
+      <a class="btn btn-primary" href="https://wa.me/5541999631503?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%21" target="_blank" rel="noopener noreferrer">Agendar avaliação</a>
+      <a class="btn btn-outline" href="tel:+554130242202">Ligar (41) 3024-2202</a>
+    </div>
+  </div>
+</div>
+
+<main id="conteudo">
+
+  <!-- HERO -->
+  <section class="hero" id="topo">
+    <div class="container hero__inner">
+      <p class="hero__eyebrow">Instituto Zétola Odontologia · Bigorrilho, Curitiba</p>
+      <h1 class="hero__title">Tratar você é <em>aquilo que sabemos fazer de melhor.</em></h1>
+      <p class="hero__lede">Três gerações da família Zétola dedicadas à odontologia em Curitiba — do diagnóstico ao sorriso, com dez especialidades organizadas sob a condução do Dr. André Zétola, CRO 7877.</p>
+      <div class="hero__ctas">
+        <a class="btn btn-on-dark" href="https://wa.me/5541999631503?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%21" target="_blank" rel="noopener noreferrer">
+          <svg class="icon-inline" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.03 0C5.5 0 .2 5.3.2 11.85c0 2.09.55 4.13 1.6 5.93L0 24l6.4-1.68a11.8 11.8 0 0 0 5.62 1.43h.01c6.53 0 11.83-5.3 11.83-11.85 0-3.17-1.23-6.14-3.34-8.42zM12.03 21.4a9.5 9.5 0 0 1-4.85-1.33l-.35-.2-3.8 1 1.02-3.7-.23-.38a9.53 9.53 0 1 1 17.7-5c0 5.27-4.28 9.6-9.5 9.6z"/></svg>
+          Agendar avaliação pelo WhatsApp
+        </a>
+        <a class="btn btn-ghost" href="#especialidades">Conhecer as especialidades</a>
+      </div>
+      <div class="hero__meta">
+        <span><strong>1936</strong> início da tradição da família</span>
+        <span><strong>1996</strong> fundação do Instituto Zétola</span>
+        <span><strong>10</strong> especialidades organizadas</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- HERITAGE -->
+  <section class="heritage" id="historia">
+    <div class="container heritage__grid">
+      <div>
+        <p class="eyebrow">Nossa história</p>
+        <h2 class="section-heading" style="color:#fff;">Tradição de três gerações em odontologia</h2>
+        <div class="heritage__body" style="margin-top:1.25rem;">
+          <p>A origem da clínica remonta ao avô do Dr. André Zétola, o cirurgião-dentista Flávio Zétola, que atuava em São José dos Pinhais — região metropolitana de Curitiba — desde 1936, e que também foi prefeito do município. Seu irmão, Clementino Zétola, também dentista, passou a trabalhar junto com ele.</p>
+          <p>André se formou pela Universidade Federal do Paraná, fez residência em cirurgia e traumatologia bucomaxilofacial no Rio de Janeiro e, entre 1991 e 1992, realizou um <em>fellowship</em> na Northwestern University, em Chicago.</p>
+          <p>De volta ao Brasil, fundou o Instituto Zétola em 1996 — inicialmente nas instalações do Centro Paranaense de Oftalmologia — e, em 2004, instalou a clínica em seu endereço atual, no Bigorrilho.</p>
+        </div>
+        <blockquote class="heritage__quote">
+          “O seu sorriso no final do tratamento, sabendo de toda dificuldade que passamos juntos, nos motiva e impulsiona para buscar sempre o melhor, tanto tecnicamente quanto humanamente possível.”
+          <cite>Dr. André Zétola — CRO 7877</cite>
+        </blockquote>
+      </div>
+
+      <ol class="timeline">
+        <li class="timeline__item">
+          <p class="timeline__year">1936</p>
+          <p class="timeline__label">A tradição da família começa</p>
+          <p class="timeline__desc">Flávio Zétola, avô de André, atua como cirurgião-dentista em São José dos Pinhais.</p>
+        </li>
+        <li class="timeline__item">
+          <p class="timeline__year">1991–1992</p>
+          <p class="timeline__label">Formação internacional</p>
+          <p class="timeline__desc"><em>Fellowship</em> em cirurgia de face na Northwestern University, em Chicago.</p>
+        </li>
+        <li class="timeline__item">
+          <p class="timeline__year">1996</p>
+          <p class="timeline__label">Fundação do Instituto Zétola</p>
+          <p class="timeline__desc">Primeiras instalações no Centro Paranaense de Oftalmologia (CPO), em Curitiba.</p>
+        </li>
+        <li class="timeline__item">
+          <p class="timeline__year">2004 — hoje</p>
+          <p class="timeline__label">Endereço atual no Bigorrilho</p>
+          <p class="timeline__desc">R. Alferes Ângelo Sampaio, 2.303, com dez especialidades organizadas.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- SPECIALTIES -->
+  <section class="specialties" id="especialidades">
+    <div class="container">
+      <div class="specialties__head">
+        <p class="eyebrow">Especialidades</p>
+        <h2 class="section-heading">Dez especialidades, um único plano de tratamento</h2>
+        <p class="section-lede" style="margin-top:1rem;">Cada caso é tratado com a singularidade que merece, sempre respeitando os anseios e as expectativas de quem nos procura — analisando o paciente como um todo, não apenas a queixa principal.</p>
+      </div>
+
+      <article class="featured-specialty">
+        <div class="featured-specialty__media">
+          <span class="featured-specialty__tag">Especialidade em destaque</span>
+          <img src="assets/images/sp-regeneracao-ossea.png" alt="Ilustração representando o tratamento de regeneração óssea do Instituto Zétola.">
+        </div>
+        <div class="featured-specialty__body">
+          <p class="eyebrow">01 · Regeneração óssea</p>
+          <h3>Fatores de crescimento para reconstruir a estrutura óssea</h3>
+          <p>O Instituto Zétola trabalha com fatores de crescimento em regeneração óssea — o BMP (proteína osteoformadora recombinante humana) e o RIGENERA (micro-fragmentador de enxerto autólogo) — como alternativa ao enxerto de área doadora, com cirurgias minimamente invasivas.</p>
+          <p>Segundo o próprio Instituto, essa é a técnica com a qual o Dr. André Zétola acumula uma das maiores casuísticas do mundo, com taxa de sucesso declarada em torno de 90% — dado publicado pela clínica, reproduzido aqui como afirmação própria do Instituto.</p>
+        </div>
+      </article>
+
+      <div class="specialty-index">
+
+        <details class="specialty-row" id="sedacao-consciente">
+          <summary class="specialty-row__summary">
+            <span class="specialty-row__num">02</span>
+            <span>
+              <span class="specialty-row__name">Sedação Consciente</span>
+              <span class="specialty-row__hint">Óxido nitroso para tratamentos mais tranquilos</span>
+            </span>
+            <span class="specialty-row__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </summary>
+          <div class="specialty-row__content">
+            <div class="specialty-row__media"><img src="assets/images/sp-sedacao-consciente.png" alt="Ilustração representando o tratamento de sedação consciente do Instituto Zétola."></div>
+            <div class="specialty-row__text">
+              <p>A sedação consciente com óxido nitroso reduz a percepção de dor e proporciona uma sensação de leveza e relaxamento durante o procedimento, sem os efeitos colaterais e contraindicações associados a outros métodos, segundo o Instituto.</p>
+              <p>O paciente não precisa de acompanhante e pode dirigir normalmente ao final da consulta — o medicamento é eliminado pelo organismo logo após o término da administração.</p>
+            </div>
+          </div>
+        </details>
+
+        <details class="specialty-row" id="apneia-do-sono">
+          <summary class="specialty-row__summary">
+            <span class="specialty-row__num">03</span>
+            <span>
+              <span class="specialty-row__name">Apneia do Sono</span>
+              <span class="specialty-row__hint">Abordagem maxilofacial para a apneia obstrutiva</span>
+            </span>
+            <span class="specialty-row__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </summary>
+          <div class="specialty-row__content">
+            <div class="specialty-row__media"><img src="assets/images/sp-apneia-do-sono.png" alt="Ilustração representando o tratamento de apneia do sono do Instituto Zétola."></div>
+            <div class="specialty-row__text">
+              <p>A apneia é o fechamento das vias aéreas na garganta com parada momentânea da respiração durante o sono — uma condição pouco diagnosticada que, sem tratamento, pode agravar quadros de hipertensão e outros riscos cardiovasculares.</p>
+              <p>O Instituto atua especialmente nos casos ligados a maxilares retraídos, avaliando cada caso dentro da especialidade de cirurgia bucomaxilofacial do Dr. André Zétola.</p>
+            </div>
+          </div>
+        </details>
+
+        <details class="specialty-row" id="cirurgia-ortognatica">
+          <summary class="specialty-row__summary">
+            <span class="specialty-row__num">04</span>
+            <span>
+              <span class="specialty-row__name">Cirurgia Ortognática</span>
+              <span class="specialty-row__hint">Correção de deformidades dento-faciais, técnica minimamente invasiva</span>
+            </span>
+            <span class="specialty-row__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </summary>
+          <div class="specialty-row__content">
+            <div class="specialty-row__media"><img src="assets/images/sp-cirurgia-ortognatica.png" alt="Ilustração representando o tratamento de cirurgia ortognática do Instituto Zétola."></div>
+            <div class="specialty-row__text">
+              <p>Indicada para corrigir deformidades dento-faciais por meio da movimentação dos ossos da face, a cirurgia ortognática melhora a eficiência mastigatória, a passagem de ar nas vias aéreas, a articulação das palavras e o equilíbrio da mordida — reduzindo a sobrecarga sobre a ATM.</p>
+            </div>
+          </div>
+        </details>
+
+        <details class="specialty-row" id="dtm">
+          <summary class="specialty-row__summary">
+            <span class="specialty-row__num">05</span>
+            <span>
+              <span class="specialty-row__name">DTM e Dor Orofacial</span>
+              <span class="specialty-row__hint">Disfunção temporomandibular e dores associadas</span>
+            </span>
+            <span class="specialty-row__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </summary>
+          <div class="specialty-row__content">
+            <div class="specialty-row__media"><img src="assets/images/sp-dtm.png" alt="Ilustração representando o tratamento de disfunção temporomandibular do Instituto Zétola."></div>
+            <div class="specialty-row__text">
+              <p>As desordens temporomandibulares (DTM) afetam os músculos mastigatórios, a articulação temporomandibular (ATM) e estruturas associadas — dor de cabeça, dor cervical, zumbido e desgaste dentário estão entre os sintomas mais comuns.</p>
+              <p>O tratamento inicial é clínico e minimamente invasivo, com indicação cirúrgica reservada a casos de fratura, anquilose ou doença degenerativa avançada, avaliados por cirurgião bucomaxilofacial.</p>
+            </div>
+          </div>
+        </details>
+
+        <details class="specialty-row" id="endodontia">
+          <summary class="specialty-row__summary">
+            <span class="specialty-row__num">06</span>
+            <span>
+              <span class="specialty-row__name">Endodontia</span>
+              <span class="specialty-row__hint">Tratamento de canal com microscópio operatório</span>
+            </span>
+            <span class="specialty-row__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </summary>
+          <div class="specialty-row__content">
+            <div class="specialty-row__media"><img src="assets/images/sp-endodontia.png" alt="Ilustração representando o tratamento de endodontia do Instituto Zétola."></div>
+            <div class="specialty-row__text">
+              <p>Todos os procedimentos endodônticos são realizados com magnificação por microscópio cirúrgico odontológico, permitindo precisão em casos complexos como canais calcificados e remoção de instrumentos fraturados.</p>
+              <p>Tomografias de alta precisão e radiografia periapical digital identificam alterações anatômicas antes do tratamento, otimizando a maioria dos casos para conclusão em uma única sessão.</p>
+            </div>
+          </div>
+        </details>
+
+        <details class="specialty-row" id="odontologia-estetica">
+          <summary class="specialty-row__summary">
+            <span class="specialty-row__num">07</span>
+            <span>
+              <span class="specialty-row__name">Odontologia Estética</span>
+              <span class="specialty-row__hint">Lentes de contato dental, facetas e resina composta</span>
+            </span>
+            <span class="specialty-row__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </summary>
+          <div class="specialty-row__content">
+            <div class="specialty-row__media"><img src="assets/images/sp-odontologia-estetica.png" alt="Ilustração representando o tratamento de odontologia estética do Instituto Zétola."></div>
+            <div class="specialty-row__text">
+              <p>As lentes de contato dental e facetas em porcelana são esculpidas pelo sistema de fresagem <em>chair side</em>, a partir de blocos de porcelana de alta resistência, com tratamento realizado em poucas sessões dentro da própria clínica.</p>
+              <p>Para casos menores, as restaurações em resina composta são a primeira escolha — um recurso não invasivo, com resultado estético imediato.</p>
+            </div>
+          </div>
+        </details>
+
+        <details class="specialty-row" id="odontopediatria">
+          <summary class="specialty-row__summary">
+            <span class="specialty-row__num">08</span>
+            <span>
+              <span class="specialty-row__name">Odontopediatria</span>
+              <span class="specialty-row__hint">Do pré-natal odontológico à adolescência</span>
+            </span>
+            <span class="specialty-row__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </summary>
+          <div class="specialty-row__content">
+            <div class="specialty-row__media"><img src="assets/images/sp-odontopediatria.png" alt="Ilustração representando o tratamento de odontopediatria do Instituto Zétola."></div>
+            <div class="specialty-row__text">
+              <p>O acompanhamento começa no pré-natal odontológico da gestante e segue desde a erupção do primeiro dente de leite, por volta dos seis meses, até o final da adolescência — com orientações de higiene e prevenção de cárie precoce.</p>
+              <p>O odontopediatra também acompanha alterações nos arcos dentais, podendo iniciar tratamentos ortodônticos ou ortopédicos ainda na dentição de leite, conforme a maturidade da criança.</p>
+            </div>
+          </div>
+        </details>
+
+        <details class="specialty-row" id="ortodontia">
+          <summary class="specialty-row__summary">
+            <span class="specialty-row__num">09</span>
+            <span>
+              <span class="specialty-row__name">Ortodontia</span>
+              <span class="specialty-row__hint">Aparelhos tradicionais e alinhadores Invisalign</span>
+            </span>
+            <span class="specialty-row__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </summary>
+          <div class="specialty-row__content">
+            <div class="specialty-row__media"><img src="assets/images/sp-ortodontia.png" alt="Ilustração representando o tratamento de ortodontia do Instituto Zétola."></div>
+            <div class="specialty-row__text">
+              <p>Além dos aparelhos tradicionais com braquetes, o Instituto trabalha com Invisalign — alinhadores sequenciais desenhados com tecnologia 3D, removíveis e praticamente imperceptíveis no uso diário.</p>
+            </div>
+          </div>
+        </details>
+
+        <details class="specialty-row" id="periodontia">
+          <summary class="specialty-row__summary">
+            <span class="specialty-row__num">10</span>
+            <span>
+              <span class="specialty-row__name">Periodontia</span>
+              <span class="specialty-row__hint">Manutenção, profilaxia e acompanhamento contínuo</span>
+            </span>
+            <span class="specialty-row__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </summary>
+          <div class="specialty-row__content">
+            <div class="specialty-row__media"><img src="assets/images/sp-periodontia.png" alt="Ilustração representando o tratamento de periodontia do Instituto Zétola."></div>
+            <div class="specialty-row__text">
+              <p>O programa de manutenção vai além da limpeza: cada retorno inclui avaliação da condição bucal, set radiográfico e escaneamento das arcadas, permitindo diagnosticar lesões ainda no início.</p>
+              <p>Para pacientes com ansiedade, a sedação consciente com óxido nitroso também está disponível durante a manutenção periódica.</p>
+            </div>
+          </div>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="team" id="equipe">
+    <div class="container team__grid">
+      <div class="team__photo">
+        <img src="assets/images/equipe-zetola.png" alt="Fotografia publicada pelo Instituto Zétola Odontologia representando sua equipe clínica.">
+      </div>
+      <div>
+        <p class="eyebrow">Equipe</p>
+        <h2 class="section-heading" style="color:#fff;">Conduzido pelo Dr. André Zétola</h2>
+        <p class="team__cro">CRO 7877</p>
+        <p style="margin-top:1rem;color:rgba(255,255,255,0.85);max-width:56ch;">O Instituto Zétola é conduzido pelo Dr. André Zétola ao lado da equipe de especialistas que atende nas dez áreas da clínica, do diagnóstico ao acompanhamento pós-tratamento. A clínica não publica nomes ou credenciais de outros profissionais além do Dr. André Zétola, por isso nenhum outro nome é apresentado aqui.</p>
+        <ul class="team__credentials">
+          <li><strong>Formação:</strong> graduado pela Universidade Federal do Paraná (UFPR).</li>
+          <li><strong>Residência:</strong> cirurgia e traumatologia bucomaxilofacial, no Rio de Janeiro.</li>
+          <li><strong>Fellowship internacional:</strong> Northwestern University, Chicago (1991–1992).</li>
+          <li><strong>Áreas de atuação:</strong> cirurgia ortognática, cirurgia de avanço bimaxilar para apneia do sono, regeneração óssea e implantodontia.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECH -->
+  <section class="tech">
+    <div class="container">
+      <p class="eyebrow">Tecnologia clínica</p>
+      <h2 class="section-heading">Recursos usados no dia a dia dos tratamentos</h2>
+      <div class="tech__grid">
+        <div class="tech__item">
+          <h3>Microscopia e imagem digital</h3>
+          <p>Microscópio operatório em endodontia, tomografia de alta precisão e radiografia periapical digital para planejar cada caso antes do procedimento.</p>
+        </div>
+        <div class="tech__item">
+          <h3>Fluxo digital</h3>
+          <p>Fresagem <em>chair side</em> de facetas e lentes de contato dentárias em porcelana na odontologia estética, com acompanhamento radiográfico e por escaneamento no programa de manutenção periodontal.</p>
+        </div>
+        <div class="tech__item">
+          <h3>Planejamento reverso</h3>
+          <p>Cada plano de tratamento tem início, fluxograma e fim definidos, tratando a causa da queixa principal — não apenas o sintoma.</p>
+        </div>
+      </div>
+
+      <div class="tech__photos">
+        <figure>
+          <img src="assets/images/banner-03.png" alt="Estojo de alinhador Invisalign com detalhe em azul-esverdeado, usado pelo Instituto Zétola na especialidade de ortodontia.">
+          <figcaption>Ortodontia com alinhadores Invisalign, ao lado dos aparelhos tradicionais.</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/images/banner-02.png" alt="Implante dentário em detalhe, imagem publicada pelo Instituto Zétola sobre sua especialidade de implantodontia.">
+          <figcaption>Implantodontia, uma das áreas de atuação do Dr. André Zétola.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contato">
+    <div class="container">
+      <p class="eyebrow">Contato</p>
+      <h2 class="section-heading">Agende sua avaliação</h2>
+      <div class="contact__grid" style="margin-top:2rem;">
+        <div class="contact__panel">
+          <dl class="contact__list">
+            <div>
+              <dt>Endereço</dt>
+              <dd><a href="https://www.google.com/maps?q=-25.4346561,-49.2889144" target="_blank" rel="noopener noreferrer">R. Alferes Ângelo Sampaio, 2.303 — Bigorrilho, Curitiba – PR, 80730-460</a></dd>
+            </div>
+            <div>
+              <dt>Telefone</dt>
+              <dd><a href="tel:+554130242202">(41) 3024-2202</a></dd>
+            </div>
+            <div>
+              <dt>WhatsApp</dt>
+              <dd><a href="https://wa.me/5541999631503?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%21" target="_blank" rel="noopener noreferrer">(41) 99963-1503</a></dd>
+            </div>
+            <div>
+              <dt>E-mail</dt>
+              <dd><a href="mailto:contato@institutozetola.com.br">contato@institutozetola.com.br</a></dd>
+            </div>
+          </dl>
+
+          <div class="contact__socials" aria-label="Redes sociais">
+            <a href="https://www.facebook.com/institutozetola/" target="_blank" rel="noopener noreferrer" aria-label="Instituto Zétola no Facebook (abre em nova guia)">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.78-3.89 1.1 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/institutozetola/" target="_blank" rel="noopener noreferrer" aria-label="Instituto Zétola no Instagram (abre em nova guia)">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.2c3.2 0 3.58.01 4.85.07 3.25.15 4.77 1.69 4.92 4.92.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.15 3.23-1.66 4.77-4.92 4.92-1.27.06-1.64.07-4.85.07s-3.58-.01-4.85-.07c-3.26-.15-4.77-1.7-4.92-4.92-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85C2.36 3.96 3.88 2.42 7.15 2.27 8.42 2.21 8.8 2.2 12 2.2zM12 0C8.74 0 8.33.01 7.05.07c-4.35.2-6.78 2.62-6.98 6.98C.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.2 4.36 2.62 6.78 6.98 6.98C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c4.35-.2 6.78-2.62 6.98-6.98.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.2-4.35-2.62-6.78-6.98-6.98C15.67.01 15.26 0 12 0zm0 5.84A6.16 6.16 0 1 0 18.16 12 6.16 6.16 0 0 0 12 5.84zM12 16a4 4 0 1 1 4-4 4 4 0 0 1-4 4zm6.41-10.85a1.44 1.44 0 1 0 1.44 1.44 1.44 1.44 0 0 0-1.44-1.44z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/company/instituto-z%C3%A9tola-de-odontologia/about/" target="_blank" rel="noopener noreferrer" aria-label="Instituto Zétola no LinkedIn (abre em nova guia)">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05a3.75 3.75 0 0 1 3.38-1.86c3.6 0 4.27 2.37 4.27 5.46zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56z"/></svg>
+            </a>
+          </div>
+
+          <div class="contact__ctas">
+            <a class="btn btn-on-dark" href="https://wa.me/5541999631503?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%21" target="_blank" rel="noopener noreferrer">Agendar avaliação pelo WhatsApp</a>
+            <a class="btn btn-ghost" href="tel:+554130242202">Ligar agora</a>
+          </div>
+        </div>
+
+        <div class="contact__map">
+          <iframe title="Localização do Instituto Zétola Odontologia no mapa" src="https://www.google.com/maps?q=-25.4346561,-49.2889144&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <img src="assets/images/icone-zetola.png" alt="Instituto Zétola Odontologia">
+      <p>Clínica odontológica no Bigorrilho, Curitiba — tradição de três gerações, dez especialidades organizadas.</p>
+    </div>
+    <div>
+      <p class="footer__heading">Navegação</p>
+      <ul class="footer__list">
+        <li><a href="#topo">Início</a></li>
+        <li><a href="#especialidades">Especialidades</a></li>
+        <li><a href="#equipe">Equipe</a></li>
+        <li><a href="#historia">Nossa história</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer__heading">Contato</p>
+      <ul class="footer__list">
+        <li><address>R. Alferes Ângelo Sampaio, 2.303<br>Bigorrilho, Curitiba – PR, 80730-460</address></li>
+        <li><a href="tel:+554130242202">(41) 3024-2202</a></li>
+        <li><a href="https://wa.me/5541999631503?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%21" target="_blank" rel="noopener noreferrer">WhatsApp (41) 99963-1503</a></li>
+        <li><a href="mailto:contato@institutozetola.com.br">contato@institutozetola.com.br</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer__heading">Redes sociais</p>
+      <ul class="footer__list">
+        <li><a href="https://www.facebook.com/institutozetola/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+        <li><a href="https://www.instagram.com/institutozetola/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+        <li><a href="https://www.linkedin.com/company/instituto-z%C3%A9tola-de-odontologia/about/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer__bottom">
+    <span>© 2026 Instituto Zétola Odontologia — CRO 7877</span>
+    <span>R. Alferes Ângelo Sampaio, 2.303, Bigorrilho, Curitiba – PR</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "status": "failed",
+  "generatedAt": "2026-07-18T03:40:09.049Z",
+  "blocker": "impeccable_detector_gate findings remained after the second run; receipt status is 'findings' (not 'clean')",
+  "details": {
+    "receiptPath": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant/.impeccable-detector-receipt.json",
+    "totalFindings": 36,
+    "byPattern": {
+      "cramped-padding": 24,
+      "overused-font": 8,
+      "flat-type-hierarchy": 4
+    },
+    "bySeverity": {
+      "warning": 36
+    },
+    "note": "The overused-font warnings are for Montserrat and Roboto, which BRAND_SOURCE.md explicitly instructs to preserve. The remaining warnings are heuristic flags after the second detector pass."
+  }
+}

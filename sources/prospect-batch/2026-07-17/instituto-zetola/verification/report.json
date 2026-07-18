@@ -1,0 +1,171 @@
+{
+  "generatedAt": "2026-07-17T05:24:45.025Z",
+  "pages": [
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "width": 1440,
+      "height": 900,
+      "httpStatus": 200,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "viewportScreenshot": "/opt/data/projects/prospect-batch/2026-07-17/instituto-zetola/verification/index-desktop-viewport.png",
+      "fullPageScreenshot": "/opt/data/projects/prospect-batch/2026-07-17/instituto-zetola/verification/index-desktop-full.png"
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "width": 390,
+      "height": 844,
+      "httpStatus": 200,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "overflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "viewportScreenshot": "/opt/data/projects/prospect-batch/2026-07-17/instituto-zetola/verification/index-mobile-viewport.png",
+      "fullPageScreenshot": "/opt/data/projects/prospect-batch/2026-07-17/instituto-zetola/verification/index-mobile-full.png"
+    },
+    {
+      "page": "proposal.html",
+      "viewport": "desktop",
+      "width": 1440,
+      "height": 900,
+      "httpStatus": 200,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "viewportScreenshot": "/opt/data/projects/prospect-batch/2026-07-17/instituto-zetola/verification/proposal-desktop-viewport.png",
+      "fullPageScreenshot": "/opt/data/projects/prospect-batch/2026-07-17/instituto-zetola/verification/proposal-desktop-full.png"
+    },
+    {
+      "page": "proposal.html",
+      "viewport": "mobile",
+      "width": 390,
+      "height": 844,
+      "httpStatus": 200,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "overflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "viewportScreenshot": "/opt/data/projects/prospect-batch/2026-07-17/instituto-zetola/verification/proposal-mobile-viewport.png",
+      "fullPageScreenshot": "/opt/data/projects/prospect-batch/2026-07-17/instituto-zetola/verification/proposal-mobile-full.png"
+    }
+  ],
+  "mobileMenu": {
+    "initialAriaExpanded": "false",
+    "initialAriaLabel": "Abrir menu",
+    "toggleBox": {
+      "x": 324,
+      "y": 16.328125,
+      "width": 46,
+      "height": 46
+    },
+    "afterOpenAriaExpanded": "true",
+    "afterOpenAriaLabel": "Fechar menu",
+    "panelVisible": true,
+    "navLinkCount": 5,
+    "navLinkBoxes": [
+      {
+        "x": 98.708740234375,
+        "y": 92,
+        "width": 295.1875,
+        "height": 64.328125
+      },
+      {
+        "x": 88.99458312988281,
+        "y": 159.515625,
+        "width": 295.18748474121094,
+        "height": 64.328125
+      },
+      {
+        "x": 88.99458312988281,
+        "y": 227.03125,
+        "width": 295.18748474121094,
+        "height": 64.328125
+      },
+      {
+        "x": 88.99458312988281,
+        "y": 294.546875,
+        "width": 295.18748474121094,
+        "height": 64.328125
+      },
+      {
+        "x": 88.99458312988281,
+        "y": 362.0625,
+        "width": 295.18748474121094,
+        "height": 64.328125
+      }
+    ],
+    "afterEscapeAriaExpanded": "false",
+    "afterEscapeAriaLabel": "Abrir menu",
+    "focusAfterEscape": "menuToggle",
+    "afterLinkClickAriaExpanded": "false",
+    "hasDistinctCloseButton": true,
+    "closeBox": {
+      "x": 345.3260192871094,
+      "y": 20,
+      "width": 44,
+      "height": 44
+    },
+    "afterCloseAriaExpanded": "false",
+    "afterCloseAriaLabel": "Abrir menu",
+    "consoleErrors": []
+  },
+  "anchors": {
+    "localAnchors": [
+      "#conteudo",
+      "#topo",
+      "#topo",
+      "#especialidades",
+      "#equipe",
+      "#historia",
+      "#contato",
+      "#topo",
+      "#especialidades",
+      "#equipe",
+      "#historia",
+      "#contato",
+      "#especialidades",
+      "#topo",
+      "#especialidades",
+      "#equipe",
+      "#historia",
+      "#contato"
+    ],
+    "missing": [],
+    "imgCount": 16,
+    "brokenImgs": [],
+    "missingAlt": [],
+    "failedImgRequests": []
+  },
+  "tapTargets": {
+    "toggleBox": {
+      "x": 324,
+      "y": 16.328125,
+      "width": 46,
+      "height": 46
+    },
+    "toggleAdequate": true,
+    "smallNavLinkTargets": []
+  },
+  "proposalAnchors": {
+    "localAnchors": [
+      "#evidencia"
+    ],
+    "missing": [],
+    "imgCount": 4,
+    "brokenImgs": [],
+    "missingAlt": []
+  }
+}

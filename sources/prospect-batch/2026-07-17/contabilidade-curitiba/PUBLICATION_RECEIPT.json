@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "status": "published_temporary_preview",
+  "provider": "cloudflare-temporary-account",
+  "deployment_method": "wrangler 4.111.0 deploy --temporary --compatibility-date 2026-07-17 --assets",
+  "public_url": "https://contabilidade-curitiba-preview.azure-purple.workers.dev",
+  "version_id": "75ab80d0-caa5-46fd-abfa-13b5505c3831",
+  "published_at": "2026-07-17T11:56:02Z",
+  "publication_manifest_sha256": "a5c787d47cf9973a935faff0a033d449cc2a19c416c48495a1a72da1664f2266",
+  "verified": {
+    "homepage_http_200": true,
+    "proposal_http_200_after_canonical_redirect": true,
+    "live_files_checked": 15,
+    "live_files_matching_local_sha256": 15,
+    "project_playwright_suite": "pass",
+    "shared_batch_verifier": "technical-pass",
+    "adversarial_visual_high_severity_weaknesses": 0
+  },
+  "outreach_sent": false
+}

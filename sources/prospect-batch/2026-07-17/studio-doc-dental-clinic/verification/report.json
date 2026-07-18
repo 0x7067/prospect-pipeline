@@ -1,0 +1,286 @@
+{
+  "index.html": {
+    "desktop": {
+      "url": "http://127.0.0.1:8099/index.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "consoleErrors": [],
+      "failedRequests": [],
+      "overflow": {
+        "docWidth": 1440,
+        "winWidth": 1440,
+        "overflowing": false
+      },
+      "screenshot": "/opt/data/projects/prospect-batch/2026-07-17/studio-doc-dental-clinic/verification/index-desktop.png"
+    },
+    "mobile": {
+      "url": "http://127.0.0.1:8099/index.html",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "consoleErrors": [],
+      "failedRequests": [],
+      "overflow": {
+        "docWidth": 390,
+        "winWidth": 390,
+        "overflowing": false
+      },
+      "screenshot": "/opt/data/projects/prospect-batch/2026-07-17/studio-doc-dental-clinic/verification/index-mobile.png"
+    }
+  },
+  "proposal.html": {
+    "desktop": {
+      "url": "http://127.0.0.1:8099/proposal.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "consoleErrors": [],
+      "failedRequests": [],
+      "overflow": {
+        "docWidth": 1440,
+        "winWidth": 1440,
+        "overflowing": false
+      },
+      "screenshot": "/opt/data/projects/prospect-batch/2026-07-17/studio-doc-dental-clinic/verification/proposal-desktop.png"
+    },
+    "mobile": {
+      "url": "http://127.0.0.1:8099/proposal.html",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "consoleErrors": [],
+      "failedRequests": [],
+      "overflow": {
+        "docWidth": 390,
+        "winWidth": 390,
+        "overflowing": false
+      },
+      "screenshot": "/opt/data/projects/prospect-batch/2026-07-17/studio-doc-dental-clinic/verification/proposal-mobile.png"
+    }
+  },
+  "mobile-menu-behavior": {
+    "beforeLabel": "Abrir menu",
+    "beforeExpanded": "false",
+    "openLabel": "Fechar menu",
+    "openExpanded": "true",
+    "navOpenAttr": "true",
+    "toggleBox": {
+      "x": 322,
+      "y": 10,
+      "width": 48,
+      "height": 48
+    },
+    "afterEscLabel": "Abrir menu",
+    "afterEscExpanded": "false",
+    "navOpenAfterEsc": "false",
+    "afterLinkExpanded": "false",
+    "navOpenAfterLink": "false",
+    "subBefore": "false",
+    "subAfter": "true",
+    "subOpenAttr": "true"
+  },
+  "tap-targets-mobile": [
+    {
+      "tag": "A",
+      "text": "Início",
+      "w": 342,
+      "h": 54,
+      "visible": true
+    },
+    {
+      "tag": "A",
+      "text": "Sobre nós",
+      "w": 342,
+      "h": 54,
+      "visible": true
+    },
+    {
+      "tag": "BUTTON",
+      "text": "▾\n            Abrir submenu Sobre nós",
+      "w": 44,
+      "h": 44,
+      "visible": true
+    },
+    {
+      "tag": "A",
+      "text": "Dra. Flávia Kubrusly",
+      "w": 0,
+      "h": 0,
+      "visible": false
+    },
+    {
+      "tag": "A",
+      "text": "Dr. Marcelo Arsego",
+      "w": 0,
+      "h": 0,
+      "visible": false
+    },
+    {
+      "tag": "A",
+      "text": "Dr. Frank Susaki Filho",
+      "w": 0,
+      "h": 0,
+      "visible": false
+    },
+    {
+      "tag": "A",
+      "text": "Dra. Jaína Dias de Oliveira",
+      "w": 0,
+      "h": 0,
+      "visible": false
+    },
+    {
+      "tag": "A",
+      "text": "Especialidades",
+      "w": 342,
+      "h": 54,
+      "visible": true
+    },
+    {
+      "tag": "BUTTON",
+      "text": "▾\n            Abrir submenu Especialidad",
+      "w": 44,
+      "h": 44,
+      "visible": true
+    },
+    {
+      "tag": "A",
+      "text": "Odontologia estética",
+      "w": 0,
+      "h": 0,
+      "visible": false
+    },
+    {
+      "tag": "A",
+      "text": "Implantodontia",
+      "w": 0,
+      "h": 0,
+      "visible": false
+    },
+    {
+      "tag": "A",
+      "text": "Cirurgia e traumatologia buco-maxilo-fac",
+      "w": 0,
+      "h": 0,
+      "visible": false
+    },
+    {
+      "tag": "A",
+      "text": "Harmonização facial",
+      "w": 0,
+      "h": 0,
+      "visible": false
+    },
+    {
+      "tag": "A",
+      "text": "Periodontia",
+      "w": 0,
+      "h": 0,
+      "visible": false
+    },
+    {
+      "tag": "A",
+      "text": "Ortodontia",
+      "w": 0,
+      "h": 0,
+      "visible": false
+    },
+    {
+      "tag": "A",
+      "text": "Endodontia",
+      "w": 0,
+      "h": 0,
+      "visible": false
+    },
+    {
+      "tag": "A",
+      "text": "Localização",
+      "w": 342,
+      "h": 54,
+      "visible": true
+    },
+    {
+      "tag": "A",
+      "text": "Contato",
+      "w": 342,
+      "h": 54,
+      "visible": true
+    },
+    {
+      "tag": "A",
+      "text": "WhatsApp (41) 4101-8888",
+      "w": 342,
+      "h": 56,
+      "visible": true
+    },
+    {
+      "tag": "A",
+      "text": "Ligar agora",
+      "w": 342,
+      "h": 56,
+      "visible": true
+    },
+    {
+      "tag": "A",
+      "text": "Agendar no WhatsApp",
+      "w": 48,
+      "h": 49,
+      "visible": true
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "w": 48,
+      "h": 48,
+      "visible": true
+    },
+    {
+      "tag": "A",
+      "text": "Agendar avaliação no WhatsApp",
+      "w": 350,
+      "h": 75,
+      "visible": true
+    },
+    {
+      "tag": "A",
+      "text": "Ver especialidades",
+      "w": 350,
+      "h": 54,
+      "visible": true
+    },
+    {
+      "tag": "A",
+      "text": "Conhecer o corpo clínico",
+      "w": 300,
+      "h": 54,
+      "visible": true
+    },
+    {
+      "tag": "A",
+      "text": "Agendar pelo WhatsApp",
+      "w": 302,
+      "h": 54,
+      "visible": true
+    },
+    {
+      "tag": "A",
+      "text": "",
+      "w": 52,
+      "h": 52,
+      "visible": true
+    }
+  ],
+  "anchor-audit": {
+    "totalLocalAnchors": 27,
+    "missing": []
+  }
+}

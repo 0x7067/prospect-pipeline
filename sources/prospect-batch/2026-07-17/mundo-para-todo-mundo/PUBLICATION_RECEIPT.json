@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "status": "published_temporary_preview",
+  "provider": "cloudflare-temporary-account",
+  "deployed_at_utc": "2026-07-17T13:13:33Z",
+  "production_url": "https://mundo-para-todo-mundo-preview.smart-banjo.workers.dev/",
+  "proposal_url": "https://mundo-para-todo-mundo-preview.smart-banjo.workers.dev/proposal.html",
+  "version_id": "95c56ccc-57fc-4fd0-acac-28d698cbc973",
+  "publication_manifest_sha256": "62d0ea570a733bb714f81582dc672b2158f20a474636ae64ad7cf630acc4f313",
+  "live_integrity": {
+    "matched_files": 23,
+    "total_files": 23,
+    "production_http": 200,
+    "proposal_http": 200
+  },
+  "official_domain_modified": false,
+  "outreach_performed": false,
+  "notes": "Temporary preview only. Claim credential intentionally not stored."
+}

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Da Vinci Clínica Veterinária 24h — Pronto Atendimento em Curitiba</title>
+<meta name="description" content="Clínica veterinária 24 horas no bairro São Francisco, Curitiba. Emergência, internação, consultas com especialistas e banho e tosa climatizado. Ligue agora: (41) 3016-2606." />
+<link rel="icon" href="assets/images/favicon-official.png" type="image/png" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- ===================== UTILITY BAR (desktop persistent contact) ===================== -->
+<div class="utility-bar">
+  <div class="container">
+    <div class="utility-bar__contacts">
+      <span class="utility-bar__badge">Plantão 24h</span>
+      <a href="tel:+554130162606" aria-label="Ligar agora para (41) 3016-2606">
+        <span aria-hidden="true">📞</span> (41) 3016-2606
+      </a>
+      <a href="https://wa.me/554130162606" target="_blank" rel="noopener noreferrer" aria-label="Abrir WhatsApp (41) 3016-2606 em nova aba">
+        <span aria-hidden="true">💬</span> WhatsApp
+      </a>
+    </div>
+    <span class="utility-bar__meta">Rua Tapajós, 260 — São Francisco, Curitiba/PR</span>
+  </div>
+</div>
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-header">
+  <div class="container">
+    <a class="site-logo" href="index.html" aria-label="Da Vinci Clínica Veterinária 24h — início">
+      <img src="assets/images/logo-davinci-primary.png" alt="Da Vinci Clínica Veterinária 24h — Curitiba" width="313" height="111" />
+    </a>
+
+    <nav class="primary-nav" aria-label="Navegação principal">
+      <a href="#triagem">Emergência</a>
+      <a href="#clinica">A Clínica</a>
+      <a href="#especialidades">Especialidades</a>
+      <a href="#internacao">Internação</a>
+      <a href="#banho-tosa">Banho e Tosa</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="btn btn-emergency btn-sm btn-call-header" href="tel:+554130162606">
+        <span aria-hidden="true">📞</span> Ligar agora
+      </a>
+      <button type="button" class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Abrir menu">
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ===================== MOBILE NAV (off-canvas) ===================== -->
+<nav class="mobile-nav" id="mobileNav" data-open="false" aria-label="Navegação móvel" aria-hidden="true">
+  <button type="button" class="mobile-nav__close" id="navClose" aria-label="Fechar menu">&times;</button>
+  <ul>
+    <li><a href="#triagem">Emergência</a></li>
+    <li><a href="#clinica">A Clínica</a></li>
+    <li><a href="#especialidades">Especialidades</a></li>
+    <li><a href="#internacao">Internação</a></li>
+    <li><a href="#banho-tosa">Banho e Tosa</a></li>
+    <li><a href="#contato">Contato</a></li>
+  </ul>
+  <div class="mobile-nav__cta">
+    <a class="btn btn-emergency btn-block" href="tel:+554130162606">📞 Ligar agora — (41) 3016-2606</a>
+    <a class="btn btn-outline-light btn-block" href="https://wa.me/554130162606" target="_blank" rel="noopener noreferrer">💬 Chamar no WhatsApp</a>
+  </div>
+</nav>
+
+<main id="conteudo">
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero">
+    <div class="hero__media">
+      <img src="assets/images/hero-fundo-escuro.jpg" alt="Ambiente interno da Da Vinci Clínica Veterinária, farmácia e sala de atendimento" />
+    </div>
+    <div class="container hero__content">
+      <span class="hero__eyebrow">Emergência? Ligue agora — atendemos 24h, todos os dias</span>
+      <h1>Atendimento médico personalizado, com respeito e qualidade — 24 horas por dia.</h1>
+      <p class="hero__lede">Pronto atendimento, internação e especialistas para cães e gatos na Rua Tapajós, 260, São Francisco, Curitiba. Um só número para emergência, consulta ou internação.</p>
+      <div class="hero__actions">
+        <a class="btn btn-emergency" href="tel:+554130162606">
+          <span aria-hidden="true">📞</span> Ligar agora — (41) 3016-2606
+        </a>
+        <a class="btn btn-whatsapp" href="https://wa.me/554130162606" target="_blank" rel="noopener noreferrer">
+          <span aria-hidden="true">💬</span> Chamar no WhatsApp
+        </a>
+      </div>
+      <ul class="hero__meta">
+        <li><span class="dot" aria-hidden="true"></span> Rua Tapajós, 260 — São Francisco, Curitiba/PR</li>
+        <li><span class="dot" aria-hidden="true"></span> Todos os dias, inclusive feriados</li>
+        <li><span class="dot" aria-hidden="true"></span> Estacionamento próprio</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===================== TRIAGE / JOURNEYS ===================== -->
+  <section class="triage" id="triagem" aria-labelledby="triagem-title">
+    <div class="container">
+      <div class="triage__head">
+        <span class="section-label">O que o seu pet precisa agora?</span>
+        <h2 class="section-title" id="triagem-title">Quatro caminhos claros — nada de formulário genérico.</h2>
+        <p class="section-intro">Escolha a situação do seu animal e vá direto ao contato certo. Emergência tem prioridade absoluta.</p>
+      </div>
+
+      <div class="triage__scroller">
+        <article class="triage-card triage-card--emergency">
+          <span class="triage-card__tag">Agora</span>
+          <h3>É uma emergência</h3>
+          <p>Acidente, mal súbito, sangramento, dificuldade para respirar ou qualquer sinal grave. Não espere — ligue e já venha para a clínica.</p>
+          <a class="btn btn-emergency btn-sm" href="tel:+554130162606">📞 Ligar agora</a>
+        </article>
+
+        <article class="triage-card">
+          <span class="triage-card__tag">Consulta</span>
+          <h3>Consulta ou especialista</h3>
+          <p>Check-up de rotina, acompanhamento ou encaminhamento para uma das 13 especialidades da clínica — de cardiologia a oncologia.</p>
+          <a class="btn btn-olive btn-sm" href="#especialidades">Ver especialidades</a>
+        </article>
+
+        <article class="triage-card">
+          <span class="triage-card__tag">Internação</span>
+          <h3>Internação ou isolamento</h3>
+          <p>Acompanhamento contínuo 24h em ambiente climatizado, com alimentação adequada durante todo o período de internação.</p>
+          <a class="btn btn-olive btn-sm" href="#internacao">Saiba como funciona</a>
+        </article>
+
+        <article class="triage-card">
+          <span class="triage-card__tag">Não é urgente</span>
+          <h3>Banho e tosa</h3>
+          <p>Banho e tosa climatizado, com hora marcada — e serviço de leva e traz se você não puder trazer seu pet.</p>
+          <a class="btn btn-ghost btn-sm" href="#banho-tosa">Ver banho e tosa</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TRUST / DIFERENCIAIS ===================== -->
+  <section class="trust" id="clinica" aria-labelledby="clinica-title">
+    <div class="container trust__layout">
+      <div class="trust__copy">
+        <span class="section-label">A Clínica</span>
+        <h2 class="section-title" id="clinica-title">Um ambiente diferenciado, feito para atender qualquer horário.</h2>
+        <p class="section-intro">A Da Vinci possui um ambiente diferenciado e uma equipe que vivencia uma nova consciência na forma de tratar os animais.</p>
+
+        <div class="trust__grid">
+          <div class="trust-item">
+            <img src="assets/images/icon-plantao-24h.png" alt="" width="44" height="44" />
+            <h3>Plantão 24h</h3>
+            <p>Emergência atendida a qualquer hora, todos os dias da semana, inclusive feriados.</p>
+          </div>
+          <div class="trust-item">
+            <img src="assets/images/icon-especialistas.png" alt="" width="44" height="44" />
+            <h3>Especialistas qualificados</h3>
+            <p>Equipe dedicada às 13 especialidades e 6 tipos de cirurgia oferecidas pela clínica.</p>
+          </div>
+          <div class="trust-item">
+            <img src="assets/images/icon-estrutura.png" alt="" width="44" height="44" />
+            <h3>Estrutura completa</h3>
+            <p>Centro cirúrgico, farmácia, internação, isolamento e centro de imunização próprios.</p>
+          </div>
+          <div class="trust-item">
+            <img src="assets/images/icon-cameras.png" alt="" width="44" height="44" />
+            <h3>Monitoração por câmeras</h3>
+            <p>Ambiente monitorado para acompanhar a segurança do seu pet durante a permanência.</p>
+          </div>
+        </div>
+
+        <div class="trust__vet">
+          <div>
+            <strong>Dra. Fernanda Zimmermann Callegari</strong>
+            Responsável técnica — especialista em Cirurgia de Pequenos Animais · CRMV-PR 10568
+          </div>
+        </div>
+      </div>
+
+      <div class="trust__photo">
+        <img src="assets/images/a-clinica-hero.png" alt="Estrutura interna da Da Vinci Clínica Veterinária, mostrando o ambiente de atendimento" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FACILITY GALLERY ===================== -->
+  <section class="gallery" aria-labelledby="gallery-title">
+    <div class="container">
+      <div class="gallery__head">
+        <span class="section-label">Conheça a estrutura</span>
+        <h2 class="section-title" id="gallery-title">A clínica por dentro.</h2>
+        <p class="section-intro">Fotos reais do dia a dia da Da Vinci — recepção, centro cirúrgico, internação, isolamento e farmácia.</p>
+      </div>
+
+      <div class="gallery__strip">
+        <figure class="gallery-item">
+          <div class="gallery-item__frame"><img src="assets/images/facility-recepcao.jpg" alt="Recepção da Da Vinci Clínica Veterinária" /></div>
+          <span>Recepção</span>
+        </figure>
+        <figure class="gallery-item">
+          <div class="gallery-item__frame"><img src="assets/images/facility-consultorio.jpg" alt="Consultório da Da Vinci Clínica Veterinária" /></div>
+          <span>Consultório</span>
+        </figure>
+        <figure class="gallery-item">
+          <div class="gallery-item__frame"><img src="assets/images/facility-centro-cirurgico.jpg" alt="Centro cirúrgico da Da Vinci Clínica Veterinária" /></div>
+          <span>Centro cirúrgico</span>
+        </figure>
+        <figure class="gallery-item">
+          <div class="gallery-item__frame"><img src="assets/images/facility-internamento-01.jpg" alt="Sala de internamento da Da Vinci Clínica Veterinária" /></div>
+          <span>Internamento</span>
+        </figure>
+        <figure class="gallery-item">
+          <div class="gallery-item__frame"><img src="assets/images/facility-isolamento.jpg" alt="Sala de isolamento da Da Vinci Clínica Veterinária" /></div>
+          <span>Isolamento</span>
+        </figure>
+        <figure class="gallery-item">
+          <div class="gallery-item__frame"><img src="assets/images/facility-farmacia.jpg" alt="Farmácia da Da Vinci Clínica Veterinária" /></div>
+          <span>Farmácia</span>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SPECIALTIES & SURGERIES ===================== -->
+  <section class="expertise" id="especialidades" aria-labelledby="expertise-title">
+    <div class="container">
+      <span class="section-label">Especialidades e cirurgias</span>
+      <h2 class="section-title" id="expertise-title">Tratamentos específicos para o bem-estar do seu animal.</h2>
+
+      <div class="expertise__cols">
+        <div class="expertise-block">
+          <h3>Especialidades</h3>
+          <p class="expertise-block__sub">Diversos tratamentos específicos para o bem-estar do seu animal de estimação.</p>
+          <div class="tag-cloud">
+            <span>Ortopedia</span>
+            <span>Oftalmologia</span>
+            <span>Oncologia</span>
+            <span>Anestesiologia</span>
+            <span>Cardiologia</span>
+            <span>Neurologia</span>
+            <span>Odontologia</span>
+            <span>Dermatologia</span>
+            <span>Endocrinologia</span>
+            <span>Acupuntura</span>
+            <span>Fisioterapia</span>
+            <span>Nutrição</span>
+            <span>Medicina Felina</span>
+          </div>
+        </div>
+
+        <div class="expertise-block expertise-block--surgery">
+          <h3>Cirurgias</h3>
+          <p class="expertise-block__sub">O seu melhor amigo nas mãos dos mais qualificados profissionais.</p>
+          <div class="tag-cloud">
+            <span>Cirurgia de Castração</span>
+            <span>Cirurgia Ortopédica</span>
+            <span>Cirurgia Oftálmica</span>
+            <span>Cirurgia de Tecidos Moles</span>
+            <span>Cirurgia Oncológica</span>
+            <span>Neurocirurgia</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== INTERNAÇÃO / ISOLAMENTO ===================== -->
+  <section class="internacao" id="internacao" aria-labelledby="internacao-title">
+    <div class="container internacao__layout">
+      <div class="internacao__frame">
+        <img src="assets/images/facility-isolamento.jpg" alt="Sala de isolamento climatizada da Da Vinci Clínica Veterinária" />
+      </div>
+      <div>
+        <span class="section-label">Internação e isolamento</span>
+        <h2 class="section-title" id="internacao-title">Acompanhamento contínuo, 24 horas por dia.</h2>
+        <p class="section-intro">Veterinários acompanham o estado de saúde do seu pet durante 24 horas em um ambiente limpo, confortável e climatizado, com alimentação de qualidade durante todo o período de internação ou isolamento.</p>
+        <div class="hero__actions" style="margin-top:22px;">
+          <a class="btn btn-emergency" href="tel:+554130162606">📞 Falar com a clínica agora</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SOCIAL PROOF ===================== -->
+  <section class="proof" aria-labelledby="proof-title">
+    <div class="container">
+      <span class="section-label" style="color:var(--color-sage-light)">O que dizem os tutores</span>
+      <h2 class="section-title" id="proof-title" style="color:#fff;">Confiança construída no dia a dia da clínica.</h2>
+
+      <div class="proof__rating">
+        <strong>4,5</strong>
+        <span class="rating-stars" style="--rating-fill:90%;" aria-hidden="true">
+          <span class="rating-stars-track">★★★★★</span>
+          <span class="rating-stars-fill">★★★★★</span>
+        </span>
+        <span>de 5 · 199 avaliações no Google</span>
+        <span class="proof__rating-source">Nota e número de avaliações reproduzidos do guia local guiaemcuritiba.com.br (ver fontes no repositório do projeto).</span>
+      </div>
+
+      <div class="testimonials">
+        <blockquote class="testimonial">
+          <p>"Meu amigão Luke foi tratado como um rei. Equipe ultra carinhosa, paciente e profissional. Agora o garoto está bonito e cheirosão."</p>
+          <cite>Everton Facundes Telles</cite>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p>"Minha gatinha encontra na Da Vinci o carinho de uma equipe selecionada, com profissionais que sempre inovam. É tecnologia avançada em todos os segmentos. A Da Vinci traz muita tranquilidade a pessoas como eu, que amam seus bichinhos."</p>
+          <cite>Fabiana Almeida Gomes de Sá</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ELECTIVE — BANHO E TOSA / LEVA E TRAZ ===================== -->
+  <section class="elective" id="banho-tosa" aria-labelledby="elective-title">
+    <div class="container elective__layout">
+      <div class="elective__frame">
+        <img src="assets/images/facility-banho-tosa-01.jpg" alt="Banho e tosa climatizado na Da Vinci Clínica Veterinária" />
+      </div>
+      <div>
+        <span class="elective__badge">Não é emergência — hora marcada</span>
+        <h2 class="section-title" id="elective-title">Banho e tosa climatizado, com todo o carinho.</h2>
+        <p>Higiene também é saúde. O ambiente é climatizado, as toalhas são individuais e esterilizadas, e a água tem temperatura regulável — quentinha no inverno, refrescante no verão.</p>
+        <p>Não pode trazer seu pet? O serviço <strong>Leva e Traz</strong> busca e devolve seu animal em um veículo equipado e seguro.</p>
+        <div class="elective__loyalty">
+          <strong>Cartão fidelidade:</strong> a cada 10 visitas, seu pet ganha um banho e uma tosa higiênica.
+        </div>
+        <div class="elective__actions">
+          <a class="btn btn-olive" href="tel:+554130162606">📞 Agendar horário</a>
+          <a class="btn btn-ghost" href="https://wa.me/554130162606" target="_blank" rel="noopener noreferrer">💬 Agendar pelo WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT / LOCATION ===================== -->
+  <section class="contact" id="contato" aria-labelledby="contact-title">
+    <div class="container contact__layout">
+      <div>
+        <span class="section-label" style="color:var(--color-sage);">Fale com a Da Vinci</span>
+        <h2 class="section-title" id="contact-title" style="color:#fff;">Emergência é agora. Consulta você marca no seu tempo.</h2>
+
+        <ul class="contact__hours">
+          <li><span>Pronto atendimento e internação</span> <span class="badge-24">24h todos os dias</span></li>
+          <li><span>Banho e Tosa Climatizado</span> <span>Seg–Sex 9h–18h</span></li>
+          <li><span>Banho e Tosa Climatizado</span> <span>Sábado 9h–17h</span></li>
+        </ul>
+
+        <div class="contact__actions">
+          <a class="btn btn-emergency" href="tel:+554130162606">📞 (41) 3016-2606</a>
+          <a class="btn btn-whatsapp" href="https://wa.me/554130162606" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
+        </div>
+
+        <p class="contact__address">
+          Rua Tapajós, 260 — São Francisco/Mercês, Curitiba/PR<br />
+          <a href="https://www.google.com.br/maps/place/Cl%C3%ADnica+Veterin%C3%A1ria+Da+Vinci+24h/@-25.4206465,-49.2835,17z/data=!3m1!4b1!4m5!3m4!1s0x94dce406e11fd725:0xe65659dc281d9460!8m2!3d-25.4206465!4d-49.2813113?hl=en" target="_blank" rel="noopener noreferrer">Ver rota no Google Maps</a>
+          · Estacionamento próprio
+        </p>
+      </div>
+
+      <div class="contact__map">
+        <img src="assets/images/map-endereco.png" alt="Mapa de localização da Da Vinci Clínica Veterinária, Rua Tapajós 260, São Francisco, Curitiba" />
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="container site-footer__grid">
+    <div>
+      <img src="assets/images/logo-davinci-responsive.png" alt="Da Vinci Clínica Veterinária 24h" style="height:40px; margin-bottom:14px;" />
+      <p>Clínica veterinária, pronto atendimento e internação 24h para cães e gatos, no bairro São Francisco, Curitiba/PR.</p>
+      <div class="site-footer__social">
+        <a href="https://www.facebook.com/veterinariadavinci/" target="_blank" rel="noopener noreferrer" aria-label="Da Vinci no Facebook">f</a>
+        <a href="https://www.instagram.com/veterinariadavinci/" target="_blank" rel="noopener noreferrer" aria-label="Da Vinci no Instagram">ig</a>
+      </div>
+    </div>
+
+    <div>
+      <h4>Navegação</h4>
+      <ul>
+        <li><a href="#triagem">Emergência</a></li>
+        <li><a href="#clinica">A Clínica</a></li>
+        <li><a href="#especialidades">Especialidades</a></li>
+        <li><a href="#internacao">Internação</a></li>
+        <li><a href="#banho-tosa">Banho e Tosa</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Contato</h4>
+      <ul>
+        <li><a href="tel:+554130162606">(41) 3016-2606</a></li>
+        <li><a href="https://wa.me/554130162606" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+        <li><a href="mailto:contato@veterinariadavinci.com.br">contato@veterinariadavinci.com.br</a></li>
+        <li>Rua Tapajós, 260 — São Francisco, Curitiba/PR</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container site-footer__bottom">
+    <span>© Da Vinci Clínica Veterinária 24h — CNPJ 25.293.495/0001-15</span>
+    <span>Rua Tapajós, 260 — São Francisco/Mercês, Curitiba/PR</span>
+  </div>
+</footer>
+
+<!-- ===================== MOBILE PERSISTENT CALL BAR ===================== -->
+<div class="mobile-callbar" role="navigation" aria-label="Contato rápido">
+  <a href="tel:+554130162606" aria-label="Ligar agora para (41) 3016-2606">📞 Ligar agora</a>
+  <a href="https://wa.me/554130162606" target="_blank" rel="noopener noreferrer" aria-label="Abrir WhatsApp em nova aba">💬 WhatsApp</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

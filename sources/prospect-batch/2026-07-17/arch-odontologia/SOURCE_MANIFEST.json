@@ -1,0 +1,103 @@
+{
+  "project": "Arch Odontologia — redesign demonstrativo",
+  "retrieved_at": "2026-07-17",
+  "source_policy": "Fontes oficiais da clínica são primárias. Fontes públicas de perfis profissionais foram usadas apenas para números CRO individualmente correspondentes. Números não confirmados não foram publicados.",
+  "business_sources": [
+    {
+      "id": "official-home",
+      "url": "https://www.archodontologia.com/",
+      "used_for": ["nome da clínica", "endereço", "telefone", "e-mail", "estacionamento gratuito", "linhas gerais de tratamentos", "método Acolher/Arquitetar/Realizar/Manter", "identidade visual"]
+    },
+    {
+      "id": "official-team",
+      "url": "https://www.archodontologia.com/equipe-arch-odontologia",
+      "used_for": ["nomes da equipe", "áreas de atuação", "retratos oficiais"]
+    },
+    {
+      "id": "official-invisalign",
+      "url": "https://www.archodontologia.com/invisalign",
+      "used_for": ["oferta de Invisalign e ortodontia"]
+    },
+    {
+      "id": "official-lentes",
+      "url": "https://www.archodontologia.com/lentesdecontato",
+      "used_for": ["oferta de lentes de contato dental e odontologia estética"]
+    },
+    {
+      "id": "official-clinic",
+      "url": "https://www.archodontologia.com/clinicaodontologicacuritiba",
+      "used_for": ["posicionamento institucional e clínica em Curitiba"]
+    },
+    {
+      "id": "doctoralia-luana",
+      "url": "https://www.doctoralia.com.br/luana-delmonego/dentista/curitiba",
+      "used_for": ["CRO-PR 20.055 de Luana Beatriz Delmonego Garcia"]
+    },
+    {
+      "id": "doctoralia-felipe",
+      "url": "https://www.doctoralia.com.br/felipe-mussi/dentista/curitiba",
+      "used_for": ["CRO-PR 22.293 de Felipe Hara Mussi"]
+    },
+    {
+      "id": "doctoralia-fabio",
+      "url": "https://www.doctoralia.com.br/servicos-de-tratamento/manutencao-de-invisalign/curitiba",
+      "used_for": ["CRO-PR 30.116 do Dr. Fábio Santos associado ao mesmo endereço da Arch"]
+    }
+  ],
+  "official_assets": [
+    {
+      "local": "assets/official/logo.png",
+      "origin": "https://static.wixstatic.com/media/19f5a2_7943607e9fbb4322b745f1bd5b055a88~mv2_d_2000_1954_s_2.png",
+      "role": "símbolo/logotipo"
+    },
+    {
+      "local": "assets/official/clinic-hero.webp",
+      "origin": "https://static.wixstatic.com/media/19f5a2_fabdd7685e8c48a9be1ea7710e0f66d8~mv2_d_5171_3447_s_4_2.jpg",
+      "role": "hero e capa da proposta"
+    },
+    {
+      "local": "assets/official/clinic-room.webp",
+      "origin": "https://static.wixstatic.com/media/19f5a2_06fecf9af62f48a19cd51995dda4deec~mv2.jpg",
+      "role": "ambiente da clínica"
+    },
+    {
+      "local": "assets/official/smile.webp",
+      "origin": "https://static.wixstatic.com/media/19f5a2_c4aed3d6ec9d461c811b8d1a7c32f03f~mv2.jpg",
+      "role": "imagem de apoio para contato"
+    },
+    {
+      "local": "assets/official/luana.webp",
+      "origin": "https://static.wixstatic.com/media/19f5a2_d52cedb547044b2b8a788cb8b8b87afe~mv2_d_3205_4808_s_4_2.jpg",
+      "role": "retrato de Dra. Luana Delmonego"
+    },
+    {
+      "local": "assets/official/juarez.webp",
+      "origin": "https://static.wixstatic.com/media/19f5a2_f2a9ec9b8e0446618994c0ab2be7ea65~mv2.jpg",
+      "role": "retrato de Dr. Juarez Garcia"
+    },
+    {
+      "local": "assets/official/felipe.webp",
+      "origin": "https://static.wixstatic.com/media/19f5a2_e9990db3317d482eaecc394c5adb9770~mv2.jpg",
+      "role": "retrato de Dr. Felipe Mussi"
+    },
+    {
+      "local": "assets/official/fabio.webp",
+      "origin": "https://static.wixstatic.com/media/19f5a2_61b7fffd1aeb42b691cd0468c9b47717~mv2_d_3266_4900_s_4_2.jpg",
+      "role": "retrato de Dr. Fábio Santos"
+    }
+  ],
+  "contact_data": {
+    "published": {
+      "address": "Avenida Sete de Setembro, 5739, 2º andar — Batel, Curitiba",
+      "phone": "+55 41 3022-2999",
+      "email": "contato@archodontologia.com"
+    },
+    "not_published_pending_confirmation": [
+      "WhatsApp: o número localmente documentado para a versão atual é +55 41 99277-0333; confirmar diretamente com a clínica antes da publicação definitiva",
+      "CRO do Dr. Juarez Garcia e demais profissionais não exibidos: não foi localizado registro inequívoco em fonte pública durante a pesquisa",
+      "CRO de pessoa jurídica e responsável técnico: confirmar com a clínica para o rodapé legal definitivo"
+    ]
+  },
+  "transformations": "As imagens oficiais foram baixadas por endpoints de transformação do CDN Wix para WebP/PNG, com dimensões e qualidade adequadas à web; não houve geração de imagens nem alteração de identidade.",
+  "ethical_copy": "Não foram publicadas garantias, superlativos não verificáveis, preços, depoimentos inventados nem promessas de resultado. A indicação de tratamento é condicionada à avaliação clínica."
+}

@@ -1,0 +1,163 @@
+CONTABILIDADE CURITIBA - Há mais de 30 anos na prestação de serviços contábeis fiscais, trabalhistas e societários
+(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.8"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));
+INICIAL
+QUEM SOMOS
+SERVIÇOS
+LEGALIZAÇÃO DE EMPRESAS (SOCIETÁRIO)
+DEPARTAMENTO FISCAL
+DEPARTAMENTO PESSOAL
+DEPARTAMENTO CONTÁBIL
+IMPOSTO DE RENDA
+LINKS ÚTEIS
+CONTATO
+INICIAL
+QUEM SOMOS
+SERVIÇOS
+LEGALIZAÇÃO DE EMPRESAS (SOCIETÁRIO)
+DEPARTAMENTO FISCAL
+DEPARTAMENTO PESSOAL
+DEPARTAMENTO CONTÁBIL
+IMPOSTO DE RENDA
+LINKS ÚTEIS
+CONTATO
+CONTABILIDADE CURITIBA
+Com mais de 30 anos de experiência sem parar no tempo, nós, da CONTABILIDADE CURITIBA, somos uma organização para prestação de serviços contábeis fiscais, trabalhistas e societários, que tem como objetivo atender as empresas que desejam ter as melhores soluções para o seu desenvolvimento. Somos devidamente registrados no Conselho Regional de Contabilidade do Paraná, atendendo todas as suas necessidades com segurança e precisão. Contrate um serviço de contabilidade e ganhe assessoria inteligente e personalizada.
+MISSÃO QUE NOS ORIENTA
+Desenvolver nas empresas crescimento e lucratividade. Solidificando parcerias, através de orientação precisa, proporcionando segurança e integridade.
+NOSSOS VALORES
+Nossos Valores representam os princípios que orientam a empresa e todos os nossos colaboradores os devem adotar
+EXCELÊNCIA
+Entregamos o que prometemos, de forma eficiente e precisa. Agregamos valor para exceder as expectativas, indo além do esperado.
+ATENDIMENTO
+A satisfação dos nossos clientes é o que movimenta nosso crescimento. Por isso, damos total atenção ao relacionamento com você.
+PESSOAS
+A nossa equipe é parte fundamental do bom atendimento e da excelência dos serviços e, por isso, valorizamos e investimos em pessoas
+SETORES DO NOSSO ESCRITÓRIO
+LEGALIZAÇÃO DE EMPRESAS (SOCIETÁRIO)
+DEPARTAMENTO FISCAL
+DEPARTAMENTO PESSOAL
+DEPARTAMENTO CONTÁBIL
+IMPOSTO DE RENDA PF
+LINKS ÚTEIS
+INSTITUCIONAL
+»
+Receita Federal do Brasil
+»
+INSS
+»
+Portal da NFe
+»
+Portal do SPED
+»
+Siscomex
+»
+CRC/PR
+»
+SESCAP/PR
+»
+Receita Estadual do Paraná
+»
+Prefeitura de Curitiba
+»
+Junta Comercial do Paraná
+»
+e-Social
+»
+Ministério do Trabalho e Emprego
+»
+IBGE
+»
+Caixa
+»
+Banco Central
+CERTIDÕES
+»
+Certidão Negativa Conjunta de Tributos Federais (RFB e INSS)
+»
+Certidão Regularidade FGTS
+»
+Certidão Negativa de Débitos Trabalhistas
+»
+Certidão Negativa Justiça Federal
+»
+CND Receita Estadual do Paraná
+»
+Certidão Negativa de Débitos de Imóvel Rural
+»
+CND Municipal - Curitiba/PR
+ÍNDICES
+»
+SELIC
+»
+Taxas de juros de operações de crédito
+»
+Taxas de Câmbio
+»
+Ranking do VET (Valor Efetivo Total) nas operações de Câmbio
+»
+IBOVESPA
+CALCULADORAS
+»
+Correção de Valores (Índices de Preços, TR, Poupança, SELIC ou CDI)
+»
+Valor Futuro de um Capital
+»
+Aplicação com depósitos regulares
+»
+Cartão de Crédito
+»
+Financiamento com Prestações Fixas
+UTILITÁRIOS
+»
+Cartão CNPJ
+»
+Consulta CNAE
+»
+Coletor Nacional (REDESIM)
+»
+DBE Acompanhamento
+»
+Códigos da Receita (DARF e DJE)
+»
+Consulta Optantes - Simples Nacional
+»
+Agenda tributária
+»
+Simulador do Tratamento Tributário e Administrativo das Importações
+»
+Simples Nacional
+»
+Consulta NFe
+»
+Consulta DANFE
+»
+CBO - Classificaçao Brasileira de Ocupações
+»
+Consulta Cadastral de Profissionais e Organizações Contábeis (CFC)
+»
+Busca CEP
+ATENDIMENTO FOCADO EM EXCELÊNCIA
+ACOMPANHAMENTO DIFERENCIADO
+Acompanhamento diário da sua empresa por especialistas.
+COMPRIMENTO DAS OBRIGAÇÕES
+Cumprimento de todas as obrigações contábeis, fiscais e tributárias e trabalhistas.
+ATENDIMENTO EXCLUSIVO
+Atendimento rápido e personalizado via telefone, e-mail ou whatsapp.
+CONTABILIDADE CONDOMINIAL
+Análise detalhada nas prestações de contas do seu condomínio.
+SISTEMA DE MONITORAMENTO
+Sistema de monitoramento de cada demanda recebida.
+COMUNICADOS
+Comunicados de alertas sobre a situação da sua empresa em casos de irregularidades.
+Nossa sede está situada no bairro Ahú, próximo ao centro de nossa Capital, contamos com amplo espaço para maior conforto de nossos clientes e colaboradores. Agende um horário e venha nos visitar!
+Localização:
+Rua Newton França Bitencourt, 460
+Ahú - Curitiba - PR
+Telefone:
+41 3018 7461
+41 98841 3809
+Email:
+atendimento@contabilidadecuritiba.com
+Entre em contato através do formulário abaixo:
+new WOW().init();
+(function () { var options = { facebook: "", // Facebook page ID whatsapp: "+5541988413809 ", // WhatsApp number email: " atendimento@contabilidadecuritiba.com ", // Email call: "4130187461", // Call phone number company_logo_url: "https://www.webxsites.com.br/sap.jpg", // URL of company logo (png, jpg, gif) greeting_message: "Fale conosco pelo Whatsapp", // Text of greeting message call_to_action: "Converse conosco!", // Call to action button_color: "#7EA802", // Color of button position: "right", // Position may be 'right' or 'left' order: "facebook,whatsapp,sms,call,email", // Order of buttons }; var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host; var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js'; s.onload = function () { WhWidgetSendButton.init(host, proto, options); }; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); })();

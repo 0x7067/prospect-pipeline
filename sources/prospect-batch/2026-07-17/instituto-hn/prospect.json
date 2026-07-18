@@ -1,0 +1,26 @@
+{
+  "business_name": "Instituto HN",
+  "official_url": "https://institutohn.com.br/",
+  "run_date": "2026-07-15",
+  "category": "Cursos livres em saúde e estética",
+  "address": "Rua Constantino Marochi, 414 — Alto da Glória, Curitiba",
+  "active_evidence": "Negócio e site oficial verificados como ativos no relatório de 15/07/2026.",
+  "opportunity_score": 8.0,
+  "confidence": "média",
+  "problems": [
+    "Os diversos botões “Avise-me quando abrir uma nova turma” apontam somente para ; foram encontrados 19 links com href=\"\", sem abrir cadastro ou formulário.",
+    "A grade de cursos apresenta grandes áreas vazias onde deveriam aparecer imagens ou informações visuais.",
+    "A seção “O que os alunos estão falando” aparece como um painel vazio, contendo apenas setas de carrossel.",
+    "As páginas/cartões não informam claramente calendário, duração, carga horária, investimento ou disponibilidade das turmas.",
+    "Há problemas de qualidade e acessibilidade: 40 de 45 imagens têm alt vazio ou ausente, e o formulário traz “Coleta de sangue venenoso” em vez de “venoso”."
+  ],
+  "rebuild_angle": "catálogo de cursos com calendário, página individual, lista de espera funcional, informações curriculares, docentes, FAQ e integração direta com WhatsApp/CRM.",
+  "roi_mechanism": "Corrigir as falhas materiais do site e melhorar aquisição, confiança e conversão.",
+  "evidence_links": [
+    "https://institutohn.com.br/",
+    "https://www.instagram.com/hninstituto/",
+    "https://institutohn.com.br/toxina-botulinica/",
+    "https://www.google.com/maps/search/?api=1&query=Instituto+HN%2C+Rua+Constantino+Marochi+414%2C+Curitiba"
+  ],
+  "source_audit": "/opt/data/cron/output/bd2acb816e97/2026-07-15_08-37-06.md"
+}

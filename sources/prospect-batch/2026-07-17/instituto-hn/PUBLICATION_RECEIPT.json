@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "status": "published_temporary_preview",
+  "provider": "cloudflare-temporary-account",
+  "deployed_at_utc": "2026-07-17T13:13:40Z",
+  "production_url": "https://instituto-hn-preview.smart-banjo.workers.dev/",
+  "proposal_url": "https://instituto-hn-preview.smart-banjo.workers.dev/proposal.html",
+  "version_id": "7ce5231a-a8c6-4fd1-8a40-903e7828f9f0",
+  "publication_manifest_sha256": "8c2a909ae7fa5732f5f2066ca154472ad2362ffc0e9b70297a867f20fb4ee5a3",
+  "live_integrity": {
+    "matched_files": 21,
+    "total_files": 21,
+    "production_http": 200,
+    "proposal_http": 200
+  },
+  "official_domain_modified": false,
+  "outreach_performed": false,
+  "notes": "Temporary preview only. Claim credential intentionally not stored."
+}

@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "status": "complete",
+  "completed_at": "2026-07-18T01:36:00.000Z",
+  "variant": "/opt/data/projects/curitiba-rebuilds/2026-07-17/anarco-restaurante/kimi-variant",
+  "validation": {
+    "html_validate": "pass",
+    "stylelint": "pass",
+    "local_server_smoke": "pass",
+    "detector": "no findings"
+  }
+}

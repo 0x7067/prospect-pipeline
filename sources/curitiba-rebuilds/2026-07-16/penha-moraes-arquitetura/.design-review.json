@@ -1,0 +1,20 @@
+{
+  "schema": 2,
+  "status": "pass",
+  "build_id": "45962261c2c0cfbb7896dc8616105e96cd6c0bd20b688fbf92a0a6b3a363159e",
+  "reviewer_id": "hermes-final-design-gate-2026-07-17",
+  "reviewed_at": "2026-07-17T00:30:00+00:00",
+  "score": 88,
+  "issue_counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 1,
+    "low": 2,
+    "unsupported_claims": 0
+  },
+  "visual_token": "ZX5RlKxXuoZNIVJ8QPb-z1N6R7oTql72",
+  "audit_sha256": "4b9cc56ea97ca9426cc2de8c90331f1d57d67fd15f99f35b28c42d7fcaf0d5b2",
+  "visual_sha256": "3f425d0546145bc50302e20df95674605aaa0478542419d38e2b5bcb3feeb5e1",
+  "detector_sha256": "7e4ddecdb682ecc9c46647f2e1611761068c2bccd6b6318541051c70d95dffe1",
+  "summary": "Final design gate passed. Production hashes match the clean detector receipt, the independent critique/audit has zero blocking issues or unsupported claims, and the proposed design won both blinded desktop and mobile comparisons by the required margins. Publication remains separately blocked pending explicit build-bound human approval."
+}

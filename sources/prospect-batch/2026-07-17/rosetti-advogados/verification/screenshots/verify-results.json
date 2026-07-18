@@ -1,0 +1,425 @@
+{
+  "passes": [
+    "index @ desktop (1440x900): no horizontal overflow (scrollWidth=1440, clientWidth=1440)",
+    "index @ desktop (1440x900): zero console/page errors (got 0)",
+    "index @ desktop (1440x900): zero failed/4xx/5xx local requests (got 0)",
+    "index @ desktop (1440x900): all in-page anchors resolve (checked 15, missing [])",
+    "index @ desktop (1440x900): production text does not contain forbidden term \"proposta\"",
+    "index @ desktop (1440x900): production text does not contain forbidden term \"proposal\"",
+    "index @ desktop (1440x900): production text does not contain forbidden term \"redesign\"",
+    "index @ desktop (1440x900): production text does not contain forbidden term \"concept\"",
+    "index @ desktop (1440x900): production text does not contain forbidden term \"conceito\"",
+    "index @ desktop (1440x900): production text does not contain forbidden term \"prototype\"",
+    "index @ desktop (1440x900): production text does not contain forbidden term \"protótipo\"",
+    "index @ desktop (1440x900): production text does not contain forbidden term \"auditoria\"",
+    "index @ desktop (1440x900): production text does not contain forbidden term \"audit\"",
+    "index @ desktop (1440x900): production text does not contain forbidden term \"evidência\"",
+    "index @ desktop (1440x900): production text does not contain forbidden term \"evidence\"",
+    "index @ desktop (1440x900): production text does not contain forbidden term \"before-after\"",
+    "index @ desktop (1440x900): production text does not contain forbidden term \"antes-depois\"",
+    "index @ desktop (1440x900): production text does not contain forbidden term \"antes e depois\"",
+    "index @ desktop (1440x900): production text does not contain forbidden term \"não afiliação\"",
+    "index @ desktop (1440x900): production text does not contain forbidden term \"nao afiliacao\"",
+    "index @ desktop (1440x900): production text does not contain forbidden term \"não vinculado\"",
+    "index @ desktop (1440x900): production text does not contain forbidden term \"sem vínculo\"",
+    "index @ desktop (1440x900): production text does not contain forbidden term \"limitações\"",
+    "index @ desktop (1440x900): production text does not contain forbidden term \"limitations\"",
+    "index @ desktop (1440x900): production text does not contain forbidden term \"não publicado\"",
+    "index @ desktop (1440x900): production text does not contain forbidden term \"nao publicado\"",
+    "index @ desktop (1440x900): production text does not contain forbidden term \"estudo de redesign\"",
+    "index @ desktop (1440x900): production text does not contain forbidden term \"concept não publicado\"",
+    "index @ desktop (1440x900): no link to proposal.html anywhere in production page (found 0)",
+    "index @ desktop (1440x900): tap target scan recorded (21 elements under 44x44 css px, informational)",
+    "index @ mobile (390x844): no horizontal overflow (scrollWidth=390, clientWidth=390)",
+    "index @ mobile (390x844): zero console/page errors (got 0)",
+    "index @ mobile (390x844): zero failed/4xx/5xx local requests (got 0)",
+    "index @ mobile (390x844): all in-page anchors resolve (checked 15, missing [])",
+    "index @ mobile (390x844): production text does not contain forbidden term \"proposta\"",
+    "index @ mobile (390x844): production text does not contain forbidden term \"proposal\"",
+    "index @ mobile (390x844): production text does not contain forbidden term \"redesign\"",
+    "index @ mobile (390x844): production text does not contain forbidden term \"concept\"",
+    "index @ mobile (390x844): production text does not contain forbidden term \"conceito\"",
+    "index @ mobile (390x844): production text does not contain forbidden term \"prototype\"",
+    "index @ mobile (390x844): production text does not contain forbidden term \"protótipo\"",
+    "index @ mobile (390x844): production text does not contain forbidden term \"auditoria\"",
+    "index @ mobile (390x844): production text does not contain forbidden term \"audit\"",
+    "index @ mobile (390x844): production text does not contain forbidden term \"evidência\"",
+    "index @ mobile (390x844): production text does not contain forbidden term \"evidence\"",
+    "index @ mobile (390x844): production text does not contain forbidden term \"before-after\"",
+    "index @ mobile (390x844): production text does not contain forbidden term \"antes-depois\"",
+    "index @ mobile (390x844): production text does not contain forbidden term \"antes e depois\"",
+    "index @ mobile (390x844): production text does not contain forbidden term \"não afiliação\"",
+    "index @ mobile (390x844): production text does not contain forbidden term \"nao afiliacao\"",
+    "index @ mobile (390x844): production text does not contain forbidden term \"não vinculado\"",
+    "index @ mobile (390x844): production text does not contain forbidden term \"sem vínculo\"",
+    "index @ mobile (390x844): production text does not contain forbidden term \"limitações\"",
+    "index @ mobile (390x844): production text does not contain forbidden term \"limitations\"",
+    "index @ mobile (390x844): production text does not contain forbidden term \"não publicado\"",
+    "index @ mobile (390x844): production text does not contain forbidden term \"nao publicado\"",
+    "index @ mobile (390x844): production text does not contain forbidden term \"estudo de redesign\"",
+    "index @ mobile (390x844): production text does not contain forbidden term \"concept não publicado\"",
+    "index @ mobile (390x844): no link to proposal.html anywhere in production page (found 0)",
+    "index @ mobile (390x844): tap target scan recorded (21 elements under 44x44 css px, informational)",
+    "proposal @ desktop (1440x900): no horizontal overflow (scrollWidth=1440, clientWidth=1440)",
+    "proposal @ desktop (1440x900): zero console/page errors (got 0)",
+    "proposal @ desktop (1440x900): zero failed/4xx/5xx local requests (got 0)",
+    "proposal @ desktop (1440x900): all in-page anchors resolve (checked 0, missing [])",
+    "proposal @ desktop (1440x900): tap target scan recorded (1 elements under 44x44 css px, informational)",
+    "proposal @ mobile (390x844): no horizontal overflow (scrollWidth=390, clientWidth=390)",
+    "proposal @ mobile (390x844): zero console/page errors (got 0)",
+    "proposal @ mobile (390x844): zero failed/4xx/5xx local requests (got 0)",
+    "proposal @ mobile (390x844): all in-page anchors resolve (checked 0, missing [])",
+    "proposal @ mobile (390x844): tap target scan recorded (1 elements under 44x44 css px, informational)",
+    "menu: toggle starts aria-expanded=false",
+    "menu: toggle starts label \"Abrir menu\"",
+    "menu: nav toggle tap target >=44x44 (got 48x48)",
+    "menu: aria-expanded=true after open (button)",
+    "menu: label becomes \"Fechar menu\" after open",
+    "menu: nav has is-open class after open",
+    "menu: aria-expanded=false after Escape close",
+    "menu: label reverts to \"Abrir menu\" after Escape",
+    "menu: focus returns to toggle button after Escape close",
+    "menu: re-opens for link-close test",
+    "menu: first nav link tap target height >=44 (got 56)",
+    "menu: aria-expanded=false after clicking nav link (link-close)",
+    "menu: aria-expanded=false after scrim click",
+    "menu: re-opens for button-close test",
+    "menu: aria-expanded=false after clicking toggle button again (button-close)",
+    "menu: WhatsApp FAB tap target >=44x44 (got 56x56)",
+    "menu test: zero console errors (got 0)"
+  ],
+  "failures": [],
+  "results": {
+    "generatedAt": "2026-07-17T04:50:05.240Z",
+    "pages": {
+      "index": {
+        "desktop": {
+          "url": "http://127.0.0.1:8951/index.html",
+          "overflow": {
+            "scrollWidth": 1440,
+            "clientWidth": 1440
+          },
+          "consoleErrors": [],
+          "failedRequests": [],
+          "anchorCheck": {
+            "total": 15,
+            "missing": []
+          },
+          "subMinTapTargets": [
+            {
+              "tag": "A",
+              "text": "claudio@rosettiadvogados.adv.br",
+              "w": 1112,
+              "h": 24
+            },
+            {
+              "tag": "A",
+              "text": "juliane@rosettiadvogados.adv.br",
+              "w": 1112,
+              "h": 24
+            },
+            {
+              "tag": "A",
+              "text": "milena@rosettiadvogados.adv.br",
+              "w": 1112,
+              "h": 24
+            },
+            {
+              "tag": "A",
+              "text": "renata@rosettiadvogados.adv.br",
+              "w": 1112,
+              "h": 24
+            },
+            {
+              "tag": "A",
+              "text": "contato@rosettiadvogados.adv.br",
+              "w": 1112,
+              "h": 24
+            },
+            {
+              "tag": "A",
+              "text": "(41) 3015-5993",
+              "w": 121,
+              "h": 20
+            },
+            {
+              "tag": "A",
+              "text": "(41) 99820-0917",
+              "w": 131,
+              "h": 20
+            },
+            {
+              "tag": "A",
+              "text": "Ver no Google Maps ↗",
+              "w": 173,
+              "h": 20
+            },
+            {
+              "tag": "A",
+              "text": "Início",
+              "w": 42,
+              "h": 21
+            },
+            {
+              "tag": "A",
+              "text": "O Escritório",
+              "w": 90,
+              "h": 21
+            },
+            {
+              "tag": "A",
+              "text": "Equipe",
+              "w": 54,
+              "h": 21
+            },
+            {
+              "tag": "A",
+              "text": "Áreas de Atuação",
+              "w": 142,
+              "h": 21
+            },
+            {
+              "tag": "A",
+              "text": "Publicações",
+              "w": 96,
+              "h": 21
+            },
+            {
+              "tag": "A",
+              "text": "Contato",
+              "w": 64,
+              "h": 21
+            },
+            {
+              "tag": "A",
+              "text": "(41) 3015-5993",
+              "w": 121,
+              "h": 21
+            },
+            {
+              "tag": "A",
+              "text": "WhatsApp",
+              "w": 83,
+              "h": 21
+            },
+            {
+              "tag": "A",
+              "text": "contato@rosettiadvogados.adv.br",
+              "w": 270,
+              "h": 21
+            },
+            {
+              "tag": "A",
+              "text": "Instagram",
+              "w": 82,
+              "h": 21
+            },
+            {
+              "tag": "A",
+              "text": "Facebook",
+              "w": 78,
+              "h": 21
+            },
+            {
+              "tag": "A",
+              "text": "LinkedIn",
+              "w": 68,
+              "h": 21
+            },
+            {
+              "tag": "A",
+              "text": "rosettiadvogados.adv.br",
+              "w": 153,
+              "h": 16
+            }
+          ]
+        },
+        "mobile": {
+          "url": "http://127.0.0.1:8951/index.html",
+          "overflow": {
+            "scrollWidth": 390,
+            "clientWidth": 390
+          },
+          "consoleErrors": [],
+          "failedRequests": [],
+          "anchorCheck": {
+            "total": 15,
+            "missing": []
+          },
+          "subMinTapTargets": [
+            {
+              "tag": "A",
+              "text": "claudio@rosettiadvogados.adv.br",
+              "w": 262,
+              "h": 24
+            },
+            {
+              "tag": "A",
+              "text": "juliane@rosettiadvogados.adv.br",
+              "w": 262,
+              "h": 24
+            },
+            {
+              "tag": "A",
+              "text": "milena@rosettiadvogados.adv.br",
+              "w": 262,
+              "h": 24
+            },
+            {
+              "tag": "A",
+              "text": "renata@rosettiadvogados.adv.br",
+              "w": 262,
+              "h": 24
+            },
+            {
+              "tag": "A",
+              "text": "contato@rosettiadvogados.adv.br",
+              "w": 262,
+              "h": 24
+            },
+            {
+              "tag": "A",
+              "text": "(41) 3015-5993",
+              "w": 121,
+              "h": 20
+            },
+            {
+              "tag": "A",
+              "text": "(41) 99820-0917",
+              "w": 131,
+              "h": 20
+            },
+            {
+              "tag": "A",
+              "text": "Ver no Google Maps ↗",
+              "w": 173,
+              "h": 20
+            },
+            {
+              "tag": "A",
+              "text": "Início",
+              "w": 38,
+              "h": 19
+            },
+            {
+              "tag": "A",
+              "text": "O Escritório",
+              "w": 81,
+              "h": 19
+            },
+            {
+              "tag": "A",
+              "text": "Equipe",
+              "w": 48,
+              "h": 19
+            },
+            {
+              "tag": "A",
+              "text": "Áreas de Atuação",
+              "w": 124,
+              "h": 19
+            },
+            {
+              "tag": "A",
+              "text": "Publicações",
+              "w": 86,
+              "h": 19
+            },
+            {
+              "tag": "A",
+              "text": "Contato",
+              "w": 56,
+              "h": 19
+            },
+            {
+              "tag": "A",
+              "text": "(41) 3015-5993",
+              "w": 109,
+              "h": 19
+            },
+            {
+              "tag": "A",
+              "text": "WhatsApp",
+              "w": 73,
+              "h": 19
+            },
+            {
+              "tag": "A",
+              "text": "contato@rosettiadvogados.adv.br",
+              "w": 238,
+              "h": 19
+            },
+            {
+              "tag": "A",
+              "text": "Instagram",
+              "w": 72,
+              "h": 19
+            },
+            {
+              "tag": "A",
+              "text": "Facebook",
+              "w": 69,
+              "h": 19
+            },
+            {
+              "tag": "A",
+              "text": "LinkedIn",
+              "w": 60,
+              "h": 19
+            },
+            {
+              "tag": "A",
+              "text": "rosettiadvogados.adv.br",
+              "w": 153,
+              "h": 16
+            }
+          ]
+        }
+      },
+      "proposal": {
+        "desktop": {
+          "url": "http://127.0.0.1:8951/proposal.html",
+          "overflow": {
+            "scrollWidth": 1440,
+            "clientWidth": 1440
+          },
+          "consoleErrors": [],
+          "failedRequests": [],
+          "anchorCheck": {
+            "total": 0,
+            "missing": []
+          },
+          "subMinTapTargets": [
+            {
+              "tag": "A",
+              "text": "← Ver o concept completo (index.html)",
+              "w": 279,
+              "h": 29
+            }
+          ]
+        },
+        "mobile": {
+          "url": "http://127.0.0.1:8951/proposal.html",
+          "overflow": {
+            "scrollWidth": 390,
+            "clientWidth": 390
+          },
+          "consoleErrors": [],
+          "failedRequests": [],
+          "anchorCheck": {
+            "total": 0,
+            "missing": []
+          },
+          "subMinTapTargets": [
+            {
+              "tag": "A",
+              "text": "← Ver o concept completo (index.html)",
+              "w": 255,
+              "h": 26
+            }
+          ]
+        }
+      }
+    }
+  }
+}

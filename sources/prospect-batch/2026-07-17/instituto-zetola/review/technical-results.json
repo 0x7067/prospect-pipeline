@@ -1,0 +1,332 @@
+{
+  "index-desktop": {
+    "status": 200,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/images/logo-instituto-zetola.png",
+        "complete": true,
+        "naturalWidth": 1080,
+        "clientWidth": 44,
+        "clientHeight": 44
+      },
+      {
+        "src": "assets/images/logo-instituto-zetola.png",
+        "complete": true,
+        "naturalWidth": 1080,
+        "clientWidth": 0,
+        "clientHeight": 0
+      },
+      {
+        "src": "assets/images/sp-regeneracao-ossea.png",
+        "complete": true,
+        "naturalWidth": 365,
+        "clientWidth": 460,
+        "clientHeight": 840
+      },
+      {
+        "src": "assets/images/sp-sedacao-consciente.png",
+        "complete": true,
+        "naturalWidth": 365,
+        "clientWidth": 200,
+        "clientHeight": 267
+      },
+      {
+        "src": "assets/images/sp-apneia-do-sono.png",
+        "complete": true,
+        "naturalWidth": 365,
+        "clientWidth": 200,
+        "clientHeight": 267
+      },
+      {
+        "src": "assets/images/sp-cirurgia-ortognatica.png",
+        "complete": true,
+        "naturalWidth": 365,
+        "clientWidth": 200,
+        "clientHeight": 267
+      },
+      {
+        "src": "assets/images/sp-dtm.png",
+        "complete": true,
+        "naturalWidth": 365,
+        "clientWidth": 200,
+        "clientHeight": 267
+      },
+      {
+        "src": "assets/images/sp-endodontia.png",
+        "complete": true,
+        "naturalWidth": 365,
+        "clientWidth": 200,
+        "clientHeight": 267
+      },
+      {
+        "src": "assets/images/sp-odontologia-estetica.png",
+        "complete": true,
+        "naturalWidth": 365,
+        "clientWidth": 200,
+        "clientHeight": 267
+      },
+      {
+        "src": "assets/images/sp-odontopediatria.png",
+        "complete": true,
+        "naturalWidth": 365,
+        "clientWidth": 200,
+        "clientHeight": 267
+      },
+      {
+        "src": "assets/images/sp-ortodontia.png",
+        "complete": true,
+        "naturalWidth": 365,
+        "clientWidth": 200,
+        "clientHeight": 267
+      },
+      {
+        "src": "assets/images/sp-periodontia.png",
+        "complete": true,
+        "naturalWidth": 365,
+        "clientWidth": 200,
+        "clientHeight": 267
+      },
+      {
+        "src": "assets/images/equipe-zetola.png",
+        "complete": true,
+        "naturalWidth": 596,
+        "clientWidth": 420,
+        "clientHeight": 560
+      },
+      {
+        "src": "assets/images/banner-03.png",
+        "complete": true,
+        "naturalWidth": 1902,
+        "clientWidth": 546,
+        "clientHeight": 307
+      },
+      {
+        "src": "assets/images/banner-02.png",
+        "complete": true,
+        "naturalWidth": 1902,
+        "clientWidth": 546,
+        "clientHeight": 307
+      },
+      {
+        "src": "assets/images/icone-zetola.png",
+        "complete": true,
+        "naturalWidth": 67,
+        "clientWidth": 20,
+        "clientHeight": 46
+      }
+    ]
+  },
+  "index-mobile": {
+    "status": 200,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/images/logo-instituto-zetola.png",
+        "complete": true,
+        "naturalWidth": 1080,
+        "clientWidth": 44,
+        "clientHeight": 44
+      },
+      {
+        "src": "assets/images/logo-instituto-zetola.png",
+        "complete": true,
+        "naturalWidth": 1080,
+        "clientWidth": 36,
+        "clientHeight": 36
+      },
+      {
+        "src": "assets/images/sp-regeneracao-ossea.png",
+        "complete": true,
+        "naturalWidth": 365,
+        "clientWidth": 348,
+        "clientHeight": 261
+      },
+      {
+        "src": "assets/images/sp-sedacao-consciente.png",
+        "complete": true,
+        "naturalWidth": 365,
+        "clientWidth": 200,
+        "clientHeight": 267
+      },
+      {
+        "src": "assets/images/sp-apneia-do-sono.png",
+        "complete": true,
+        "naturalWidth": 365,
+        "clientWidth": 200,
+        "clientHeight": 267
+      },
+      {
+        "src": "assets/images/sp-cirurgia-ortognatica.png",
+        "complete": true,
+        "naturalWidth": 365,
+        "clientWidth": 200,
+        "clientHeight": 267
+      },
+      {
+        "src": "assets/images/sp-dtm.png",
+        "complete": true,
+        "naturalWidth": 365,
+        "clientWidth": 200,
+        "clientHeight": 267
+      },
+      {
+        "src": "assets/images/sp-endodontia.png",
+        "complete": true,
+        "naturalWidth": 365,
+        "clientWidth": 200,
+        "clientHeight": 267
+      },
+      {
+        "src": "assets/images/sp-odontologia-estetica.png",
+        "complete": true,
+        "naturalWidth": 365,
+        "clientWidth": 200,
+        "clientHeight": 267
+      },
+      {
+        "src": "assets/images/sp-odontopediatria.png",
+        "complete": true,
+        "naturalWidth": 365,
+        "clientWidth": 200,
+        "clientHeight": 267
+      },
+      {
+        "src": "assets/images/sp-ortodontia.png",
+        "complete": true,
+        "naturalWidth": 365,
+        "clientWidth": 200,
+        "clientHeight": 267
+      },
+      {
+        "src": "assets/images/sp-periodontia.png",
+        "complete": true,
+        "naturalWidth": 365,
+        "clientWidth": 200,
+        "clientHeight": 267
+      },
+      {
+        "src": "assets/images/equipe-zetola.png",
+        "complete": true,
+        "naturalWidth": 596,
+        "clientWidth": 390,
+        "clientHeight": 268
+      },
+      {
+        "src": "assets/images/banner-03.png",
+        "complete": true,
+        "naturalWidth": 1902,
+        "clientWidth": 348,
+        "clientHeight": 196
+      },
+      {
+        "src": "assets/images/banner-02.png",
+        "complete": true,
+        "naturalWidth": 1902,
+        "clientWidth": 348,
+        "clientHeight": 196
+      },
+      {
+        "src": "assets/images/icone-zetola.png",
+        "complete": true,
+        "naturalWidth": 67,
+        "clientWidth": 20,
+        "clientHeight": 46
+      }
+    ],
+    "menu": {
+      "before": "Abrir menu",
+      "opened": "true",
+      "after": "Fechar menu",
+      "closedAfterEscape": "false"
+    }
+  },
+  "proposal-desktop": {
+    "status": 200,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/proposal/current-desktop-viewport.png",
+        "complete": true,
+        "naturalWidth": 1280,
+        "clientWidth": 544,
+        "clientHeight": 341
+      },
+      {
+        "src": "assets/proposal/proposed-desktop-viewport.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 544,
+        "clientHeight": 341
+      },
+      {
+        "src": "assets/proposal/current-desktop-full.png",
+        "complete": true,
+        "naturalWidth": 1280,
+        "clientWidth": 544,
+        "clientHeight": 1697
+      },
+      {
+        "src": "assets/proposal/proposed-mobile-viewport.png",
+        "complete": true,
+        "naturalWidth": 390,
+        "clientWidth": 544,
+        "clientHeight": 1178
+      }
+    ]
+  },
+  "proposal-mobile": {
+    "status": 200,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/proposal/current-desktop-viewport.png",
+        "complete": true,
+        "naturalWidth": 1280,
+        "clientWidth": 348,
+        "clientHeight": 219
+      },
+      {
+        "src": "assets/proposal/proposed-desktop-viewport.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 348,
+        "clientHeight": 219
+      },
+      {
+        "src": "assets/proposal/current-desktop-full.png",
+        "complete": true,
+        "naturalWidth": 1280,
+        "clientWidth": 348,
+        "clientHeight": 1086
+      },
+      {
+        "src": "assets/proposal/proposed-mobile-viewport.png",
+        "complete": true,
+        "naturalWidth": 390,
+        "clientWidth": 348,
+        "clientHeight": 754
+      }
+    ]
+  }
+}

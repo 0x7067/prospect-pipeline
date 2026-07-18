@@ -1,0 +1,28 @@
+{
+  "business_name": "CLINEURO — Clínica do Sistema Nervoso",
+  "official_url": "https://clineuro.com/",
+  "run_date": "2026-07-15",
+  "category": "Psiquiatria, psiquiatria infantil, psicologia e neuropsicologia",
+  "address": "Rua Jovino do Rosário, 125, Boa Vista, Curitiba–PR",
+  "active_evidence": "- Site oficial online por HTTPS, com telefone, WhatsApp, horário e endereço. - A página identifica o diretor técnico, Dr. Paulo Roberto Borges Pacheco, com CRM-PR 14187 e RQE 4341. - Também publica razão social e CNPJ da clínica. - O endereço foi localizado no Boa Vista pelo OpenStreetMap.",
+  "opportunity_score": 7.6,
+  "confidence": "média",
+  "problems": [
+    "O site é essencialmente uma página de contato: não há navegação nem páginas explicando especialidades, tratamentos ou modalidades de atendimento.",
+    "Não existem perfis dos médicos e psicólogos, formação, CRM/RQE individual ou critérios para ajudar o paciente a escolher o profissional.",
+    "Não há formulário, agenda online ou fluxo de triagem; toda conversão depende de telefone ou WhatsApp.",
+    "robots.txt e sitemap.xml retornam 404, limitando a organização e descoberta do conteúdo por buscadores.",
+    "Não há dados estruturados de clínica/local business e nenhuma política de privacidade ou informação de LGPD visível.",
+    "O site desativa zoom com user-scalable=no, uma barreira de acessibilidade relevante em saúde."
+  ],
+  "rebuild_angle": "“Transformar a página de contato em uma central confiável de especialidades e encaminhamento.”",
+  "roi_mechanism": "Saúde mental é uma categoria em que confiança, especialização e discrição influenciam diretamente o contato. A clínica possui várias áreas de atuação, mas o site não cria páginas capazes de captar buscas como psiquiatria infantil, psicogeriatria ou avaliação neuropsicológica. O ROI viria de:  - páginas por especialidade e necessidade clínica; - perfis profissionais verificáveis; - triagem e solicitação de consulta; - SEO local e dados estruturados; - conteúdo de orientação que converta buscas informacionais em consultas.",
+  "evidence_links": [
+    "https://clineuro.com/",
+    "https://www.instagram.com/clineuro_",
+    "https://clineuro.com/sendWhatsappMessage.php?number=+554132574740",
+    "https://clineuro.com/robots.txt",
+    "https://clineuro.com/sitemap.xml"
+  ],
+  "source_audit": "/opt/data/cron/output/bd2acb816e97/2026-07-15_08-50-32.md"
+}

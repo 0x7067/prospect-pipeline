@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "status": "published_temporary_preview",
+  "provider": "cloudflare-temporary-account",
+  "deployed_at_utc": "2026-07-17T13:13:42Z",
+  "production_url": "https://clineuro-preview.smart-banjo.workers.dev/",
+  "proposal_url": "https://clineuro-preview.smart-banjo.workers.dev/proposal.html",
+  "version_id": "083fb1d3-283c-498c-b4e7-e952efe0b12b",
+  "publication_manifest_sha256": "3bc7ffc8715424b26860af0827fd4162fffc4b6f049088c44f98584e9eac37eb",
+  "live_integrity": {
+    "matched_files": 9,
+    "total_files": 9,
+    "production_http": 200,
+    "proposal_http": 200
+  },
+  "official_domain_modified": false,
+  "outreach_performed": false,
+  "notes": "Temporary preview only. Claim credential intentionally not stored."
+}

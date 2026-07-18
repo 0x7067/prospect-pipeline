@@ -1,0 +1,28 @@
+{
+  "reviewed_at": "2026-07-17T05:21:55Z",
+  "status": "passed_adversarial_style_gate",
+  "average_score": 4.17,
+  "scores": {
+    "brand_fidelity": 4.4,
+    "distinctiveness": 4.1,
+    "hero_impact": 4.3,
+    "below_fold_art_direction": 4.0,
+    "typography": 4.4,
+    "image_quality_treatment": 3.2,
+    "mobile_intentionality": 4.1,
+    "credibility_proof": 4.5,
+    "conversion_clarity": 4.3,
+    "proposal_persuasiveness": 4.4
+  },
+  "technical": {
+    "desktop": "1440x900 pass",
+    "mobile": "390x844 pass",
+    "horizontal_overflow": false,
+    "console_errors": 0,
+    "page_errors": 0,
+    "request_failures": 0,
+    "mobile_menu_verified": true,
+    "production_proposal_separation": true
+  },
+  "review_note": "Actual mobile viewport and clean full-page capture passed; initial stitched screenshot artifact was caused by the off-canvas transform, not live layout."
+}

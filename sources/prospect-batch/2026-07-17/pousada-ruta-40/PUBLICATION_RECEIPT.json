@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "status": "published_temporary_preview",
+  "provider": "cloudflare-temporary-account",
+  "deployed_at_utc": "2026-07-17T12:31:29Z",
+  "production_url": "https://pousada-ruta-40-preview.magnificent-xylophone.workers.dev/",
+  "proposal_url": "https://pousada-ruta-40-preview.magnificent-xylophone.workers.dev/proposal.html",
+  "version_id": "56ea47b5-7ce0-4a03-8da0-1e5aa266a066",
+  "publication_manifest_sha256": "0218b9fb89f42c295622949d2c5c042f43982b6441a0ea33cabbdb672d65753d",
+  "live_integrity": {
+    "matched_files": 14,
+    "total_files": 14,
+    "production_http": 200,
+    "proposal_http": 200
+  },
+  "official_domain_modified": false,
+  "outreach_performed": false,
+  "notes": "Temporary preview only. Claim credential intentionally not stored."
+}

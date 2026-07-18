@@ -1,0 +1,27 @@
+{
+  "business_name": "Rosetti Advogados Associados",
+  "official_url": "https://rosettiadvogados.adv.br/",
+  "run_date": "2026-07-15",
+  "category": "Advocacia trabalhista, previdenciária e sindical",
+  "address": "Av. Marechal Floriano Peixoto, 96, sala 41 — Centro, Curitiba",
+  "active_evidence": "Negócio e site oficial verificados como ativos no relatório de 15/07/2026.",
+  "opportunity_score": 8.0,
+  "confidence": "média",
+  "problems": [
+    "A seção denominada “Publicações Recentes” tem como item mais novo visível um artigo sobre o Auxílio Emergencial de 2020; os demais destaques são majoritariamente de 2019.",
+    "Pelo menos dois cards de artigos exibem blocos cinza com apenas a letra “R” no lugar das miniaturas.",
+    "O banner principal não oferece um CTA explícito para consulta ou avaliação do caso; o usuário precisa procurar “Contato” no menu ou identificar o botão flutuante do WhatsApp.",
+    "O aviso de cookies fica sobre o conteúdo do banner e ocupa uma parcela relevante da área útil.",
+    "O rodapé ainda mostra “Copyright © 2015–2025” em 2026, reforçando a percepção de manutenção desatualizada."
+  ],
+  "rebuild_angle": "site de autoridade com jornadas distintas para trabalhador, segurado e sindicato, conteúdo jurídico atual, formulário de triagem e conversão ética via WhatsApp.",
+  "roi_mechanism": "Corrigir as falhas materiais do site e melhorar aquisição, confiança e conversão.",
+  "evidence_links": [
+    "https://rosettiadvogados.adv.br/",
+    "https://www.instagram.com/rosettiadvogados/",
+    "https://rosettiadvogados.adv.br/contato/",
+    "https://www.instagram.com/reel/DGBhbghxXlC/",
+    "https://www.econodata.com.br/consulta-empresa/23601790000166-claudio-rosetti-sociedade-individual-de-advocacia"
+  ],
+  "source_audit": "/opt/data/cron/output/bd2acb816e97/2026-07-15_08-37-06.md"
+}

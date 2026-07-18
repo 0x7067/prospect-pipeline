@@ -1,0 +1,96 @@
+[
+  {
+    "name": "produção-desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "status": 200,
+    "overflow": false,
+    "lang": "pt-BR",
+    "consoleErrors": [],
+    "failed": [],
+    "requiredClean": true
+  },
+  {
+    "name": "produção-mobile",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "status": 200,
+    "overflow": false,
+    "lang": "pt-BR",
+    "consoleErrors": [],
+    "failed": [],
+    "requiredClean": true
+  },
+  {
+    "name": "atual-desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "status": 200,
+    "overflow": false,
+    "lang": "en-US",
+    "consoleErrors": [],
+    "failed": [],
+    "requiredClean": false
+  },
+  {
+    "name": "atual-mobile",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "status": 200,
+    "overflow": false,
+    "lang": "en-US",
+    "consoleErrors": [],
+    "failed": [],
+    "requiredClean": false
+  },
+  {
+    "name": "proposta-desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "status": 200,
+    "overflow": false,
+    "lang": "pt-BR",
+    "consoleErrors": [],
+    "failed": [],
+    "requiredClean": true
+  },
+  {
+    "name": "proposta-mobile",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "status": 200,
+    "overflow": false,
+    "lang": "pt-BR",
+    "consoleErrors": [],
+    "failed": [],
+    "requiredClean": true
+  },
+  {
+    "proposalRobots": "noindex,nofollow,noarchive"
+  },
+  {
+    "menu": {
+      "opened": true,
+      "expanded": "true",
+      "closed": true
+    }
+  },
+  {
+    "localAudit": {
+      "brokenAnchors": [],
+      "proposalLeak": false
+    }
+  }
+]

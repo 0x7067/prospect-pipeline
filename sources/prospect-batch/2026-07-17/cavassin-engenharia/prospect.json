@@ -1,0 +1,28 @@
+{
+  "business_name": "Cavassin Engenharia",
+  "official_url": "https://cavassinengenharia.com.br/",
+  "run_date": "2026-07-15",
+  "category": "engenharia, arquitetura, projetos complementares e regularização",
+  "address": "Boa Vista — Av. Paraná, 1755, sala 33, Curitiba/PR",
+  "active_evidence": "Site e páginas de contato/orçamento estão ativos, com endereço e telefones consistentes. A empresa informa atuação desde 2005 e mantém perfil empresarial no LinkedIn. Não foi encontrada atividade pública recente tão forte quanto nos três primeiros colocados.",
+  "opportunity_score": 7.8,
+  "confidence": "média",
+  "problems": [
+    "Hero genérico: usa imagem de banco de engenharia/construção e a frase “saiba quais serviços oferece”, sem especialidade, resultado ou diferenciação.",
+    "Portfólio ausente na home: não há projetos, estudos de caso, números, aprovações ou resultados visíveis na página inicial.",
+    "Prova de confiança insuficiente: não aparecem responsáveis técnicos, CREA, metodologia, tipos de clientes ou depoimentos no percurso principal.",
+    "Widget social quebrado: a área “Curta nossa fan page” aparece como um retângulo branco vazio.",
+    "Texto comercial pouco revisado: a chamada de orçamento contém “resolva com os problema de engenharia”, afetando a percepção de rigor técnico."
+  ],
+  "rebuild_angle": "Site B2B orientado por soluções: projeto elétrico/hidráulico/incêndio, regularização e aprovação; casos com problema–solução–resultado; responsáveis técnicos; checklist para orçamento; upload seguro de plantas e documentos.",
+  "roi_mechanism": "Projetos, regularizações e aprovações têm alto valor e ciclo consultivo. Estudos de caso indexáveis por serviço e município podem atrair leads mais qualificados e diminuir o tempo gasto explicando escopo básico antes do orçamento.",
+  "evidence_links": [
+    "https://cavassinengenharia.com.br/",
+    "https://instagram.com/cavassinengenharia",
+    "https://cavassinengenharia.com.br/quem-somos/",
+    "https://cavassinengenharia.com.br/contato/",
+    "https://cavassinengenharia.com.br/orcamento/",
+    "https://linkedin.com/company/cavassin-engenharia"
+  ],
+  "source_audit": "/opt/data/cron/output/bd2acb816e97/2026-07-15_09-11-37.md"
+}

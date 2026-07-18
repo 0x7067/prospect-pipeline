@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre esta página — Curitiba Palace Hotel (conceito)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/logo.png" type="image/png" />
+  <style>
+    .proposal-page {
+      background: var(--surface-soft);
+      min-height: 100vh;
+      padding: 7rem 0 4rem;
+    }
+    .proposal-page .container {
+      max-width: 800px;
+    }
+    .proposal-page h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      margin-bottom: 1.5rem;
+    }
+    .proposal-card {
+      background: #fff;
+      border-radius: var(--radius);
+      padding: 2.5rem;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid rgba(17, 36, 104, 0.06);
+    }
+    .proposal-card h2 {
+      font-size: 1.35rem;
+      margin-top: 2rem;
+      margin-bottom: 0.75rem;
+    }
+    .proposal-card h2:first-of-type {
+      margin-top: 0;
+    }
+    .proposal-card p, .proposal-card ul, .proposal-card ol {
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+    }
+    .proposal-card ul, .proposal-card ol {
+      padding-left: 1.25rem;
+    }
+    .proposal-card li {
+      margin-bottom: 0.5rem;
+    }
+    .proposal-card a {
+      word-break: break-word;
+    }
+    .status-badge {
+      display: inline-block;
+      background: var(--brand);
+      color: #fff;
+      padding: 0.35rem 0.75rem;
+      border-radius: 999px;
+      font-family: var(--font-display);
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 1rem;
+    }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      margin-top: 1.5rem;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header" id="topo">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Curitiba Palace Hotel — página inicial">
+        <img class="brand-logo" src="assets/logo.png" alt="Curitiba Palace Hotel" width="117" height="42" loading="eager" />
+      </a>
+    </div>
+  </header>
+
+  <main class="proposal-page">
+    <div class="container">
+      <span class="status-badge">Conceito independente de redesign</span>
+      <h1>Sobre esta página</h1>
+
+      <div class="proposal-card">
+        <h2>O que é este site?</h2>
+        <p>Esta página é uma proposta visual autônoma de redesign para o site do Curitiba Palace Hotel. Ela foi construída apenas como referência de direção, sem vínculo com o hotel e sem intenção de substituir o site oficial.</p>
+
+        <h2>Evidência utilizada</h2>
+        <p>Todas as informações comerciais do conceito foram obtidas a partir do site oficial e de ativos públicos observados em 17 de julho de 2026:</p>
+        <ul>
+          <li><a href="https://www.curitibapalacehotel.com.br/" target="_blank" rel="noopener noreferrer">https://www.curitibapalacehotel.com.br/</a> — site oficial do hotel;</li>
+          <li>Logo e selo de avaliação do Booking publicados no site oficial;</li>
+          <li>Endereço, telefone, serviços e descrições de quartos conforme divulgados;</li>
+          <li>Página de perfil do Tripadvisor citada no site oficial.</li>
+        </ul>
+
+        <h2>O que foi preservado</h2>
+        <ul>
+          <li>A paleta institucional azul (<code>#112468</code>), marrom (<code>#463939</code>) e verde de ação (<code>#30B066</code>);</li>
+          <li>A tipografia observada — Cabin para títulos e Source Sans para corpo;</li>
+          <li>A promessa de "tradição, conforto e localização central";</li>
+          <li>A jornada de reserva como caminho principal, sem depender de iframe quebrado;</li>
+          <li>Contatos verificáveis: telefone (41) 3322-8081 e WhatsApp (41) 99131-8081.</li>
+        </ul>
+
+        <h2>O que foi evitado</h2>
+        <ul>
+          <li>Overflow horizontal no mobile;</li>
+          <li>Iframes de reserva que falham por bloqueio de X-Frame-Options;</li>
+          <li>Imagens externas lazy que não carregam;</li>
+          <li>Conteúdo editorial de turismo que dilui a decisão de reserva;</li>
+          <li>Claims não comprovados, preços ou tarifas inventadas.</li>
+        </ul>
+
+        <h2>Limites do conceito</h2>
+        <p>As imagens de ambiente são fotos de stock licenciadas para uso editorial (Unsplash) e servem apenas para ilustrar a direção visual. O logo, selos de avaliação e identidade visual permanecem de propriedade do Curitiba Palace Hotel. Não há publicação, indexação ou vinculação comercial.</p>
+
+        <h2>Próximos passos sugeridos</h2>
+        <ol>
+          <li>Revisar a direção com o responsável pela marca;</li>
+          <li>Substituir as fotos de stock por imagens reais do hotel;</li>
+          <li>Avaliar a integração com o motor de reservas oficial via link direto de página inteira;</li>
+          <li>Testar conversão em mobile e validar acessibilidade em WCAG AA.</li>
+        </ol>
+
+        <a class="back-link" href="index.html">← Voltar ao conceito</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-legal">
+        <p>© Curitiba Palace Hotel. Conceito independente de redesign. Não afiliado.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

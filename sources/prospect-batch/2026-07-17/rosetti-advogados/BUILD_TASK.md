@@ -1,0 +1,11 @@
+# Build task — Rosetti Advogados Associados
+
+Research `prospect.json` and every official/evidence URL first. Verify the live firm identity, logo, colors, typography, offices/contact, practice areas, professionals/OAB information, public articles, and imagery before using them. Download only official public assets and document exact source URLs and factual-copy sources in `SOURCE_MANIFEST.md`. Omit uncertainty. Never fabricate lawyers, credentials, outcomes, client names, testimonials, metrics, awards, case results, guarantees, or legal claims. Keep outreach and production copy compatible with ethical legal advertising.
+
+Create from scratch: `index.html`, `proposal.html`, `styles.css`, `script.js`, `assets/`, `SOURCE_MANIFEST.md`, and `BUILD_REPORT.md`. Static only; no framework, package manager, CMS, fake form, or backend.
+
+`index.html` must look like the real firm site: authoritative, legible, current, mobile-intentional, and recognizably Rosetti—not a generic navy-and-gold law template. Derive the system from verified brand equity and official imagery. Provide clear journeys for the verified audiences/practice areas without overpromising. Avoid card-grid sameness, fake seals, invented proof, generic gavels/scales imagery, excessive serif affectation, and repetitive rows. Production navigation/footer must not link to `proposal.html`; production copy must contain no proposal/redesign/concept/prototype/audit/evidence/before-after/non-affiliation/limitations language.
+
+`proposal.html` is a separate persuasive sales document and must not impersonate the firm. Lead with opportunity/result, then proposed visual evidence, prioritized improvements, deliverables, dependencies, sequence/timeline, one explicit next step, and compact disclosure.
+
+Read and satisfy `PROSPECT_BRAND_STYLE_GATE.md`: average >=4.0, no score <3.0, and brand fidelity, distinctiveness, hero, below-fold, mobile, proposal each >=4.0. Serve and verify at 1440x900 and 390x844: no overflow, errors, broken assets, inaccessible menu behavior, undersized tap targets, or forbidden production language; menu must close by button/link/Escape and update its accessible label. Record actual commands/results and limitations in `BUILD_REPORT.md`. Do not publish. Complete working files, not a plan.

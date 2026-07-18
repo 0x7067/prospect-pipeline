@@ -1,0 +1,18 @@
+{
+  "business_name": "Empresa Demonstração Curitiba",
+  "official_url": "https://example.com/",
+  "run_date": "2026-07-15",
+  "category": "Serviços profissionais (teste de pipeline)",
+  "address": "Curitiba, Paraná",
+  "active_evidence": "Fictional test fixture; not a real prospect.",
+  "problems": [
+    "Navegação pouco clara",
+    "Ausência de uma chamada principal para contato",
+    "Experiência móvel inadequada"
+  ],
+  "rebuild_angle": "Site institucional acessível com hierarquia clara e fluxo de contato",
+  "roi_mechanism": "Teste técnico do pipeline; nenhum uso comercial",
+  "public_contacts": {},
+  "evidence_links": ["https://example.com/"],
+  "is_test_fixture": true
+}

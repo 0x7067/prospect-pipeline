@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Proposta independente de reconstrução digital — Instituto Zétola Odontologia</title>
+<meta name="description" content="Estudo independente e não solicitado de reconstrução do site do Instituto Zétola Odontologia: oportunidade, evidências visuais, problemas prioritários e próximos passos.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="assets/images/favicon-32.png" sizes="32x32">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,900;1,500;1,600&family=Source+Sans+Pro:wght@300;400;600;700&family=Advent+Pro:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="proposal-page">
+
+<div class="proposal-banner">
+  Estudo independente de reconstrução digital — <strong>não é o site oficial do Instituto Zétola Odontologia.</strong>
+  <a href="index.html" style="color:#fff;text-decoration:underline;margin-left:0.5rem;">Ver demonstração completa</a>
+</div>
+
+<header class="proposal-hero">
+  <div class="container">
+    <p class="proposal-hero__kicker">Estudo de reconstrução digital · Curitiba, PR</p>
+    <h1>Uma clínica com três gerações de tradição merece um site à altura da sua própria história.</h1>
+    <p class="lede">O Instituto Zétola Odontologia é um negócio ativo, com endereço, telefone e especialidades verificados — mas o site oficial hoje exibe código de plugin quebrado, formulários que não carregam e uma navegação que esconde exatamente o que deveria vender: a tradição, as dez especialidades e o Dr. André Zétola, CRO 7877. Esta é uma demonstração não solicitada de como essa mesma informação, já publicada pela própria clínica, pode se tornar um site completo e persuasivo.</p>
+    <div class="proposal-hero__ctas">
+      <a class="btn btn-on-dark" href="index.html">Ver a demonstração completa</a>
+      <a class="btn btn-ghost" href="#evidencia">Ver evidência visual</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- VISUAL EVIDENCE -->
+  <section class="proposal-section" id="evidencia">
+    <div class="container">
+      <p class="eyebrow">Evidência visual</p>
+      <h2 class="section-heading">O que está no ar hoje, ao lado da demonstração</h2>
+      <p class="section-lede" style="margin-top:0.75rem;">Capturas de tela do site oficial (institutozetola.com.br) e da demonstração construída neste estudo, no mesmo dia.</p>
+
+      <div class="compare-grid">
+        <div class="compare-card compare-card--current">
+          <p class="compare-card__label">Site oficial hoje — desktop</p>
+          <img src="assets/proposal/current-desktop-viewport.png" alt="Captura de tela do site oficial do Instituto Zétola em desktop, mostrando texto de shortcode de plugin quebrado sobreposto ao banner principal.">
+          <p class="compare-card__caption">O shortcode <code>[dipl_logo_slider ...]</code> aparece como texto bruto no topo da página, expondo configurações internas do WordPress.</p>
+        </div>
+        <div class="compare-card compare-card--proposed">
+          <p class="compare-card__label">Demonstração proposta — desktop</p>
+          <img src="assets/proposal/proposed-desktop-viewport.png" alt="Captura de tela da demonstração proposta em desktop, com a citação do Dr. André Zétola e chamada para agendar avaliação pelo WhatsApp.">
+          <p class="compare-card__caption">A mesma marca — cor de destaque, tipografia e história — reorganizada em uma hero legível com um único caminho de conversão.</p>
+        </div>
+        <div class="compare-card compare-card--current">
+          <p class="compare-card__label">Site oficial hoje — página completa</p>
+          <img src="assets/proposal/current-desktop-full.png" alt="Captura de tela completa do site oficial, mostrando títulos exibidos na vertical (ESPECIALIDADES, EQUIPE ZÉTOLA, NOTÍCIAS) e uma seção de newsletter sem formulário visível.">
+          <p class="compare-card__caption">Títulos girados na lateral prejudicam a leitura, e a seção de newsletter não renderiza nenhum campo de formulário.</p>
+        </div>
+        <div class="compare-card compare-card--proposed">
+          <p class="compare-card__label">Demonstração proposta — mobile</p>
+          <img src="assets/proposal/proposed-mobile-viewport.png" alt="Captura de tela da demonstração proposta em um viewport de celular, com o menu e a chamada para ação adaptados ao toque.">
+          <p class="compare-card__caption">Composição própria para celular: menu off-canvas com foco acessível, especialidades em lista editorial e CTA de WhatsApp sempre visível.</p>
+        </div>
+      </div>
+      <p style="margin-top:1.25rem;font-size:0.85rem;color:#6b6864;">Não foi possível capturar uma tela de celular do site oficial dentro do ambiente de verificação usado neste estudo — ver limitações no <code>BUILD_REPORT.md</code>. A demonstração completa (desktop e mobile) está disponível em <a href="index.html">index.html</a>.</p>
+    </div>
+  </section>
+
+  <!-- PRIORITIZED PROBLEMS -->
+  <section class="proposal-section proposal-section--alt">
+    <div class="container">
+      <p class="eyebrow">Prioridades</p>
+      <h2 class="section-heading">Três problemas documentados, três melhorias correspondentes</h2>
+
+      <div class="priority-grid">
+        <div class="priority-card">
+          <p class="priority-card__problem"><span>Problema 1</span>Código quebrado exposto ao visitante</p>
+          <h3>Shortcode de plugin visível na home</h3>
+          <p>O shortcode <code>[dipl_logo_slider ...]</code> ocupa uma extensa área da página e expõe parâmetros internos do WordPress a qualquer visitante.</p>
+          <p style="margin-top:0.5rem;"><strong>Melhoria:</strong> as dez especialidades foram reconstruídas como um índice editorial navegável (expansível, com imagem própria por especialidade), sem depender de nenhum plugin de terceiros.</p>
+        </div>
+        <div class="priority-card">
+          <p class="priority-card__problem"><span>Problema 2</span>Formulário principal não renderiza</p>
+          <h3>Newsletter e contato aparecem como <code>[fc id]</code></h3>
+          <p>Tanto a home quanto a página "Fale Conosco" mostram <code>[fc id='1'][/fc]</code> e <code>[fc id='2'][/fc]</code> no lugar do formulário — o principal caminho de conversão não funciona.</p>
+          <p style="margin-top:0.5rem;"><strong>Melhoria:</strong> a demonstração substitui o formulário quebrado por um caminho de contato que já funciona hoje — WhatsApp com mensagem pré-preenchida, telefone e e-mail, todos verificados no próprio rodapé do site atual.</p>
+        </div>
+        <div class="priority-card">
+          <p class="priority-card__problem"><span>Problema 3</span>CTA genérico e imagens sem alternativa textual</p>
+          <h3>"CLIQUE AQUI!" e 5 de 8 imagens sem alt útil</h3>
+          <p>A homepage atual usa a chamada genérica "CLIQUE AQUI!", sem informar se a ação agenda consulta, abre contato ou apresenta um tratamento — e a maioria das imagens carece de texto alternativo.</p>
+          <p style="margin-top:0.5rem;"><strong>Melhoria:</strong> toda chamada da demonstração é específica ("Agendar avaliação pelo WhatsApp", "Ligar agora", "Conhecer as especialidades") e cada imagem recebeu texto alternativo descritivo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DELIVERABLES -->
+  <section class="proposal-section">
+    <div class="container">
+      <p class="eyebrow">Escopo</p>
+      <h2 class="section-heading">Entregáveis e dependências</h2>
+
+      <div class="deliverables-grid">
+        <div>
+          <h3>O que está incluído nesta demonstração</h3>
+          <ul>
+            <li>Site institucional completo (<code>index.html</code>) com hero, história, dez especialidades, equipe, tecnologia e contato.</li>
+            <li>Folha de estilos e script próprios, sem framework ou dependência de build.</li>
+            <li>Ativos de marca baixados diretamente do site oficial (logo, cores, tipografia, imagens de especialidade).</li>
+            <li>Este documento de proposta, com evidência visual e apêndice técnico.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>O que depende do Instituto Zétola para ir ao ar</h3>
+          <ul>
+            <li>Confirmação editorial de todo o texto reconstruído a partir do site atual.</li>
+            <li>Decisão sobre nomes/credenciais de outros profissionais da equipe, hoje não publicados.</li>
+            <li>Acesso ao domínio e hospedagem para publicação (não realizada neste estudo).</li>
+            <li>Validação jurídica do uso da frase de sucesso de 90% em regeneração óssea, hoje publicada apenas na página da especialidade.</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="eyebrow" style="margin-top:2.5rem;">Sequência sugerida</p>
+      <ol class="timeline-steps">
+        <li><span class="step-num">01</span><h3>Validação de conteúdo</h3><p>Revisão de cada fato reconstruído com a clínica.</p></li>
+        <li><span class="step-num">02</span><h3>Ajustes de marca</h3><p>Confirmar paleta, tipografia e crops de imagem.</p></li>
+        <li><span class="step-num">03</span><h3>Publicação</h3><p>Deploy em ambiente de homologação com domínio próprio.</p></li>
+        <li><span class="step-num">04</span><h3>Acompanhamento</h3><p>Checagem de formulário/canal de contato após o ar.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- NEXT STEP -->
+  <section class="proposal-section proposal-section--alt">
+    <div class="container">
+      <div class="next-step">
+        <div>
+          <h2>Próximo passo</h2>
+          <p>Revisar a demonstração completa em <code>index.html</code> e apontar qualquer fato que precise de ajuste antes de qualquer publicação.</p>
+        </div>
+        <a class="btn btn-on-dark" href="index.html">Ver demonstração completa</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPENDIX -->
+  <section class="proposal-section appendix">
+    <div class="container">
+      <p class="eyebrow">Apêndice técnico</p>
+      <h2 class="section-heading">Auditoria de origem</h2>
+      <p class="section-lede" style="margin-top:0.75rem;">Todos os problemas abaixo foram observados diretamente no site oficial em 2026-07-17. Fontes completas em <code>SOURCE_MANIFEST.md</code>.</p>
+
+      <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Problema observado</th><th>Onde</th><th>Evidência</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Shortcode <code>[dipl_logo_slider ...]</code> renderizado como texto</td>
+            <td>Home</td>
+            <td>Confirmado por captura de tela e HTML bruto em 2026-07-17</td>
+          </tr>
+          <tr>
+            <td>Formulário <code>[fc id='1'][/fc]</code> / <code>[fc id='2'][/fc]</code> não renderiza</td>
+            <td>Home e /contato/</td>
+            <td>Confirmado por captura de tela e HTML bruto</td>
+          </tr>
+          <tr>
+            <td>Títulos de seção exibidos na vertical (Especialidades, Equipe Zétola, Notícias)</td>
+            <td>Home</td>
+            <td>Confirmado por captura de tela de página inteira</td>
+          </tr>
+          <tr>
+            <td>Grandes áreas vazias/desestruturadas</td>
+            <td>Home</td>
+            <td>Confirmado por captura de tela de página inteira</td>
+          </tr>
+          <tr>
+            <td>CTA genérico "CLIQUE AQUI!"</td>
+            <td>Home (banner)</td>
+            <td>Confirmado em <code>prospect.json</code> e reproduzido na captura do banner de implantes</td>
+          </tr>
+          <tr>
+            <td>Imagens sem texto alternativo útil</td>
+            <td>Home</td>
+            <td>Documentado em <code>prospect.json</code> (5 de 8 imagens do HTML)</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+
+      <p style="margin-top:1.5rem;font-size:0.9rem;color:#4a4744;">Endereço, telefone, WhatsApp, e-mail, redes sociais, especialidades e a biografia do Dr. André Zétola (CRO 7877) foram verificados diretamente nas páginas oficiais listadas em <code>SOURCE_MANIFEST.md</code>. Nenhum outro nome, credencial, prêmio, depoimento ou estatística foi adicionado além do que a própria clínica publica.</p>
+    </div>
+  </section>
+
+</main>
+
+<div class="disclosure">
+  <div class="container">
+    <p><strong>Aviso de não afiliação:</strong> este documento e a demonstração associada (<a href="index.html">index.html</a>) constituem um estudo especulativo e independente de reconstrução digital, sem qualquer vínculo, patrocínio ou autorização do Instituto Zétola Odontologia. Nenhum dado de contato do Instituto foi usado para envio de mensagens, e nenhuma parte deste material foi publicada em nome da clínica. Fontes completas em <code>SOURCE_MANIFEST.md</code>; metodologia de verificação e limitações em <code>BUILD_REPORT.md</code>.</p>
+  </div>
+</div>
+
+</body>
+</html>

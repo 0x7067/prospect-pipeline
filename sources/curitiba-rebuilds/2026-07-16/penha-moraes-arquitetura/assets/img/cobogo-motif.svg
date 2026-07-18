@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <title>Padrão geométrico inspirado em cobogó — elemento vazado usado em fachadas brasileiras</title>
+  <defs>
+    <pattern id="cobogo" width="60" height="60" patternUnits="userSpaceOnUse">
+      <rect width="60" height="60" fill="none"/>
+      <path d="M30 4 L56 30 L30 56 L4 30 Z" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <circle cx="30" cy="30" r="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+    </pattern>
+  </defs>
+  <rect width="240" height="240" fill="url(#cobogo)"/>
+</svg>

@@ -1,0 +1,220 @@
+{
+  "index-desktop": {
+    "status": 200,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/logo-cavassin.jpg",
+        "complete": true,
+        "naturalWidth": 340,
+        "clientWidth": 170,
+        "clientHeight": 50
+      },
+      {
+        "src": "assets/icons/arrow-up-right.svg",
+        "complete": true,
+        "naturalWidth": 150,
+        "clientWidth": 15,
+        "clientHeight": 15
+      },
+      {
+        "src": "assets/icons/arrow-down.svg",
+        "complete": true,
+        "naturalWidth": 150,
+        "clientWidth": 15,
+        "clientHeight": 15
+      },
+      {
+        "src": "assets/icons/arrow-up-right.svg",
+        "complete": true,
+        "naturalWidth": 150,
+        "clientWidth": 15,
+        "clientHeight": 15
+      },
+      {
+        "src": "assets/icons/arrow-up-right.svg",
+        "complete": true,
+        "naturalWidth": 150,
+        "clientWidth": 15,
+        "clientHeight": 15
+      },
+      {
+        "src": "assets/icons/arrow-up-right.svg",
+        "complete": true,
+        "naturalWidth": 150,
+        "clientWidth": 15,
+        "clientHeight": 15
+      },
+      {
+        "src": "assets/icons/arrow-up-right.svg",
+        "complete": true,
+        "naturalWidth": 150,
+        "clientWidth": 15,
+        "clientHeight": 15
+      }
+    ]
+  },
+  "index-mobile": {
+    "status": 200,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/logo-cavassin.jpg",
+        "complete": true,
+        "naturalWidth": 340,
+        "clientWidth": 145,
+        "clientHeight": 43
+      },
+      {
+        "src": "assets/icons/arrow-up-right.svg",
+        "complete": true,
+        "naturalWidth": 150,
+        "clientWidth": 15,
+        "clientHeight": 15
+      },
+      {
+        "src": "assets/icons/arrow-down.svg",
+        "complete": true,
+        "naturalWidth": 150,
+        "clientWidth": 15,
+        "clientHeight": 15
+      },
+      {
+        "src": "assets/icons/arrow-up-right.svg",
+        "complete": true,
+        "naturalWidth": 150,
+        "clientWidth": 15,
+        "clientHeight": 15
+      },
+      {
+        "src": "assets/icons/arrow-up-right.svg",
+        "complete": true,
+        "naturalWidth": 150,
+        "clientWidth": 15,
+        "clientHeight": 15
+      },
+      {
+        "src": "assets/icons/arrow-up-right.svg",
+        "complete": true,
+        "naturalWidth": 150,
+        "clientWidth": 15,
+        "clientHeight": 15
+      },
+      {
+        "src": "assets/icons/arrow-up-right.svg",
+        "complete": true,
+        "naturalWidth": 150,
+        "clientWidth": 15,
+        "clientHeight": 15
+      }
+    ],
+    "menu": {
+      "before": "Abrir menu",
+      "opened": "true",
+      "after": "Fechar menu",
+      "closedAfterEscape": "false"
+    }
+  },
+  "proposal-desktop": {
+    "status": 200,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/logo-cavassin.jpg",
+        "complete": true,
+        "naturalWidth": 340,
+        "clientWidth": 170,
+        "clientHeight": 50
+      },
+      {
+        "src": "evidence-current-home.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 588,
+        "clientHeight": 331
+      },
+      {
+        "src": "verification-desktop.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 588,
+        "clientHeight": 331
+      },
+      {
+        "src": "assets/icons/arrow-up-right.svg",
+        "complete": true,
+        "naturalWidth": 150,
+        "clientWidth": 15,
+        "clientHeight": 15
+      },
+      {
+        "src": "assets/icons/arrow-up-right.svg",
+        "complete": true,
+        "naturalWidth": 150,
+        "clientWidth": 11,
+        "clientHeight": 11
+      }
+    ]
+  },
+  "proposal-mobile": {
+    "status": 200,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/logo-cavassin.jpg",
+        "complete": true,
+        "naturalWidth": 340,
+        "clientWidth": 145,
+        "clientHeight": 43
+      },
+      {
+        "src": "evidence-current-home.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 350,
+        "clientHeight": 197
+      },
+      {
+        "src": "verification-desktop.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 350,
+        "clientHeight": 197
+      },
+      {
+        "src": "assets/icons/arrow-up-right.svg",
+        "complete": true,
+        "naturalWidth": 150,
+        "clientWidth": 15,
+        "clientHeight": 15
+      },
+      {
+        "src": "assets/icons/arrow-up-right.svg",
+        "complete": true,
+        "naturalWidth": 150,
+        "clientWidth": 11,
+        "clientHeight": 11
+      }
+    ]
+  }
+}

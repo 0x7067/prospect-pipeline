@@ -1,0 +1,26 @@
+{
+  "business_name": "Instituto Zétola Odontologia",
+  "official_url": "https://www.institutozetola.com.br/",
+  "run_date": "2026-07-15",
+  "category": "Clínica odontológica",
+  "address": "Rua Alferes Ângelo Sampaio, 2.303 — Bigorrilho, Curitiba",
+  "active_evidence": "Negócio e site oficial verificados como ativos no relatório de 15/07/2026.",
+  "opportunity_score": 8.0,
+  "confidence": "média",
+  "problems": [
+    "Um shortcode quebrado do plugin — começando por [dipllogoslider ...] — ocupa uma extensa área da página e expõe configurações internas do WordPress ao visitante.",
+    "O formulário de newsletter aparece apenas como [fc id='1'][/fc]; na página “Fale Conosco”, ocorre o mesmo com [fc id='2'][/fc], portanto o principal formulário de conversão não é renderizado.",
+    "Seções como “Especialidades”, “Equipe Zétola” e “Notícias” apresentam grandes espaços vazios ou conteúdo desestruturado.",
+    "Títulos importantes são exibidos verticalmente na lateral, prejudicando leitura e escaneabilidade.",
+    "A homepage usa o CTA genérico “CLIQUE AQUI!”, sem informar se a ação agenda consulta, abre contato ou apresenta um tratamento; adicionalmente, 5 de 8 imagens do HTML não têm texto alternativo útil."
+  ],
+  "rebuild_angle": "experiência clínica sofisticada com especialidades bem organizadas, perfis profissionais, prova social, agendamento claro e páginas locais por tratamento.",
+  "roi_mechanism": "Corrigir as falhas materiais do site e melhorar aquisição, confiança e conversão.",
+  "evidence_links": [
+    "https://www.institutozetola.com.br/",
+    "https://www.instagram.com/institutozetola/",
+    "https://www.institutozetola.com.br/contato/",
+    "https://www.google.com/maps/search/?api=1&query=-25.4346561,-49.2889144"
+  ],
+  "source_audit": "/opt/data/cron/output/bd2acb816e97/2026-07-15_08-37-06.md"
+}

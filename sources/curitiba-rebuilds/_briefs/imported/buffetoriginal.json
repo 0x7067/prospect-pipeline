@@ -1,0 +1,28 @@
+{
+  "business_name": "Buffet Original",
+  "official_url": "http://www.buffetoriginal.com.br/",
+  "run_date": "2026-07-15",
+  "category": "buffet, catering e espaços para casamentos/eventos",
+  "address": "Ahú — Rua Coronel Adyr Guimarães, 288, Curitiba/PR",
+  "active_evidence": "O domínio e o site estão ativos, o endereço foi confirmado em Curitiba e o negócio mantém página de orçamento, contatos e perfil em portal de casamentos. Uma listagem externa foi atualizada em março de 2026. A última avaliação datada encontrada no portal de casamentos, porém, é de 2022; por isso a confiança não é alta.",
+  "opportunity_score": 8.2,
+  "confidence": "média",
+  "problems": [
+    "HTTP continua servindo sem redirecionamento: HTTPS funciona, mas quem acessa o endereço oficial em HTTP permanece na conexão não segura.",
+    "Home extremamente rasa: praticamente todo o conteúdo inicial é um hero e quatro categorias; faltam portfólio recente, depoimentos atuais, diferenciais e apresentação concreta dos espaços.",
+    "Contraste ruim nos atalhos: os nomes das categorias ficam quase ilegíveis sobre uma faixa escura na parte inferior do hero.",
+    "Orçamento sem jornada moderna: o formulário pede dados em uma página antiga, sem estimativa por pacote, confirmação clara, acompanhamento de lead ou seleção visual dos espaços.",
+    "Baixa evidência de atualidade: não há datas, eventos recentes ou conteúdo novo na home que deem segurança para uma contratação de casamento ou evento corporativo."
+  ],
+  "rebuild_angle": "Galeria recente por tipo de evento, páginas para cada salão, capacidades e infraestrutura, cardápios indicativos, disponibilidade, depoimentos verificáveis e funil de orçamento integrado ao comercial.",
+  "roi_mechanism": "Casamentos e eventos corporativos têm tíquete significativo. Um site com portfólio recente, tour por espaço, capacidade, disponibilidade e formulário qualificado pode reduzir dependência de portais e gerar pedidos de orçamento próprios.",
+  "evidence_links": [
+    "http://www.buffetoriginal.com.br/",
+    "https://www.instagram.com/buffetoriginal/",
+    "http://www.buffetoriginal.com.br/orcamento.php",
+    "http://www.buffetoriginal.com.br/contato.php",
+    "https://www.casamentos.com.br/buffet-casamento/buffet-original--e98619",
+    "https://restaurantguru.com.br/Buffet-Original-Curitiba"
+  ],
+  "source_audit": "/opt/data/cron/output/bd2acb816e97/2026-07-15_09-11-37.md"
+}

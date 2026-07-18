@@ -1,0 +1,178 @@
+[
+  {
+    "label": "production desktop",
+    "status": 200,
+    "title": "Contabilidade Curitiba | Assessoria contábil no Ahú",
+    "lang": "pt-BR",
+    "width": 1440,
+    "clientWidth": 1440,
+    "height": 3962,
+    "images": [
+      {
+        "src": "assets/official-logo2a.png",
+        "complete": true,
+        "width": 216
+      },
+      {
+        "src": "assets/official-1.jpg",
+        "complete": true,
+        "width": 1485
+      },
+      {
+        "src": "assets/official-c1.jpg",
+        "complete": true,
+        "width": 283
+      },
+      {
+        "src": "assets/official-c2.jpg",
+        "complete": true,
+        "width": 283
+      },
+      {
+        "src": "assets/official-c3.jpg",
+        "complete": true,
+        "width": 283
+      },
+      {
+        "src": "assets/official-logo2a.png",
+        "complete": true,
+        "width": 216
+      }
+    ],
+    "emptyH1": false,
+    "localLinks": [
+      "#conteudo",
+      "#inicio",
+      "#experiencia",
+      "#servicos",
+      "#atendimento",
+      "#contato",
+      "#servicos",
+      "#contato",
+      "#contato",
+      "#contato",
+      "#contato",
+      "#contato",
+      "#privacidade"
+    ],
+    "errors": [],
+    "failed": []
+  },
+  {
+    "label": "production mobile",
+    "status": 200,
+    "title": "Contabilidade Curitiba | Assessoria contábil no Ahú",
+    "lang": "pt-BR",
+    "width": 390,
+    "clientWidth": 390,
+    "height": 5352,
+    "images": [
+      {
+        "src": "assets/official-logo2a.png",
+        "complete": true,
+        "width": 216
+      },
+      {
+        "src": "assets/official-1.jpg",
+        "complete": true,
+        "width": 1485
+      },
+      {
+        "src": "assets/official-c1.jpg",
+        "complete": true,
+        "width": 283
+      },
+      {
+        "src": "assets/official-c2.jpg",
+        "complete": true,
+        "width": 283
+      },
+      {
+        "src": "assets/official-c3.jpg",
+        "complete": true,
+        "width": 283
+      },
+      {
+        "src": "assets/official-logo2a.png",
+        "complete": true,
+        "width": 216
+      }
+    ],
+    "emptyH1": false,
+    "localLinks": [
+      "#conteudo",
+      "#inicio",
+      "#experiencia",
+      "#servicos",
+      "#atendimento",
+      "#contato",
+      "#servicos",
+      "#contato",
+      "#contato",
+      "#contato",
+      "#contato",
+      "#contato",
+      "#privacidade"
+    ],
+    "errors": [],
+    "failed": []
+  },
+  {
+    "label": "mobile menu keyboard",
+    "opened": "true",
+    "displayed": true,
+    "closed": "false",
+    "focusReturned": true,
+    "errors": []
+  },
+  {
+    "label": "proposal desktop",
+    "status": 200,
+    "title": "Direção digital independente | Contabilidade Curitiba",
+    "lang": "pt-BR",
+    "width": 1440,
+    "clientWidth": 1440,
+    "height": 3619,
+    "images": [
+      {
+        "src": "screenshots/original-desktop-viewport.png",
+        "complete": true,
+        "width": 1440
+      },
+      {
+        "src": "screenshots/built-desktop-viewport.png",
+        "complete": true,
+        "width": 1440
+      }
+    ],
+    "emptyH1": false,
+    "localLinks": [],
+    "errors": [],
+    "failed": []
+  },
+  {
+    "label": "proposal mobile",
+    "status": 200,
+    "title": "Direção digital independente | Contabilidade Curitiba",
+    "lang": "pt-BR",
+    "width": 390,
+    "clientWidth": 390,
+    "height": 5062,
+    "images": [
+      {
+        "src": "screenshots/original-desktop-viewport.png",
+        "complete": true,
+        "width": 1440
+      },
+      {
+        "src": "screenshots/built-desktop-viewport.png",
+        "complete": true,
+        "width": 1440
+      }
+    ],
+    "emptyH1": false,
+    "localLinks": [],
+    "errors": [],
+    "failed": []
+  }
+]

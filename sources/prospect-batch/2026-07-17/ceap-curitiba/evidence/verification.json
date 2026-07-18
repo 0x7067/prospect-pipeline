@@ -1,0 +1,87 @@
+{
+  "run": "2026-07-17T12:01:51.266Z",
+  "viewports": {
+    "index-desktop": {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "title": "CEAP Curitiba | Cursos Técnicos e Profissionalizantes",
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "scrollHeight": 4899,
+      "unresolved": [],
+      "badImages": [],
+      "tinyTargets": [],
+      "lang": "pt-BR",
+      "h1": 1,
+      "consoleErrors": [],
+      "failed": []
+    },
+    "index-mobile": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "CEAP Curitiba | Cursos Técnicos e Profissionalizantes",
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "scrollHeight": 7836,
+      "unresolved": [],
+      "badImages": [],
+      "tinyTargets": [],
+      "lang": "pt-BR",
+      "h1": 1,
+      "consoleErrors": [],
+      "failed": []
+    },
+    "proposal-desktop": {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "title": "Oportunidade digital para o CEAP Curitiba",
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "scrollHeight": 4844,
+      "unresolved": [],
+      "badImages": [],
+      "tinyTargets": [],
+      "lang": "pt-BR",
+      "h1": 1,
+      "consoleErrors": [],
+      "failed": []
+    },
+    "proposal-mobile": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "Oportunidade digital para o CEAP Curitiba",
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "scrollHeight": 6197,
+      "unresolved": [],
+      "badImages": [],
+      "tinyTargets": [],
+      "lang": "pt-BR",
+      "h1": 1,
+      "consoleErrors": [],
+      "failed": []
+    }
+  },
+  "checks": {
+    "mobileMenu": {
+      "open": "true",
+      "menuVisible": true,
+      "closed": "false"
+    },
+    "filter": {
+      "visibleCards": 2,
+      "wrongCards": 0
+    },
+    "productionForbidden": []
+  },
+  "errors": [],
+  "passed": true
+}

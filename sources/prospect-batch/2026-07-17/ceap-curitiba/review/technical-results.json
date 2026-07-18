@@ -1,0 +1,150 @@
+{
+  "index-desktop": {
+    "status": 200,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/logo.png",
+        "complete": true,
+        "naturalWidth": 1658,
+        "clientWidth": 218,
+        "clientHeight": 65
+      },
+      {
+        "src": "assets/hero-enfermagem.jpg",
+        "complete": true,
+        "naturalWidth": 1200,
+        "clientWidth": 720,
+        "clientHeight": 670
+      },
+      {
+        "src": "assets/hero-enfermagem.jpg",
+        "complete": true,
+        "naturalWidth": 1200,
+        "clientWidth": 415,
+        "clientHeight": 360
+      },
+      {
+        "src": "assets/area-saude.png",
+        "complete": true,
+        "naturalWidth": 1080,
+        "clientWidth": 720,
+        "clientHeight": 770
+      },
+      {
+        "src": "assets/logo.png",
+        "complete": true,
+        "naturalWidth": 1658,
+        "clientWidth": 190,
+        "clientHeight": 56
+      }
+    ]
+  },
+  "index-mobile": {
+    "status": 200,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/logo.png",
+        "complete": true,
+        "naturalWidth": 1658,
+        "clientWidth": 166,
+        "clientHeight": 49
+      },
+      {
+        "src": "assets/hero-enfermagem.jpg",
+        "complete": true,
+        "naturalWidth": 1200,
+        "clientWidth": 390,
+        "clientHeight": 245
+      },
+      {
+        "src": "assets/hero-enfermagem.jpg",
+        "complete": true,
+        "naturalWidth": 1200,
+        "clientWidth": 362,
+        "clientHeight": 280
+      },
+      {
+        "src": "assets/area-saude.png",
+        "complete": true,
+        "naturalWidth": 1080,
+        "clientWidth": 362,
+        "clientHeight": 320
+      },
+      {
+        "src": "assets/logo.png",
+        "complete": true,
+        "naturalWidth": 1658,
+        "clientWidth": 190,
+        "clientHeight": 56
+      }
+    ],
+    "menu": {
+      "before": "Abrir menu",
+      "opened": "true",
+      "after": "Fechar menu",
+      "closedAfterEscape": "false"
+    }
+  },
+  "proposal-desktop": {
+    "status": 200,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/current-home.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 626,
+        "clientHeight": 391
+      },
+      {
+        "src": "assets/proposed-home.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 626,
+        "clientHeight": 391
+      }
+    ]
+  },
+  "proposal-mobile": {
+    "status": 200,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/current-home.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 362,
+        "clientHeight": 226
+      },
+      {
+        "src": "assets/proposed-home.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 362,
+        "clientHeight": 226
+      }
+    ]
+  }
+}

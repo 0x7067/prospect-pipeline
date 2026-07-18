@@ -1,0 +1,121 @@
+{
+  "runAt": "2026-07-17T23:10:34.036Z",
+  "viewports": [],
+  "pages": {
+    "indexDesktop": {
+      "status": 200,
+      "innerWidth": 1440,
+      "scrollWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "scrollHeight": 4967,
+      "title": "Poncio Contabilidade | Organização para sua empresa avançar",
+      "lang": "pt-BR",
+      "overflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failed": [],
+      "badResponses": [],
+      "brokenAnchors": [],
+      "brokenImages": [],
+      "malformedContacts": []
+    },
+    "indexMobile": {
+      "status": 200,
+      "innerWidth": 390,
+      "scrollWidth": 390,
+      "bodyScrollWidth": 390,
+      "scrollHeight": 6379,
+      "title": "Poncio Contabilidade | Organização para sua empresa avançar",
+      "lang": "pt-BR",
+      "overflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failed": [],
+      "badResponses": [],
+      "brokenAnchors": [],
+      "brokenImages": [],
+      "malformedContacts": []
+    },
+    "proposalDesktop": {
+      "status": 200,
+      "innerWidth": 1440,
+      "scrollWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "scrollHeight": 4227,
+      "title": "Oportunidade digital | Poncio Contabilidade",
+      "lang": "pt-BR",
+      "overflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failed": [],
+      "badResponses": [],
+      "brokenAnchors": [],
+      "brokenImages": [],
+      "malformedContacts": []
+    },
+    "proposalMobile": {
+      "status": 200,
+      "innerWidth": 390,
+      "scrollWidth": 390,
+      "bodyScrollWidth": 390,
+      "scrollHeight": 6574,
+      "title": "Oportunidade digital | Poncio Contabilidade",
+      "lang": "pt-BR",
+      "overflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failed": [],
+      "badResponses": [],
+      "brokenAnchors": [],
+      "brokenImages": [],
+      "malformedContacts": []
+    }
+  },
+  "menu": {
+    "openByButton": true,
+    "closeByEscape": true,
+    "closeByLink": true,
+    "tapTarget": {
+      "width": 48,
+      "height": 48,
+      "pass": true
+    }
+  },
+  "separation": {
+    "forbiddenProductionTerms": [],
+    "proposalLinkedFromProduction": false,
+    "productionIdentity": true,
+    "proposalIdentity": true
+  },
+  "assets": {
+    "requiredFiles": [
+      "index.html",
+      "proposal.html",
+      "styles.css",
+      "script.js",
+      "SOURCE_MANIFEST.md",
+      "assets/logo-poncio.png",
+      "assets/favicon-poncio.png",
+      "assets/hero-office.jpg",
+      "assets/team-office.png",
+      "assets/brand-detail-wide.png",
+      "assets/brand-detail-tall.png"
+    ],
+    "allPresent": true
+  },
+  "hashes": {
+    "index.html": "8082336d42c78f213e0e1ea4f352926137ef13af8f0d364783c2eebecb886207",
+    "proposal.html": "c11cd2719e0d645b0709f93f9e853b64118fa07b3aa50eace1d34266180a6a96",
+    "styles.css": "51f174bf2c46e567be09078317764bc10cfea9c07f3af164778c789caa9d16c2",
+    "script.js": "8d5ceb29980ad687050fc33e0be5b7523b25798ac02fffd3c34815967f1c0dd3",
+    "SOURCE_MANIFEST.md": "1b11560edc42fd77233aac16465a79fffcb625ef0fafd16c3982ff51817142ef",
+    "assets/logo-poncio.png": "bfb8995aa6e8caef3695d87c5e7fab7610f1e4035f0967226c097e86f6461763",
+    "assets/favicon-poncio.png": "09e8011cf97349e2159a8610bec91b3abe1527de9c6c46b0977a3fa60b8252a8",
+    "assets/hero-office.jpg": "41ade319a36cc7fbad9a265cb92e4154d89ba9b1e7873ee9b31c316089405941",
+    "assets/team-office.png": "54fb2d6690c47d30766a0b51b63dda42d370df2ad59057fcad89d3e6134ac70a",
+    "assets/brand-detail-wide.png": "a7ceb1b7183c231a58d9c52c253881f37dd5b94aba6155b06f263ae29a1c23b5",
+    "assets/brand-detail-tall.png": "900a28452e240b7b531e346d88ebcc204abe7f011320c5d4e4ccc04cd45b4462"
+  },
+  "pass": true,
+  "failures": []
+}

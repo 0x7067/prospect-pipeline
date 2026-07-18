@@ -1,0 +1,11 @@
+# Build task — Instituto Zétola Odontologia
+
+Research `prospect.json` and every official/evidence URL first. Verify the live clinic identity, logo, palette, typography, imagery, specialties, team, address, and contacts before use. Download only official public assets and record exact source URLs and factual-copy sources in `SOURCE_MANIFEST.md`. Never invent dentists, CRO credentials, specialties, technology, testimonials, statistics, outcomes, awards, or guarantees. Omit anything unverified.
+
+Create from scratch in this directory: `index.html`, `proposal.html`, `styles.css`, `script.js`, `assets/`, `SOURCE_MANIFEST.md`, `BUILD_REPORT.md`. Static only; no framework, package manager, CMS, fake form, or backend.
+
+`index.html` must be a production-realistic sophisticated clinical site: organized verified specialties, verified team presentation, one clear scheduling/contact pathway with specific CTAs (never generic “clique aqui”), accessible alt text everywhere, and deliberate mobile composition. It must be recognizably Zétola — not an interchangeable premium-dental template. Every below-fold section needs independent art direction; avoid card-grid sameness, vertical-title gimmicks, giant empty areas, invented proof, and mechanical mobile stacking. Production navigation/footer must not link to `proposal.html`; production copy must contain no proposal/redesign/concept/prototype/audit/evidence/before-after/non-affiliation/limitations language.
+
+`proposal.html` is a separate persuasive sales document that must not impersonate the clinic: opportunity/result first, then proposed visual evidence, prioritized improvements, deliverables, dependencies, sequence/timeline, one explicit next step, compact factual disclosure at the bottom.
+
+Read and satisfy `PROSPECT_BRAND_STYLE_GATE.md`: average >=4.0, no score <3.0, and brand fidelity, distinctiveness, hero, below-fold, mobile, proposal each >=4.0. Serve and verify at 1440x900 and 390x844: no overflow, console/page errors, or broken assets; mobile menu opens/closes via button, link, and Escape with an accessible label change; tap targets adequate. Record actual commands/results and limitations in `BUILD_REPORT.md`. Do not publish. Work only in this directory; complete working files, not a plan.

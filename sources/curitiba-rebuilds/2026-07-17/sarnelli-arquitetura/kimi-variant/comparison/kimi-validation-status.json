@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-07-18T03:40:09.049Z",
+  "success": true,
+  "results": [
+    {
+      "page": "index",
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:38611/",
+      "image": "comparison/index-desktop.png",
+      "fullImage": "comparison/index-desktop-full.png",
+      "success": true,
+      "httpStatus": 200,
+      "title": "Sarnelli Arquitetura — Arquitetura para saúde e educação",
+      "finalUrl": "http://127.0.0.1:38611/",
+      "error": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "horizontalOverflow": false
+    },
+    {
+      "page": "index",
+      "viewport": "mobile",
+      "url": "http://127.0.0.1:38611/",
+      "image": "comparison/index-mobile.png",
+      "fullImage": "comparison/index-mobile-full.png",
+      "success": true,
+      "httpStatus": 200,
+      "title": "Sarnelli Arquitetura — Arquitetura para saúde e educação",
+      "finalUrl": "http://127.0.0.1:38611/",
+      "error": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "horizontalOverflow": false
+    },
+    {
+      "page": "proposal",
+      "viewport": "desktop",
+      "url": "http://127.0.0.1:38611/proposal.html",
+      "image": "comparison/proposal-desktop.png",
+      "fullImage": "comparison/proposal-desktop-full.png",
+      "success": true,
+      "httpStatus": 200,
+      "title": "Proposta de redesign — Sarnelli Arquitetura (conceito independente)",
+      "finalUrl": "http://127.0.0.1:38611/proposal.html",
+      "error": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "horizontalOverflow": false
+    },
+    {
+      "page": "proposal",
+      "viewport": "mobile",
+      "url": "http://127.0.0.1:38611/proposal.html",
+      "image": "comparison/proposal-mobile.png",
+      "fullImage": "comparison/proposal-mobile-full.png",
+      "success": true,
+      "httpStatus": 200,
+      "title": "Proposta de redesign — Sarnelli Arquitetura (conceito independente)",
+      "finalUrl": "http://127.0.0.1:38611/proposal.html",
+      "error": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "horizontalOverflow": false
+    }
+  ]
+}

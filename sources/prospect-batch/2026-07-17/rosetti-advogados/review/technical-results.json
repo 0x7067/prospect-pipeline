@@ -1,0 +1,124 @@
+{
+  "index-desktop": {
+    "status": 200,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/img/rosetti-logo.png",
+        "complete": true,
+        "naturalWidth": 312,
+        "clientWidth": 151
+      },
+      {
+        "src": "assets/img/rosetti-logo.png",
+        "complete": true,
+        "naturalWidth": 312,
+        "clientWidth": 150
+      }
+    ]
+  },
+  "index-mobile": {
+    "status": 200,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/img/rosetti-logo.png",
+        "complete": true,
+        "naturalWidth": 312,
+        "clientWidth": 151
+      },
+      {
+        "src": "assets/img/rosetti-logo.png",
+        "complete": true,
+        "naturalWidth": 312,
+        "clientWidth": 150
+      }
+    ],
+    "menu": {
+      "before": "Abrir menu",
+      "opened": "true",
+      "after": "Fechar menu",
+      "closedAfterEscape": "false"
+    }
+  },
+  "proposal-desktop": {
+    "status": 200,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/screenshots/current-desktop-viewport.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 282
+      },
+      {
+        "src": "assets/screenshots/current-mobile-viewport.png",
+        "complete": true,
+        "naturalWidth": 390,
+        "clientWidth": 282
+      },
+      {
+        "src": "assets/screenshots/proposed-desktop-viewport.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 282
+      },
+      {
+        "src": "assets/screenshots/proposed-mobile-viewport.png",
+        "complete": true,
+        "naturalWidth": 390,
+        "clientWidth": 282
+      }
+    ]
+  },
+  "proposal-mobile": {
+    "status": 200,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/screenshots/current-desktop-viewport.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 161
+      },
+      {
+        "src": "assets/screenshots/current-mobile-viewport.png",
+        "complete": true,
+        "naturalWidth": 390,
+        "clientWidth": 161
+      },
+      {
+        "src": "assets/screenshots/proposed-desktop-viewport.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 161
+      },
+      {
+        "src": "assets/screenshots/proposed-mobile-viewport.png",
+        "complete": true,
+        "naturalWidth": 390,
+        "clientWidth": 161
+      }
+    ]
+  }
+}

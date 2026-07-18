@@ -1,0 +1,28 @@
+{
+  "reviewed_at": "2026-07-17T05:21:55Z",
+  "status": "passed_adversarial_style_gate",
+  "average_score": 4.32,
+  "scores": {
+    "brand_fidelity": 4.4,
+    "distinctiveness": 4.2,
+    "hero_impact": 4.3,
+    "below_fold_art_direction": 4.1,
+    "typography": 4.3,
+    "image_quality_treatment": 4.1,
+    "mobile_intentionality": 4.2,
+    "credibility_proof": 4.6,
+    "conversion_clarity": 4.5,
+    "proposal_persuasiveness": 4.5
+  },
+  "technical": {
+    "desktop": "1440x900 pass",
+    "mobile": "390x844 pass",
+    "horizontal_overflow": false,
+    "console_errors": 0,
+    "page_errors": 0,
+    "request_failures": 0,
+    "mobile_menu_verified": true,
+    "production_proposal_separation": true
+  },
+  "review_note": "Mobile team grid was revised into a horizontal snap rail before acceptance."
+}

@@ -1,0 +1,31 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Generated/runtime state
+node_modules/
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.cache/
+.coverage
+coverage/
+.vite/
+.next/
+.playwright/
+.playwright-browsers/
+.pw-browsers/
+.browsers/
+.DS_Store
+
+# Local agent state
+.afk/
+.claude/state/
+.codex/
+.kimi/

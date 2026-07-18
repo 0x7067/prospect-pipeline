@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "prospect": "CLINEURO Clínica do Sistema Nervoso",
+  "route_index": "/",
+  "route_proposal": "/proposal.html",
+  "files": [
+    {
+      "path": "assets/banner-neuro.png",
+      "sha256": "e71e1e0084caf0d09581587cc921c6245430738b1d3d2384215fcec654263b2b",
+      "bytes": 236944
+    },
+    {
+      "path": "assets/clineuro-icone.png",
+      "sha256": "237a745ee5b0091c4208e3d58a3818b66b2ab6dcd8f5f876f9e0fc91097e13c9",
+      "bytes": 12350
+    },
+    {
+      "path": "assets/icons/arrow-up-right.svg",
+      "sha256": "44db5257b360ec04863eb6daaa41f220c8b714d23fb81403517d0a30acfda9f4",
+      "bytes": 217
+    },
+    {
+      "path": "evidence-current-desktop-1440x900.png",
+      "sha256": "c0f0f085916fab9e784e477163370ebbc80c4a2a46789f7497587d4d9cfbef63",
+      "bytes": 296085
+    },
+    {
+      "path": "evidence-proposed-desktop-1440x900.png",
+      "sha256": "4069c23cbdbd3e16615bf1ae440a27551bf5993329f5991b9a4035d8f40d0bef",
+      "bytes": 679637
+    },
+    {
+      "path": "index.html",
+      "sha256": "c25b28abba718047fe9e50be083c0d0ebfda2a17dddb50738bf0fdef89f51993",
+      "bytes": 6999
+    },
+    {
+      "path": "proposal.html",
+      "sha256": "e2b68575e0ce7cd044787c2f430166e08f2cbe1c0aaec23e5b3fdff90610e901",
+      "bytes": 6561
+    },
+    {
+      "path": "script.js",
+      "sha256": "e6cff9dc7f2f2dbcc9678738779afb2f4c5abba85ba75de1f141a59c8f14ee5f",
+      "bytes": 887
+    },
+    {
+      "path": "styles.css",
+      "sha256": "3ac18274885ef071688c8a2adb2f45eda953df547ddc717640792db18bce6582",
+      "bytes": 11503
+    }
+  ]
+}

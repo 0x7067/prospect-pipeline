@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "prospect": "ceap-curitiba",
+  "file_count": 12,
+  "files": [
+    {
+      "path": "assets/area-aperfeicoamento.png",
+      "sha256": "80872847bc630a73c089581705901704121a545b4fbbbc971e463448acdbacd8",
+      "bytes": 703689
+    },
+    {
+      "path": "assets/area-industrial.png",
+      "sha256": "7905ea0b876bfebd3417628694f8ade760700ca5199ce4e6d3733484f5ce2852",
+      "bytes": 721868
+    },
+    {
+      "path": "assets/area-saude.png",
+      "sha256": "e3dc6e91d4b84828ed5c504d4fab6b20133b08c956b2fd8bb00f00345e3c431f",
+      "bytes": 545700
+    },
+    {
+      "path": "assets/current-home.png",
+      "sha256": "83fdc981a1f0f2304fe89d30ac6bc79d8ffbf19d84fd2bde7f5aab33f4aa4831",
+      "bytes": 304110
+    },
+    {
+      "path": "assets/favicon.png",
+      "sha256": "87b80b5d3ad2ee57e3f3df4d101cea63c798a2d85c4a5a7ddc7830205f35df17",
+      "bytes": 25243
+    },
+    {
+      "path": "assets/hero-enfermagem.jpg",
+      "sha256": "f26700b1af2ec69ccf765520ba35db52ccf046b6e7a4094e3589e5c69c3dcd5e",
+      "bytes": 175079
+    },
+    {
+      "path": "assets/logo.png",
+      "sha256": "f03c523c448784c41073476fe5a9574bacb83517afef95835b59a1431142baf5",
+      "bytes": 28259
+    },
+    {
+      "path": "assets/proposed-home.png",
+      "sha256": "9741dc321eb838b355897592c3fbfcdd3c7c244c4090a5c28c275939a88733f6",
+      "bytes": 529872
+    },
+    {
+      "path": "index.html",
+      "sha256": "8d6cbefbce0ff3bf521923eee227b590ec348744f0b0b0cd8cf2aaefb0a94879",
+      "bytes": 11198
+    },
+    {
+      "path": "proposal.html",
+      "sha256": "1ba0728aefb60fc4564374c24fac0d74582cda376e68bf7bcb1c1dea81fa16fb",
+      "bytes": 6961
+    },
+    {
+      "path": "script.js",
+      "sha256": "f09140aa3ae12bebb63e5e448b5f216292d95c48c7f281564d21a03ed02cc088",
+      "bytes": 1381
+    },
+    {
+      "path": "styles.css",
+      "sha256": "72b9bf5afcfdcff5d82b96f50a5b99ed195bd35be31f918447d558524f63c84d",
+      "bytes": 16720
+    }
+  ]
+}

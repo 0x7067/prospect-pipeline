@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "prospect": "Pousada Ruta 40",
+  "route_index": "/",
+  "route_proposal": "/proposal.html",
+  "files": [
+    {
+      "path": "assets/images/acom_1.png",
+      "sha256": "7f7daaaff719b4761131450bd25ba3bac14602dd6876c27e632be0a3cea29b5d",
+      "bytes": 1075142
+    },
+    {
+      "path": "assets/images/acom_2.png",
+      "sha256": "a400ded2e6963464490c13187dcdfc29ecc1041783d9e9dfc63bea35ee83721a",
+      "bytes": 1180297
+    },
+    {
+      "path": "assets/images/acom_3.png",
+      "sha256": "96f2521ebc7e888a66370729caa2a01cc85090efb156d902b868651db3ca961a",
+      "bytes": 1151341
+    },
+    {
+      "path": "assets/images/acom_4.png",
+      "sha256": "53d0d7d64dd94bc0c73a262e6900099499de7febf32015eb790abce19d8f1931",
+      "bytes": 1075065
+    },
+    {
+      "path": "assets/images/acom_5.png",
+      "sha256": "b4c0b29fed6a0c1f6b5392610a6d0ef43a9dd1561cf90c51ce7ed1e7aebb9a58",
+      "bytes": 1359300
+    },
+    {
+      "path": "assets/images/acom_6.png",
+      "sha256": "f217144b58dd6d18b5da9135df6f611ddaf9ccbf76bec5e766ed6f79f11cc959",
+      "bytes": 1378214
+    },
+    {
+      "path": "assets/images/hero_bg.png",
+      "sha256": "14219c5f7ac16d883575dc12d13b9c2201beeaebcff66c9478e08bd999f7f043",
+      "bytes": 1230786
+    },
+    {
+      "path": "assets/images/logo.png",
+      "sha256": "8f42f4beceb767909f8368e4c416e961e9d70e4499e5cb9bddb3da43071915bb",
+      "bytes": 190445
+    },
+    {
+      "path": "assets/original_evidence/original_home_desktop_1440x900.png",
+      "sha256": "6c11cc984d08af245b32b877cf8b89b70766928499f94ab8a5cf2717ea710b2d",
+      "bytes": 1679778
+    },
+    {
+      "path": "assets/original_evidence/original_home_mobile_390x844.png",
+      "sha256": "225c17f2bccadd7938e0cb752a44bb0ae4b0b2fcf918cfaaef855812ccdfc2a9",
+      "bytes": 699656
+    },
+    {
+      "path": "index.html",
+      "sha256": "e10a2d6f3a0d24a812df6686a186990c82bcc7336377564ab5b4afa54dabbb6e",
+      "bytes": 16203
+    },
+    {
+      "path": "proposal.html",
+      "sha256": "22655c7653f12bc89160d36de630047677edec80bdcbc1e9cee1d50f493516e4",
+      "bytes": 11887
+    },
+    {
+      "path": "script.js",
+      "sha256": "1241c1e522fc879449bc48cb0d879e3b35eac307587cba7b765551df4938732d",
+      "bytes": 3905
+    },
+    {
+      "path": "styles.css",
+      "sha256": "966bbb17b46c337ed32a32d5a4936e63c5e93077fa3c38a548d3756880042902",
+      "bytes": 13256
+    }
+  ]
+}

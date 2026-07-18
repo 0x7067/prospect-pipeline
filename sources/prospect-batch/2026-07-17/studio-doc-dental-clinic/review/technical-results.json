@@ -1,0 +1,280 @@
+{
+  "index-desktop": {
+    "status": 200,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/images/logo.png",
+        "complete": true,
+        "naturalWidth": 500,
+        "clientWidth": 133
+      },
+      {
+        "src": "assets/images/clinic-2239.png",
+        "complete": true,
+        "naturalWidth": 800,
+        "clientWidth": 390
+      },
+      {
+        "src": "assets/images/clinic-1818.png",
+        "complete": true,
+        "naturalWidth": 800,
+        "clientWidth": 320
+      },
+      {
+        "src": "assets/images/clinic-1820.png",
+        "complete": true,
+        "naturalWidth": 800,
+        "clientWidth": 320
+      },
+      {
+        "src": "assets/images/clinic-2239.png",
+        "complete": true,
+        "naturalWidth": 800,
+        "clientWidth": 208
+      },
+      {
+        "src": "assets/images/clinic-2241.png",
+        "complete": true,
+        "naturalWidth": 800,
+        "clientWidth": 97
+      },
+      {
+        "src": "assets/images/dr-flavia.jpg",
+        "complete": true,
+        "naturalWidth": 600,
+        "clientWidth": 277
+      },
+      {
+        "src": "assets/images/dr-marcelo.jpg",
+        "complete": true,
+        "naturalWidth": 600,
+        "clientWidth": 277
+      },
+      {
+        "src": "assets/images/dr-frank.jpg",
+        "complete": true,
+        "naturalWidth": 600,
+        "clientWidth": 277
+      },
+      {
+        "src": "assets/images/dr-jaina.jpg",
+        "complete": true,
+        "naturalWidth": 600,
+        "clientWidth": 277
+      },
+      {
+        "src": "assets/images/gallery-dentes.jpg",
+        "complete": true,
+        "naturalWidth": 768,
+        "clientWidth": 360
+      },
+      {
+        "src": "assets/images/gallery-galeria.jpg",
+        "complete": true,
+        "naturalWidth": 768,
+        "clientWidth": 360
+      },
+      {
+        "src": "assets/images/gallery-boca.jpg",
+        "complete": true,
+        "naturalWidth": 768,
+        "clientWidth": 360
+      },
+      {
+        "src": "assets/images/gallery-sorriso.jpg",
+        "complete": true,
+        "naturalWidth": 768,
+        "clientWidth": 360
+      },
+      {
+        "src": "assets/images/logo.png",
+        "complete": true,
+        "naturalWidth": 500,
+        "clientWidth": 448
+      }
+    ]
+  },
+  "index-mobile": {
+    "status": 200,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/images/logo.png",
+        "complete": true,
+        "naturalWidth": 500,
+        "clientWidth": 104
+      },
+      {
+        "src": "assets/images/clinic-2239.png",
+        "complete": true,
+        "naturalWidth": 800,
+        "clientWidth": 328
+      },
+      {
+        "src": "assets/images/clinic-1818.png",
+        "complete": true,
+        "naturalWidth": 800,
+        "clientWidth": 350
+      },
+      {
+        "src": "assets/images/clinic-1820.png",
+        "complete": true,
+        "naturalWidth": 800,
+        "clientWidth": 168
+      },
+      {
+        "src": "assets/images/clinic-2239.png",
+        "complete": true,
+        "naturalWidth": 800,
+        "clientWidth": 168
+      },
+      {
+        "src": "assets/images/clinic-2241.png",
+        "complete": true,
+        "naturalWidth": 800,
+        "clientWidth": 168
+      },
+      {
+        "src": "assets/images/dr-flavia.jpg",
+        "complete": true,
+        "naturalWidth": 600,
+        "clientWidth": 350
+      },
+      {
+        "src": "assets/images/dr-marcelo.jpg",
+        "complete": true,
+        "naturalWidth": 600,
+        "clientWidth": 350
+      },
+      {
+        "src": "assets/images/dr-frank.jpg",
+        "complete": true,
+        "naturalWidth": 600,
+        "clientWidth": 350
+      },
+      {
+        "src": "assets/images/dr-jaina.jpg",
+        "complete": true,
+        "naturalWidth": 600,
+        "clientWidth": 350
+      },
+      {
+        "src": "assets/images/gallery-dentes.jpg",
+        "complete": true,
+        "naturalWidth": 768,
+        "clientWidth": 390
+      },
+      {
+        "src": "assets/images/gallery-galeria.jpg",
+        "complete": true,
+        "naturalWidth": 768,
+        "clientWidth": 195
+      },
+      {
+        "src": "assets/images/gallery-boca.jpg",
+        "complete": true,
+        "naturalWidth": 768,
+        "clientWidth": 195
+      },
+      {
+        "src": "assets/images/gallery-sorriso.jpg",
+        "complete": true,
+        "naturalWidth": 768,
+        "clientWidth": 195
+      },
+      {
+        "src": "assets/images/logo.png",
+        "complete": true,
+        "naturalWidth": 500,
+        "clientWidth": 350
+      }
+    ],
+    "menu": {
+      "before": "Abrir menu",
+      "opened": "true",
+      "after": "Fechar menu",
+      "closedAfterEscape": "false"
+    }
+  },
+  "proposal-desktop": {
+    "status": 200,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/images/proposal/current-desktop.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 575
+      },
+      {
+        "src": "assets/images/proposal/proposed-desktop.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 575
+      },
+      {
+        "src": "assets/images/proposal/current-mobile.png",
+        "complete": true,
+        "naturalWidth": 390,
+        "clientWidth": 220
+      },
+      {
+        "src": "assets/images/proposal/proposed-mobile.png",
+        "complete": true,
+        "naturalWidth": 390,
+        "clientWidth": 220
+      }
+    ]
+  },
+  "proposal-mobile": {
+    "status": 200,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/images/proposal/current-desktop.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 348
+      },
+      {
+        "src": "assets/images/proposal/proposed-desktop.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 348
+      },
+      {
+        "src": "assets/images/proposal/current-mobile.png",
+        "complete": true,
+        "naturalWidth": 390,
+        "clientWidth": 220
+      },
+      {
+        "src": "assets/images/proposal/proposed-mobile.png",
+        "complete": true,
+        "naturalWidth": 390,
+        "clientWidth": 220
+      }
+    ]
+  }
+}

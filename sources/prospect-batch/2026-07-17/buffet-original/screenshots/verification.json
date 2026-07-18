@@ -1,0 +1,107 @@
+[
+  {
+    "target": "index.html",
+    "label": "desktop",
+    "viewport": "1440x900",
+    "overflow": false,
+    "metrics": {
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "bodyHeight": 4241,
+      "viewport": 1440
+    },
+    "errors": [],
+    "failed": [],
+    "brokenAnchors": [],
+    "brokenImages": [],
+    "missingLocalLinks": []
+  },
+  {
+    "check": "mobile menu keyboard",
+    "before": "false",
+    "after": "true",
+    "afterEscape": "false",
+    "focused": "menu-toggle"
+  },
+  {
+    "target": "index.html",
+    "label": "mobile",
+    "viewport": "390x844",
+    "overflow": false,
+    "metrics": {
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "bodyHeight": 4894,
+      "viewport": 390
+    },
+    "errors": [],
+    "failed": [],
+    "brokenAnchors": [],
+    "brokenImages": [],
+    "missingLocalLinks": []
+  },
+  {
+    "target": "proposal.html",
+    "label": "desktop",
+    "viewport": "1440x900",
+    "overflow": false,
+    "metrics": {
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "bodyHeight": 3465,
+      "viewport": 1440
+    },
+    "errors": [],
+    "failed": [],
+    "brokenAnchors": [],
+    "brokenImages": [],
+    "missingLocalLinks": []
+  },
+  {
+    "target": "proposal.html",
+    "label": "mobile",
+    "viewport": "390x844",
+    "overflow": false,
+    "metrics": {
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "bodyHeight": 5256,
+      "viewport": 390
+    },
+    "errors": [],
+    "failed": [],
+    "brokenAnchors": [],
+    "brokenImages": [],
+    "missingLocalLinks": []
+  },
+  {
+    "check": "production separation",
+    "proposalTerms": [],
+    "proposalLink": false
+  },
+  {
+    "check": "required files",
+    "files": [
+      {
+        "file": "index.html",
+        "exists": true,
+        "bytes": 8572
+      },
+      {
+        "file": "proposal.html",
+        "exists": true,
+        "bytes": 8581
+      },
+      {
+        "file": "styles.css",
+        "exists": true,
+        "bytes": 11250
+      },
+      {
+        "file": "script.js",
+        "exists": true,
+        "bytes": 797
+      }
+    ]
+  }
+]

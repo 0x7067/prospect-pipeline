@@ -1,0 +1,70 @@
+{
+  "testedAt": "2026-07-17T12:25:52.958Z",
+  "base": "http://127.0.0.1:43921",
+  "viewports": {
+    "home-desktop": {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "overflow": {
+        "innerWidth": 1440,
+        "scrollWidth": 1440
+      },
+      "anchors": 10,
+      "localAssets": 9,
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      },
+      "screenshot": "evidence/proposed/home-desktop.png"
+    },
+    "home-mobile": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "overflow": {
+        "innerWidth": 390,
+        "scrollWidth": 390
+      },
+      "anchors": 10,
+      "localAssets": 9,
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      },
+      "screenshot": "evidence/proposed/home-mobile.png"
+    }
+  },
+  "separation": {
+    "proposalNoindex": true,
+    "proposal": {
+      "status": 200,
+      "overflow": {
+        "innerWidth": 1440,
+        "scrollWidth": 1440
+      },
+      "localAssets": 4,
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      }
+    },
+    "forbiddenProductionStrings": []
+  },
+  "files": {
+    "index.html": 7379,
+    "proposal.html": 9536,
+    "styles.css": 10272,
+    "script.js": 979,
+    "SOURCE_MANIFEST.md": 5381,
+    "BUILD_REPORT.md": 3899,
+    "verify_playwright.js": 6017
+  }
+}

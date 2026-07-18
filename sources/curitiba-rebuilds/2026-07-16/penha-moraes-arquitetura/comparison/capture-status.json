@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-16/penha-moraes-arquitetura",
+  "started_at": "2026-07-17T00:18:48.183Z",
+  "finished_at": "2026-07-17T02:24:05.299880Z",
+  "captures": [
+    {
+      "target": "current",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "https://penhamoraes.arq.br/",
+      "image": "comparison/current-desktop.png",
+      "started_at": "2026-07-17T00:18:48.225Z",
+      "success": true,
+      "http_status": 200,
+      "title": "Penha Moraes | Escritório de arquitetura em Curitiba",
+      "final_url": "https://penhamoraes.arq.br/",
+      "error": null,
+      "finished_at": "2026-07-17T00:18:59.609Z"
+    },
+    {
+      "target": "current",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "https://penhamoraes.arq.br/",
+      "image": "comparison/current-mobile.png",
+      "started_at": "2026-07-17T00:18:59.609Z",
+      "success": true,
+      "http_status": 200,
+      "title": "Penha Moraes | Escritório de arquitetura em Curitiba",
+      "final_url": "https://penhamoraes.arq.br/",
+      "error": null,
+      "finished_at": "2026-07-17T00:19:10.596Z"
+    },
+    {
+      "target": "proposed",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://127.0.0.1:4173/index.html",
+      "image": "comparison/proposed-desktop.png",
+      "started_at": "2026-07-17T02:24:05.299880Z",
+      "success": true,
+      "http_status": 200,
+      "title": "Penha Moraes Arquitetura & Interiores",
+      "final_url": "http://127.0.0.1:4173/index.html",
+      "error": null,
+      "finished_at": "2026-07-17T02:24:05.299880Z"
+    },
+    {
+      "target": "proposed",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:4173/index.html",
+      "image": "comparison/proposed-mobile.png",
+      "started_at": "2026-07-17T02:24:05.299880Z",
+      "success": true,
+      "http_status": 200,
+      "title": "Penha Moraes Arquitetura & Interiores",
+      "final_url": "http://127.0.0.1:4173/index.html",
+      "error": null,
+      "finished_at": "2026-07-17T02:24:05.299880Z"
+    }
+  ],
+  "errors": [],
+  "local_server_url": "http://127.0.0.1:4173/",
+  "success": true
+}

@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "status": "published_temporary_preview",
+  "provider": "cloudflare-temporary-account",
+  "deployed_at_utc": "2026-07-17T13:13:27Z",
+  "production_url": "https://buffet-original-preview.smart-banjo.workers.dev/",
+  "proposal_url": "https://buffet-original-preview.smart-banjo.workers.dev/proposal.html",
+  "version_id": "e4b48af8-bbf5-458a-95cf-cbbca7208afb",
+  "publication_manifest_sha256": "6c7625671975ad1168b11ede1cb1b48a000281cedd02ed03078d1ce096167dfa",
+  "live_integrity": {
+    "matched_files": 35,
+    "total_files": 35,
+    "production_http": 200,
+    "proposal_http": 200
+  },
+  "official_domain_modified": false,
+  "outreach_performed": false,
+  "notes": "Temporary preview only. Claim credential intentionally not stored."
+}

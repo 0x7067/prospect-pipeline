@@ -1,0 +1,60 @@
+{
+  "schema": 3,
+  "token": "ZX5RlKxXuoZNIVJ8QPb-z1N6R7oTql72",
+  "build_id": "45962261c2c0cfbb7896dc8616105e96cd6c0bd20b688fbf92a0a6b3a363159e",
+  "source_capture_available": true,
+  "desktop": {
+    "winner": "A",
+    "decisive": true,
+    "confidence": 0.99,
+    "scores": {
+      "A": {
+        "brand_fit": 9.0,
+        "hierarchy": 9.0,
+        "credibility": 9.0,
+        "conversion_clarity": 8.5,
+        "readability_accessibility": 8.5,
+        "mobile_usability": 7.5,
+        "generic_ai_resistance": 8.5
+      },
+      "B": {
+        "brand_fit": 0.5,
+        "hierarchy": 0.0,
+        "credibility": 0.0,
+        "conversion_clarity": 0.0,
+        "readability_accessibility": 0.5,
+        "mobile_usability": 0.5,
+        "generic_ai_resistance": 0.5
+      }
+    },
+    "severe_regressions": [],
+    "notes": "A presents a complete, credible architecture-specific editorial experience with clear hierarchy and actions. B exposes only a blank loading surface, so it cannot support discovery or conversion."
+  },
+  "mobile": {
+    "winner": "B",
+    "decisive": true,
+    "confidence": 0.91,
+    "scores": {
+      "A": {
+        "brand_fit": 8.0,
+        "hierarchy": 7.5,
+        "credibility": 7.0,
+        "conversion_clarity": 4.5,
+        "readability_accessibility": 7.0,
+        "mobile_usability": 6.5,
+        "generic_ai_resistance": 7.5
+      },
+      "B": {
+        "brand_fit": 8.5,
+        "hierarchy": 8.5,
+        "credibility": 9.0,
+        "conversion_clarity": 8.5,
+        "readability_accessibility": 8.5,
+        "mobile_usability": 9.0,
+        "generic_ai_resistance": 8.5
+      }
+    },
+    "severe_regressions": [],
+    "notes": "B preserves strong editorial hierarchy, visible calls to action, evidence, portfolio structure, contact details, and disclosure across the complete mobile journey. A is visually appealing but offers only a hero view with weaker task and conversion clarity."
+  }
+}

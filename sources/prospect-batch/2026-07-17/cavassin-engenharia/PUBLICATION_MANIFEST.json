@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "prospect": "Cavassin Engenharia",
+  "route_index": "/",
+  "route_proposal": "/proposal.html",
+  "files": [
+    {
+      "path": "assets/hero-oficial.png",
+      "sha256": "8114330444f23076d68c40b3d17d0004e573e2931d0b87efb932c549dcade9f0",
+      "bytes": 1306247
+    },
+    {
+      "path": "assets/icons/arrow-down.svg",
+      "sha256": "cc6416ae83e20660f14b11f5525c6d05ee679c3f26cee41b696cb37aa905d4f5",
+      "bytes": 239
+    },
+    {
+      "path": "assets/icons/arrow-up-right.svg",
+      "sha256": "44db5257b360ec04863eb6daaa41f220c8b714d23fb81403517d0a30acfda9f4",
+      "bytes": 217
+    },
+    {
+      "path": "assets/logo-cavassin.jpg",
+      "sha256": "768a9305ae7e86130d36b6d2418863c3bff32c30d44fa63ece53aa445382dd07",
+      "bytes": 18474
+    },
+    {
+      "path": "evidence-current-home.png",
+      "sha256": "b51b2999bb8aa9b79f8b23cada9f66852548931dc3f716533bf11933628b1bb3",
+      "bytes": 38679
+    },
+    {
+      "path": "index.html",
+      "sha256": "3754c291889ee3f43d97a20c086559a2857be19c81081af9e70f1df748779b98",
+      "bytes": 6810
+    },
+    {
+      "path": "proposal.html",
+      "sha256": "11621e61f38f92f051c1d73c8a2a1244206fe180b9c747a238efcf564c7aca06",
+      "bytes": 5481
+    },
+    {
+      "path": "script.js",
+      "sha256": "65d1b575be342b9e00fc20ad3988dda788790da51c2ba8ec3f24c7ae960df348",
+      "bytes": 891
+    },
+    {
+      "path": "styles.css",
+      "sha256": "852ec0e4da2104a3221e595aede38c305def09b94933c711863f32a8177d7240",
+      "bytes": 12222
+    },
+    {
+      "path": "verification-desktop.png",
+      "sha256": "099c7718116a71127b52aa5232ce544cb48a80ba14c483aa150f50e92ab6f082",
+      "bytes": 1596254
+    }
+  ]
+}

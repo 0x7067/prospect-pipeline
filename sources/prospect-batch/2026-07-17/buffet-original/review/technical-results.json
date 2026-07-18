@@ -1,0 +1,136 @@
+{
+  "index-desktop": {
+    "status": 200,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/original/logo.png",
+        "complete": true,
+        "naturalWidth": 125,
+        "clientWidth": 115,
+        "clientHeight": 82
+      },
+      {
+        "src": "assets/original/espaco-nobre.jpg",
+        "complete": true,
+        "naturalWidth": 158,
+        "clientWidth": 461,
+        "clientHeight": 420
+      },
+      {
+        "src": "assets/original/espaco-rotary.jpg",
+        "complete": true,
+        "naturalWidth": 158,
+        "clientWidth": 342,
+        "clientHeight": 280
+      },
+      {
+        "src": "assets/original/espaco-boliche.jpg",
+        "complete": true,
+        "naturalWidth": 158,
+        "clientWidth": 342,
+        "clientHeight": 280
+      }
+    ]
+  },
+  "index-mobile": {
+    "status": 200,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/original/logo.png",
+        "complete": true,
+        "naturalWidth": 125,
+        "clientWidth": 92,
+        "clientHeight": 80
+      },
+      {
+        "src": "assets/original/espaco-nobre.jpg",
+        "complete": true,
+        "naturalWidth": 158,
+        "clientWidth": 308,
+        "clientHeight": 300
+      },
+      {
+        "src": "assets/original/espaco-rotary.jpg",
+        "complete": true,
+        "naturalWidth": 158,
+        "clientWidth": 308,
+        "clientHeight": 300
+      },
+      {
+        "src": "assets/original/espaco-boliche.jpg",
+        "complete": true,
+        "naturalWidth": 158,
+        "clientWidth": 308,
+        "clientHeight": 300
+      }
+    ],
+    "menu": {
+      "before": "MENU",
+      "opened": "true",
+      "after": "Fechar menu",
+      "closedAfterEscape": "false"
+    }
+  },
+  "proposal-desktop": {
+    "status": 200,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "screenshots/original/original-desktop-1440x900.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 473,
+        "clientHeight": 330
+      },
+      {
+        "src": "screenshots/production/proposed-desktop-1440x900.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 473,
+        "clientHeight": 330
+      }
+    ]
+  },
+  "proposal-mobile": {
+    "status": 200,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "screenshots/original/original-desktop-1440x900.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 244,
+        "clientHeight": 250
+      },
+      {
+        "src": "screenshots/production/proposed-desktop-1440x900.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 244,
+        "clientHeight": 250
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "assets": {
+    "A-desktop": {
+      "path": "/opt/data/projects/curitiba-rebuilds/2026-07-16/penha-moraes-arquitetura/comparison/blind/A-desktop.png",
+      "sha256": "f6cfb6209a25ec5425c58cb6fd92bc4a84031cf0a239344b26fc82ed60b27003"
+    },
+    "A-mobile": {
+      "path": "/opt/data/projects/curitiba-rebuilds/2026-07-16/penha-moraes-arquitetura/comparison/blind/A-mobile.png",
+      "sha256": "5025719261e43b73800185b7aa9626c2e7531b47cec1ea4f014ef8ec92eb68d0"
+    },
+    "B-desktop": {
+      "path": "/opt/data/projects/curitiba-rebuilds/2026-07-16/penha-moraes-arquitetura/comparison/blind/B-desktop.png",
+      "sha256": "823bfca348d6b7f00dd40cf9210ce9fefa34a01794ab34e76c78e57361c1d3e2"
+    },
+    "B-mobile": {
+      "path": "/opt/data/projects/curitiba-rebuilds/2026-07-16/penha-moraes-arquitetura/comparison/blind/B-mobile.png",
+      "sha256": "579e8dc2a650081b855e29a0bd6b216518272af7fd41e7f27ad91dd674368e0b"
+    }
+  },
+  "blind": true,
+  "build_id": "45962261c2c0cfbb7896dc8616105e96cd6c0bd20b688fbf92a0a6b3a363159e",
+  "dimensions": [
+    "brand_fit",
+    "hierarchy",
+    "credibility",
+    "conversion_clarity",
+    "readability_accessibility",
+    "mobile_usability",
+    "generic_ai_resistance"
+  ],
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-16/penha-moraes-arquitetura",
+  "schema": 3,
+  "source_capture_available": true,
+  "token": "ZX5RlKxXuoZNIVJ8QPb-z1N6R7oTql72",
+  "viewports": {
+    "desktop": {
+      "width": 1440
+    },
+    "mobile": {
+      "width": 390
+    }
+  }
+}

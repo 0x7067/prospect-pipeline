@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Proposta de reconstrução — Studio DOC Dental Clinic (conceito independente)</title>
+<meta name="description" content="Proposta independente de reconstrução do site do Studio DOC Dental Clinic: oportunidade, evidência visual atual vs. proposta, problemas prioritários, entregáveis e cronograma." />
+<meta name="robots" content="noindex, nofollow" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body class="prop-body">
+
+<div class="prop-topbar">
+  <div class="container">
+    Conceito independente de reconstrução de site — <strong>não afiliado ao Studio DOC Dental Clinic</strong>. Ver divulgação completa ao final da página.
+  </div>
+</div>
+
+<header class="prop-hero">
+  <div class="container">
+    <span class="eyebrow eyebrow--light">Proposta de reconstrução de site · Studio DOC Dental Clinic</span>
+    <h1>Recuperar avaliações agendadas que hoje se perdem em um contato genérico.</h1>
+    <p class="lede">
+      O Studio DOC Dental Clinic já comunica uma estrutura de alto padrão dentro do DOC Castelo
+      Batel, com corpo clínico de formação internacional e CRO/PR verificável. A oportunidade não
+      está em mudar quem a clínica é — está em remover o atrito técnico que hoje separa um
+      visitante interessado de uma consulta agendada: um botão de WhatsApp que não abre destino
+      algum no widget flutuante e chamadas de "Agendar consulta" que terminam sempre na mesma
+      página genérica de contato, sem WhatsApp direto, tratamento ou profissional pré-selecionado.
+      Implantes, estética e reabilitação tendem a ter alto valor por paciente — reduzir esse atrito
+      é a alavanca mais direta disponível hoje.
+    </p>
+
+    <dl class="prop-hero-stats">
+      <div>
+        <dt>Onde a receita escapa</dt>
+        <dd>Widget de WhatsApp flutuante com href vazio no DOM ao vivo (confirmado em 2026-07-16/17); todos os CTAs de agendamento levam à mesma página de contato genérica.</dd>
+      </div>
+      <div>
+        <dt>Estrutura já publicada</dt>
+        <dd>Quatro profissionais com CRO/PR, sete especialidades e endereço/telefone/e-mail consistentes nas páginas oficiais — base sólida para uma experiência de agendamento mais direta.</dd>
+      </div>
+      <div>
+        <dt>Confiança da leitura</dt>
+        <dd>Média-alta — baseada em inspeção direta do HTML ao vivo do site oficial em 2026-07-16/17, sem amostragem indireta.</dd>
+      </div>
+    </dl>
+  </div>
+</header>
+
+<main>
+
+  <section class="prop-section" id="evidencia">
+    <div class="container">
+      <span class="eyebrow">Evidência visual</span>
+      <h2>Site atual vs. conceito proposto</h2>
+      <p class="prop-lead">Capturas de tela reais, no mesmo viewport (1440×900 desktop / 390×844 mobile), lado a lado — sem retoque.</p>
+
+      <div class="prop-evidence-grid">
+        <div class="prop-evidence-card">
+          <header><span class="tag-current">Atual — desktop</span><span>1440×900</span></header>
+          <div class="shot-frame"><img src="assets/images/proposal/current-desktop.png" alt="Captura de tela do site atual do Studio DOC Dental Clinic em desktop, 1440x900" loading="lazy" /></div>
+          <p class="prop-evidence-note">studiodoc.com.br, capturado em 2026-07-17. Chat flutuante e barra de cookies concorrem com o hero.</p>
+        </div>
+        <div class="prop-evidence-card">
+          <header><span class="tag-proposed">Proposto — desktop</span><span>1440×900</span></header>
+          <div class="shot-frame"><img src="assets/images/proposal/proposed-desktop.png" alt="Captura de tela do conceito proposto em desktop, 1440x900" loading="lazy" /></div>
+          <p class="prop-evidence-note">index.html deste conceito, mesmo viewport, capturado localmente.</p>
+        </div>
+        <div class="prop-evidence-card">
+          <header><span class="tag-current">Atual — mobile</span><span>390×844</span></header>
+          <div class="shot-frame is-mobile"><img src="assets/images/proposal/current-mobile.png" alt="Captura de tela do site atual do Studio DOC Dental Clinic em mobile, 390x844" loading="lazy" /></div>
+        </div>
+        <div class="prop-evidence-card">
+          <header><span class="tag-proposed">Proposto — mobile</span><span>390×844</span></header>
+          <div class="shot-frame is-mobile"><img src="assets/images/proposal/proposed-mobile.png" alt="Captura de tela do conceito proposto em mobile, 390x844" loading="lazy" /></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="prop-section" id="prioridades">
+    <div class="container">
+      <span class="eyebrow">Prioridades</span>
+      <h2>Três problemas, três melhorias correspondentes</h2>
+      <p class="prop-lead">Selecionados pelo impacto direto na taxa de agendamento — não pela facilidade técnica.</p>
+
+      <div class="prop-pairs">
+        <div class="prop-pair">
+          <span class="prop-pair-index">01</span>
+          <div class="problem">
+            <h3>Problema</h3>
+            <p>O botão de WhatsApp do widget flutuante tem <code>href</code> vazio no DOM ao vivo — o principal canal de contato rápido não funciona sem depender de um script de terceiro carregar corretamente.</p>
+          </div>
+          <div class="improvement">
+            <h3>Melhoria proposta</h3>
+            <p>Um único caminho de agendamento dominante: botão de WhatsApp com link direto e funcional (<code>api.whatsapp.com/send?phone=...</code>) e texto pré-preenchido, repetido de forma consistente no cabeçalho, no hero, na seção de contato e como botão flutuante — sem dependência de scripts externos.</p>
+          </div>
+        </div>
+
+        <div class="prop-pair">
+          <span class="prop-pair-index">02</span>
+          <div class="problem">
+            <h3>Problema</h3>
+            <p>Todos os CTAs "Agendar consulta/avaliação" (7+ ocorrências) levam apenas à página genérica de contato — sem seleção de tratamento, profissional ou link direto de WhatsApp; a home também não tem meta description nem H1 detectável, e 11 de 29 imagens não têm texto alternativo.</p>
+          </div>
+          <div class="improvement">
+            <h3>Melhoria proposta</h3>
+            <p>Estrutura semântica correta (H1 único, meta description, alt text em toda imagem de conteúdo), navegação por âncora direta a cada especialidade e profissional, e CTA consistente que já leva ao WhatsApp com contexto — sem duplicar o corpo clínico na marcação.</p>
+          </div>
+        </div>
+
+        <div class="prop-pair">
+          <span class="prop-pair-index">03</span>
+          <div class="problem">
+            <h3>Problema</h3>
+            <p>A página de contato expõe duas vezes a instrução técnica em inglês "Please leave this field empty" (artefato de desenvolvimento do formulário); na home, chat flutuante e barra de cookies se sobrepõem ao hero simultaneamente.</p>
+          </div>
+          <div class="improvement">
+            <h3>Melhoria proposta</h3>
+            <p>Hero limpo, sem sobreposições de widgets, e nenhum artefato técnico visível ao paciente — a experiência de primeira impressão fica inteiramente sob controle editorial da clínica.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="prop-section" id="entregaveis">
+    <div class="container">
+      <span class="eyebrow">Escopo</span>
+      <h2>Entregáveis e dependências</h2>
+
+      <div class="prop-cols">
+        <div>
+          <h3>Entregáveis deste conceito</h3>
+          <ul>
+            <li><code>index.html</code> — site de produção, uma página, seções âncora</li>
+            <li><code>styles.css</code> — sistema visual completo, responsivo</li>
+            <li><code>script.js</code> — menu mobile acessível, sem dependências externas</li>
+            <li><code>assets/</code> — imagens e fontes verificadas, hospedadas localmente</li>
+            <li><code>SOURCE_MANIFEST.md</code> — toda fonte, URL e fato usado</li>
+            <li><code>BUILD_REPORT.md</code> — comandos e resultados de verificação</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Dependências para publicação</h3>
+          <ul>
+            <li>Aprovação do corpo clínico sobre a cópia e o recorte de imagens usados</li>
+            <li>Confirmação do canal oficial de WhatsApp que deve receber os agendamentos</li>
+            <li>Decisão sobre manter WhatsApp como único caminho de agendamento ou integrar uma agenda/calendário no futuro</li>
+            <li>Acesso a hospedagem e DNS de studiodoc.com.br para publicação, quando aprovado</li>
+            <li>Revisão final da clínica sobre nomes, CRO e especialidades antes de qualquer publicação</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="prop-section" id="cronograma">
+    <div class="container">
+      <span class="eyebrow">Sequência</span>
+      <h2>Cronograma proposto</h2>
+
+      <div class="prop-timeline">
+        <div class="prop-phase">
+          <span class="phase-num">01</span>
+          <h3>Descoberta e verificação de marca</h3>
+          <p>Leitura das páginas oficiais, coleta de fatos e ativos com fonte registrada.</p>
+          <span class="status done">Concluído</span>
+        </div>
+        <div class="prop-phase">
+          <span class="phase-num">02</span>
+          <h3>Construção do conceito</h3>
+          <p>Produção de <code>index.html</code>, <code>proposal.html</code> e sistema visual a partir da marca verificada.</p>
+          <span class="status done">Concluído</span>
+        </div>
+        <div class="prop-phase">
+          <span class="phase-num">03</span>
+          <h3>Revisão da clínica</h3>
+          <p>Validação de cópia, fotos e CTAs pelo corpo clínico antes de qualquer publicação.</p>
+          <span class="status">Aguardando</span>
+        </div>
+        <div class="prop-phase">
+          <span class="phase-num">04</span>
+          <h3>Publicação</h3>
+          <p>Corte de DNS e substituição do site em produção, mediante aprovação explícita.</p>
+          <span class="status">Aguardando</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="prop-next" id="proximo-passo">
+    <div class="container">
+      <h2>Próximo passo</h2>
+      <p>
+        Uma chamada de 20 minutos com a clínica para validar as três prioridades acima, confirmar
+        o número de WhatsApp que deve receber os agendamentos e aprovar (ou ajustar) a cópia e as
+        imagens antes de qualquer publicação. Nenhuma alteração é publicada sem essa aprovação
+        explícita.
+      </p>
+    </div>
+  </section>
+
+  <section class="prop-appendix">
+    <div class="container">
+      <details>
+        <summary>Apêndice técnico — detalhes da auditoria</summary>
+        <ol>
+          <li><strong>Widget de WhatsApp flutuante sem destino:</strong> o botão <code>#floating-btn-open</code> / <code>.btn-whatsapp-convesion</code> depende de um script externo (<code>agenciaalper.com.br/codes/api/api.js</code>) para atribuir a URL de clique; sem esse script carregar com sucesso, o botão não faz nada.</li>
+          <li><strong>CTAs de agendamento:</strong> todas as ocorrências de "AGENDAR CONSULTA" / "AGENDAR AVALIAÇÃO" no HTML ao vivo apontam para <code>https://studiodoc.com.br/contato/</code>; apenas o link de rodapé usa um endereço de WhatsApp funcional (<code>api.whatsapp.com/send?phone=554141018888</code>).</li>
+          <li><strong>SEO/estrutura:</strong> a resposta HTML bruta da home (verificada em 2026-07-16/17) não contém <code>&lt;meta name="description"&gt;</code>; nenhum <code>&lt;h1&gt;</code> foi encontrado na árvore renderizada.</li>
+          <li><strong>Corpo clínico duplicado:</strong> a seção "CORPO CLÍNICO" contém dois blocos idênticos (<code>.desktop</code> e <code>.mobile</code>) sempre presentes na marcação, dobrando o conteúdo textual da seção para leitores de tela e mecanismos de busca.</li>
+          <li><strong>Artefato técnico visível:</strong> o rótulo do campo honeypot do Contact Form 7 ("Please leave this field empty.") aparece como texto visível associado ao formulário em <code>/contato/</code>.</li>
+        </ol>
+      </details>
+    </div>
+  </section>
+</main>
+
+<div class="prop-disclosure">
+  <div class="container">
+    <p>
+      <strong>Divulgação:</strong> Esta página é um conceito de reconstrução produzido de forma
+      independente, com fins de demonstração comercial, e <strong>não é afiliada, endossada ou
+      publicada pelo Studio DOC Dental Clinic</strong>. Nomes, CRO, endereço, telefone, e-mail e
+      imagens foram verificados em <strong>studiodoc.com.br</strong> em 2026-07-16/17 e estão
+      registrados com suas fontes em <code>SOURCE_MANIFEST.md</code>. Nenhuma alteração foi
+      publicada no domínio oficial da clínica. Este documento não deve ser interpretado como
+      comunicação oficial da clínica.
+    </p>
+  </div>
+</div>
+
+</body>
+</html>

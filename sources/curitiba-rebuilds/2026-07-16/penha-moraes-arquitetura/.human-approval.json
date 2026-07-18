@@ -1,0 +1,11 @@
+{
+  "schema": 2,
+  "status": "approved",
+  "human_approved": true,
+  "approval_intent": "publish_static_preview",
+  "build_id": "45962261c2c0cfbb7896dc8616105e96cd6c0bd20b688fbf92a0a6b3a363159e",
+  "review_sha256": "77bd7d0c8da7b46e7e5565a94a2aa6f8878470dba45d66e4bc55ecc9606d4903",
+  "approved_at": "2026-07-17T01:52:07+00:00",
+  "approver_id": "telegram-user-39426477",
+  "approval_source": "Explicit instruction in Telegram DM to autonomously publish the reviewed website to Cloudflare Drop and send screenshots."
+}

@@ -1,0 +1,158 @@
+{
+  "index-desktop": {
+    "status": 200,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/official-logo2a.png",
+        "complete": true,
+        "naturalWidth": 216,
+        "clientWidth": 178,
+        "clientHeight": 42
+      },
+      {
+        "src": "assets/official-1.jpg",
+        "complete": true,
+        "naturalWidth": 1485,
+        "clientWidth": 1440,
+        "clientHeight": 690
+      },
+      {
+        "src": "assets/official-c1.jpg",
+        "complete": true,
+        "naturalWidth": 283,
+        "clientWidth": 202,
+        "clientHeight": 589
+      },
+      {
+        "src": "assets/official-c2.jpg",
+        "complete": true,
+        "naturalWidth": 283,
+        "clientWidth": 202,
+        "clientHeight": 589
+      },
+      {
+        "src": "assets/official-c3.jpg",
+        "complete": true,
+        "naturalWidth": 283,
+        "clientWidth": 202,
+        "clientHeight": 589
+      },
+      {
+        "src": "assets/official-logo2a.png",
+        "complete": true,
+        "naturalWidth": 216,
+        "clientWidth": 160,
+        "clientHeight": 51
+      }
+    ]
+  },
+  "index-mobile": {
+    "status": 200,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/official-logo2a.png",
+        "complete": true,
+        "naturalWidth": 216,
+        "clientWidth": 156,
+        "clientHeight": 37
+      },
+      {
+        "src": "assets/official-1.jpg",
+        "complete": true,
+        "naturalWidth": 1485,
+        "clientWidth": 390,
+        "clientHeight": 355
+      },
+      {
+        "src": "assets/official-c1.jpg",
+        "complete": true,
+        "naturalWidth": 283,
+        "clientWidth": 130,
+        "clientHeight": 190
+      },
+      {
+        "src": "assets/official-c2.jpg",
+        "complete": true,
+        "naturalWidth": 283,
+        "clientWidth": 130,
+        "clientHeight": 190
+      },
+      {
+        "src": "assets/official-c3.jpg",
+        "complete": true,
+        "naturalWidth": 283,
+        "clientWidth": 130,
+        "clientHeight": 190
+      },
+      {
+        "src": "assets/official-logo2a.png",
+        "complete": true,
+        "naturalWidth": 216,
+        "clientWidth": 160,
+        "clientHeight": 51
+      }
+    ]
+  },
+  "proposal-desktop": {
+    "status": 200,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "screenshots/original-desktop-viewport.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 555,
+        "clientHeight": 347
+      },
+      {
+        "src": "screenshots/built-desktop-viewport.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 555,
+        "clientHeight": 347
+      }
+    ]
+  },
+  "proposal-mobile": {
+    "status": 200,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "screenshots/original-desktop-viewport.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 358,
+        "clientHeight": 224
+      },
+      {
+        "src": "screenshots/built-desktop-viewport.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 358,
+        "clientHeight": 224
+      }
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "business_name": "Sarnelli Arquitetura",
+  "slug": "sarnelli-arquitetura",
+  "official_url": "https://sarnelliarquitetura.com.br/",
+  "run_date": "2026-07-17",
+  "category": "arquitetura para saúde e educação",
+  "opportunity_score": 8.7,
+  "confidence": "alta",
+  "active_evidence": "O site oficial respondeu HTTP 200 em 2026-07-17, mostra endereço CIC Curitiba, telefones, e-mail, portfólio e posicionamento em saúde/escolas.",
+  "problems": [
+    "A home renderizada contém blocos repetidos de 'SARNELLI' e 'PROJETOS', com aparência de carrossel/placeholder não resolvido.",
+    "A seção de números exibe texto Lorem Ipsum e prêmios Awwwards sem conteúdo factual correspondente, prejudicando credibilidade.",
+    "A listagem de projetos repete nomes e datas e não oferece uma hierarquia clara entre hospitais, clínicas, escolas e projetos institucionais.",
+    "O site usa uma home longa com pouca orientação de próximo passo para um decisor que busca arquitetura hospitalar.",
+    "A proposta forte de biofilia, neuroarquitetura e design baseado em evidências fica diluída entre módulos genéricos."
+  ],
+  "rebuild_angle": "Arquitetura que cuida: um portfólio de saúde organizado por impacto humano, tipologia e etapa — do planejamento à execução — com prova real antes de abstrações.",
+  "roi_mechanism": "Projetos hospitalares e de clínicas são contratos de alto valor; tornar prova/portfólio pesquisável e remover placeholders melhora confiança de decisores e a qualidade das solicitações de contato.",
+  "concept_thesis": "Este conceito só pode pertencer à Sarnelli porque traduz os pilares publicados de conceito, bem-estar e generosidade em uma navegação de portfólio que conecta espaço, cuidado e complexidade técnica.",
+  "concept_rules": [
+    "Composição: organizar a home como uma sequência 'pilar → prova → processo → contato', não como grade infinita.",
+    "Tipografia: manter Montserrat para títulos estruturais e Roboto para leitura técnica, com escala mais rigorosa.",
+    "Imagem: apresentar projetos em grandes planos arquitetônicos e detalhes de uso, sempre ligados a nomes publicados.",
+    "Cor: preservar grafite #2B2B2B, branco #FFFFFF e teal #0F6358; usar verde apenas para sinalizar bem-estar/processo.",
+    "Promessa: manter apenas linguagem publicada sobre bem-estar, experiência, saúde, escolas, biofilia e design baseado em evidências.",
+    "Conversão: oferecer um contato qualificado por tipologia e um telefone/WhatsApp visível no final de cada jornada."
+  ],
+  "brand_source": {
+    "logo_sources": [
+      "https://sarnelliarquitetura.com.br/site/wp-content/uploads/2024/07/sarnelli-arquitetura-marca.png",
+      "https://sarnelliarquitetura.com.br/"
+    ],
+    "colors": [
+      "#2B2B2B — texto dominante observado",
+      "#FFFFFF — fundos observados",
+      "#0F6358 — teal de acento observado",
+      "#F5F7F7 — neutro observado"
+    ],
+    "typography": "O site observado usa Montserrat e Roboto, com pequenos usos de Nunito/Questrial; manter Montserrat/Roboto e remover a dispersão.",
+    "personality_words": [
+      "técnica",
+      "humana",
+      "contemporânea"
+    ],
+    "strongest_public_language": [
+      "Conceito, bem-estar e generosidade como pilares",
+      "Arquitetura é um instrumento fundamental no processo terapêutico",
+      "design tem o poder de inspirar e melhorar vidas",
+      "Para hospitais, clínicas, laboratórios e centros médicos",
+      "projetos de alta performance e complexidade"
+    ],
+    "services": [
+      "planejamento",
+      "apresentação",
+      "execução",
+      "projetos para hospitais, clínicas, laboratórios e centros médicos",
+      "projetos para escolas"
+    ],
+    "locations": [
+      "Rua Engenheiro Júlio César de Souza Araújo, 317, CIC, Curitiba/PR"
+    ],
+    "contacts": [
+      "(41) 3373-1022",
+      "(41) 98706-8237",
+      "contato@sarnelliarquitetura.com.br",
+      "https://www.instagram.com/sarnelliarquitetura/",
+      "https://www.linkedin.com/company/sarnelli-arquitetura/"
+    ],
+    "visual_assets": [
+      {
+        "role": "logo",
+        "url": "https://sarnelliarquitetura.com.br/site/wp-content/uploads/2024/07/sarnelli-arquitetura-marca.png",
+        "provenance": "official WordPress asset observed 2026-07-17"
+      },
+      {
+        "role": "hero",
+        "url": "https://sarnelliarquitetura.com.br/site/wp-content/uploads/2024/09/slide-conceito-bem-estar.jpg",
+        "provenance": "official site slide image, 1920x1281 observed"
+      },
+      {
+        "role": "project",
+        "url": "https://sarnelliarquitetura.com.br/site/wp-content/uploads/2024/07/Sarnelli-Arquitetura-Erastinho-001.jpg",
+        "provenance": "official site project image, 1920x1281 observed"
+      },
+      {
+        "role": "project",
+        "url": "https://sarnelliarquitetura.com.br/site/wp-content/uploads/2024/07/Sarnelli-Arquitetura-Centro-Medico-Erasto-010.jpg",
+        "provenance": "official site project image, 1920x1282 observed"
+      }
+    ],
+    "original_screenshots": {
+      "desktop": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/evidence/original/desktop-1440x900.png",
+      "mobile": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/evidence/original/mobile-390x844.png"
+    },
+    "equity_to_preserve": [
+      "specialization in health architecture",
+      "pilares de conceito, bem-estar e generosidade",
+      "portfolio names including Erastinho and Santa Casa",
+      "biofilia/neuroarquitetura/design baseado em evidências",
+      "contact identity and project imagery"
+    ],
+    "weaknesses_not_to_copy": [
+      "Lorem Ipsum and unsupported award modules",
+      "repeated project labels",
+      "placeholder-like logo grids",
+      "generic process copy without proof",
+      "portfolio not organized by decision intent"
+    ]
+  },
+  "evidence_links": [
+    "https://sarnelliarquitetura.com.br/",
+    "https://sarnelliarquitetura.com.br/portfolio/",
+    "https://sarnelliarquitetura.com.br/contato/",
+    "https://sarnelliarquitetura.com.br/site/wp-content/uploads/2024/07/sarnelli-arquitetura-marca.png"
+  ],
+  "source_audit": "/opt/data/site-inspect/sarnelli.json",
+  "deliverable_tier": "production_complete"
+}

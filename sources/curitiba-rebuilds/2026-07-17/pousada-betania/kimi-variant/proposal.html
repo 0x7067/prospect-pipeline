@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre esta proposta — Pousada Betânia</title>
+  <meta name="description" content="Proposta independente e não solicitada de redesign da Pousada Betânia. Fonte dos dados, oportunidades identificadas e limites do conceito.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+</head>
+<body>
+  <a href="#conteudo" class="sr-only">Pular para o conteúdo principal</a>
+
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="Pousada Betânia — página inicial">
+        <img src="assets/logo.png" alt="Pousada Betânia" width="226" height="98">
+      </a>
+      <nav aria-label="Navegação principal">
+        <button class="mobile-menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+        <ul class="site-nav" id="main-nav" role="menubar">
+          <li role="none"><a href="index.html" class="nav-link" role="menuitem">Início</a></li>
+          <li role="none"><a href="index.html#hospedar" class="nav-link" role="menuitem">Hospedar</a></li>
+          <li role="none"><a href="index.html#reunir" class="nav-link" role="menuitem">Reunir</a></li>
+          <li role="none"><a href="index.html#contato" class="nav-link" role="menuitem">Contato</a></li>
+          <li role="none"><a href="https://book.omnibees.com/chain/3085/hotel/5651?lang=pt-BR" class="nav-link nav-cta" target="_blank" rel="noopener" role="menuitem">Reservar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo" role="main">
+    <section class="split-section alt" style="padding-top: calc(var(--header-height) + var(--space-2xl));">
+      <div class="section-inner" style="max-width: 800px;">
+        <p class="section-label">Proposta independente</p>
+        <h1 class="section-title">Sobre esta proposta de redesign.</h1>
+
+        <article class="path-card" style="margin-top: var(--space-xl);">
+          <h2 style="font-size: var(--text-xl);">O que é esta página?</h2>
+          <p>Esta é uma proposta não solicitada e independente de redesign do site da Pousada Betânia. Não foi produzida pela pousada, nem pelo time responsável pelo site oficial. O objetivo é mostrar como a mesma oferta — hospedagem, eventos e tranquilidade em Curitiba — poderia ser apresentada com uma jornada mais clara, especialmente no celular.</p>
+        </article>
+
+        <article class="path-card" style="margin-top: var(--space-md);">
+          <h2 style="font-size: var(--text-xl);">Fonte das informações</h2>
+          <p>Todas as informações comerciais usadas neste conceito foram observadas no site oficial da Pousada Betânia em 17 de julho de 2026:</p>
+          <ul class="feature-list">
+            <li><a href="https://www.pousadabetania.com/" target="_blank" rel="noopener">https://www.pousadabetania.com/</a></li>
+            <li><a href="https://www.pousadabetania.com/eventos" target="_blank" rel="noopener">https://www.pousadabetania.com/eventos</a></li>
+            <li><a href="https://book.omnibees.com/chain/3085/hotel/5651?lang=pt-BR" target="_blank" rel="noopener">Motor de reservas Omnibees</a></li>
+            <li><a href="https://bit.ly/faleconoscoieb" target="_blank" rel="noopener">Canal de WhatsApp</a></li>
+          </ul>
+        </article>
+
+        <article class="path-card" style="margin-top: var(--space-md);">
+          <h2 style="font-size: var(--text-xl);">Oportunidades identificadas</h2>
+          <p>A análise do site oficial apontou, com base em evidências, os seguintes problemas que este conceito tenta resolver:</p>
+          <ul class="feature-list">
+            <li>Overflow horizontal grave na captura mobile em 390px (scrollWidth de 980px).</li>
+            <li>Página muito longa, com navegação de âncoras e múltiplos blocos de serviço sem uma jornada clara.</li>
+            <li>Sinais de baixa revisão editorial, como “área vede externa”, espaços vazios e pontuação inconsistente.</li>
+            <li>CTA de reserva aponta para motor externo, sem reforçar a intenção com informações de quarto na mesma sequência.</li>
+            <li>Galeria e serviços dependem de miniaturas e blocos visuais difíceis de escanear no mobile.</li>
+          </ul>
+        </article>
+
+        <article class="path-card" style="margin-top: var(--space-md);">
+          <h2 style="font-size: var(--text-xl);">Decisões de design</h2>
+          <ul class="feature-list">
+            <li><strong>Três caminhos:</strong> hospedar, reunir, descansar — antes de qualquer lista de serviços.</li>
+            <li><strong>Tipografia:</strong> Brandon Grotesque para títulos leves e Arial/Helvetica para informação operacional, preservando a combinação observada no site original.</li>
+            <li><strong>Cores:</strong> preto #000000, cinza #737373 e verde #5EBB11 observados no site oficial; verde reservado para CTAs e para natureza.</li>
+            <li><strong>Conversão:</strong> reserva via Omnibees e WhatsApp como ações primárias, com telefone e endereço em área de contato curta.</li>
+            <li><strong>Imagens:</strong> fotos reais do site oficial, usadas como ativos locais, com atribuição de proveniência em SOURCE_MANIFEST.md.</li>
+          </ul>
+        </article>
+
+        <article class="path-card" style="margin-top: var(--space-md);">
+          <h2 style="font-size: var(--text-xl);">Limites e afiliação</h2>
+          <p>Esta proposta não contém lógica de reserva, formulário de contato funcional, integração com sistemas da pousada ou qualquer afirmação não verificada. Não foi publicada, aprovada nem validada pela Pousada Betânia. É um exercício de design e front-end baseado exclusivamente em evidências públicas.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <a href="index.html" class="footer-logo" aria-label="Pousada Betânia">
+          <img src="assets/logo.png" alt="Pousada Betânia" width="226" height="98">
+        </a>
+        <nav class="footer-links" aria-label="Links do rodapé">
+          <a href="index.html">Início</a>
+          <a href="https://www.instagram.com/pousadabetaniacuritibapr/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.pousadabetania.com/" target="_blank" rel="noopener">Site oficial</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>Av. Monteiro Tourinho, 1335, Atuba, Curitiba/PR</p>
+        <p>Proposta independente de redesign. Não é o site oficial.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

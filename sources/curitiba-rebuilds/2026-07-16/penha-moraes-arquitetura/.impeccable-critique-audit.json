@@ -1,0 +1,41 @@
+{
+  "schema": 2,
+  "status": "pass",
+  "independent": true,
+  "actor_role": "independent-reviewer",
+  "build_id": "45962261c2c0cfbb7896dc8616105e96cd6c0bd20b688fbf92a0a6b3a363159e",
+  "builder_id": "afk-q-1784243138467-57ddac",
+  "reviewer_id": "hermes-independent-impeccable-2026-07-17",
+  "reviewed_at": "2026-07-17T00:19:00+00:00",
+  "commands": [
+    "critique",
+    "audit"
+  ],
+  "score": 88,
+  "issue_counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 1,
+    "low": 2,
+    "unsupported_claims": 0
+  },
+  "production_manifest": {
+    "index.html": {
+      "sha256": "e6dde59c2128bea60ca35403053d721e5e0b5a6be7267cf4b69182d4da616acc",
+      "size": 23506
+    },
+    "rationale.html": {
+      "sha256": "0c97cc95ff55d66b938d06ac0406f5f19ee029965282c303af56c8b4663dee58",
+      "size": 15026
+    },
+    "script.js": {
+      "sha256": "590e73ac1f9ce8effd69743df0111e11ae694f8bf119584c58c925de87a00f53",
+      "size": 6398
+    },
+    "styles.css": {
+      "sha256": "4488e0f816cf351dbedf151ce443149ae66c7752ef7ab237e34bd09fdee03128",
+      "size": 28985
+    }
+  },
+  "summary": "Independent Impeccable critique and technical audit passed after correcting desktop menu duplication, diagnostic-label overlap, and mobile hero capture visibility. Both deterministic scans are clean, all four captures are current, and no unsupported business claims were found."
+}

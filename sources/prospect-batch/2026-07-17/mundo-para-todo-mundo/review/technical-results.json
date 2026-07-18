@@ -1,0 +1,234 @@
+{
+  "index-desktop": {
+    "status": 200,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/logo.png",
+        "complete": true,
+        "naturalWidth": 220,
+        "clientWidth": 168,
+        "clientHeight": 75
+      },
+      {
+        "src": "assets/hero.jpg",
+        "complete": true,
+        "naturalWidth": 960,
+        "clientWidth": 1440,
+        "clientHeight": 709
+      },
+      {
+        "src": "assets/gallery-1.jpg",
+        "complete": true,
+        "naturalWidth": 1024,
+        "clientWidth": 484,
+        "clientHeight": 454
+      },
+      {
+        "src": "assets/gallery-2.jpg",
+        "complete": true,
+        "naturalWidth": 1024,
+        "clientWidth": 334,
+        "clientHeight": 220
+      },
+      {
+        "src": "assets/gallery-3.jpg",
+        "complete": true,
+        "naturalWidth": 960,
+        "clientWidth": 334,
+        "clientHeight": 220
+      },
+      {
+        "src": "assets/gallery-4.jpg",
+        "complete": true,
+        "naturalWidth": 1600,
+        "clientWidth": 334,
+        "clientHeight": 220
+      },
+      {
+        "src": "assets/team-gleida.jpg",
+        "complete": true,
+        "naturalWidth": 319,
+        "clientWidth": 150,
+        "clientHeight": 150
+      },
+      {
+        "src": "assets/team-elizane.jpg",
+        "complete": true,
+        "naturalWidth": 234,
+        "clientWidth": 150,
+        "clientHeight": 150
+      },
+      {
+        "src": "assets/logo.png",
+        "complete": true,
+        "naturalWidth": 220,
+        "clientWidth": 120,
+        "clientHeight": 53
+      }
+    ]
+  },
+  "index-mobile": {
+    "status": 200,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/logo.png",
+        "complete": true,
+        "naturalWidth": 220,
+        "clientWidth": 145,
+        "clientHeight": 65
+      },
+      {
+        "src": "assets/hero.jpg",
+        "complete": true,
+        "naturalWidth": 960,
+        "clientWidth": 390,
+        "clientHeight": 690
+      },
+      {
+        "src": "assets/gallery-1.jpg",
+        "complete": true,
+        "naturalWidth": 1024,
+        "clientWidth": 350,
+        "clientHeight": 210
+      },
+      {
+        "src": "assets/gallery-2.jpg",
+        "complete": true,
+        "naturalWidth": 1024,
+        "clientWidth": 170,
+        "clientHeight": 150
+      },
+      {
+        "src": "assets/gallery-3.jpg",
+        "complete": true,
+        "naturalWidth": 960,
+        "clientWidth": 170,
+        "clientHeight": 150
+      },
+      {
+        "src": "assets/gallery-4.jpg",
+        "complete": true,
+        "naturalWidth": 1600,
+        "clientWidth": 350,
+        "clientHeight": 150
+      },
+      {
+        "src": "assets/team-gleida.jpg",
+        "complete": true,
+        "naturalWidth": 319,
+        "clientWidth": 100,
+        "clientHeight": 100
+      },
+      {
+        "src": "assets/team-elizane.jpg",
+        "complete": true,
+        "naturalWidth": 234,
+        "clientWidth": 100,
+        "clientHeight": 100
+      },
+      {
+        "src": "assets/logo.png",
+        "complete": true,
+        "naturalWidth": 220,
+        "clientWidth": 120,
+        "clientHeight": 53
+      }
+    ],
+    "menu": {
+      "before": "Menu",
+      "opened": "true",
+      "after": "Fechar menu",
+      "closedAfterEscape": "false"
+    }
+  },
+  "proposal-desktop": {
+    "status": 200,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "evidence/current/home-desktop.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 580,
+        "clientHeight": 1947
+      },
+      {
+        "src": "evidence/proposed/home-desktop.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 580,
+        "clientHeight": 1827
+      },
+      {
+        "src": "evidence/current/home-mobile.png",
+        "complete": true,
+        "naturalWidth": 390,
+        "clientWidth": 380,
+        "clientHeight": 822
+      },
+      {
+        "src": "evidence/proposed/home-mobile.png",
+        "complete": true,
+        "naturalWidth": 390,
+        "clientWidth": 380,
+        "clientHeight": 822
+      }
+    ]
+  },
+  "proposal-mobile": {
+    "status": 200,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "evidence/current/home-desktop.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 348,
+        "clientHeight": 1168
+      },
+      {
+        "src": "evidence/proposed/home-desktop.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 348,
+        "clientHeight": 1096
+      },
+      {
+        "src": "evidence/current/home-mobile.png",
+        "complete": true,
+        "naturalWidth": 390,
+        "clientWidth": 165,
+        "clientHeight": 357
+      },
+      {
+        "src": "evidence/proposed/home-mobile.png",
+        "complete": true,
+        "naturalWidth": 390,
+        "clientWidth": 165,
+        "clientHeight": 357
+      }
+    ]
+  }
+}

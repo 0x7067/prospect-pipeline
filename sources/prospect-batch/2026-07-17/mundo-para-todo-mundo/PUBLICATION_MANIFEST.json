@@ -1,0 +1,123 @@
+{
+  "schema": 1,
+  "prospect": "Centro de Educação Infantil Mundo para Todo Mundo",
+  "route_index": "/",
+  "route_proposal": "/proposal.html",
+  "files": [
+    {
+      "path": "assets/gallery-1.jpg",
+      "sha256": "db91eb8bad6f783c86b3d663e3ed7df2ac3657ad99e8af69944db884408266a8",
+      "bytes": 129852
+    },
+    {
+      "path": "assets/gallery-2.jpg",
+      "sha256": "dcbf75b66a9093bb32259d940b144f453745d6589ed28e3de4479cca9cb0343c",
+      "bytes": 157791
+    },
+    {
+      "path": "assets/gallery-3.jpg",
+      "sha256": "d4779f3c333651f9696f5d83c42ee67291cd6af02e01a99f55bd36204e363133",
+      "bytes": 88426
+    },
+    {
+      "path": "assets/gallery-4.jpg",
+      "sha256": "c3a573bcebad3a2dd0a236acc0a6472202700c8968de43c6a831a14bf4057479",
+      "bytes": 226310
+    },
+    {
+      "path": "assets/hero.jpg",
+      "sha256": "7a1fd872dff4006b68fc7d8b0500bad902d2ab1b2471b07509dfb8bdc8a196cc",
+      "bytes": 70878
+    },
+    {
+      "path": "assets/icons/arrow-down.svg",
+      "sha256": "cc6416ae83e20660f14b11f5525c6d05ee679c3f26cee41b696cb37aa905d4f5",
+      "bytes": 239
+    },
+    {
+      "path": "assets/icons/arrow-up-right.svg",
+      "sha256": "44db5257b360ec04863eb6daaa41f220c8b714d23fb81403517d0a30acfda9f4",
+      "bytes": 217
+    },
+    {
+      "path": "assets/icons/arrow-up.svg",
+      "sha256": "361aa9f9c52a759bf598faf6ed38ccd426f949f541d662c65b5b5d868fa76980",
+      "bytes": 257
+    },
+    {
+      "path": "assets/icons/sparkle.svg",
+      "sha256": "9e2c17a26564098cb48dd95737a83c742156f755f13cedaa30f9d864d0e3eb76",
+      "bytes": 666
+    },
+    {
+      "path": "assets/logo.png",
+      "sha256": "22c9f0bf018de0da3ae223c06032bb71047670bad87313ef2303af88cee1b822",
+      "bytes": 8461
+    },
+    {
+      "path": "assets/news-2026.jpg",
+      "sha256": "a0b5773be3ddb9d1374c31c618c23457e3977d29350b04627315caf4af08d366",
+      "bytes": 175161
+    },
+    {
+      "path": "assets/ods.png",
+      "sha256": "443c01d2ed09ba632bfbe85250c3d879220138491f92cd8836ff1b08cb51affc",
+      "bytes": 22594
+    },
+    {
+      "path": "assets/popup-2025.jpg",
+      "sha256": "a813cd64085d06fffc08c8a4f742f692faa49aaf5e29f4401946624596a56f2e",
+      "bytes": 61409
+    },
+    {
+      "path": "assets/team-elizane.jpg",
+      "sha256": "23c5c60070ad7e64c6cd78ea34403f346b8b2dff37661152da8725c9385e7c90",
+      "bytes": 5464
+    },
+    {
+      "path": "assets/team-gleida.jpg",
+      "sha256": "02a4752ae4469b5aa6248df8127794eb2cee12d4c654f5f98e5341c15bae5d72",
+      "bytes": 8777
+    },
+    {
+      "path": "evidence/current/home-desktop.png",
+      "sha256": "6978d6aeb93d444c22fb68940bf577f857535504c9f3b3e8346f8a5110fccafc",
+      "bytes": 1270267
+    },
+    {
+      "path": "evidence/current/home-mobile.png",
+      "sha256": "c867f845c0f842b53d03be09454b7c47893ca05e485577eea8a0361e487ee3c4",
+      "bytes": 471168
+    },
+    {
+      "path": "evidence/proposed/home-desktop.png",
+      "sha256": "20c723394b3058fa293902262ed547aedfcab9540833f97bbaf29763640321a7",
+      "bytes": 2095012
+    },
+    {
+      "path": "evidence/proposed/home-mobile.png",
+      "sha256": "5491dc4fd446d0e8cceca0b52165532487731166411e101f7ee002bb48328c93",
+      "bytes": 855632
+    },
+    {
+      "path": "index.html",
+      "sha256": "93be6f7af1652b7a9f3dd34aa18540794432d80ec2c0f5f9bba6889d01ec62e7",
+      "bytes": 7572
+    },
+    {
+      "path": "proposal.html",
+      "sha256": "9f4fa6ad7e7cb33107fb8fb927257e7e06dadc9c64e7b64fc0a97620daff0ef9",
+      "bytes": 9624
+    },
+    {
+      "path": "script.js",
+      "sha256": "9ecac4423ae2113144f3c5ffe1a9be24850a9e817ddde174552cb081be069126",
+      "bytes": 1205
+    },
+    {
+      "path": "styles.css",
+      "sha256": "8754c9886817f78f99e8186c5818de7d79347601d6c16ca01ed7203d2baacb53",
+      "bytes": 10770
+    }
+  ]
+}

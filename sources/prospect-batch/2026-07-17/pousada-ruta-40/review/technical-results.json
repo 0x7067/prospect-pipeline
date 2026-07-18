@@ -1,0 +1,178 @@
+{
+  "index-desktop": {
+    "status": 200,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/images/logo.png",
+        "complete": true,
+        "naturalWidth": 2750,
+        "clientWidth": 143,
+        "clientHeight": 52
+      },
+      {
+        "src": "assets/images/acom_1.png",
+        "complete": true,
+        "naturalWidth": 1300,
+        "clientWidth": 1440,
+        "clientHeight": 810
+      },
+      {
+        "src": "assets/images/acom_2.png",
+        "complete": true,
+        "naturalWidth": 1300,
+        "clientWidth": 605,
+        "clientHeight": 454
+      },
+      {
+        "src": "assets/images/acom_4.png",
+        "complete": true,
+        "naturalWidth": 1300,
+        "clientWidth": 605,
+        "clientHeight": 454
+      },
+      {
+        "src": "assets/images/acom_6.png",
+        "complete": true,
+        "naturalWidth": 1300,
+        "clientWidth": 605,
+        "clientHeight": 454
+      },
+      {
+        "src": "assets/images/logo.png",
+        "complete": true,
+        "naturalWidth": 2750,
+        "clientWidth": 132,
+        "clientHeight": 48
+      }
+    ]
+  },
+  "index-mobile": {
+    "status": 200,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/images/logo.png",
+        "complete": true,
+        "naturalWidth": 2750,
+        "clientWidth": 143,
+        "clientHeight": 52
+      },
+      {
+        "src": "assets/images/acom_1.png",
+        "complete": true,
+        "naturalWidth": 1300,
+        "clientWidth": 390,
+        "clientHeight": 743
+      },
+      {
+        "src": "assets/images/acom_2.png",
+        "complete": true,
+        "naturalWidth": 1300,
+        "clientWidth": 359,
+        "clientHeight": 269
+      },
+      {
+        "src": "assets/images/acom_4.png",
+        "complete": true,
+        "naturalWidth": 1300,
+        "clientWidth": 359,
+        "clientHeight": 269
+      },
+      {
+        "src": "assets/images/acom_6.png",
+        "complete": true,
+        "naturalWidth": 1300,
+        "clientWidth": 359,
+        "clientHeight": 269
+      },
+      {
+        "src": "assets/images/logo.png",
+        "complete": true,
+        "naturalWidth": 2750,
+        "clientWidth": 110,
+        "clientHeight": 40
+      }
+    ],
+    "menu": {
+      "before": "Abrir menu",
+      "opened": "true",
+      "after": "Fechar menu",
+      "closedAfterEscape": "false"
+    }
+  },
+  "proposal-desktop": {
+    "status": 200,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/images/logo.png",
+        "complete": true,
+        "naturalWidth": 2750,
+        "clientWidth": 143,
+        "clientHeight": 52
+      },
+      {
+        "src": "assets/original_evidence/original_home_desktop_1440x900.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 506,
+        "clientHeight": 1126
+      },
+      {
+        "src": "assets/original_evidence/original_home_mobile_390x844.png",
+        "complete": true,
+        "naturalWidth": 460,
+        "clientWidth": 506,
+        "clientHeight": 4700
+      }
+    ]
+  },
+  "proposal-mobile": {
+    "status": 200,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "requestFailures": [],
+    "badImages": [],
+    "images": [
+      {
+        "src": "assets/images/logo.png",
+        "complete": true,
+        "naturalWidth": 2750,
+        "clientWidth": 143,
+        "clientHeight": 52
+      },
+      {
+        "src": "assets/original_evidence/original_home_desktop_1440x900.png",
+        "complete": true,
+        "naturalWidth": 1440,
+        "clientWidth": 277,
+        "clientHeight": 616
+      },
+      {
+        "src": "assets/original_evidence/original_home_mobile_390x844.png",
+        "complete": true,
+        "naturalWidth": 460,
+        "clientWidth": 277,
+        "clientHeight": 2572
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "business_name": "Centro de Educação Infantil Mundo para Todo Mundo",
+  "official_url": "https://mundoparatodomundo.org.br/",
+  "run_date": "2026-07-15",
+  "category": "Educação infantil inclusiva",
+  "address": "Rua Hipólito da Costa, 2.252 — Boqueirão, Curitiba",
+  "active_evidence": "Negócio e site oficial verificados como ativos no relatório de 15/07/2026.",
+  "opportunity_score": 8.0,
+  "confidence": "média",
+  "problems": [
+    "A seção “Últimas Notícias” ainda destaca conteúdo de 2019 e 2020, inclusive comunicado sobre medidas da Covid-19, apesar de o site já apresentar aviso de matrículas para 2026.",
+    "A homepage renderiza áreas excepcionalmente extensas e vazias entre “Quem Somos”, “Galeria” e os depoimentos.",
+    "A seção “Galeria” aparece sem as fotografias no carregamento inspecionado, embora os elementos correspondentes existam na página.",
+    "Um modal de cadastro e a faixa de consentimento de cookies aparecem simultaneamente, encobrindo quase todo o banner principal e competindo pela primeira interação.",
+    "11 das 13 imagens encontradas no HTML não possuem texto alternativo útil, um problema especialmente relevante para uma instituição que se apresenta como inclusiva."
+  ],
+  "rebuild_angle": "portal inclusivo e acessível, com matrícula 2026 em destaque, informações para famílias, estrutura, equipe, rotina, notícias atuais e fluxos separados para vagas públicas e particulares.",
+  "roi_mechanism": "Corrigir as falhas materiais do site e melhorar aquisição, confiança e conversão.",
+  "evidence_links": [
+    "https://mundoparatodomundo.org.br/",
+    "https://www.instagram.com/mundoparatodomundo/",
+    "https://mundoparatodomundo.org.br/contato/",
+    "https://www.instagram.com/p/DTP_FfVjt7G/"
+  ],
+  "source_audit": "/opt/data/cron/output/bd2acb816e97/2026-07-15_08-37-06.md"
+}

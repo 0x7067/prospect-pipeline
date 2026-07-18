@@ -1,0 +1,183 @@
+{
+  "schema": 1,
+  "prospect": "Buffet Original",
+  "route_index": "/",
+  "route_proposal": "/proposal.html",
+  "files": [
+    {
+      "path": "assets/icons/arrow-down.svg",
+      "sha256": "cc6416ae83e20660f14b11f5525c6d05ee679c3f26cee41b696cb37aa905d4f5",
+      "bytes": 239
+    },
+    {
+      "path": "assets/icons/arrow-left.svg",
+      "sha256": "3c2001cf957d182fc54927e4b286cc8cf66dd97830f441ca2650d42a63a9006a",
+      "bytes": 248
+    },
+    {
+      "path": "assets/icons/arrow-up-right.svg",
+      "sha256": "44db5257b360ec04863eb6daaa41f220c8b714d23fb81403517d0a30acfda9f4",
+      "bytes": 217
+    },
+    {
+      "path": "assets/icons/briefcase.svg",
+      "sha256": "c908360aa8ffeff3b78be469066aa9faf7df2eda8f34a3596c44157dddc96453",
+      "bytes": 496
+    },
+    {
+      "path": "assets/icons/cake.svg",
+      "sha256": "90174cab080b71675cfacfc656b213cbd0a56f9213b0cd27b32ee5e0678ca860",
+      "bytes": 912
+    },
+    {
+      "path": "assets/icons/graduation-cap.svg",
+      "sha256": "855b9f61c75900768c0265f671456554215e37b5bf15af9afa7acef36ec31c48",
+      "bytes": 654
+    },
+    {
+      "path": "assets/icons/sparkle.svg",
+      "sha256": "9e2c17a26564098cb48dd95737a83c742156f755f13cedaa30f9d864d0e3eb76",
+      "bytes": 666
+    },
+    {
+      "path": "assets/original/espaco-boliche.jpg",
+      "sha256": "bcfc1b48f0097dfca1f64e71717c6547b9d2dc5140039a09634628de421a5339",
+      "bytes": 5582
+    },
+    {
+      "path": "assets/original/espaco-nobre.jpg",
+      "sha256": "25102be60e77f8867d8345c588b2bb003d08bda60cc61933aa39ba6d95749d73",
+      "bytes": 5922
+    },
+    {
+      "path": "assets/original/espaco-rotary.jpg",
+      "sha256": "e576b887310b99b4215a6e86a0e497cb507a6500bd1a27bf47123c2122d5d875",
+      "bytes": 8767
+    },
+    {
+      "path": "assets/original/hero-194.jpg",
+      "sha256": "97f5dec241daf680d52fd81b06d4d0e1d0294c76d1fccd16f938664c2d19e1b9",
+      "bytes": 165581
+    },
+    {
+      "path": "assets/original/hero-50.jpg",
+      "sha256": "56371386c8398caa5d703ae65554fbf8d6a557149aa01eeceef2c311f61b98c4",
+      "bytes": 71134
+    },
+    {
+      "path": "assets/original/hero-790.jpg",
+      "sha256": "05fc90bcce324aa2f1e3b7b18f80157bd286e69ad4dd48b64d53c439a92d0e4e",
+      "bytes": 383835
+    },
+    {
+      "path": "assets/original/icon-cake-birth.png",
+      "sha256": "054e6ac9df3aaf5a9b6c5fc74d355ffc71d3ca63868bd83d3608e720292f3333",
+      "bytes": 1128
+    },
+    {
+      "path": "assets/original/icon-cake-wedding.png",
+      "sha256": "dd5cd017baac814bbda5af4f57f3f981f4690f6a7057eeb59f80ba81c850e8d7",
+      "bytes": 1275
+    },
+    {
+      "path": "assets/original/icon-graduation.png",
+      "sha256": "b4df5a1a8ed8c43ff2505924b2784cca0a1b9b4ed4fff65db2865a98dfcbaaf7",
+      "bytes": 1569
+    },
+    {
+      "path": "assets/original/icon-party.png",
+      "sha256": "19003897deb392db14c46b99176a45229d242962a9a1102467a2f4481d722fe6",
+      "bytes": 1266
+    },
+    {
+      "path": "assets/original/logo.png",
+      "sha256": "a718d37c013eb030d9ea08076df90fdcbdf5b42c41fcab125d92a30cfdbee33d",
+      "bytes": 14458
+    },
+    {
+      "path": "assets/original/logo_shaped.png",
+      "sha256": "367b13f90375513eda44673065e201654e878172a2507f178a485948ce5a8073",
+      "bytes": 2252
+    },
+    {
+      "path": "assets/original/txt-home.png",
+      "sha256": "6816a4289b7664d076883f9cbbeb94ad7537a04100d8f15713bfcb3b854c8f9f",
+      "bytes": 77157
+    },
+    {
+      "path": "index.html",
+      "sha256": "85fbabd9f01db06a45ddb92d3e136323e466135c6457ac653e93b1a09efeea95",
+      "bytes": 8572
+    },
+    {
+      "path": "proposal.html",
+      "sha256": "2e2e78e305546bee24238552481ad3bd2ab6b2640e90437005d9bdf940d8dd62",
+      "bytes": 8581
+    },
+    {
+      "path": "screenshots/original/original-desktop-1440x900.png",
+      "sha256": "7864ef07534015a829f5764eb0a550e94e17212ad95654bb4e454be34f64a67a",
+      "bytes": 1296328
+    },
+    {
+      "path": "screenshots/original/original-desktop-errors.txt",
+      "sha256": "b24464fcd1c3d136115a0ab9e983b5a9a133d2687a8b8f0a0ad980b254fae86d",
+      "bytes": 688
+    },
+    {
+      "path": "screenshots/original/original-desktop-full.png",
+      "sha256": "3cc839f09534887013f3c539d0716f5e954aa85ba23de62079e7dbfd0c2f936a",
+      "bytes": 1289136
+    },
+    {
+      "path": "screenshots/original/original-mobile-1440x900.png",
+      "sha256": "64d3e0baf5c143e14cae4a8eba49beede28af8e16be888c6d6051eb07ec65b88",
+      "bytes": 200417
+    },
+    {
+      "path": "screenshots/original/original-mobile-errors.txt",
+      "sha256": "1ee077740c34ea5d0df4de18bed74e4773d4d3ff7cfef4527fd973df8e82af5a",
+      "bytes": 730
+    },
+    {
+      "path": "screenshots/original/original-mobile-full.png",
+      "sha256": "7cf970e9080695b6d0812a1b632e6fa8517d2ddb98d77cf8313a14a964326183",
+      "bytes": 602303
+    },
+    {
+      "path": "screenshots/production/index-desktop-1440x900.png",
+      "sha256": "5c7800ba54dd820a7efbf0d84a078acb4152eb98b3a8699b0f11c336b200a81d",
+      "bytes": 996073
+    },
+    {
+      "path": "screenshots/production/index-desktop-full.png",
+      "sha256": "a908dc3adb3eaeb2d79d3e70abe62b012df1f3663ee5a9eb6e9f102324ee7d65",
+      "bytes": 2377507
+    },
+    {
+      "path": "screenshots/production/index-mobile-1440x900.png",
+      "sha256": "8c3120a90aa32eec0ccd32c68a15503c103c7c1d177e1df47a6fb2851f00d069",
+      "bytes": 268513
+    },
+    {
+      "path": "screenshots/production/index-mobile-full.png",
+      "sha256": "ff7ba1f8851a2205d408cb867619140a1dd709ed94443b0b643dc3964e4228b3",
+      "bytes": 773852
+    },
+    {
+      "path": "screenshots/production/proposed-desktop-1440x900.png",
+      "sha256": "7af22f429de8dbbdd68f7d502b29f70e98b6d8e64b3f6d894add4b1ce55c0bc6",
+      "bytes": 995881
+    },
+    {
+      "path": "script.js",
+      "sha256": "a3423cac20f2a398bd6721a7de8d2dba6ca03c5aa067e32e0f957368c47adfb8",
+      "bytes": 797
+    },
+    {
+      "path": "styles.css",
+      "sha256": "8385eca92374982ebf58036ee5f6914583172062831e28c2ee8616e1514758fc",
+      "bytes": 11250
+    }
+  ]
+}

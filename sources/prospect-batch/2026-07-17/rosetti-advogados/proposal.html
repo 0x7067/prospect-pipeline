@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Estudo de redesign — Rosetti Advogados (prévia independente)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Condensed:wght@400;500;600;700&family=Roboto+Slab:wght@600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<style>
+  body { background: var(--offwhite); }
+  .proposal-banner {
+    background: var(--teal-900); color: #fff; padding: .9rem var(--space-3);
+    font-family: var(--font-heading); font-size: .85rem; text-align: center;
+  }
+  .proposal-banner strong { color: var(--mint-400); }
+  .p-hero { padding-block: var(--space-5) var(--space-4); background: linear-gradient(180deg, var(--teal-900), var(--teal-800)); color: #fff; }
+  .p-hero .eyebrow { color: var(--mint-400); }
+  .p-hero h1 { color: #fff; font-size: var(--step-4); max-width: 24ch; }
+  .p-hero p.lede { color: rgba(255,255,255,.85); font-size: var(--step-1); max-width: 60ch; }
+  .p-section { padding-block: var(--space-5); }
+  .p-section.alt { background: var(--white); }
+  .compare-grid { display: grid; gap: var(--space-3); grid-template-columns: 1fr; margin-top: var(--space-3); }
+  .compare-col h3 { font-size: 1rem; text-transform: uppercase; letter-spacing: .04em; font-family: var(--font-heading); }
+  .compare-col.current h3 { color: #9a5b3a; }
+  .compare-col.proposed h3 { color: var(--teal-700); }
+  .compare-shots { display: grid; gap: var(--space-2); grid-template-columns: 1fr 1fr; }
+  .compare-shots figure { margin: 0; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: #fff; }
+  .compare-shots img { display: block; width: 100%; height: auto; }
+  .compare-shots figcaption { font-size: .78rem; color: var(--ink-soft); padding: .5rem .6rem; border-top: 1px solid var(--line); }
+  @media (min-width: 900px) { .compare-grid { grid-template-columns: 1fr 1fr; } }
+
+  .problem-grid { display: grid; gap: var(--space-3); margin-top: var(--space-3); grid-template-columns: 1fr; }
+  .problem-card { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); padding: var(--space-3); }
+  .problem-card .tag { font-family: var(--font-heading); text-transform: uppercase; font-size: .72rem; letter-spacing: .06em; color: #9a5b3a; }
+  .problem-card h3 { font-size: 1.05rem; margin: .35rem 0 .5rem; }
+  .problem-card p { color: var(--ink-soft); font-size: .95rem; margin: 0; }
+  .fix-card { background: var(--paper); border-left: 4px solid var(--teal-700); border-radius: var(--radius); padding: var(--space-3); margin-top: var(--space-2); }
+  .fix-card .tag { font-family: var(--font-heading); text-transform: uppercase; font-size: .72rem; letter-spacing: .06em; color: var(--teal-700); }
+  @media (min-width: 900px) { .problem-grid { grid-template-columns: repeat(3, 1fr); } }
+
+  .deliv-list, .dep-list { display: grid; gap: .6rem; margin-top: var(--space-2); }
+  .deliv-list li, .dep-list li { padding-left: 1.3rem; position: relative; color: var(--ink); }
+  .deliv-list li::before { content: "✓"; position: absolute; left: 0; color: var(--teal-700); font-weight: 700; }
+  .dep-list li::before { content: "•"; position: absolute; left: 0; color: #9a5b3a; font-weight: 700; }
+
+  .timeline { display: grid; gap: var(--space-2); margin-top: var(--space-3); }
+  .timeline-step { display: grid; grid-template-columns: 2.5rem 1fr; gap: var(--space-2); align-items: baseline; }
+  .timeline-step .n { font-family: var(--font-display); font-weight: 700; color: var(--teal-700); font-size: 1.3rem; }
+
+  .next-step { background: var(--teal-900); color: #fff; border-radius: var(--radius); padding: var(--space-4); margin-top: var(--space-4); }
+  .next-step h2 { color: #fff; }
+  .next-step p { color: rgba(255,255,255,.85); }
+
+  .appendix { background: var(--paper); }
+  .appendix table { width: 100%; border-collapse: collapse; margin-top: var(--space-2); font-size: .92rem; }
+  .appendix th, .appendix td { text-align: left; border-bottom: 1px solid var(--line); padding: .55rem .6rem; vertical-align: top; }
+  .appendix th { font-family: var(--font-heading); text-transform: uppercase; font-size: .74rem; letter-spacing: .05em; color: var(--teal-800); }
+  .disclosure { background: #fff; border: 1px dashed var(--line); border-radius: var(--radius); padding: var(--space-3); font-size: .88rem; color: var(--ink-soft); }
+  .back-link { display: inline-block; margin-top: var(--space-2); color: var(--teal-800); text-decoration: underline; font-family: var(--font-heading); }
+</style>
+</head>
+<body>
+
+<div class="proposal-banner">
+  Estudo de redesign independente — <strong>não publicado no domínio oficial</strong>, não solicitado e sem vínculo com o Rosetti Advogados.
+</div>
+
+<header class="p-hero">
+  <div class="container">
+    <p class="eyebrow">Estudo de oportunidade · rosettiadvogados.adv.br</p>
+    <h1>O site oficial converte pior do que a reputação do escritório merece.</h1>
+    <p class="lede">Rosetti Advogados tem presença pública consolidada, uma equipe com números de OAB verificáveis e um posicionamento jurídico claro — mas o site atual perde visitantes antes mesmo do primeiro clique de contato. Este material resume o diagnóstico e a direção visual proposta para corrigir isso.</p>
+  </div>
+</header>
+
+<main>
+
+  <section class="p-section alt">
+    <div class="container">
+      <p class="eyebrow">Evidência visual</p>
+      <h2>Site atual × direção proposta</h2>
+      <p style="color:var(--ink-soft);max-width:60ch">Capturas reais, nos mesmos dois viewports (1440×900 e 390×844), tiradas no mesmo dia da análise.</p>
+
+      <div class="compare-grid">
+        <div class="compare-col current">
+          <h3>Atual</h3>
+          <div class="compare-shots">
+            <figure>
+              <img src="assets/screenshots/current-desktop-viewport.png" alt="Site atual do Rosetti Advogados em 1440x900" />
+              <figcaption>Desktop 1440×900 — rosettiadvogados.adv.br</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/screenshots/current-mobile-viewport.png" alt="Site atual do Rosetti Advogados em 390x844" />
+              <figcaption>Mobile 390×844 — rosettiadvogados.adv.br</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="compare-col proposed">
+          <h3>Proposto</h3>
+          <div class="compare-shots">
+            <figure>
+              <img src="assets/screenshots/proposed-desktop-viewport.png" alt="Direção proposta em 1440x900" />
+              <figcaption>Desktop 1440×900 — concept local</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/screenshots/proposed-mobile-viewport.png" alt="Direção proposta em 390x844" />
+              <figcaption>Mobile 390×844 — concept local</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-section">
+    <div class="container">
+      <p class="eyebrow">Diagnóstico priorizado</p>
+      <h2>Três problemas materiais, três correções diretas</h2>
+
+      <div class="problem-grid">
+        <article class="problem-card">
+          <p class="tag">Problema 1 · Conversão</p>
+          <h3>O banner principal não tem uma chamada clara para contato</h3>
+          <p>O visitante precisa localizar "Contato" no menu ou identificar o botão flutuante do WhatsApp por conta própria. O aviso de cookies ainda cobre parte da área útil do banner.</p>
+          <div class="fix-card">
+            <p class="tag">Correção</p>
+            <p>CTA de WhatsApp visível já no primeiro bloco da página, sem sobreposição de banner de cookies — o concept não usa nenhum cookie, então não há aviso a exibir.</p>
+          </div>
+        </article>
+
+        <article class="problem-card">
+          <p class="tag">Problema 2 · Conteúdo</p>
+          <h3>Publicações antigas e miniaturas quebradas</h3>
+          <p>O item mais novo em "Publicações Recentes" é de 2020; a maioria é de 2019. Pelo menos dois cards mostram blocos cinza com a letra "R" no lugar da miniatura — confirmado nesta análise: o carregamento do site oficial gera 6 erros 404 de recursos.</p>
+          <div class="fix-card">
+            <p class="tag">Correção</p>
+            <p>Lista editorial sem miniaturas quebradas, sem alegar que o conteúdo é "recente", com link direto para o blog oficial e suas datas reais.</p>
+          </div>
+        </article>
+
+        <article class="problem-card">
+          <p class="tag">Problema 3 · Manutenção</p>
+          <h3>Sinais de site desatualizado</h3>
+          <p>O rodapé exibe "Copyright © 2015–2025" mesmo em 2026, reforçando a percepção de abandono para quem chega ao site pela primeira vez.</p>
+          <div class="fix-card">
+            <p class="tag">Correção</p>
+            <p>Ano do rodapé resolvido automaticamente por script local (sem dependência externa), sempre exibindo o ano corrente.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-section alt">
+    <div class="container">
+      <p class="eyebrow">Entregáveis</p>
+      <h2>O que este concept inclui</h2>
+      <ul class="deliv-list">
+        <li><code>index.html</code> — página única com jornadas para trabalhador, segurado e entidade sindical, áreas de atuação, equipe com OAB verificada, publicações e contato.</li>
+        <li><code>styles.css</code> — sistema visual derivado da marca verificada (cor #47716f, tipografia Roboto/Roboto Condensed, mais Roboto Slab como evolução tipográfica ligada à wordmark).</li>
+        <li><code>script.js</code> — menu mobile acessível (Escape, botão, clique em link) e correção automática do ano no rodapé. Sem formulário, sem coleta de dados, sem terceiros.</li>
+        <li><code>assets/</code> — logotipo e favicon oficiais, mais as capturas de tela usadas nesta comparação.</li>
+        <li><code>SOURCE_MANIFEST.md</code> — toda fonte de cada fato e imagem usados.</li>
+      </ul>
+
+      <p class="eyebrow" style="margin-top:var(--space-4)">Dependências</p>
+      <ul class="dep-list">
+        <li>Validação do escritório sobre nomes, OAB e credenciais exibidas antes de qualquer publicação.</li>
+        <li>Hospedagem e domínio próprio — esta prévia não substitui nem altera o site oficial.</li>
+        <li>Revisão jurídica de compatibilidade com as normas de publicidade da OAB antes de qualquer uso público.</li>
+      </ul>
+
+      <p class="eyebrow" style="margin-top:var(--space-4)">Sequência sugerida</p>
+      <div class="timeline">
+        <div class="timeline-step"><p class="n">01</p><p>Revisão interna do concept e dos fatos usados (este documento + <code>SOURCE_MANIFEST.md</code>).</p></div>
+        <div class="timeline-step"><p class="n">02</p><p>Ajustes de conteúdo apontados pelo escritório (equipe, áreas, textos).</p></div>
+        <div class="timeline-step"><p class="n">03</p><p>Publicação em domínio próprio, após aprovação final.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-section">
+    <div class="container">
+      <div class="next-step">
+        <h2>Próximo passo</h2>
+        <p>Revisar <code>index.html</code> localmente (ver <code>BUILD_REPORT.md</code> para instruções de execução) e confirmar quais dados de equipe e contato devem ser ajustados antes de qualquer publicação.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-section appendix">
+    <div class="container">
+      <p class="eyebrow">Apêndice técnico</p>
+      <h2>Verificação mecânica</h2>
+      <table>
+        <thead><tr><th>Checagem</th><th>Site atual</th><th>Concept proposto</th></tr></thead>
+        <tbody>
+          <tr><td>Erros de console / recursos ao carregar</td><td>7 (1 erro Disqus + 6 recursos 404)</td><td>0</td></tr>
+          <tr><td>Overflow horizontal em 1440×900</td><td>Nenhum detectado</td><td>Nenhum detectado</td></tr>
+          <tr><td>Overflow horizontal em 390×844</td><td>Nenhum detectado</td><td>Nenhum detectado</td></tr>
+          <tr><td>Menu mobile — fecha por botão/link/Escape</td><td>Não testado (menu nativo do tema)</td><td>Confirmado nos três métodos, com rótulo acessível atualizado</td></tr>
+          <tr><td>Alvos de toque ≥ 44×44px</td><td>Não avaliado</td><td>Confirmado nos elementos interativos principais</td></tr>
+        </tbody>
+      </table>
+      <p style="color:var(--ink-soft);font-size:.85rem;margin-top:var(--space-2)">Metodologia completa, comandos executados e limitações em <code>BUILD_REPORT.md</code>.</p>
+
+      <div class="disclosure" style="margin-top:var(--space-4)">
+        <strong>Aviso:</strong> este documento e o concept referenciado são um estudo independente, preparado para avaliação e não publicado no domínio oficial. Não há vínculo, afiliação, endosso ou autorização do Rosetti Advogados. Nenhuma métrica de resultado, prêmio, projeto de terceiros, depoimento ou garantia de desempenho é afirmada aqui — apenas fatos verificáveis no site e nas redes oficiais do escritório (ver <code>SOURCE_MANIFEST.md</code>).
+      </div>
+
+      <a class="back-link" href="index.html">← Ver o concept completo (index.html)</a>
+    </div>
+  </section>
+
+</main>
+
+</body>
+</html>
