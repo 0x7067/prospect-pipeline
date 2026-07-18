@@ -1,0 +1,116 @@
+{
+  "pages": {
+    "index.html": {
+      "1440x900": {
+        "status": 200,
+        "final_url": "http://127.0.0.1:8767/index.html",
+        "title": "Poncio Contabilidade | Clareza para o pr\u00f3ximo passo",
+        "h1_count": 1,
+        "h1_text": "O pr\u00f3ximo passo do seu neg\u00f3cio, com mais clareza.",
+        "overflow": {
+          "scrollWidth": 1440,
+          "clientWidth": 1440,
+          "overflowing": false
+        },
+        "broken_images": [],
+        "console_messages": [],
+        "page_errors": [],
+        "failed_requests": [],
+        "mobile_nav": {}
+      },
+      "390x844": {
+        "status": 200,
+        "final_url": "http://127.0.0.1:8767/index.html",
+        "title": "Poncio Contabilidade | Clareza para o pr\u00f3ximo passo",
+        "h1_count": 1,
+        "h1_text": "O pr\u00f3ximo passo do seu neg\u00f3cio, com mais clareza.",
+        "overflow": {
+          "scrollWidth": 390,
+          "clientWidth": 390,
+          "overflowing": false
+        },
+        "broken_images": [],
+        "console_messages": [],
+        "page_errors": [],
+        "failed_requests": [],
+        "mobile_nav": {
+          "toggle_found": true,
+          "aria_expanded_before": "false",
+          "aria_expanded_after": "true"
+        }
+      }
+    },
+    "proposal.html": {
+      "1440x900": {
+        "status": 200,
+        "final_url": "http://127.0.0.1:8767/proposal.html",
+        "title": "Notas de dire\u00e7\u00e3o | Poncio Contabilidade",
+        "h1_count": 1,
+        "h1_text": "Clareza para o pr\u00f3ximo passo.",
+        "overflow": {
+          "scrollWidth": 1440,
+          "clientWidth": 1440,
+          "overflowing": false
+        },
+        "broken_images": [],
+        "console_messages": [],
+        "page_errors": [],
+        "failed_requests": [],
+        "mobile_nav": {}
+      },
+      "390x844": {
+        "status": 200,
+        "final_url": "http://127.0.0.1:8767/proposal.html",
+        "title": "Notas de dire\u00e7\u00e3o | Poncio Contabilidade",
+        "h1_count": 1,
+        "h1_text": "Clareza para o pr\u00f3ximo passo.",
+        "overflow": {
+          "scrollWidth": 390,
+          "clientWidth": 390,
+          "overflowing": false
+        },
+        "broken_images": [],
+        "console_messages": [],
+        "page_errors": [],
+        "failed_requests": [],
+        "mobile_nav": {}
+      }
+    },
+    "rationale.html": {
+      "1440x900": {
+        "status": 200,
+        "final_url": "http://127.0.0.1:8767/proposal.html",
+        "title": "Notas de dire\u00e7\u00e3o | Poncio Contabilidade",
+        "h1_count": 1,
+        "h1_text": "Clareza para o pr\u00f3ximo passo.",
+        "overflow": {
+          "scrollWidth": 1440,
+          "clientWidth": 1440,
+          "overflowing": false
+        },
+        "broken_images": [],
+        "console_messages": [],
+        "page_errors": [],
+        "failed_requests": [],
+        "mobile_nav": {}
+      },
+      "390x844": {
+        "status": 200,
+        "final_url": "http://127.0.0.1:8767/proposal.html",
+        "title": "Notas de dire\u00e7\u00e3o | Poncio Contabilidade",
+        "h1_count": 1,
+        "h1_text": "Clareza para o pr\u00f3ximo passo.",
+        "overflow": {
+          "scrollWidth": 390,
+          "clientWidth": 390,
+          "overflowing": false
+        },
+        "broken_images": [],
+        "console_messages": [],
+        "page_errors": [],
+        "failed_requests": [],
+        "mobile_nav": {}
+      }
+    }
+  }
+}

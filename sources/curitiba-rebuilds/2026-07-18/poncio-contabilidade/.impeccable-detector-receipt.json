@@ -1,0 +1,52 @@
+{
+  "build_id": "f74ddd5af0443ff4470ad667428be71cddb1fd066d9afa1e23e81b1c0d193bed",
+  "detector": {
+    "expected_cli_version": "3.2.1",
+    "path": "/opt/data/bin/impeccable",
+    "resolved_path": "/opt/data/lib/node_modules/impeccable/cli/bin/cli.js",
+    "scans": [
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "raw"
+      },
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "design-aware"
+      }
+    ],
+    "sha256": "62e2bb19a4dc7aecf10ea0ec824a20d3ecb174e65b212eb371cc9b2da271935d"
+  },
+  "findings": [],
+  "gate_exit_code": 0,
+  "generated_at": "2026-07-18T16:56:06.419715+00:00",
+  "impeccable_skill_commit": "44c27a72af98394c32691ba79358811bff86bde6",
+  "policy_sha256": "21936021ef4272afbb508483f0e0e5a5b7ec5a4613630f864e1c8bbffe684604",
+  "policy_version": "prospect-brand-style-gate-v2",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-18/poncio-contabilidade",
+  "release_manifest": {
+    "index.html": {
+      "sha256": "6b5703f6b1bc1e1c8f20f3a248b48608f80300c1d9ee7aefa798261779b60cc7",
+      "size": 5896
+    },
+    "proposal.html": {
+      "sha256": "bee5db963e6a41db2490052cd1a3e7646e2d314912acb31efc600eeade5c65ca",
+      "size": 676
+    },
+    "rationale.html": {
+      "sha256": "c6d6f53bdca290079b8657f11d8ea59e8a659bcf7de9dc013de51903c2e050da",
+      "size": 258
+    },
+    "script.js": {
+      "sha256": "cb8b1c659b64cc17a1a43be39ec32376207179971db76634b3bf6d70c9201cc0",
+      "size": 547
+    },
+    "styles.css": {
+      "sha256": "164d4b06feee44ffc32726e0e3d73b7c6de1b23a41a6b6f7e6294f184d69db7a",
+      "size": 8037
+    }
+  },
+  "schema": 3,
+  "status": "clean"
+}

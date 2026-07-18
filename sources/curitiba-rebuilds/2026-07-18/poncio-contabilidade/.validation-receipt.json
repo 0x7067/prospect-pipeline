@@ -1,0 +1,193 @@
+{
+  "generated_at": "2026-07-18T16:56:00-03:00",
+  "scope": "/opt/data/projects/curitiba-rebuilds/2026-07-18/poncio-contabilidade",
+  "policy": "Validation-only pass. No other directory or archived root touched. No publishing, upload, form submission, or external contact performed.",
+  "checks": {
+    "node_check": {
+      "command": "node --check script.js",
+      "cwd": "/opt/data/projects/curitiba-rebuilds/2026-07-18/poncio-contabilidade",
+      "exit_code": 0,
+      "result": "PASS - no syntax errors"
+    },
+    "impeccable_detector": {
+      "command": "python3 /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-18/poncio-contabilidade",
+      "exit_code": 0,
+      "result": "PASS",
+      "receipt_file": ".impeccable-detector-receipt.json",
+      "receipt_summary": {
+        "status": "clean",
+        "gate_exit_code": 0,
+        "findings_count": 0,
+        "scans": [
+          { "mode": "raw", "exit_code": 0, "findings": 0 },
+          { "mode": "design-aware", "exit_code": 0, "findings": 0 }
+        ],
+        "detector_cli": "/opt/data/bin/impeccable -> /opt/data/lib/node_modules/impeccable/cli/bin/cli.js (expected v3.2.1)"
+      }
+    },
+    "playwright": {
+      "runner": "/opt/data/.venvs/curitiba/bin/python",
+      "env": { "PLAYWRIGHT_BROWSERS_PATH": "/opt/data/.cache/ms-playwright" },
+      "browser": "chromium",
+      "server": {
+        "command": "python3 -m http.server 8767 --bind 127.0.0.1",
+        "cwd": "/opt/data/projects/curitiba-rebuilds/2026-07-18/poncio-contabilidade",
+        "base_url": "http://127.0.0.1:8767",
+        "stopped_after_run": true
+      },
+      "script": ".pw_check.py (temporary, written for this validation run, harness only, no external calls)",
+      "viewports_tested": ["1440x900", "390x844"],
+      "pages_tested": ["index.html", "proposal.html", "rationale.html"],
+      "exit_code": 0,
+      "results": {
+        "index.html": {
+          "1440x900": {
+            "http_status": 200,
+            "final_url": "http://127.0.0.1:8767/index.html",
+            "title": "Poncio Contabilidade | Clareza para o próximo passo",
+            "h1_count": 1,
+            "h1_text": "O próximo passo do seu negócio, com mais clareza.",
+            "horizontal_overflow": false,
+            "scroll_width": 1440,
+            "client_width": 1440,
+            "broken_images": [],
+            "console_messages": [],
+            "page_errors": [],
+            "failed_requests": []
+          },
+          "390x844": {
+            "http_status": 200,
+            "final_url": "http://127.0.0.1:8767/index.html",
+            "title": "Poncio Contabilidade | Clareza para o próximo passo",
+            "h1_count": 1,
+            "h1_text": "O próximo passo do seu negócio, com mais clareza.",
+            "horizontal_overflow": false,
+            "scroll_width": 390,
+            "client_width": 390,
+            "broken_images": [],
+            "console_messages": [],
+            "page_errors": [],
+            "failed_requests": [],
+            "mobile_nav": {
+              "toggle_found": true,
+              "aria_expanded_before": "false",
+              "aria_expanded_after": "true"
+            }
+          }
+        },
+        "proposal.html": {
+          "1440x900": {
+            "http_status": 200,
+            "final_url": "http://127.0.0.1:8767/proposal.html",
+            "title": "Notas de direção | Poncio Contabilidade",
+            "h1_count": 1,
+            "h1_text": "Clareza para o próximo passo.",
+            "horizontal_overflow": false,
+            "scroll_width": 1440,
+            "client_width": 1440,
+            "broken_images": [],
+            "console_messages": [],
+            "page_errors": [],
+            "failed_requests": []
+          },
+          "390x844": {
+            "http_status": 200,
+            "final_url": "http://127.0.0.1:8767/proposal.html",
+            "title": "Notas de direção | Poncio Contabilidade",
+            "h1_count": 1,
+            "h1_text": "Clareza para o próximo passo.",
+            "horizontal_overflow": false,
+            "scroll_width": 390,
+            "client_width": 390,
+            "broken_images": [],
+            "console_messages": [],
+            "page_errors": [],
+            "failed_requests": []
+          }
+        },
+        "rationale.html": {
+          "1440x900": {
+            "http_status": 200,
+            "final_url_after_redirect": "http://127.0.0.1:8767/proposal.html",
+            "redirect_confirmed": true,
+            "title": "Notas de direção | Poncio Contabilidade",
+            "h1_count": 1,
+            "h1_text": "Clareza para o próximo passo.",
+            "horizontal_overflow": false,
+            "scroll_width": 1440,
+            "client_width": 1440,
+            "broken_images": [],
+            "console_messages": [],
+            "page_errors": [],
+            "failed_requests": []
+          },
+          "390x844": {
+            "http_status": 200,
+            "final_url_after_redirect": "http://127.0.0.1:8767/proposal.html",
+            "redirect_confirmed": true,
+            "title": "Notas de direção | Poncio Contabilidade",
+            "h1_count": 1,
+            "h1_text": "Clareza para o próximo passo.",
+            "horizontal_overflow": false,
+            "scroll_width": 390,
+            "client_width": 390,
+            "broken_images": [],
+            "console_messages": [],
+            "page_errors": [],
+            "failed_requests": []
+          }
+        }
+      },
+      "evidence_screenshots": [
+        ".pw-evidence-1440x900-index.png",
+        ".pw-evidence-1440x900-proposal.png",
+        ".pw-evidence-1440x900-rationale.png",
+        ".pw-evidence-390x844-index.png",
+        ".pw-evidence-390x844-proposal.png",
+        ".pw-evidence-390x844-rationale.png"
+      ],
+      "raw_results_file": ".pw_results.json"
+    },
+    "content_policy_checks": {
+      "index_no_forbidden_terms": {
+        "command": "grep -i -E 'proposal|redesign|prototype|disclosure' index.html",
+        "exit_code": 1,
+        "result": "PASS - no matches (no forbidden terms present)"
+      },
+      "index_does_not_link_proposal": {
+        "command": "grep -n 'proposal.html' index.html",
+        "exit_code": 1,
+        "result": "PASS - no matches (index.html does not link to proposal.html)"
+      }
+    },
+    "file_integrity": {
+      "note": "sha256 of tracked source files matched the sha256 values recorded in the pre-existing .impeccable-detector-receipt.json release_manifest, confirming no drift before this validation pass.",
+      "index.html": "6b5703f6b1bc1e1c8f20f3a248b48608f80300c1d9ee7aefa798261779b60cc7",
+      "proposal.html": "bee5db963e6a41db2490052cd1a3e7646e2d314912acb31efc600eeade5c65ca",
+      "rationale.html": "c6d6f53bdca290079b8657f11d8ea59e8a659bcf7de9dc013de51903c2e050da",
+      "script.js": "cb8b1c659b64cc17a1a43be39ec32376207179971db76634b3bf6d70c9201cc0",
+      "styles.css": "164d4b06feee44ffc32726e0e3d73b7c6de1b23a41a6b6f7e6294f184d69db7a"
+    }
+  },
+  "findings": "No defects found. No horizontal overflow at either viewport on any page. No broken images. No console errors/warnings. No uncaught page errors. No failed network requests. Exactly one H1 per page at both viewports. Mobile nav toggle functions (aria-expanded false->true). rationale.html redirects correctly to proposal.html. index.html contains no forbidden terms (proposal/redesign/prototype/disclosure) and does not link proposal.html, per brief.",
+  "repair_performed": "None required. All checks passed cleanly on first run; no repair pass was necessary.",
+  "actions_explicitly_not_performed": [
+    "No publishing to any hosting/production target",
+    "No upload of any file",
+    "No form submissions",
+    "No outbound contact (WhatsApp/e-mail links were present in markup but never activated/clicked)",
+    "No external network/service calls made by the validation harness"
+  ],
+  "scope_boundary": "Only files inside /opt/data/projects/curitiba-rebuilds/2026-07-18/poncio-contabilidade were read, executed, or written during this validation. No other directory or archived root was touched.",
+  "temporary_artifacts_left_on_disk": [
+    ".pw_check.py",
+    ".pw_results.json",
+    ".pw-evidence-1440x900-index.png",
+    ".pw-evidence-1440x900-proposal.png",
+    ".pw-evidence-1440x900-rationale.png",
+    ".pw-evidence-390x844-index.png",
+    ".pw-evidence-390x844-proposal.png",
+    ".pw-evidence-390x844-rationale.png"
+  ],
+  "note_on_temporary_artifacts": "These are validation-run artifacts (harness script + raw JSON + evidence screenshots) kept alongside the pre-existing evidence-*.png files per 'preserve all working files' instruction; nothing was deleted from the directory."
+}

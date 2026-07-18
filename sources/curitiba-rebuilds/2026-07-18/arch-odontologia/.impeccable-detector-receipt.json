@@ -1,0 +1,52 @@
+{
+  "build_id": "6f544a8a1edb57216d82dbfe8726e2ec95c4fc6f527b339206c8683ea324fc33",
+  "detector": {
+    "expected_cli_version": "3.2.1",
+    "path": "/opt/data/bin/impeccable",
+    "resolved_path": "/opt/data/lib/node_modules/impeccable/cli/bin/cli.js",
+    "scans": [
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "raw"
+      },
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "design-aware"
+      }
+    ],
+    "sha256": "62e2bb19a4dc7aecf10ea0ec824a20d3ecb174e65b212eb371cc9b2da271935d"
+  },
+  "findings": [],
+  "gate_exit_code": 0,
+  "generated_at": "2026-07-18T16:07:46.611079+00:00",
+  "impeccable_skill_commit": "44c27a72af98394c32691ba79358811bff86bde6",
+  "policy_sha256": "21936021ef4272afbb508483f0e0e5a5b7ec5a4613630f864e1c8bbffe684604",
+  "policy_version": "prospect-brand-style-gate-v2",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-18/arch-odontologia",
+  "release_manifest": {
+    "index.html": {
+      "sha256": "31726700af80dd5fa050ab9945d4efe3f7a1acbc538dfe71e501dd3654a4fb06",
+      "size": 10003
+    },
+    "proposal.html": {
+      "sha256": "ec1c4c931a22f7a58f2ca8b9c1b4d92ab568cc9ef9ab6c41161fcafda0d0407e",
+      "size": 2647
+    },
+    "rationale.html": {
+      "sha256": "ff98b2f017319716a544854e3b90b7b66481ba64a2df366a1b29f82fa505ec53",
+      "size": 340
+    },
+    "script.js": {
+      "sha256": "dc21afeef51ce28a6709db4cdb3b31d8b5fb8d042986947241a16fe49ee0f4d2",
+      "size": 1232
+    },
+    "styles.css": {
+      "sha256": "39a564cef6e92387719380acaf5f370f658ea4d10b022b6561bf481f22c180d1",
+      "size": 11633
+    }
+  },
+  "schema": 3,
+  "status": "clean"
+}

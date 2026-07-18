@@ -1,0 +1,25 @@
+{
+  "business_name": "Da Vinci Clínica Veterinária 24h",
+  "official_url": "https://www.veterinariadavinci.com.br/",
+  "run_date": "2026-07-15",
+  "category": "clínica veterinária, pronto atendimento e internação 24h",
+  "address": "Rua Tapajós, 260 — São Francisco, Curitiba/PR",
+  "active_evidence": "O site oficial está no ar, apresenta CNPJ, serviços, endereço e atendimento 24h. Um guia local de 2026 confirma o mesmo endereço, nota 4,5 com 199 avaliações e avaliações publicadas nas últimas semanas e meses.",
+  "opportunity_score": 9.2,
+  "confidence": "alta",
+  "problems": [
+    "Conversão de emergência fraca: apesar de vender plantão 24h, a página não conduz imediatamente a “ligar agora”, rota ou triagem; o destaque principal observado promovia banho e tosa.",
+    "Contato contraditório: versões/trechos do próprio site mostram (41) 9663-0331, enquanto a renderização atual repete (41) 3016-2606 tanto como telefone quanto como WhatsApp. Isso pode fazer o tutor perder tempo em uma emergência.",
+    "Conteúdo muito desatualizado: os três artigos destacados na home estão datados de 18/05/2016.",
+    "Falha visível de layout: há uma área branca extremamente alta no meio da página, com depoimento quase invisível por baixo contraste, interrompendo a navegação.",
+    "Jornada operacional incompleta: não há fluxo claro para escolher emergência, consulta, especialista, banho e tosa ou internação; todos acabam em contatos genéricos."
+  ],
+  "rebuild_angle": "Site mobile-first para urgências, com botões persistentes de ligação/WhatsApp, páginas por especialidade, prova social recente, equipe, instruções pré-atendimento e captura separada para serviços eletivos.",
+  "roi_mechanism": "Cada chamada perdida pode significar uma consulta de emergência, exames, cirurgia ou internação de alto valor. Uma nova jornada com triagem por necessidade, telefone 24h inequívoco, WhatsApp correto, rotas e acompanhamento de conversões pode recuperar receita diretamente.",
+  "evidence_links": [
+    "https://www.veterinariadavinci.com.br/",
+    "https://www.veterinariadavinci.com.br/servicos",
+    "https://guiaemcuritiba.com.br/sao-francisco/da-vinci-clinica-veterinaria-24-horas-caes-e-gatos"
+  ],
+  "source_audit": "/opt/data/cron/output/bd2acb816e97/2026-07-15_09-11-37.md"
+}

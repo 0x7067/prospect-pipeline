@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "generated_at": "2026-07-18T13:32:00-03:00",
+  "target_directory": "/opt/data/projects/curitiba-rebuilds/2026-07-18/ceap-curitiba",
+  "scope_notes": "Only this directory was inspected/touched. No other directory, archived root, or file outside this path was read or modified. No publish/upload/form-submit/contact action was taken.",
+  "overall_status": "pass_no_repair_needed",
+  "checks": [
+    {
+      "name": "node_syntax_check",
+      "command": "node --check script.js",
+      "cwd": "/opt/data/projects/curitiba-rebuilds/2026-07-18/ceap-curitiba",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "result": "pass"
+    },
+    {
+      "name": "impeccable_detector_raw",
+      "command": "/opt/data/bin/impeccable detect --json --no-config --no-design-system index.html proposal.html rationale.html script.js styles.css",
+      "cwd": "/opt/data/projects/curitiba-rebuilds/2026-07-18/ceap-curitiba",
+      "detector_path": "/opt/data/bin/impeccable",
+      "resolved_path": "/opt/data/lib/node_modules/impeccable/cli/bin/cli.js",
+      "detector_version": "3.2.1",
+      "exit_code": 0,
+      "findings": [],
+      "result": "pass"
+    },
+    {
+      "name": "impeccable_detector_design_aware",
+      "command": "/opt/data/bin/impeccable detect --json index.html proposal.html rationale.html script.js styles.css",
+      "cwd": "/opt/data/projects/curitiba-rebuilds/2026-07-18/ceap-curitiba",
+      "detector_path": "/opt/data/bin/impeccable",
+      "resolved_path": "/opt/data/lib/node_modules/impeccable/cli/bin/cli.js",
+      "detector_version": "3.2.1",
+      "mode": "design-aware (default project config, DESIGN.md honored)",
+      "exit_code": 0,
+      "findings": [],
+      "result": "pass",
+      "note": "Matches pre-existing .impeccable-detector-receipt.json in this directory (status: clean, gate_exit_code: 0), independently reproduced in this validation pass."
+    },
+    {
+      "name": "playwright_chromium_checks",
+      "tool": "playwright (chromium) via Node script",
+      "playwright_module_used": "/opt/data/lib/node_modules/agent-afk/node_modules/playwright",
+      "playwright_version": "1.61.1",
+      "command": "node /tmp/pw-ceap/check.js  (custom harness: launches chromium, loads each file:// page at each viewport, captures console errors, page errors, failed requests, horizontal overflow via scrollWidth/clientWidth, and broken <img> detection via naturalWidth/complete)",
+      "exit_code": 0,
+      "pages_checked": ["index.html", "proposal.html", "rationale.html"],
+      "viewports_checked": ["1440x900", "390x844"],
+      "results": [
+        {
+          "page": "index.html",
+          "viewport": "1440x900",
+          "nav_error": null,
+          "console_errors": [],
+          "page_errors": [],
+          "failed_requests": [],
+          "overflow": { "scrollWidth": 1440, "clientWidth": 1440, "hasHorizontalOverflow": false },
+          "broken_images": []
+        },
+        {
+          "page": "index.html",
+          "viewport": "390x844",
+          "nav_error": null,
+          "console_errors": [],
+          "page_errors": [],
+          "failed_requests": [],
+          "overflow": { "scrollWidth": 390, "clientWidth": 390, "hasHorizontalOverflow": false },
+          "broken_images": []
+        },
+        {
+          "page": "proposal.html",
+          "viewport": "1440x900",
+          "nav_error": null,
+          "console_errors": [],
+          "page_errors": [],
+          "failed_requests": [],
+          "overflow": { "scrollWidth": 1440, "clientWidth": 1440, "hasHorizontalOverflow": false },
+          "broken_images": []
+        },
+        {
+          "page": "proposal.html",
+          "viewport": "390x844",
+          "nav_error": null,
+          "console_errors": [],
+          "page_errors": [],
+          "failed_requests": [],
+          "overflow": { "scrollWidth": 390, "clientWidth": 390, "hasHorizontalOverflow": false },
+          "broken_images": []
+        },
+        {
+          "page": "rationale.html",
+          "viewport": "1440x900",
+          "nav_error": null,
+          "console_errors": [],
+          "page_errors": [],
+          "failed_requests": [],
+          "overflow": { "scrollWidth": 1440, "clientWidth": 1440, "hasHorizontalOverflow": false },
+          "broken_images": [],
+          "note": "rationale.html is a meta-refresh (content=\"0; url=proposal.html\") redirect stub; final page URL after load resolved to proposal.html as designed."
+        },
+        {
+          "page": "rationale.html",
+          "viewport": "390x844",
+          "nav_error": null,
+          "console_errors": [],
+          "page_errors": [],
+          "failed_requests": [],
+          "overflow": { "scrollWidth": 390, "clientWidth": 390, "hasHorizontalOverflow": false },
+          "broken_images": [],
+          "note": "rationale.html is a meta-refresh (content=\"0; url=proposal.html\") redirect stub; final page URL after load resolved to proposal.html as designed."
+        }
+      ],
+      "result": "pass"
+    }
+  ],
+  "asset_inventory_check": {
+    "assets_dir": "assets/ (empty)",
+    "img_tags_found_in_html_css": 0,
+    "note": "No <img> references in index.html, proposal.html, rationale.html, or styles.css; empty assets/ directory is consistent with a text/CSS-only design, not a defect."
+  },
+  "file_manifest_sha256": {
+    "index.html": "6a3511e53b4602115a39598317046cf9f697ec67a204ce6c9f9312f5003d8b25",
+    "proposal.html": "b99272376630c8c02dbdc430d9af614dc27fe4659efb2f25637b3e245e11ffe2",
+    "rationale.html": "ab438032475348271b75e640b91310e8d86ef9ea023da75e7d7c33ca849e8f75",
+    "script.js": "7f29f29a4eba144ebb7146e696bfe2ce44e714dd3a0304c4f8256d69d5aa0826",
+    "styles.css": "c3586db734b1f9640c90a17899834f991bbf9e57309fd1f4f5bebf1248858015",
+    "note": "Hashes match the pre-existing .impeccable-detector-receipt.json release_manifest recorded in this directory, confirming files were unchanged by this validation pass."
+  },
+  "repairs_made": [],
+  "repairs_needed": false,
+  "actions_not_taken_per_instructions": [
+    "No publishing/deployment performed.",
+    "No file uploads performed.",
+    "No forms submitted.",
+    "No contact/outreach attempted.",
+    "No other directory or archived root read or modified."
+  ],
+  "conclusion": "All validation checks passed with zero findings, zero console/page errors, zero overflow, and zero broken images across both required viewports on all three pages. The impeccable detector (raw and design-aware modes) returned exit code 0 with no findings, consistent with the pre-existing clean detector receipt already in this directory. node --check confirmed script.js is syntactically valid. No repair was necessary or performed; all working files preserved unchanged."
+}

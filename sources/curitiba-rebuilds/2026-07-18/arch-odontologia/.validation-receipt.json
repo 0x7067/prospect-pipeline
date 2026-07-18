@@ -1,0 +1,162 @@
+{
+  "schema": 1,
+  "generated_at": "2026-07-18T16:52:27Z",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-18/arch-odontologia",
+  "scope_note": "Validation and repair scoped exclusively to this directory. No other directory or archived root was read from or written to. No publish/upload/form-submit/contact action was performed.",
+  "overall_status": "clean_no_repair_needed",
+  "checks": [
+    {
+      "name": "node_syntax_check",
+      "command": "node --check script.js",
+      "cwd": "/opt/data/projects/curitiba-rebuilds/2026-07-18/arch-odontologia",
+      "exit_code": 0,
+      "node_version": "v22.22.3",
+      "findings": "No syntax errors."
+    },
+    {
+      "name": "impeccable_detector_raw_mode",
+      "command": "/opt/data/bin/impeccable detect --json --no-config index.html proposal.html rationale.html script.js styles.css",
+      "cwd": "/opt/data/projects/curitiba-rebuilds/2026-07-18/arch-odontologia",
+      "exit_code": 0,
+      "findings": [],
+      "note": "Detector CLI version 3.2.1, resolved via /opt/data/lib/node_modules/impeccable/cli/bin/cli.js. Initial attempt to run against the bare directory ('.') incorrectly recursed into the project's own .agents/skills/impeccable detector source and produced 7 false-positive findings against the detector's own JS source files; corrected by scoping the scan explicitly to the five site files only. That corrected run is what is recorded here."
+    },
+    {
+      "name": "impeccable_detector_design_aware_mode",
+      "command": "/opt/data/bin/impeccable detect --json index.html proposal.html rationale.html script.js styles.css",
+      "cwd": "/opt/data/projects/curitiba-rebuilds/2026-07-18/arch-odontologia",
+      "exit_code": 0,
+      "findings": [],
+      "note": "Uses project config / DESIGN.md context. Matches the prior committed .impeccable-detector-receipt.json (status: clean, gate_exit_code 0)."
+    },
+    {
+      "name": "playwright_chromium_checks",
+      "tool_version": "Playwright 1.61.1 (Chromium)",
+      "invocation": "node /tmp/pw_check_arch_odonto.js  (NODE_PATH pointed at an external project's already-installed playwright package to avoid installing/modifying anything inside arch-odontologia; pages loaded directly via file:// URLs, no network/publish activity)",
+      "exit_code": 0,
+      "pages_checked": ["index.html", "proposal.html", "rationale.html"],
+      "viewports_checked": ["1440x900", "390x844"],
+      "results": [
+        {
+          "page": "index.html",
+          "viewport": "1440x900",
+          "nav_error": null,
+          "console_errors": [],
+          "page_errors": [],
+          "document_overflow": {
+            "scrollWidth": 1440,
+            "clientWidth": 1440,
+            "scrollHeight": 4088,
+            "clientHeight": 900,
+            "horizontal_overflow": false
+          },
+          "broken_images": [],
+          "screenshot": "/tmp/pw_shots_arch_odonto/index_1440x900.png"
+        },
+        {
+          "page": "index.html",
+          "viewport": "390x844",
+          "nav_error": null,
+          "console_errors": [],
+          "page_errors": [],
+          "document_overflow": {
+            "scrollWidth": 390,
+            "clientWidth": 390,
+            "scrollHeight": 6773,
+            "clientHeight": 844,
+            "horizontal_overflow": false
+          },
+          "wide_element_offenders": [
+            {
+              "tag": "span",
+              "className": "arch-shape",
+              "measured_width_px": 490,
+              "assessment": "Not a defect. .arch-shape is an absolutely-positioned decorative element (styles.css:275-289) deliberately bled beyond its parent via negative inset percentages, and its ancestor .hero-visual has 'overflow: hidden' (styles.css:270), so it is clipped and produces no visible or scrollable horizontal overflow at the document level (scrollWidth == clientWidth == 390). No repair made."
+            }
+          ],
+          "broken_images": [],
+          "screenshot": "/tmp/pw_shots_arch_odonto/index_390x844.png"
+        },
+        {
+          "page": "proposal.html",
+          "viewport": "1440x900",
+          "nav_error": null,
+          "console_errors": [],
+          "page_errors": [],
+          "document_overflow": {
+            "scrollWidth": 1440,
+            "clientWidth": 1440,
+            "scrollHeight": 1186,
+            "clientHeight": 900,
+            "horizontal_overflow": false
+          },
+          "broken_images": [],
+          "screenshot": "/tmp/pw_shots_arch_odonto/proposal_1440x900.png"
+        },
+        {
+          "page": "proposal.html",
+          "viewport": "390x844",
+          "nav_error": null,
+          "console_errors": [],
+          "page_errors": [],
+          "document_overflow": {
+            "scrollWidth": 390,
+            "clientWidth": 390,
+            "scrollHeight": 1772,
+            "clientHeight": 844,
+            "horizontal_overflow": false
+          },
+          "broken_images": [],
+          "screenshot": "/tmp/pw_shots_arch_odonto/proposal_390x844.png"
+        },
+        {
+          "page": "rationale.html",
+          "viewport": "1440x900",
+          "nav_error": null,
+          "console_errors": [],
+          "page_errors": [],
+          "document_overflow": {
+            "scrollWidth": 1440,
+            "clientWidth": 1440,
+            "scrollHeight": 1186,
+            "clientHeight": 900,
+            "horizontal_overflow": false
+          },
+          "broken_images": [],
+          "screenshot": "/tmp/pw_shots_arch_odonto/rationale_1440x900.png"
+        },
+        {
+          "page": "rationale.html",
+          "viewport": "390x844",
+          "nav_error": null,
+          "console_errors": [],
+          "page_errors": [],
+          "document_overflow": {
+            "scrollWidth": 390,
+            "clientWidth": 390,
+            "scrollHeight": 1772,
+            "clientHeight": 844,
+            "horizontal_overflow": false
+          },
+          "broken_images": [],
+          "screenshot": "/tmp/pw_shots_arch_odonto/rationale_390x844.png"
+        }
+      ]
+    },
+    {
+      "name": "asset_reference_audit",
+      "method": "grep -oE '(src|href)=\"[^\"]*\"' index.html proposal.html rationale.html styles.css",
+      "findings": "No <img> tags exist anywhere in the site. All src/href references are internal (styles.css, script.js, #anchors, index.html, proposal.html) plus one external tel/whatsapp link (https://api.whatsapp.com/send?phone=5541992770333), which was not followed/contacted — only statically inspected. assets/ directory exists and is empty by design (no assets are currently referenced by markup), so it is not the source of any broken reference."
+    }
+  ],
+  "repairs_made": [],
+  "repairs_note": "No repairs were required. File hashes for index.html, proposal.html, rationale.html, script.js, styles.css are byte-identical to the sha256 values already recorded in the pre-existing .impeccable-detector-receipt.json release_manifest, confirming files were untouched and needed no modification.",
+  "file_hashes_sha256": {
+    "index.html": "31726700af80dd5fa050ab9945d4efe3f7a1acbc538dfe71e501dd3654a4fb06",
+    "proposal.html": "ec1c4c931a22f7a58f2ca8b9c1b4d92ab568cc9ef9ab6c41161fcafda0d0407e",
+    "rationale.html": "ff98b2f017319716a544854e3b90b7b66481ba64a2df366a1b29f82fa505ec53",
+    "script.js": "dc21afeef51ce28a6709db4cdb3b31d8b5fb8d042986947241a16fe49ee0f4d2",
+    "styles.css": "39a564cef6e92387719380acaf5f370f658ea4d10b022b6561bf481f22c180d1"
+  },
+  "no_side_effects_confirmation": "No files were published, uploaded, or submitted. No forms were submitted. No outbound contact (email/whatsapp/etc.) was made. Only the site's local files were read and rendered locally via file:// URLs in headless Chromium. Only file touched/created within this directory was this receipt (.validation-receipt.json); all other project files are unmodified (verified via matching sha256 against pre-existing manifest)."
+}

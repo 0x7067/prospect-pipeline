@@ -1,0 +1,52 @@
+{
+  "build_id": "365f319b49ba4301c138ff27f16c54ed33500bb59bb27aa1f4c2052ce5ba9ddc",
+  "detector": {
+    "expected_cli_version": "3.2.1",
+    "path": "/opt/data/bin/impeccable",
+    "resolved_path": "/opt/data/lib/node_modules/impeccable/cli/bin/cli.js",
+    "scans": [
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "raw"
+      },
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "design-aware"
+      }
+    ],
+    "sha256": "62e2bb19a4dc7aecf10ea0ec824a20d3ecb174e65b212eb371cc9b2da271935d"
+  },
+  "findings": [],
+  "gate_exit_code": 0,
+  "generated_at": "2026-07-18T16:07:47.066518+00:00",
+  "impeccable_skill_commit": "44c27a72af98394c32691ba79358811bff86bde6",
+  "policy_sha256": "21936021ef4272afbb508483f0e0e5a5b7ec5a4613630f864e1c8bbffe684604",
+  "policy_version": "prospect-brand-style-gate-v2",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-18/davinci-clinica-veterinaria-24h",
+  "release_manifest": {
+    "index.html": {
+      "sha256": "044435e35ae78e258e41ae5a405a231e863f53162387c4748dc6979fd5d47ab8",
+      "size": 6897
+    },
+    "proposal.html": {
+      "sha256": "19a1ec6fabe96669a2f394791ec88b6d2e0a7809769060732bbeae7d3bcce3b8",
+      "size": 633
+    },
+    "rationale.html": {
+      "sha256": "a397d7f13f08d50cc0bb79770b744f02262e94af3e8ce10fdc5ca4565a562ea7",
+      "size": 288
+    },
+    "script.js": {
+      "sha256": "9202e647765d11b1610f7f929da423c932d5483884e59e1c51b3054341f71d61",
+      "size": 410
+    },
+    "styles.css": {
+      "sha256": "362c148f9a337312be435bd2c0dfd10d68641970f3ee8580ade8bfe6daadd448",
+      "size": 10728
+    }
+  },
+  "schema": 3,
+  "status": "clean"
+}

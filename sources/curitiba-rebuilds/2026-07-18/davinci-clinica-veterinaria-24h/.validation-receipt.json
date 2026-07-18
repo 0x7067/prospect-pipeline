@@ -1,0 +1,220 @@
+{
+  "target_directory": "/opt/data/projects/curitiba-rebuilds/2026-07-18/davinci-clinica-veterinaria-24h",
+  "scope_note": "Only this directory was inspected/modified. No other directory or archived root was touched. No publishing, uploading, form submission, or outreach was performed.",
+  "generated_at": "2026-07-18T16:58:04Z",
+  "node_version": "v22.22.3",
+  "checks": [
+    {
+      "name": "node_syntax_check",
+      "command": "node --check script.js",
+      "cwd": "/opt/data/projects/curitiba-rebuilds/2026-07-18/davinci-clinica-veterinaria-24h",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "result": "pass"
+    },
+    {
+      "name": "impeccable_detector_full_dir_scan (informational only)",
+      "command": "/opt/data/bin/impeccable detect --json .",
+      "cwd": "/opt/data/projects/curitiba-rebuilds/2026-07-18/davinci-clinica-veterinaria-24h",
+      "exit_code": 2,
+      "note": "Non-zero exit and 7 findings (gradient-text x3, bounce-easing x1, broken-image x3) were produced entirely from scanning the detector's own vendored script at .agents/skills/impeccable/scripts/detector/detect-antipatterns-browser.js (regex/pattern literals inside the detector tool itself, not site content). Not a real defect in the site. Re-run scoped to the actual site files below for the authoritative result.",
+      "findings_source_files": [
+        "/opt/data/projects/curitiba-rebuilds/2026-07-18/davinci-clinica-veterinaria-24h/.agents/skills/impeccable/scripts/detector/detect-antipatterns-browser.js"
+      ]
+    },
+    {
+      "name": "impeccable_detector_site_scan",
+      "command": "/opt/data/bin/impeccable detect --json index.html proposal.html rationale.html styles.css script.js",
+      "cwd": "/opt/data/projects/curitiba-rebuilds/2026-07-18/davinci-clinica-veterinaria-24h",
+      "exit_code": 0,
+      "stdout_findings": [],
+      "result": "pass, zero findings"
+    }
+  ],
+  "existing_release_manifest_detector_receipt": {
+    "path": ".impeccable-detector-receipt.json",
+    "status": "clean",
+    "gate_exit_code": 0,
+    "generated_at": "2026-07-18T16:07:47.066518+00:00",
+    "note": "Pre-existing receipt from prior release-manifest run; file hashes below match current on-disk files exactly, confirming no drift since that clean run."
+  },
+  "playwright_checks": {
+    "tool": "playwright",
+    "module_path_used": "/opt/data/lib/node_modules/agent-afk/node_modules/playwright",
+    "playwright_cli_version": "1.61.1",
+    "browser": "chromium",
+    "launch_mode": "chromium.launch() (bundled headless chromium, file:// URLs, no network access)",
+    "script_used": "/tmp/pw_check.js (ad hoc, not committed to project dir)",
+    "command": "node /tmp/pw_check.js",
+    "exit_code": 0,
+    "pages_checked": [
+      "index.html",
+      "proposal.html",
+      "rationale.html"
+    ],
+    "viewports_checked": [
+      {
+        "width": 1440,
+        "height": 900
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "results": [
+      {
+        "page": "index.html",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "url": "file:///opt/data/projects/curitiba-rebuilds/2026-07-18/davinci-clinica-veterinaria-24h/index.html",
+        "finalUrl": "file:///opt/data/projects/curitiba-rebuilds/2026-07-18/davinci-clinica-veterinaria-24h/index.html",
+        "navError": null,
+        "consoleErrors": [],
+        "pageErrors": [],
+        "overflowInfo": {
+          "scrollW": 1440,
+          "clientW": 1440,
+          "horizontalOverflow": 0,
+          "offenderCount": 0,
+          "offenders": []
+        },
+        "imgCount": 0,
+        "brokenImages": []
+      },
+      {
+        "page": "index.html",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "url": "file:///opt/data/projects/curitiba-rebuilds/2026-07-18/davinci-clinica-veterinaria-24h/index.html",
+        "finalUrl": "file:///opt/data/projects/curitiba-rebuilds/2026-07-18/davinci-clinica-veterinaria-24h/index.html",
+        "navError": null,
+        "consoleErrors": [],
+        "pageErrors": [],
+        "overflowInfo": {
+          "scrollW": 390,
+          "clientW": 390,
+          "horizontalOverflow": 0,
+          "offenderCount": 0,
+          "offenders": []
+        },
+        "imgCount": 0,
+        "brokenImages": []
+      },
+      {
+        "page": "proposal.html",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "url": "file:///opt/data/projects/curitiba-rebuilds/2026-07-18/davinci-clinica-veterinaria-24h/proposal.html",
+        "finalUrl": "file:///opt/data/projects/curitiba-rebuilds/2026-07-18/davinci-clinica-veterinaria-24h/proposal.html",
+        "navError": null,
+        "consoleErrors": [],
+        "pageErrors": [],
+        "overflowInfo": {
+          "scrollW": 1440,
+          "clientW": 1440,
+          "horizontalOverflow": 0,
+          "offenderCount": 0,
+          "offenders": []
+        },
+        "imgCount": 0,
+        "brokenImages": []
+      },
+      {
+        "page": "proposal.html",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "url": "file:///opt/data/projects/curitiba-rebuilds/2026-07-18/davinci-clinica-veterinaria-24h/proposal.html",
+        "finalUrl": "file:///opt/data/projects/curitiba-rebuilds/2026-07-18/davinci-clinica-veterinaria-24h/proposal.html",
+        "navError": null,
+        "consoleErrors": [],
+        "pageErrors": [],
+        "overflowInfo": {
+          "scrollW": 390,
+          "clientW": 390,
+          "horizontalOverflow": 0,
+          "offenderCount": 0,
+          "offenders": []
+        },
+        "imgCount": 0,
+        "brokenImages": []
+      },
+      {
+        "page": "rationale.html",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "url": "file:///opt/data/projects/curitiba-rebuilds/2026-07-18/davinci-clinica-veterinaria-24h/rationale.html",
+        "finalUrl": "file:///opt/data/projects/curitiba-rebuilds/2026-07-18/davinci-clinica-veterinaria-24h/index.html",
+        "navError": null,
+        "consoleErrors": [],
+        "pageErrors": [],
+        "overflowInfo": {
+          "scrollW": 1440,
+          "clientW": 1440,
+          "horizontalOverflow": 0,
+          "offenderCount": 0,
+          "offenders": []
+        },
+        "imgCount": 0,
+        "brokenImages": []
+      },
+      {
+        "page": "rationale.html",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "url": "file:///opt/data/projects/curitiba-rebuilds/2026-07-18/davinci-clinica-veterinaria-24h/rationale.html",
+        "finalUrl": "file:///opt/data/projects/curitiba-rebuilds/2026-07-18/davinci-clinica-veterinaria-24h/index.html",
+        "navError": null,
+        "consoleErrors": [],
+        "pageErrors": [],
+        "overflowInfo": {
+          "scrollW": 390,
+          "clientW": 390,
+          "horizontalOverflow": 0,
+          "offenderCount": 0,
+          "offenders": []
+        },
+        "imgCount": 0,
+        "brokenImages": []
+      }
+    ],
+    "summary": {
+      "all_pages_loaded": true,
+      "console_errors_found": 0,
+      "page_errors_found": 0,
+      "horizontal_overflow_found": 0,
+      "broken_images_found": 0,
+      "note_rationale_html": "rationale.html contains a meta refresh + location.replace('index.html'); Playwright correctly followed the redirect to index.html at both viewports, confirmed by finalUrl in results. This is intentional per SOURCE_MANIFEST/README (canonical redirect stub), not a defect."
+    }
+  },
+  "file_integrity_sha256": {
+    "index.html": "044435e35ae78e258e41ae5a405a231e863f53162387c4748dc6979fd5d47ab8",
+    "proposal.html": "19a1ec6fabe96669a2f394791ec88b6d2e0a7809769060732bbeae7d3bcce3b8",
+    "rationale.html": "a397d7f13f08d50cc0bb79770b744f02262e94af3e8ce10fdc5ca4565a562ea7",
+    "script.js": "9202e647765d11b1610f7f929da423c932d5483884e59e1c51b3054341f71d61",
+    "styles.css": "362c148f9a337312be435bd2c0dfd10d68641970f3ee8580ade8bfe6daadd448",
+    "note": "Identical to the sha256 values recorded in the pre-existing .impeccable-detector-receipt.json release_manifest, confirming these files were unmodified during this validation pass."
+  },
+  "repairs_made": [],
+  "repairs_note": "No repairs were necessary. node --check passed, the impeccable detector returned zero findings against the actual site files, and all Playwright checks (both viewports x all 3 pages) showed no console errors, no page/runtime errors, no horizontal overflow, and no broken images (0 <img> tags present in any of the three pages, so none could break).",
+  "actions_not_taken_per_instructions": [
+    "No files outside this directory were read or modified.",
+    "No publishing, deployment, or upload of any kind was performed.",
+    "No form was submitted.",
+    "No outreach/contact of any person or organization was made (the in-page contact dialog was inspected statically only; it was not triggered to send anything, and it contains only static tel:/wa.me links, no submission)."
+  ],
+  "overall_status": "validated_clean_no_repair_needed"
+}
