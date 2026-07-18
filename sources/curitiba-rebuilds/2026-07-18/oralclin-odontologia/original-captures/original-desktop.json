@@ -1,0 +1,12 @@
+{
+  "url": "https://oralclin.com.br/",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "title": "Oralclin clínica odontológica localizada em Curitiba no Batel",
+  "final_url": "https://oralclin.com.br/",
+  "request_failures": [
+    "https://oralclin.com.br/wp-content/uploads/2023/05/video-dra-Paula-sabei-oralclin.mp4"
+  ]
+}

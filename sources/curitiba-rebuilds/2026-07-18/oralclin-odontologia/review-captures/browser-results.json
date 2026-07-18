@@ -1,0 +1,80 @@
+[
+  {
+    "page": "index",
+    "mode": "desktop",
+    "status": 200,
+    "url": "/index.html",
+    "title": "Oralclin Odontologia Integrada — Seminário, Curitiba",
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "missingAnchors": [],
+    "brokenImages": [],
+    "menu": null,
+    "errors": []
+  },
+  {
+    "page": "index",
+    "mode": "mobile",
+    "status": 200,
+    "url": "/index.html",
+    "title": "Oralclin Odontologia Integrada — Seminário, Curitiba",
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "missingAnchors": [],
+    "brokenImages": [],
+    "menu": "true->false",
+    "errors": []
+  },
+  {
+    "page": "proposal",
+    "mode": "desktop",
+    "status": 200,
+    "url": "/proposal.html",
+    "title": "Proposta independente · Oralclin Odontologia Integrada",
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "missingAnchors": [],
+    "brokenImages": [],
+    "menu": null,
+    "errors": []
+  },
+  {
+    "page": "proposal",
+    "mode": "mobile",
+    "status": 200,
+    "url": "/proposal.html",
+    "title": "Proposta independente · Oralclin Odontologia Integrada",
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "missingAnchors": [],
+    "brokenImages": [],
+    "menu": null,
+    "errors": []
+  },
+  {
+    "page": "rationale",
+    "mode": "desktop",
+    "status": 200,
+    "url": "/proposal.html",
+    "title": "Proposta independente · Oralclin Odontologia Integrada",
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "missingAnchors": [],
+    "brokenImages": [],
+    "menu": null,
+    "errors": []
+  },
+  {
+    "page": "rationale",
+    "mode": "mobile",
+    "status": 200,
+    "url": "/proposal.html",
+    "title": "Proposta independente · Oralclin Odontologia Integrada",
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "missingAnchors": [],
+    "brokenImages": [],
+    "menu": null,
+    "errors": []
+  }
+]

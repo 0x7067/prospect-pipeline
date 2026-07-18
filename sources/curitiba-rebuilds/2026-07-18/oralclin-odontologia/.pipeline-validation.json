@@ -1,0 +1,231 @@
+{
+  "browser": {
+    "engine": "playwright chromium",
+    "error": null,
+    "required_matrix_complete": true,
+    "required_pages": [
+      "index.html",
+      "proposal.html",
+      "rationale.html"
+    ],
+    "required_viewports": {
+      "desktop": {
+        "height": 900,
+        "width": 1440
+      },
+      "mobile": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    "results": [
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:35289/index.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-desktop.png",
+        "screenshot_sha256": "02eb6e7cb00a2827122ba22b64ce3e1db280ef89c4ec43071d21c868ab769c4a",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Oralclin Odontologia Integrada — Seminário, Curitiba",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:35289/index.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-mobile.png",
+        "screenshot_sha256": "c299b5a23f30564a4814fcae9bcf90025e7193abcd8d2bc8985d107b5d5bb3f0",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Oralclin Odontologia Integrada — Seminário, Curitiba",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:35289/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-desktop.png",
+        "screenshot_sha256": "c67e5ee1326377296137610a880c2cf4747c457a8770d9a2b2d3c158acd566ef",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta independente · Oralclin Odontologia Integrada",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:35289/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-mobile.png",
+        "screenshot_sha256": "d890030b89349054252fb2c1b5aaa53b942a657b480163ca7cbf0d717fef282f",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta independente · Oralclin Odontologia Integrada",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:35289/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-desktop.png",
+        "screenshot_sha256": "c67e5ee1326377296137610a880c2cf4747c457a8770d9a2b2d3c158acd566ef",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta independente · Oralclin Odontologia Integrada",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:35289/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-mobile.png",
+        "screenshot_sha256": "d890030b89349054252fb2c1b5aaa53b942a657b480163ca7cbf0d717fef282f",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta independente · Oralclin Odontologia Integrada",
+        "viewport": "mobile",
+        "width": 390
+      }
+    ],
+    "status": "pass"
+  },
+  "build_id": "38d9f95f05e0fddcffb394d137caf5bbb20ea1ccd4bc983d29d0c56a96a82969",
+  "detector": {
+    "command": "/opt/data/.venvs/curitiba/bin/python /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-18/oralclin-odontologia",
+    "current_clean": true,
+    "current_findings": false,
+    "exit_code": 0,
+    "status": "clean",
+    "stderr": "",
+    "stdout": ""
+  },
+  "generated_at": "2026-07-18T22:47:27.415824+00:00",
+  "node_check": {
+    "command": "node --check script.js",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-18/oralclin-odontologia",
+  "release_manifest": {
+    "assets/espaco-1.webp": {
+      "sha256": "2bfb1d1fad8c422951d52068007e793a216111c857d1b941bfb4f6a920e4e9fe",
+      "size": 168566
+    },
+    "assets/espaco-2.webp": {
+      "sha256": "f917da5ddc8958329b214ce4d128f7ee33301eff8422762329e08f427c17e137",
+      "size": 274902
+    },
+    "assets/fachada.webp": {
+      "sha256": "13e2542a52b975835d8275fef88439358c9e7c451ec51f96cba21c89ae4b02e9",
+      "size": 122806
+    },
+    "assets/fonts/figtree-latin-400-700.woff2": {
+      "sha256": "4ba7d3d096695818fe0686be4f1e82c6b05134e18a22260336130335027462dd",
+      "size": 20156
+    },
+    "assets/fonts/source-serif-4-latin-400-600.woff2": {
+      "sha256": "f2ea9c12d2fe9bd3a9589b02ad2c0909da88f30938c91adc838c4f4098f9f9e0",
+      "size": 122360
+    },
+    "assets/logo-oralclin.png": {
+      "sha256": "9017fe41929b88c1cfed206a29bfde6ad3ba2ba066d402bbcd832859421213db",
+      "size": 1445
+    },
+    "index.html": {
+      "sha256": "e3fbd83c56024524670d82fd643e389120a2242dcced1e56a3c94346a748955b",
+      "size": 9362
+    },
+    "original-captures/original-desktop.png": {
+      "sha256": "afa88a4c9e9a508b1e03233cbc3fb8426b6fc5e9720bdcb08e8ea6fe32175061",
+      "size": 1369098
+    },
+    "proposal.html": {
+      "sha256": "f5a108129c8ef6ba32e5cf439ca5feffbbf413b82baa51af4e685c7a2af9c8c9",
+      "size": 6921
+    },
+    "rationale.html": {
+      "sha256": "566ef9adb7ead6f89cf0c26111ff4443f0aa52842378705a22a139db0ce42fc8",
+      "size": 405
+    },
+    "review-captures/index-desktop.png": {
+      "sha256": "4059888fa31ffeaf1f8c50ed2c93d572d202159a8cba9cee0ef27aa9e2a16fc1",
+      "size": 541524
+    },
+    "script.js": {
+      "sha256": "95bc237c335312921b513b263e24ee777f46b5f704e8c85573116cb4249fe5f0",
+      "size": 1192
+    },
+    "styles.css": {
+      "sha256": "2e79993891b0df4da2f274abccae002f5c0a7d000ae5bf00762af9c70d65f1a9",
+      "size": 21760
+    }
+  },
+  "schema": 1,
+  "status": "pass"
+}

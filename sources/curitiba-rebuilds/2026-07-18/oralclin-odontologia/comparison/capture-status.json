@@ -1,0 +1,132 @@
+{
+  "schema": 2,
+  "policy_version": "prospect-brand-style-gate-v2",
+  "policy_sha256": "21936021ef4272afbb508483f0e0e5a5b7ec5a4613630f864e1c8bbffe684604",
+  "build_id": "38d9f95f05e0fddcffb394d137caf5bbb20ea1ccd4bc983d29d0c56a96a82969",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-18/oralclin-odontologia",
+  "started_at": "2026-07-18T22:45:50.307Z",
+  "finished_at": "2026-07-18T22:45:57.712Z",
+  "captures": [
+    {
+      "target": "current",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "https://oralclin.com.br/",
+      "image": "comparison/current-desktop.png",
+      "full_image": "comparison/current-desktop-full.png",
+      "started_at": "2026-07-18T22:45:50.351Z",
+      "success": true,
+      "http_status": 200,
+      "title": "Oralclin clínica odontológica localizada em Curitiba no Batel",
+      "final_url": "https://oralclin.com.br/",
+      "error": null,
+      "console_errors": [],
+      "page_errors": [],
+      "request_failures": [
+        {
+          "url": "https://oralclin.com.br/wp-content/uploads/2023/05/video-dra-Paula-sabei-oralclin.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "horizontal_overflow": false,
+      "pixel_width": 1440,
+      "pixel_height": 900,
+      "sha256": "2eba5e826808c1ba3c18022d350c2a89a8c3a6d83f222b5176ce52b9ad4c67db",
+      "full_pixel_width": 1440,
+      "full_pixel_height": 5080,
+      "full_sha256": "9d0a23223104bc30fc93693486a2721a33bb57093f9ed607c2456426c561da81",
+      "finished_at": "2026-07-18T22:45:52.685Z"
+    },
+    {
+      "target": "current",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "https://oralclin.com.br/",
+      "image": "comparison/current-mobile.png",
+      "full_image": "comparison/current-mobile-full.png",
+      "started_at": "2026-07-18T22:45:52.685Z",
+      "success": true,
+      "http_status": 200,
+      "title": "Oralclin clínica odontológica localizada em Curitiba no Batel",
+      "final_url": "https://oralclin.com.br/",
+      "error": null,
+      "console_errors": [],
+      "page_errors": [],
+      "request_failures": [
+        {
+          "url": "https://oralclin.com.br/wp-content/uploads/2023/05/video-dra-Paula-sabei-oralclin.mp4",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "horizontal_overflow": false,
+      "pixel_width": 390,
+      "pixel_height": 844,
+      "sha256": "6ed268997f24596283fdcd2f9f18ee962d6258d977be674f1c25409941c89cb9",
+      "full_pixel_width": 390,
+      "full_pixel_height": 6785,
+      "full_sha256": "9e8cc01c7c2c5fceffc689665fbca593b2610bb76f517e3ff1a4e654ee71ae61",
+      "finished_at": "2026-07-18T22:45:54.644Z"
+    },
+    {
+      "target": "proposed",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://127.0.0.1:44167/",
+      "image": "comparison/proposed-desktop.png",
+      "full_image": "comparison/proposed-desktop-full.png",
+      "started_at": "2026-07-18T22:45:54.644Z",
+      "success": true,
+      "http_status": 200,
+      "title": "Oralclin Odontologia Integrada — Seminário, Curitiba",
+      "final_url": "http://127.0.0.1:44167/",
+      "error": null,
+      "console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "horizontal_overflow": false,
+      "pixel_width": 1440,
+      "pixel_height": 900,
+      "sha256": "efb278102d73418264c33575f7c52a6b619c3c87f30f77eca08ace5019ff9b5a",
+      "full_pixel_width": 1440,
+      "full_pixel_height": 4734,
+      "full_sha256": "23106642b748af63a75dcf6a676f71997912c97293c366d7184ca626477b48f7",
+      "finished_at": "2026-07-18T22:45:56.234Z"
+    },
+    {
+      "target": "proposed",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:44167/",
+      "image": "comparison/proposed-mobile.png",
+      "full_image": "comparison/proposed-mobile-full.png",
+      "started_at": "2026-07-18T22:45:56.234Z",
+      "success": true,
+      "http_status": 200,
+      "title": "Oralclin Odontologia Integrada — Seminário, Curitiba",
+      "final_url": "http://127.0.0.1:44167/",
+      "error": null,
+      "console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "horizontal_overflow": false,
+      "pixel_width": 390,
+      "pixel_height": 844,
+      "sha256": "a4052042be89f2ebeb18f89af4ec216295b0c8066d0a58c284359d2519bfe4f8",
+      "full_pixel_width": 390,
+      "full_pixel_height": 5455,
+      "full_sha256": "83bd46fbe52afae1098358681efed59754bf8ec6cd14218952d3925b16bde14e",
+      "finished_at": "2026-07-18T22:45:57.700Z"
+    }
+  ],
+  "errors": [],
+  "local_server_url": "http://127.0.0.1:44167/",
+  "success": true
+}
