@@ -20,7 +20,7 @@
   },
   "findings": [],
   "gate_exit_code": 0,
-  "generated_at": "2026-07-18T18:46:32.403657+00:00",
+  "generated_at": "2026-07-18T18:46:45.215467+00:00",
   "impeccable_skill_commit": "44c27a72af98394c32691ba79358811bff86bde6",
   "policy_sha256": "21936021ef4272afbb508483f0e0e5a5b7ec5a4613630f864e1c8bbffe684604",
   "policy_version": "prospect-brand-style-gate-v2",
