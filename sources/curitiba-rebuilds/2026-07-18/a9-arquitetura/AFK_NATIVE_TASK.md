@@ -1,0 +1,123 @@
+/impeccable craft a complete evidence-bounded static website redesign for the qualified prospect below.
+
+Build the static site in /opt/data/projects/curitiba-rebuilds/2026-07-18/a9-arquitetura only. Never publish, contact the business, submit forms, or call external services.
+
+MANDATORY FIRST STEP BEFORE WRITING OR MODIFYING ANY SITE CODE:
+Invoke the locally provisioned Impeccable skill with `/impeccable craft`. Read PRODUCT.md and DESIGN.md, shape the UX, and write `.impeccable-craft-receipt.json` with schema=1, status=complete, command=craft, skill_commit=44c27a72af98394c32691ba79358811bff86bde6, a stable nonempty builder_id identifying this AFK run, and a truthful summary. If craft cannot complete, write a failure receipt and stop. Builders cannot self-approve any later review.
+
+Use only evidence in prospect.json, PRODUCT.md, and BRAND_SOURCE.md for business-specific facts. Delete unsupported claims rather than hedging, guessing, or presenting placeholders. Required files: index.html, proposal.html, rationale.html, styles.css, script.js, README.md, SITE_REVIEW.md, SOURCE_MANIFEST.md. index.html must be production-realistic with no proposal/redesign/prototype/disclosure language and no link to proposal.html. proposal.html is the separate persuasive independent sales document. rationale.html must only redirect compatibly to proposal.html. If deliverable_tier is early_visual_direction, never mark it production-complete or ready for publication.
+
+SPEED BUDGET: target 20 minutes. Make one coherent design/build pass, one desktop/mobile browser-validation pass, and at most one consolidated repair pass. Do not inspect Impeccable detector source code, repeatedly reopen unchanged pages, or chase one advisory at a time. Run the detector at most twice: once after the complete implementation and once after a single consolidated fix pass. If blocking findings remain after the second run, write a truthful failed build receipt listing them and stop; independent review or a bounded correction task will decide the next action.
+
+After public files are final, run the pinned detector gate first: `python3 /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-18/a9-arquitetura`. Only when its schema-3 receipt is current and clean, run `/opt/data/scripts/capture_curitiba_comparison.mjs /opt/data/projects/curitiba-rebuilds/2026-07-18/a9-arquitetura` to create build-bound exact viewport and full-page captures. Copy the detector `build_id` into the ready receipt and include a stable nonempty `builder_id`. Produce truthful current/proposed desktop/mobile captures; never substitute a failed capture. Use safe inert demo actions and no tracking. Do not write approval, critique, audit, visual-verdict, design-review, human-approval, or publication receipts. Finish only with a truthful ready or failed build receipt.
+
+QUALIFIED PROSPECT BRIEF:
+{
+  "run_date": "2026-07-18",
+  "opportunity_score": 8.4,
+  "confidence": "alta",
+  "business_name": "A9 Arquitetura",
+  "slug": "a9-arquitetura",
+  "official_url": "https://a9arquitetura.com.br/",
+  "category": "Arquitetura corporativa, cenográfica, comercial e residencial",
+  "active_evidence": "Official HTTPS homepage loaded on 2026-07-18; publishes current 2026 blog dates, named services, extensive project portfolio, client testimonials, contact routes and official project imagery. Desktop/mobile captures completed.",
+  "problems": [
+    "Homepage is extremely content-dense, with many project cards, sensory tags, blogs, awards, testimonials, and links competing for first attention.",
+    "The first screen does not quickly explain the most valuable entry point for a visitor deciding between corporate, cenographic, residential, or construction management work.",
+    "Many repeated 'Veja mais' pathways make the portfolio feel like an archive rather than a guided proof narrative.",
+    "Large amounts of numerical/award language appear without a short project-selection or contact path that connects proof to an inquiry.",
+    "The site has strong original assets but weak editorial sequencing, so the distinctive 'inteligência espacial' positioning is diluted by volume."
+  ],
+  "rebuild_angle": "Curate A9's verified spatial-intelligence portfolio into a guided proof system: choose the business problem, see a relevant case, understand the method, and start a conversation.",
+  "roi_mechanism": "Turn existing portfolio depth and current content into qualified inquiries by reducing choice overload and connecting each service/proof cluster to a clear contact action.",
+  "evidence_links": [
+    "https://a9arquitetura.com.br/",
+    "https://a9arquitetura.com.br/projetos/",
+    "https://a9arquitetura.com.br/quem-somos-e-nossa-historia/",
+    "https://a9arquitetura.com.br/contato/",
+    "https://a9arquitetura.com.br/wp-content/uploads/2023/05/Logo-A9-Branca.png",
+    "https://a9arquitetura.com.br/wp-content/uploads/2026/04/A9-Arquitetura-Arquitetura-Corporativa-Reforma-de-Escritorio-Agrotis-007.jpg"
+  ],
+  "observed_issue_urls_date": [
+    {
+      "url": "https://a9arquitetura.com.br/",
+      "observed": "2026-07-18",
+      "note": "Content volume, repeated portfolio pathways, and weak problem-to-proof-to-contact sequence observed in official captures."
+    }
+  ],
+  "brand_source": {
+    "logo_sources": [
+      "https://a9arquitetura.com.br/wp-content/uploads/2023/05/Logo-A9-Branca.png"
+    ],
+    "colors": [
+      "#111111 — sampled from the official white-on-dark logo treatment; retain as the structural base.",
+      "#F4F0E8 — sampled as a warm architectural neutral from official project imagery.",
+      "#B7C9C0 — sampled from recurring muted green material tones in official project imagery; use as a restrained spatial accent."
+    ],
+    "typography": "Use a precise grotesk sans for the strategy and method language, with an oversized numeric/project-label system to echo spatial notation; avoid a generic architecture-serif default.",
+    "personality_words": [
+      "strategic",
+      "sensory",
+      "execution-minded"
+    ],
+    "strongest_public_language": [
+      "A9 Arquitetura para Resultados",
+      "Inteligência Espacial",
+      "estratégia, funcionalidade e experiência",
+      "do projeto à obra"
+    ],
+    "services": [
+      "corporate architecture",
+      "cenographic architecture",
+      "commercial architecture",
+      "residential architecture",
+      "construction management",
+      "turn key",
+      "corporate experiences"
+    ],
+    "locations": [
+      "Official site states activity in different cities in Brazil; Curitiba is the official site context, but no street address is asserted here."
+    ],
+    "contacts": [
+      "Official contact page: https://a9arquitetura.com.br/contato/"
+    ],
+    "visual_assets": [
+      "https://a9arquitetura.com.br/wp-content/uploads/2026/04/A9-Arquitetura-Arquitetura-Corporativa-Reforma-de-Escritorio-Agrotis-007.jpg",
+      "https://a9arquitetura.com.br/wp-content/uploads/2026/02/A9-Arquitetura-Arquitetura-Comercial-Reforma-de-Loja-em-Curitiba-014.jpg",
+      "https://a9arquitetura.com.br/wp-content/uploads/2025/12/Grupo-O-Boticario-Jardim-Floratta-Arquitetura-Promocional-002.jpg",
+      "https://a9arquitetura.com.br/wp-content/uploads/2025/07/A9-Architecture-COI-Grupo-Boticario-Projeto-Cenografico-22.jpg"
+    ],
+    "original_screenshots": {
+      "desktop": "/opt/data/projects/curitiba-rebuilds/2026-07-18/a9-arquitetura/assets/original-desktop.png",
+      "mobile": "/opt/data/projects/curitiba-rebuilds/2026-07-18/a9-arquitetura/assets/original-mobile.png"
+    },
+    "equity_to_preserve": [
+      "A9 Arquitetura para Resultados positioning",
+      "Inteligência Espacial language",
+      "portfolio depth across corporate/cenographic/residential",
+      "project-to-execution promise",
+      "original project imagery",
+      "current blog/content activity"
+    ],
+    "weaknesses_not_to_copy": [
+      "portfolio overload",
+      "repeated generic 'Veja mais' cards",
+      "unsequenced proof volume",
+      "unconnected awards/testimonials blocks"
+    ]
+  },
+  "concept_thesis": "This concept can only belong to A9 Arquitetura because it turns the verified Inteligência Espacial position into a problem-led route from business need to built proof.",
+  "concept_rules": [
+    "Open with the verified results/intelligence language and four problem-led entry points.",
+    "Use a modular grid that behaves like a spatial plan, with one dominant case study at a time.",
+    "Pair precise grotesk typography with large project coordinates and numbers, avoiding decorative architecture clichés.",
+    "Use official project imagery in material-focused crops with captions bounded to the source portfolio.",
+    "Keep black and warm neutral as structure, using muted green only to signal pathways and method.",
+    "Every service/proof route ends in the official contact path, with no invented capacity or outcome claims."
+  ],
+  "factual_claim_sources": [
+    "Official homepage, portfolio, about, contact pages, and official project-image URLs; claims about services, projects, awards, testimonials, and dates must be traced to those pages."
+  ],
+  "deliverable_tier": "production_complete"
+}
+

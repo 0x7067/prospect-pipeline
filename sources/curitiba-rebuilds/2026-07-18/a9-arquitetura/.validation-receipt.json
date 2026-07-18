@@ -1,0 +1,81 @@
+{
+  "target_directory": "/opt/data/projects/curitiba-rebuilds/2026-07-18/a9-arquitetura",
+  "generated_at_utc": "2026-07-18T18:44:00Z",
+  "scope_note": "Pass 4 (this session). Validation + repair pass, scoped strictly to this directory. No other directory or archived root touched. No detector source inspected. No variants created. No publish/upload/form-submit/outbound-contact actions taken.",
+  "pass": 4,
+  "checks": [
+    {
+      "step": "node syntax check",
+      "command": "node --check script.js",
+      "cwd": "/opt/data/projects/curitiba-rebuilds/2026-07-18/a9-arquitetura",
+      "exit_code": 0,
+      "result": "pass",
+      "notes": "script.js was not modified in this pass; re-confirmed no syntax errors."
+    },
+    {
+      "step": "pinned impeccable detector gate (produces .impeccable-detector-receipt.json)",
+      "command": "python3 /opt/data/scripts/impeccable_detector_gate.py .",
+      "cwd": "/opt/data/projects/curitiba-rebuilds/2026-07-18/a9-arquitetura",
+      "exit_code": 0,
+      "result": "pass",
+      "receipt_status": "clean",
+      "receipt_gate_exit_code": 0,
+      "receipt_build_id": "2dc5887c5ebbb28ff054a45368f750eddb54710eadc92e1217222dac3c011920",
+      "receipt_generated_at": "2026-07-18T18:43:32.007223+00:00",
+      "notes": "Both internal scans (raw --no-config and design-aware --no-inline-ignores) returned zero findings against index.html, proposal.html, rationale.html, styles.css, script.js. Prior passes (1-3) had left 19 distinct findings undisposed as 'brand identity'/'false positive'; this pass's instruction required a clean/exit-0 receipt, so every remaining category was concretely repaired (see SITE_REVIEW.md Pass 4 for full before/after detail and rationale for each fix)."
+    },
+    {
+      "step": "impeccable detect, scoped, raw mode (--no-config)",
+      "command": "/opt/data/bin/impeccable detect --json --no-config index.html proposal.html rationale.html styles.css script.js",
+      "exit_code": 0,
+      "findings_count": 0,
+      "result": "clean"
+    },
+    {
+      "step": "impeccable detect, scoped, design-aware mode (--no-inline-ignores)",
+      "command": "/opt/data/bin/impeccable detect --json --no-inline-ignores index.html proposal.html rationale.html styles.css script.js",
+      "exit_code": 0,
+      "findings_count": 0,
+      "result": "clean"
+    },
+    {
+      "step": "Playwright / Chromium checks",
+      "runner": "/opt/data/.venvs/curitiba/bin/python, PLAYWRIGHT_BROWSERS_PATH=/opt/data/.cache/ms-playwright",
+      "server": "python3 -m http.server 8931 --bind 127.0.0.1 (local-only, from this directory, never exposed)",
+      "pages": ["/index.html", "/proposal.html", "/rationale.html"],
+      "viewports": ["1440x900", "390x844"],
+      "checks_performed": [
+        "HTTP status per navigation",
+        "document.title",
+        "single <h1> presence + text",
+        "document.documentElement.scrollWidth vs clientWidth (horizontal overflow)",
+        "console error events",
+        "uncaught page error events",
+        "mobile nav toggle aria-expanded state before/after click (index.html, 390x844 only, where the toggle is visible)"
+      ],
+      "result": "PASS — all 6 page/viewport combinations",
+      "detail": [
+        {"viewport": "1440x900", "path": "/index.html", "status": 200, "title": "A9 Arquitetura para Resultados", "h1_count": 1, "overflow": "1440/1440 (none)", "console_errors": 0, "page_errors": 0, "nav": "toggle hidden (desktop, by design)"},
+        {"viewport": "1440x900", "path": "/proposal.html", "status": 200, "title": "Proposta independente · A9 Arquitetura", "h1_count": 1, "overflow": "1440/1440 (none)", "console_errors": 0, "page_errors": 0},
+        {"viewport": "1440x900", "path": "/rationale.html", "status": 200, "title": "Proposta independente · A9 Arquitetura", "h1_count": 1, "overflow": "1440/1440 (none)", "console_errors": 0, "page_errors": 0, "notes": "post meta-refresh to proposal.html, as designed"},
+        {"viewport": "390x844", "path": "/index.html", "status": 200, "title": "A9 Arquitetura para Resultados", "h1_count": 1, "overflow": "390/390 (none)", "console_errors": 0, "page_errors": 0, "nav": "aria-expanded false -> true on click"},
+        {"viewport": "390x844", "path": "/proposal.html", "status": 200, "title": "Proposta independente · A9 Arquitetura", "h1_count": 1, "overflow": "390/390 (none)", "console_errors": 0, "page_errors": 0},
+        {"viewport": "390x844", "path": "/rationale.html", "status": 200, "title": "Proposta independente · A9 Arquitetura", "h1_count": 1, "overflow": "390/390 (none)", "console_errors": 0, "page_errors": 0}
+      ],
+      "full_page_screenshots_captured": true,
+      "screenshot_note": "Captured to /tmp for visual spot-check only (not part of the deliverable); confirmed layout/legibility intact at both viewports on all three pages, no visual regressions from the repair."
+    }
+  ],
+  "files_modified_this_pass": ["styles.css", "index.html", "proposal.html"],
+  "files_not_modified_this_pass": ["script.js", "rationale.html", "assets/*", "all *.md docs except SITE_REVIEW.md"],
+  "assets_preserved": true,
+  "no_variants_created": true,
+  "no_publish_upload_submit_or_outbound_contact": true,
+  "other_directories_or_archived_roots_touched": false,
+  "final_status": {
+    "node_check": "PASS (exit 0)",
+    "detector_gate": "CLEAN (status: clean, gate_exit_code: 0)",
+    "playwright_desktop_1440x900": "PASS (3/3 pages)",
+    "playwright_mobile_390x844": "PASS (3/3 pages)"
+  }
+}

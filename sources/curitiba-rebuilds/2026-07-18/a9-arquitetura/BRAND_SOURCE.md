@@ -1,0 +1,69 @@
+# Verified brand source
+
+```json
+{
+  "logo_sources": [
+    "https://a9arquitetura.com.br/wp-content/uploads/2023/05/Logo-A9-Branca.png"
+  ],
+  "colors": [
+    "#111111 — sampled from the official white-on-dark logo treatment; retain as the structural base.",
+    "#F4F0E8 — sampled as a warm architectural neutral from official project imagery.",
+    "#B7C9C0 — sampled from recurring muted green material tones in official project imagery; use as a restrained spatial accent."
+  ],
+  "typography": "Use a precise grotesk sans for the strategy and method language, with an oversized numeric/project-label system to echo spatial notation; avoid a generic architecture-serif default.",
+  "personality_words": [
+    "strategic",
+    "sensory",
+    "execution-minded"
+  ],
+  "strongest_public_language": [
+    "A9 Arquitetura para Resultados",
+    "Inteligência Espacial",
+    "estratégia, funcionalidade e experiência",
+    "do projeto à obra"
+  ],
+  "services": [
+    "corporate architecture",
+    "cenographic architecture",
+    "commercial architecture",
+    "residential architecture",
+    "construction management",
+    "turn key",
+    "corporate experiences"
+  ],
+  "locations": [
+    "Official site states activity in different cities in Brazil; Curitiba is the official site context, but no street address is asserted here."
+  ],
+  "contacts": [
+    "Official contact page: https://a9arquitetura.com.br/contato/"
+  ],
+  "visual_assets": [
+    "https://a9arquitetura.com.br/wp-content/uploads/2026/04/A9-Arquitetura-Arquitetura-Corporativa-Reforma-de-Escritorio-Agrotis-007.jpg",
+    "https://a9arquitetura.com.br/wp-content/uploads/2026/02/A9-Arquitetura-Arquitetura-Comercial-Reforma-de-Loja-em-Curitiba-014.jpg",
+    "https://a9arquitetura.com.br/wp-content/uploads/2025/12/Grupo-O-Boticario-Jardim-Floratta-Arquitetura-Promocional-002.jpg",
+    "https://a9arquitetura.com.br/wp-content/uploads/2025/07/A9-Architecture-COI-Grupo-Boticario-Projeto-Cenografico-22.jpg"
+  ],
+  "original_screenshots": {
+    "desktop": "/opt/data/projects/curitiba-rebuilds/2026-07-18/a9-arquitetura/assets/original-desktop.png",
+    "mobile": "/opt/data/projects/curitiba-rebuilds/2026-07-18/a9-arquitetura/assets/original-mobile.png"
+  },
+  "equity_to_preserve": [
+    "A9 Arquitetura para Resultados positioning",
+    "Inteligência Espacial language",
+    "portfolio depth across corporate/cenographic/residential",
+    "project-to-execution promise",
+    "original project imagery",
+    "current blog/content activity"
+  ],
+  "weaknesses_not_to_copy": [
+    "portfolio overload",
+    "repeated generic 'Veja mais' cards",
+    "unsequenced proof volume",
+    "unconnected awards/testimonials blocks"
+  ]
+}
+```
+
+Deliverable tier: `production_complete`
+
+Concept thesis: This concept can only belong to A9 Arquitetura because it turns the verified Inteligência Espacial position into a problem-led route from business need to built proof.

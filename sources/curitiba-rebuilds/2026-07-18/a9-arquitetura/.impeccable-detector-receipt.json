@@ -1,0 +1,88 @@
+{
+  "build_id": "2dc5887c5ebbb28ff054a45368f750eddb54710eadc92e1217222dac3c011920",
+  "detector": {
+    "expected_cli_version": "3.2.1",
+    "path": "/opt/data/bin/impeccable",
+    "resolved_path": "/opt/data/lib/node_modules/impeccable/cli/bin/cli.js",
+    "scans": [
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "raw"
+      },
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "design-aware"
+      }
+    ],
+    "sha256": "62e2bb19a4dc7aecf10ea0ec824a20d3ecb174e65b212eb371cc9b2da271935d"
+  },
+  "findings": [],
+  "gate_exit_code": 0,
+  "generated_at": "2026-07-18T18:46:32.403657+00:00",
+  "impeccable_skill_commit": "44c27a72af98394c32691ba79358811bff86bde6",
+  "policy_sha256": "21936021ef4272afbb508483f0e0e5a5b7ec5a4613630f864e1c8bbffe684604",
+  "policy_version": "prospect-brand-style-gate-v2",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-18/a9-arquitetura",
+  "release_manifest": {
+    "assets/asset-0.png": {
+      "sha256": "6d754969b521e179025c5d343b08d30e0b8a06d25d1e704fa76c9db927ed4c4b",
+      "size": 110755
+    },
+    "assets/asset-1.jpg": {
+      "sha256": "ca272e584b05561df21c0a3f7f878e82fda57d1367c0a8f546ff20b742e02c95",
+      "size": 169545
+    },
+    "assets/asset-2.jpg": {
+      "sha256": "91979c17b8afac9b95b75ccb5ca55a2b64b6af62df60f79663210d6c3e308651",
+      "size": 275988
+    },
+    "assets/asset-3.jpg": {
+      "sha256": "70afff45b1249178d6f7793a62e8b40a63875606036aba3eb2317428245f3786",
+      "size": 250014
+    },
+    "assets/asset-4.jpg": {
+      "sha256": "65a6dd8b748cbc50f7bc7284d0c2261e5324ea378a85b813c58430f50cad16de",
+      "size": 310439
+    },
+    "assets/original-desktop-full.png": {
+      "sha256": "371e8910de2a7965685c42f266f5f02f9d9ef87c1cabc8de537a05ebc293fc8f",
+      "size": 2094668
+    },
+    "assets/original-desktop.png": {
+      "sha256": "a9d56ec1386eebe874ad4272eb330f53408c9ed92b7ac29bbe9d2929acf6d382",
+      "size": 1140121
+    },
+    "assets/original-mobile-full.png": {
+      "sha256": "b338aed171a3880cb06662213094b87887b40f840697e9ee68138ea5b987792b",
+      "size": 806360
+    },
+    "assets/original-mobile.png": {
+      "sha256": "7f224a2bee736010110bcb3ad4b69d85c80b81a8e110455d0f733b5114d643ab",
+      "size": 180257
+    },
+    "index.html": {
+      "sha256": "cba7a8fb95cbcfac3ebffe62febb4f33a037b85fad82d377c2daadb38a24edf0",
+      "size": 7680
+    },
+    "proposal.html": {
+      "sha256": "3be4fb9a3626b2cfdaf62310910f72a5da619179ca796f93361d6a089c47a1d0",
+      "size": 3715
+    },
+    "rationale.html": {
+      "sha256": "1c26bd780cee470a2d90a3cd17b4e46e60b56c4306a8bf52e424a1f3a9c66a43",
+      "size": 311
+    },
+    "script.js": {
+      "sha256": "0a69e491affa2bd86269d070628a585e94dc4569b8008042b2f8fd2e8239e3fa",
+      "size": 3937
+    },
+    "styles.css": {
+      "sha256": "873f33689824ac634cd37609f43d3772284415ed99f17d82d14add433df8a2f7",
+      "size": 12266
+    }
+  },
+  "schema": 3,
+  "status": "clean"
+}
