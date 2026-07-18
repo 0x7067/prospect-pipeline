@@ -1,0 +1,52 @@
+{
+  "build_id": "e4dcfb3c12630da41c3e8bd98a900d0b044152bea49ab2a0f3325244a702102a",
+  "detector": {
+    "expected_cli_version": "3.2.1",
+    "path": "/opt/data/bin/impeccable",
+    "resolved_path": "/opt/data/lib/node_modules/impeccable/cli/bin/cli.js",
+    "scans": [
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "raw"
+      },
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "design-aware"
+      }
+    ],
+    "sha256": "62e2bb19a4dc7aecf10ea0ec824a20d3ecb174e65b212eb371cc9b2da271935d"
+  },
+  "findings": [],
+  "gate_exit_code": 0,
+  "generated_at": "2026-07-18T18:54:20.586661+00:00",
+  "impeccable_skill_commit": "44c27a72af98394c32691ba79358811bff86bde6",
+  "policy_sha256": "21936021ef4272afbb508483f0e0e5a5b7ec5a4613630f864e1c8bbffe684604",
+  "policy_version": "prospect-brand-style-gate-v2",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-18/contabilidade-curitiba",
+  "release_manifest": {
+    "index.html": {
+      "sha256": "4f082ce7d68227bde9ec0f9c910fa61743914a01c5811edafc47d03bf2ec377b",
+      "size": 4832
+    },
+    "proposal.html": {
+      "sha256": "ee2177bb79ef9be5d3c2340ddce48a9c728293c2e67b2c71f138f617ce674d24",
+      "size": 2647
+    },
+    "rationale.html": {
+      "sha256": "38325f943b61d935ce7e13ac70dc7b44f33010c5afacd9afa30a0765b0c25761",
+      "size": 280
+    },
+    "script.js": {
+      "sha256": "f2a4908a82b3bc586baff11830b724d601fbc769ddd18a2faded8017e78faf3a",
+      "size": 580
+    },
+    "styles.css": {
+      "sha256": "979ffa0dc01b67f734e98c155815a5cc6d2fa1113d317ba4f53e4f5a604c2979",
+      "size": 8869
+    }
+  },
+  "schema": 3,
+  "status": "clean"
+}
