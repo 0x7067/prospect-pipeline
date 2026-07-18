@@ -1,0 +1,54 @@
+{
+  "schema": 2,
+  "status": "passed",
+  "generated_at": "2026-07-18T22:32:27.607009+00:00",
+  "detector_receipt": ".impeccable-detector-receipt.json",
+  "detector_status": "clean",
+  "detector_build_id": "f3d2a6ded46ef2dda7475be4bff8a3507b1958d571fde20532dde6c4e1f8c0f4",
+  "validation": {
+    "node_check": "pass",
+    "html_balanced_tags": "pass",
+    "playwright_chromium": {
+      "desktop_1440x900": "pass",
+      "mobile_390x844": "pass",
+      "overflow": false,
+      "console_errors": 0,
+      "failed_requests": 0
+    },
+    "files": {
+      "index.html": {
+        "sha256": "4d9c1404e5cf7720457dbfcce479cd477b7526bf8179e275de6a2ae0933dc12b",
+        "size": 13131
+      },
+      "proposal.html": {
+        "sha256": "9af87b81b70144a94b1183bf3bd8343fb0097cd46aabb0457877b2d713590baa",
+        "size": 14633
+      },
+      "rationale.html": {
+        "sha256": "df244dd6da6203811d933aeb22730c3bbcb35c07bd823d6a9469e5dccda7c23b",
+        "size": 637
+      },
+      "styles.css": {
+        "sha256": "dd43e870e10880430851ab49027586460a85d74eac70468fb7542234281ae900",
+        "size": 18194
+      },
+      "script.js": {
+        "sha256": "3658008a71a792b1914a5695d525d47de9131d3666cfeb656a9f5294bd06a41a",
+        "size": 5874
+      },
+      "README.md": {
+        "sha256": "a12668a702046443f2d3b79bee3353ac034afcabf3a9f73124dbb4da5f7a42eb",
+        "size": 4554
+      },
+      "SITE_REVIEW.md": {
+        "sha256": "5b21ad68c794be57dcac6a22599edc979709dca3108b834243e4f74d5b58e500",
+        "size": 6905
+      },
+      "SOURCE_MANIFEST.md": {
+        "sha256": "5d99022082859082b5aba9a1b02dc951d667a71520f829885e491e0fbab91290",
+        "size": 6867
+      }
+    }
+  },
+  "summary": "Production files are complete, evidence-bounded, and pass the pinned Impeccable detector gate (schema 3, clean). Browser verification (Playwright Chromium, desktop 1440x900 and mobile 390x844) confirmed zero horizontal overflow, zero console errors, and zero failed requests across index.html, proposal.html, and rationale.html."
+}

@@ -1,0 +1,223 @@
+{
+  "browser": {
+    "engine": "playwright chromium",
+    "error": null,
+    "required_matrix_complete": true,
+    "required_pages": [
+      "index.html",
+      "proposal.html",
+      "rationale.html"
+    ],
+    "required_viewports": {
+      "desktop": {
+        "height": 900,
+        "width": 1440
+      },
+      "mobile": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    "results": [
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:39663/index.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-desktop.png",
+        "screenshot_sha256": "dd40db84447d8ca68b3b8d78e281bbc814b2f7577e74ec108a421b90ffcff69c",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Centro Médico Adventista | Curitiba: agende sua consulta, exame ou procedimento",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:39663/index.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-mobile.png",
+        "screenshot_sha256": "961bcf8b705edeb405325a4e83217b79267befd6e0baa7d85b72e00980bb996c",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Centro Médico Adventista | Curitiba: agende sua consulta, exame ou procedimento",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:39663/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-desktop.png",
+        "screenshot_sha256": "8ca2697f494d112bd19f33bc312fadcfbdc8a3e8659a3c5fe4dd187c74571be7",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta independente de redesign: Centro Médico Adventista | Curitiba (conceito não afiliado)",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:39663/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-mobile.png",
+        "screenshot_sha256": "d91dd3dc63b08ff1b19e2e6929b40a72a2cacd8aee7bb7b5d9eb1ea530881d71",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta independente de redesign: Centro Médico Adventista | Curitiba (conceito não afiliado)",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:39663/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-desktop.png",
+        "screenshot_sha256": "8ca2697f494d112bd19f33bc312fadcfbdc8a3e8659a3c5fe4dd187c74571be7",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta independente de redesign: Centro Médico Adventista | Curitiba (conceito não afiliado)",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:39663/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-mobile.png",
+        "screenshot_sha256": "d91dd3dc63b08ff1b19e2e6929b40a72a2cacd8aee7bb7b5d9eb1ea530881d71",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta independente de redesign: Centro Médico Adventista | Curitiba (conceito não afiliado)",
+        "viewport": "mobile",
+        "width": 390
+      }
+    ],
+    "status": "pass"
+  },
+  "build_id": "fae51364eab4c32359a8b8eac43ec33e219ec0e1c22417c3930dc6c8ebf17172",
+  "detector": {
+    "command": "/opt/data/.venvs/curitiba/bin/python /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-18/centro-medico-adventista",
+    "current_clean": true,
+    "current_findings": false,
+    "exit_code": 0,
+    "status": "clean",
+    "stderr": "",
+    "stdout": ""
+  },
+  "generated_at": "2026-07-18T22:51:20.299799+00:00",
+  "node_check": {
+    "command": "node --check script.js",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-18/centro-medico-adventista",
+  "release_manifest": {
+    "SOURCE_MANIFEST.md": {
+      "sha256": "5d99022082859082b5aba9a1b02dc951d667a71520f829885e491e0fbab91290",
+      "size": 6867
+    },
+    "assets/brand/cropped-idea.png": {
+      "sha256": "8d0f3bba3ad12aae7eccd8808a44d6ab020f04c511350b659f594019c4804f9e",
+      "size": 796
+    },
+    "assets/brand/logo-principal.png": {
+      "sha256": "00cdb3a3d69555083ff5c346a6b5ea2031df302fb07f9ec6111cb468a288a5d3",
+      "size": 151753
+    },
+    "assets/site/respire-fundo.jpg": {
+      "sha256": "784fc428d86d82a62650b5029d6b250d1813f83e0af72cb3571d6997ec69bf11",
+      "size": 252138
+    },
+    "assets/site/vida-iluminada.jpg": {
+      "sha256": "1881069708c2ce356427015864ef53e43562e3afb34f22a18885c6b011ca9ae2",
+      "size": 389927
+    },
+    "assets/site/vida-vegetariana.jpg": {
+      "sha256": "54bd06798c131e358332680d176ac34646e30075c59c849e90bf2efdbf09f5bb",
+      "size": 429429
+    },
+    "index.html": {
+      "sha256": "4d9c1404e5cf7720457dbfcce479cd477b7526bf8179e275de6a2ae0933dc12b",
+      "size": 13131
+    },
+    "proposal.html": {
+      "sha256": "a4b94d462dd883c70cdc547f6c26a079ceb99e719107da2077786cf7a16466c7",
+      "size": 14743
+    },
+    "rationale.html": {
+      "sha256": "df244dd6da6203811d933aeb22730c3bbcb35c07bd823d6a9469e5dccda7c23b",
+      "size": 637
+    },
+    "script.js": {
+      "sha256": "3658008a71a792b1914a5695d525d47de9131d3666cfeb656a9f5294bd06a41a",
+      "size": 5874
+    },
+    "styles.css": {
+      "sha256": "dd43e870e10880430851ab49027586460a85d74eac70468fb7542234281ae900",
+      "size": 18194
+    }
+  },
+  "schema": 1,
+  "status": "pass"
+}

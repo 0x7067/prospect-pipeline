@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "status": "complete",
+  "command": "craft",
+  "skill_commit": "44c27a72af98394c32691ba79358811bff86bde6",
+  "builder_id": "afk-daemon-centro-medico-adventista-20260718",
+  "summary": "Ran the Impeccable craft flow for this AFK static-redesign pipeline: read PRODUCT.md's evidence boundary and DESIGN.md's seed scaffold, independently re-verified the prospect's own official homepage plus its especialidades/convenios/profissionais evidence pages, downloaded the four sanctioned visual assets (official logo + three editorial photographs) directly from the clinic's own published wp-content URLs, computed an OKLCH palette from the two retained brand hex cues plus one proposed sand surface, and wrote the completed design brief (compositional thesis, typographic system, image-treatment rule, four-stage color evolution, concept rules, quality bar, components) into DESIGN.md. No native image generation is available in this harness, so the visual-direction-by-generation step (codex.md) was explicitly skipped per craft.md Step 3 and the brief drives implementation directly. Builder proceeds to implementation next; this receipt records craft/shape completion only and is not a review, approval, or publication artifact."
+}

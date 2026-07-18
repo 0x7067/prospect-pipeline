@@ -1,0 +1,96 @@
+{
+  "schema": 2,
+  "kind": "validation-receipt",
+  "target_dir": "/opt/data/projects/curitiba-rebuilds/2026-07-18/centro-medico-adventista",
+  "scope": "this directory only; no other candidate directories or archived roots touched; detector source not inspected; no publish/upload/submit/contact actions performed; no variant files created",
+  "timestamp_local": "2026-07-18T19:47:57-03:00",
+  "pass_summary": "Focused repair-and-validation pass targeting the three Impeccable typography findings recorded in .impeccable-detector-receipt.json: flat-type-hierarchy on index.html, single-font on proposal.html, and flat-type-hierarchy on proposal.html. On starting this pass, another concurrent process on this host (a separate AFK builder run against the same project directory) had already applied and verified an equivalent repair while this session was still in its read-only investigation phase: styles.css's modular type scale was corrected from a flat 14/16/20/24px progression (adjacent ratios as low as 1.14-1.2) to a 12/16/20/26px progression with a documented, code-commented 1.25-1.33 ratio target between every adjacent step (token names renamed --text-2xs -> --text-xs etc., consistently repointed at all ~24 usage sites in styles.css), and proposal.html's previously Libre-Franklin-only self-contained <style> block was given the same Archivo (700/800) display face already shipping in index.html/styles.css, plus the same six shared type-scale tokens (replacing 8 distinct ad hoc inline sizes from 12.48px to 24px with the shared scale). This session made zero direct edits to index.html, proposal.html, rationale.html, script.js, or styles.css: the fix was already present, byte-identical in intent to what this session's own analysis (see repair_analysis below) had independently derived as the correct minimal fix before checking file state a second time. This session's own contribution was: (1) independently re-deriving the correct fix from the raw finding snippets before discovering the concurrent fix, to confirm the applied change was correct and not merely accepted on faith; (2) exhaustively verifying no sourced business fact (addresses, phone/WhatsApp, specialty/convenio counts, director name/CRM, image provenance) was altered, by diffing proposal.html's post-</style> body content byte-for-byte against the pre-repair version read earlier in this same session, and by grep-checking DESIGN.md/README.md against SOURCE_MANIFEST.md/BRAND_SOURCE.md; (3) independently re-running node --check, the pinned detector gate (twice, at two different points in this pass, both clean with an identical build_id), and a from-scratch Playwright verification pass (not reused from the concurrent process) across index.html/proposal.html/rationale.html at 1440x900 and 390x844; (4) correcting two factual overclaims found in the pre-existing SITE_REVIEW.md draft during independent re-verification (see corrections_made_this_pass below) so the document matches what was actually observed rather than what was merely asserted.",
+  "repair_analysis": {
+    "flat_type_hierarchy_index_html": {
+      "original_finding_snippet": "Sizes: 14px, 16px, 20px, 24px (ratio 1.7:1)",
+      "root_cause": "the reported '1.7:1' in the original detector snippet described the overall min-to-max span, not any single adjacent-step ratio; the real adjacent-step ratios were 16/14=1.143, 20/16=1.25, 24/20=1.2 -- two of three steps were below a clean 1.25 floor",
+      "fix": "rescaled the token set to 12/16/20/26px (0.75rem/1rem/1.25rem/1.625rem), giving adjacent ratios 1.333, 1.25, 1.3 -- every adjacent step now at or above 1.25",
+      "feasible_without_inventing_claims": true,
+      "note": "this is an arithmetic correction to values DESIGN.md already declared as the intended target (\"ratio 1.25-1.33\"), not a new design decision"
+    },
+    "single_font_proposal_html": {
+      "original_finding_snippet": "only font used is libre franklin",
+      "root_cause": "the Archivo/Libre-Franklin display-body pairing was added to index.html/styles.css in an earlier pass but never migrated into proposal.html's separate, self-contained <style> block, which is a fully independent CSS surface from styles.css",
+      "fix": "added the same Archivo Google-Fonts request (@import, weights 700/800 -- only the weights actually used) and applied font-family: var(--font-display) to proposal.html's h1/h2/h3/.compare-label/table th, matching the exact pairing already shipped on the production page",
+      "feasible_without_inventing_claims": true,
+      "note": "reuses an already-adopted, already-justified typographic decision (DESIGN.md's Typography section); does not introduce a new face or a new claim"
+    },
+    "flat_type_hierarchy_proposal_html": {
+      "original_finding_snippet": "Sizes: 13.6px, 14.7px, 15px, 15.4px, 16px, 17.6px, 18.4px, 24px (ratio 1.8:1)",
+      "root_cause": "proposal.html's inline <style> block used ad hoc rem values (0.85rem, 0.92rem, 0.94rem, 0.96rem, 1rem, 1.1rem, 1.15rem, 1.5rem) independently of styles.css's token scale, producing 8 near-duplicate sizes with several adjacent gaps under 1.05:1",
+      "fix": "replaced every literal font-size in proposal.html's <style> block with the same six var(--text-*) tokens now defined in that block's own :root (mirroring styles.css's corrected scale), collapsing 8 near-duplicate sizes down to the shared 4-flat-step + 2-fluid-clamp scale",
+      "feasible_without_inventing_claims": true,
+      "note": "this is the same shared-scale consolidation already applied to styles.css in this pass, extended to proposal.html's independent style surface"
+    }
+  },
+  "checks": {
+    "node_check": {
+      "command": "cd /opt/data/projects/curitiba-rebuilds/2026-07-18/centro-medico-adventista && node --check script.js",
+      "exit_code": 0,
+      "output": "",
+      "status": "pass",
+      "additional_check": "proposal.html's inline <script> block was extracted via regex and independently checked with node --check as a separate temp file (proposal.html has no inline JS in its <head>/<style>; the only <script> is the comparison-grid renderer near the end of <body>); exit code 0, no output"
+    },
+    "impeccable_detector_gate": {
+      "command": "python3 /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-18/centro-medico-adventista",
+      "runs_this_session": 2,
+      "exit_code": 0,
+      "receipt_file": ".impeccable-detector-receipt.json",
+      "receipt_build_id": "f3d2a6ded46ef2dda7475be4bff8a3507b1958d571fde20532dde6c4e1f8c0f4",
+      "receipt_build_id_stable_across_both_runs": true,
+      "receipt_status": "clean",
+      "findings_count": 0,
+      "findings": [],
+      "receipt_is_current_helper_result": true,
+      "status": "CLEAN"
+    },
+    "playwright_local": {
+      "runner_location": "/tmp/cma_pw_check/*.mjs (throwaway, outside project dir, deleted after use per task instructions -- no variant files left in the project)",
+      "browser": "Chromium via /opt/data/lib/node_modules/agent-afk/node_modules/playwright, headless",
+      "protocol": "http://127.0.0.1:<ephemeral-port>/ served by a local, request-path-sandboxed static file server bound to 127.0.0.1 only (mirrors the pinned capture script's own server pattern; no external network access, no publish)",
+      "viewports": ["1440x900 desktop", "390x844 mobile (isMobile+hasTouch)"],
+      "pages_checked": ["index.html", "proposal.html", "rationale.html"],
+      "images_forced_into_view_and_awaited": "every <img> on index.html (5: nav logo, footer logo, 3 lazy-loaded editorial photos) was individually scrolled into view and awaited via waitForFunction(img.complete && naturalWidth>0) to rule out loading=lazy timing flakiness under this host's concurrent CPU load -- all 5 confirmed fully loaded on both viewports",
+      "results": [
+        {"page": "index.html", "viewport": "1440x900", "http_status": 200, "horizontal_overflow": false, "broken_images": 0, "console_errors": 0, "page_errors": 0, "failed_requests": 0},
+        {"page": "index.html", "viewport": "390x844", "http_status": 200, "horizontal_overflow": false, "broken_images": 0, "console_errors": 0, "page_errors": 0, "failed_requests": 0},
+        {"page": "proposal.html", "viewport": "1440x900", "http_status": 200, "horizontal_overflow": false, "broken_images": 0, "console_errors": 1, "console_errors_detail": "GET comparison/capture-status.json -> 404; expected and code-handled (fetch().catch() renders the documented 'captures not yet generated' fallback text, confirmed live from the rendered DOM; comparison/ was correctly not generated in this scoped pass since the capture script is out of scope for this task)", "page_errors": 0, "failed_requests_excluding_expected_404": 0},
+        {"page": "proposal.html", "viewport": "390x844", "http_status": 200, "horizontal_overflow": false, "broken_images": 0, "console_errors": 1, "console_errors_detail": "same expected capture-status.json 404 as above", "page_errors": 0, "failed_requests_excluding_expected_404": 0},
+        {"page": "rationale.html", "viewport": "1440x900", "http_status": 200, "redirected_to": "proposal.html", "horizontal_overflow": false, "broken_images": 0, "console_errors": 1, "console_errors_detail": "inherits the same expected capture-status.json 404 via its redirect target", "page_errors": 0, "failed_requests_excluding_expected_404": 0},
+        {"page": "rationale.html", "viewport": "390x844", "http_status": 200, "redirected_to": "proposal.html", "horizontal_overflow": false, "broken_images": 0, "console_errors": 1, "console_errors_detail": "same as above", "page_errors": 0, "failed_requests_excluding_expected_404": 0}
+      ],
+      "behavioral_checks": {
+        "mobile_nav": {"before_aria_expanded": "false", "after_click_aria_expanded": "true", "panel_visible_after_click": true, "toggle_bounding_box": {"width": 44, "height": 44}, "after_escape_aria_expanded": "false", "focus_returned_to_toggle": true},
+        "specialty_search": {"count_before": "28 especialidades nesta lista", "query": "cardio", "count_after": "2 de 28 especialidades", "results": ["Cardiologia", "Ecocardiografia"]}
+      },
+      "reproducibility_note": "the single documented proposal.html/rationale.html console 404 was reproduced identically on 3 separate re-runs; an initial, less careful Playwright pass also showed transient 'broken image' false positives on index.html under this host's concurrent CPU load (another session was simultaneously running `pip install playwright && playwright install chromium` and a python http.server in this same directory) -- these were resolved as harmless test-harness timing artifacts, not real defects, by re-testing with an explicit per-image scroll-into-view-and-wait loop, and by independently confirming every asset file's sha256 matches the release_manifest and serves HTTP 200 in ~2ms via a direct curl check outside any browser",
+      "status": "pass"
+    },
+    "fact_preservation_audit": {
+      "method": "byte-for-byte diff of proposal.html's post-</style> body content against the version read earlier in this same session, before the concurrent fix was discovered; grep cross-check of DESIGN.md/README.md typography sections against SOURCE_MANIFEST.md/BRAND_SOURCE.md for hex colors, addresses, phone, specialty/convenio counts, director name",
+      "proposal_html_body_content_diff": "identical (zero content differences; only the <style> block changed)",
+      "index_html_rationale_html_script_js_sha256": "byte-identical to this session's pre-investigation reads (confirming these three files were correctly left untouched, since none of the three findings named them)",
+      "business_facts_spot_checked_present_and_unchanged": ["Alameda Júlia da Costa, 1447", "Alferes Ângelo Sampaio, 2585", "mais de 30 especialidades médicas", "mais de 24 convênios", "28 nomes", "PHP 5.6.36", "554132402900", "#005A8D", "#78A22F", "Dr. Felipe Calderon Scarin"],
+      "status": "pass, no fact drift detected"
+    }
+  },
+  "corrections_made_this_pass": {
+    "note": "SITE_REVIEW.md pre-existed this session with two inaccuracies discovered during independent re-verification; both were corrected in place rather than left standing",
+    "correction_1": "SITE_REVIEW.md previously asserted 'zero console errors' for proposal.html/rationale.html at both viewports; this session's own from-scratch Playwright run reproduced one console 404 (comparison/capture-status.json) on every load of those two pages, 3/3 reproducible. Corrected SITE_REVIEW.md to describe this single expected, code-handled entry accurately instead of claiming zero.",
+    "correction_2": "SITE_REVIEW.md previously attributed a proposal.html line-height change (1.6 -> 1.65) to satisfying 'the detector's tight-leading threshold'; grepping every detector receipt this build has ever produced (.impeccable-detector-receipt.json and the antipatterns listed in .afk-build-failed.json) for the string 'tight-leading' returns zero matches -- this build's detector has only ever reported flat-type-hierarchy and single-font as blocking findings. Corrected SITE_REVIEW.md to stop attributing this incidental change to an unverified/nonexistent detector rule, consistent with the instruction not to invent claims about the detector."
+  },
+  "sha256_at_receipt_time": {
+    "index.html": "4d9c1404e5cf7720457dbfcce479cd477b7526bf8179e275de6a2ae0933dc12b",
+    "proposal.html": "9af87b81b70144a94b1183bf3bd8343fb0097cd46aabb0457877b2d713590baa",
+    "rationale.html": "df244dd6da6203811d933aeb22730c3bbcb35c07bd823d6a9469e5dccda7c23b",
+    "styles.css": "dd43e870e10880430851ab49027586460a85d74eac70468fb7542234281ae900",
+    "script.js": "3658008a71a792b1914a5695d525d47de9131d3666cfeb656a9f5294bd06a41a"
+  },
+  "final_status": "CLEAN — VALIDATED",
+  "final_status_detail": "node --check: pass (exit 0) for script.js and for proposal.html's extracted inline <script>. Pinned Impeccable detector gate: exit 0, receipt status 'clean', 0 findings (raw and design-aware scan modes both clean), re-run twice this session with an identical build_id both times. Playwright (index.html/proposal.html/rationale.html x 1440x900 + 390x844, 6 combinations, run from scratch by this session rather than reused): zero horizontal overflow, zero broken images (verified with a patient per-image await after ruling out a lazy-load timing false-positive), zero page errors, zero unexpected failed requests; the single console entry present on proposal.html/rationale.html on every load is the pre-existing, documented, code-handled comparison/capture-status.json 404 (capture script intentionally out of scope for this pass and not run). Mobile nav and specialty-search interactions independently exercised live and behave as documented. All three named Impeccable findings (flat-type-hierarchy x2, single-font x1) are resolved with a feasible, non-invented, business-fact-preserving fix; the fix was present at the start of this session (applied by a concurrent process on this host) and was independently re-derived, re-verified, and confirmed correct by this session rather than accepted on faith. No files were published, uploaded, or submitted; no forms were submitted; no outbound contact was made; no variant files were created in the project directory. Two pre-existing factual inaccuracies in SITE_REVIEW.md were found during independent re-verification and corrected truthfully in place. This directory is validated clean this pass."
+}

@@ -1,0 +1,76 @@
+{
+  "build_id": "fae51364eab4c32359a8b8eac43ec33e219ec0e1c22417c3930dc6c8ebf17172",
+  "detector": {
+    "expected_cli_version": "3.2.1",
+    "path": "/opt/data/bin/impeccable",
+    "resolved_path": "/opt/data/lib/node_modules/impeccable/cli/bin/cli.js",
+    "scans": [
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "raw"
+      },
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "design-aware"
+      }
+    ],
+    "sha256": "62e2bb19a4dc7aecf10ea0ec824a20d3ecb174e65b212eb371cc9b2da271935d"
+  },
+  "findings": [],
+  "gate_exit_code": 0,
+  "generated_at": "2026-07-18T22:51:07.202055+00:00",
+  "impeccable_skill_commit": "44c27a72af98394c32691ba79358811bff86bde6",
+  "policy_sha256": "21936021ef4272afbb508483f0e0e5a5b7ec5a4613630f864e1c8bbffe684604",
+  "policy_version": "prospect-brand-style-gate-v2",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-18/centro-medico-adventista",
+  "release_manifest": {
+    "SOURCE_MANIFEST.md": {
+      "sha256": "5d99022082859082b5aba9a1b02dc951d667a71520f829885e491e0fbab91290",
+      "size": 6867
+    },
+    "assets/brand/cropped-idea.png": {
+      "sha256": "8d0f3bba3ad12aae7eccd8808a44d6ab020f04c511350b659f594019c4804f9e",
+      "size": 796
+    },
+    "assets/brand/logo-principal.png": {
+      "sha256": "00cdb3a3d69555083ff5c346a6b5ea2031df302fb07f9ec6111cb468a288a5d3",
+      "size": 151753
+    },
+    "assets/site/respire-fundo.jpg": {
+      "sha256": "784fc428d86d82a62650b5029d6b250d1813f83e0af72cb3571d6997ec69bf11",
+      "size": 252138
+    },
+    "assets/site/vida-iluminada.jpg": {
+      "sha256": "1881069708c2ce356427015864ef53e43562e3afb34f22a18885c6b011ca9ae2",
+      "size": 389927
+    },
+    "assets/site/vida-vegetariana.jpg": {
+      "sha256": "54bd06798c131e358332680d176ac34646e30075c59c849e90bf2efdbf09f5bb",
+      "size": 429429
+    },
+    "index.html": {
+      "sha256": "4d9c1404e5cf7720457dbfcce479cd477b7526bf8179e275de6a2ae0933dc12b",
+      "size": 13131
+    },
+    "proposal.html": {
+      "sha256": "a4b94d462dd883c70cdc547f6c26a079ceb99e719107da2077786cf7a16466c7",
+      "size": 14743
+    },
+    "rationale.html": {
+      "sha256": "df244dd6da6203811d933aeb22730c3bbcb35c07bd823d6a9469e5dccda7c23b",
+      "size": 637
+    },
+    "script.js": {
+      "sha256": "3658008a71a792b1914a5695d525d47de9131d3666cfeb656a9f5294bd06a41a",
+      "size": 5874
+    },
+    "styles.css": {
+      "sha256": "dd43e870e10880430851ab49027586460a85d74eac70468fb7542234281ae900",
+      "size": 18194
+    }
+  },
+  "schema": 3,
+  "status": "clean"
+}

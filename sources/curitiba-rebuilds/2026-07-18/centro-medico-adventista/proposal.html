@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Proposta independente de redesign: Centro Médico Adventista | Curitiba (conceito não afiliado)</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='5' fill='%23001F4E'/%3E%3Cpath d='M11 5h2v6h6v2h-6v6h-2v-6H5v-2h6z' fill='%2378A22F'/%3E%3C/svg%3E">
+<style>
+  /* Load the same font pairing used on the production page for a consistent
+     proposal voice. Only the weights actually used here are requested. */
+  @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700;800&family=Libre+Franklin:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap');
+
+  :root{
+    --font-display: "Archivo", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --font-sans: "Libre Franklin", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --text-xs: 0.75rem;   /* 12px */
+    --text-sm: 1rem;      /* 16px */
+    --text-md: 1.25rem;   /* 20px */
+    --text-lg: 1.625rem;  /* 26px */
+    --text-xl: clamp(1.75rem, 2.6vw + 0.6rem, 2.4rem);
+    --text-2xl: clamp(2.25rem, 4.6vw + 0.8rem, 3.6rem);
+    --blue-900:#001F4E; --blue-700:#005A8D; --green-700:#345B00; --sand:#F3EFE7;
+    --ink:#151b21; --muted:#4c5764; --line:#e2ddd0; --paper:#FBFAF6;
+    font-family: var(--font-sans);
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); line-height: 1.65; font-family: var(--font-sans); font-size: var(--text-sm); }
+  .wrap { max-width: 920px; margin: 0 auto; padding: 48px 24px 96px; }
+  .tag { display: block; color: var(--muted); font-weight: 600; font-size: var(--text-xs); margin-bottom: 10px; }
+  h1 { font-family: var(--font-display); font-size: var(--text-2xl); color: var(--blue-900); margin: 0 0 12px; font-weight: 800; letter-spacing: -0.01em; }
+  h2 { font-family: var(--font-display); color: var(--blue-900); font-size: var(--text-xl); margin: 44px 0 14px; font-weight: 800; }
+  h3 { font-family: var(--font-display); color: var(--blue-900); font-size: var(--text-lg); margin: 0 0 6px; font-weight: 700; }
+  p { margin: 0 0 14px; color: var(--ink); font-size: var(--text-sm); }
+  .lede { font-size: var(--text-md); color: var(--muted); max-width: 60ch; }
+  .disclosure { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 18px 20px; margin: 20px 0 36px; font-size: var(--text-sm); }
+  .disclosure strong { color: var(--blue-900); }
+  ul { padding-left: 1.2em; margin: 0 0 16px; }
+  li { margin-bottom: 10px; font-size: var(--text-sm); }
+  .compare-grid { display: grid; grid-template-columns: 1fr; gap: 16px; margin: 20px 0 8px; }
+  @media (min-width: 720px) { .compare-grid { grid-template-columns: 1fr 1fr; } }
+  .compare-card { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 16px; }
+  .compare-card img { width: 100%; height: auto; border-radius: 4px; border: 1px solid var(--line); display: block; }
+  .compare-label { font-family: var(--font-display); font-size: var(--text-xs); font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); margin-bottom: 8px; }
+  .problem-grid { display: grid; grid-template-columns: 1fr; gap: 14px; margin: 16px 0 28px; }
+  @media (min-width: 720px) { .problem-grid { grid-template-columns: 1fr 1fr 1fr; } }
+  .problem-card { background: #fff; border: 1px solid #b3402d; border-radius: 8px; padding: 16px; }
+  .problem-card h3 { color: #8a3020; }
+  .table-scroll { overflow-x: auto; margin: 16px 0 28px; -webkit-overflow-scrolling: touch; }
+  table { width: 100%; min-width: 560px; border-collapse: collapse; font-size: var(--text-sm); }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--blue-900); font-family: var(--font-display); }
+  .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin: 28px 0; }
+  .btn { display: inline-flex; align-items: center; min-height: 44px; padding: 0.85em 1.6em; border-radius: 6px; font-weight: 700; text-decoration: none; font-size: var(--text-sm); }
+  .btn-primary { background: var(--green-700); color: #fff; }
+  .btn-ghost { border: 2px solid var(--blue-700); color: var(--blue-700); }
+  footer { margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--line); color: var(--muted); font-size: var(--text-xs); }
+  footer p { font-size: var(--text-xs); }
+  a { color: var(--blue-700); }
+  code { background: #fff; border: 1px solid var(--line); padding: 0.1em 0.4em; border-radius: 4px; font-size: 0.9em; }
+  details { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; margin-bottom: 12px; }
+  summary { cursor: pointer; font-weight: 700; color: var(--blue-900); }
+  .unavailable { border: 1px dashed var(--line); border-radius: 8px; padding: 16px; color: var(--muted); font-size: var(--text-sm); background: #fff; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="tag">Conceito independente e não afiliado</span>
+  <h1>Uma proposta de redesign para o Centro Médico Adventista | Curitiba</h1>
+  <p class="lede">Este documento acompanha um conceito de redesign estático (<a href="index.html">ver conceito</a>) preparado de forma independente, como demonstração de oportunidade. Não foi solicitado, publicado ou aprovado pela clínica.</p>
+
+  <div class="disclosure">
+    <strong>Divulgação:</strong> Este material foi criado por terceiros como demonstração especulativa de reformulação de site. Não representa o site oficial do Centro Médico Adventista | Curitiba, não foi encomendado pela clínica, e não deve ser confundido com uma publicação real. Todas as afirmações sobre a clínica citadas abaixo são baseadas em evidência pública verificável, listada em <a href="SOURCE_MANIFEST.md">SOURCE_MANIFEST.md</a>.
+  </div>
+
+  <h2>Comparativo: site atual e conceito proposto</h2>
+  <div id="comparison-root" class="compare-grid" data-comparison-root>
+    <p class="unavailable">Carregando capturas de comparação…</p>
+  </div>
+
+  <h2>Por que este conceito</h2>
+  <p>O site oficial (<a href="https://curitiba.clinicaadventista.org.br/" target="_blank" rel="noopener">curitiba.clinicaadventista.org.br</a>) já publica uma prova operacional forte e verificável: duas unidades no Bigorrilho, mais de 30 especialidades médicas, mais de 24 convênios, horários de atendimento e laboratório, e o nome do diretor técnico-médico. O problema não é falta de conteúdo, é hierarquia. Essa prova está distribuída por um portal denso, no estilo WordPress, com navegação duplicada, onde agendamento, especialidades, convênios e resultado de exames competem pela mesma atenção sem uma ordem clara.</p>
+  <p>O conceito reorganiza exatamente essas mesmas informações (nenhuma nova alegação é introduzida) em um mapa de rede de cuidado: agendamento como nó central, as duas unidades como pontos de chegada, e especialidades/convênios como o passo de "encaixe" antes da conversa no WhatsApp.</p>
+
+  <h2>Problemas verificados no site atual</h2>
+  <div class="problem-grid">
+    <div class="problem-card">
+      <h3>Superfície técnica desatualizada</h3>
+      <p>A resposta do servidor identifica PHP 5.6.36 e a página contém diversos links/ativos em HTTP legado a partir de uma home em HTTPS.</p>
+    </div>
+    <div class="problem-card">
+      <h3>Portal denso e repetitivo</h3>
+      <p>A home é um portal estilo WordPress com navegação duplicada, ações genéricas de "Clique Aqui/Acessar" e fraca priorização entre agendamento, especialidades, convênios e resultado de exames.</p>
+    </div>
+    <div class="problem-card">
+      <h3>Agendamento sem caminho único</h3>
+      <p>A ação principal de agendar não é explicada como uma jornada única: WhatsApp, contato, resultado de exames e rotas HTTP legadas competem pela mesma atenção do visitante.</p>
+    </div>
+  </div>
+
+  <h2>O que o conceito propõe</h2>
+  <div class="table-scroll">
+  <table>
+    <tr><th>Problema documentado</th><th>Decisão de design</th><th>Por quê</th></tr>
+    <tr>
+      <td>Ações concorrentes (agendamento, contato, exames, HTTP legado) sem hierarquia.</td>
+      <td>Composição de mapa de rede: um nó central de agendamento conectando as duas unidades, repetido no header fixo, no hero, nas duas unidades e no rodapé.</td>
+      <td>Cria um único caminho de conversão reconhecível em vez de itens de menu competindo entre si.</td>
+    </tr>
+    <tr>
+      <td>Prova operacional real (30+ especialidades, 24+ convênios) enterrada na hierarquia.</td>
+      <td>Um instrumento de busca dedicado lista as especialidades já confirmadas em ordem alfabética, com contagem visível, e uma faixa própria para convênios.</td>
+      <td>Transforma a alegação em algo navegável, sem inventar uma lista maior do que a evidência suporta.</td>
+    </tr>
+    <tr>
+      <td>Superfície técnica antiga (PHP 5.6, links HTTP) reduz a confiança percebida.</td>
+      <td>Reconstrução estática, tipografia contemporânea (Libre Franklin), paleta computada em OKLCH a partir das cores oficiais retidas, sem qualquer chamada a serviços externos além do WhatsApp já publicado.</td>
+      <td>Moderniza a interface sem inventar uma personalidade de marca nova.</td>
+    </tr>
+  </table>
+  </div>
+
+  <h2>Metodologia e limites</h2>
+  <p>Este conceito usa apenas fatos já publicados pela própria clínica: a home oficial, a página de especialidades, a página de convênios, a página de profissionais, a página de exames e procedimentos, e o link de WhatsApp já divulgado publicamente (ver o manifesto de fontes completo). Nenhum formulário de agendamento novo, upload ou serviço externo foi implementado; o único canal de conversão é o WhatsApp que a própria clínica já opera. A lista de especialidades apresentada é uma amostra independentemente reverificada (28 nomes, de um índice paginado em três páginas) e não afirma ser exaustiva: a alegação agregada da própria clínica ("mais de 30 especialidades médicas") é preservada separadamente, sem ser contradita. Nenhum convênio individual foi nomeado, porque nenhuma lista literal de nomes de convênios pôde ser reverificada a partir da evidência disponível.</p>
+
+  <details>
+    <summary>Ver detalhes técnicos (apêndice)</summary>
+    <p>Site estático, sem framework, sem dependências de build. Nenhum rastreamento, nenhuma chamada de rede além do carregamento da fonte Libre Franklin via Google Fonts e dos links de WhatsApp/e-mail/mapa já públicos. Busca de especialidades executada inteiramente no navegador (sem requisição de rede). Ver <code>SITE_REVIEW.md</code> para o registro completo de verificação (HTML balanceado, JS validado, zero requisições bloqueadas, zero overflow horizontal, navegação móvel testada por teclado).</p>
+  </details>
+
+  <div class="cta-row">
+    <a class="btn btn-primary" href="index.html">Ver o conceito do site</a>
+    <a class="btn btn-ghost" href="SOURCE_MANIFEST.md">Ver fontes citadas</a>
+  </div>
+
+  <footer>
+    <p>Documento de proposta independente. Não afiliado ao Centro Médico Adventista | Curitiba. Preparado apenas para fins de demonstração e avaliação de oportunidade de redesign.</p>
+  </footer>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  function viewportNameFromFilename(path) {
+    if (/mobile/i.test(path)) return "mobile";
+    if (/desktop/i.test(path)) return "desktop";
+    return "desconhecido";
+  }
+
+  function targetLabel(target) {
+    return target === "current" ? "Site atual" : "Conceito proposto";
+  }
+
+  function unavailableBlock(label, message) {
+    var wrap = document.createElement("div");
+    wrap.className = "compare-card";
+    var lab = document.createElement("div");
+    lab.className = "compare-label";
+    lab.textContent = label;
+    var msg = document.createElement("p");
+    msg.className = "unavailable";
+    msg.textContent = message;
+    wrap.appendChild(lab);
+    wrap.appendChild(msg);
+    return wrap;
+  }
+
+  function imageBlock(label, capture) {
+    var wrap = document.createElement("div");
+    wrap.className = "compare-card";
+    var lab = document.createElement("div");
+    lab.className = "compare-label";
+    lab.textContent = label;
+    wrap.appendChild(lab);
+
+    if (!capture || capture.success !== true || !capture.image) {
+      var reason = (capture && capture.error) ? capture.error : "captura indisponível";
+      wrap.appendChild(document.createTextNode(""));
+      var msg = document.createElement("p");
+      msg.className = "unavailable";
+      msg.textContent = "Indisponível: " + reason;
+      wrap.appendChild(msg);
+      return wrap;
+    }
+
+    var img = document.createElement("img");
+    img.src = capture.image;
+    img.alt = label + ": captura de tela";
+    img.loading = "lazy";
+    img.onerror = function () {
+      wrap.innerHTML = "";
+      wrap.appendChild(lab);
+      var msg = document.createElement("p");
+      msg.className = "unavailable";
+      msg.textContent = "Indisponível: a imagem referenciada não pôde ser carregada.";
+      wrap.appendChild(msg);
+    };
+    wrap.appendChild(img);
+    return wrap;
+  }
+
+  function render(root, status) {
+    root.innerHTML = "";
+    var order = [
+      ["current", "desktop"],
+      ["proposed", "desktop"],
+      ["current", "mobile"],
+      ["proposed", "mobile"]
+    ];
+    order.forEach(function (pair) {
+      var target = pair[0], viewport = pair[1];
+      var capture = (status.captures || []).find(function (c) {
+        return c.target === target && viewportNameFromFilename(c.image || "") === viewport;
+      });
+      var label = targetLabel(target) + " (" + (viewport === "mobile" ? "celular" : "computador") + ")";
+      root.appendChild(imageBlock(label, capture));
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var root = document.querySelector("[data-comparison-root]");
+    if (!root) return;
+    function renderFallback() {
+      root.innerHTML = "";
+      root.appendChild(unavailableBlock("Comparativo", "As capturas de comparação ainda não foram geradas para este build."));
+    }
+    if (typeof fetch !== "function") {
+      renderFallback();
+      return;
+    }
+    fetch("comparison/capture-status.json", { cache: "no-store" })
+      .then(function (response) {
+        if (!response.ok) throw new Error("HTTP " + response.status);
+        return response.json();
+      })
+      .then(function (status) { render(root, status); })
+      .catch(renderFallback);
+  });
+})();
+</script>
+</body>
+</html>
