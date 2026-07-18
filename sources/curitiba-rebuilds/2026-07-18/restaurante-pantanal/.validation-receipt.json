@@ -1,0 +1,58 @@
+{
+  "schema": 2,
+  "kind": "validation-receipt",
+  "target_dir": "/opt/data/projects/curitiba-rebuilds/2026-07-18/restaurante-pantanal",
+  "scope": "this directory only; no other candidate directories or archived roots touched; detector source not inspected; no publish/upload/submit/contact actions performed; no variant files created",
+  "timestamp_local": "2026-07-18T16:03:10-03:00",
+  "pass_summary": "Focused repair-and-validation pass. Repaired the sole remaining Impeccable detector finding (cream-palette, proposal.html) by removing the inline `--paper:#F4E8D1` CSS-custom-property override on <body style=...> in proposal.html. proposal.html now inherits the site's actual, already-shipped `--paper:#f3f6f2` token defined in styles.css :root and used by the real production candidate (index.html has no inline style overrides at all). This is not an invented value and not a new variant: #f3f6f2 was already the live design-system background across the rest of the build; proposal.html's standalone cream override was an inconsistency with the actual shipped design, not a demonstrated brand-evolution feature used anywhere else. --ink and --accent inline overrides on proposal.html were left untouched (not flagged by the detector, out of scope for this repair). Re-ran node --check, the pinned detector gate, and Playwright checks for index.html/proposal.html/rationale.html at 1440x900 and 390x844 after the repair; all now pass cleanly.",
+  "checks": {
+    "node_check": {
+      "command": "cd /opt/data/projects/curitiba-rebuilds/2026-07-18/restaurante-pantanal && node --check script.js",
+      "exit_code": 0,
+      "output": "",
+      "status": "pass"
+    },
+    "impeccable_detector_gate": {
+      "command": "python3 /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-18/restaurante-pantanal",
+      "exit_code": 0,
+      "receipt_file": ".impeccable-detector-receipt.json",
+      "receipt_build_id": "fd985402a9213473b5934f0e16e635029b9708a40614f3f67344f6631dab741e",
+      "receipt_generated_at": "2026-07-18T19:02:44.841910+00:00",
+      "receipt_status": "clean",
+      "findings_count": 0,
+      "findings": [],
+      "status": "CLEAN"
+    },
+    "playwright_local": {
+      "runner_location": "/tmp/pw-check-repair/check.py (throwaway, outside project dir, deleted after use)",
+      "browser": "chromium via PLAYWRIGHT_BROWSERS_PATH=/opt/data/.cache/ms-playwright, /opt/data/.venvs/curitiba/bin/python",
+      "protocol": "file://",
+      "viewports": ["1440x900", "390x844"],
+      "pages_checked": ["index.html", "proposal.html", "rationale.html"],
+      "results": [
+        {"page": "index.html", "viewport": "1440x900", "http_status": 200, "title": "Restaurante Pantanal Curitiba — Peixe ao Forno", "h1_present": true, "overflow_px": 0, "broken_images": 0, "console_errors": 0, "page_errors": 0},
+        {"page": "index.html", "viewport": "390x844", "http_status": 200, "title": "Restaurante Pantanal Curitiba — Peixe ao Forno", "h1_present": true, "overflow_px": 0, "broken_images": 0, "console_errors": 0, "page_errors": 0, "nav_toggle": {"before_expanded": "false", "after_expanded": "true", "before_open": null, "after_open": "true", "cta_before_visible": false, "cta_after_visible": true, "cta_box": {"x": 23.390625, "y": 234.15625, "width": 343.21875, "height": 44.71875}}},
+        {"page": "proposal.html", "viewport": "1440x900", "http_status": 200, "title": "Restaurante Pantanal · Documento de proposta", "h1_present": true, "overflow_px": 0, "broken_images": 0, "console_errors": 0, "page_errors": 0},
+        {"page": "proposal.html", "viewport": "390x844", "http_status": 200, "title": "Restaurante Pantanal · Documento de proposta", "h1_present": true, "overflow_px": 0, "broken_images": 0, "console_errors": 0, "page_errors": 0},
+        {"page": "rationale.html", "viewport": "1440x900", "http_status": 200, "redirected_to": "index.html", "title": "Restaurante Pantanal Curitiba — Peixe ao Forno", "h1_present": true, "overflow_px": 0, "broken_images": 0, "console_errors": 0, "page_errors": 0},
+        {"page": "rationale.html", "viewport": "390x844", "http_status": 200, "redirected_to": "index.html", "title": "Restaurante Pantanal Curitiba — Peixe ao Forno", "h1_present": true, "overflow_px": 0, "broken_images": 0, "console_errors": 0, "page_errors": 0}
+      ],
+      "status": "pass"
+    }
+  },
+  "repairs_made_this_pass": {
+    "files_modified": ["proposal.html"],
+    "change": "Removed the inline `--paper:#F4E8D1;` segment from the <body style=\"...\"> custom-property override. Before: style=\"--ink:#1C6B4A;--paper:#F4E8D1;--accent:#C94B2C\". After: style=\"--ink:#1C6B4A;--accent:#C94B2C\". proposal.html now falls back to the styles.css :root default --paper:#f3f6f2, the same background token already used by the real production candidate (index.html), rather than a standalone cream (#F4E8D1) value used nowhere else in the build.",
+    "file_size_before_after": {"proposal.html": {"before_bytes": 1100, "after_bytes": 1084}},
+    "reason": "Resolves the only outstanding Impeccable detector finding (cream-palette antipattern, 2 hits across raw + design-aware scan modes on the same line) without inventing a new value or discarding a documented fact: #f3f6f2 is not invented, it is the pre-existing, already-shipped design-system background color defined once in styles.css :root and used consistently elsewhere in the build. The prior cream override was an isolated, inconsistent artifact confined to proposal.html's inline style and not otherwise referenced in README.md, SOURCE_MANIFEST.md, or PROSPECT_BRAND_STYLE_GATE.md as a required demonstration; BRAND_SOURCE.md lists #F4E8D1 as one candidate sourced accent among the palette, not a mandate to render it inline on proposal.html specifically."
+  },
+  "sha256_at_receipt_time": {
+    "index.html": "a59e4fe739865ae7e05e69667a5e991aed4e72ed767f15470f72245acb53ed6f",
+    "proposal.html": "8e8bf8afb707c6da515fcefb21726077cdfa5a180b852b4f2f5987d34d24a9bb",
+    "rationale.html": "b5717c140089a70b24fae74277abe301a37da1556acbc502b6a8dcbaee00c06a",
+    "styles.css": "2723da84b09042e929c913cade389b30006c697201f205ab63dfb9cb6973777e",
+    "script.js": "2261363825f9a6ab08bd2fc5f5e796974b7832f8914b77e06ad602d686f0410b"
+  },
+  "final_status": "CLEAN — VALIDATED",
+  "final_status_detail": "node --check: pass (exit 0). Pinned Impeccable detector gate: exit 0, receipt status 'clean', 0 findings (raw and design-aware scan modes both clean). Playwright (6 page x viewport combinations, desktop 1440x900 + mobile 390x844): all clean — zero overflow, zero broken images, zero console/page errors, h1 present on every page, mobile nav toggle on index.html functional (aria-expanded false→true, nav data-open true, CTA becomes visible with a valid bounding box), rationale.html compatibly redirects to index.html at both viewports. This directory is validated clean this pass. No publish/upload/form-submission/outbound-contact/promotion actions were taken; only proposal.html was modified; all other working files preserved byte-identical (sha256 matches prior receipt for index.html, rationale.html, styles.css, script.js)."
+}
