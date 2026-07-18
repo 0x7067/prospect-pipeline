@@ -1,0 +1,88 @@
+{
+  "build_id": "7087518f86ff3ff159b7b3469e140108a1b121c0773b438005ab02f95d1c8271",
+  "detector": {
+    "expected_cli_version": "3.2.1",
+    "path": "/opt/data/bin/impeccable",
+    "resolved_path": "/opt/data/lib/node_modules/impeccable/cli/bin/cli.js",
+    "scans": [
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "raw"
+      },
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "design-aware"
+      }
+    ],
+    "sha256": "62e2bb19a4dc7aecf10ea0ec824a20d3ecb174e65b212eb371cc9b2da271935d"
+  },
+  "findings": [],
+  "gate_exit_code": 0,
+  "generated_at": "2026-07-18T16:18:18.480886+00:00",
+  "impeccable_skill_commit": "44c27a72af98394c32691ba79358811bff86bde6",
+  "policy_sha256": "21936021ef4272afbb508483f0e0e5a5b7ec5a4613630f864e1c8bbffe684604",
+  "policy_version": "prospect-brand-style-gate-v2",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-18/clinica-curitiba",
+  "release_manifest": {
+    "assets/asset-0.png": {
+      "sha256": "89fb63cd8e0d13080a9d58649955b4854fbf27c34e6c7fdfa82bcac1d89fd040",
+      "size": 23982
+    },
+    "assets/asset-1.jpg": {
+      "sha256": "50a7311f69b1ca32ec9fd98d0d4d6975acb68ad17e290c8c1931dc01b86718a1",
+      "size": 90097
+    },
+    "assets/asset-2.png": {
+      "sha256": "93204cfc563f7169a1920c320807dc2265b99a56c2e2f4185e9472277b1090b0",
+      "size": 112512
+    },
+    "assets/asset-3.png": {
+      "sha256": "90afe3fd25938da10defef1bacffb21b742ef9b632c8d8ac4b6ecf3832e7bdba",
+      "size": 91543
+    },
+    "assets/asset-4.png": {
+      "sha256": "39c1c8e05762a8f5b31ee6705c26a84a1ffd8191cc5c14005982b475bdd6beca",
+      "size": 82106
+    },
+    "assets/original-desktop-full.png": {
+      "sha256": "7d15f83cc49e135a585ac6e144ef44a26aecef27665a857c46a32305d7b5f163",
+      "size": 1501830
+    },
+    "assets/original-desktop.png": {
+      "sha256": "25545b9eaa9d96771db371a93848f8048a46cc287c035031630b7ed8794ec786",
+      "size": 971530
+    },
+    "assets/original-mobile-full.png": {
+      "sha256": "78be9696389de40d8e953f2e78909773dcd2249187049fcf3e8535a5261d04ca",
+      "size": 625965
+    },
+    "assets/original-mobile.png": {
+      "sha256": "13097271dfaba9597ee5a91c35a55c1eac64e73b0b102ceef82e254aa55f851b",
+      "size": 168824
+    },
+    "index.html": {
+      "sha256": "bdb5663487e2c7f5f363d78d574fec796d1283a55a5db86fca9e64d0749aef35",
+      "size": 5479
+    },
+    "proposal.html": {
+      "sha256": "65f77d9bceabd7074803cdbdb7dda7db05b64362071e59d6a2f4bcd9dcc686a7",
+      "size": 3086
+    },
+    "rationale.html": {
+      "sha256": "4baa930f84525a21591bb803330e81b50a7d874b37d32d56b9b5d47389891adc",
+      "size": 256
+    },
+    "script.js": {
+      "sha256": "d4831ba654c00f14693223f40f83491249638b6a92eef757dd66ddc3a4f1bb2e",
+      "size": 576
+    },
+    "styles.css": {
+      "sha256": "c548add9556aad30ace70d741dc9a9d3e4ec030ea1b177a06e326e6c15681ef3",
+      "size": 8613
+    }
+  },
+  "schema": 3,
+  "status": "clean"
+}

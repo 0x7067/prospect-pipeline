@@ -1,0 +1,232 @@
+{
+  "validation_target": "/opt/data/projects/curitiba-rebuilds/2026-07-18/clinica-curitiba",
+  "generated_at_utc": "2026-07-18T16:54:34Z",
+  "scope_note": "Only this directory was inspected/modified. No other directory, archived root, publish/upload/submit/contact action was performed.",
+  "checks": {
+    "node_check": {
+      "command": "node --check script.js",
+      "cwd": "/opt/data/projects/curitiba-rebuilds/2026-07-18/clinica-curitiba",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "result": "pass - no syntax errors"
+    },
+    "impeccable_detector": {
+      "note": "Initial run of \"impeccable detect --json .\" recursed into .agents/skills/impeccable/scripts/detector/detect-antipatterns-browser.js (the detector tool source code bundled in this project dir) and produced false-positive findings against its own regex/pattern literals, not against site content. Re-ran scoped to only the actual site deliverable files.",
+      "runs": [
+        {
+          "command": "impeccable detect --json .",
+          "cwd": "/opt/data/projects/curitiba-rebuilds/2026-07-18/clinica-curitiba",
+          "exit_code": 2,
+          "findings_count": 7,
+          "findings_summary": "All 7 findings were false positives against .agents/skills/impeccable/scripts/detector/detect-antipatterns-browser.js (the detector implementation itself, matched as plain text for gradient-text/bounce-easing/broken-image patterns). No findings against actual site files.",
+          "result": "not applicable to site content - excluded from verdict"
+        },
+        {
+          "command": "impeccable detect --json index.html proposal.html rationale.html script.js styles.css",
+          "cwd": "/opt/data/projects/curitiba-rebuilds/2026-07-18/clinica-curitiba",
+          "exit_code": 0,
+          "findings_count": 0,
+          "findings": [],
+          "result": "pass - clean"
+        }
+      ],
+      "prior_receipt_on_disk": ".impeccable-detector-receipt.json (status: clean, gate_exit_code: 0, generated 2026-07-18T16:18:18Z) - consistent with this run"
+    },
+    "playwright_chromium_checks": {
+      "tooling": "playwright 1.61.1 (chromium-1228) via /tmp/pw-check harness, PLAYWRIGHT_BROWSERS_PATH=/opt/data/.cache/ms-playwright",
+      "command": "PLAYWRIGHT_BROWSERS_PATH=/opt/data/.cache/ms-playwright node /tmp/pw-check/check.js",
+      "exit_code": 0,
+      "pages_checked": [
+        "index.html",
+        "proposal.html",
+        "rationale.html"
+      ],
+      "viewports_checked": [
+        "1440x900",
+        "390x844"
+      ],
+      "method": "file:// navigation with waitUntil networkidle; captured console messages, pageerror events, requestfailed events, document.scrollWidth vs clientWidth for horizontal overflow, and img.complete/naturalWidth for broken images",
+      "results": {
+        "index.html": {
+          "1440x900": {
+            "navError": null,
+            "title": "Clínica Curitiba de Odontologia | Beleza e saúde juntos",
+            "consoleMessages": [],
+            "pageErrors": [],
+            "failedRequests": [],
+            "overflow": {
+              "scrollWidth": 1440,
+              "clientWidth": 1440,
+              "bodyScrollWidth": 1440,
+              "hasHorizontalOverflow": false
+            },
+            "brokenImages": [],
+            "allImagesInfo": [
+              {
+                "src": "assets/asset-0.png",
+                "naturalWidth": 622,
+                "naturalHeight": 349,
+                "complete": true
+              },
+              {
+                "src": "assets/asset-1.jpg",
+                "naturalWidth": 1000,
+                "naturalHeight": 667,
+                "complete": true
+              },
+              {
+                "src": "assets/asset-2.png",
+                "naturalWidth": 307,
+                "naturalHeight": 197,
+                "complete": true
+              },
+              {
+                "src": "assets/asset-3.png",
+                "naturalWidth": 306,
+                "naturalHeight": 193,
+                "complete": true
+              },
+              {
+                "src": "assets/asset-4.png",
+                "naturalWidth": 310,
+                "naturalHeight": 194,
+                "complete": true
+              }
+            ]
+          },
+          "390x844": {
+            "navError": null,
+            "title": "Clínica Curitiba de Odontologia | Beleza e saúde juntos",
+            "consoleMessages": [],
+            "pageErrors": [],
+            "failedRequests": [],
+            "overflow": {
+              "scrollWidth": 390,
+              "clientWidth": 390,
+              "bodyScrollWidth": 390,
+              "hasHorizontalOverflow": false
+            },
+            "brokenImages": [],
+            "allImagesInfo": [
+              {
+                "src": "assets/asset-0.png",
+                "naturalWidth": 622,
+                "naturalHeight": 349,
+                "complete": true
+              },
+              {
+                "src": "assets/asset-1.jpg",
+                "naturalWidth": 1000,
+                "naturalHeight": 667,
+                "complete": true
+              },
+              {
+                "src": "assets/asset-2.png",
+                "naturalWidth": 307,
+                "naturalHeight": 197,
+                "complete": true
+              },
+              {
+                "src": "assets/asset-3.png",
+                "naturalWidth": 306,
+                "naturalHeight": 193,
+                "complete": true
+              },
+              {
+                "src": "assets/asset-4.png",
+                "naturalWidth": 310,
+                "naturalHeight": 194,
+                "complete": true
+              }
+            ]
+          }
+        },
+        "proposal.html": {
+          "1440x900": {
+            "navError": null,
+            "title": "Clínica Curitiba — Conceito independente",
+            "consoleMessages": [],
+            "pageErrors": [],
+            "failedRequests": [],
+            "overflow": {
+              "scrollWidth": 1440,
+              "clientWidth": 1440,
+              "bodyScrollWidth": 1440,
+              "hasHorizontalOverflow": false
+            },
+            "brokenImages": [],
+            "allImagesInfo": []
+          },
+          "390x844": {
+            "navError": null,
+            "title": "Clínica Curitiba — Conceito independente",
+            "consoleMessages": [],
+            "pageErrors": [],
+            "failedRequests": [],
+            "overflow": {
+              "scrollWidth": 390,
+              "clientWidth": 390,
+              "bodyScrollWidth": 390,
+              "hasHorizontalOverflow": false
+            },
+            "brokenImages": [],
+            "allImagesInfo": []
+          }
+        },
+        "rationale.html": {
+          "1440x900": {
+            "navError": null,
+            "title": "Clínica Curitiba — Conceito independente",
+            "consoleMessages": [],
+            "pageErrors": [],
+            "failedRequests": [],
+            "overflow": {
+              "scrollWidth": 1440,
+              "clientWidth": 1440,
+              "bodyScrollWidth": 1440,
+              "hasHorizontalOverflow": false
+            },
+            "brokenImages": [],
+            "allImagesInfo": []
+          },
+          "390x844": {
+            "navError": null,
+            "title": "Clínica Curitiba — Conceito independente",
+            "consoleMessages": [],
+            "pageErrors": [],
+            "failedRequests": [],
+            "overflow": {
+              "scrollWidth": 390,
+              "clientWidth": 390,
+              "bodyScrollWidth": 390,
+              "hasHorizontalOverflow": false
+            },
+            "brokenImages": [],
+            "allImagesInfo": []
+          }
+        }
+      }
+    }
+  },
+  "findings_summary": {
+    "syntax_errors": 0,
+    "design_antipattern_findings_on_site_files": 0,
+    "console_errors": 0,
+    "page_errors": 0,
+    "failed_network_requests": 0,
+    "horizontal_overflow_any_viewport": false,
+    "broken_images_any_page_any_viewport": 0
+  },
+  "repairs_made": [],
+  "repairs_needed": false,
+  "overall_status": "pass - no repairs required, site validated clean across all requested checks",
+  "actions_not_performed_per_instructions": [
+    "no publishing",
+    "no uploading",
+    "no form submission",
+    "no contacting anyone",
+    "no other directory touched",
+    "no archived root touched"
+  ]
+}
