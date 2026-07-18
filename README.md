@@ -6,7 +6,7 @@ Private archive of the prospect-generation pipeline and website clone/build outp
 
 - `sources/prospect-batch/` — prospect batch pipeline outputs and project artifacts
 - `sources/curitiba-rebuilds/` — Curitiba rebuilds, briefs, variants, reviews, and evidence
-- `sources/kimi-one-prospect/` — Kimi prospect variants and related artifacts
+- `sources/curitiba-rebuilds/2026-07-16/penha-moraes-arquitetura/iterations/kimi/` — consolidated Kimi iterations for the Penha Moraes prospect (initial, build staging, and V2)
 
 ## Deliberately excluded
 
