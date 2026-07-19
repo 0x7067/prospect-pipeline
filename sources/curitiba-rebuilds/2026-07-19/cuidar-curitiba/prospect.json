@@ -1,0 +1,101 @@
+{
+  "business_name": "Cuidar Curitiba",
+  "official_url": "https://cuidar.curitiba.br/",
+  "run_date": "2026-07-19",
+  "slug": "cuidar-curitiba",
+  "category": "medical coworking / fiscal address service",
+  "problems": [
+    "The active landing page contains conversion-damaging content errors in high-visibility sections, including the literal '+ 0' professionals counter, the misspelled 'Endereo Fiscal', repeated 'Beneficíos' headings, and a duplicated/unfinished benefits structure.",
+    "The page mixes two distinct offers—hour/day/month medical coworking and fiscal domicile/CNPJ support—across a very long scroll, so a physician seeking rooms and a professional seeking a fiscal address do not get clean, separate decision paths.",
+    "The site makes strong operational and trust claims but presents them with inconsistent proof formatting: 'Avaliações (4,9)', '+ 1300' and 'Mais de 200 profissionais' appear near one another without a clear metric label hierarchy, while the testimonial embed is visually dense and difficult to scan.",
+    "The active page relies on a large Elementor/WordPress asset stack and repeated sections, creating a practical opportunity to simplify the mobile-first inquiry path around the stated WhatsApp, booking, pricing, location, and compliance information."
+  ],
+  "rebuild_angle": "Split the offer into two high-intent routes—consultório pronto and endereço fiscal—then use a compact proof-led page to move health professionals from eligibility and legal confidence to a WhatsApp plan request or booking action.",
+  "opportunity_score": 8.0,
+  "active_evidence": "On 2026-07-19, the official HTTPS domain loaded as Cuidar Curitiba and described medical coworking and fiscal-address services in Curitiba, including furnished/climatized rooms, online scheduling, stated weekday/Saturday hours, plans from R$197 per month, packages from R$50 per hour, WhatsApp contact, and a published address at Av. Presidente Affonso Camargo, 2583, Jardim Botânico/Curitiba. The page states that it serves health professionals and displays the active offer, pricing, FAQs, reviews, and legal/compliance positioning. OpenStreetMap/Nominatim matched the published address to Curitiba coordinates.",
+  "evidence_links": [
+    "https://cuidar.curitiba.br/",
+    "https://cuidar.curitiba.br/ (official page observation: 2026-07-19)",
+    "https://cuidar.curitiba.br/wp-content/uploads/2025/10/Identidade-Visual-Cuidar-Curitiba-1.png",
+    "https://cuidar.curitiba.br/wp-content/uploads/2025/10/Identidade-Visual-Cuidar-Curitiba-3.png",
+    "https://www.openstreetmap.org/?mlat=-25.4410325&mlon=-49.2361555#map=19/-25.4410325/-49.2361555"
+  ],
+  "preserved_strengths": [
+    "The direct, specific offer for doctors and health professionals.",
+    "The two commercially meaningful products: furnished medical rooms and fiscal address.",
+    "The explicit price anchors from the official page.",
+    "The Jardim Botânico location cue.",
+    "The WhatsApp-first contact intent and online-reservation promise.",
+    "The official visual identity assets and professional-health category cues, without copying the current layout or imagery."
+  ],
+  "brand_source": {
+    "logo_sources": [
+      "https://cuidar.curitiba.br/wp-content/uploads/2025/10/Identidade-Visual-Cuidar-Curitiba-1.png",
+      "https://cuidar.curitiba.br/wp-content/uploads/2025/10/Identidade-Visual-Cuidar-Curitiba-3.png"
+    ],
+    "colors": [
+      "Official identity image assets are supplied by the business at the two linked URLs; use those originals only as reference and sample the exact palette from local captures before production."
+    ],
+    "typography": [
+      "The page is built with WordPress/Elementor and exposes no reliable prospect-specific type declaration in the collected evidence; choose a distinctive accessible pairing while preserving the supplied identity assets as reference."
+    ],
+    "personality_words": [
+      "conforto",
+      "segurança",
+      "credibilidade",
+      "praticidade",
+      "legalidade",
+      "atendimento humanizado"
+    ],
+    "strongest_public_language": [
+      "Coworking médico e endereço fiscal prontos para você atuar em Curitiba",
+      "Seu consultório pronto para atender em Curitiba",
+      "A partir de R$ 197 por mês",
+      "Atendimento Imediato via WhatsApp"
+    ],
+    "services": [
+      "Medical coworking rooms",
+      "Fiscal domicile/address for health professionals",
+      "Online room reservations",
+      "Reception",
+      "Packages by hour/day/month"
+    ],
+    "locations": [
+      "Av. Presidente Affonso Camargo, 2583 - casa 01 - Jardim Botânico, Curitiba - PR, 80050-370",
+      "In front of Jardim Botânico, as stated on the official page"
+    ],
+    "contacts": [
+      "(41) 98782-1228",
+      "(41) 3598-2870",
+      "comercial@cuidar.curitiba.br"
+    ],
+    "visual_assets": [
+      "https://cuidar.curitiba.br/wp-content/uploads/2025/10/Identidade-Visual-Cuidar-Curitiba-1.png",
+      "https://cuidar.curitiba.br/wp-content/uploads/2025/10/Identidade-Visual-Cuidar-Curitiba-3.png",
+      "https://cuidar.curitiba.br/wp-content/uploads/2025/10/medico-1-1-553x1024.png",
+      "https://cuidar.curitiba.br/wp-content/uploads/2025/10/2.-foto-764x1024.jpg"
+    ],
+    "original_screenshots": {
+      "desktop": "https://cuidar.curitiba.br/ (original desktop inspection, 2026-07-19)",
+      "mobile": "https://cuidar.curitiba.br/ (original mobile inspection required before implementation)"
+    },
+    "equity_to_preserve": [
+      "Health-professional specialization",
+      "Two-offer commercial model",
+      "Price transparency",
+      "Jardim Botânico location",
+      "WhatsApp and booking convenience",
+      "Compliance-oriented trust cues"
+    ],
+    "weaknesses_not_to_copy": [
+      "'+ 0' counter",
+      "Misspelled 'Endereo Fiscal'",
+      "Repeated benefits headings",
+      "Blended offer architecture",
+      "Dense testimonial and metrics treatment",
+      "Elementor-heavy long-scroll repetition"
+    ]
+  },
+  "concept_thesis": "Turn Cuidar Curitiba into a two-door practice hub: one confident route to book a furnished room and one precise route to secure a compliant fiscal address, with the Jardim Botânico location and transparent entry prices acting as the trust bridge between them.",
+  "deliverable_tier": "early_visual_direction"
+}

@@ -1,0 +1,227 @@
+{
+  "browser": {
+    "engine": "playwright chromium",
+    "error": null,
+    "required_matrix_complete": true,
+    "required_pages": [
+      "index.html",
+      "proposal.html",
+      "rationale.html"
+    ],
+    "required_viewports": {
+      "desktop": {
+        "height": 900,
+        "width": 1440
+      },
+      "mobile": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    "results": [
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:46799/index.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-desktop.png",
+        "screenshot_sha256": "48f475c318609c05c40e1ba312a5a6bf9b4a5e8a45869359871403031d278d84",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Cuidar Curitiba | Coworking Médico e Endereço Fiscal",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:46799/index.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-mobile.png",
+        "screenshot_sha256": "ccad18b7b39b711221e39b5bf116e2e4753e09a58b2945874fe97078f2cc549a",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Cuidar Curitiba | Coworking Médico e Endereço Fiscal",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:46799/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-desktop.png",
+        "screenshot_sha256": "704b2ee4648b4a1edc3b9dcf08200cfbade75fd897e318a7d6050063069559e8",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta: Redesign do Site Cuidar Curitiba",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:46799/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-mobile.png",
+        "screenshot_sha256": "0b4ff13efc48cacdb7dd82b5efe17274ad65ba2fae796f3cce6f3924695caef3",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta: Redesign do Site Cuidar Curitiba",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:46799/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-desktop.png",
+        "screenshot_sha256": "704b2ee4648b4a1edc3b9dcf08200cfbade75fd897e318a7d6050063069559e8",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta: Redesign do Site Cuidar Curitiba",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:46799/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-mobile.png",
+        "screenshot_sha256": "0b4ff13efc48cacdb7dd82b5efe17274ad65ba2fae796f3cce6f3924695caef3",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta: Redesign do Site Cuidar Curitiba",
+        "viewport": "mobile",
+        "width": 390
+      }
+    ],
+    "status": "pass"
+  },
+  "build_id": "a896f8329f32aecf836199608eb2bf14416a9b30f75548859abecdc9aae3b430",
+  "detector": {
+    "command": "/opt/data/.venvs/curitiba/bin/python /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-19/cuidar-curitiba",
+    "current_clean": true,
+    "current_findings": false,
+    "exit_code": 0,
+    "status": "clean",
+    "stderr": "",
+    "stdout": ""
+  },
+  "generated_at": "2026-07-19T13:03:11.475335+00:00",
+  "node_check": {
+    "command": "node --check script.js",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/cuidar-curitiba",
+  "release_manifest": {
+    "assets/foto-2.jpg": {
+      "sha256": "9abb7b70487ceffa825b642455579242fa55d32b0b96dd09a0743b1364715d1e",
+      "size": 109879
+    },
+    "assets/identidade-1.png": {
+      "sha256": "1a81aa3da37016379de0ba062b07ca99cc877ca33b9b92a7296c85e57c6bead7",
+      "size": 56562
+    },
+    "assets/identidade-3.png": {
+      "sha256": "d84784802e1f624e3081bd9fbdbc1d376c8e8b72fb66b2511baed39aa1f1247b",
+      "size": 74564
+    },
+    "assets/interior.jpg": {
+      "sha256": "45302f1656d30c2793ba79dda667295158a40f09ce074e50263566152acceb7e",
+      "size": 130357
+    },
+    "assets/medico-1.png": {
+      "sha256": "e7ee2c8d04e8371cb733f849f7a81e782db72a39c062d66e4fa6653a757c10de",
+      "size": 147612
+    },
+    "assets/medico-hero.jpg": {
+      "sha256": "2541615c45d1b57267d565565a9ed4f794cbf2c6ecef6ec10143010969c3117a",
+      "size": 58926
+    },
+    "assets/medico-mid.jpg": {
+      "sha256": "68ddb537cbbd0b1dff81d49ae389b6b633b282d7a2f5bf221435182fbca200c8",
+      "size": 61442
+    },
+    "index.html": {
+      "sha256": "c8db78b84d09ee276249a231046fb5f565fd7b231fc36767b8362568ddce1858",
+      "size": 14968
+    },
+    "proposal.html": {
+      "sha256": "206239102d19a3df8d2d4a404f121f62eec34a80b881a91f0083c7814f36ff72",
+      "size": 9603
+    },
+    "rationale.html": {
+      "sha256": "47e89113ed3b99269b3963e29694e46ffe5c3e4bb073733b57458dbc326fc88b",
+      "size": 632
+    },
+    "script.js": {
+      "sha256": "b07b7f3c3f67172ef16e6e21a46ef7f5f309e367e4198d0f87d32eae960b7f99",
+      "size": 2197
+    },
+    "styles.css": {
+      "sha256": "317b8bd431c05a65655e6356ed28c629e55f5f07737adcf71d52573c0cabb069",
+      "size": 13403
+    }
+  },
+  "schema": 1,
+  "status": "pass"
+}

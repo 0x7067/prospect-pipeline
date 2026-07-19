@@ -1,0 +1,342 @@
+{
+  "schema": 2,
+  "policy_version": "prospect-brand-style-gate-v2",
+  "policy_sha256": "21936021ef4272afbb508483f0e0e5a5b7ec5a4613630f864e1c8bbffe684604",
+  "build_id": "a896f8329f32aecf836199608eb2bf14416a9b30f75548859abecdc9aae3b430",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/cuidar-curitiba",
+  "started_at": "2026-07-19T12:57:52.513Z",
+  "finished_at": "2026-07-19T12:58:10.859Z",
+  "captures": [
+    {
+      "target": "current",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "https://cuidar.curitiba.br/",
+      "image": "comparison/current-desktop.png",
+      "full_image": "comparison/current-desktop-full.png",
+      "started_at": "2026-07-19T12:57:52.556Z",
+      "success": true,
+      "http_status": 200,
+      "title": "Coworking para médicos – Coworking médico com design elegante, moderno e sofisticado.",
+      "final_url": "https://cuidar.curitiba.br/",
+      "error": null,
+      "console_errors": [
+        "Access to font at 'https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/poppins-de430313.woff2' from origin 'https://cuidar.curitiba.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/tenorsans-ccbeb222.woff2' from origin 'https://cuidar.curitiba.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/poppins-57e843b6.woff2' from origin 'https://cuidar.curitiba.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/urbanist-5e85aea8.woff2' from origin 'https://cuidar.curitiba.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/roboto-1abb80a1.woff2' from origin 'https://cuidar.curitiba.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/poppins-e6a077c3.woff2' from origin 'https://cuidar.curitiba.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/poppins-93818c37.woff2' from origin 'https://cuidar.curitiba.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/urbanist-f61ba62c.woff2' from origin 'https://cuidar.curitiba.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/poppins-742b18be.woff2' from origin 'https://cuidar.curitiba.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/spacegrotesk-4ecc7e89.woff2' from origin 'https://cuidar.curitiba.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/sora-c7aee659.woff2' from origin 'https://cuidar.curitiba.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: the server responded with a status of 401 ()",
+        "Failed to load resource: the server responded with a status of 401 ()",
+        "%c%d font-size:0;color:transparent NaN",
+        "%c%d font-size:0;color:transparent NaN",
+        "%c%d font-size:0;color:transparent NaN",
+        "%c%d font-size:0;color:transparent NaN"
+      ],
+      "page_errors": [],
+      "request_failures": [
+        {
+          "url": "https://tag.goadopt.io/injector.js/v2/0017?website_code=003aa845-9a3a-47e9-a813-87cb8f9d5510",
+          "error": "net::ERR_BLOCKED_BY_ORB"
+        },
+        {
+          "url": "https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/poppins-de430313.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/tenorsans-ccbeb222.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/poppins-57e843b6.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/urbanist-5e85aea8.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/roboto-1abb80a1.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://www.googletagmanager.com/gtm.js?id=",
+          "error": "net::ERR_BLOCKED_BY_ORB"
+        },
+        {
+          "url": "https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/poppins-e6a077c3.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/poppins-93818c37.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/urbanist-f61ba62c.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/poppins-742b18be.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/spacegrotesk-4ecc7e89.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/sora-c7aee659.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://ad.doubleclick.net/ccm/s/collect?auid=740546453.1784465873&gtm=45He67f0v9209000719za200zd9209000719xea",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google.com/ccm/collect?rcb=18&frm=0&ae=g&auid=740546453.1784465873&dt=Coworking%20para%20m%C3%A9dicos%20%E2%80%93%20Coworking%20m%C3%A9dico%20com%20design%20elegante%2C%20moderno%20e%20sofisticado.&en=page_view&dl=https%3A%2F%2Fcuidar.curitiba.br%2F&scrsrc=www.googletagmanager.com&rnd=359529408.1784465873&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He67f0v9209000719za200zd9209000719xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118131810~118897920~118897930~119732170~119896802&apve=1&apvf=f&apvc=1&tft=1784465873189&tfd=609&fmt=8",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google.com/rmkt/collect/674238373/?random=1784465873459&cv=11&fst=1784465873459&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be67f0v9209009557z89209000719za20gzb9209000719zd9209000719xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118131810~118395334~118897920~118897930~119732170&u_w=1440&u_h=900&url=https%3A%2F%2Fcuidar.curitiba.br%2F&rcb=3&frm=0&tiba=Coworking%20para%20m%C3%A9dicos%20%E2%80%93%20Coworking%20m%C3%A9dico%20com%20design%20elegante%2C%20moderno%20e%20sofisticado.&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=740546453.1784465873&uaa=x86&uab=64&uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google.com/ccm/collect?rcb=3&frm=0&auid=740546453.1784465873&dt=Coworking%20para%20m%C3%A9dicos%20%E2%80%93%20Coworking%20m%C3%A9dico%20com%20design%20elegante%2C%20moderno%20e%20sofisticado.&en=page_view&dl=https%3A%2F%2Fcuidar.curitiba.br%2F&scrsrc=www.googletagmanager.com&rnd=359529408.1784465873&navt=n&npa=0&gtm=45be67f0v9209009557z89209000719za20gzb9209000719zd9209000719xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118131810~118395334~118897920~118897930~119732170&apve=1&apvf=f&apvc=0&tids=AW-674238373&tid=AW-674238373&tft=1784465873483&tfd=903&fmt=8",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://analytics.google.com/g/collect?v=2&tid=G-NBWTS37V5N&gtm=45be67f0v9209009557z89209000719za20gzb9209000719zd9209000719&_p=1784465872835&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=1815700307.1784465873&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118395334~118897920~118897930&sid=1784465873&sct=1&seg=0&dl=https%3A%2F%2Fcuidar.curitiba.br%2F&dt=Coworking%20para%20m%C3%A9dicos%20%E2%80%93%20Coworking%20m%C3%A9dico%20com%20design%20elegante%2C%20moderno%20e%20sofisticado.&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=877",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/i/a1d9e4fbd8b5f171/u2TNhaNJ9gOhlnShHjj8149eeohDZtEn_qh_3Udgqvc-1784465873-1.2.1.1-PTCZsxOiFaJ0u0NCBK0dOHxDJtste353mOgvus0UXqpsOQE8g.crb7UPM6WfbelZ",
+          "error": "net::ERR_NAME_NOT_RESOLVED"
+        },
+        {
+          "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/i/a1d9e4fbd8a2f171/L2zrll_Zd7hb8QxoJOOONg7TlLDyrBboHpDfoTtTXag-1784465873-1.2.1.1-XzQLuls6lEIhrw7R4aXlschJbsCKcUIg2TpJrPrsFAPT1kxsjj64LnTDbp2Iw5_V",
+          "error": "net::ERR_NAME_NOT_RESOLVED"
+        }
+      ],
+      "horizontal_overflow": false,
+      "pixel_width": 1440,
+      "pixel_height": 900,
+      "sha256": "d683b1d7bac8899296865adf27ed6120d81c868ef3b9aaa5ad0f2da97bc54b53",
+      "full_pixel_width": 1440,
+      "full_pixel_height": 10054,
+      "full_sha256": "8b218311bc39edf2f43957f77fceffc67f26a8f4011b282e51b7c3dfa484cea5",
+      "finished_at": "2026-07-19T12:57:59.827Z"
+    },
+    {
+      "target": "current",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "https://cuidar.curitiba.br/",
+      "image": "comparison/current-mobile.png",
+      "full_image": "comparison/current-mobile-full.png",
+      "started_at": "2026-07-19T12:57:59.828Z",
+      "success": true,
+      "http_status": 200,
+      "title": "Coworking para médicos – Coworking médico com design elegante, moderno e sofisticado.",
+      "final_url": "https://cuidar.curitiba.br/",
+      "error": null,
+      "console_errors": [
+        "Access to font at 'https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/sora-c7aee659.woff2' from origin 'https://cuidar.curitiba.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/poppins-57e843b6.woff2' from origin 'https://cuidar.curitiba.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/spacegrotesk-4ecc7e89.woff2' from origin 'https://cuidar.curitiba.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/urbanist-5e85aea8.woff2' from origin 'https://cuidar.curitiba.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/roboto-1abb80a1.woff2' from origin 'https://cuidar.curitiba.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/poppins-93818c37.woff2' from origin 'https://cuidar.curitiba.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/poppins-de430313.woff2' from origin 'https://cuidar.curitiba.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/urbanist-f61ba62c.woff2' from origin 'https://cuidar.curitiba.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/tenorsans-ccbeb222.woff2' from origin 'https://cuidar.curitiba.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/poppins-742b18be.woff2' from origin 'https://cuidar.curitiba.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/poppins-e6a077c3.woff2' from origin 'https://cuidar.curitiba.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: the server responded with a status of 401 ()",
+        "Failed to load resource: the server responded with a status of 401 ()",
+        "%c%d font-size:0;color:transparent NaN",
+        "%c%d font-size:0;color:transparent NaN",
+        "%c%d font-size:0;color:transparent NaN",
+        "%c%d font-size:0;color:transparent NaN"
+      ],
+      "page_errors": [],
+      "request_failures": [
+        {
+          "url": "https://tag.goadopt.io/injector.js/v2/0017?website_code=003aa845-9a3a-47e9-a813-87cb8f9d5510",
+          "error": "net::ERR_BLOCKED_BY_ORB"
+        },
+        {
+          "url": "https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/sora-c7aee659.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://www.googletagmanager.com/gtm.js?id=",
+          "error": "net::ERR_BLOCKED_BY_ORB"
+        },
+        {
+          "url": "https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/poppins-57e843b6.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/spacegrotesk-4ecc7e89.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/urbanist-5e85aea8.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/roboto-1abb80a1.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/poppins-93818c37.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/poppins-de430313.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/urbanist-f61ba62c.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/tenorsans-ccbeb222.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/poppins-742b18be.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://coworking.alessandralins.com.br/wp-content/uploads/elementor/google-fonts/fonts/poppins-e6a077c3.woff2",
+          "error": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1662656967.1784465880&gtm=45He67f0v9209000719za200zd9209000719xea",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&ae=g&auid=1662656967.1784465880&dt=Coworking%20para%20m%C3%A9dicos%20%E2%80%93%20Coworking%20m%C3%A9dico%20com%20design%20elegante%2C%20moderno%20e%20sofisticado.&en=page_view&dl=https%3A%2F%2Fcuidar.curitiba.br%2F&scrsrc=www.googletagmanager.com&rnd=2026786203.1784465880&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He67f0v9209000719za200zd9209000719xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~118131810~118897920~118897930~119381663~119896802~119996999&apve=1&apvf=f&gap.plf=5&apvc=1&tft=1784465880299&tfd=452&fmt=8",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google.com/ccm/collect?rcb=1&frm=0&auid=1662656967.1784465880&dt=Coworking%20para%20m%C3%A9dicos%20%E2%80%93%20Coworking%20m%C3%A9dico%20com%20design%20elegante%2C%20moderno%20e%20sofisticado.&en=page_view&dl=https%3A%2F%2Fcuidar.curitiba.br%2F&scrsrc=www.googletagmanager.com&rnd=2026786203.1784465880&navt=n&npa=0&gtm=45be67f0v9209009557z89209000719za20gzb9209000719zd9209000719xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118131810~118897920~118897930~119773331&apve=1&apvf=f&apvc=0&tids=AW-674238373&tid=AW-674238373&tft=1784465880581&tfd=734&fmt=8",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google.com/rmkt/collect/674238373/?random=1784465880565&cv=11&fst=1784465880565&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be67f0v9209009557z89209000719za20gzb9209000719zd9209000719xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118131810~118897920~118897930~119773331&u_w=390&u_h=844&url=https%3A%2F%2Fcuidar.curitiba.br%2F&rcb=1&frm=0&tiba=Coworking%20para%20m%C3%A9dicos%20%E2%80%93%20Coworking%20m%C3%A9dico%20com%20design%20elegante%2C%20moderno%20e%20sofisticado.&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1662656967.1784465880&uaa=x86&uab=64&uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://analytics.google.com/g/collect?v=2&tid=G-NBWTS37V5N&gtm=45be67f0v9209009557z89209000719za20gzb9209000719zd9209000719&_p=1784465879974&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=305706526.1784465881&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=1&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~119773331&sid=1784465880&sct=1&seg=0&dl=https%3A%2F%2Fcuidar.curitiba.br%2F&dt=Coworking%20para%20m%C3%A9dicos%20%E2%80%93%20Coworking%20m%C3%A9dico%20com%20design%20elegante%2C%20moderno%20e%20sofisticado.&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=716",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/i/a1d9e5279fccf521/LNpDrcCWMFvUA32CvChhv5.chrY07UBsIhkxv2GG7X8-1784465880-1.2.1.1-IN_jX6_Jy7M81KByv8iJzsu8PGXO0WaZxD_8xbBAG6VJ8nvhrGTaUft.znaV3S6a",
+          "error": "net::ERR_NAME_NOT_RESOLVED"
+        },
+        {
+          "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/i/a1d9e5279fcaf521/RoNfQvEg.1NMe2859wl4s0q3pUQg65ew1TWl4WfWUlU-1784465880-1.2.1.1-hCFVOZ9I2lebsRwvYQOrwJQhW0WADLNkBuedf04NOImUzTVCQBzHlq3mnPD3SI7N",
+          "error": "net::ERR_NAME_NOT_RESOLVED"
+        }
+      ],
+      "horizontal_overflow": false,
+      "pixel_width": 390,
+      "pixel_height": 844,
+      "sha256": "83454400e624aed14b3e2f475c6dac45560c9e9296a556870401f519c7b244b9",
+      "full_pixel_width": 390,
+      "full_pixel_height": 17048,
+      "full_sha256": "0b19d0a2a23d9589cd5fc870cb8b3e8f34d28b56503fa82248d4ad9e0f730af9",
+      "finished_at": "2026-07-19T12:58:07.326Z"
+    },
+    {
+      "target": "proposed",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://127.0.0.1:36999/",
+      "image": "comparison/proposed-desktop.png",
+      "full_image": "comparison/proposed-desktop-full.png",
+      "started_at": "2026-07-19T12:58:07.326Z",
+      "success": true,
+      "http_status": 200,
+      "title": "Cuidar Curitiba | Coworking Médico e Endereço Fiscal",
+      "final_url": "http://127.0.0.1:36999/",
+      "error": null,
+      "console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "horizontal_overflow": false,
+      "pixel_width": 1440,
+      "pixel_height": 900,
+      "sha256": "ea4dcc4990f5f45ed5a1f7933e1f52b7b14d950091fb24eb7627741e64a1addb",
+      "full_pixel_width": 1440,
+      "full_pixel_height": 4196,
+      "full_sha256": "2e933c3d294ba56140bffe95215cf73757f3a7d21fd3cbf3a2db4fb234a09e23",
+      "finished_at": "2026-07-19T12:58:09.089Z"
+    },
+    {
+      "target": "proposed",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:36999/",
+      "image": "comparison/proposed-mobile.png",
+      "full_image": "comparison/proposed-mobile-full.png",
+      "started_at": "2026-07-19T12:58:09.089Z",
+      "success": true,
+      "http_status": 200,
+      "title": "Cuidar Curitiba | Coworking Médico e Endereço Fiscal",
+      "final_url": "http://127.0.0.1:36999/",
+      "error": null,
+      "console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "horizontal_overflow": false,
+      "pixel_width": 390,
+      "pixel_height": 844,
+      "sha256": "689bec798f49f8e7724be244fecb85e2821594cdeace9392cb347f72416466c9",
+      "full_pixel_width": 390,
+      "full_pixel_height": 6435,
+      "full_sha256": "5e107b96cdf9726102dbf123aad8839c34b094cb44f93f8b2f316fcc93d3436e",
+      "finished_at": "2026-07-19T12:58:10.847Z"
+    }
+  ],
+  "errors": [],
+  "local_server_url": "http://127.0.0.1:36999/",
+  "success": true
+}

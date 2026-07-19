@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposta: Redesign do Site Cuidar Curitiba</title>
+    <meta name="description" content="Proposta independente de redesign para o site da Cuidar Curitiba, com base em evidências públicas coletadas em 19 de julho de 2026.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .proposal-header {
+            background: oklch(0.22 0.02 260);
+            color: white;
+            padding: 4rem 1.5rem;
+            text-align: center;
+        }
+        .proposal-header h1 {
+            font-family: 'Libre Caslon Text', serif;
+            font-size: clamp(2rem, 4.5vw, 2.75rem);
+            font-weight: 400;
+            max-width: 48rem;
+            margin: 0 auto 1rem;
+        }
+        .proposal-header p {
+            font-size: 1.125rem;
+            opacity: 0.9;
+            max-width: 40rem;
+            margin: 0 auto;
+            font-family: 'Public Sans', system-ui, sans-serif;
+        }
+        .proposal-badge {
+            display: inline-block;
+            background: oklch(0.55 0.15 25);
+            color: white;
+            padding: 0.375rem 1rem;
+            border-radius: 999px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 1.5rem;
+            font-family: 'Public Sans', system-ui, sans-serif;
+        }
+        .proposal-section {
+            max-width: 48rem;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+        }
+        .proposal-section h2 {
+            font-family: 'Libre Caslon Text', serif;
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: oklch(0.22 0.02 260);
+            margin-bottom: 1rem;
+        }
+        .proposal-section h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: oklch(0.30 0.02 260);
+            margin: 1.5rem 0 0.75rem;
+        }
+        .proposal-section p, .proposal-section li {
+            font-size: 1rem;
+            line-height: 1.7;
+            color: oklch(0.35 0.02 260);
+            font-family: 'Public Sans', system-ui, sans-serif;
+        }
+        .proposal-section ul {
+            padding-left: 1.5rem;
+            margin: 0.75rem 0;
+        }
+        .proposal-section li {
+            margin-bottom: 0.5rem;
+        }
+        .evidence-box {
+            background: oklch(0.96 0.01 260);
+            border: 1px solid oklch(0.90 0.01 260);
+            padding: 1rem 1.25rem;
+            margin: 1rem 0;
+            font-size: 0.9375rem;
+            font-family: 'Public Sans', system-ui, sans-serif;
+        }
+        .problem-list, .improvement-list {
+            counter-reset: item;
+            list-style: none;
+            padding: 0;
+        }
+        .problem-list li, .improvement-list li {
+            counter-increment: item;
+            padding-left: 2.5rem;
+            position: relative;
+            margin-bottom: 1rem;
+        }
+        .problem-list li::before, .improvement-list li::before {
+            content: counter(item);
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 1.75rem;
+            height: 1.75rem;
+            background: oklch(0.55 0.15 25);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 0.875rem;
+            font-family: 'Public Sans', system-ui, sans-serif;
+        }
+        .improvement-list li::before {
+            background: oklch(0.45 0.12 145);
+        }
+        .proposal-footer {
+            background: oklch(0.96 0.01 260);
+            padding: 2rem 1.5rem;
+            text-align: center;
+            font-size: 0.875rem;
+            color: oklch(0.45 0.02 260);
+            font-family: 'Public Sans', system-ui, sans-serif;
+        }
+        .proposal-footer a {
+            color: oklch(0.45 0.12 260);
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 1rem;
+            color: oklch(0.55 0.15 25);
+            text-decoration: none;
+            font-weight: 500;
+            font-family: 'Public Sans', system-ui, sans-serif;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header class="proposal-header">
+        <div class="proposal-badge">Proposta Independente</div>
+        <h1>Redesign do Site Cuidar Curitiba</h1>
+        <p>Conceito visual e arquitetura de informação baseados em evidências públicas coletadas em 19 de julho de 2026</p>
+    </header>
+
+    <main>
+        <section class="proposal-section">
+            <h2>Oportunidade identificada</h2>
+            <p>O site atual da Cuidar Curitiba oferece dois serviços distintos — coworking médico e endereço fiscal — em uma única página longa, misturando públicos e jornadas de decisão. Isso dilui a clareza da oferta e aumenta o esforço cognitivo do visitante.</p>
+            
+            <div class="evidence-box">
+                <strong>Evidência coletada:</strong> A página oficial carrega erros de conteúdo em seções de alta visibilidade, incluindo o contador literal "+ 0" profissionais, o termo "Endereo Fiscal" com erro ortográfico, e títulos "Beneficíos" repetidos com estrutura de benefícios duplicada/inacabada.
+            </div>
+        </section>
+
+        <section class="proposal-section">
+            <h2>Três problemas prioritários</h2>
+            <ol class="problem-list">
+                <li><strong>Arquitetura de oferta confusa:</strong> Dois serviços comerciais diferentes (locação de consultórios por hora/dia/mês vs. domicílio fiscal/CNPJ) competem pela mesma atenção em uma rolagem longa, sem separação clara de jornadas.</li>
+                <li><strong>Erros de conteúdo prejudicam a credibilidade:</strong> Erros ortográficos e estruturas inacabadas em áreas de destaque reduzem a confiança do visitante justamente em um setor onde a credibilidade é decisiva.</li>
+                <li><strong>Prova social desorganizada:</strong> Métricas e avaliações aparecem sem hierarquia clara ("Avaliações (4,9)", "+ 1300", "Mais de 200 profissionais" próximos sem rótulos definidos), e o bloco de depoimentos é visualmente denso e difícil de escanear.</li>
+            </ol>
+        </section>
+
+        <section class="proposal-section">
+            <h2>Três melhorias propostas</h2>
+            <ol class="improvement-list">
+                <li><strong>Arquitetura de duas portas:</strong> Separar claramente "Consultório Pronto" e "Endereço Fiscal" como rotas distintas, cada uma com sua própria proposta de valor, prova social e chamada para ação.</li>
+                <li><strong>Conteúdo revisado e hierarquia de métricas:</strong> Eliminar erros ortográficos e estruturas inacabadas, e organizar números de prova social em uma faixa de confiança com rótulos claros.</li>
+                <li><strong>Mobile-first com ação direta:</strong> Simplificar o caminho de contato para WhatsApp, com botões de ação persistentes e informações de preço acessíveis sem rolagem excessiva.</li>
+            </ol>
+        </section>
+
+        <section class="proposal-section">
+            <h2>Escopo desta proposta</h2>
+            <p>Este documento apresenta uma direção visual inicial (early visual direction) baseada exclusivamente em informações públicas disponíveis em 19 de julho de 2026. O trabalho inclui:</p>
+            <ul>
+                <li>Arquitetura de informação com duas rotas de conversão distintas</li>
+                <li>Direção de arte com três momentos visuais intencionais</li>
+                <li>Tipografia em pares contrastantes (Libre Caslon Text + Public Sans)</li>
+                <li>Paleta de cores baseada nos ativos de identidade visual oficiais</li>
+                <li>Assets visuais locais otimizados para web</li>
+            </ul>
+            <p><strong>Importante:</strong> Esta é uma proposta independente, não afiliada à Cuidar Curitiba. Nenhum contato foi realizado com a empresa, e nenhum serviço foi contratado ou publicado.</p>
+        </section>
+
+        <section class="proposal-section">
+            <h2>Fontes de evidência</h2>
+            <ul>
+                <li>Site oficial: https://cuidar.curitiba.br/ (observação em 19/07/2026)</li>
+                <li>Assets de identidade visual: URLs oficiais do WordPress da empresa</li>
+                <li>Localização: OpenStreetMap/Nominatim com coordenadas verificadas</li>
+            </ul>
+            <p>Todos os fatos comerciais (preços, horários, endereço, telefones) foram extraídos diretamente do site oficial na data de observação.</p>
+        </section>
+    </main>
+
+    <footer class="proposal-footer">
+        <p>Proposta independente — não afiliada à Cuidar Curitiba</p>
+        <p>Elaborada em 19 de julho de 2026 com base em evidências públicas</p>
+        <a href="index.html" class="back-link">← Ver conceito de redesign</a>
+    </footer>
+</body>
+</html>
