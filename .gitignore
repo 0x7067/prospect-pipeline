@@ -8,6 +8,7 @@ credentials.json
 secrets.json
 
 # Generated/runtime state
+_site/
 node_modules/
 .venv/
 venv/

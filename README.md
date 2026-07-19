@@ -1,60 +1,46 @@
 # Prospect Pipeline
 
-Private archival and continuation repository for prospect-generation work and
-website rebuild evidence. It is a navigation layer around the existing source
-archive, not a replacement for the live promotion workflow.
+Private archival and continuation repository for prospect-generation work and website rebuild evidence. Its GitHub Pages workflow publishes sanitized concept demos only; it never uploads the repository root or `sources/` wholesale.
 
 ## Start here
 
-- [Generated catalog](CATALOG.md) — projects grouped by collection and date.
-- [Repository layout](docs/REPOSITORY_LAYOUT.md) — path conventions and safety
-  boundaries.
-- [Catalog generator](scripts/generate_catalog.py) — dependency-free catalog
-  source.
-- [Repository checker](scripts/check_repository.py) — deterministic links and
-  freshness checks.
+- [Published demo architecture](docs/PAGES_PUBLICATION.md) — discovery, routes, sanitization, and deployment boundaries.
+- [Generated catalog](CATALOG.md) — source projects grouped by collection and date.
+- [Repository layout](docs/REPOSITORY_LAYOUT.md) — path conventions and source safety boundaries.
+- [Catalog generator](scripts/generate_catalog.py) — dependency-free catalog source.
+- [Repository checker](scripts/check_repository.py) — deterministic links and freshness checks.
 
 ## Directory layout
 
 ```text
-sources/
-├── curitiba-rebuilds/
-│   ├── YYYY-MM-DD/
-│   │   ├── <project>/       # canonical live-promotion project path
-│   │   └── date artifacts   # manifests/specifications kept at date level
-│   ├── _briefs/             # collection-level control inputs
-│   └── _fixtures/           # collection-level fixtures
-└── prospect-batch/
-    └── YYYY-MM-DD/
-        └── <project>/       # batch-generation output
-docs/                        # stable repository documentation
-scripts/                     # small maintenance utilities
-CATALOG.md                   # generated navigation index
+sources/                    # private archive; never deploy directly
+scripts/build_pages_site.py  # dependency-free sanitized exporter
+scripts/verify_pages_site.py # dependency-free public artifact checker
+_site/                      # generated deployable artifact only
+.github/workflows/pages.yml  # builds, verifies, uploads only _site, deploys Pages
+docs/
 ```
 
-The two source collections are intentionally distinct:
+## Safe Pages build
 
-- `curitiba-rebuilds` contains dated rebuilds and the canonical paths used by
-  the Curitiba promotion code. Preserve the complete
-  `sources/curitiba-rebuilds/YYYY-MM-DD/<slug>` shape.
-- `prospect-batch` contains batch outputs and should not be presented as a
-  Curitiba rebuild or merged into that collection.
+Run from the repository root:
 
-## Lifecycle
+```bash
+python3 scripts/build_pages_site.py --sources sources --output _site --base-path /prospect-pipeline/
+python3 scripts/verify_pages_site.py --site _site
+python3 -m unittest discover -s tests -p 'test_*.py'
+```
 
-1. Source artifacts are produced under their collection/date/project path.
-2. Evidence and control files remain alongside the relevant dated material.
-3. Run the catalog generator after adding or removing source projects.
-4. Run the checker, review the diff, and commit only the archival/navigation
-   changes intended for this repository.
+Only `_site` is deployable. Do not configure Pages to publish the repository root or `sources/`. The generated output is rebuilt from scratch, contains only resources referenced by selected demo pages, and includes a safe `public-manifest.json`, landing page, `404.html`, and `.nojekyll`.
 
-The catalog lists direct project directories only; nested implementation
-folders and underscore-prefixed control directories are not promoted to
-top-level projects.
+## Source collections
+
+- `curitiba-rebuilds` contains dated rebuilds and their archival evidence.
+- `prospect-batch` contains batch-generation output and its evidence.
+
+Do not move, rename, delete, or modify existing content under `sources/`. Do not add secrets, runtime state, browser artifacts, caches, or external publication activity.
 
 ## Maintenance commands
-
-Run these from the repository root with Python 3.11+:
 
 ```bash
 python3 scripts/generate_catalog.py
@@ -63,16 +49,4 @@ git diff --check
 git status --short
 ```
 
-The generator is deterministic. A clean second run should produce no diff.
-
-## Safety boundaries
-
-- Do not move, rename, delete, or rewrite existing content under `sources/`.
-- Do not change the dated Curitiba canonical paths; live promotion depends on
-  them.
-- Do not publish, deploy, contact prospects, or alter external systems from
-  this repository-maintenance workflow.
-- Do not add secrets, runtime state, browser binaries, virtual environments,
-  `node_modules`, caches, or other machine-local dependencies.
-
-This private repository is for the owner's archival and continuation workflow.
+The catalog and Pages exporter are deterministic; a clean second run should produce no diff in tracked source or generated output bytes.

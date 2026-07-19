@@ -44,6 +44,9 @@ the other from the slug alone.
   date-level `comparisons/` evidence directory as a control area.
 - **Repository navigation** — `README.md`, `CATALOG.md`, `docs/`, and
   `scripts/`; these may be maintained without changing source artifacts.
+- **Pages publication** — `scripts/build_pages_site.py` creates a sanitized
+  `_site/` artifact. Only `_site/` is deployable; never publish the repository
+  root or `sources/` directly. See [PAGES_PUBLICATION.md](PAGES_PUBLICATION.md).
 
 ## Naming rules
 
