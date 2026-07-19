@@ -1,0 +1,52 @@
+{
+  "build_id": "4c4b9cde1539b593d4064e32dd14bfd769e4bd64f7ff92e8214c130f7adec51d",
+  "detector": {
+    "expected_cli_version": "3.2.1",
+    "path": "/opt/data/bin/impeccable",
+    "resolved_path": "/opt/data/lib/node_modules/impeccable/cli/bin/cli.js",
+    "scans": [
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "raw"
+      },
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "design-aware"
+      }
+    ],
+    "sha256": "62e2bb19a4dc7aecf10ea0ec824a20d3ecb174e65b212eb371cc9b2da271935d"
+  },
+  "findings": [],
+  "gate_exit_code": 0,
+  "generated_at": "2026-07-19T17:35:01.553695+00:00",
+  "impeccable_skill_commit": "44c27a72af98394c32691ba79358811bff86bde6",
+  "policy_sha256": "21936021ef4272afbb508483f0e0e5a5b7ec5a4613630f864e1c8bbffe684604",
+  "policy_version": "prospect-brand-style-gate-v2",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/transformatoria-escola",
+  "release_manifest": {
+    "index.html": {
+      "sha256": "e58030a997b8d423b657bfa249834fe6899530937a33077eca709db837dc66a0",
+      "size": 7879
+    },
+    "proposal.html": {
+      "sha256": "92cf0435b84ef02da4ce939f5dbf7ead6fed93bc467cf8c6a60cb03c075a8f2c",
+      "size": 7380
+    },
+    "rationale.html": {
+      "sha256": "b5cce1fc357e3f582c920075d2cc2ea17724d1af2adb5e2969527cd6af5f5c50",
+      "size": 404
+    },
+    "script.js": {
+      "sha256": "cacf1b97f92959a73a436882b4e07b12720b1232e16b28351a988d59fd1f4134",
+      "size": 2560
+    },
+    "styles.css": {
+      "sha256": "839f81b5f43d4d659c210c3749e9c980a41525bbf512211ed888db6b64bda511",
+      "size": 20440
+    }
+  },
+  "schema": 3,
+  "status": "clean"
+}

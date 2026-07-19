@@ -1,0 +1,10 @@
+{
+  "afk_queue_id": "q-1784475798159-4b28a1",
+  "agent": "afk",
+  "business_name": "Escola Transformatória",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/transformatoria-escola",
+  "queued_at": "2026-07-19T15:43:18.171568+00:00",
+  "schema": 2,
+  "status": "queued",
+  "task_id": "task-ae521447c5524465893a327f5b6b37c8"
+}

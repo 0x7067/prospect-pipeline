@@ -1,0 +1,29 @@
+# Design direction: O Diagnóstico do Palco
+
+## Compositional thesis
+
+The page behaves like a decision system, not a scrolling brochure. A void-black marquee threshold opens with a single bifurcation — **Você** or **Sua equipe** — before any service is described. Choosing a door reveals one credible route: an editorial "program" of individual formations on a paper-white field, or a single oxblood-curtain chapter for in-company work. A quiet curtain-call closes on the address and one restated next step. Four acts, one spine: diagnose, then reveal one path, never both at once.
+
+## System
+
+- **Palette (OKLCH, contrast-checked):** `--void #0a0808`-ish near-black (opening/close), `--curtain` oxblood-tinted dark (company chapter), `--paper` true white (individual chapter), `--spotlight` a single saturated rose-crimson accent (hue ≈353°, the seed anchor) reserved for decision moments (CTAs, the diagnostic marker, key underlines), and `--gold` a restrained marquee-bulb glint used only for dot-rule motifs and large numeral glyphs on dark/tinted grounds — never as small body text on white (verified below 3:1 there). Every text/background pairing actually used in the build was computed in OKLCH→sRGB and checked against WCAG; all body-text pairs clear 7:1+, all large/UI pairs clear 3:1+.
+- **Color evolution:** void-black opening → paper-white individual chapter → oxblood-curtain company chapter → void-black curtain-call close. The palette inverts once per audience switch, so the visitor feels the two paths are genuinely different journeys, not the same page recolored.
+- **Typography:** two voices, tied directly to the concept. The **stage voice** (display serif, italic at emotional beats — headline, taglines, pull-language) carries the theatrical register. The **system voice** (a clean humanist/grotesk sans, upright, structural) carries the diagnostic-UI language — labels, nav, CTAs, the numbered program list. Declared stacks: display `Cambria, Georgia, "Liberation Serif", serif`; body/UI `"Segoe UI", system-ui, -apple-system, "DejaVu Sans", sans-serif`. This sandbox resolves the fallbacks locally (no web-font network request); production hosting would use the named fonts directly. Fluid `clamp()` scale, ratio ≥1.25, per brand register.
+- **Elevation:** flat by default. No cards, no glass, no drop-shadows-as-decoration. Hierarchy comes from full-bleed color fields, type scale, and rule motifs — not elevation.
+- **Image-treatment rule:** zero photographic imagery. No verified, reusable photo or logo asset exists in the supplied evidence (only textual descriptions of stage/trainer/testimonial cues, no downloadable files) — the honest move is original CSS/SVG stagecraft, never a stock substitute standing in for this specific school's unverified facility or people. Devices used: a single restrained spotlight glow (Act I), a curtain-fold stripe texture (Act III, oxblood-on-oxblood, never decorative gradient-text or glassmorphism), a marquee dot-rule (section transitions), and a filmstrip tick-rule (referencing the verified "filmed-practice" cue). All are monochrome-or-single-accent, hard-edged, and always subordinate to the type they sit behind.
+- **Motion:** one slow, subtle spotlight-glow pulse (opacity/transform only, GPU-cheap) in Act I; reveal-on-scroll for section entries, staggered per element, not a uniform fade reflex. Both fully disabled under `prefers-reduced-motion`.
+
+## Art-directed moments
+
+1. **The Marquee Threshold (Act I):** asymmetric void-black stage, spotlight glow, the verified "A escola dos protagonistas" kicker, an original headline, and the literal two-door bifurcation (Você / Sua equipe) as the page's first real decision.
+2. **The Program (Act II):** paper-white editorial numbered list of individual formations (not a card grid), styled like a theater program insert, with the single free-diagnosis CTA as the only saturated color on the field.
+3. **The Curtain (Act III):** full-bleed oxblood chapter with a curtain-fold CSS texture, inverting the palette to signal a genuinely distinct B2B journey (problem → tailored in-company proposal).
+4. **The Curtain Call (close):** quiet void-deep address moment — Curitiba address as spatial typography, one restated next step, marquee dot-rule motif.
+
+## Mobile-native rhythm
+
+The two-door split becomes two full-height stacked tap zones that keep their distinct color identity (paper chip / curtain chip) rather than collapsing into one plain list. The program list becomes a single generously-spaced column. The curtain-fold texture tightens its repeat pitch instead of stretching. The address close remains a full-bleed edge-to-edge moment on mobile, not merely a shrunk desktop block. All tap targets ≥44×44px; the mobile nav announces open/closed state and traps nothing it shouldn't.
+
+## Evidence and honesty boundary
+
+All business facts trace to `prospect.json` / `BRAND_SOURCE.md`: founder Heverson Barbosa, the verified taglines ("A escola dos protagonistas", "Quem Comunica Multiplica", "Capital Comunicacional", "Diagnóstico gratuito em 2 minutos"), the verified service list, the Curitiba address, and the stage/mic/filmed-practice/live-experience cues (paraphrased, not copied verbatim from the live site's substantial text). No experience-year count, enrollment total, NPS figure, award, or outcome multiplier is restated or invented — those are exactly the ambiguous/contradictory claims the brief instructs us to remove, and no replacement number is fabricated in their place. The only outbound link is the prospect's own already-public contact route (`https://transformatoria.com.br/contato/`) and OpenStreetMap for address verification — the same pattern used across sibling builds in this pipeline. This is an **early visual direction**, not production-complete or ready for publication.

@@ -1,0 +1,544 @@
+/* ==========================================================================
+   Escola Transformatória — "O Diagnóstico do Palco"
+   Compositional thesis: the page behaves as a decision system — diagnose the
+   communicator or team first, then reveal one credible training route.
+   Four acts, one spine: void-black threshold -> paper-white individual
+   program -> oxblood curtain (in-company) -> void curtain-call close.
+   Palette is OKLCH throughout; every text/background pair used below was
+   checked against WCAG (body text >=4.5:1 / large & UI >=3:1) before use.
+   Image-treatment rule: zero photography (no verified reusable asset exists
+   in the supplied evidence). All stagecraft devices — spotlight glow, door
+   tints, curtain folds — are original CSS-native shapes, never gradients
+   used as decoration and never glassmorphism.
+   ========================================================================== */
+
+:root {
+  /* -- Stage palette (OKLCH) --------------------------------------------- */
+  --void: oklch(0.09 0.004 353);
+  --void-deep: oklch(0.06 0.003 353);
+  --curtain: oklch(0.24 0.058 22);
+  --curtain-deep: oklch(0.17 0.05 22);
+  --paper: oklch(1 0 0);
+  --paper-tint: oklch(0.965 0.008 353);
+  --ink: oklch(0.16 0.012 353);
+  --ink-on-dark: oklch(0.96 0.006 353);
+  --muted: oklch(0.42 0.02 353);
+  --muted-on-dark: oklch(0.74 0.02 353);
+  --spotlight: oklch(0.57 0.158 353.3);
+  --spotlight-deep: oklch(0.43 0.16 353.3);
+  --gold: oklch(0.86 0.115 85);
+
+  /* -- Type ---------------------------------------------------------------
+     Display voice carries the theatrical register (headlines, act labels,
+     the pull-quote). System voice carries diagnostic/UI language (nav,
+     labels, program list, CTAs). Both are local, system-safe stacks: no
+     external font request is made by this build. */
+  --display: Cambria, Georgia, "Liberation Serif", serif;
+  --body: "Segoe UI", system-ui, -apple-system, "DejaVu Sans", Arial, sans-serif;
+
+  --pad: clamp(1.25rem, 4.5vw, 4.75rem);
+  --edge: clamp(1.25rem, 5vw, 5rem);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--void);
+  color: var(--ink-on-dark);
+  font-family: var(--body);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}
+img { max-width: 100%; display: block; }
+a { color: inherit; }
+h1, h2, h3 {
+  font-family: var(--display);
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  line-height: 1.05;
+  margin: 0;
+  text-wrap: balance;
+}
+p { text-wrap: pretty; }
+
+/* -- Focus & skip link ---------------------------------------------------
+   Spotlight clears >=3:1 against every background this page uses (void,
+   void-deep, curtain, curtain-deep, paper, paper-tint) — verified in OKLCH
+   before implementation, so a single ring color works everywhere. */
+a:focus-visible, button:focus-visible {
+  outline: 3px solid var(--spotlight);
+  outline-offset: 3px;
+}
+.skip {
+  position: fixed;
+  top: -6rem;
+  left: 1rem;
+  z-index: 50;
+  background: var(--spotlight-deep);
+  color: var(--paper);
+  padding: .9rem 1.25rem;
+  font-size: .9375rem;
+  font-weight: 600;
+  transition: top .2s ease;
+}
+.skip:focus { top: 1rem; }
+@media (prefers-reduced-motion: reduce) { .skip { transition: none; } }
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  height: 84px;
+  padding: 0 var(--pad);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--void);
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+.identity {
+  display: inline-flex;
+  align-items: center;
+  gap: .8rem;
+  text-decoration: none;
+  font-size: .9rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.identity-mark {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 48px;
+  background: var(--spotlight);
+  color: var(--paper);
+  font: italic 1.6rem var(--display);
+  flex-shrink: 0;
+}
+.identity span { color: var(--ink-on-dark); }
+
+.menu-button {
+  display: none;
+  border: 0;
+  background: none;
+  color: var(--ink-on-dark);
+  font: 600 .875rem var(--body);
+  min-height: 44px;
+  min-width: 44px;
+  align-items: center;
+  gap: .5rem;
+  cursor: pointer;
+}
+.menu-button i, .menu-button i::before, .menu-button i::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: currentColor;
+}
+.menu-button i::before { transform: translateY(-6px); }
+.menu-button i::after { transform: translateY(4px); }
+
+nav#navigation { display: flex; align-items: center; gap: clamp(1.25rem, 2.5vw, 2.5rem); }
+nav#navigation a {
+  text-decoration: none;
+  font-size: .9375rem;
+  font-weight: 600;
+  color: var(--muted-on-dark);
+}
+nav#navigation a:not(.nav-action):hover { color: var(--ink-on-dark); text-decoration: underline; text-underline-offset: 5px; }
+.nav-action {
+  border: 1px solid var(--spotlight);
+  color: var(--ink-on-dark) !important;
+  padding: .65rem 1.1rem;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+.nav-action:hover { background: var(--spotlight); }
+
+@media (max-width: 780px) {
+  .menu-button { display: inline-flex; }
+  nav#navigation {
+    display: none;
+    position: absolute;
+    top: 84px;
+    left: 0;
+    right: 0;
+    background: var(--void);
+    border-bottom: 1px solid rgba(255, 255, 255, .12);
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: .5rem var(--pad) 1.5rem;
+  }
+  nav#navigation.open { display: flex; }
+  nav#navigation a { padding: .85rem 0; min-height: 44px; display: flex; align-items: center; }
+  .nav-action { justify-content: center; margin-top: .5rem; }
+}
+
+/* ==========================================================================
+   Ato I — The Marquee Threshold (hero)
+   ========================================================================== */
+.hero {
+  position: relative;
+  background: var(--void);
+  padding: clamp(3.5rem, 10vh, 7rem) var(--edge) clamp(3rem, 8vh, 5rem);
+  overflow: hidden;
+}
+/* Spotlight glow: a single solid-color shape softened with blur — an
+   approved "glow" material, never a gradient function. Tied directly to
+   the stage concept (a literal spotlight beam), used exactly once. */
+.spotlight-glow {
+  position: absolute;
+  top: -12%;
+  left: 50%;
+  width: min(70vw, 900px);
+  height: min(70vw, 900px);
+  transform: translateX(-50%);
+  background: var(--spotlight);
+  opacity: .16;
+  filter: blur(110px);
+  border-radius: 50%;
+  pointer-events: none;
+}
+.hero-inner { position: relative; max-width: 1180px; margin: 0 auto; text-align: center; }
+.kicker {
+  font: italic clamp(1.05rem, 1.6vw, 1.35rem) var(--display);
+  color: var(--gold);
+  margin: 0 0 1.75rem;
+}
+.hero h1 {
+  font-size: clamp(2.75rem, 7vw, 5.75rem);
+  max-width: 20ch;
+  margin: 0 auto;
+  color: var(--ink-on-dark);
+}
+.hero-intro {
+  font-size: clamp(1.05rem, 1.4vw, 1.25rem);
+  color: var(--muted-on-dark);
+  max-width: 56ch;
+  margin: 1.75rem auto 0;
+}
+
+.doors {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  max-width: 920px;
+  margin: clamp(2.5rem, 6vw, 3.75rem) auto 0;
+  text-align: left;
+}
+.door {
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+  padding: clamp(1.5rem, 3vw, 2.25rem);
+  text-decoration: none;
+  min-height: 180px;
+  justify-content: center;
+  transition: transform .25s cubic-bezier(.16,1,.3,1), background-color .25s ease;
+}
+@media (prefers-reduced-motion: reduce) { .door { transition: none; } }
+.door:hover { transform: translateY(-4px); }
+.door-eyebrow { font-size: .875rem; font-weight: 700; letter-spacing: .03em; }
+.door h2 { font-size: clamp(1.75rem, 3vw, 2.5rem); color: var(--ink-on-dark); }
+.door p { margin: 0; font-size: .9375rem; color: var(--muted-on-dark); max-width: 32ch; }
+.door-arrow { font-size: 1.25rem; }
+
+.door--individual {
+  background: rgba(255, 255, 255, .05);
+  border: 1px solid rgba(255, 255, 255, .22);
+}
+.door--individual:hover { background: rgba(255, 255, 255, .09); }
+.door--individual .door-eyebrow { color: var(--ink-on-dark); }
+.door--individual .door-arrow { color: var(--paper); }
+
+.door--empresas {
+  background: rgba(186, 72, 68, .14);
+  border: 1px solid rgba(220, 110, 90, .4);
+}
+.door--empresas:hover { background: rgba(186, 72, 68, .22); }
+.door--empresas .door-eyebrow { color: var(--gold); }
+.door--empresas .door-arrow { color: var(--gold); }
+
+@media (max-width: 700px) {
+  .hero { text-align: left; padding-top: 3rem; }
+  .hero-inner { text-align: left; }
+  .hero h1 { margin: 0; }
+  .hero-intro { margin-left: 0; margin-right: 0; }
+  .doors { grid-template-columns: 1fr; margin-left: calc(var(--edge) * -1); margin-right: calc(var(--edge) * -1); max-width: none; gap: 0; }
+  .door { min-height: 34vh; border-radius: 0; padding: 1.75rem var(--edge); border-left: 0; border-right: 0; }
+  .door--individual { border-bottom: 0; }
+}
+
+/* Buttons ------------------------------------------------------------- */
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.25rem;
+  justify-content: space-between;
+  background: var(--spotlight);
+  color: var(--paper);
+  text-decoration: none;
+  padding: 1.05rem 1.35rem;
+  min-height: 52px;
+  font: 700 .9375rem var(--body);
+  letter-spacing: .01em;
+}
+.button:hover { background: var(--spotlight-deep); }
+.button-dark { background: var(--ink); color: var(--paper); }
+.button-dark:hover { background: var(--void-deep); }
+.button-light { background: var(--paper); color: var(--curtain-deep); }
+.button-light:hover { background: var(--gold); color: var(--curtain-deep); }
+.text-link { font-weight: 700; font-size: .9375rem; text-underline-offset: 5px; }
+
+/* ==========================================================================
+   Ato II — O Programa (individual path, paper-white)
+   ========================================================================== */
+.programa {
+  background: var(--paper);
+  color: var(--ink);
+  padding: 4.5rem 3rem;
+}
+@media (min-width: 900px) {
+  .programa { padding: 7rem 5rem; }
+}
+.act-eyebrow {
+  font: italic clamp(1.05rem, 1.5vw, 1.25rem) var(--display);
+  color: var(--spotlight-deep);
+  margin: 0 0 .75rem;
+}
+.section-heading { max-width: 900px; }
+.section-heading h2 { font-size: clamp(2.25rem, 4.5vw, 3.75rem); color: var(--ink); }
+.section-intro { max-width: 62ch; color: var(--muted); font-size: 1.0625rem; margin: 1.5rem 0 0; }
+
+.program-list {
+  list-style: none;
+  padding: 0;
+  margin: clamp(2.5rem, 5vw, 3.5rem) 0 0;
+  max-width: 900px;
+  border-top: 1px solid rgba(18, 8, 10, .14);
+}
+.program-list li {
+  padding: 1.35rem .25rem;
+  border-bottom: 1px solid rgba(18, 8, 10, .14);
+}
+.program-list h3 { font-size: clamp(1.2rem, 2vw, 1.5rem); color: var(--ink); font-family: var(--display); font-weight: 400; }
+.program-list p { margin: .35rem 0 0; color: var(--muted); font-size: .9375rem; max-width: 48ch; }
+
+.program-cta { margin-top: clamp(2.5rem, 5vw, 3.5rem); display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap; }
+
+.pull-quote {
+  margin: clamp(3.5rem, 7vw, 5.5rem) 0 0;
+  padding: clamp(2rem, 4vw, 2.75rem) 0 0;
+  border-top: 1px solid rgba(18, 8, 10, .14);
+  font: italic clamp(1.75rem, 4vw, 3rem) var(--display);
+  color: var(--spotlight-deep);
+  max-width: 18ch;
+}
+
+@media (max-width: 700px) {
+  .programa { padding: 4rem 1.5rem; }
+  .program-cta { flex-direction: column; align-items: stretch; }
+  .program-cta .button { width: 100%; }
+}
+
+/* ==========================================================================
+   Ato III — The Curtain (in-company, oxblood dark)
+   ========================================================================== */
+.empresas {
+  position: relative;
+  background: var(--curtain);
+  color: var(--ink-on-dark);
+  padding: 4.5rem 3rem;
+  overflow: hidden;
+}
+@media (min-width: 900px) {
+  .empresas { padding: 7rem 5rem; }
+}
+.empresas .act-eyebrow { color: var(--gold); }
+.empresas .section-heading h2 { color: var(--ink-on-dark); }
+.empresas-body { max-width: 60ch; margin-top: clamp(1.75rem, 3vw, 2.5rem); }
+.empresas-body p { color: var(--muted-on-dark); font-size: 1.0625rem; }
+.empresas-body p + p { margin-top: 1.25rem; }
+.empresas .program-cta { margin-top: clamp(2.25rem, 4vw, 3rem); }
+.empresas .button-light { }
+
+/* Curtain-fold texture: solid alternating bars (no gradient function),
+   positioned as a receding fold on the trailing edge of the chapter. */
+.curtain-folds {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: min(34vw, 340px);
+  display: flex;
+  opacity: .9;
+}
+.curtain-folds span { flex: 1; }
+.curtain-folds span:nth-child(odd) { background: var(--curtain-deep); }
+.curtain-folds span:nth-child(even) { background: color-mix(in oklch, var(--curtain) 88%, black 12%); }
+
+@media (max-width: 700px) {
+  .empresas { padding: 4rem 1.5rem; }
+  .curtain-folds { width: 22vw; }
+  .empresas .program-cta .button { width: 100%; }
+}
+
+/* ==========================================================================
+   A escola — institutional chapter
+   ========================================================================== */
+.escola { background: var(--void-deep); color: var(--ink-on-dark); padding: clamp(4.5rem, 9vw, 8rem) var(--edge); }
+.escola .act-eyebrow { color: var(--gold); }
+.escola .section-heading h2 { color: var(--ink-on-dark); }
+.escola-body { max-width: 66ch; margin-top: clamp(1.5rem, 3vw, 2rem); }
+.escola-body p { color: var(--muted-on-dark); font-size: 1.0625rem; }
+.escola-body p + p { margin-top: 1.1rem; }
+
+.axis-strip {
+  display: flex;
+  border-top: 1px solid rgba(255, 255, 255, .14);
+  border-bottom: 1px solid rgba(255, 255, 255, .14);
+  margin-top: clamp(3rem, 6vw, 4.5rem);
+  max-width: 900px;
+}
+.axis-strip span { flex: 1; padding: 1.35rem 0; font-size: .9375rem; font-weight: 700; color: var(--ink-on-dark); }
+.axis-strip span + span { border-left: 1px solid rgba(255, 255, 255, .14); padding-left: 1.5rem; }
+.axis-strip b { display: block; font: italic 1.05rem var(--display); color: var(--gold); font-weight: 400; margin-bottom: .3rem; }
+
+@media (max-width: 700px) {
+  .axis-strip { flex-direction: column; }
+  .axis-strip span + span { border-left: 0; border-top: 1px solid rgba(255, 255, 255, .14); padding-left: 0; padding-top: 1.35rem; }
+}
+
+/* ==========================================================================
+   Curtain call — address close
+   ========================================================================== */
+.contato-final {
+  position: relative;
+  background: var(--void);
+  color: var(--ink-on-dark);
+  padding: clamp(4.5rem, 9vw, 8rem) var(--edge);
+  overflow: hidden;
+}
+.address-mark {
+  position: absolute;
+  right: -.02em;
+  bottom: -.28em;
+  color: rgba(255, 255, 255, .05);
+  font: italic clamp(9rem, 24vw, 22rem) var(--display);
+  line-height: 1;
+  pointer-events: none;
+}
+.contato-final .section-heading { position: relative; z-index: 1; }
+.contato-final .act-eyebrow { color: var(--gold); }
+.contato-final .section-heading h2 { color: var(--ink-on-dark); }
+.contato-grid {
+  position: relative;
+  z-index: 1;
+  margin-top: clamp(2.5rem, 5vw, 3.5rem);
+  display: grid;
+  grid-template-columns: 1.1fr .9fr;
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: end;
+}
+.contato-final address {
+  font-style: normal;
+  border-left: 2px solid var(--spotlight);
+  padding-left: 1.5rem;
+}
+.contato-final address p { font: clamp(1.35rem, 2.2vw, 1.9rem) var(--display); margin: 0 0 1.25rem; color: var(--ink-on-dark); }
+.contato-final .text-link { color: var(--gold); }
+.contato-final .program-cta { justify-self: start; }
+
+@media (max-width: 760px) {
+  .contato-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+  .contato-final .program-cta .button { width: 100%; }
+  .address-mark { font-size: 9rem; }
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+footer.site-footer {
+  background: var(--void-deep);
+  color: var(--muted-on-dark);
+  padding: 2.5rem var(--edge);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  border-top: 1px solid rgba(255, 255, 255, .1);
+}
+footer.site-footer .identity { font-size: .8125rem; }
+footer.site-footer p { margin: 0; font-size: .875rem; }
+
+/* ==========================================================================
+   Reveal-on-scroll (staggered, disabled under reduced motion)
+   ========================================================================== */
+/* Content is visible by default, with or without JS. The reveal effect is a
+   progressive enhancement: only elements explicitly marked ".pending" by
+   script.js (because they were off-screen at load) ever go transparent, and
+   a JS-side failsafe timer forces them visible regardless of whether the
+   IntersectionObserver fires. Content must never depend on a class-triggered
+   transition to become visible at all. */
+.reveal { opacity: 1; transform: none; }
+.js .reveal.pending {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity .7s cubic-bezier(.16,1,.3,1), transform .7s cubic-bezier(.16,1,.3,1);
+}
+.js .reveal.pending.visible { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .js .reveal.pending { opacity: 1; transform: none; transition: none; }
+  .spotlight-glow { display: none; }
+}
+
+/* ==========================================================================
+   Proposal document (independent sales page) — scoped, shares tokens above
+   ========================================================================== */
+.proposal { max-width: 1080px; margin: 0 auto; padding: clamp(3rem, 6vw, 5rem) var(--edge) clamp(4rem, 8vw, 6rem); background: var(--paper); color: var(--ink); }
+.proposal .proposal-flag {
+  display: inline-flex;
+  align-items: center;
+  gap: .6rem;
+  background: var(--curtain);
+  font: 700 1.0625rem var(--body);
+  letter-spacing: .03em;
+  padding: .55rem .9rem;
+  margin-bottom: 1.75rem;
+}
+.proposal .proposal-flag { color: var(--gold); }
+.proposal .proposal-flag--bare { background: transparent; color: var(--spotlight-deep); padding: 0; }
+.proposal header { border-bottom: 1px solid rgba(18, 8, 10, .16); padding-bottom: clamp(2.5rem, 5vw, 3.5rem); margin-bottom: clamp(2.5rem, 5vw, 3.5rem); }
+.proposal h1 { font-size: clamp(2.5rem, 6vw, 4.5rem); max-width: 18ch; margin: 0 0 1.5rem; color: var(--ink); }
+.proposal .lede { font: clamp(1.25rem, 2.2vw, 1.65rem) var(--display); max-width: 42ch; color: var(--muted); margin: 0; }
+.proposal section { display: grid; grid-template-columns: minmax(180px, 1fr) 2.1fr; gap: clamp(1.75rem, 4vw, 3.5rem); padding: 3rem .75rem; border-bottom: 1px solid rgba(18, 8, 10, .14); }
+.proposal h2 { font-size: clamp(1.75rem, 3vw, 2.5rem); color: var(--ink); }
+.proposal h3 { font-size: 1.375rem; font-weight: 700; font-family: var(--body); margin: 0 0 .5rem; color: var(--spotlight-deep); }
+.proposal p, .proposal li { max-width: 66ch; color: var(--muted); }
+.proposal strong { color: var(--ink); }
+.proposal ol, .proposal ul { padding-left: 1.15rem; margin: 0; }
+.proposal li { margin: 0 0 .85rem; }
+.proposal li:last-child { margin-bottom: 0; }
+.proposal .evidence-note { background: var(--paper-tint); padding: 1.25rem 1.5rem; font-size: 1.0625rem; margin-top: 1rem; border: 1px solid rgba(18, 8, 10, .1); }
+.proposal .compare-unavailable { margin: 0; border: 1px dashed rgba(18, 8, 10, .3); padding: 1.5rem; font-size: 1.0625rem; color: var(--muted); }
+.proposal .status-band { background: var(--void); color: var(--ink-on-dark); padding: 3rem 2.5rem; margin-top: clamp(2.5rem, 5vw, 3.5rem); }
+.proposal .status-band h3 { color: var(--gold); }
+.proposal .status-band p { color: var(--muted-on-dark); max-width: 60ch; }
+.proposal .status-band .proposal-flag--bare { color: var(--gold); }
+.proposal footer.proposal-footer { margin: clamp(2.5rem, 5vw, 3.5rem) calc(var(--edge) * -1) calc(clamp(3rem, 6vw, 5rem) * -1); background: var(--void-deep); color: var(--muted-on-dark); padding: 2.5rem var(--edge); text-align: center; font-size: 1.0625rem; }
+.proposal .proposal-footer p { color: var(--muted-on-dark); }
+.proposal footer.proposal-footer a { color: var(--gold); font-weight: 700; text-underline-offset: 4px; }
+
+@media (max-width: 760px) {
+  .proposal section, .proposal .compare-block { grid-template-columns: 1fr; }
+}

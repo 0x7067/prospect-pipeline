@@ -1,0 +1,199 @@
+{
+  "browser": {
+    "engine": "playwright chromium",
+    "error": null,
+    "required_matrix_complete": true,
+    "required_pages": [
+      "index.html",
+      "proposal.html",
+      "rationale.html"
+    ],
+    "required_viewports": {
+      "desktop": {
+        "height": 900,
+        "width": 1440
+      },
+      "mobile": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    "results": [
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:33633/index.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-desktop.png",
+        "screenshot_sha256": "be66055ce00d622f501e697ed5afe18c26c4b58fddb4122a8e61ed8ed86659d4",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Escola Transformatória · A escola dos protagonistas",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:33633/index.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-mobile.png",
+        "screenshot_sha256": "0b06c063e4bf0417d3a4f26aa22a6fa8f2dec4d39e4fef5f8f6b0b214199bee6",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Escola Transformatória · A escola dos protagonistas",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:33633/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-desktop.png",
+        "screenshot_sha256": "5a1c720003de15dc2e2e113af6ea9d5405ed40cac37992597dfd238b6d9b9411",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta independente: Escola Transformatória",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:33633/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-mobile.png",
+        "screenshot_sha256": "e0ebc170d0e32d98ef81c9e10312f1ca6b9b38902255acb8e34ef1a48903b3d7",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta independente: Escola Transformatória",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:33633/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-desktop.png",
+        "screenshot_sha256": "5a1c720003de15dc2e2e113af6ea9d5405ed40cac37992597dfd238b6d9b9411",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta independente: Escola Transformatória",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:33633/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-mobile.png",
+        "screenshot_sha256": "e0ebc170d0e32d98ef81c9e10312f1ca6b9b38902255acb8e34ef1a48903b3d7",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta independente: Escola Transformatória",
+        "viewport": "mobile",
+        "width": 390
+      }
+    ],
+    "status": "pass"
+  },
+  "build_id": "4c4b9cde1539b593d4064e32dd14bfd769e4bd64f7ff92e8214c130f7adec51d",
+  "detector": {
+    "command": "/opt/data/.venvs/curitiba/bin/python /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-19/transformatoria-escola",
+    "current_clean": true,
+    "current_findings": false,
+    "exit_code": 0,
+    "status": "clean",
+    "stderr": "",
+    "stdout": ""
+  },
+  "generated_at": "2026-07-19T17:35:12.769883+00:00",
+  "node_check": {
+    "command": "node --check script.js",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/transformatoria-escola",
+  "release_manifest": {
+    "index.html": {
+      "sha256": "e58030a997b8d423b657bfa249834fe6899530937a33077eca709db837dc66a0",
+      "size": 7879
+    },
+    "proposal.html": {
+      "sha256": "92cf0435b84ef02da4ce939f5dbf7ead6fed93bc467cf8c6a60cb03c075a8f2c",
+      "size": 7380
+    },
+    "rationale.html": {
+      "sha256": "b5cce1fc357e3f582c920075d2cc2ea17724d1af2adb5e2969527cd6af5f5c50",
+      "size": 404
+    },
+    "script.js": {
+      "sha256": "cacf1b97f92959a73a436882b4e07b12720b1232e16b28351a988d59fd1f4134",
+      "size": 2560
+    },
+    "styles.css": {
+      "sha256": "839f81b5f43d4d659c210c3749e9c980a41525bbf512211ed888db6b64bda511",
+      "size": 20440
+    }
+  },
+  "schema": 1,
+  "status": "pass"
+}
