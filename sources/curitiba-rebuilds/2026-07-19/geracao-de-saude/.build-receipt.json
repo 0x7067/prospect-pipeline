@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "status": "failed",
+  "build_id": "550d48ea84b9e15e8e77edc1474de0498659dece46f3de4419a1122529d642c1",
+  "validation_runs": 2,
+  "node_syntax": "pass",
+  "browser_matrix": "pass",
+  "detector": "pass",
+  "blocking_findings": [
+    "The final desktop and mobile full-page captures show the situation-routing, care-story, and assessment content blank because .reveal elements default to opacity: 0 and the capture path does not intersect them before rendering. This violates the required below-fold and already-visible-by-default craft bars."
+  ],
+  "summary": "The standardized validator passed and is bound to this build, but independent visual inspection found a blocking below-fold visibility defect. The single consolidated repair and second detector run were already consumed, so the build is truthfully failed and requires a bounded correction task before promotion."
+}

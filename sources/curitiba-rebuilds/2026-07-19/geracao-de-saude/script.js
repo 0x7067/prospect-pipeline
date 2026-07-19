@@ -1,0 +1,6 @@
+const menuButton=document.querySelector('.menu-toggle');
+const menu=document.querySelector('#menu');
+if(menuButton&&menu){const label=menuButton.querySelector('.sr-only');const closeMenu=()=>{menu.classList.remove('is-open');menuButton.setAttribute('aria-expanded','false');if(label)label.textContent='Abrir menu'};menuButton.addEventListener('click',()=>{const open=menu.classList.toggle('is-open');menuButton.setAttribute('aria-expanded',String(open));if(label)label.textContent=open?'Fechar menu':'Abrir menu'});menu.querySelectorAll('a').forEach(link=>link.addEventListener('click',closeMenu));document.addEventListener('keydown',event=>{if(event.key==='Escape'&&menu.classList.contains('is-open')){closeMenu();menuButton.focus()}})}
+document.querySelectorAll('[data-year]').forEach(node=>{node.textContent=String(new Date().getFullYear())});
+const items=document.querySelectorAll('.reveal');
+if('IntersectionObserver'in window){const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target)}}),{threshold:.08});items.forEach(item=>observer.observe(item))}else{items.forEach(item=>item.classList.add('is-visible'))}

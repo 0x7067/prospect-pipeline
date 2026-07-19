@@ -1,0 +1,52 @@
+{
+  "build_id": "550d48ea84b9e15e8e77edc1474de0498659dece46f3de4419a1122529d642c1",
+  "detector": {
+    "expected_cli_version": "3.2.1",
+    "path": "/opt/data/bin/impeccable",
+    "resolved_path": "/opt/data/lib/node_modules/impeccable/cli/bin/cli.js",
+    "scans": [
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "raw"
+      },
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "design-aware"
+      }
+    ],
+    "sha256": "62e2bb19a4dc7aecf10ea0ec824a20d3ecb174e65b212eb371cc9b2da271935d"
+  },
+  "findings": [],
+  "gate_exit_code": 0,
+  "generated_at": "2026-07-19T18:10:10.945347+00:00",
+  "impeccable_skill_commit": "44c27a72af98394c32691ba79358811bff86bde6",
+  "policy_sha256": "21936021ef4272afbb508483f0e0e5a5b7ec5a4613630f864e1c8bbffe684604",
+  "policy_version": "prospect-brand-style-gate-v2",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/geracao-de-saude",
+  "release_manifest": {
+    "index.html": {
+      "sha256": "6cc3d1fabc2c5887ef35736b98e7cb60d15ea6758fbdbdfc158a6dbac2742cee",
+      "size": 6998
+    },
+    "proposal.html": {
+      "sha256": "38367d9e6810ee1e9b2b2c9bd8d56a5cdd87c7ad64b8c613d067e6491c8780cf",
+      "size": 3202
+    },
+    "rationale.html": {
+      "sha256": "38d51912844c97b67e8ff9c30a1167b79e6909fd43704dac0da3aaa26d8dbc23",
+      "size": 333
+    },
+    "script.js": {
+      "sha256": "5a262ba6bf4e952e08e6d9519df23d9aaeb42bf868415365b37c24e8af1d70ea",
+      "size": 1229
+    },
+    "styles.css": {
+      "sha256": "77be7f25993ca2cf93fc774e0dc0f2a74401315184e3996dd3293c21aae79fd6",
+      "size": 9091
+    }
+  },
+  "schema": 3,
+  "status": "clean"
+}

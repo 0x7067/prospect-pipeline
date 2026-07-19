@@ -1,0 +1,199 @@
+{
+  "browser": {
+    "engine": "playwright chromium",
+    "error": null,
+    "required_matrix_complete": true,
+    "required_pages": [
+      "index.html",
+      "proposal.html",
+      "rationale.html"
+    ],
+    "required_viewports": {
+      "desktop": {
+        "height": 900,
+        "width": 1440
+      },
+      "mobile": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    "results": [
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:37501/index.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-desktop.png",
+        "screenshot_sha256": "ec4dd305f7bfc36baf994e8f6fb918af636e6be5b41ed79dfc23a79a84d716de",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Geração de Saúde | Cuidado especializado para idosos",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:37501/index.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-mobile.png",
+        "screenshot_sha256": "0e6ca9779eba6f4e970e96f6c447d58a33b0c60bad819c0eb1738c47cb9fc6ea",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Geração de Saúde | Cuidado especializado para idosos",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:37501/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-desktop.png",
+        "screenshot_sha256": "defd3b51c7f83fba12e71526781937eecc1a96575cc25f2b9da96bf0a34240f0",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta independente | Geração de Saúde",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:37501/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-mobile.png",
+        "screenshot_sha256": "0de3d9fd52d06f24cf84cd6f66820da9a3497442fa45bc0a11c781804549cac1",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta independente | Geração de Saúde",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:37501/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-desktop.png",
+        "screenshot_sha256": "defd3b51c7f83fba12e71526781937eecc1a96575cc25f2b9da96bf0a34240f0",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta independente | Geração de Saúde",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:37501/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-mobile.png",
+        "screenshot_sha256": "0de3d9fd52d06f24cf84cd6f66820da9a3497442fa45bc0a11c781804549cac1",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta independente | Geração de Saúde",
+        "viewport": "mobile",
+        "width": 390
+      }
+    ],
+    "status": "pass"
+  },
+  "build_id": "550d48ea84b9e15e8e77edc1474de0498659dece46f3de4419a1122529d642c1",
+  "detector": {
+    "command": "/opt/data/.venvs/curitiba/bin/python /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-19/geracao-de-saude",
+    "current_clean": true,
+    "current_findings": false,
+    "exit_code": 0,
+    "status": "clean",
+    "stderr": "",
+    "stdout": ""
+  },
+  "generated_at": "2026-07-19T18:10:22.695372+00:00",
+  "node_check": {
+    "command": "node --check script.js",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/geracao-de-saude",
+  "release_manifest": {
+    "index.html": {
+      "sha256": "6cc3d1fabc2c5887ef35736b98e7cb60d15ea6758fbdbdfc158a6dbac2742cee",
+      "size": 6998
+    },
+    "proposal.html": {
+      "sha256": "38367d9e6810ee1e9b2b2c9bd8d56a5cdd87c7ad64b8c613d067e6491c8780cf",
+      "size": 3202
+    },
+    "rationale.html": {
+      "sha256": "38d51912844c97b67e8ff9c30a1167b79e6909fd43704dac0da3aaa26d8dbc23",
+      "size": 333
+    },
+    "script.js": {
+      "sha256": "5a262ba6bf4e952e08e6d9519df23d9aaeb42bf868415365b37c24e8af1d70ea",
+      "size": 1229
+    },
+    "styles.css": {
+      "sha256": "77be7f25993ca2cf93fc774e0dc0f2a74401315184e3996dd3293c21aae79fd6",
+      "size": 9091
+    }
+  },
+  "schema": 1,
+  "status": "pass"
+}
