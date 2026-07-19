@@ -24,7 +24,7 @@
         "client_width": 1440,
         "console_errors": [],
         "failed_requests": [],
-        "final_url": "http://127.0.0.1:33633/index.html",
+        "final_url": "http://127.0.0.1:44941/index.html",
         "h1_present": true,
         "height": 900,
         "horizontal_overflow": false,
@@ -34,7 +34,7 @@
         "page": "index.html",
         "page_errors": [],
         "screenshot": ".pipeline-validation-captures/index-desktop.png",
-        "screenshot_sha256": "be66055ce00d622f501e697ed5afe18c26c4b58fddb4122a8e61ed8ed86659d4",
+        "screenshot_sha256": "43ca9ff1dbdfd03c0be98a2f90826d48d278198b64ee6c2ecf9c56eb46dbc544",
         "scroll_width": 1440,
         "status": "pass",
         "title": "Escola Transformatória · A escola dos protagonistas",
@@ -46,7 +46,7 @@
         "client_width": 390,
         "console_errors": [],
         "failed_requests": [],
-        "final_url": "http://127.0.0.1:33633/index.html",
+        "final_url": "http://127.0.0.1:44941/index.html",
         "h1_present": true,
         "height": 844,
         "horizontal_overflow": false,
@@ -56,7 +56,7 @@
         "page": "index.html",
         "page_errors": [],
         "screenshot": ".pipeline-validation-captures/index-mobile.png",
-        "screenshot_sha256": "0b06c063e4bf0417d3a4f26aa22a6fa8f2dec4d39e4fef5f8f6b0b214199bee6",
+        "screenshot_sha256": "85c477e17a61b91d335becb43faf296825fb1ebad67a67e175916ff8a7ce6dd9",
         "scroll_width": 390,
         "status": "pass",
         "title": "Escola Transformatória · A escola dos protagonistas",
@@ -68,7 +68,7 @@
         "client_width": 1440,
         "console_errors": [],
         "failed_requests": [],
-        "final_url": "http://127.0.0.1:33633/proposal.html",
+        "final_url": "http://127.0.0.1:44941/proposal.html",
         "h1_present": true,
         "height": 900,
         "horizontal_overflow": false,
@@ -90,7 +90,7 @@
         "client_width": 390,
         "console_errors": [],
         "failed_requests": [],
-        "final_url": "http://127.0.0.1:33633/proposal.html",
+        "final_url": "http://127.0.0.1:44941/proposal.html",
         "h1_present": true,
         "height": 844,
         "horizontal_overflow": false,
@@ -112,7 +112,7 @@
         "client_width": 1440,
         "console_errors": [],
         "failed_requests": [],
-        "final_url": "http://127.0.0.1:33633/proposal.html",
+        "final_url": "http://127.0.0.1:44941/proposal.html",
         "h1_present": true,
         "height": 900,
         "horizontal_overflow": false,
@@ -134,7 +134,7 @@
         "client_width": 390,
         "console_errors": [],
         "failed_requests": [],
-        "final_url": "http://127.0.0.1:33633/proposal.html",
+        "final_url": "http://127.0.0.1:44941/proposal.html",
         "h1_present": true,
         "height": 844,
         "horizontal_overflow": false,
@@ -154,7 +154,7 @@
     ],
     "status": "pass"
   },
-  "build_id": "4c4b9cde1539b593d4064e32dd14bfd769e4bd64f7ff92e8214c130f7adec51d",
+  "build_id": "3bdb7b3848cedaaa1399661c4ee050be3eda65699e8e5707847f678fca456ac1",
   "detector": {
     "command": "/opt/data/.venvs/curitiba/bin/python /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-19/transformatoria-escola",
     "current_clean": true,
@@ -164,7 +164,7 @@
     "stderr": "",
     "stdout": ""
   },
-  "generated_at": "2026-07-19T17:35:12.769883+00:00",
+  "generated_at": "2026-07-19T17:46:28.792816+00:00",
   "node_check": {
     "command": "node --check script.js",
     "exit_code": 0,
@@ -186,12 +186,12 @@
       "size": 404
     },
     "script.js": {
-      "sha256": "cacf1b97f92959a73a436882b4e07b12720b1232e16b28351a988d59fd1f4134",
-      "size": 2560
+      "sha256": "83e740603c8aa84eb1a59aa88c4e9cea4be48b23da4d17111d30a98f9f30f6aa",
+      "size": 2720
     },
     "styles.css": {
-      "sha256": "839f81b5f43d4d659c210c3749e9c980a41525bbf512211ed888db6b64bda511",
-      "size": 20440
+      "sha256": "d5d77f67f30dd5bfe541d6e8687e723ca5e9a9790cbe78a74a2b40f73a8a052b",
+      "size": 20383
     }
   },
   "schema": 1,

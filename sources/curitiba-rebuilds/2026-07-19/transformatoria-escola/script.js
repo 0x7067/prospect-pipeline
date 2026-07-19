@@ -25,11 +25,12 @@ if (menuButton && navigation) {
   });
 }
 
-// Staggered reveal-on-scroll. Content is visible by default (see styles.css);
-// this only ADDS a transparent "pending" starting state to elements that are
-// off-screen at load, so the effect enhances an already-visible page instead
-// of gating visibility on a class the observer might never apply (paused
-// tabs, headless renderers without a resize/paint tick, reduced motion).
+// Staggered reveal-on-scroll. Content is opacity:1 by default in styles.css
+// NO MATTER WHAT — this only adds a small transform offset to elements that
+// are off-screen at load, then animates it to rest once each scrolls into
+// view. Because opacity is never gated on JS/class/observer state, a fast
+// programmatic scroll, a paused tab, or an observer that never fires still
+// leaves every section fully visible; only the subtle motion is skipped.
 const reveals = document.querySelectorAll('.reveal');
 const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -54,8 +55,9 @@ if ('IntersectionObserver' in window && !prefersReducedMotion) {
   }, { threshold: 0.12 });
   pending.forEach((element) => observer.observe(element));
 
-  // Failsafe: force every pending element visible after a short delay
-  // regardless of observer state, so content is never permanently gated.
+  // Failsafe: settle every pending element's transform after a short delay
+  // regardless of observer state. Belt-and-braces only — content was never
+  // invisible even before this fires, since opacity is not part of .pending.
   window.setTimeout(() => {
     pending.forEach((element) => element.classList.add('visible'));
   }, 2500);

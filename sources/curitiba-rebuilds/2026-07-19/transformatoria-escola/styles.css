@@ -483,22 +483,21 @@ footer.site-footer p { margin: 0; font-size: .875rem; }
 /* ==========================================================================
    Reveal-on-scroll (staggered, disabled under reduced motion)
    ========================================================================== */
-/* Content is visible by default, with or without JS. The reveal effect is a
-   progressive enhancement: only elements explicitly marked ".pending" by
-   script.js (because they were off-screen at load) ever go transparent, and
-   a JS-side failsafe timer forces them visible regardless of whether the
-   IntersectionObserver fires. Content must never depend on a class-triggered
-   transition to become visible at all. */
+/* Content is visible (opacity:1) by default and ALWAYS, with or without JS,
+   regardless of timing. The reveal effect only animates a subtle transform
+   offset on elements script.js marks ".pending" (off-screen at load) — it
+   never gates opacity on a class, an observer callback, or a timer, so a
+   fast programmatic scroll-through (or any renderer that skips/delays the
+   IntersectionObserver) can never leave content invisible. */
 .reveal { opacity: 1; transform: none; }
 .js .reveal.pending {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity .7s cubic-bezier(.16,1,.3,1), transform .7s cubic-bezier(.16,1,.3,1);
+  transform: translateY(16px);
+  transition: transform .7s cubic-bezier(.16,1,.3,1);
 }
-.js .reveal.pending.visible { opacity: 1; transform: none; }
+.js .reveal.pending.visible { transform: none; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .js .reveal.pending { opacity: 1; transform: none; transition: none; }
+  .js .reveal.pending { transform: none; transition: none; }
   .spotlight-glow { display: none; }
 }
 
