@@ -1,8 +1,11 @@
 {
-  "version": 1,
+  "schema": 2,
+  "policy_version": "prospect-brand-style-gate-v2",
+  "policy_sha256": "21936021ef4272afbb508483f0e0e5a5b7ec5a4613630f864e1c8bbffe684604",
+  "build_id": "ed761e198928cf25d1df31d09b1962864d2e06bd9a28ebb086635ea34a2ece43",
   "project": "/opt/data/projects/curitiba-rebuilds/2026-07-16/penha-moraes-arquitetura",
-  "started_at": "2026-07-17T00:18:48.183Z",
-  "finished_at": "2026-07-17T02:24:05.299880Z",
+  "started_at": "2026-07-19T14:26:03.367Z",
+  "finished_at": "2026-07-19T14:26:27.014Z",
   "captures": [
     {
       "target": "current",
@@ -12,13 +15,57 @@
       },
       "url": "https://penhamoraes.arq.br/",
       "image": "comparison/current-desktop.png",
-      "started_at": "2026-07-17T00:18:48.225Z",
+      "full_image": "comparison/current-desktop-full.png",
+      "started_at": "2026-07-19T14:26:03.410Z",
       "success": true,
       "http_status": 200,
       "title": "Penha Moraes | Escritório de arquitetura em Curitiba",
       "final_url": "https://penhamoraes.arq.br/",
       "error": null,
-      "finished_at": "2026-07-17T00:18:59.609Z"
+      "console_errors": [
+        "Mixed Content: The page at 'https://penhamoraes.arq.br/' was loaded over HTTPS, but requested an insecure script 'http://maps.google.com/maps/api/js?key=AIzaSyCwVuYiM-83l2IdjpT9uC0lg4jBm8-w4j8'. This request has been blocked; the content must be served over HTTPS."
+      ],
+      "page_errors": [
+        "ReferenceError: google is not defined\n    at https://penhamoraes.arq.br/wp-content/themes/Penha%20Moraes/js/gmap.js:1:19"
+      ],
+      "request_failures": [
+        {
+          "url": "http://maps.google.com/maps/api/js?key=AIzaSyCwVuYiM-83l2IdjpT9uC0lg4jBm8-w4j8",
+          "error": "mixed-content"
+        },
+        {
+          "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1664913312.1784471166&gtm=45He67f0v9125297662za200zd9125297662xea",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google.com/ccm/collect?rcb=7&frm=0&ae=g&auid=1664913312.1784471166&dt=Penha%20Moraes%20%7C%20Escrit%C3%B3rio%20de%20arquitetura%20em%20Curitiba&en=page_view&dl=https%3A%2F%2Fpenhamoraes.arq.br%2F&scrsrc=www.googletagmanager.com&rnd=1043127656.1784471166&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He67f0v9125297662za200zd9125297662xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118131809~118897920~118897930&apve=1&apvf=f&apvc=1&tft=1784471165766&tfd=2331&fmt=8",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://analytics.google.com/g/collect?v=2&tid=G-JKGX8E3SW6&gtm=45je67f0v9126993895z89125297662za20gzb9125297662zd9125297662&_p=1784471165117&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&are=1&cid=1673139707.1784471166&frm=0&pscdl=noapi&rcb=9&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930&sid=1784471166&sct=1&seg=0&dl=https%3A%2F%2Fpenhamoraes.arq.br%2F&dt=Penha%20Moraes%20%7C%20Escrit%C3%B3rio%20de%20arquitetura%20em%20Curitiba&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2655",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google.com/ccm/collect?rcb=13&frm=0&ae=g&auid=1664913312.1784471166&dt=Penha%20Moraes%20%7C%20Escrit%C3%B3rio%20de%20arquitetura%20em%20Curitiba&dl=https%3A%2F%2Fpenhamoraes.arq.br%2F&scrsrc=www.googletagmanager.com&rnd=1043127656.1784471166&navt=n&npa=0&_tu=CA&gtm=45be67f0v9167984418z89125297662za20gzb9125297662zd9125297662xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118131809~118897920~118897930~119773332&apve=1&apvf=f&apvc=0&tids=AW-11008630652&tid=AW-11008630652&tft=1784471166371&tfd=2937&fmt=8",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google.com/rmkt/collect/11008630652/?random=1784471166360&cv=11&fst=1784471166360&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be67f0v9167984418z89125297662za20gzb9125297662zd9125297662xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118131809~118897920~118897930~119773332&u_w=1440&u_h=900&url=https%3A%2F%2Fpenhamoraes.arq.br%2F&rcb=13&frm=0&tiba=Penha%20Moraes%20%7C%20Escrit%C3%B3rio%20de%20arquitetura%20em%20Curitiba&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1664913312.1784471166&uaa=x86&uab=64&uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=CA&ept=68&gcp=5",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://analytics.google.com/g/collect?v=2&tid=G-JKGX8E3SW6&gtm=45je67f0v9126993895za20gzb9125297662zd9125297662&_p=1784471165117&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAGQC&ae=a&are=1&cid=1673139707.1784471166&frm=0&pscdl=noapi&rcb=9&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=115616986~115938466~115938468~118897920~118897930&sid=1784471166&sct=1&seg=0&dl=https%3A%2F%2Fpenhamoraes.arq.br%2F&dt=Penha%20Moraes%20%7C%20Escrit%C3%B3rio%20de%20arquitetura%20em%20Curitiba&en=scroll&epn.percent_scrolled=90&_et=5&tfd=7661",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "horizontal_overflow": false,
+      "pixel_width": 1440,
+      "pixel_height": 900,
+      "sha256": "d6ce86d4a3aa104efea0657dcc675760deee440acb67b63a9a4cc6ab0a76ceba",
+      "full_pixel_width": 1440,
+      "full_pixel_height": 900,
+      "full_sha256": "dbaceaabf0f6fdf927d00ba27cf55af532b7c7a62f315b5c7542584509864d61",
+      "finished_at": "2026-07-19T14:26:11.611Z"
     },
     {
       "target": "current",
@@ -28,13 +75,57 @@
       },
       "url": "https://penhamoraes.arq.br/",
       "image": "comparison/current-mobile.png",
-      "started_at": "2026-07-17T00:18:59.609Z",
+      "full_image": "comparison/current-mobile-full.png",
+      "started_at": "2026-07-19T14:26:11.611Z",
       "success": true,
       "http_status": 200,
       "title": "Penha Moraes | Escritório de arquitetura em Curitiba",
       "final_url": "https://penhamoraes.arq.br/",
       "error": null,
-      "finished_at": "2026-07-17T00:19:10.596Z"
+      "console_errors": [
+        "Mixed Content: The page at 'https://penhamoraes.arq.br/' was loaded over HTTPS, but requested an insecure script 'http://maps.google.com/maps/api/js?key=AIzaSyCwVuYiM-83l2IdjpT9uC0lg4jBm8-w4j8'. This request has been blocked; the content must be served over HTTPS."
+      ],
+      "page_errors": [
+        "ReferenceError: google is not defined\n    at https://penhamoraes.arq.br/wp-content/themes/Penha%20Moraes/js/gmap.js:1:19"
+      ],
+      "request_failures": [
+        {
+          "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1640744517.1784471177&gtm=45He67f0h1v9125297662za200zd9125297662xea&fmt=8",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=1&ae=g&auid=1640744517.1784471177&dt=Penha%20Moraes%20%7C%20Escrit%C3%B3rio%20de%20arquitetura%20em%20Curitiba&en=page_view&dl=https%3A%2F%2Fpenhamoraes.arq.br%2F&scrsrc=www.googletagmanager.com&rnd=482534563.1784471177&navt=n&npa=0&ep.ads_data_redaction=0&gcd=13l3l3l3l1l1&tft=1784471177140&tfd=5511&gtm=45He67f0h1v9125297662za200zd9125297662xea&dma=0&tag_exp=115938465~115938468~118897920~118897930~119709549~119724322&apve=1&apvf=f&fmt=8",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://analytics.google.com/g/collect?v=2&tid=G-JKGX8E3SW6&gtm=45je67f0h1v9126993895z89125297662za20gzb9125297662zd9125297662&_p=1784471172138&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&are=1&cid=687989130.1784471177&frm=0&pscdl=noapi&rcb=6&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~119724322~119896802&sid=1784471177&sct=1&seg=0&dl=https%3A%2F%2Fpenhamoraes.arq.br%2F&dt=Penha%20Moraes%20%7C%20Escrit%C3%B3rio%20de%20arquitetura%20em%20Curitiba&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=5777",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://connect.facebook.net//log/error?p=pixel&sl=2&v=2.9.357&e=%5BMeta%20pixel%5D%20Bot%20traffic%20detected%20and%20blocked%20-%20pixel_id%3A%20741301713933185&ue=0&rs=stable&rqm=FGET",
+          "error": "net::ERR_BLOCKED_BY_ORB"
+        },
+        {
+          "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&apvc=0&ae=g&auid=1640744517.1784471177&dt=Penha%20Moraes%20%7C%20Escrit%C3%B3rio%20de%20arquitetura%20em%20Curitiba&tid=AW-11008630652&dl=https%3A%2F%2Fpenhamoraes.arq.br%2F&scrsrc=www.googletagmanager.com&rnd=482534563.1784471177&navt=n&npa=0&_tu=CA&gcd=13l3l3l3l1l1&tids=AW-11008630652&tft=1784471177710&tfd=6082&gtm=45be67f0h1v9167984418z89125297662za20gzb9125297662zd9125297662xea&dma=0&tag_exp=115938465~115938468~118897920~118897930~119709550~119724322~119896802&apve=1&apvf=f&fmt=8",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google.com/rmkt/collect/11008630652/?random=1784471177699&cv=11&fst=1784471177699&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be67f0h1v9167984418z89125297662za20gzb9125297662zd9125297662xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119709550~119724322~119896802&u_w=390&u_h=844&url=https%3A%2F%2Fpenhamoraes.arq.br%2F&rcb=14&frm=0&tiba=Penha%20Moraes%20%7C%20Escrit%C3%B3rio%20de%20arquitetura%20em%20Curitiba&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1640744517.1784471177&uaa=x86&uab=64&uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=CA&ept=68&gcp=5",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "http://maps.google.com/maps/api/js?key=AIzaSyCwVuYiM-83l2IdjpT9uC0lg4jBm8-w4j8",
+          "error": "mixed-content"
+        }
+      ],
+      "horizontal_overflow": false,
+      "pixel_width": 390,
+      "pixel_height": 844,
+      "sha256": "cd5935d81da9ce6c8a08a91f18495ab6b374577ef12c5c92297cba539cecb90a",
+      "full_pixel_width": 390,
+      "full_pixel_height": 844,
+      "full_sha256": "645587f97cef6535b965deb9e78a3a4f50a8c66772e7cbfa09b5125637aa3938",
+      "finished_at": "2026-07-19T14:26:23.775Z"
     },
     {
       "target": "proposed",
@@ -42,15 +133,26 @@
         "width": 1440,
         "height": 900
       },
-      "url": "http://127.0.0.1:4173/index.html",
+      "url": "http://127.0.0.1:38095/",
       "image": "comparison/proposed-desktop.png",
-      "started_at": "2026-07-17T02:24:05.299880Z",
+      "full_image": "comparison/proposed-desktop-full.png",
+      "started_at": "2026-07-19T14:26:23.775Z",
       "success": true,
       "http_status": 200,
       "title": "Penha Moraes Arquitetura & Interiores",
-      "final_url": "http://127.0.0.1:4173/index.html",
+      "final_url": "http://127.0.0.1:38095/",
       "error": null,
-      "finished_at": "2026-07-17T02:24:05.299880Z"
+      "console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "horizontal_overflow": false,
+      "pixel_width": 1440,
+      "pixel_height": 900,
+      "sha256": "deeaebeebb0199611601830a1d46defb6a195561be0d1fe65f4c1ecab89b9927",
+      "full_pixel_width": 1440,
+      "full_pixel_height": 4210,
+      "full_sha256": "5956edc43fd0fecfa01621c62d628d151b7bb7bd1af9bc949dd0902174d8bfb0",
+      "finished_at": "2026-07-19T14:26:25.311Z"
     },
     {
       "target": "proposed",
@@ -58,18 +160,29 @@
         "width": 390,
         "height": 844
       },
-      "url": "http://127.0.0.1:4173/index.html",
+      "url": "http://127.0.0.1:38095/",
       "image": "comparison/proposed-mobile.png",
-      "started_at": "2026-07-17T02:24:05.299880Z",
+      "full_image": "comparison/proposed-mobile-full.png",
+      "started_at": "2026-07-19T14:26:25.311Z",
       "success": true,
       "http_status": 200,
       "title": "Penha Moraes Arquitetura & Interiores",
-      "final_url": "http://127.0.0.1:4173/index.html",
+      "final_url": "http://127.0.0.1:38095/",
       "error": null,
-      "finished_at": "2026-07-17T02:24:05.299880Z"
+      "console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "horizontal_overflow": false,
+      "pixel_width": 390,
+      "pixel_height": 844,
+      "sha256": "7e6a2bf62c89c531de1860f46383f464052616996616d084607876b39d54d187",
+      "full_pixel_width": 390,
+      "full_pixel_height": 7034,
+      "full_sha256": "45834cde121e4a9c2071544d706b9abfa13871ce6479c967d88ac789810c7686",
+      "finished_at": "2026-07-19T14:26:27.002Z"
     }
   ],
   "errors": [],
-  "local_server_url": "http://127.0.0.1:4173/",
+  "local_server_url": "http://127.0.0.1:38095/",
   "success": true
 }

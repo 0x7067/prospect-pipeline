@@ -1,0 +1,271 @@
+{
+  "browser": {
+    "engine": "playwright chromium",
+    "error": null,
+    "required_matrix_complete": true,
+    "required_pages": [
+      "index.html",
+      "proposal.html",
+      "rationale.html"
+    ],
+    "required_viewports": {
+      "desktop": {
+        "height": 900,
+        "width": 1440
+      },
+      "mobile": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    "results": [
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:43337/index.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-desktop.png",
+        "screenshot_sha256": "5956edc43fd0fecfa01621c62d628d151b7bb7bd1af9bc949dd0902174d8bfb0",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Penha Moraes Arquitetura & Interiores",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:43337/index.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-mobile.png",
+        "screenshot_sha256": "c7dc04eba02d48c34a067905bc57b94d518a31c087991436023809470f6dd58e",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Penha Moraes Arquitetura & Interiores",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:43337/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-desktop.png",
+        "screenshot_sha256": "56c8670f645f19e939c75ee6e0de78cf59cfb496f7272770131eff4b662ec134",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta de reconstrução · Penha Moraes Arquitetura",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:43337/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-mobile.png",
+        "screenshot_sha256": "b6f80b6a53a6d610796f4d86c1a5a56a4dc20e661480363bc15d6bdd1a83b41e",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta de reconstrução · Penha Moraes Arquitetura",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:43337/rationale.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-desktop.png",
+        "screenshot_sha256": "ea7d1d77508536d7b5626937a030fbd4ed27c2af352a2bc46b58bc7e07f8f225",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Racional do conceito · Penha Moraes Arquitetura",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:43337/rationale.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-mobile.png",
+        "screenshot_sha256": "65daa40bd85dffc8fa56a87ae95cfd5b6e104fa19176f526926c569e4f4f73df",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Racional do conceito · Penha Moraes Arquitetura",
+        "viewport": "mobile",
+        "width": 390
+      }
+    ],
+    "status": "pass"
+  },
+  "build_id": "ed761e198928cf25d1df31d09b1962864d2e06bd9a28ebb086635ea34a2ece43",
+  "detector": {
+    "command": "/opt/data/.venvs/curitiba/bin/python /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-16/penha-moraes-arquitetura",
+    "current_clean": true,
+    "current_findings": false,
+    "exit_code": 0,
+    "status": "clean",
+    "stderr": "",
+    "stdout": ""
+  },
+  "generated_at": "2026-07-19T14:34:11.372472+00:00",
+  "node_check": {
+    "command": "node --check script.js",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-16/penha-moraes-arquitetura",
+  "release_manifest": {
+    "assets/fonts/archivo-italic-var.woff2": {
+      "sha256": "aff750193376fa0cc7299242c3847f3c1189a78a23d526bfc205dbfc526a5403",
+      "size": 15820
+    },
+    "assets/fonts/archivo-var.woff2": {
+      "sha256": "8f704806dbedeaaeca334b11ec348bc3ac3a439d6431544b3afb54f534ee4967",
+      "size": 34928
+    },
+    "assets/fonts/frank-ruhl-libre-var.woff2": {
+      "sha256": "b8081e5e9acd530df59ef062f9274e201569b94c9bfa6881950f3eb259d7b375",
+      "size": 44332
+    },
+    "assets/img/cobogo-motif.svg": {
+      "sha256": "ba167b19a46bf600d09056efae8e92a2f8107a4f4a5d73683f43a55a9e53dd4f",
+      "size": 612
+    },
+    "assets/img/facade-alt-900.jpg": {
+      "sha256": "9a065456b1453b8cf183984dad938971642b0545795964845899e00957cd79b6",
+      "size": 108650
+    },
+    "assets/img/facade-alt.jpg": {
+      "sha256": "e4f2eebfed9f8748865f3f30b0abc2874da9b4dbe43b69f28e4265b078ddace3",
+      "size": 353613
+    },
+    "assets/img/facade-detail-900.jpg": {
+      "sha256": "104490bc73779d59d70cb543ac843d2c85ad55706b6ee7f405db91bbc278db4e",
+      "size": 236878
+    },
+    "assets/img/facade-detail.jpg": {
+      "sha256": "31572e999eb61fe435c9f65036ddc8d2914063aea9fc2737cb9c63a846d720ab",
+      "size": 860913
+    },
+    "assets/img/facade-hero-900.jpg": {
+      "sha256": "f38ded019d4b8739c08be9028ebd8944d28684538dba0b7a8393e7a0019e130e",
+      "size": 37240
+    },
+    "assets/img/facade-hero.jpg": {
+      "sha256": "827114e83d7973204bb9561909beac4596f86c735b627ba1dbca6c71b83d55de",
+      "size": 139652
+    },
+    "assets/img/interior-furniture-900.jpg": {
+      "sha256": "7fc7d991a6a78193b8e6b56a0836f295feef8f6c4df09ef8bb5eeb469d9baede",
+      "size": 166069
+    },
+    "assets/img/interior-furniture.jpg": {
+      "sha256": "e45120b93dfc74202e39b44c63f91f5c2cb1b6e7522b888c28d8dc1f4cc41ece",
+      "size": 789355
+    },
+    "assets/img/interior-living-900.jpg": {
+      "sha256": "9922c9cc1c97f32d99c542479a81bb5861a8914c7c3bdf44dd4925fc024949d5",
+      "size": 70939
+    },
+    "assets/img/interior-living.jpg": {
+      "sha256": "fad765ca6bb0ad33d92d945896b0e07946ae0ce46b6a53784cccf78d32b5540d",
+      "size": 266236
+    },
+    "assets/img/interior-pillar-900.jpg": {
+      "sha256": "cf6940e63ad328b0e79436d3f5f44d9e0f15a0c758665f95e410bc537470b6e2",
+      "size": 90643
+    },
+    "assets/img/interior-pillar.jpg": {
+      "sha256": "913f3da585bdb186f44f2a631809ace6bf8a8cd01dd00d5cf1c6ba0d1d9b79d4",
+      "size": 378459
+    },
+    "assets/img/texture-wall-bw-900.jpg": {
+      "sha256": "2829113ec0225c247cfb5ef94cceacd41aa4b0b7cb19c1cdf4154e79398433b5",
+      "size": 58432
+    },
+    "assets/img/texture-wall-bw.jpg": {
+      "sha256": "aeca3bb20e02e207ff475d69a5365028406dcbd30e425ffa8eccb7c1c7e6efcc",
+      "size": 227219
+    },
+    "index.html": {
+      "sha256": "185b9ea66a0b55b1d193c5ce40801614af335762defaa17882649c7da9b5e0f8",
+      "size": 10908
+    },
+    "proposal.html": {
+      "sha256": "3e129a2ea971ec5258ea5703e0e5e933f3f215d07cfa022eb49bc7169e306c1d",
+      "size": 7925
+    },
+    "rationale.html": {
+      "sha256": "37740bae46b6023ddc0e28716669306d380fbc08eb4d79edad13c5c3ef7a67a0",
+      "size": 4579
+    },
+    "script.js": {
+      "sha256": "d527d383f1016a36e8af9902ba5a4739d5a99d1b36df1a0a74d6b26120939cdb",
+      "size": 6444
+    },
+    "styles.css": {
+      "sha256": "1a0db8e48484a8382be3811e80ebb321fa0abb5f9c249ee30c44f863457e321f",
+      "size": 29696
+    }
+  },
+  "schema": 1,
+  "status": "pass"
+}

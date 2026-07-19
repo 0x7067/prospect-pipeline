@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "status": "ready",
+  "builder_id": "afk-penha-moraes-20260719",
+  "build_id": "ed761e198928cf25d1df31d09b1962864d2e06bd9a28ebb086635ea34a2ece43",
+  "generated_at": "2026-07-19T14:01:00Z",
+  "site_dir": "/opt/data/projects/curitiba-rebuilds/2026-07-16/penha-moraes-arquitetura",
+  "summary": "Complete evidence-bounded static redesign verified in this AFK run. Required site files are present; business-specific facts are limited to prospect.json and PRODUCT.md; illustrative portfolio content is visibly disclosed as non-attributed; the briefing form is client-side and inert; no tracking or runtime third-party dependencies are present. Fresh current and proposed desktop/mobile captures all succeeded and were visually inspected. The proposed site produced no console errors, page errors, failed requests, or horizontal overflow. The pinned detector gate completed with exit code 0 and status clean in raw and design-aware modes. No publishing, outreach, form submission, or business contact was performed.",
+  "craft_receipt": ".impeccable-craft-receipt.json",
+  "detector_receipt": ".impeccable-detector-receipt.json",
+  "detector_receipt_status": "clean",
+  "detector_receipt_generated_at": "2026-07-19T14:00:57.263583+00:00",
+  "capture_status": "comparison/capture-status.json",
+  "captures_verified_visually": true,
+  "notes": "Ready for human review and a separate authorized deployment decision only. This receipt does not constitute approval or publication authorization."
+}

@@ -1,31 +1,34 @@
-# Penha Moraes Arquitetura — selected production candidate
+# Penha Moraes Arquitetura — static redesign concept
 
-The canonical production candidate is **Kimi V2**, selected on 2026-07-18 after comparing the AFK primary build with the Kimi V2 iteration.
+Evidence-bounded, framework-free redesign study for the verified public presence of Penha Moraes Arquitetura. This package is local-only and is not affiliated with or endorsed by the business.
 
-## Pages
+## Files
 
-- `index.html` — public-facing proposed website.
-- `proposal.html` — separate proposal, diagnosis, evidence, disclosure, and limitations.
-- `rationale.html` — compatibility redirect to `proposal.html`.
+- `index.html` — complete proposed visitor experience.
+- `rationale.html` — evidence, design decisions, safeguards, and limitations.
+- `styles.css` — responsive visual system and component states.
+- `script.js` — progressive mobile navigation, portfolio filtering, inert form validation, and motion.
+- `SITE_REVIEW.md` — current implementation review and validation notes.
 
-## Local preview
+## Preview
 
-```bash
+From this directory:
+
+```sh
 python3 -m http.server 8080
 ```
 
-Open `http://localhost:8080/` for the selected site and `http://localhost:8080/proposal.html` for the proposal.
+Open `http://localhost:8080/`. No build step or dependency installation is required.
 
-## Verification
+## Evidence and safety
 
-The selected Kimi V2 build passed its independent style gate with an average score of 4.17/5. Browser verification passed at 1440x900 and 390x844 for the index and proposal pages with no console errors, page errors, request failures, or horizontal overflow. Mobile menu open/close behavior was verified.
+- Business-specific facts come only from `prospect.json` and `PRODUCT.md`.
+- Portfolio images and labels are explicitly presented as editorial interface examples, not as work by the firm.
+- The briefing form validates only in the browser. It does not transmit or store information.
+- There are no analytics, trackers, third-party scripts, remote fonts, runtime APIs, or form endpoints.
+- Phone and e-mail links use the supplied public contact details. The address omits the disputed room number.
+- The pages are marked `noindex, nofollow` and must not be published without a separate authorized process.
 
-Evidence is preserved in `iterations/kimi/v2/review/`.
+## Manual checks
 
-## Archive
-
-The former AFK primary build is preserved under `iterations/afk-primary/` as historical comparison material. It is not a second canonical or live candidate.
-
-## Publication boundary
-
-This selection does not authorize publication or outreach. Any external publication requires a fresh, current, build-bound human approval for this selected file set.
+Test the mobile menu with keyboard and touch, all portfolio filters, required and successful form states, reduced-motion behavior, and layouts at narrow mobile and desktop widths.
