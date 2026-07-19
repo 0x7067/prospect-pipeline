@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Proposta de redesign independente: Centro Médico Trinità (conceito não afiliado)</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&amp;display=swap">
+<style>
+  :root{
+    --green-900:#24352F; --green-800:#3C5750; --sand:#D3D0BF; --paper:#F8F6F1;
+    --ink:#20241f; --muted:#5b6660; --line:#dedad0;
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:#fff;color:var(--ink);line-height:1.6;}
+  .wrap{max-width:920px;margin:0 auto;padding:48px 24px 96px;}
+  .tag{display:inline-block;background:var(--sand);color:var(--green-900);font-weight:700;font-size:0.78rem;letter-spacing:0.01em;padding:0.35em 0.9em;border-radius:999px;margin-bottom:16px;}
+  h1{font-family:"Atkinson Hyperlegible",sans-serif;font-size:clamp(1.8rem,3.4vw,2.6rem);color:var(--green-900);margin:0 0 8px;}
+  h2{font-family:"Atkinson Hyperlegible",sans-serif;color:var(--green-900);font-size:1.7rem;margin:40px 0 12px;}
+  p{margin:0 0 14px;color:var(--ink);}
+  .lede{font-size:1.1rem;color:var(--muted);}
+  .disclosure{background:var(--paper);border:1px solid var(--line);border-left:4px solid var(--green-800);border-radius:10px;padding:18px 20px;margin:20px 0 32px;font-size:0.98rem;}
+  .disclosure strong{color:var(--green-900);}
+  ul{padding-left:1.2em;}
+  li{margin-bottom:8px;}
+  table{width:100%;border-collapse:collapse;margin:16px 0 28px;font-size:0.95rem;}
+  th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top;}
+  th{color:var(--green-900);}
+  .cta-row{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0;}
+  .btn{display:inline-flex;align-items:center;min-height:44px;padding:0.85em 1.5em;border-radius:999px;font-weight:700;text-decoration:none;}
+  .btn-primary{background:var(--green-800);color:#fff;}
+  .btn-ghost{border:1.5px solid var(--green-800);color:var(--green-800);}
+  footer{margin-top:56px;padding-top:24px;border-top:1px solid var(--line);color:var(--muted);font-size:0.85rem;}
+  a{color:var(--green-800);}
+  code{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;background:var(--paper);border:1px solid var(--line);padding:0.1em 0.4em;border-radius:4px;font-size:0.9em;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="tag">Conceito independente e não afiliado</span>
+  <h1>Uma proposta de redesign para o Centro Médico Trinità</h1>
+  <p class="lede">Este documento acompanha um protótipo de redesign (<a href="index.html">ver protótipo</a>) preparado de forma independente, como demonstração de oportunidade, e não foi solicitado, publicado ou aprovado pela clínica.</p>
+
+  <div class="disclosure">
+    <strong>Divulgação:</strong> Este material foi criado por terceiros como demonstração especulativa de reformulação de site. Não representa o site oficial do Centro Médico Trinità, não foi encomendado pela clínica, e não deve ser confundido com uma publicação real. Todas as afirmações sobre a clínica citadas abaixo são baseadas em evidência pública verificável, listada em <a href="SOURCE_MANIFEST.md">SOURCE_MANIFEST.md</a>.
+  </div>
+
+  <h2>Por que este conceito</h2>
+  <p>O site oficial (<a href="https://trinitacuritiba.com.br/" target="_blank" rel="noopener">trinitacuritiba.com.br</a>) já apresenta 11 perfis de especialistas com CRM/RQE publicados nos perfis oficiais e atuação documentada em 15 áreas da ortopedia, cirurgia da mão, geriatria, medicina da dor, cirurgia vascular, reumatologia e clínica geral, mas problemas de acabamento reduzem a confiança do visitante antes de ele chegar ao agendamento.</p>
+
+  <h2>Problemas verificados no site atual</h2>
+  <ul>
+    <li>Conteúdo demonstrativo em inglês do tema WordPress ainda presente no DOM ("A futuristic future ahead of you", "Premium Build", "Great Audio").</li>
+    <li>Um modal de "novo endereço" cobre o hero no primeiro acesso, empilhado com uma barra de cookies, criando duas barreiras antes do agendamento.</li>
+    <li>Um espaço vazio grande no layout renderizado antes da seção de equipe.</li>
+    <li>Indicadores institucionais sem números reais, apenas símbolos "+" e "%" ao lado de "clientes atendidos" e "clientes satisfeitos".</li>
+    <li>A política de privacidade cita o endereço antigo (Rua Padre Anchieta, 1691), enquanto o restante do site usa o número 2540.</li>
+    <li><code>user-scalable=no</code> bloqueia o zoom do usuário, prejudicando a acessibilidade, especialmente relevante para uma clínica que atende geriatria.</li>
+  </ul>
+
+  <h2>O que o conceito propõe</h2>
+  <table>
+    <tr><th>Elemento</th><th>Abordagem</th></tr>
+    <tr><td>Wayfinding</td><td>Uma trilha de especialidades (15 áreas) que filtra a equipe visível, levando o visitante de "sintoma/área" a "especialista" a "agendar" em um único caminho visível.</td></tr>
+    <tr><td>Identidade visual</td><td>Logo e paleta verde/areia obtidos do site oficial (#3C5750 / #D3D0BF), com tipografia de leitura e títulos evoluída no conceito para reforçar legibilidade e hierarquia.</td></tr>
+    <tr><td>Conversão</td><td>Agendamento pelo Doctoralia e WhatsApp como únicos CTAs, sem overlays concorrentes no carregamento.</td></tr>
+    <tr><td>Prova</td><td>Apenas contagens literais e recontáveis (11 perfis apresentados no site oficial, 15 áreas documentadas, 2 convênios destacados no site oficial), nenhuma métrica de desempenho inventada.</td></tr>
+    <tr><td>Acessibilidade</td><td>Zoom por pinça restaurado, foco visível e alvos mínimos de 44×44px nos botões e controles principais testados; a revisão não declara conformidade WCAG integral.</td></tr>
+  </table>
+
+  <h2>Metodologia e limites</h2>
+  <p>Este protótipo usa apenas fatos já publicados pela própria clínica ou por fontes públicas independentes (site oficial, páginas individuais de médicos, política de privacidade, perfil no Doctoralia, WhatsApp, Instagram); ver o manifesto de fontes completo. Nenhum dado de agendamento, formulário, upload ou serviço externo foi implementado; todos os links de agendamento apontam para os canais reais já operados pela própria clínica (Doctoralia e WhatsApp), como demonstração de continuidade, não como um sistema funcional novo.</p>
+
+  <div class="cta-row">
+    <a class="btn btn-primary" href="index.html">Ver o protótipo do site</a>
+    <a class="btn btn-ghost" href="SOURCE_MANIFEST.md">Ver fontes citadas</a>
+  </div>
+
+  <footer>
+    <p>Documento de proposta independente. Não afiliado ao Centro Médico Trinità. Preparado apenas para fins de demonstração e avaliação de oportunidade de redesign.</p>
+  </footer>
+</div>
+</body>
+</html>

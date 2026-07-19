@@ -1,0 +1,218 @@
+{
+    "scope": "/opt/data/projects/curitiba-rebuilds/2026-07-18/centro-medico-trinita",
+    "pass": "focused repair + revalidation, §10 of SITE_REVIEW.md",
+    "generated_at_utc": "2026-07-18T23:44:30Z",
+    "constraints_honored": [
+        "Only this directory was read; no deliverable file changed (index.html, proposal.html, rationale.html, styles.css, script.js all byte-identical to prior pass, sha256-confirmed before and after)",
+        "One experimental fix attempt (proposal.html font-stack addition) was made, empirically measured against the live gate, found not to resolve the finding, and fully reverted before this pass concluded",
+        "SITE_REVIEW.md (this pass's §10 section) and this file are the only files modified",
+        "No other project directory or archived root touched",
+        "No publish/upload/form-submit/outbound-contact action performed",
+        "No variant created",
+        "The gate detector's own source (impeccable_detector_gate.py) was not opened or inspected — invoked strictly as a black box, before, during the experiment, and after"
+    ],
+    "file_hashes_sha256_this_pass": {
+        "index.html": "1eab023b6159144dd03931ecf196c786aaebc62450b5086e69d9af30df1205e6",
+        "proposal.html": "2584b9cd46f5db37c49d12cf6f5218d74c23c90c5367aab53cbfd3b4c803546f",
+        "rationale.html": "4496646e0c911e17bd6488cdeb05404da33206924417041ab428f15da891b572",
+        "styles.css": "56c6052fd4d3a04126ffac7895e45bfa579f70703d0d7a7468dea392f5d407ff",
+        "script.js": "eea514db586820063ca293db4d91e666aeea703fd124b8efd4b01ee622e72e21"
+    },
+    "file_hashes_changed_this_pass": "none — all 5 deliverable files byte-identical to the previous pass's ending state, confirmed via sha256 before this pass began and again after it concluded",
+    "checks": [
+        {
+            "step": "node_syntax_check",
+            "command": "node --check script.js",
+            "cwd": "/opt/data/projects/curitiba-rebuilds/2026-07-18/centro-medico-trinita",
+            "node_version": "v22.22.3",
+            "exit_code": 0,
+            "result": "pass",
+            "notes": "No syntax errors. script.js was not modified this pass."
+        },
+        {
+            "step": "pinned_impeccable_detector_gate",
+            "command": "python3 /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-18/centro-medico-trinita",
+            "expected_cli_version_pinned": "3.2.1",
+            "resolved_cli_version_confirmed": "3.2.1",
+            "run_before_this_pass": {
+                "exit_code": 2,
+                "distinct_findings_count": 5
+            },
+            "run_after_this_pass": {
+                "exit_code": 2,
+                "receipt_generated_at": "2026-07-18T23:43:56.848115+00:00",
+                "policy_version": "prospect-brand-style-gate-v2",
+                "distinct_findings_count": 5
+            },
+            "findings_resolved_this_pass": [],
+            "findings_remaining_after_this_pass": [
+                {
+                    "file": "index.html",
+                    "antipattern": "overused-font",
+                    "message": "Primary font: montserrat",
+                    "severity": "warning",
+                    "classification": "documented intentional brand choice — not repaired",
+                    "evidence": "BRAND_SOURCE.md:15; DESIGN.md design principle #2 (Montserrat verified as the exact family used site-wide by the live Centro Médico Trinità theme; retained rather than introducing an unverified second display face)"
+                },
+                {
+                    "file": "index.html",
+                    "antipattern": "single-font",
+                    "message": "only font used is montserrat",
+                    "severity": "warning",
+                    "classification": "documented intentional brand choice — not repaired",
+                    "evidence": "same as above"
+                },
+                {
+                    "file": "index.html",
+                    "antipattern": "cream-palette",
+                    "message": "cream/beige page background rgb(248, 246, 241)",
+                    "severity": "warning",
+                    "classification": "documented intentional, sourced palette — not repaired",
+                    "evidence": "DESIGN.md:11 Colors section: #F8F6F1 is a disclosed, deliberate evolution of the source site's own #F8F8F5 background, not an invented palette"
+                },
+                {
+                    "file": "proposal.html",
+                    "antipattern": "single-font",
+                    "message": "only font used is georgia",
+                    "severity": "warning",
+                    "classification": "empirically retested this pass, confirmed not repairable without either fabricating a decorative face or trading it for a fresh overused-font finding — declined",
+                    "evidence": "This pass added a genuine, non-decorative system-UI sans stack (-apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif — no new font file/import/request) to proposal.html's headings/tag as an experimental fix, then re-ran the live gate: result flipped to overused-font / 'Primary font: helvetica' rather than clearing single-font. A prior iteration of the same stack that included Roboto was caught pre-commit (gate reported 'Primary font: roboto', an explicit overused-font-list hit) and corrected before this measurement. Confirms empirically that any available non-fabricated second font either fails to become dominant (no fix) or becomes dominant and trips overused-font instead (net zero). Edit fully reverted; proposal.html sha256 reconfirmed unchanged before this receipt was written."
+                },
+                {
+                    "file": "styles.css",
+                    "line": 9,
+                    "antipattern": "overused-font",
+                    "message": "Google Fonts: montserrat",
+                    "severity": "warning",
+                    "classification": "documented intentional brand choice — not repaired",
+                    "evidence": "same as index.html overused-font above"
+                }
+            ],
+            "repairs_performed_this_pass": [],
+            "repairs_performed_prior_passes_not_reverted": "clipped-overflow-container x2 (index.html, SITE_REVIEW.md §7b); cramped-padding x3, wide-tracking, all-caps-body, flat-type-hierarchy (SITE_REVIEW.md §5); location-grid intrinsic-sizing overflow fix (styles.css, prior validation pass); proposal.html cream-palette fix (SITE_REVIEW.md §9c) — all independently re-confirmed still present/effective in this pass's Playwright run (§10f) and in the gate's unchanged 5-finding output (§10a/§10d)."
+        },
+        {
+            "step": "playwright_chromium_checks",
+            "engine": "python playwright (sync API), chromium",
+            "python_env": "/opt/data/.venvs/curitiba (bin/playwright)",
+            "server": {
+                "command": "python3 -m http.server 8940 --bind 127.0.0.1",
+                "cwd": "/opt/data/projects/curitiba-rebuilds/2026-07-18/centro-medico-trinita",
+                "purpose": "serve static files over http:// so relative asset/font paths resolve exactly as in production; stopped after checks completed (confirmed stopped via a subsequent curl connection-refused check, HTTP 000, curl exit 7)"
+            },
+            "lazy_image_methodology_note": "Each <img> was individually scrollIntoView()'d and awaited via naturalWidth/img.complete polling (up to 15s) before broken-image evidence was captured, consistent with prior passes' methodology.",
+            "mobile_emulation_note": "390x844 viewport used true Playwright mobile emulation (is_mobile=True, has_touch=True), not just a narrow desktop viewport.",
+            "viewports_checked": ["1440x900", "390x844"],
+            "files_checked": ["index.html", "proposal.html", "rationale.html"],
+            "results": {
+                "index.html": {
+                    "1440x900": {
+                        "status": 200,
+                        "title": "Centro M\u00e9dico Trinit\u00e0 \u2022 Ortopedia, Cirurgia da M\u00e3o e Geriatria \u2022 Bigorrilho, Curitiba",
+                        "h1_count": 1,
+                        "h1_text": "Ortopedia, cirurgia da m\u00e3o e cuidado cl\u00ednico especializado.",
+                        "consoleErrors": [],
+                        "pageErrors": [],
+                        "failedRequests": [],
+                        "scrollWidth_vs_innerWidth": "1440 vs 1440 (no overflow)",
+                        "brokenImages": [],
+                        "n_images": 20,
+                        "cta_doctoralia_count": 5,
+                        "cta_whatsapp_count": 6
+                    },
+                    "390x844": {
+                        "status": 200,
+                        "title": "same",
+                        "h1_count": 1,
+                        "h1_text": "same",
+                        "consoleErrors": [],
+                        "pageErrors": [],
+                        "failedRequests": [],
+                        "scrollWidth_vs_innerWidth": "390 vs 390 (no overflow)",
+                        "brokenImages": [],
+                        "n_images": 20,
+                        "mobile_nav_check": {
+                            "toggle_visible": true,
+                            "opens": true,
+                            "aria_expanded_after_open": "true",
+                            "closes": true
+                        },
+                        "cta_doctoralia_count": 5,
+                        "cta_whatsapp_count": 6
+                    }
+                },
+                "proposal.html": {
+                    "1440x900": {
+                        "status": 200,
+                        "title": "Proposta de redesign independente: Centro M\u00e9dico Trinit\u00e0 (conceito n\u00e3o afiliado)",
+                        "h1_count": 1,
+                        "h1_text": "Uma proposta de redesign para o Centro M\u00e9dico Trinit\u00e0",
+                        "consoleErrors": [],
+                        "pageErrors": [],
+                        "failedRequests": [],
+                        "scrollWidth_vs_innerWidth": "1440 vs 1440 (no overflow)",
+                        "brokenImages": []
+                    },
+                    "390x844": {
+                        "status": 200,
+                        "title": "same",
+                        "h1_count": 1,
+                        "h1_text": "same",
+                        "consoleErrors": [],
+                        "pageErrors": [],
+                        "failedRequests": [],
+                        "scrollWidth_vs_innerWidth": "390 vs 390 (no overflow)",
+                        "brokenImages": []
+                    }
+                },
+                "rationale.html": {
+                    "note": "redirect stub (meta-refresh / location.replace) to proposal.html by design",
+                    "1440x900": {
+                        "status": 200,
+                        "finalUrl": "proposal.html",
+                        "consoleErrors": [],
+                        "pageErrors": [],
+                        "failedRequests": [],
+                        "scrollWidth_vs_innerWidth": "1440 vs 1440 (no overflow)",
+                        "brokenImages": []
+                    },
+                    "390x844": {
+                        "status": 200,
+                        "finalUrl": "proposal.html",
+                        "consoleErrors": [],
+                        "pageErrors": [],
+                        "failedRequests": [],
+                        "scrollWidth_vs_innerWidth": "390 vs 390 (no overflow)",
+                        "brokenImages": []
+                    }
+                }
+            },
+            "console_page_errors_summary": "Zero console errors, zero uncaught page errors, and zero failed network requests observed across all 3 pages x 2 viewports.",
+            "broken_images_summary": "Zero broken images across all pages/viewports once lazy-loaded images were correctly scrolled into view and awaited.",
+            "cta_note": "index.html carries 11 CTA anchors (5x Doctoralia, 6x WhatsApp to the same single verified wa.me/5541992094863 number) — identical to prior passes' recorded state; no regression, no new destination, no site file edited to produce this count."
+        }
+    ],
+    "repair_performed_this_pass": {
+        "summary": "No repair landed this pass — all 5 remaining gate findings were re-confirmed not actionable within this pass's constraints. This pass's substantive contribution is empirical (not merely inferential) evidence on the one non-brand finding (proposal.html single-font/Georgia): a genuine system-UI sans stack was implemented, measured against the live pinned gate, found to trade the finding for a fresh overused-font hit rather than clear it, and then fully reverted. index.html's Montserrat/cream-palette findings and styles.css's Montserrat finding remain independently verified real facts about the live Centro Médico Trinità site (BRAND_SOURCE.md, DESIGN.md) and were correctly left untouched, consistent with every prior pass."
+    },
+    "gate_status": {
+        "gate_exit_code": 2,
+        "clean": false,
+        "distinct_findings_before_this_pass": 5,
+        "distinct_findings_after_this_pass": 5,
+        "reason_not_clean": "5 remaining findings are an irreducible tension between the gate's generic brand-agnostic heuristics (overused-font, single-font, cream-palette) and this project's own sourced, documented brand constraints. 4 of the 5 (index.html Montserrat x2 + cream-palette, styles.css Montserrat) are independently verified real facts about the live Centro Médico Trinità site (BRAND_SOURCE.md, DESIGN.md) — resolving them would require misrepresenting the client's actual brand. The 5th (proposal.html single-font/Georgia) is this pipeline's own internal-document choice, not a business fact; this pass empirically confirmed (not merely asserted) that no non-fabricated font addition available on this system resolves it without tripping a different finding instead.",
+        "per_instructions_directory_marked_validated": false
+    },
+    "not_touched": [
+        "No other directory under /opt/data/projects/curitiba-rebuilds or any archived root was read or modified.",
+        "index.html, proposal.html, rationale.html, styles.css, script.js are byte-identical to the prior pass (sha256-confirmed before this pass began and after it concluded, including immediately after the reverted experimental edit).",
+        "No publish, upload, form submission, or outbound contact/network side-effect was performed. The only network activity was a local-only python3 http.server bound to 127.0.0.1 serving this directory's own static files to the local Playwright instance, stopped after checks completed."
+    ],
+    "artifacts": {
+        "pinned_gate_receipt": ".impeccable-detector-receipt.json (regenerated by the gate script itself at 2026-07-18T23:43:56.848115+00:00; not hand-edited)",
+        "narrative_record": "SITE_REVIEW.md §10 (this pass)",
+        "this_receipt": ".validation-receipt.json"
+    },
+    "schema": 3,
+    "status": "findings"
+}

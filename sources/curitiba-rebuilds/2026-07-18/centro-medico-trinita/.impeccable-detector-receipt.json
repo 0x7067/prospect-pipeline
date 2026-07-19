@@ -1,0 +1,140 @@
+{
+  "build_id": "de82c48fe46199c52e4f550042c8c0c4bccc0345066b35b65b6ae7b8db0f616c",
+  "detector": {
+    "expected_cli_version": "3.2.1",
+    "path": "/opt/data/bin/impeccable",
+    "resolved_path": "/opt/data/lib/node_modules/impeccable/cli/bin/cli.js",
+    "scans": [
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "raw"
+      },
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "design-aware"
+      }
+    ],
+    "sha256": "62e2bb19a4dc7aecf10ea0ec824a20d3ecb174e65b212eb371cc9b2da271935d"
+  },
+  "findings": [],
+  "gate_exit_code": 0,
+  "generated_at": "2026-07-19T00:12:43.028570+00:00",
+  "impeccable_skill_commit": "44c27a72af98394c32691ba79358811bff86bde6",
+  "policy_sha256": "21936021ef4272afbb508483f0e0e5a5b7ec5a4613630f864e1c8bbffe684604",
+  "policy_version": "prospect-brand-style-gate-v2",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-18/centro-medico-trinita",
+  "release_manifest": {
+    "SOURCE_MANIFEST.md": {
+      "sha256": "d16138f6e8c41360fdb91e40edbb5dc3c81d7279f43a5abcc0ed4db9e9dde418",
+      "size": 3963
+    },
+    "assets/brand/favicon-180.png": {
+      "sha256": "3842b6254d6b7806211b08bae57d845f3f582200d03f7aadfbb1ad90f53be1de",
+      "size": 9043
+    },
+    "assets/brand/favicon-32.png": {
+      "sha256": "be479026420b830877e0a0eccdd4f510848c06bd55d754fc0f7db2cda33e2e37",
+      "size": 812
+    },
+    "assets/brand/logo-trinita-footer.png": {
+      "sha256": "26487f8d092ca2a81a6f81cbbfc66e51eab3b52cf01a3a55a8b66e96ce27e407",
+      "size": 35042
+    },
+    "assets/brand/logo-trinita.png": {
+      "sha256": "9b230eddd200c304960b36558a04b3b28b0527598a4228936197119885658e8f",
+      "size": 43218
+    },
+    "assets/site/convenio-jucimed.png": {
+      "sha256": "c16ad5225d519b32bba2f9ab1791a1ea4a50ed359f23d415d255b9e3b45029b5",
+      "size": 13750
+    },
+    "assets/site/convenio-unimed.png": {
+      "sha256": "4a74efae4114c939e7c699f23720414e98fcd4768d1ce844559f7e0b3b674b3c",
+      "size": 8042
+    },
+    "assets/site/estrutura-01.jpeg": {
+      "sha256": "527bd9b77e92791f055fd443c068077aad8f110f627e8a422d82443a035ad7d1",
+      "size": 116609
+    },
+    "assets/site/estrutura-03.jpeg": {
+      "sha256": "10e989853a29a1a05b7985cc130780e5a5b32d50d4f6fb6c1131df87fa29241e",
+      "size": 69493
+    },
+    "assets/site/estrutura-05.jpeg": {
+      "sha256": "dafa1b0537b9a8968cb1377c83765b1a927cc9b803b62c8b3672ccc227f133eb",
+      "size": 183895
+    },
+    "assets/site/hero-slide-01.jpg": {
+      "sha256": "7e553a088721757f76981132e340dc2991f7036d72760a5d9ca6f60f287bd1d4",
+      "size": 248547
+    },
+    "assets/team/beatriz.jpg": {
+      "sha256": "80bb6f28ced78a7971e91d0f05ab2cb2e23d476a1b6bb85d0d1f8d085fb8744f",
+      "size": 50181
+    },
+    "assets/team/camila.jpg": {
+      "sha256": "746e57b935daae320c16ad82390e0d5113ca3ff90ceb19e14fb2e0d8886328bd",
+      "size": 41306
+    },
+    "assets/team/francisco.jpg": {
+      "sha256": "c66dbc6ca4f289bd2c5020f6c39e691a0b8e0103253346e4d007b4f6d88c6262",
+      "size": 32558
+    },
+    "assets/team/gabriel-bonato.jpg": {
+      "sha256": "c96ab1743b04489a32b90d5caeec5ef932ac6b470b25ef9dee482612119d875b",
+      "size": 29925
+    },
+    "assets/team/gabriel-ribas.jpg": {
+      "sha256": "cb3ed61d78b67ac24332995cc1749155bef037421b419a750ef227efd995853c",
+      "size": 28308
+    },
+    "assets/team/gustavo.jpg": {
+      "sha256": "9a29f25f058b78e006ae3d8c0c733102ceb98d866f110732304a05ea6a61fd2a",
+      "size": 45238
+    },
+    "assets/team/jandrey.jpg": {
+      "sha256": "b63b1f435e222372c0924e0baad962b2e1708bb115439d46689a32c7ccd295c8",
+      "size": 41497
+    },
+    "assets/team/marilia.jpg": {
+      "sha256": "8209db3538cd2d033fe6b64dede43ee33906fb86477afcf96e1bddf68b76f59e",
+      "size": 35219
+    },
+    "assets/team/marvin.jpg": {
+      "sha256": "a8d4104ed1c197731b51c95c7416366a6cafa6e14b0d8a3b3e9cfc5cb9b473c0",
+      "size": 27662
+    },
+    "assets/team/mateus.jpg": {
+      "sha256": "1108be839d3c7ecdea8eb6989c7caf4596f1356c08e254162651a3646d175703",
+      "size": 34307
+    },
+    "assets/team/victor.jpg": {
+      "sha256": "f62a86e30ad4c9f582ee3b768a31cad9a804575d80e9fcdc698cf141ff0da2b7",
+      "size": 40525
+    },
+    "index.html": {
+      "sha256": "f0fdf33d11b938a9b4e040b8218bc0ac0cae142c84d5e539afab60049d4dcb15",
+      "size": 24192
+    },
+    "proposal.html": {
+      "sha256": "fe0115289b8e1b5377baaaacfb642d4c473c5dc90afdca6ccb3e7a567a234056",
+      "size": 7051
+    },
+    "rationale.html": {
+      "sha256": "4496646e0c911e17bd6488cdeb05404da33206924417041ab428f15da891b572",
+      "size": 395
+    },
+    "script.js": {
+      "sha256": "eea514db586820063ca293db4d91e666aeea703fd124b8efd4b01ee622e72e21",
+      "size": 5540
+    },
+    "styles.css": {
+      "sha256": "b6bc29f1b672e8368111b2569a4f00c26c876530fa0b20d58ea332df31802f16",
+      "size": 22299
+    }
+  },
+  "schema": 3,
+  "status": "clean"
+}
