@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "status": "ready",
+  "build_id": "ef896a0b16b6e16bac07029ee27efd333040994776a25818cf9dce2a4e5febfb",
+  "deliverable_tier": "early_visual_direction",
+  "summary": "Ready as an early visual direction deliverable only. The release-bound validator passed Node syntax validation, the pinned detector with no findings, and all six desktop/mobile browser cases. This status is not institutional approval, production completion, or readiness for publication.",
+  "blockers": []
+}

@@ -1,0 +1,199 @@
+{
+  "browser": {
+    "engine": "playwright chromium",
+    "error": null,
+    "required_matrix_complete": true,
+    "required_pages": [
+      "index.html",
+      "proposal.html",
+      "rationale.html"
+    ],
+    "required_viewports": {
+      "desktop": {
+        "height": 900,
+        "width": 1440
+      },
+      "mobile": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    "results": [
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:45993/index.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-desktop.png",
+        "screenshot_sha256": "218864fffd5bbe1787c20d0688c1682bd8e98c5dfa88ffaf5c4b7beac3714f69",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Escola Homeopática de Curitiba",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:45993/index.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-mobile.png",
+        "screenshot_sha256": "6da4e4429148e323d12422ab07b6d3788e0475add5726ad2d783282c4f159270",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Escola Homeopática de Curitiba",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:45993/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-desktop.png",
+        "screenshot_sha256": "7e1f847020cd98c3fa20cf8d56cdf8a27c18a7848f276a3bac23b52fb9696065",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta independente — Escola Homeopática de Curitiba",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:45993/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-mobile.png",
+        "screenshot_sha256": "7ea6af0b58711d26567a5be0ae6527de797307accc8fabef5e4dfa95d862276d",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta independente — Escola Homeopática de Curitiba",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:45993/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-desktop.png",
+        "screenshot_sha256": "7e1f847020cd98c3fa20cf8d56cdf8a27c18a7848f276a3bac23b52fb9696065",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta independente — Escola Homeopática de Curitiba",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:45993/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-mobile.png",
+        "screenshot_sha256": "7ea6af0b58711d26567a5be0ae6527de797307accc8fabef5e4dfa95d862276d",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta independente — Escola Homeopática de Curitiba",
+        "viewport": "mobile",
+        "width": 390
+      }
+    ],
+    "status": "pass"
+  },
+  "build_id": "ef896a0b16b6e16bac07029ee27efd333040994776a25818cf9dce2a4e5febfb",
+  "detector": {
+    "command": "/opt/data/.venvs/curitiba/bin/python /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-19/escola-homeopatica-de-curitiba",
+    "current_clean": true,
+    "current_findings": false,
+    "exit_code": 0,
+    "status": "clean",
+    "stderr": "",
+    "stdout": ""
+  },
+  "generated_at": "2026-07-19T14:19:27.188408+00:00",
+  "node_check": {
+    "command": "node --check script.js",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/escola-homeopatica-de-curitiba",
+  "release_manifest": {
+    "index.html": {
+      "sha256": "9b7075b690549970a88b8d0b060d910a248162dc6b4b520e909d647aafb654f5",
+      "size": 6028
+    },
+    "proposal.html": {
+      "sha256": "bac16db66709dc7f56d3875dda722acbe2c807bb785e12964f457e719d3f7d7b",
+      "size": 3720
+    },
+    "rationale.html": {
+      "sha256": "b5cce1fc357e3f582c920075d2cc2ea17724d1af2adb5e2969527cd6af5f5c50",
+      "size": 404
+    },
+    "script.js": {
+      "sha256": "3c08aaab5acf9e9756a21a25da7a2cfb9bedef51391f57e583abcfbef2ccbb3a",
+      "size": 1187
+    },
+    "styles.css": {
+      "sha256": "52847755e76f52fd419a1309bc75659b94c68ca619d400ea0f93ac2c07f41a86",
+      "size": 12802
+    }
+  },
+  "schema": 1,
+  "status": "pass"
+}
