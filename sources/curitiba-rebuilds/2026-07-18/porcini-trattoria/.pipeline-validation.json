@@ -1,0 +1,235 @@
+{
+  "browser": {
+    "engine": "playwright chromium",
+    "error": null,
+    "required_matrix_complete": true,
+    "required_pages": [
+      "index.html",
+      "proposal.html",
+      "rationale.html"
+    ],
+    "required_viewports": {
+      "desktop": {
+        "height": 900,
+        "width": 1440
+      },
+      "mobile": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    "results": [
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:40679/index.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-desktop.png",
+        "screenshot_sha256": "c92ae0da306d85584d724539689fc88d6cc4352a98394d0572e2fd481e7cbd60",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Porcini Trattoria | Comer bem em todos os detalhes",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:40679/index.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-mobile.png",
+        "screenshot_sha256": "d2bd4ecb9958da27bb19da663cc47baf67dd5e67d497cf4ea7037449e17b1c6e",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Porcini Trattoria | Comer bem em todos os detalhes",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:40679/index.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-desktop.png",
+        "screenshot_sha256": "c92ae0da306d85584d724539689fc88d6cc4352a98394d0572e2fd481e7cbd60",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Porcini Trattoria | Comer bem em todos os detalhes",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:40679/index.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-mobile.png",
+        "screenshot_sha256": "d2bd4ecb9958da27bb19da663cc47baf67dd5e67d497cf4ea7037449e17b1c6e",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Porcini Trattoria | Comer bem em todos os detalhes",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:40679/index.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-desktop.png",
+        "screenshot_sha256": "c92ae0da306d85584d724539689fc88d6cc4352a98394d0572e2fd481e7cbd60",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Porcini Trattoria | Comer bem em todos os detalhes",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:40679/index.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-mobile.png",
+        "screenshot_sha256": "d2bd4ecb9958da27bb19da663cc47baf67dd5e67d497cf4ea7037449e17b1c6e",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Porcini Trattoria | Comer bem em todos os detalhes",
+        "viewport": "mobile",
+        "width": 390
+      }
+    ],
+    "status": "pass"
+  },
+  "build_id": "c64d163b6cccc4e068aeaf4c22f895a6ff435f13f7fbe8968ab3fdf6e8cc0fd5",
+  "detector": {
+    "command": "/opt/data/.venvs/curitiba/bin/python /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-18/porcini-trattoria",
+    "current_clean": true,
+    "current_findings": false,
+    "exit_code": 0,
+    "status": "clean",
+    "stderr": "",
+    "stdout": ""
+  },
+  "generated_at": "2026-07-19T00:06:34.549573+00:00",
+  "node_check": {
+    "command": "node --check script.js",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-18/porcini-trattoria",
+  "release_manifest": {
+    "assets/asset-0.png": {
+      "sha256": "3f8877c936ddbc58492aa6ae1a21a46a69ad9c2c24ffa7d87bdafd4afdf6ecf6",
+      "size": 25040
+    },
+    "assets/asset-1.jpg": {
+      "sha256": "10c58e299cd1ce0ff0736034e59005c1b4c3f71a8122d7958af35db4f50f49ef",
+      "size": 169878
+    },
+    "assets/asset-2.jpg": {
+      "sha256": "a997531adc14eef81960e989018796967a9c0499d3ed713b83acf32d5fa2458e",
+      "size": 170777
+    },
+    "assets/asset-3.jpg": {
+      "sha256": "21c4f246f4245b8075a156c7436c54482d41b1d43c07f2749795329279c3d3cc",
+      "size": 184964
+    },
+    "assets/asset-4.jpg": {
+      "sha256": "faee7d1acab3ea08665ebc82bd5566bce9cc1cde43698a46d9fb34075b7f6281",
+      "size": 38412
+    },
+    "assets/original-desktop-full.png": {
+      "sha256": "9b862b4cd3355a253e1c2df4645f27ab546c885cd58d865399098f3bdfaefb88",
+      "size": 1802471
+    },
+    "assets/original-desktop.png": {
+      "sha256": "33f88be99748b0b3c6b7f54a6edee09b7cfebd5028844aba1c5d9b3cceb1e454",
+      "size": 939426
+    },
+    "assets/original-mobile-full.png": {
+      "sha256": "40c6b28b750cfc91eb38a86026245bb76ce24ecf0bad943f7eae08de56b18e71",
+      "size": 787804
+    },
+    "assets/original-mobile.png": {
+      "sha256": "6e071699f9e85d67ff8c586bf78e13a5e0886e1ce0605b48371cf6f505f9da32",
+      "size": 300340
+    },
+    "index.html": {
+      "sha256": "c2e1c5fa2d5c99e384ea18716dd727bf13da6de664f398126ac55e10056fc2e9",
+      "size": 4540
+    },
+    "proposal.html": {
+      "sha256": "127b8dc69d4f43240c2670be19a14c5ae266f5f70b7197e9ebf9ce74ec7e7bcb",
+      "size": 336
+    },
+    "rationale.html": {
+      "sha256": "127b8dc69d4f43240c2670be19a14c5ae266f5f70b7197e9ebf9ce74ec7e7bcb",
+      "size": 336
+    },
+    "script.js": {
+      "sha256": "1293409d8d0486fbbf9285eb5b12d6070b14c177185d097423e30f51b5b371af",
+      "size": 554
+    },
+    "styles.css": {
+      "sha256": "c1cf096bc0f423ab1772d5228bca4d597a9a1de8c4ec04128a883eb1a5101ce5",
+      "size": 6241
+    }
+  },
+  "schema": 1,
+  "status": "pass"
+}
