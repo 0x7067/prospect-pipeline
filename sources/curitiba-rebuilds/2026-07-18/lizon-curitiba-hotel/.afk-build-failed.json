@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "status": "failed",
+  "builder_id": "afk-lizon-curitiba-hotel-2026-07-18",
+  "generated_at": "2026-07-19T13:47:00Z",
+  "deliverable_tier": "production_complete",
+  "detector_receipt": ".impeccable-detector-receipt.json",
+  "detector_status": "clean",
+  "detector_build_id": "43e414812800f3f3a5893cad1685b8db6328483816fd9ecb4b0e0bc30ae25d55",
+  "detector_runs_used": 2,
+  "detector_runs_budget": 2,
+  "capture_status": "failed",
+  "capture_status_file": "comparison/capture-status.json",
+  "reason": "The pinned schema-3 detector gate is current and clean, but the required build-bound comparison capture could not produce a truthful complete four-capture set. The official current mobile page returned HTTP 200 yet rendered 768px-wide content in the required 390px viewport, so the capture script detected horizontal overflow, rejected that target and removed its PNGs. The local proposed desktop/mobile captures and official current desktop capture succeeded. No failed capture was substituted or relabeled.",
+  "blocking_findings": [
+    {
+      "stage": "comparison_capture",
+      "target": "current-mobile",
+      "viewport": "390x844",
+      "detail": "Official page horizontal_overflow=true; full-page render measured 768px wide. This is external state on https://lizon.com.br/ and cannot be corrected within the authorized local project scope."
+    }
+  ],
+  "local_build_validation": {
+    "detector_clean": true,
+    "browser_viewports": ["1440x900", "390x844"],
+    "horizontal_overflow": false,
+    "console_page_request_errors": 0,
+    "broken_local_images": 0
+  },
+  "captures": {
+    "current_desktop": "success",
+    "current_mobile": "failed_and_removed",
+    "proposed_desktop": "success",
+    "proposed_mobile": "success"
+  },
+  "publication_authorized": false,
+  "summary": "Completed the Impeccable craft gate, one coherent evidence-bounded implementation pass, one desktop/mobile browser-validation pass, one consolidated detector repair pass and two detector runs. The final local detector receipt is clean. Release is withheld solely because the mandatory official-site mobile comparison capture failed the exact-viewport overflow check; the failure is recorded truthfully and no publication, contact, form submission or external mutation occurred."
+}

@@ -1,0 +1,25 @@
+/* Self-hosted, local-only font files. No runtime dependency on any external font host.
+   Bricolage Grotesque — humanist display sans for arrival/destination statements.
+   Libre Franklin — neutral operational sans for booking, rooms, and detail copy.
+   Variable-font files: one woff2 covers the full weight range per family. */
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('bricolage-400.woff2') format('woff2-variations'), url('bricolage-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('franklin-400.woff2') format('woff2-variations'), url('franklin-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url('franklin-500i.woff2') format('woff2');
+}

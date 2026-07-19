@@ -1,0 +1,14 @@
+{
+  "url": "https://lizon.com.br/",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "title": "LIZON CURITIBA HOTEL",
+  "final_url": "https://www.lizon.com.br/",
+  "request_failures": [
+    "https://omnibees-chatbot.s3.amazonaws.com/public/CHAT_CLIENT_OMNIBEES/chat_web_63da7854e559330001825163.js",
+    "https://rtc.multiscreensite.com/performance/metrics",
+    "https://rtc.multiscreensite.com/performance/metrics"
+  ]
+}

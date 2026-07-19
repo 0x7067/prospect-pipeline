@@ -1,0 +1,243 @@
+{
+  "browser": {
+    "engine": "playwright chromium",
+    "error": null,
+    "required_matrix_complete": true,
+    "required_pages": [
+      "index.html",
+      "proposal.html",
+      "rationale.html"
+    ],
+    "required_viewports": {
+      "desktop": {
+        "height": 900,
+        "width": 1440
+      },
+      "mobile": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    "results": [
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:43883/index.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-desktop.png",
+        "screenshot_sha256": "0d08edc2bae2f3818e48fd65ff25c4bfc7c3ebeec0a75f3f0d8c81a042bc3302",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Lizon Curitiba Hotel: hospedagem, eventos e restaurante no Centro de Curitiba",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:43883/index.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-mobile.png",
+        "screenshot_sha256": "4098b176a9d94c263f11f173d2fa7346bdbcce5b4887ee1aa5cf7ad7a2825f1d",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Lizon Curitiba Hotel: hospedagem, eventos e restaurante no Centro de Curitiba",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:43883/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-desktop.png",
+        "screenshot_sha256": "a65b359ba3afd0cc0dbc99ee2b4dc4c8031e4995c8142b842d13594cab10038a",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta independente · Lizon Curitiba Hotel",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:43883/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-mobile.png",
+        "screenshot_sha256": "411f478100762ffb4160c773e06555a42d63a4a56d2fe7d87d68ef08f60a32db",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta independente · Lizon Curitiba Hotel",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:43883/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-desktop.png",
+        "screenshot_sha256": "a65b359ba3afd0cc0dbc99ee2b4dc4c8031e4995c8142b842d13594cab10038a",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta independente · Lizon Curitiba Hotel",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:43883/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-mobile.png",
+        "screenshot_sha256": "411f478100762ffb4160c773e06555a42d63a4a56d2fe7d87d68ef08f60a32db",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta independente · Lizon Curitiba Hotel",
+        "viewport": "mobile",
+        "width": 390
+      }
+    ],
+    "status": "pass"
+  },
+  "build_id": "43e414812800f3f3a5893cad1685b8db6328483816fd9ecb4b0e0bc30ae25d55",
+  "detector": {
+    "command": "/opt/data/.venvs/curitiba/bin/python /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-18/lizon-curitiba-hotel",
+    "current_clean": true,
+    "current_findings": false,
+    "exit_code": 0,
+    "status": "clean",
+    "stderr": "",
+    "stdout": ""
+  },
+  "generated_at": "2026-07-19T14:12:28.557431+00:00",
+  "node_check": {
+    "command": "node --check script.js",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-18/lizon-curitiba-hotel",
+  "release_manifest": {
+    "assets/breakfast-room.jpg": {
+      "sha256": "e4ce924bb4f6ce518d838b27949e37db76f4b6316355a8b3f7691db320a01bfc",
+      "size": 238429
+    },
+    "assets/dish-shrimp.jpg": {
+      "sha256": "bc7a925a713149f2beeb1c7cb108588812604685b032b240817b0d9d7838cd94",
+      "size": 289324
+    },
+    "assets/event-hall.jpg": {
+      "sha256": "09565550f4026a1fc8b561d6a6cf1128ee15b1b8b5da0a26da18d0236d937c9d",
+      "size": 255993
+    },
+    "assets/fonts/bricolage-400.woff2": {
+      "sha256": "a79fdb52d4a5c76552452f69202add96e287401fff03d3e8c0e38b4dcb5a99cd",
+      "size": 76888
+    },
+    "assets/fonts/fonts.css": {
+      "sha256": "c41e1ec2362c57b963fabaae58d9fb4b04edba9b91b7f751504391f923da5538",
+      "size": 945
+    },
+    "assets/fonts/franklin-400.woff2": {
+      "sha256": "52e605852c72cc2df1473df1fb7f26a3a0be58e31835bc8f33f29b1918c82cbd",
+      "size": 29292
+    },
+    "assets/fonts/franklin-500i.woff2": {
+      "sha256": "e235a1335008d6ec4c635d2c643ebfa0b2035ad6c2de3531c923d717c2b4a46e",
+      "size": 17424
+    },
+    "assets/lobby-worldmap.jpg": {
+      "sha256": "a4e3a4743bbf8e657297f265fb9b695df48635bc420c46096ef796c5934cbcb1",
+      "size": 276588
+    },
+    "assets/logo-mark.png": {
+      "sha256": "4aacc71cb5b7162c77938931f1b922bf3816be4fa30658f5e5cdcd6454a6d3a3",
+      "size": 39865
+    },
+    "assets/logo-white.png": {
+      "sha256": "04cd3dc34868d34dbb9cb3f594350aba1fa7c2c5872363d0aa12ddef7741f3bd",
+      "size": 6247
+    },
+    "assets/suite-jacuzzi.jpg": {
+      "sha256": "4a8c4df7382d9f91fc3c91348998f5a155ad3034f9e2657d57877925ccb28566",
+      "size": 209245
+    },
+    "index.html": {
+      "sha256": "e33a919362efa320f3f28406fb752d87784d39e16b24bc79183d2a9326e4aafd",
+      "size": 8329
+    },
+    "proposal.html": {
+      "sha256": "f8c9b19a7b887e63a82b88cc36e42dc7f447bdb53fa72cce40037048aae58ea7",
+      "size": 6011
+    },
+    "rationale.html": {
+      "sha256": "aa224d3a745369ec77b85f1bf5542355232fcbfb8a76753d46d54aecea4d37e5",
+      "size": 369
+    },
+    "script.js": {
+      "sha256": "f9f5afa39adec34c668cf311de57ea00036f084ce6c9ed5e96d555ee010d871b",
+      "size": 946
+    },
+    "styles.css": {
+      "sha256": "726b7971994165edb5507d8e3bd22fc87855b1ce1c699243fcffdf6d9b4c4ccb",
+      "size": 19016
+    }
+  },
+  "schema": 1,
+  "status": "pass"
+}

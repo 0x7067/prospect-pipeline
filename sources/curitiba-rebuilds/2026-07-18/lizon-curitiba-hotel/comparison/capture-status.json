@@ -1,0 +1,172 @@
+{
+  "schema": 2,
+  "policy_version": "prospect-brand-style-gate-v2",
+  "policy_sha256": "21936021ef4272afbb508483f0e0e5a5b7ec5a4613630f864e1c8bbffe684604",
+  "build_id": "43e414812800f3f3a5893cad1685b8db6328483816fd9ecb4b0e0bc30ae25d55",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-18/lizon-curitiba-hotel",
+  "started_at": "2026-07-19T13:46:09.160Z",
+  "finished_at": "2026-07-19T13:46:28.771Z",
+  "captures": [
+    {
+      "target": "current",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "https://lizon.com.br/",
+      "image": "comparison/current-desktop.png",
+      "full_image": "comparison/current-desktop-full.png",
+      "started_at": "2026-07-19T13:46:09.203Z",
+      "success": true,
+      "http_status": 200,
+      "title": "LIZON CURITIBA HOTEL",
+      "final_url": "https://www.lizon.com.br/",
+      "error": null,
+      "console_errors": [
+        "requestStorageAccess: Permission denied."
+      ],
+      "page_errors": [
+        "Uncaught (in promise) InvalidValueError: initMap is not a function\n    at _.Tm (https://maps.googleapis.com/maps/api/js?key=AIzaSyArxX4C_IxZ9B-xiqsF2hsf6AQSYwHwJg0&&callback=initMap:202:122)\n    at Sfa (https://maps.googleapis.com/maps/api/js?key=AIzaSyArxX4C_IxZ9B-xiqsF2hsf6AQSYwHwJg0&&callback=initMap:331:104)\n    at <anonymous> (https://maps.googleapis.com/maps/api/js?key=AIzaSyArxX4C_IxZ9B-xiqsF2hsf6AQSYwHwJg0&&callback=initMap:330:139)"
+      ],
+      "request_failures": [
+        {
+          "url": "https://omnibees-chatbot.s3.amazonaws.com/public/CHAT_CLIENT_OMNIBEES/chat_web_63da7854e559330001825163.js",
+          "error": "net::ERR_BLOCKED_BY_ORB"
+        },
+        {
+          "url": "https://rtc.multiscreensite.com/performance/metrics",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://rtc.multiscreensite.com/performance/metrics",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://rtc.multiscreensite.com/feature/metrics",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://rtc.multiscreensite.com/feature/metrics",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "horizontal_overflow": false,
+      "pixel_width": 1440,
+      "pixel_height": 900,
+      "sha256": "f4e5f9f326ba2ff205e4a9506fb2d9b90e767ad9a0f860ee8f7d8b175948a211",
+      "full_pixel_width": 1440,
+      "full_pixel_height": 3477,
+      "full_sha256": "80c7447a5817aa326a38d31c48b805cba0c86ae5a48a235b573328dd200e26d8",
+      "finished_at": "2026-07-19T13:46:17.019Z"
+    },
+    {
+      "target": "current",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "https://lizon.com.br/",
+      "image": "comparison/current-mobile.png",
+      "full_image": "comparison/current-mobile-full.png",
+      "started_at": "2026-07-19T13:46:17.019Z",
+      "success": false,
+      "http_status": 200,
+      "title": "LIZON CURITIBA HOTEL",
+      "final_url": "https://www.lizon.com.br/",
+      "error": "Error: horizontal overflow detected\n    at captureOne (file:///opt/data/scripts/capture_curitiba_comparison.mjs:102:43)\n    at async main (file:///opt/data/scripts/capture_curitiba_comparison.mjs:127:68)",
+      "console_errors": [
+        "requestStorageAccess: Permission denied."
+      ],
+      "page_errors": [
+        "Uncaught (in promise) InvalidValueError: initMap is not a function\n    at _.Tm (https://maps.googleapis.com/maps/api/js?key=AIzaSyArxX4C_IxZ9B-xiqsF2hsf6AQSYwHwJg0&&callback=initMap:202:122)\n    at Sfa (https://maps.googleapis.com/maps/api/js?key=AIzaSyArxX4C_IxZ9B-xiqsF2hsf6AQSYwHwJg0&&callback=initMap:331:104)\n    at <anonymous> (https://maps.googleapis.com/maps/api/js?key=AIzaSyArxX4C_IxZ9B-xiqsF2hsf6AQSYwHwJg0&&callback=initMap:330:139)"
+      ],
+      "request_failures": [
+        {
+          "url": "https://omnibees-chatbot.s3.amazonaws.com/public/CHAT_CLIENT_OMNIBEES/chat_web_63da7854e559330001825163.js",
+          "error": "net::ERR_BLOCKED_BY_ORB"
+        },
+        {
+          "url": "https://rtc.multiscreensite.com/performance/metrics",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://rtc.multiscreensite.com/performance/metrics",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://rtc.multiscreensite.com/feature/metrics",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://rtc.multiscreensite.com/feature/metrics",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "horizontal_overflow": true,
+      "pixel_width": 390,
+      "pixel_height": 844,
+      "sha256": "0a708ae7c24ac761b5fb72475e9be07dfa9f823571673dd618b4428fada1d851",
+      "full_pixel_width": 768,
+      "full_pixel_height": 4938,
+      "full_sha256": "6ca335a214b69002ae67e18604774e20e1db8db92b88b65772df5a4b2226b4a5",
+      "finished_at": "2026-07-19T13:46:25.224Z"
+    },
+    {
+      "target": "proposed",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://127.0.0.1:42925/",
+      "image": "comparison/proposed-desktop.png",
+      "full_image": "comparison/proposed-desktop-full.png",
+      "started_at": "2026-07-19T13:46:25.224Z",
+      "success": true,
+      "http_status": 200,
+      "title": "Lizon Curitiba Hotel: hospedagem, eventos e restaurante no Centro de Curitiba",
+      "final_url": "http://127.0.0.1:42925/",
+      "error": null,
+      "console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "horizontal_overflow": false,
+      "pixel_width": 1440,
+      "pixel_height": 900,
+      "sha256": "90620ab9b71c3893b945d041dfc2bb18e8941743b150a732c1e904affb16b0fb",
+      "full_pixel_width": 1440,
+      "full_pixel_height": 4554,
+      "full_sha256": "0d08edc2bae2f3818e48fd65ff25c4bfc7c3ebeec0a75f3f0d8c81a042bc3302",
+      "finished_at": "2026-07-19T13:46:27.194Z"
+    },
+    {
+      "target": "proposed",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:42925/",
+      "image": "comparison/proposed-mobile.png",
+      "full_image": "comparison/proposed-mobile-full.png",
+      "started_at": "2026-07-19T13:46:27.194Z",
+      "success": true,
+      "http_status": 200,
+      "title": "Lizon Curitiba Hotel: hospedagem, eventos e restaurante no Centro de Curitiba",
+      "final_url": "http://127.0.0.1:42925/",
+      "error": null,
+      "console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "horizontal_overflow": false,
+      "pixel_width": 390,
+      "pixel_height": 844,
+      "sha256": "a63904b239357f582e5dc71d6fc58cf4e36ca8f9be3291ee1a9deb86cdc8eb93",
+      "full_pixel_width": 390,
+      "full_pixel_height": 5455,
+      "full_sha256": "5fd58e0c1a6422f9e0b2d88ad5c02bed89e4b8d06c26cf3cdf9e6b4ee25459e6",
+      "finished_at": "2026-07-19T13:46:28.754Z"
+    }
+  ],
+  "errors": [],
+  "local_server_url": "http://127.0.0.1:42925/",
+  "success": false
+}
