@@ -1,0 +1,128 @@
+{
+  "scope": {
+    "target_directory": "/opt/data/projects/curitiba-rebuilds/2026-07-18/salao-de-eventos-curitiba",
+    "constraint": "Focused repair/validation only. No other directory or archived root was read from or written to. No variants created, no publish/upload/promote/form-submit/contact actions performed. Detector source was not inspected at any point (all diagnosis used only the documented `impeccable detect --json --no-config <files>` CLI interface against the pinned local executable, on the real current files, since no repair was needed this pass).",
+    "pass": "seventh run \u2014 confirm stability + re-validate current findings only (no repair needed)",
+    "timestamp_utc": "2026-07-18T23:19:14Z"
+  },
+  "pre_pass_file_hashes_sha256": {
+    "note": "State at the start of this pass, inherited unchanged from the sixth (immediately prior) run's post_pass_file_hashes_sha256.",
+    "index.html": "9fab1b9e477ad52adfd3cecf96cfb2154b9bff810d088d6703c51f1be0451c34",
+    "proposal.html": "f73a9ea5f61e0d020f027c04a5ae6f1eef4b241ad284363cce03b20ed280c8b9",
+    "rationale.html": "84c82431d57514d4326e688510ab7993a984f5e991996cce3e3d49d78ad8c82b",
+    "styles.css": "80f9ed044e2b5495a496972b3e60aa6033b086396bc007a5e1572ba3df05b935",
+    "script.js": "d372f1f690625828d074b67d0a6abd3e5c807484c566319ad2a52dc8fd6e0bd2"
+  },
+  "post_pass_file_hashes_sha256": {
+    "note": "Byte-identical to pre_pass_file_hashes_sha256 \u2014 no repair was made this pass.",
+    "index.html": "9fab1b9e477ad52adfd3cecf96cfb2154b9bff810d088d6703c51f1be0451c34",
+    "proposal.html": "f73a9ea5f61e0d020f027c04a5ae6f1eef4b241ad284363cce03b20ed280c8b9",
+    "rationale.html": "84c82431d57514d4326e688510ab7993a984f5e991996cce3e3d49d78ad8c82b",
+    "styles.css": "80f9ed044e2b5495a496972b3e60aa6033b086396bc007a5e1572ba3df05b935",
+    "script.js": "d372f1f690625828d074b67d0a6abd3e5c807484c566319ad2a52dc8fd6e0bd2"
+  },
+  "diagnosis_this_pass": {
+    "method": "Ran the pinned Impeccable CLI directly against each current real file via its documented interface (`impeccable detect --json --no-config <file>`), plus the full pinned gate script, before deciding whether any repair was needed. Detector source was never opened.",
+    "current_findings": [
+      {
+        "antipattern": "cream-palette",
+        "severity": "warning",
+        "file": "index.html",
+        "snippet": "cream/beige page background rgb(247, 243, 237)"
+      },
+      {
+        "antipattern": "cream-palette",
+        "severity": "warning",
+        "file": "proposal.html",
+        "snippet": "cream/beige page background rgb(247, 243, 237)"
+      }
+    ],
+    "rationale.html_styles.css_script.js": "0 findings each, individually scanned."
+  },
+  "repairs_made": [],
+  "not_repaired": [
+    {
+      "antipattern": "cream-palette",
+      "severity": "warning",
+      "files": ["index.html", "proposal.html"],
+      "disposition": "NOT REPAIRED -- sourced brand fact, not an AI-default guess. BRAND_SOURCE.md:12 explicitly documents '#F7F3ED \u2014 sampled as a neutral from the official imagery; use for airy planning surfaces,' the identical sentence appears in the original task brief AFK_NATIVE_TASK.md:55, and SOURCE_MANIFEST.md:190 documents the same three-color palette as 'a working palette inferred in BRAND_SOURCE.md.' Changing this color would invent a fact contradiction and violate the instruction to preserve sourced business facts and assets; it is a brand-identity decision, out of scope for mechanical repair. This is the ONLY finding present this pass, re-confirmed unchanged from the sixth run's terminal disposition."
+    }
+  ],
+  "checks": [
+    {
+      "name": "node_syntax_check",
+      "command": "node --check script.js",
+      "cwd": "/opt/data/projects/curitiba-rebuilds/2026-07-18/salao-de-eventos-curitiba",
+      "exit_code": 0,
+      "result": "pass",
+      "notes": "script.js was not touched this pass (hash unchanged from sixth run); syntax check re-run fresh, passes silently."
+    },
+    {
+      "name": "impeccable_detector_gate",
+      "command": "python3 /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-18/salao-de-eventos-curitiba",
+      "cli_version": "3.2.1",
+      "resolved_path": "/opt/data/lib/node_modules/impeccable/cli/bin/cli.js",
+      "exit_code": 2,
+      "result": "FINDINGS (not clean) \u2014 stable at 2 unique findings per scan, unchanged from the sixth run",
+      "receipt_written": ".impeccable-detector-receipt.json (fresh generated_at 2026-07-18T23:14:58.822739+00:00, build_id f52b9124de12ca04e926fb122f9fb57628d2bbb6e0d224384373e5b5b193cb41 -- unchanged from sixth run since no production file changed, release_manifest hashes independently re-verified against the actual current 17 files: all match)",
+      "unique_findings_per_scan": 2,
+      "findings": [
+        {
+          "antipattern": "cream-palette",
+          "severity": "warning",
+          "file": "index.html",
+          "snippet": "cream/beige page background rgb(247, 243, 237)",
+          "disposition": "NOT REPAIRED \u2014 sourced brand fact (BRAND_SOURCE.md:12, AFK_NATIVE_TASK.md:55, SOURCE_MANIFEST.md:190)."
+        },
+        {
+          "antipattern": "cream-palette",
+          "severity": "warning",
+          "file": "proposal.html",
+          "snippet": "cream/beige page background rgb(247, 243, 237)",
+          "disposition": "NOT REPAIRED \u2014 same sourced-fact rationale; proposal.html shares the documented brand surface by design."
+        }
+      ],
+      "findings_resolved_this_pass": []
+    },
+    {
+      "name": "playwright_chromium_checks",
+      "command": "PLAYWRIGHT_BROWSERS_PATH=/opt/data/.cache/ms-playwright /opt/data/.venvs/curitiba/bin/python /tmp/pw_validate_salao_repair.py (chromium, wait_until=networkidle, local http://127.0.0.1:8940 static-file server)",
+      "exit_code": 0,
+      "viewports_tested": ["1440x900", "390x844"],
+      "pages_tested": ["index.html", "proposal.html", "rationale.html"],
+      "results": {
+        "index.html": {
+          "1440x900": {"http_status": 200, "title": "Sal\u00e3o de Eventos Curitiba | Sua festa, seu momento", "h1_count": 1, "h1_text": "Voc\u00ea ser\u00e1 um convidado em sua pr\u00f3pria festa.", "console_errors": [], "page_errors": [], "failed_requests": [], "scrollWidth": 1440, "clientWidth": 1440, "overflow": false, "contact_inert_demo_feedback": "Nenhum dado foi enviado. O canal segue pendente de confirma\u00e7\u00e3o."},
+          "390x844": {"http_status": 200, "title": "Sal\u00e3o de Eventos Curitiba | Sua festa, seu momento", "h1_count": 1, "h1_text": "Voc\u00ea ser\u00e1 um convidado em sua pr\u00f3pria festa.", "console_errors": [], "page_errors": [], "failed_requests": [], "scrollWidth": 390, "clientWidth": 390, "overflow": false, "mobile_nav": {"aria_expanded_before": "false", "aria_expanded_after": "true", "nav_visible_before": false, "nav_visible_after": true}, "contact_inert_demo_feedback": "Nenhum dado foi enviado. O canal segue pendente de confirma\u00e7\u00e3o."}
+        },
+        "proposal.html": {
+          "1440x900": {"http_status": 200, "title": "Proposta independente | Sal\u00e3o de Eventos Curitiba", "h1_count": 1, "h1_text": "Uma experi\u00eancia h\u00edbrida: emo\u00e7\u00e3o para a marca, clareza para decidir.", "console_errors": [], "page_errors": [], "failed_requests": [], "scrollWidth": 1440, "clientWidth": 1440, "overflow": false},
+          "390x844": {"http_status": 200, "title": "Proposta independente | Sal\u00e3o de Eventos Curitiba", "h1_count": 1, "h1_text": "Uma experi\u00eancia h\u00edbrida: emo\u00e7\u00e3o para a marca, clareza para decidir.", "console_errors": [], "page_errors": [], "failed_requests": [], "scrollWidth": 390, "clientWidth": 390, "overflow": false}
+        },
+        "rationale.html": {
+          "1440x900": {"http_status": 200, "title": "Proposta independente | Sal\u00e3o de Eventos Curitiba (resolved via by-design meta-refresh/JS redirect)", "h1_count": 1, "h1_text": "Uma experi\u00eancia h\u00edbrida: emo\u00e7\u00e3o para a marca, clareza para decidir.", "console_errors": [], "page_errors": [], "failed_requests": [], "scrollWidth": 1440, "clientWidth": 1440, "overflow": false},
+          "390x844": {"http_status": 200, "title": "Proposta independente | Sal\u00e3o de Eventos Curitiba (resolved via by-design meta-refresh/JS redirect)", "h1_count": 1, "h1_text": "Uma experi\u00eancia h\u00edbrida: emo\u00e7\u00e3o para a marca, clareza para decidir.", "console_errors": [], "page_errors": [], "failed_requests": [], "scrollWidth": 390, "clientWidth": 390, "overflow": false}
+        }
+      },
+      "rationale_pixel_match_note": "rationale.html screenshots are SHA-256-identical to proposal.html at both viewports, confirming the meta-refresh/JS redirect resolves correctly by design."
+    },
+    {
+      "name": "playwright_evidence_capture",
+      "command": "PLAYWRIGHT_BROWSERS_PATH=/opt/data/.cache/ms-playwright /opt/data/.venvs/curitiba/bin/python /tmp/capture_evidence_repair.py",
+      "purpose": "Truthful current-state desktop/mobile viewport + full-page screenshots for index.html, proposal.html, and rationale.html, captured this pass, stored outside the project directory at /tmp/salao_evidence_repair_20260718/ (not copied into the repo; this receipt records their hashes for traceability). PNG signature and IHDR-decoded dimensions independently re-verified for all 12 files (exact 1440x900 / 390x844, no device-scale doubling).",
+      "captures": [
+        {"page": "index.html", "viewport": "desktop", "viewport_screenshot_sha256": "ba8d4f7f4b71442fa8aaaf0b1930fcdbb7c36463de1ea01a0d8ec18b527d901f", "full_screenshot_sha256": "f7edcf14d3ecc4c395993fab5e561436d190c635927707a55738eac4e71113fb"},
+        {"page": "index.html", "viewport": "mobile", "viewport_screenshot_sha256": "08d314e6263b29510bf554ab19aaee59b0b688b6ec20bc145be0e225f110695d", "full_screenshot_sha256": "0b5ac64e429636215c48408fe2a13fb895c8b548a68ed58fde6211361606932c"},
+        {"page": "proposal.html", "viewport": "desktop", "viewport_screenshot_sha256": "d959c0a4b456ff6817c7757131445dbe94cf7459d011394a4b30c9229daeb145", "full_screenshot_sha256": "b9a91951021f8f7fd584f17f47ca0b4ffec97ffaeb814a35a994a03fb5d3c3bc"},
+        {"page": "proposal.html", "viewport": "mobile", "viewport_screenshot_sha256": "d43397640c7db8935e139e1dcb32aa8a5630659cac700ac225708b41d3070f6a", "full_screenshot_sha256": "c90006d1701b81efd7c550e064f0844cfc406869e38a978350a63aaf647a20c7"},
+        {"page": "rationale.html", "viewport": "desktop", "viewport_screenshot_sha256": "d959c0a4b456ff6817c7757131445dbe94cf7459d011394a4b30c9229daeb145", "full_screenshot_sha256": "b9a91951021f8f7fd584f17f47ca0b4ffec97ffaeb814a35a994a03fb5d3c3bc"},
+        {"page": "rationale.html", "viewport": "mobile", "viewport_screenshot_sha256": "d43397640c7db8935e139e1dcb32aa8a5630659cac700ac225708b41d3070f6a", "full_screenshot_sha256": "c90006d1701b81efd7c550e064f0844cfc406869e38a978350a63aaf647a20c7"}
+      ],
+      "visual_confirmation": "Full-page desktop and mobile screenshots for index.html and proposal.html were also visually inspected via the sanctioned browser tool: hero, occasion cards (accent-gold dot markers), structure, services, gallery, and contact sections all render cleanly at both viewports with no clipped text, no broken layout, and no accidental overflow. All six capture hashes are byte-identical to the sixth run's captures, confirming zero visual drift since no production file changed."
+    }
+  ],
+  "overall_result": "STABLE / PARTIAL / STILL BLOCKED (unchanged from sixth run) \u2014 no repair needed or made; the two remaining findings are the same documented sourced brand fact, re-confirmed with a fresh diagnosis pass and fresh evidence capture",
+  "blocker": "The pinned detector gate does not exit 0. The 2 remaining findings (cream-palette x2, index.html and proposal.html) are the same documented sourced brand fact recorded in BRAND_SOURCE.md:12 ('#F7F3ED \u2014 sampled as a neutral from the official imagery'), repeated verbatim in the original task brief AFK_NATIVE_TASK.md:55, and referenced again in SOURCE_MANIFEST.md:190. Changing this background color would invent a fact contradiction and violate the explicit instruction to preserve sourced business facts and assets; it is correctly treated as a deliberate brand-identity decision, not a defect, and is left unrepaired. Per instructions, the directory is NOT being marked as validated-clean; this blocker is recorded truthfully instead, consistent with every prior pass since the fourth run.",
+  "summary": "Seventh pass, focused repair/validation only. Confirmed via SHA-256 that all five source files are byte-identical to the state left by the sixth (immediately prior) run \u2014 no drift, no concurrent edit. Re-diagnosed the CURRENT Impeccable detector findings from scratch, using only the pinned CLI's documented interface (impeccable detect --json --no-config <file>, run individually against index.html, proposal.html, rationale.html, styles.css, and script.js, plus the full pinned gate script) \u2014 detector source was never opened. Diagnosis confirmed exactly one finding category remains, in both the raw and design-aware gate scans: cream-palette (warning) on index.html and proposal.html, both instances of the same documented sourced brand-identity color (BRAND_SOURCE.md:12, AFK_NATIVE_TASK.md:55, SOURCE_MANIFEST.md:190). Since this finding is a correctly-sourced business fact rather than an AI-default guess or a mechanical/rendering defect, no repair was made or required this pass \u2014 the sixth run's disposition was re-confirmed, not re-litigated blind. node --check script.js: PASS (exit 0). Pinned impeccable detector gate: exit 2, stable at 2 unique findings per scan (unchanged from the sixth run); release_manifest independently re-verified against the current 17 files (5 top-level + 12 assets): all SHA-256 match. Playwright Chromium checks (networkidle, local http://127.0.0.1:8940 server) pass cleanly for index.html, proposal.html, and rationale.html at both 1440x900 and 390x844: correct titles, exactly one H1 per page, zero console errors, zero page errors, zero failed requests, zero horizontal overflow, a fully functional mobile nav toggle on index.html at 390x844, and a working inert contact-demo button that sends no data. rationale.html's screenshots are pixel-identical (SHA-256 match) to proposal.html at both viewports, confirming its by-design meta-refresh/JS redirect resolves correctly. Fresh truthful current-state desktop and mobile viewport + full-page screenshots were captured for all three pages (stored outside the project directory, hashes recorded here), independently verified by PNG-signature and IHDR-dimension decoding (not just trusting script output), and visually reviewed \u2014 all six capture hashes are byte-identical to the sixth run's captures, confirming zero visual drift. No sourced business fact, price, claim, contact detail, or proof point was invented, altered, or removed. No publish/upload/promote/form-submit/contact action was taken. No archived roots or other directories were read from or written to. Detector source was never inspected. No variants were created; the single existing candidate was left exactly as-is (byte-identical). SITE_REVIEW.md and this receipt were updated truthfully to reflect exactly what was found, verified, and left open.",
+  "schema_note": "Continues the ad hoc per-pass validation-receipt convention used by prior runs in this directory; not a formally versioned schema."
+}

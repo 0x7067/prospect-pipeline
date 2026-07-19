@@ -1,0 +1,109 @@
+{
+  "run_date": "2026-07-18",
+  "opportunity_score": 8.8,
+  "confidence": "alta",
+  "business_name": "Salão de Eventos Curitiba",
+  "slug": "salao-de-eventos-curitiba",
+  "official_url": "https://www.salaodeeventoscuritiba.com.br/",
+  "category": "Espaço e produção de eventos",
+  "active_evidence": "Official HTTPS homepage loaded on 2026-07-18 in desktop/mobile captures; publishes event formats, infrastructure, gallery, phone and WhatsApp. The live title visibly says 'Só mais um site WordPress'.",
+  "problems": [
+    "Live title exposes an unfinished WordPress default, directly harming trust.",
+    "Mixed HTTP image/logo URLs create avoidable security and loading friction on an HTTPS page.",
+    "The homepage describes many facilities in a long paragraph instead of scannable event-planning decisions.",
+    "Wedding, 15th birthday, and graduation imagery is present but not organized into a persuasive event journey.",
+    "Primary contact path is visually weak relative to the high-intent booking decision."
+  ],
+  "rebuild_angle": "Replace the default-template impression with a polished event story: choose your occasion, see the room and infrastructure, then request a tour or quote with verified contact details.",
+  "roi_mechanism": "Recover trust at the first click and shorten the path from event-type inspiration to WhatsApp/phone inquiry for weddings, 15th birthdays, and graduations.",
+  "evidence_links": [
+    "https://www.salaodeeventoscuritiba.com.br/",
+    "https://www.salaodeeventoscuritiba.com.br/wp-content/uploads/2023/09/logo-salao-de-eventos-002.png",
+    "https://www.salaodeeventoscuritiba.com.br/wp-content/uploads/2023/10/Casamento-salao-de-eventos-curitiba.jpg",
+    "https://www.salaodeeventoscuritiba.com.br/wp-content/uploads/2023/10/15anos-salao-de-eventos-curitiba.jpg",
+    "https://www.salaodeeventoscuritiba.com.br/wp-content/uploads/2023/10/formatura-salao-de-eventos-curitiba.jpg"
+  ],
+  "observed_issue_urls_date": [
+    {
+      "url": "https://www.salaodeeventoscuritiba.com.br/",
+      "observed": "2026-07-18",
+      "note": "Default WordPress title, dense copy, mixed-protocol assets, and weak conversion hierarchy observed in captures."
+    }
+  ],
+  "brand_source": {
+    "logo_sources": [
+      "https://www.salaodeeventoscuritiba.com.br/wp-content/uploads/2023/09/logo-salao-de-eventos-002.png",
+      "https://www.salaodeeventoscuritiba.com.br/wp-content/uploads/2023/09/logo-branca-salao-de-eventos.png"
+    ],
+    "colors": [
+      "#1E2A3A — sampled from the official dark logo/visual assets; use as trust base.",
+      "#C8A56A — sampled from warm event photography accents; use sparingly for celebration cues.",
+      "#F7F3ED — sampled as a neutral from the official imagery; use for airy planning surfaces."
+    ],
+    "typography": "Use a high-legibility sans for planning information paired with a restrained display serif for occasion names; this differentiates celebration without relying on generic luxury styling.",
+    "personality_words": [
+      "welcoming",
+      "versatile",
+      "celebratory"
+    ],
+    "strongest_public_language": [
+      "Você será um convidado em sua própria festa!",
+      "som e iluminação em LED profissional",
+      "Criamos o evento completo para você"
+    ],
+    "services": [
+      "weddings",
+      "15th birthday parties",
+      "graduations",
+      "LED sound and lighting",
+      "LED TVs",
+      "high-definition projector",
+      "climatized environments",
+      "VIP bride/debutante room",
+      "parking"
+    ],
+    "locations": [
+      "Curitiba — address not clearly surfaced in the extracted homepage evidence; do not invent it."
+    ],
+    "contacts": [
+      "(41) 3605-5596",
+      "(41) 9 9963-3176"
+    ],
+    "visual_assets": [
+      "https://www.salaodeeventoscuritiba.com.br/wp-content/uploads/2023/10/Casamento-salao-de-eventos-curitiba.jpg",
+      "https://www.salaodeeventoscuritiba.com.br/wp-content/uploads/2023/10/15anos-salao-de-eventos-curitiba.jpg",
+      "https://www.salaodeeventoscuritiba.com.br/wp-content/uploads/2023/10/formatura-salao-de-eventos-curitiba.jpg",
+      "https://www.salaodeeventoscuritiba.com.br/wp-content/uploads/2023/10/img-salao-001-1280x650.jpeg"
+    ],
+    "original_screenshots": {
+      "desktop": "/opt/data/projects/curitiba-rebuilds/2026-07-18/salao-de-eventos-curitiba/assets/original-desktop.png",
+      "mobile": "/opt/data/projects/curitiba-rebuilds/2026-07-18/salao-de-eventos-curitiba/assets/original-mobile.png"
+    },
+    "equity_to_preserve": [
+      "promise of complete event support",
+      "event-type imagery",
+      "professional technical infrastructure",
+      "VIP and accessibility details",
+      "friendly 'guest at your own party' promise"
+    ],
+    "weaknesses_not_to_copy": [
+      "default WordPress title",
+      "long undifferentiated facility paragraph",
+      "mixed HTTP assets",
+      "generic gallery section"
+    ]
+  },
+  "concept_thesis": "This concept can only belong to Salão de Eventos Curitiba because it makes the promise of being a guest at your own party visible through an occasion-first planning flow.",
+  "concept_rules": [
+    "Start with three verified occasions as a chooser, not a generic hero.",
+    "Use one editorial timeline from idea to event day to make support tangible without inventing process steps.",
+    "Pair occasion-led serif labels with a practical sans for capacity and infrastructure facts.",
+    "Use official event photography in full-bleed crops, never stock celebration imagery.",
+    "Shift the dark logo palette into warm cream and one gold accent only at moments of celebration.",
+    "Make phone and WhatsApp inquiry persistent, with no invented address or availability claims."
+  ],
+  "factual_claim_sources": [
+    "Official homepage and listed image URLs; facility and contact claims are bounded to the public page text."
+  ],
+  "deliverable_tier": "production_complete"
+}

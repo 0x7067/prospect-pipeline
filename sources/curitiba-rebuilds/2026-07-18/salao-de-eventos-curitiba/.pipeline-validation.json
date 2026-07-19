@@ -1,0 +1,247 @@
+{
+  "browser": {
+    "engine": "playwright chromium",
+    "error": null,
+    "required_matrix_complete": true,
+    "required_pages": [
+      "index.html",
+      "proposal.html",
+      "rationale.html"
+    ],
+    "required_viewports": {
+      "desktop": {
+        "height": 900,
+        "width": 1440
+      },
+      "mobile": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    "results": [
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:43883/index.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-desktop.png",
+        "screenshot_sha256": "16734f5b0edfb2fb8cd795e5ef427457425e8f35fa4556dd9c6398a71c1e9071",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Salão de Eventos Curitiba | Sua festa, seu momento",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:43883/index.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-mobile.png",
+        "screenshot_sha256": "1ae0487963278929687b4d2eefbb1b82c0b530e7bca5d9f653bd7c8cdb0cc606",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Salão de Eventos Curitiba | Sua festa, seu momento",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:43883/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-desktop.png",
+        "screenshot_sha256": "874ae91f798575d7d082f143d2044fed6ecfd40d1557cd06903a38e7a5debd59",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta independente | Salão de Eventos Curitiba",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:43883/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-mobile.png",
+        "screenshot_sha256": "11aca11004fc6feb790ea106de45c8a2bf628afb3742e04837b27ddbe2913da9",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta independente | Salão de Eventos Curitiba",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:43883/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-desktop.png",
+        "screenshot_sha256": "874ae91f798575d7d082f143d2044fed6ecfd40d1557cd06903a38e7a5debd59",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta independente | Salão de Eventos Curitiba",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:43883/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-mobile.png",
+        "screenshot_sha256": "11aca11004fc6feb790ea106de45c8a2bf628afb3742e04837b27ddbe2913da9",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta independente | Salão de Eventos Curitiba",
+        "viewport": "mobile",
+        "width": 390
+      }
+    ],
+    "status": "pass"
+  },
+  "build_id": "fcef76b833448edf5a96d22d69ac6870cd4daaa1f68c99183ec5810724ed3622",
+  "detector": {
+    "command": "/opt/data/.venvs/curitiba/bin/python /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-18/salao-de-eventos-curitiba",
+    "current_clean": true,
+    "current_findings": false,
+    "exit_code": 0,
+    "status": "clean",
+    "stderr": "",
+    "stdout": ""
+  },
+  "generated_at": "2026-07-19T00:20:11.713785+00:00",
+  "node_check": {
+    "command": "node --check script.js",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-18/salao-de-eventos-curitiba",
+  "release_manifest": {
+    "assets/asset-0.png": {
+      "sha256": "c4c6bb46670f3c14b93c561b38316e00ee03d95f7a6bca3829143d49e36683ac",
+      "size": 27923
+    },
+    "assets/asset-1.jpg": {
+      "sha256": "5601ec08ef9a2b9677df10333b06127b5056076e220cb859ac65425ccbbd3013",
+      "size": 67971
+    },
+    "assets/asset-2.jpg": {
+      "sha256": "1fc9bd04efda0098ed2c93cd98d44d72cd9e5b522318c138fbee5743b6f65c13",
+      "size": 68744
+    },
+    "assets/asset-3.jpg": {
+      "sha256": "9b4b66fa00e6d192395dcce3f3dc8cdb69c913cb3acd4965d97f11cea86154ff",
+      "size": 110906
+    },
+    "assets/asset-4.jpeg": {
+      "sha256": "1ef54a5bb718ac560f7ba005bf59b19183ad63fd7b037c8e3129325ac5f6b096",
+      "size": 140485
+    },
+    "assets/fonts/hanken.css": {
+      "sha256": "4526cab53ebe055d83dcf2a7d0482db365cb6920c7b121bd0f059a60fd6d10fa",
+      "size": 8260
+    },
+    "assets/fonts/petrona.css": {
+      "sha256": "b2a3e1881cc1e519117dac87a077a5f3923674d5065a06951daf3d8a51a29ef4",
+      "size": 4940
+    },
+    "assets/fonts/yeseva.css": {
+      "sha256": "4b46b46f60054eaffa00f443be597f22b96159a64b13b8a728b1c5c588be87df",
+      "size": 1882
+    },
+    "assets/original-desktop-full.png": {
+      "sha256": "ccc401497e4c377358d762cc396ae52720dae043fb1f0d9dea0754786f5e6ec0",
+      "size": 5717543
+    },
+    "assets/original-desktop.png": {
+      "sha256": "30220e4ac2954fa3293df939f902f22792f16497eba07e399bb3fdb064574ead",
+      "size": 1959840
+    },
+    "assets/original-mobile-full.png": {
+      "sha256": "707ffc8306e1bf0ff2a34941b4dd18767fa28ca03055403ccddcb4f70cec82b1",
+      "size": 3195167
+    },
+    "assets/original-mobile.png": {
+      "sha256": "b0f9c43dfa4cbe4e7bd477abedfeda058d9c4f4e3ba96837a7a2a650ac871370",
+      "size": 522835
+    },
+    "index.html": {
+      "sha256": "9fab1b9e477ad52adfd3cecf96cfb2154b9bff810d088d6703c51f1be0451c34",
+      "size": 6837
+    },
+    "proposal.html": {
+      "sha256": "f73a9ea5f61e0d020f027c04a5ae6f1eef4b241ad284363cce03b20ed280c8b9",
+      "size": 4196
+    },
+    "rationale.html": {
+      "sha256": "84c82431d57514d4326e688510ab7993a984f5e991996cce3e3d49d78ad8c82b",
+      "size": 405
+    },
+    "script.js": {
+      "sha256": "d372f1f690625828d074b67d0a6abd3e5c807484c566319ad2a52dc8fd6e0bd2",
+      "size": 1015
+    },
+    "styles.css": {
+      "sha256": "cee1c74f4fceb521526c39d480e0acae067836dd01651157c221fa764b66eeab",
+      "size": 9648
+    }
+  },
+  "schema": 1,
+  "status": "pass"
+}
