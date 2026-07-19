@@ -1,0 +1,199 @@
+{
+  "browser": {
+    "engine": "playwright chromium",
+    "error": null,
+    "required_matrix_complete": true,
+    "required_pages": [
+      "index.html",
+      "proposal.html",
+      "rationale.html"
+    ],
+    "required_viewports": {
+      "desktop": {
+        "height": 900,
+        "width": 1440
+      },
+      "mobile": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    "results": [
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:33263/index.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-desktop.png",
+        "screenshot_sha256": "915409fb69336e0e3b33a5af5673d6223ea773b4fef29c5a35ed55adbea6c938",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Colégio Novo Éden · Educando para a vida",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:33263/index.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-mobile.png",
+        "screenshot_sha256": "6c85d238a8691874c649a4b2b002b338bb046488762fad6831bbf771010a4849",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Colégio Novo Éden · Educando para a vida",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:33263/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-desktop.png",
+        "screenshot_sha256": "3384089596eeb01d42c2c37eb244576ce3a0dd250190cd309eccd8b3868d8429",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta independente: Colégio Novo Éden",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:33263/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-mobile.png",
+        "screenshot_sha256": "fb320ad1d17bab18ffb5212eeb4e7458e717cfbb49ff9d5d199cd45cfe870451",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta independente: Colégio Novo Éden",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:33263/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-desktop.png",
+        "screenshot_sha256": "3384089596eeb01d42c2c37eb244576ce3a0dd250190cd309eccd8b3868d8429",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta independente: Colégio Novo Éden",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:33263/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-mobile.png",
+        "screenshot_sha256": "fb320ad1d17bab18ffb5212eeb4e7458e717cfbb49ff9d5d199cd45cfe870451",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta independente: Colégio Novo Éden",
+        "viewport": "mobile",
+        "width": 390
+      }
+    ],
+    "status": "pass"
+  },
+  "build_id": "a1d3d93c3d190d981214fce14bdafce23cf9526328c423093a5821319871289e",
+  "detector": {
+    "command": "/opt/data/.venvs/curitiba/bin/python /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-19/colegio-novo-eden",
+    "current_clean": true,
+    "current_findings": false,
+    "exit_code": 0,
+    "status": "clean",
+    "stderr": "",
+    "stdout": ""
+  },
+  "generated_at": "2026-07-19T20:01:20.201348+00:00",
+  "node_check": {
+    "command": "node --check script.js",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/colegio-novo-eden",
+  "release_manifest": {
+    "index.html": {
+      "sha256": "026a81864eb225dd771f7f996f80664111247549391758d3d2b53030925c40a3",
+      "size": 7296
+    },
+    "proposal.html": {
+      "sha256": "726fefcbdac1e5c7514b295ff2add1959a9e8c7203c4bf70073526e3d14e2655",
+      "size": 7525
+    },
+    "rationale.html": {
+      "sha256": "b5cce1fc357e3f582c920075d2cc2ea17724d1af2adb5e2969527cd6af5f5c50",
+      "size": 404
+    },
+    "script.js": {
+      "sha256": "2e0abc4dc18c7d425231e8a0f8301dd4ef22d3cb4a21bf7d40e1480b1b090127",
+      "size": 2186
+    },
+    "styles.css": {
+      "sha256": "414bf7595a064009245d58535ce2ab448e13d1cc384a8f7a960eed68ec6d2247",
+      "size": 18537
+    }
+  },
+  "schema": 1,
+  "status": "pass"
+}

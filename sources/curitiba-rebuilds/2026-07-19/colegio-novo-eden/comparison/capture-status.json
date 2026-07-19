@@ -1,0 +1,144 @@
+{
+  "schema": 2,
+  "policy_version": "prospect-brand-style-gate-v2",
+  "policy_sha256": "21936021ef4272afbb508483f0e0e5a5b7ec5a4613630f864e1c8bbffe684604",
+  "build_id": "a1d3d93c3d190d981214fce14bdafce23cf9526328c423093a5821319871289e",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/colegio-novo-eden",
+  "started_at": "2026-07-19T20:01:28.059Z",
+  "finished_at": "2026-07-19T20:01:43.503Z",
+  "captures": [
+    {
+      "target": "current",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "https://novoeden.com.br/",
+      "image": "comparison/current-desktop.png",
+      "full_image": "comparison/current-desktop-full.png",
+      "started_at": "2026-07-19T20:01:28.102Z",
+      "success": true,
+      "http_status": 200,
+      "title": "Colégio Novo Éden",
+      "final_url": "https://novoeden.com.br/",
+      "error": null,
+      "console_errors": [
+        "Failed to set referrer policy: The value '' is not one of 'no-referrer', 'no-referrer-when-downgrade', 'origin', 'origin-when-cross-origin', 'same-origin', 'strict-origin', 'strict-origin-when-cross-origin', or 'unsafe-url'. The referrer policy has been left unchanged."
+      ],
+      "page_errors": [],
+      "request_failures": [
+        {
+          "url": "https://www.youtube.com/api/stats/qoe?fmt=136&afmt=251&cpn=PgkrN3pax7tLeBWG&el=embedded&ns=yt&fexp=v1%2C24004644%2C27058999%2C34656%2C124674%2C117689%2C9252%2C3479%2C13030%2C6258%2C16948%2C100702%2C2878%2C12227%2C25059%2C4174%2C30446%2C18706%2C21437%2C4571%2C9672%2C3343%2C16088%2C6620%2C2784%2C23826%2C9500%2C1840%2C40601%2C5114%2C7917%2C5243%2C452%2C30489%2C5022%2C9969%2C10619%2C4659%2C29654%2C9181%2C15416%2C82%2C4405%2C12971%2C12584%2C7524%2C6033%2C1168%2C372%2C7758%2C16453%2C172%2C8868%2C3475%2C5353%2C1900%2C7967%2C1595%2C927%2C2249%2C115%2C158%2C8116%2C3693%2C11587%2C1354%2C110%2C756%2C22970%2C3969%2C1415%2C2199%2C187%2C259%2C3917%2C1989%2C844%2C886%2C1310%2C666%2C9%2C611%2C284%2C653%2C2%2C7891%2C1295%2C3189%2C3099%2C1832%2C2631%2C8813%2C3236%2C4078%2C318%2C7353%2C1256%2C10216%2C2963&cl=948052483&seq=1&docid=a4VSFq3rs4s&ei=GS1dav_pEOSrobIP_62_4A4&event=streamingstats&plid=AAZW_EFnQSRf0JFg&cbr=HeadlessChrome&cbrver=149.0.7827.55&c=WEB_EMBEDDED_PLAYER&cver=2.20260717.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.020:B,0.190:N,1.557:N&cat=streaming,sabr&cmt=0.020:0.000,0.190:0.000,1.557:0.000&cfs=0.408:a.pt:::s&afs=1.555:251::i:fl.-16.59;tl.-14;vg.0;nm.1;sms.2:CAEoAQ&vfs=1.557:136:136::a:sms.2:CAEoAQ&view=1.557:1120:630&bwm=1.557:2342:1.369&bwe=1.557:655360&bat=1.557:1:1&vis=1.557:0&bh=1.557:0.000&qclc=ChBQZ2tyTjNwYXg3dExlQldHEAE",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://analytics.google.com/g/collect?v=2&tid=G-PF8GBP4Y22&gtm=45je67f0v9117205535za20g&_p=1784491293636&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAIACAC&are=1&cid=832457131.1784491294&frm=0&ibt=1&ir=1&ngs=1&pscdl=noapi&rcb=2&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118395334~118897920~118897930&sid=1784491293&sct=1&seg=0&dl=https%3A%2F%2Fnovoeden.com.br%2F&dt=Col%C3%A9gio%20Novo%20%C3%89den&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=5768",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "horizontal_overflow": false,
+      "pixel_width": 1440,
+      "pixel_height": 900,
+      "sha256": "112db9418d9cc4fdd7ec4b249d5d12ed07aa97e836e43f368be642c674ea75f5",
+      "full_pixel_width": 1440,
+      "full_pixel_height": 4141,
+      "full_sha256": "921136d1e763b14a4702ea8121d322e8f55a6dd755a81cf874cdf1282f7c76cc",
+      "finished_at": "2026-07-19T20:01:34.991Z"
+    },
+    {
+      "target": "current",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "https://novoeden.com.br/",
+      "image": "comparison/current-mobile.png",
+      "full_image": "comparison/current-mobile-full.png",
+      "started_at": "2026-07-19T20:01:34.991Z",
+      "success": false,
+      "http_status": 200,
+      "title": "Colégio Novo Éden",
+      "final_url": "https://novoeden.com.br/",
+      "error": "Error: horizontal overflow detected\n    at captureOne (file:///opt/data/scripts/capture_curitiba_comparison.mjs:102:43)\n    at async main (file:///opt/data/scripts/capture_curitiba_comparison.mjs:127:68)",
+      "console_errors": [
+        "Failed to set referrer policy: The value '' is not one of 'no-referrer', 'no-referrer-when-downgrade', 'origin', 'origin-when-cross-origin', 'same-origin', 'strict-origin', 'strict-origin-when-cross-origin', or 'unsafe-url'. The referrer policy has been left unchanged."
+      ],
+      "page_errors": [],
+      "request_failures": [
+        {
+          "url": "https://www.youtube.com/api/stats/qoe?fmt=134&afmt=251&cpn=T2uOJ2hT_cy5V3nk&el=embedded&ns=yt&fexp=v1%2C24004644%2C27058999%2C34656%2C124674%2C117689%2C9252%2C3479%2C13030%2C23206%2C68548%2C32154%2C2878%2C12227%2C25059%2C4174%2C30446%2C18706%2C21437%2C4571%2C13015%2C1192%2C14896%2C6620%2C2784%2C23826%2C9500%2C1840%2C18113%2C27602%2C13160%2C452%2C30488%2C5023%2C9969%2C10619%2C4658%2C29655%2C9181%2C15416%2C82%2C4405%2C962%2C12009%2C12584%2C7525%2C6032%2C1168%2C372%2C7759%2C16451%2C173%2C8868%2C3475%2C5353%2C1900%2C7966%2C1596%2C928%2C2248%2C115%2C158%2C8117%2C3692%2C2042%2C4530%2C5020%2C1350%2C109%2C753%2C9483%2C8884%2C4606%2C3970%2C3613%2C446%2C3450%2C2455%2C846%2C884%2C1311%2C666%2C9%2C611%2C285%2C652%2C2%2C3470%2C4421%2C1295%2C3189%2C3098%2C1832%2C2627%2C5%2C8812%2C7316%2C317%2C8609&cl=948052483&seq=1&docid=a4VSFq3rs4s&ei=Hy1davrLMuj31sQPx6WukAE&event=streamingstats&plid=AAZW_EHLbNzlwf5-&cbr=HeadlessChrome&cbrver=149.0.7827.55&c=WEB_EMBEDDED_PLAYER&cver=2.20260717.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.021:B,0.167:N,0.763:N&cat=streaming,sabr&cmt=0.021:0.000,0.167:0.000,0.763:0.000&cfs=0.293:a.pt:::s&afs=0.738:251::i:fl.-16.59;tl.-14;vg.0;nm.1;sms.2:CAEoAQ&vfs=0.763:134:134::a:sms.2:CAEoAQ&view=0.763:370:208&bwm=0.763:199055:0.602&bwe=0.763:648806&bat=0.763:1:1&vis=0.763:0&bh=0.763:0.000&qclc=ChBUMnVPSjJoVF9jeTVWM25rEAE",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://analytics.google.com/g/collect?v=2&tid=G-PF8GBP4Y22&gtm=45je67g0h2v9117205535za20g&_p=1784491299348&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAIACAC&are=1&cid=673023703.1784491299&frm=0&ibt=1&ir=1&ngs=1&pscdl=noapi&rcb=8&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930&sid=1784491299&sct=1&seg=0&dl=https%3A%2F%2Fnovoeden.com.br%2F&dt=Col%C3%A9gio%20Novo%20%C3%89den&en=page_view&_fv=1&_ss=1&gap.plf=5&tfd=4599",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "horizontal_overflow": true,
+      "pixel_width": 390,
+      "pixel_height": 844,
+      "sha256": "134444d30999c4ce8a1292cec3cd23e1ef374e2e6e8b64fef1f2197bdee688a5",
+      "full_pixel_width": 619,
+      "full_pixel_height": 6121,
+      "full_sha256": "a0574802f0722e6efb2e8702fbf7936a41204be28eb1e759be6c9036467a8f56",
+      "finished_at": "2026-07-19T20:01:41.103Z"
+    },
+    {
+      "target": "proposed",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "http://127.0.0.1:38805/",
+      "image": "comparison/proposed-desktop.png",
+      "full_image": "comparison/proposed-desktop-full.png",
+      "started_at": "2026-07-19T20:01:41.103Z",
+      "success": true,
+      "http_status": 200,
+      "title": "Colégio Novo Éden · Educando para a vida",
+      "final_url": "http://127.0.0.1:38805/",
+      "error": null,
+      "console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "horizontal_overflow": false,
+      "pixel_width": 1440,
+      "pixel_height": 900,
+      "sha256": "d0d5dcbcf678f10d06f70f2a1833468d0541b5642348194ec50f2c93d7c83bd3",
+      "full_pixel_width": 1440,
+      "full_pixel_height": 3918,
+      "full_sha256": "810708c5f47be06cf07dff23dd2948a19a792a9b388a920e22a1f1b2be6ad27f",
+      "finished_at": "2026-07-19T20:01:42.340Z"
+    },
+    {
+      "target": "proposed",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:38805/",
+      "image": "comparison/proposed-mobile.png",
+      "full_image": "comparison/proposed-mobile-full.png",
+      "started_at": "2026-07-19T20:01:42.340Z",
+      "success": true,
+      "http_status": 200,
+      "title": "Colégio Novo Éden · Educando para a vida",
+      "final_url": "http://127.0.0.1:38805/",
+      "error": null,
+      "console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "horizontal_overflow": false,
+      "pixel_width": 390,
+      "pixel_height": 844,
+      "sha256": "0307a82791525f26a55acfaa4c0d1206bb27b1603a8d4102f65ac418840732d9",
+      "full_pixel_width": 390,
+      "full_pixel_height": 3556,
+      "full_sha256": "f33e74e4d85f928c4f4409f26ebbc0a0490e653441e85cf1a296a70ea41db556",
+      "finished_at": "2026-07-19T20:01:43.491Z"
+    }
+  ],
+  "errors": [],
+  "local_server_url": "http://127.0.0.1:38805/",
+  "success": false
+}

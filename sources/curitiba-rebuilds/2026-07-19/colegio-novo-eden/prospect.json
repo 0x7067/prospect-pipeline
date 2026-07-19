@@ -1,0 +1,91 @@
+{
+  "business_name": "Colégio Novo Éden",
+  "official_url": "https://novoeden.com.br/",
+  "run_date": "2026-07-19",
+  "slug": "colegio-novo-eden",
+  "category": "private school",
+  "problems": [
+    "The official homepage presents a very compressed information architecture: school positioning, three education levels, partnerships, structure, and visit CTA are present, but the page does not expose the practical admissions journey, visit scheduling details, or clear next steps beyond 'Agende uma visita' (observed 2026-07-19 at https://novoeden.com.br/).",
+    "The homepage relies on generic 'Saiba mais' labels for Ensino Infantil, Fundamental, and Médio without visible program-specific detail in the extracted page (observed 2026-07-19 at https://novoeden.com.br/), making it harder for families to compare the relevant stage before contacting the school.",
+    "The homepage lacks a visible H1 in the fetched HTML while using a slogan-led opening ('EDUCANDO PARA A VIDA COM') and the page title 'Colégio Novo Éden' (observed 2026-07-19), a structural weakness for page hierarchy and search clarity.",
+    "The active contact page contains the phone, opening hours, and address, but those high-intent details are not surfaced on the homepage alongside the visit CTA (observed 2026-07-19 at https://novoeden.com.br/fale-conosco/), adding an avoidable click for prospective families."
+  ],
+  "rebuild_angle": "Build an admissions-first school story that makes the education journey legible by age/stage, brings visit logistics into the first screen, and uses the school's long-running life-preparation promise as the emotional throughline.",
+  "opportunity_score": 7,
+  "active_evidence": "The official domain returned HTTP 200 and the live homepage named Colégio Novo Éden, documented education from Infantil through Ensino Médio, a Curitiba address, and an invitation to schedule a visit when checked 2026-07-19. The official contact page lists weekday hours 07:20–19:00 and phone (41) 3289-9436.",
+  "evidence_links": [
+    "https://novoeden.com.br/",
+    "https://novoeden.com.br/fale-conosco/",
+    "https://linkedin.com/company/colegio-novo-eden"
+  ],
+  "preserved_strengths": [
+    "The established origin story: the homepage says the school began in 1990.",
+    "The clear breadth from Ensino Infantil through Ensino Médio.",
+    "The values of quality, safety, creativity, autonomy, academic formation, and love of life stated on the official homepage.",
+    "The direct 'Agende uma visita' conversion intent and Curitiba neighborhood/address context."
+  ],
+  "brand_source": {
+    "logo_sources": [
+      "https://novoeden.com.br/"
+    ],
+    "colors": [
+      "Official page CSS exposes a blue-forward link palette including #0170B9 and #005BE2, plus green accents; verify against the rendered logo/hero before production use."
+    ],
+    "typography": [
+      "The official page uses a bold slogan-led hierarchy and compact education-level labels; exact type family was not asserted from the extracted page and must be re-selected during craft."
+    ],
+    "personality_words": [
+      "quality",
+      "safety",
+      "creative",
+      "autonomy",
+      "academic",
+      "life-oriented"
+    ],
+    "strongest_public_language": [
+      "Educando para a vida",
+      "Uma escola, muitos sonhos realizados!",
+      "qualidade e segurança",
+      "criatividade e autonomia",
+      "Agende uma visita!"
+    ],
+    "services": [
+      "Ensino Infantil",
+      "Ensino Fundamental I e II",
+      "Ensino Médio",
+      "school visit scheduling"
+    ],
+    "locations": [
+      "Rua Mandirituba, 1327, Sítio Cercado, Curitiba – PR, CEP 81925-540"
+    ],
+    "contacts": [
+      "(41) 3289-9436",
+      "contato@novoeden.com.br",
+      "https://novoeden.com.br/fale-conosco/"
+    ],
+    "visual_assets": [
+      "https://novoeden.com.br/",
+      "https://novoeden.com.br/fale-conosco/",
+      "https://novoeden.com.br/",
+      "https://novoeden.com.br/"
+    ],
+    "original_screenshots": {
+      "desktop": "https://novoeden.com.br/",
+      "mobile": "https://novoeden.com.br/"
+    },
+    "equity_to_preserve": [
+      "life-preparation promise",
+      "blue/green educational cue direction",
+      "stage-based education offer",
+      "warm invitation to visit"
+    ],
+    "weaknesses_not_to_copy": [
+      "generic Saiba mais labels",
+      "compressed admissions information",
+      "contact details hidden from homepage",
+      "slogan opening without a clear semantic H1"
+    ]
+  },
+  "concept_thesis": "Make the school journey the visual spine: a welcoming, stage-by-stage path from early learning to high school that turns 'educando para a vida' into a practical visit decision for Curitiba families.",
+  "deliverable_tier": "early_visual_direction"
+}

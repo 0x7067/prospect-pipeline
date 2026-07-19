@@ -1,0 +1,52 @@
+{
+  "build_id": "a1d3d93c3d190d981214fce14bdafce23cf9526328c423093a5821319871289e",
+  "detector": {
+    "expected_cli_version": "3.2.1",
+    "path": "/opt/data/bin/impeccable",
+    "resolved_path": "/opt/data/lib/node_modules/impeccable/cli/bin/cli.js",
+    "scans": [
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "raw"
+      },
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "design-aware"
+      }
+    ],
+    "sha256": "62e2bb19a4dc7aecf10ea0ec824a20d3ecb174e65b212eb371cc9b2da271935d"
+  },
+  "findings": [],
+  "gate_exit_code": 0,
+  "generated_at": "2026-07-19T20:01:09.198371+00:00",
+  "impeccable_skill_commit": "44c27a72af98394c32691ba79358811bff86bde6",
+  "policy_sha256": "21936021ef4272afbb508483f0e0e5a5b7ec5a4613630f864e1c8bbffe684604",
+  "policy_version": "prospect-brand-style-gate-v2",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/colegio-novo-eden",
+  "release_manifest": {
+    "index.html": {
+      "sha256": "026a81864eb225dd771f7f996f80664111247549391758d3d2b53030925c40a3",
+      "size": 7296
+    },
+    "proposal.html": {
+      "sha256": "726fefcbdac1e5c7514b295ff2add1959a9e8c7203c4bf70073526e3d14e2655",
+      "size": 7525
+    },
+    "rationale.html": {
+      "sha256": "b5cce1fc357e3f582c920075d2cc2ea17724d1af2adb5e2969527cd6af5f5c50",
+      "size": 404
+    },
+    "script.js": {
+      "sha256": "2e0abc4dc18c7d425231e8a0f8301dd4ef22d3cb4a21bf7d40e1480b1b090127",
+      "size": 2186
+    },
+    "styles.css": {
+      "sha256": "414bf7595a064009245d58535ce2ab448e13d1cc384a8f7a960eed68ec6d2247",
+      "size": 18537
+    }
+  },
+  "schema": 3,
+  "status": "clean"
+}

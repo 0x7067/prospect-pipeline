@@ -1,0 +1,10 @@
+{
+  "afk_queue_id": "q-1784483309214-d641d9",
+  "agent": "afk",
+  "business_name": "Colégio Novo Éden",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/colegio-novo-eden",
+  "queued_at": "2026-07-19T17:48:29.225855+00:00",
+  "schema": 2,
+  "status": "queued",
+  "task_id": "task-319a944ff3bd49f4a28156986419a2fc"
+}
