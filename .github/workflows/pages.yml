@@ -3,6 +3,9 @@ name: Deploy prospect demos to GitHub Pages
 on:
   push:
     branches: [main]
+  schedule:
+    # Keep the public site refreshed even when local syncs are quiet.
+    - cron: "17,47 * * * *"
   workflow_dispatch:
 
 permissions:
