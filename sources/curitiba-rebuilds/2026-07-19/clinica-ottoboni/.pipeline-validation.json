@@ -1,0 +1,255 @@
+{
+  "browser": {
+    "engine": "playwright chromium",
+    "error": null,
+    "required_matrix_complete": true,
+    "required_pages": [
+      "index.html",
+      "proposal.html",
+      "rationale.html"
+    ],
+    "required_viewports": {
+      "desktop": {
+        "height": 900,
+        "width": 1440
+      },
+      "mobile": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    "results": [
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:33209/index.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-desktop.png",
+        "screenshot_sha256": "a1b23b4605fbaee271981ff2239bd8d49b0776a5771993bcfc808cbb2a0b2a67",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Clínica Ottoboni | Cuidado integrado em Curitiba",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:33209/index.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-mobile.png",
+        "screenshot_sha256": "57528615e2bf7a73ede5163d8badf2fc918f795fdc89b73cef355e054718160d",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Clínica Ottoboni | Cuidado integrado em Curitiba",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:33209/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-desktop.png",
+        "screenshot_sha256": "38028c1248dc0dbf44621c5f6e364f32322998ceae87ff07e01f8220a0ccc592",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Uma rota mais clara para a Clínica Ottoboni",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:33209/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-mobile.png",
+        "screenshot_sha256": "0ace2f65d38f81d817d47ff6b530b3eb44116184301c33d608045403e1a9d102",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Uma rota mais clara para a Clínica Ottoboni",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:33209/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-desktop.png",
+        "screenshot_sha256": "38028c1248dc0dbf44621c5f6e364f32322998ceae87ff07e01f8220a0ccc592",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Uma rota mais clara para a Clínica Ottoboni",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:33209/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-mobile.png",
+        "screenshot_sha256": "0ace2f65d38f81d817d47ff6b530b3eb44116184301c33d608045403e1a9d102",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Uma rota mais clara para a Clínica Ottoboni",
+        "viewport": "mobile",
+        "width": 390
+      }
+    ],
+    "status": "pass"
+  },
+  "build_id": "dae20488c494967ac0bbeb02669942c73aa5f145012afc61fd4ca1197e035803",
+  "detector": {
+    "command": "/opt/data/.venvs/curitiba/bin/python /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-19/clinica-ottoboni",
+    "current_clean": true,
+    "current_findings": false,
+    "exit_code": 0,
+    "status": "clean",
+    "stderr": "",
+    "stdout": ""
+  },
+  "generated_at": "2026-07-20T22:23:44.090944+00:00",
+  "node_check": {
+    "command": "node --check script.js",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "preflight": {
+    "counts": {
+      "all-caps-body": 0,
+      "cramped-padding": 7,
+      "flat-type-hierarchy": 0,
+      "low-contrast-risk": 0,
+      "overused-font": 0
+    },
+    "findings": [
+      {
+        "antipattern": "cramped-padding",
+        "selector": ".proposal-page",
+        "snippet": ".proposal-page: visible boundary without explicit horizontal padding",
+        "suggestion": "Add explicit padding: e.g., padding: 4rem 2rem; or padding-inline: 2rem;"
+      },
+      {
+        "antipattern": "cramped-padding",
+        "selector": ".proposal-shell",
+        "snippet": ".proposal-shell: visible boundary without explicit horizontal padding",
+        "suggestion": "Add explicit padding: e.g., padding: 4rem 2rem; or padding-inline: 2rem;"
+      },
+      {
+        "antipattern": "cramped-padding",
+        "selector": ".compare",
+        "snippet": ".compare: visible boundary without explicit horizontal padding",
+        "suggestion": "Add explicit padding: e.g., padding: 4rem 2rem; or padding-inline: 2rem;"
+      },
+      {
+        "antipattern": "cramped-padding",
+        "selector": ".crossing .section-pad",
+        "snippet": ".crossing .section-pad: visible boundary without explicit horizontal padding",
+        "suggestion": "Add explicit padding: e.g., padding: 4rem 2rem; or padding-inline: 2rem;"
+      },
+      {
+        "antipattern": "cramped-padding",
+        "selector": ".integration .section-pad",
+        "snippet": ".integration .section-pad: visible boundary without explicit horizontal padding",
+        "suggestion": "Add explicit padding: e.g., padding: 4rem 2rem; or padding-inline: 2rem;"
+      },
+      {
+        "antipattern": "cramped-padding",
+        "selector": ".destination .section-pad",
+        "snippet": ".destination .section-pad: visible boundary without explicit horizontal padding",
+        "suggestion": "Add explicit padding: e.g., padding: 4rem 2rem; or padding-inline: 2rem;"
+      },
+      {
+        "antipattern": "cramped-padding",
+        "selector": ".proposal-hero .section-pad",
+        "snippet": ".proposal-hero .section-pad: visible boundary without explicit horizontal padding",
+        "suggestion": "Add explicit padding: e.g., padding: 4rem 2rem; or padding-inline: 2rem;"
+      }
+    ],
+    "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/clinica-ottoboni",
+    "schema": 1,
+    "status": "findings"
+  },
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/clinica-ottoboni",
+  "release_manifest": {
+    "index.html": {
+      "sha256": "3403fc86f333261173c51204affe68d8fe41fa3400d0d4a963087a671c83ab2b",
+      "size": 7191
+    },
+    "proposal.html": {
+      "sha256": "b6bb81921a217810d38f886a92026773b98f80efa57bffff6c89dbc039235ded",
+      "size": 4192
+    },
+    "rationale.html": {
+      "sha256": "3e28cb06feb7eceeb71086dca04ff5bd1439cb5c71b1eb5823ecfce3b20cea91",
+      "size": 397
+    },
+    "script.js": {
+      "sha256": "d922754ebbde6b9903d588939f74a11c289032de4a90fc8940390c1e4e066a64",
+      "size": 1758
+    },
+    "styles.css": {
+      "sha256": "7a9a9535a4844c6c43db1f3a81580f7eb159688410890a8e7021bdf4a7aa637c",
+      "size": 15675
+    }
+  },
+  "schema": 1,
+  "status": "pass"
+}

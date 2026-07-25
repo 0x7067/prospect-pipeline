@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "status": "failed",
+  "build_id": "7327398f4676e35e3e535ab814db3656d0a45c0c0be7edaa40b439ea5a706e6d",
+  "deliverable_tier": "early_visual_direction",
+  "summary": "The complete early visual direction was built. Node syntax validation and the full desktop/mobile browser matrix passed, but the second and final permitted detector run still reported blocking style findings. This build is not ready for promotion or publication.",
+  "blockers": [
+    "Pinned detector reports wide-tracking for route-label text at letter-spacing 0.06em on index.html.",
+    "Pinned detector reports cramped-padding on the crossing, integration, and destination sections in index.html.",
+    "Pinned detector reports cramped-padding on the proposal hero, comparison block, and proposal CTA in proposal.html."
+  ]
+}

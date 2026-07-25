@@ -1,0 +1,9 @@
+{
+  "at": "2026-07-19T20:47:22.526274+00:00",
+  "attempt": 3,
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/clinica-ottoboni",
+  "reason": "retry budget exhausted at attempt 3",
+  "schema": 1,
+  "state": "quarantined",
+  "task_id": "task-2d70623229534e7abe5766782b375747"
+}

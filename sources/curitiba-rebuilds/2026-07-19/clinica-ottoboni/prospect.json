@@ -1,0 +1,94 @@
+{
+  "business_name": "Clínica Ottoboni",
+  "official_url": "https://clinicaottoboni.com.br/",
+  "run_date": "2026-07-19",
+  "slug": "clinica-ottoboni",
+  "category": "plastic surgery, dermatology, and dermatofunctional physiotherapy clinic",
+  "problems": [
+    "The live homepage shows a '+ 0' experience counter under 'Anos de Experiência' despite the page documenting the clinic's 2015 inauguration and physician experience, creating visibly broken trust proof (observed 2026-07-19 at https://clinicaottoboni.com.br/).",
+    "The homepage repeats 'Agende sua consulta' as separate generic prompts around the specialties section without a visible specialty-specific decision path, making a prospective patient choose a service from a sparse list before understanding the care journey (observed 2026-07-19 at https://clinicaottoboni.com.br/).",
+    "The specialties are presented as three terse headings—'Cirurgia Plástica', 'Dermatologia', and 'Fisioterapia Dermatofuncional'—with repeated generic 'Saiba mais' labels and no treatment summaries in the extracted homepage content (observed 2026-07-19 at https://clinicaottoboni.com.br/).",
+    "The page places a newsletter signup and a long body-clinical biography block between the conversion prompts and the practical contact details, while the primary consultation path remains a generic CTA (observed 2026-07-19 at https://clinicaottoboni.com.br/)."
+  ],
+  "rebuild_angle": "Create a clinically credible consultation pathway organized by patient need, specialty, and clinician expertise, replacing broken proof and generic service labels with clear next steps while preserving the clinic's integrated care positioning.",
+  "opportunity_score": 8,
+  "active_evidence": "The official domain returned HTTP 200 with the title 'Clínica Ottoboni – Cirurgia Plástica e Dermatologia' on 2026-07-19. The live homepage documents the clinic's 2015 opening, three specialties, named clinicians with CRM/RQE details, Curitiba address at Rua Frederico Cantarelli, 472, and phone numbers (41) 3016-6048 and (41) 99530-5221.",
+  "evidence_links": [
+    "https://clinicaottoboni.com.br/",
+    "https://clinicaottoboni.com.br/servicos/",
+    "https://clinicaottoboni.com.br/equipe/dr-eduardo-s-ottoboni/",
+    "https://clinicaottoboni.com.br/especialidades/laser-lavieen/"
+  ],
+  "preserved_strengths": [
+    "The integrated positioning across plastic surgery, dermatology, and dermatofunctional physiotherapy.",
+    "The personalized, patient-respecting care language and modern integrated infrastructure cue.",
+    "The named physician team with credential details that can support clinical trust.",
+    "The visible consultation intent, Curitiba location, and two direct phone contacts."
+  ],
+  "brand_source": {
+    "logo_sources": [
+      "https://clinicaottoboni.com.br/"
+    ],
+    "colors": [
+      "The official homepage was visually inspected through its live rendering; preserve the site's restrained clinical palette and verify exact tokens from the original mark and page captures during craft rather than inventing a canonical color value."
+    ],
+    "typography": [
+      "The official page uses an editorial, uppercase section-label system, large humanist headline treatment, and numbered section rhythm; exact font family is not asserted and must be re-selected during craft."
+    ],
+    "personality_words": [
+      "personalized",
+      "integrated",
+      "modern",
+      "comfortable",
+      "secure",
+      "specialized"
+    ],
+    "strongest_public_language": [
+      "Promovendo o Bem-estar",
+      "tratamentos avançados",
+      "atendimento personalizado",
+      "estrutura completa",
+      "uma experiência única e integrada"
+    ],
+    "services": [
+      "cirurgia plástica",
+      "dermatologia",
+      "fisioterapia dermatofuncional",
+      "consulta médica",
+      "Laser Lavieen"
+    ],
+    "locations": [
+      "Rua Frederico Cantarelli, 472 - Bigorrilho, Curitiba - PR, 80710-240"
+    ],
+    "contacts": [
+      "(41) 3016-6048",
+      "(41) 99530-5221",
+      "https://clinicaottoboni.com.br/"
+    ],
+    "visual_assets": [
+      "https://clinicaottoboni.com.br/",
+      "https://clinicaottoboni.com.br/servicos/",
+      "https://clinicaottoboni.com.br/equipe/dr-eduardo-s-ottoboni/",
+      "https://clinicaottoboni.com.br/especialidades/laser-lavieen/"
+    ],
+    "original_screenshots": {
+      "desktop": "https://clinicaottoboni.com.br/",
+      "mobile": "https://clinicaottoboni.com.br/"
+    },
+    "equity_to_preserve": [
+      "integrated specialty model",
+      "personalized care promise",
+      "credentialed clinical team",
+      "restrained premium-clinical tone",
+      "consultation CTA"
+    ],
+    "weaknesses_not_to_copy": [
+      "zero-valued experience counter",
+      "generic repeated Saiba mais labels",
+      "generic consultation prompts",
+      "newsletter and biography content competing with decision flow"
+    ]
+  },
+  "concept_thesis": "Design the clinic as a guided consultation atlas: patients enter through a need, understand the relevant specialty and clinician, then reach a calm, specific appointment invitation without the current broken proof or generic detours.",
+  "deliverable_tier": "early_visual_direction"
+}
