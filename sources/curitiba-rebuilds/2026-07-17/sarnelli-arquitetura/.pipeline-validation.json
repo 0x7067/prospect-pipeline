@@ -1,0 +1,223 @@
+{
+  "browser": {
+    "engine": "playwright chromium",
+    "error": null,
+    "required_matrix_complete": true,
+    "required_pages": [
+      "index.html",
+      "proposal.html",
+      "rationale.html"
+    ],
+    "required_viewports": {
+      "desktop": {
+        "height": 900,
+        "width": 1440
+      },
+      "mobile": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    "results": [
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:40921/index.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-desktop.png",
+        "screenshot_sha256": "2161d9929824dac049935eb176347820b40bdc151b46e8ae656fea5bd5b3bf35",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Sarnelli Arquitetura — Arquitetura para saúde e educação",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:40921/index.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-mobile.png",
+        "screenshot_sha256": "c8f2a322df26bff39ae40b6f7b931346921a8034839519747642a162fafb0766",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Sarnelli Arquitetura — Arquitetura para saúde e educação",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:40921/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-desktop.png",
+        "screenshot_sha256": "26e3155836a8b0c029192cdce215543641270fd80385dbbcaafb7b7fb821651f",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta de redesign — Sarnelli Arquitetura (conceito independente)",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:40921/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-mobile.png",
+        "screenshot_sha256": "aae1f6cd37583c32c523e7d42fc4f322eba6349c59ab561c675ef459ca00a2e1",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta de redesign — Sarnelli Arquitetura (conceito independente)",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:40921/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-desktop.png",
+        "screenshot_sha256": "26e3155836a8b0c029192cdce215543641270fd80385dbbcaafb7b7fb821651f",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta de redesign — Sarnelli Arquitetura (conceito independente)",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:40921/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-mobile.png",
+        "screenshot_sha256": "aae1f6cd37583c32c523e7d42fc4f322eba6349c59ab561c675ef459ca00a2e1",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta de redesign — Sarnelli Arquitetura (conceito independente)",
+        "viewport": "mobile",
+        "width": 390
+      }
+    ],
+    "status": "pass"
+  },
+  "build_id": "65f5c5333a2f4318dc30366bcbbe40589ab840f9879a147c80ac0a968476c809",
+  "detector": {
+    "command": "/opt/data/.venvs/curitiba/bin/python /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura",
+    "current_clean": true,
+    "current_findings": false,
+    "exit_code": 0,
+    "status": "clean",
+    "stderr": "",
+    "stdout": ""
+  },
+  "generated_at": "2026-07-25T20:01:46.587054+00:00",
+  "node_check": {
+    "command": "node --check script.js",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "preflight": {
+    "counts": {
+      "all-caps-body": 0,
+      "cramped-padding": 0,
+      "flat-type-hierarchy": 0,
+      "low-contrast-risk": 0,
+      "overused-font": 1
+    },
+    "findings": [
+      {
+        "antipattern": "overused-font",
+        "selector": "index.html",
+        "snippet": "Google Fonts loads saturated font: inter",
+        "suggestion": "Choose a less common typeface or pair a system font with a deliberate display choice."
+      }
+    ],
+    "project": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura",
+    "schema": 1,
+    "status": "findings"
+  },
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura",
+  "release_manifest": {
+    "evidence/original/desktop-1440x900.png": {
+      "sha256": "ba1aff772eb71679fc6d906440bb287d4d2f0c4513c105c1d6295cf386130aa8",
+      "size": 1544053
+    },
+    "index.html": {
+      "sha256": "65911c2ad0e06aff478f7565ced6a240aa48b4e3ad090e107fad26eac98dcd8f",
+      "size": 13640
+    },
+    "proposal.html": {
+      "sha256": "420e582286fd9761c683790daf51789f4c4b01854f0807ff456533ed49ee4490",
+      "size": 12320
+    },
+    "rationale.html": {
+      "sha256": "66fb0f8de6179ae04134153dbd93dbf690d7f0a4a470b733d14f295bce060abd",
+      "size": 373
+    },
+    "script.js": {
+      "sha256": "82a26a60c9f08fcb3dd723ecf8b8e50b8a7c357452c823dfa903da1b6aff2a8b",
+      "size": 2755
+    },
+    "styles.css": {
+      "sha256": "65f5a320f80c5a04050984032a7db648f47f8882bbda400ff84c947f72fa5968",
+      "size": 13122
+    }
+  },
+  "schema": 1,
+  "status": "pass"
+}

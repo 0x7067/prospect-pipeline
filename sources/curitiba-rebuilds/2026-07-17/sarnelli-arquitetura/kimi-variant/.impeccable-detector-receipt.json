@@ -3,7 +3,7 @@
   "detector": {
     "expected_cli_version": "3.2.1",
     "path": "/opt/data/bin/impeccable",
-    "resolved_path": "/opt/data/lib/node_modules/impeccable/cli/bin/cli.js",
+    "resolved_path": "/opt/data/.local/share/mise/shims/impeccable",
     "scans": [
       {
         "exit_code": 2,
@@ -342,7 +342,7 @@
         "mode": "design-aware"
       }
     ],
-    "sha256": "62e2bb19a4dc7aecf10ea0ec824a20d3ecb174e65b212eb371cc9b2da271935d"
+    "sha256": "957f4c0682af817e1b23d8325b8023d3758b0c3e0bbbf8bb86453d6f91060176"
   },
   "findings": [
     {
@@ -671,10 +671,10 @@
     }
   ],
   "gate_exit_code": 2,
-  "generated_at": "2026-07-18T03:38:30.021886+00:00",
+  "generated_at": "2026-07-20T22:20:45.964945+00:00",
   "impeccable_skill_commit": "44c27a72af98394c32691ba79358811bff86bde6",
-  "policy_sha256": "d56c0bb5c23e51da7f521f70fb0c95067ff625deae6c7ba16f2de0f8ed032723",
-  "policy_version": "prospect-brand-style-gate-v1",
+  "policy_sha256": "21936021ef4272afbb508483f0e0e5a5b7ec5a4613630f864e1c8bbffe684604",
+  "policy_version": "prospect-brand-style-gate-v2",
   "project": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant",
   "release_manifest": {
     "assets/hero-conceito-bem-estar.jpg": {

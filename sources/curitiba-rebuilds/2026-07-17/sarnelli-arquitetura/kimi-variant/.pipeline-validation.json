@@ -1,0 +1,307 @@
+{
+  "browser": {
+    "engine": "playwright chromium",
+    "error": null,
+    "required_matrix_complete": true,
+    "required_pages": [
+      "index.html",
+      "proposal.html",
+      "rationale.html"
+    ],
+    "required_viewports": {
+      "desktop": {
+        "height": 900,
+        "width": 1440
+      },
+      "mobile": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    "results": [
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:37843/index.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-desktop.png",
+        "screenshot_sha256": "b05d811e34cdfb81f8bf9d57cbeab0e9549aba6705ed68b7cec96b120630cb61",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Sarnelli Arquitetura — Arquitetura para saúde e educação",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:37843/index.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-mobile.png",
+        "screenshot_sha256": "8fa9f0a6aa482451103afbb3614cc9c833d13432847b78b5d3d6cfab8659a6f2",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Sarnelli Arquitetura — Arquitetura para saúde e educação",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:37843/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-desktop.png",
+        "screenshot_sha256": "f830e3b542a875f6c7f53cbc71cf3df4f085915fbfcb3563d5bd3bfe817c0e18",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta de redesign — Sarnelli Arquitetura (conceito independente)",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:37843/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-mobile.png",
+        "screenshot_sha256": "55d0ef6f855486d413ee5f6dfb1ac9398c18336b6b6dd0e19e28ecbf9dae5756",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta de redesign — Sarnelli Arquitetura (conceito independente)",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:37843/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-desktop.png",
+        "screenshot_sha256": "f830e3b542a875f6c7f53cbc71cf3df4f085915fbfcb3563d5bd3bfe817c0e18",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta de redesign — Sarnelli Arquitetura (conceito independente)",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:37843/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-mobile.png",
+        "screenshot_sha256": "55d0ef6f855486d413ee5f6dfb1ac9398c18336b6b6dd0e19e28ecbf9dae5756",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta de redesign — Sarnelli Arquitetura (conceito independente)",
+        "viewport": "mobile",
+        "width": 390
+      }
+    ],
+    "status": "pass"
+  },
+  "build_id": "c86a4b7506850da2284daf370b87ef11daaf480cdc009a6faa4835a7476de575",
+  "detector": {
+    "command": "/opt/data/.venvs/curitiba/bin/python /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant",
+    "current_clean": false,
+    "current_findings": true,
+    "exit_code": 2,
+    "status": "findings",
+    "stderr": "",
+    "stdout": ""
+  },
+  "generated_at": "2026-07-20T22:20:58.766008+00:00",
+  "node_check": {
+    "command": "node --check script.js",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "preflight": {
+    "counts": {
+      "all-caps-body": 0,
+      "cramped-padding": 9,
+      "flat-type-hierarchy": 1,
+      "low-contrast-risk": 0,
+      "overused-font": 3
+    },
+    "findings": [
+      {
+        "antipattern": "cramped-padding",
+        "selector": ".hero",
+        "snippet": ".hero: visible boundary without explicit horizontal padding",
+        "suggestion": "Add explicit padding: e.g., padding: 4rem 2rem; or padding-inline: 2rem;"
+      },
+      {
+        "antipattern": "cramped-padding",
+        "selector": ".cta-band",
+        "snippet": ".cta-band: visible boundary without explicit horizontal padding",
+        "suggestion": "Add explicit padding: e.g., padding: 4rem 2rem; or padding-inline: 2rem;"
+      },
+      {
+        "antipattern": "cramped-padding",
+        "selector": ".footer-legal",
+        "snippet": ".footer-legal: visible boundary without explicit horizontal padding",
+        "suggestion": "Add explicit padding: e.g., padding: 4rem 2rem; or padding-inline: 2rem;"
+      },
+      {
+        "antipattern": "cramped-padding",
+        "selector": ".proposal-page",
+        "snippet": ".proposal-page: visible boundary without explicit horizontal padding",
+        "suggestion": "Add explicit padding: e.g., padding: 4rem 2rem; or padding-inline: 2rem;"
+      },
+      {
+        "antipattern": "cramped-padding",
+        "selector": ".proposal-header",
+        "snippet": ".proposal-header: visible boundary without explicit horizontal padding",
+        "suggestion": "Add explicit padding: e.g., padding: 4rem 2rem; or padding-inline: 2rem;"
+      },
+      {
+        "antipattern": "cramped-padding",
+        "selector": ".proposal-hero",
+        "snippet": ".proposal-hero: visible boundary without explicit horizontal padding",
+        "suggestion": "Add explicit padding: e.g., padding: 4rem 2rem; or padding-inline: 2rem;"
+      },
+      {
+        "antipattern": "cramped-padding",
+        "selector": ".proposal-section",
+        "snippet": ".proposal-section: visible boundary without explicit horizontal padding",
+        "suggestion": "Add explicit padding: e.g., padding: 4rem 2rem; or padding-inline: 2rem;"
+      },
+      {
+        "antipattern": "cramped-padding",
+        "selector": ".compare-card--proposed",
+        "snippet": ".compare-card--proposed: visible boundary without explicit horizontal padding",
+        "suggestion": "Add explicit padding: e.g., padding: 4rem 2rem; or padding-inline: 2rem;"
+      },
+      {
+        "antipattern": "cramped-padding",
+        "selector": ".proposal-footer",
+        "snippet": ".proposal-footer: visible boundary without explicit horizontal padding",
+        "suggestion": "Add explicit padding: e.g., padding: 4rem 2rem; or padding-inline: 2rem;"
+      },
+      {
+        "antipattern": "flat-type-hierarchy",
+        "selector": "styles.css",
+        "snippet": "Sizes: 12.8px, 13.6px, 15.2px, 16.0px, 16.8px, 17.6px, 18.0px, 18.4px (ratio 1.7:1)",
+        "suggestion": "Increase the spread between display and body type sizes; aim for at least 3:1."
+      },
+      {
+        "antipattern": "overused-font",
+        "selector": "index.html",
+        "snippet": "Google Fonts loads saturated font: montserrat",
+        "suggestion": "Choose a less common typeface or pair a system font with a deliberate display choice."
+      },
+      {
+        "antipattern": "overused-font",
+        "selector": "index.html",
+        "snippet": "Google Fonts loads saturated font: inter",
+        "suggestion": "Choose a less common typeface or pair a system font with a deliberate display choice."
+      },
+      {
+        "antipattern": "overused-font",
+        "selector": "index.html",
+        "snippet": "Google Fonts loads saturated font: roboto",
+        "suggestion": "Choose a less common typeface or pair a system font with a deliberate display choice."
+      }
+    ],
+    "project": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant",
+    "schema": 1,
+    "status": "findings"
+  },
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-17/sarnelli-arquitetura/kimi-variant",
+  "release_manifest": {
+    "assets/hero-conceito-bem-estar.jpg": {
+      "sha256": "2b291defc80de6a270840025ddc392eba773b3121063d362b9ad5cdd96fc5171",
+      "size": 600995
+    },
+    "assets/logo-sarnelli.png": {
+      "sha256": "d08150a648083007285bc656b79d6604b3662743c712242caf46a5f99b19af5f",
+      "size": 13173
+    },
+    "assets/projeto-centro-medico-erasto.jpg": {
+      "sha256": "9b73adde34d8c07842e97854b35a55ab15fd6e5bf7ff119a045a4cb9ab54b5f2",
+      "size": 551851
+    },
+    "assets/projeto-erastinho.jpg": {
+      "sha256": "40414de2c122f2f95d9756bff624c0dc2fc6bed5134bfa2c2e12c36a76b56e40",
+      "size": 456919
+    },
+    "index.html": {
+      "sha256": "f774c4d4e2086e46ed3ea21cf633017fd70e6ce6a2915302b4c199e4b655b399",
+      "size": 10583
+    },
+    "proposal.html": {
+      "sha256": "9b2f7ba325e62ecde986788fab9292853be5bad77dc95a7b2fbfee7fee2e014a",
+      "size": 7472
+    },
+    "rationale.html": {
+      "sha256": "df38877663f1b0dbdf10c311223176a793440c1281f329f4b33ea78f0a011904",
+      "size": 515
+    },
+    "script.js": {
+      "sha256": "eb43b3f2f620ef46ba0e9597ac9d18d1672e2dfa35d0540dd9ff00d53fa2fc77",
+      "size": 1642
+    },
+    "styles.css": {
+      "sha256": "27455c8f91b41dd692150fa6a49e1d9d238b68539c0865a7a5264e0051c964c4",
+      "size": 18356
+    }
+  },
+  "schema": 1,
+  "status": "fail"
+}

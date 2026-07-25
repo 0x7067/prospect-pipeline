@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proposta de redesign — Sarnelli Arquitetura (conceito independente)</title>
+  <meta name="description" content="Proposta independente de redesign para o site da Sarnelli Arquitetura. Documento conceitual não afiliado.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Proposal-specific overrides */
+    .proposal-hero {
+      background: var(--color-dark);
+      color: var(--color-white);
+      padding: 120px 0 80px;
+    }
+    .proposal-hero h1 {
+      font-family: var(--font-heading);
+      font-size: 48px;      font-weight: 700;
+      line-height: 1.3;
+      margin-bottom: 12px;
+    }
+    .proposal-hero .subtitle {
+      font-size: 32px;
+      font-weight: 300;
+      line-height: 1.5;
+      color: rgba(255,255,255,0.7);
+      margin-bottom: 8px;
+    }
+    .disclaimer {
+      font-size: 16px;
+      color: rgba(255,255,255,0.4);
+      margin-top: 24px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+    .proposal-section {
+      padding: 64px 0;
+      border-bottom: 1px solid rgba(43,43,43,0.08);
+    }
+    .proposal-section h2 {
+      font-family: var(--font-heading);
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 1.3;
+      margin-bottom: 24px;
+    }
+    .proposal-section h3 {
+      font-family: var(--font-heading);
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 1.3;
+      margin-bottom: 12px;
+      color: var(--color-teal);
+    }
+    .problem-list, .improvement-list {
+      margin-bottom: 24px;
+    }
+    .problem-list li, .improvement-list li {
+      position: relative;
+      padding: 12px 0 12px 28px;
+      font-size: 16px;
+      line-height: 1.6;
+      border-bottom: 1px solid rgba(43,43,43,0.06);
+    }
+    .problem-list li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 18px;
+      width: 10px;
+      height: 10px;
+      background: #c0392b;
+      border-radius: 50%;
+    }
+    .improvement-list li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 18px;
+      width: 10px;
+      height: 10px;
+      background: var(--color-teal);
+      border-radius: 50%;
+    }
+    .comparison-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+      margin-top: 32px;
+    }
+    .comparison-card {
+      background: var(--color-neutral);
+      border-radius: var(--border-radius);
+      overflow: hidden;
+    }
+    .comparison-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .comparison-label {
+      font-family: var(--font-heading);
+      font-size: 16px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      padding: 12px 16px;
+      background: var(--color-dark);
+      color: var(--color-white);
+    }
+    .deliverables-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+      margin-top: 24px;
+    }
+    .deliverable-item {
+      background: var(--color-neutral);
+      border-radius: var(--border-radius);
+      padding: 24px;
+    }
+    .deliverable-item h4 {
+      font-family: var(--font-heading);
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    .deliverable-item p {
+      font-size: 16px;
+      color: var(--color-text-light);
+      line-height: 1.5;
+    }
+    .next-step {
+      background: var(--color-teal-light);
+      padding: 24px;
+      margin-top: 32px;
+    }
+    .next-step p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    @media (max-width: 768px) {
+      .comparison-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <span class="logo" style="font-family: var(--font-heading); font-weight: 700; font-size: 1.125rem; color: var(--color-text);">
+        Conceito independente
+      </span>
+      <nav class="main-nav" aria-label="Navegação da proposta">
+        <ul>
+          <li><a href="#problemas">Problemas</a></li>
+          <li><a href="#conceito">Conceito</a></li>
+          <li><a href="#entregas">Entregas</a></li>
+          <li><a href="#proximo">Próximo passo</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- PROPOSAL HERO -->
+    <section class="proposal-hero">
+      <div class="container">
+        <h1>Proposta de redesign — Sarnelli Arquitetura</h1>
+        <p class="subtitle">Arquitetura que cuida: um portfólio de saúde organizado por impacto humano, tipologia e etapa.</p>
+        <p class="disclaimer">
+          Este é um documento conceitual independente, elaborado como análise não afiliada à Sarnelli Arquitetura.
+          Nenhuma marca, imagem ou dado foi usado sem proveniência pública verificada.
+        </p>
+      </div>
+    </section>
+
+    <!-- OPPORTUNITY -->
+    <section class="proposal-section" id="oportunidade">
+      <div class="container">
+        <h2>Por que este redesign importa</h2>
+        <p style="font-size: 24px; color: var(--color-text-light); line-height: 1.7; max-width: 720px;">
+          Projetos hospitalares e de clínicas são contratos de alto valor. O site atual da Sarnelli Arquitetura responde corretamente e mostra portfólio real, mas contém elementos que reduzem a confiança de decisores: texto Lorem Ipsum, prêmios sem conteúdo factual, blocos repetidos com aparência de placeholder, e um portfólio sem hierarquia clara entre hospitais, clínicas e escolas.
+        </p>
+        <p style="font-size: 24px; color: var(--color-text-light); line-height: 1.7; max-width: 720px; margin-top: 16px;">
+          Tornar a prova e o portfólio pesquisáveis, remover placeholders e organizar por tipologia de projeto melhora a confiança dos decisores e a qualidade das solicitações de contato.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROBLEMS vs IMPROVEMENTS -->
+    <section class="proposal-section" id="problemas">
+      <div class="container">
+        <h2>Problemas identificados e melhorias propostas</h2>
+        <div class="comparison-grid">
+          <div>
+            <h3>Problemas</h3>
+            <ul class="problem-list">
+              <li>Blocos repetidos de "SARNELLI" e "PROJETOS" com aparência de carrossel/placeholder não resolvido.</li>
+              <li>Seção de números com texto Lorem Ipsum e prêmios Awwwards sem conteúdo factual correspondente.</li>
+              <li>Listagem de projetos que repete nomes e datas sem hierarquia entre hospitais, clínicas e escolas.</li>
+              <li>Home longa com pouca orientação de próximo passo para um decisor que busca arquitetura hospitalar.</li>
+              <li>Proposta de biofilia, neuroarquitetura e design baseado em evidências diluída entre módulos genéricos.</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Como este conceito resolve</h3>
+            <ul class="improvement-list">
+              <li>Home organizada como sequência "pilar → prova → processo → contato", sem grade infinita.</li>
+              <li>Conteúdo 100% factual: apenas linguagem e dados publicados pela Sarnelli, sem Lorem Ipsum ou prêmios não verificados.</li>
+              <li>Portfólio filtrável por tipologia (hospitais, clínicas, escolas) com nomes reais de projetos publicados.</li>
+              <li>Conversão clara: contato qualificado por tipologia e telefone/WhatsApp visível no final de cada jornada.</li>
+              <li>Pilares (conceito, bem-estar, generosidade) apresentados como seção dedicada com linguagem publicada.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONCEPT PREVIEW -->
+    <section class="proposal-section" id="conceito">
+      <div class="container">
+        <h2>Conceito visual</h2>
+        <p style="font-size: 24px; color: var(--color-text-light); line-height: 1.7; max-width: 720px; margin-bottom: 32px;">
+          Este conceito só pode pertencer à Sarnelli porque traduz os pilares publicados de conceito, bem-estar e generosidade em uma navegação de portfólio que conecta espaço, cuidado e complexidade técnica. Preserva as cores da marca (#2B2B2B, #0F6358, #FFFFFF, #F5F7F7), a tipografia Montserrat/Roboto e as imagens oficiais do site.
+        </p>
+        <div class="comparison-grid">
+          <div class="comparison-card">
+            <div class="comparison-label">Site atual (desktop)</div>
+            <img src="evidence/original/desktop-1440x900.png" alt="Captura do site atual da Sarnelli Arquitetura em 1440x900" loading="lazy">
+          </div>
+          <div class="comparison-card">
+            <div class="comparison-label">Conceito proposto</div>
+            <p style="padding: 24px; font-size: 16px; color: var(--color-text-light);">
+              Visualize o conceito em <a href="index.html" style="color: var(--color-teal); text-decoration: underline;">index.html</a> — página principal com hero, pilares, portfólio filtrável e contato.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DELIVERABLES -->
+    <section class="proposal-section" id="entregas">
+      <div class="container">
+        <h2>Entregas do conceito</h2>
+        <div class="deliverables-grid">
+          <h3 class="sr-only">Lista de entregas</h3>
+          <div class="deliverable-item">
+            <h4>index.html</h4>
+            <p>Página principal com hero, pilares, portfólio filtrável, processo de trabalho e contato.</p>
+          </div>
+          <div class="deliverable-item">
+            <h4>styles.css</h4>
+            <p>Sistema de design completo com cores da marca, tipografia Montserrat/Roboto, responsividade e acessibilidade.</p>
+          </div>
+          <div class="deliverable-item">
+            <h4>script.js</h4>
+            <p>Menu mobile, filtros de portfólio, scroll suave e efeitos de header.</p>
+          </div>
+          <div class="deliverable-item">
+            <h4>proposal.html</h4>
+            <p>Este documento: proposta independente de redesign com análise de problemas e melhorias.</p>
+          </div>
+          <div class="deliverable-item">
+            <h4>SITE_REVIEW.md</h4>
+            <p>Revisão técnica e visual com avaliação dimensional do redesign.</p>
+          </div>
+          <div class="deliverable-item">
+            <h4>SOURCE_MANIFEST.md</h4>
+            <p>Registro de todas as fontes e evidências usadas para construir o conceito.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEXT STEP -->
+    <section class="proposal-section" id="proximo">
+      <div class="container">
+        <h2>Próximo passo</h2>
+        <div class="next-step">
+          <p>
+            Este conceito está disponível para avaliação da Sarnelli Arquitetura. Para entrar em contato com a equipe sobre uma possível implementação, utilize os canais oficiais:
+          </p>
+          <p style="margin-top: 12px;">
+            <strong>Telefone:</strong> (41) 3373-1022 &nbsp;|&nbsp;
+            <strong>WhatsApp:</strong> (41) 98706-8237 &nbsp;|&nbsp;
+            <strong>E-mail:</strong> contato@sarnelliarquitetura.com.br
+          </p>
+        </div>
+        <p class="disclaimer" style="color: var(--color-text-light); margin-top: 32px; border-top: 1px solid rgba(43,43,43,0.08); padding-top: 16px;">
+          Este é um conceito independente e não representa uma oferta formal de serviço. Todas as informações sobre a Sarnelli Arquitetura foram obtidas exclusivamente de fontes públicas verificadas em 2026-07-17.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-copy">Conceito independente — não afiliado à Sarnelli Arquitetura</p>
+      <p class="footer-address">Evidências coletadas em 2026-07-17</p>
+    </div>
+  </footer>
+</body>
+</html>
