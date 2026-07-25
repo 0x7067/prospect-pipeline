@@ -356,7 +356,7 @@ p { margin: 0; }
   gap: 0.75rem;
 }
 .mobile-nav__contact .btn { justify-content: center; width: 100%; }
-.site-header{border-bottom:1px solid rgba(38,28,20,.18);box-shadow:0 5px 18px rgba(38,28,20,.12)}#equipe .team__photo img{object-fit:contain!important;object-position:center!important;background:#f2eee8}
+.site-header{border-bottom:1px solid rgba(38,28,20,.18)}#equipe .team__photo img{object-fit:contain!important;object-position:top center!important;background:#f2eee8}
 
 @media (min-width: 1024px) { .mobile-nav { display: none; } }
 
@@ -734,7 +734,7 @@ details[open] .specialty-row__icon {
   aspect-ratio: 3 / 4;
   max-width: 420px;
 }
-.team__photo img { width: 100%; height: 100%; object-fit: cover; object-position: center 15%; }
+.team__photo img { width: 100%; height: 100%; object-fit: cover; object-position: top center; }
 
 /* Mobile: edge-to-edge crop for the team photo (intentional bleed moment) */
 @media (max-width: 767px) {
@@ -820,7 +820,7 @@ details[open] .specialty-row__icon {
   width: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
-  object-position: center 55%;
+  object-position: top center;
 }
 .tech__photos figcaption {
   padding: 0.85rem 1.1rem;
