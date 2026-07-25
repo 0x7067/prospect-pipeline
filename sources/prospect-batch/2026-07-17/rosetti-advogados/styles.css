@@ -356,3 +356,7 @@ button { font: inherit; }
 
 /* ---------- Misc ---------- */
 .divider-note { font-size: .82rem; color: var(--ink-soft); }
+
+/* Final publication and navigation polish */
+.articles{background:linear-gradient(180deg,var(--white),var(--paper));}.publication-feature{box-shadow:0 18px 40px rgba(36,57,55,.16)}
+.article-index{border:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.2rem}.article-row{background:var(--white);border:1px solid var(--line);border-radius:14px;display:grid;grid-template-columns:44px 1fr;gap:.65rem;padding:1.35rem;min-height:150px;align-content:start;box-shadow:0 8px 18px rgba(36,57,55,.06);transition:transform .2s ease,box-shadow .2s ease}.article-row:hover{transform:translateY(-4px);box-shadow:0 16px 28px rgba(36,57,55,.14)}.article-row .n{font-family:var(--font-display);font-size:1.4rem;color:var(--teal-700)}.article-title{font-family:var(--font-heading);font-weight:700;font-size:1.14rem;line-height:1.25}.article-row .go{grid-column:2;color:var(--teal-700);font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;margin-top:.65rem}.primary-nav a{transition:background .2s,color .2s}.primary-nav a:hover,.primary-nav a:focus-visible{background:var(--paper-deep);color:var(--teal-900)}.nav-cta .btn{width:100%;justify-content:center}@media(max-width:720px){.article-index{grid-template-columns:1fr}.article-row{min-height:0}.articles-foot{align-items:flex-start;flex-direction:column}}
