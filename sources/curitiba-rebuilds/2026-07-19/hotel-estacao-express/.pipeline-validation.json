@@ -1,0 +1,231 @@
+{
+  "browser": {
+    "engine": "playwright chromium",
+    "error": null,
+    "required_matrix_complete": true,
+    "required_pages": [
+      "index.html",
+      "proposal.html",
+      "rationale.html"
+    ],
+    "required_viewports": {
+      "desktop": {
+        "height": 900,
+        "width": 1440
+      },
+      "mobile": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    "results": [
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:46419/index.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-desktop.png",
+        "screenshot_sha256": "e9a9a66080a3cf50591570df92c8d3692895d164d549378d91a22b8130dda434",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Hotel Estação Express | Centro de Curitiba",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:46419/index.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-mobile.png",
+        "screenshot_sha256": "9339a4dd4da94bf7d9284c0c943c227cb1b9ffc025b21f25f43bc4dc932f1a4d",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Hotel Estação Express | Centro de Curitiba",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:46419/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-desktop.png",
+        "screenshot_sha256": "27c2895e29b706293d45f0b545ca6203bbb8e4b31a1949abb7e20a81b0cf00b2",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta de direção digital — Hotel Estação Express",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:46419/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-mobile.png",
+        "screenshot_sha256": "9cfff39105c31bb0b923786eb37897472ded0e51bbf4943c57aa0c1207440734",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta de direção digital — Hotel Estação Express",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:46419/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-desktop.png",
+        "screenshot_sha256": "27c2895e29b706293d45f0b545ca6203bbb8e4b31a1949abb7e20a81b0cf00b2",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta de direção digital — Hotel Estação Express",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:46419/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-mobile.png",
+        "screenshot_sha256": "9cfff39105c31bb0b923786eb37897472ded0e51bbf4943c57aa0c1207440734",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta de direção digital — Hotel Estação Express",
+        "viewport": "mobile",
+        "width": 390
+      }
+    ],
+    "status": "pass"
+  },
+  "build_id": "e5997f276d1a10fb979aa7bbb6b87c196b88873bdf458b200d9b0ad6841561d9",
+  "detector": {
+    "command": "/opt/data/.venvs/curitiba/bin/python /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-19/hotel-estacao-express",
+    "current_clean": true,
+    "current_findings": false,
+    "exit_code": 0,
+    "status": "clean",
+    "stderr": "",
+    "stdout": ""
+  },
+  "generated_at": "2026-07-20T22:23:55.143164+00:00",
+  "node_check": {
+    "command": "node --check script.js",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "preflight": {
+    "counts": {
+      "all-caps-body": 0,
+      "cramped-padding": 3,
+      "flat-type-hierarchy": 0,
+      "low-contrast-risk": 0,
+      "overused-font": 0
+    },
+    "findings": [
+      {
+        "antipattern": "cramped-padding",
+        "selector": ".proposal",
+        "snippet": ".proposal: visible boundary without explicit horizontal padding",
+        "suggestion": "Add explicit padding: e.g., padding: 4rem 2rem; or padding-inline: 2rem;"
+      },
+      {
+        "antipattern": "cramped-padding",
+        "selector": ".proposal section",
+        "snippet": ".proposal section: visible boundary without explicit horizontal padding",
+        "suggestion": "Add explicit padding: e.g., padding: 4rem 2rem; or padding-inline: 2rem;"
+      },
+      {
+        "antipattern": "cramped-padding",
+        "selector": ".proposal-columns",
+        "snippet": ".proposal-columns: visible boundary without explicit horizontal padding",
+        "suggestion": "Add explicit padding: e.g., padding: 4rem 2rem; or padding-inline: 2rem;"
+      }
+    ],
+    "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/hotel-estacao-express",
+    "schema": 1,
+    "status": "findings"
+  },
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/hotel-estacao-express",
+  "release_manifest": {
+    "index.html": {
+      "sha256": "eb02201fa40f09ab121e04d90500101f5e09c62fb506ead08d590c0bb1b9cca6",
+      "size": 6126
+    },
+    "proposal.html": {
+      "sha256": "7f8636e73f781abb863536f4c95bbf5cdbe8bb375ff6db874280aa50c8e97feb",
+      "size": 2232
+    },
+    "rationale.html": {
+      "sha256": "cb474d057e802c1e9117628f943e83e33423eec0f2b5b051d06f1d13df54aaa1",
+      "size": 396
+    },
+    "script.js": {
+      "sha256": "5e13e552917ad8ca5f150d1e4473fb5a013b901724e3b0a7685d2c6938c8a179",
+      "size": 409
+    },
+    "styles.css": {
+      "sha256": "979ab9d6edf56c7068bc770b0daa9b3b9523a11e358a6f4d3580890cd2fc4a14",
+      "size": 13036
+    }
+  },
+  "schema": 1,
+  "status": "pass"
+}

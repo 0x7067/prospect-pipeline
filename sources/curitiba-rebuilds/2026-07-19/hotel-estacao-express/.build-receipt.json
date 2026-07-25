@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "status": "failed",
+  "build_id": "316cc3286d793f072de518b02762e6c73df68705108a2d1c5dfcf46c109b1f3a",
+  "deliverable_tier": "early_visual_direction",
+  "summary": "The complete early visual direction was built and the browser matrix and Node syntax validation passed, but the second and final permitted detector run still reported one blocking all-caps body-text finding. This build is not ready for promotion or publication.",
+  "blockers": [
+    "Pinned detector reports text-transform: uppercase applied to a 40-character body-text passage in index.html; long all-caps body copy is blocked by the design policy."
+  ]
+}

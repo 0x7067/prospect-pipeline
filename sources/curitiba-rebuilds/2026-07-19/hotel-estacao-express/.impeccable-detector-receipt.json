@@ -1,0 +1,52 @@
+{
+  "build_id": "e5997f276d1a10fb979aa7bbb6b87c196b88873bdf458b200d9b0ad6841561d9",
+  "detector": {
+    "expected_cli_version": "3.2.1",
+    "path": "/opt/data/bin/impeccable",
+    "resolved_path": "/opt/data/.local/share/mise/shims/impeccable",
+    "scans": [
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "raw"
+      },
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "design-aware"
+      }
+    ],
+    "sha256": "957f4c0682af817e1b23d8325b8023d3758b0c3e0bbbf8bb86453d6f91060176"
+  },
+  "findings": [],
+  "gate_exit_code": 0,
+  "generated_at": "2026-07-20T22:23:44.804983+00:00",
+  "impeccable_skill_commit": "44c27a72af98394c32691ba79358811bff86bde6",
+  "policy_sha256": "21936021ef4272afbb508483f0e0e5a5b7ec5a4613630f864e1c8bbffe684604",
+  "policy_version": "prospect-brand-style-gate-v2",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/hotel-estacao-express",
+  "release_manifest": {
+    "index.html": {
+      "sha256": "eb02201fa40f09ab121e04d90500101f5e09c62fb506ead08d590c0bb1b9cca6",
+      "size": 6126
+    },
+    "proposal.html": {
+      "sha256": "7f8636e73f781abb863536f4c95bbf5cdbe8bb375ff6db874280aa50c8e97feb",
+      "size": 2232
+    },
+    "rationale.html": {
+      "sha256": "cb474d057e802c1e9117628f943e83e33423eec0f2b5b051d06f1d13df54aaa1",
+      "size": 396
+    },
+    "script.js": {
+      "sha256": "5e13e552917ad8ca5f150d1e4473fb5a013b901724e3b0a7685d2c6938c8a179",
+      "size": 409
+    },
+    "styles.css": {
+      "sha256": "979ab9d6edf56c7068bc770b0daa9b3b9523a11e358a6f4d3580890cd2fc4a14",
+      "size": 13036
+    }
+  },
+  "schema": 3,
+  "status": "clean"
+}

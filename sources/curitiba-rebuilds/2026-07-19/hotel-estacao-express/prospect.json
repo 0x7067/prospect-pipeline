@@ -1,0 +1,95 @@
+{
+  "business_name": "Hotel Estação Express",
+  "official_url": "https://www.hotelestacaoexpress.com.br/",
+  "run_date": "2026-07-19",
+  "slug": "hotel-estacao-express",
+  "category": "hospitality / central hotel and events",
+  "problems": [
+    "The active official homepage is structurally difficult to use: it exposes repeated 'FAÇA SUA RESERVA' calls beside carousel-like '1/8', '1/14', and '1/7' fragments without a clearly surfaced booking engine, room selection path, rates, or contact details in the extracted page content.",
+    "The page devotes substantial space to generic Curitiba attraction descriptions while the commercially valuable hotel decisions—room categories, event capacity, amenities, location logistics, and reservation action—are comparatively hard to scan.",
+    "The homepage presents event space capacity up to 300 people and a central location, but does not provide a clear event inquiry route or concise event-specification summary, leaving a meaningful B2B lead path underdeveloped.",
+    "Visible content-quality and freshness friction includes awkward copy such as 'programação a cabo', 'Café da manhã é cortesia' without a strong booking context, and a page presentation dominated by repeated image/slider labels rather than clear accommodation proof."
+  ],
+  "rebuild_angle": "Rebuild the hotel as a practical Curitiba base with two clear revenue paths—stay and event—using location proof, room/amenity clarity, a direct reservation route, and a concise event brief request instead of a tourism-heavy scroll.",
+  "opportunity_score": 7.5,
+  "active_evidence": "On 2026-07-19, https://www.hotelestacaoexpress.com.br/ loaded as the official Hotel Estação Express site and described central Curitiba lodging, proximity to the Convention Center, UTFPR, Shopping Estação, and Rua XV de Novembro; breakfast, Wi-Fi, paid private parking, air-conditioned rooms, frigobar, work desk, private bathroom, and event salons for up to 300 people. OpenStreetMap/Nominatim matched the hotel to 780 Rua João Negrão, Centro, Curitiba.",
+  "evidence_links": [
+    "https://www.hotelestacaoexpress.com.br/ (official page observation: 2026-07-19)",
+    "https://www.openstreetmap.org/?mlat=-25.4359912&mlon=-49.2641782#map=19/-25.4359912/-49.2641782"
+  ],
+  "preserved_strengths": [
+    "The central Curitiba location and proximity cues to UTFPR, Shopping Estação, Convention Center, and Rua XV.",
+    "The practical business-traveler and event-hosting proposition.",
+    "The concrete room amenities and breakfast/Wi-Fi/parking information.",
+    "The event capacity claim up to 300 people.",
+    "The accessible, value-oriented hospitality positioning.",
+    "The local Curitiba attraction context, used selectively rather than as the main conversion surface."
+  ],
+  "brand_source": {
+    "logo_sources": [
+      "https://www.hotelestacaoexpress.com.br/ (official header/identity observation, 2026-07-19)"
+    ],
+    "colors": [
+      "The official page presents a hospitality-oriented light layout with image-led content and dark text; exact brand palette should be sampled from original captures before implementation."
+    ],
+    "typography": [
+      "The official page uses a conventional hospitality web presentation; no prospect-specific typeface is asserted in the collected evidence."
+    ],
+    "personality_words": [
+      "conforto",
+      "bons serviços",
+      "localização",
+      "atendimento personalizado",
+      "preços acessíveis",
+      "praticidade"
+    ],
+    "strongest_public_language": [
+      "Melhor Preço Garantido de Curitiba",
+      "escolha ideal",
+      "conforto, bons serviços e ótima localização",
+      "ESPAÇO PERFEITO PARA EVENTOS",
+      "FAÇA SUA RESERVA"
+    ],
+    "services": [
+      "Hotel accommodation",
+      "Breakfast",
+      "High-speed Wi-Fi",
+      "Paid private parking",
+      "Event salons for up to 300 people",
+      "Business-travel lodging"
+    ],
+    "locations": [
+      "780 Rua João Negrão, Centro, Curitiba-PR, as matched by OpenStreetMap to the official hotel listing"
+    ],
+    "contacts": [
+      "The active official homepage presents reservation CTAs; a direct telephone/email was not asserted because it was not exposed in the collected page evidence."
+    ],
+    "visual_assets": [
+      "Official hotel room imagery visible on https://www.hotelestacaoexpress.com.br/",
+      "Official event-space imagery visible on https://www.hotelestacaoexpress.com.br/",
+      "Official Curitiba attraction imagery/context visible on https://www.hotelestacaoexpress.com.br/",
+      "Official hospitality infrastructure presentation visible on https://www.hotelestacaoexpress.com.br/"
+    ],
+    "original_screenshots": {
+      "desktop": "https://www.hotelestacaoexpress.com.br/ (original desktop inspection, 2026-07-19)",
+      "mobile": "https://www.hotelestacaoexpress.com.br/ (original mobile inspection, 2026-07-19)"
+    },
+    "equity_to_preserve": [
+      "Central location",
+      "Value-oriented hospitality",
+      "Business and event utility",
+      "Concrete amenities",
+      "Breakfast and Wi-Fi cues",
+      "Curitiba access context"
+    ],
+    "weaknesses_not_to_copy": [
+      "Carousel counter fragments",
+      "Repeated reservation CTAs without a clear booking destination",
+      "Tourism copy crowding out hotel decisions",
+      "Underdeveloped event inquiry path",
+      "Weak information hierarchy"
+    ]
+  },
+  "concept_thesis": "Make every minute in Curitiba easier: a compact stay-and-event hub where location, room utility, and a fast reservation or event inquiry path do the selling before generic tourism content begins.",
+  "deliverable_tier": "early_visual_direction"
+}
