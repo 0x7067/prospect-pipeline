@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "status": "complete",
+  "command": "craft",
+  "skill_commit": "44c27a72af98394c32691ba79358811bff86bde6",
+  "builder_id": "hermes-qwen3.6-27b-trevi-20260719",
+  "timestamp": "2026-07-25T00:00:00Z",
+  "summary": "Impeccable craft shaping for Trevi Hotel & Business redesign. Read PRODUCT.md (evidence-bounded, Portuguese hospitality voice, no fabricated claims) and DESIGN.md (restrained accessible palette, deliberate typographic pairing, flat elevation, three art-directed moments minimum). Shaped UX around the concept thesis: practical gateway to central Curitiba with equal legibility for stay, events, and reservation. Compositional thesis: the page reads like walking through a central-Curitiba hotel lobby where reception, meeting room, and guest rooms exist in immediate visual proximity. Three art-directed moments: (1) calm type-led hero with integrated reservation bar, (2) deliberate stay-and-events two-column split mirroring the dual positioning, (3) horizontal amenity checklist strip instead of generic cards. Color palette derived from live site sampling: deep burgundy (#7B1E2E) from the header, charcoal (#2C2C2C) from the footer, warm off-white (#F7F4F0) for backgrounds, and accent gold (#C4A35A) for selective emphasis. Typography: display serif (Playfair Display) for headings connected to hospitality heritage, clean sans-serif (Inter) for body and UI. Mobile-native rhythm with edge-to-edge imagery and stacked reservation-first layout. Deliverable tier: early_visual_direction — not production-complete.",
+  "design_decisions": {
+    "compositional_thesis": "The page reads like walking through a central-Curitiba hotel lobby where the reception desk, meeting room door, and guest rooms all exist in immediate visual proximity — stay and events are equally legible, not one after the other.",
+    "art_directed_moments": [
+      "Type-led hero with integrated reservation bar — no blank hero, headline states the central-Curitiba proposition directly",
+      "Stay-and-events two-column split with deliberate visual weight balance — mirrors the hotel-and-business dual positioning",
+      "Horizontal amenity checklist strip — practical amenities presented as a visual band, not generic cards"
+    ],
+    "typographic_pairing": {
+      "display": "Playfair Display for headings — hospitality serif, connected to the brand's conventional hospitality presentation",
+      "body": "Inter for body and UI — clean, legible, practical for reservation forms and information"
+    },
+    "image_treatment_rule": "Warm-toned, slightly desaturated overlays with subtle burgundy tint to unify imagery; no glassmorphism or decorative gradients",
+    "color_evolution": "Burgundy (#7B1E2E) anchors the brand. Charcoal (#2C2C2C) provides neutral contrast. Warm off-white (#F7F4F0) creates a welcoming background. Gold (#C4A35A) appears selectively for emphasis on CTAs and key details.",
+    "conversion_path": "Reservation bar immediately visible in hero, repeated CTA after stay section, phone and WhatsApp always accessible in navigation",
+    "mobile_rhythm": "Reservation-first stacking on mobile, edge-to-edge imagery moments, full-width CTA buttons, hamburger nav with visible open/close state"
+  },
+  "evidence_sources": [
+    "prospect.json",
+    "PRODUCT.md",
+    "DESIGN.md",
+    "BRAND_SOURCE.md",
+    "Live site inspection: trevihotel.com.br (homepage, contato, eventos pages)"
+  ],
+  "verified_facts": {
+    "address": "R. Ébano Pereira, 139 - Centro, Curitiba - PR, 80410-240",
+    "phone": "(41) 3224-0111",
+    "email": "reservas@trevihotel.com.br",
+    "event_rooms": 2,
+    "event_room_names": ["SALA 3", "SALA 4"],
+    "services": ["accommodation", "online reservation", "breakfast", "Wi-Fi", "24-hour reception", "business center", "events", "WhatsApp contact"]
+  },
+  "deliverable_tier": "early_visual_direction",
+  "not_production_complete": true
+}

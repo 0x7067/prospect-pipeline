@@ -1,0 +1,10 @@
+{
+  "afk_queue_id": "q-1784509576766-fa1d9c",
+  "agent": "afk",
+  "business_name": "Trevi Hotel & Business",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/trevi-hotel",
+  "queued_at": "2026-07-20T01:06:16.776884+00:00",
+  "schema": 2,
+  "status": "queued",
+  "task_id": "task-2edc476cac3f4892b66424d6cb4cff8a"
+}

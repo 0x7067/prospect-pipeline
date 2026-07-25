@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "commit": "44c27a72af98394c32691ba79358811bff86bde6",
+  "source": "/opt/data/vendor/impeccable",
+  "providers": {
+    "claude": {
+      "root": ".claude/skills/impeccable",
+      "files": 96,
+      "sha256": "a0aee9315892f465b4b66327b5f5c1e37208cb1fb14d19b1ebef18b78fe319f8"
+    },
+    "codex": {
+      "root": ".agents/skills/impeccable",
+      "files": 99,
+      "sha256": "e3ca77ec39e0490702d139744352119572c1f9694821482f420bc488944d8796"
+    }
+  }
+}

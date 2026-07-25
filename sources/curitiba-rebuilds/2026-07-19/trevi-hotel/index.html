@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trevi Hotel &amp; Business — Hotel no Centro de Curitiba</title>
+  <meta name="description" content="Hotel no centro de Curitiba com quartos confortáveis, café da manhã, Wi-Fi, business center e duas salas de eventos. Recepção 24 horas. Reserve já pelo site oficial.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="/" class="logo" aria-label="Trevi Hotel &amp; Business — Página inicial">
+        <span class="logo-mark">T</span>
+        <span class="logo-text">Trevi Hotel <span class="amp">&amp;</span> Business</span>
+      </a>
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
+        <span class="hamburger"></span>
+      </button>
+      <nav id="main-nav" class="main-nav" role="navigation" aria-label="Navegação principal">
+        <ul>
+          <li><a href="/#apartamentos">Apartamentos</a></li>
+          <li><a href="/#eventos">Eventos</a></li>
+          <li><a href="/#servicos">Serviços</a></li>
+          <li><a href="https://trevihotel.com.br/contato/" aria-label="Página de contato">Contato</a></li>
+          <li class="nav-contact"><a href="https://wa.me/554132240111" aria-label="WhatsApp">WhatsApp</a></li>
+          <li class="nav-contact"><a href="tel:+554132240111">(41) 3224-0111</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- Hero: Type-led, reservation-integrated -->
+    <section class="hero" aria-label="Reserva de hospedagem">
+      <div class="hero-overlay"></div>
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h1>Centro de Curitiba — hospedagem prática no coração da capital</h1>
+          <p class="hero-sub">Quartos confortáveis, café da manhã, business center e salas de eventos, tudo a poucos passos do centro.</p>
+        </div>
+        <form class="reservation-bar" action="https://trevihotel.com.br/" method="get" aria-label="Formulário de reserva">
+          <div class="form-group">
+            <label for="checkin">Entrada</label>
+            <input type="date" id="checkin" name="checkin" required>
+          </div>
+          <div class="form-group">
+            <label for="checkout">Saída</label>
+            <input type="date" id="checkout" name="checkout" required>
+          </div>
+          <div class="form-group">
+            <label for="adults">Adultos</label>
+            <select id="adults" name="adults">
+              <option value="1" selected>1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="children">Crianças</label>
+            <select id="children" name="children">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary">Reserve já</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Stay & Events split: dual positioning made equal -->
+    <section class="split-section" id="apartamentos" aria-label="Acomodações e eventos">
+      <div class="container split-grid">
+        <!-- Stay side -->
+        <div class="split-panel stay-panel">
+          <div class="panel-visual stay-visual"></div>
+          <div class="panel-content">
+            <p class="panel-label">Hospedagem</p>
+            <h2>Apartamentos preparados para sua estadia</h2>
+            <p>Quartos com Wi-Fi gratuito, café da manhã incluso e recepção 24 horas, pensados para quem viaja a trabalho ou para turismo no centro de Curitiba.</p>
+            <a href="https://trevihotel.com.br/apartamentos" class="btn btn-outline">Ver apartamentos</a>
+          </div>
+        </div>
+        <!-- Events side -->
+        <div class="split-panel events-panel" id="eventos">
+          <div class="panel-visual events-visual"></div>
+          <div class="panel-content">
+            <p class="panel-label">Eventos</p>
+            <h2>Duas salas para seus eventos e reuniões</h2>
+            <p>Salas 3 e 4 equipadas para reuniões de negócios, treinamentos e eventos corporativos, com espaço para buffet e recepção no próprio hotel.</p>
+            <a href="https://trevihotel.com.br/eventos/" class="btn btn-outline">Saiba mais sobre eventos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Amenities strip: horizontal, practical, no generic cards -->
+    <section class="amenities-strip" id="servicos" aria-label="Servicos e comodidades">
+      <div class="container">
+        <div class="amenities-grid">
+          <div class="amenity">
+            <span class="amenity-icon" aria-hidden="true">&#9733;</span>
+            <span class="amenity-name">Café da manhã</span>
+          </div>
+          <div class="amenity">
+            <span class="amenity-icon" aria-hidden="true">&#128221;</span>
+            <span class="amenity-name">Wi-Fi gratuito</span>
+          </div>
+          <div class="amenity">
+            <span class="amenity-icon" aria-hidden="true">&#9200;</span>
+            <span class="amenity-name">Recepção 24 horas</span>
+          </div>
+          <div class="amenity">
+            <span class="amenity-icon" aria-hidden="true">&#128188;</span>
+            <span class="amenity-name">Business center</span>
+          </div>
+          <div class="amenity">
+            <span class="amenity-icon" aria-hidden="true">&#127959;</span>
+            <span class="amenity-name">Salas de eventos</span>
+          </div>
+          <div class="amenity">
+            <span class="amenity-icon" aria-hidden="true">&#128205;</span>
+            <span class="amenity-name">Localização central</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location section -->
+    <section class="location-section" aria-label="Localização e contato">
+      <div class="container location-grid">
+        <div class="location-info">
+          <p class="section-label">Localização</p>
+          <h2>Escolha o Trevi Hotel &amp; Business</h2>
+          <p>Informações úteis para você que vai se hospedar em Curitiba. O Trevi Hotel e Business está situado no centro da cidade, com acesso fácil a pontos comerciais, culturais e de transporte.</p>
+          <address class="contact-address">
+            <p><strong>R. Ébano Pereira, 139</strong></p>
+            <p>Centro, Curitiba - PR, 80410-240</p>
+            <p><a href="tel:+554132240111">(41) 3224-0111</a></p>
+            <p><a href="mailto:reservas@trevihotel.com.br">reservas@trevihotel.com.br</a></p>
+          </address>
+          <div class="location-actions">
+            <a href="https://trevihotel.com.br/contato/" class="btn btn-primary">Fale conosco</a>
+            <a href="https://wa.me/554132240111" class="btn btn-whatsapp">WhatsApp</a>
+          </div>
+        </div>
+        <div class="location-map">
+          <div class="map-visual" aria-label="Mapa da localização do hotel"></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-mark">T</span>
+        <span class="logo-text">Trevi Hotel <span class="amp">&amp;</span> Business</span>
+      </div>
+      <div class="footer-nav">
+        <p class="footer-heading">Informações</p>
+        <ul>
+          <li><a href="https://trevihotel.com.br/">Escolha o Trevi Hotel &amp; Business</a></li>
+          <li><a href="https://trevihotel.com.br/informacoes-de-hospedagem/">Informações essenciais para hóspedes</a></li>
+        </ul>
+      </div>
+      <div class="footer-address">
+        <p class="footer-heading">Endereço</p>
+        <p>R. Ébano Pereira, 139</p>
+        <p>Centro, Curitiba - PR</p>
+        <p>80410-240</p>
+      </div>
+      <div class="footer-contact">
+        <p class="footer-heading">Contato</p>
+        <p><a href="tel:+554132240111">(41) 3224-0111</a></p>
+        <p><a href="mailto:reservas@trevihotel.com.br">reservas@trevihotel.com.br</a></p>
+        <p><a href="https://wa.me/554132240111">WhatsApp</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Trevi Hotel &amp; Business. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

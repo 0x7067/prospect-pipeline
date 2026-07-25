@@ -1,0 +1,52 @@
+{
+  "build_id": "f3d83aee7b27dac0f35eb18fe012ee41841719ad5bd04d88a6fa4961e07a9da9",
+  "detector": {
+    "expected_cli_version": "3.2.1",
+    "path": "/opt/data/bin/impeccable",
+    "resolved_path": "/opt/data/.local/share/mise/shims/impeccable",
+    "scans": [
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "raw"
+      },
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "design-aware"
+      }
+    ],
+    "sha256": "957f4c0682af817e1b23d8325b8023d3758b0c3e0bbbf8bb86453d6f91060176"
+  },
+  "findings": [],
+  "gate_exit_code": 0,
+  "generated_at": "2026-07-25T22:19:56.014774+00:00",
+  "impeccable_skill_commit": "44c27a72af98394c32691ba79358811bff86bde6",
+  "policy_sha256": "21936021ef4272afbb508483f0e0e5a5b7ec5a4613630f864e1c8bbffe684604",
+  "policy_version": "prospect-brand-style-gate-v2",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/trevi-hotel",
+  "release_manifest": {
+    "index.html": {
+      "sha256": "2b454fc8024cf44aeeb0f3ddfa009f6b00eff0d6059d93dfea533f08bc32f2cc",
+      "size": 9165
+    },
+    "proposal.html": {
+      "sha256": "08ee8f6d9f33b42b68bd4f263d7d6ea57acf4ddef5a87fd9a2c193cca7e90bc0",
+      "size": 7112
+    },
+    "rationale.html": {
+      "sha256": "28effdb16e61b8b879b6c9c8c0b9e95c5b55abdc634a16500ce97c95023fcd57",
+      "size": 438
+    },
+    "script.js": {
+      "sha256": "dbee610f3965ad4393acb6cb42ca48a623dcf85c9c93bfb3f7589dfae6801d58",
+      "size": 4088
+    },
+    "styles.css": {
+      "sha256": "1d2e936c2706a75f24cab6ebe2795420fc2b19e95595c8b32e788a58d0294910",
+      "size": 20685
+    }
+  },
+  "schema": 3,
+  "status": "clean"
+}
