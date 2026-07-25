@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "status": "complete",
+  "command": "craft",
+  "skill_commit": "44c27a72af98394c32691ba79358811bff86bde6",
+  "builder_id": "kimi-afk-task-4cf83c95a56f41d0ba466a60ea2e7e4e",
+  "completed_at": "2026-07-19T17:52:00+00:00",
+  "summary": "Ran /impeccable craft on the provisioned skill (v3.9.1, commit 44c27a72) for the Curitiba Palace Hotel static redesign. Read PRODUCT.md, DESIGN.md, BRAND_SOURCE.md, prospect.json, and the craft/brand references. Register: brand (hotel homepage, design is the product). Harness lacks native image generation, so craft gates 2-4 collapse into the supplied brief; the brief plus BRAND_SOURCE verified language is the visual contract. Shaped UX: 'considered arrival' composition — compact central-Curitiba welcome -> room confidence -> breakfast -> services -> location -> direct-reservation promise, rejecting the original site's social-feed sprawl. Committed system: deep pine-forest green body palette (hue-locked green neutrals, restrained-to-committed strategy) with gold reserved for the 'Palace' flourish and reservation actions; Fraunces display serif + Inter body pairing as a documented early-visual-direction substitute for the un-extracted brand type; image rule = real hotel/place photography with a dark duotone treatment and thin gold frame; three art-directed moments (full-bleed check-in desk hero with booking panel; asymmetric breakfast editorial spread; dark location/transit block). No invented facts: all business claims trace to prospect.json/BRAND_SOURCE.md evidence. Built index.html (production-realistic, no proposal language), proposal.html (independent sales document), rationale.html (redirect), styles.css, script.js. Deliverable tier early_visual_direction: not marked production-complete; brand-font and logo decisions flagged for re-verification before any publication."
+}

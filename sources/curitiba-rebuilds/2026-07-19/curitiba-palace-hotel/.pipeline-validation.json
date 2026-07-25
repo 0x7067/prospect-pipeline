@@ -1,0 +1,212 @@
+{
+  "browser": {
+    "engine": "playwright chromium",
+    "error": null,
+    "required_matrix_complete": true,
+    "required_pages": [
+      "index.html",
+      "proposal.html",
+      "rationale.html"
+    ],
+    "required_viewports": {
+      "desktop": {
+        "height": 900,
+        "width": 1440
+      },
+      "mobile": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    "results": [
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:41037/index.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-desktop.png",
+        "screenshot_sha256": "5fd593163f594063a5152995310e88ea05d2c5ceb3a1a4448928a8be7f70dcb6",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Curitiba Palace Hotel — Elegância, conforto e tradição no coração de Curitiba",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:41037/index.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-mobile.png",
+        "screenshot_sha256": "5201bf82d45547daf5102041f634031946d6f98e738f4861a8cb977fae4f2f1f",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Curitiba Palace Hotel — Elegância, conforto e tradição no coração de Curitiba",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:41037/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-desktop.png",
+        "screenshot_sha256": "86cab8657d11ee6c95e71f7f6f5c9237cfd092cf70f18b2c1d9d325964bafd0b",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta independente, novo site para o Curitiba Palace Hotel",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:41037/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-mobile.png",
+        "screenshot_sha256": "beb6360bc76578c73178d7939b009ee3e3184113af8eae1d89d31d1ce6da5520",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta independente, novo site para o Curitiba Palace Hotel",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:41037/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-desktop.png",
+        "screenshot_sha256": "86cab8657d11ee6c95e71f7f6f5c9237cfd092cf70f18b2c1d9d325964bafd0b",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta independente, novo site para o Curitiba Palace Hotel",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:41037/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-mobile.png",
+        "screenshot_sha256": "beb6360bc76578c73178d7939b009ee3e3184113af8eae1d89d31d1ce6da5520",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta independente, novo site para o Curitiba Palace Hotel",
+        "viewport": "mobile",
+        "width": 390
+      }
+    ],
+    "status": "pass"
+  },
+  "build_id": "3458d7148da5bd138ff40b51174fed17b53345e35de5d7b8462a313406203791",
+  "detector": {
+    "command": "/opt/data/.venvs/curitiba/bin/python /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-19/curitiba-palace-hotel",
+    "current_clean": true,
+    "current_findings": false,
+    "exit_code": 0,
+    "status": "clean",
+    "stderr": "",
+    "stdout": ""
+  },
+  "generated_at": "2026-07-20T22:39:07.902468+00:00",
+  "node_check": {
+    "command": "node --check script.js",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "preflight": {
+    "counts": {
+      "all-caps-body": 0,
+      "cramped-padding": 0,
+      "flat-type-hierarchy": 0,
+      "low-contrast-risk": 0,
+      "overused-font": 0
+    },
+    "findings": [],
+    "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/curitiba-palace-hotel",
+    "schema": 1,
+    "status": "clean"
+  },
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/curitiba-palace-hotel",
+  "release_manifest": {
+    "index.html": {
+      "sha256": "b5bf857ed085149feb22fd92e081c795e74211a171427b14f23587493fef2fa1",
+      "size": 12007
+    },
+    "proposal.html": {
+      "sha256": "15cad2ab4e09a4c36cba4a4c6b5e957aa98ac91d61afcf934dd1250f1f5e4342",
+      "size": 9567
+    },
+    "rationale.html": {
+      "sha256": "60a5828dfec5dc68a50f72349cbde6704dc66ab5ffa3317c8b4695c185e2f30f",
+      "size": 476
+    },
+    "script.js": {
+      "sha256": "3f0b391f589a2c0b3de4e20097dcd69e21879f168752874ae2ebe568e79e2f1e",
+      "size": 3330
+    },
+    "styles.css": {
+      "sha256": "76c96ee92ccd86d77eb760f74cfae956c7c9763baf3d4a18310b60e7e5807829",
+      "size": 20600
+    }
+  },
+  "schema": 1,
+  "status": "pass"
+}

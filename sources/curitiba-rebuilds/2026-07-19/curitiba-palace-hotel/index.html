@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curitiba Palace Hotel — Elegância, conforto e tradição no coração de Curitiba</title>
+  <meta name="description" content="Há mais de 30 anos no centro de Curitiba: quartos confortáveis, café da manhã, recepção 24 horas e a melhor tarifa garantida ao reservar direto pelo site. Rua Desembargador Ermelino de Leão, 45.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="wordmark" href="#top">Curitiba <em>Palace</em> Hotel</a>
+      <nav class="site-nav" aria-label="Navegação principal">
+        <a class="nav-link" href="#quartos">Quartos</a>
+        <a class="nav-link" href="#cafe">Café da manhã</a>
+        <a class="nav-link" href="#servicos">Serviços</a>
+        <a class="nav-link" href="#localizacao">Localização</a>
+      </nav>
+      <div class="header-actions">
+        <a class="header-phone" href="tel:+554133228081">+55 41 3322-8081</a>
+        <a class="btn btn-gold" href="https://www.curitibapalacehotel.com.br/" target="_blank" rel="noopener">Reservar</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu">
+          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+            <line x1="3" y1="6" x2="19" y2="6"></line>
+            <line x1="3" y1="11" x2="19" y2="11"></line>
+            <line x1="3" y1="16" x2="19" y2="16"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <nav class="mobile-menu" id="mobile-menu" data-open="false" aria-label="Menu móvel">
+      <ul>
+        <li><a href="#quartos">Quartos</a></li>
+        <li><a href="#cafe">Café da manhã</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#localizacao">Localização</a></li>
+        <li><a href="#reserva">Reservar</a></li>
+        <li><a class="menu-phone" href="tel:+554133228081">+55 41 3322-8081</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- A chegada -->
+    <section class="hero" aria-label="Boas-vindas">
+      <div class="frame" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=2000&q=80" alt="" fetchpriority="high">
+      </div>
+      <div class="wrap hero-inner">
+        <div class="hero-grid">
+          <div>
+            <p class="hero-kicker">Centro de Curitiba · Há mais de 30 anos</p>
+            <h1>Elegância, conforto e tradição no <em>coração</em> de Curitiba</h1>
+            <p class="hero-sub">Arquitetura tradicional, conforto e elegância contemporâneos, a poucos passos de tudo o que o centro oferece. Sinta-se em casa.</p>
+          </div>
+
+          <form class="booking" id="reserva" aria-label="Verificar disponibilidade" novalidate>
+            <p class="booking-title">Reserve sua estadia</p>
+            <div class="booking-fields">
+              <div class="booking-field">
+                <label for="checkin">Check-in</label>
+                <input type="date" id="checkin" name="checkin" required>
+              </div>
+              <div class="booking-field">
+                <label for="checkout">Check-out</label>
+                <input type="date" id="checkout" name="checkout" required>
+              </div>
+              <div class="booking-field full">
+                <label for="hospedes">Hóspedes</label>
+                <select id="hospedes" name="hospedes">
+                  <option value="1">1 hóspede</option>
+                  <option value="2" selected>2 hóspedes</option>
+                  <option value="3">3 hóspedes</option>
+                  <option value="4">4 hóspedes</option>
+                </select>
+              </div>
+            </div>
+            <button class="btn btn-gold" type="submit">Verificar disponibilidade</button>
+            <p class="booking-note"><strong>Garantimos a melhor tarifa através do nosso site.</strong> Você será direcionado ao canal oficial de reservas do hotel.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- O saguão -->
+    <section class="section welcome" aria-labelledby="welcome-title">
+      <div class="wrap welcome-grid">
+        <h2 id="welcome-title" class="reveal">Uma casa tradicional no centro, com o conforto que o tempo soube <em>aperfeiçoar</em></h2>
+        <div class="welcome-copy reveal">
+          <p>O Curitiba Palace Hotel une a arquitetura tradicional de uma casa clássica ao conforto e à elegância contemporâneos. Aqui, a hospitalidade é um hábito antigo, e cada hóspede é recebido como quem chega à própria casa.</p>
+          <p>Do café da manhã ao atendimento na recepção, tudo é pensado para que a estadia no centro de Curitiba seja simples, tranquila e bem cuidada.</p>
+          <div class="welcome-fact">
+            <span class="years">30+</span>
+            <span class="years-label">anos de tradição recebendo hóspedes no coração de Curitiba</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Os quartos -->
+    <section class="section quartos" id="quartos" aria-labelledby="quartos-title">
+      <div class="wrap quartos-grid">
+        <div class="quartos-media reveal">
+          <div class="frame main">
+            <img src="https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?auto=format&fit=crop&w=1400&q=80" alt="Quarto de hotel com cama grande, roupa de cama clara e iluminação suave" loading="lazy">
+          </div>
+          <div class="frame detail" aria-hidden="true">
+            <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=900&q=80" alt="" loading="lazy">
+          </div>
+        </div>
+        <div class="quartos-copy reveal">
+          <h2 id="quartos-title">Quartos para dormir bem no centro da cidade</h2>
+          <p>Depois de um dia em Curitiba, o quarto é onde a estadia realmente acontece. Ambientes confortáveis e silenciosos, com o cuidado de quem recebe há mais de três décadas.</p>
+          <ul class="quartos-points">
+            <li>Wi-Fi <span>em todos os ambientes</span></li>
+            <li>Serviço de quarto <span>para noites sem pressa</span></li>
+            <li>Recepção 24 horas <span>chegue a qualquer hora</span></li>
+          </ul>
+          <a class="btn btn-ghost-dark" href="https://www.curitibapalacehotel.com.br/" target="_blank" rel="noopener">Consultar tarifas e disponibilidade</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- O café da manhã -->
+    <section class="section cafe" id="cafe" aria-labelledby="cafe-title">
+      <div class="wrap cafe-grid">
+        <div class="cafe-copy reveal">
+          <h2 id="cafe-title">O dia em Curitiba começa à <em>mesa</em></h2>
+          <p>O café da manhã é parte da casa: o momento de organizar os planos antes de sair a pé pelo centro. Sentado à mesa, sem pressa, como em casa.</p>
+          <p class="cafe-hours"><strong>Restaurante no hotel.</strong> Café da manhã servido diariamente e room service para quem prefere o quarto.</p>
+        </div>
+        <figure class="cafe-media reveal">
+          <div class="frame main">
+            <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=1400&q=80" alt="Mesa de café da manhã servida com pães, frutas e café" loading="lazy">
+          </div>
+          <div class="frame detail" aria-hidden="true">
+            <img src="https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&w=900&q=80" alt="" loading="lazy">
+          </div>
+          <figcaption>A mesa do café da manhã, servida diariamente no restaurante do hotel.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Os serviços -->
+    <section class="section servicos" id="servicos" aria-labelledby="servicos-title">
+      <div class="wrap">
+        <h2 id="servicos-title" class="reveal">Tudo resolvido na <em>recepção</em></h2>
+        <p class="servicos-lead reveal">Os serviços de uma casa tradicional, organizados para que o hóspede não precise se preocupar com nada.</p>
+        <ul class="ledger reveal">
+          <li>
+            <h3>Recepção 24 horas</h3>
+            <p>Atendimento ágil a qualquer hora do dia ou da noite.</p>
+          </li>
+          <li>
+            <h3>Estacionamento com manobrista</h3>
+            <p>Chegue de carro e deixe o resto conosco.</p>
+          </li>
+          <li>
+            <h3>Café da manhã</h3>
+            <p>Servido diariamente no restaurante do hotel.</p>
+          </li>
+          <li>
+            <h3>Restaurante</h3>
+            <p>Refeições sem sair do hotel, no ritmo da sua viagem.</p>
+          </li>
+          <li>
+            <h3>Wi-Fi</h3>
+            <p>Conexão disponível para trabalho ou descanso.</p>
+          </li>
+          <li>
+            <h3>Serviço de quarto</h3>
+            <p>O conforto da casa, levado até você.</p>
+          </li>
+          <li>
+            <h3>Lavanderia</h3>
+            <p>Para estadias longas ou imprevistos de viagem.</p>
+          </li>
+          <li>
+            <h3>Reserva online</h3>
+            <p>Melhor tarifa garantida ao reservar direto pelo site.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- A localização -->
+    <section class="section local" id="localizacao" aria-labelledby="local-title">
+      <div class="wrap local-grid">
+        <div class="local-copy reveal">
+          <p class="local-address" id="local-title">Rua Desembargador Ermelino de Leão, <em>45</em>, Centro, Curitiba</p>
+          <p>No coração da cidade, com o centro de Curitiba ao alcance de uma caminhada. A base certa para quem vem a trabalho ou a passeio.</p>
+          <div class="local-contacts">
+            <a href="tel:+554133228081">+55 41 3322-8081</a>
+            <a href="https://www.curitibapalacehotel.com.br/contato" target="_blank" rel="noopener">Fale com o hotel</a>
+          </div>
+        </div>
+        <div class="frame local-media reveal">
+          <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=1400&q=80" alt="Rua de cidade arborizada ao entardecer, com prédios e calçadas" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- A reserva -->
+    <section class="section reserva" aria-labelledby="reserva-title">
+      <div class="wrap">
+        <h2 id="reserva-title" class="reveal">Sinta-se em <em>casa</em></h2>
+        <p class="reveal">Reserve direto pelo site oficial e tenha a melhor tarifa garantida, com atendimento ágil do time que conhece a casa melhor do que ninguém.</p>
+        <div class="reserva-actions reveal">
+          <a class="btn btn-gold" href="https://www.curitibapalacehotel.com.br/" target="_blank" rel="noopener">Reservar pelo site oficial</a>
+          <a class="btn btn-ghost-light" href="tel:+554133228081">Ligar +55 41 3322-8081</a>
+        </div>
+        <p class="reserva-promise reveal"><strong>Garantimos a melhor tarifa através do nosso site.</strong></p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <a class="wordmark" href="#top">Curitiba <em>Palace</em> Hotel</a>
+      <address>
+        Rua Desembargador Ermelino de Leão, 45, Centro, Curitiba/PR<br>
+        <a href="tel:+554133228081">+55 41 3322-8081</a>
+      </address>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

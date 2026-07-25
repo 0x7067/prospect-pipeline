@@ -1,0 +1,52 @@
+{
+  "build_id": "3458d7148da5bd138ff40b51174fed17b53345e35de5d7b8462a313406203791",
+  "detector": {
+    "expected_cli_version": "3.2.1",
+    "path": "/opt/data/bin/impeccable",
+    "resolved_path": "/opt/data/.local/share/mise/shims/impeccable",
+    "scans": [
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "raw"
+      },
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "design-aware"
+      }
+    ],
+    "sha256": "957f4c0682af817e1b23d8325b8023d3758b0c3e0bbbf8bb86453d6f91060176"
+  },
+  "findings": [],
+  "gate_exit_code": 0,
+  "generated_at": "2026-07-20T22:38:54.336897+00:00",
+  "impeccable_skill_commit": "44c27a72af98394c32691ba79358811bff86bde6",
+  "policy_sha256": "21936021ef4272afbb508483f0e0e5a5b7ec5a4613630f864e1c8bbffe684604",
+  "policy_version": "prospect-brand-style-gate-v2",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/curitiba-palace-hotel",
+  "release_manifest": {
+    "index.html": {
+      "sha256": "b5bf857ed085149feb22fd92e081c795e74211a171427b14f23587493fef2fa1",
+      "size": 12007
+    },
+    "proposal.html": {
+      "sha256": "15cad2ab4e09a4c36cba4a4c6b5e957aa98ac91d61afcf934dd1250f1f5e4342",
+      "size": 9567
+    },
+    "rationale.html": {
+      "sha256": "60a5828dfec5dc68a50f72349cbde6704dc66ab5ffa3317c8b4695c185e2f30f",
+      "size": 476
+    },
+    "script.js": {
+      "sha256": "3f0b391f589a2c0b3de4e20097dcd69e21879f168752874ae2ebe568e79e2f1e",
+      "size": 3330
+    },
+    "styles.css": {
+      "sha256": "76c96ee92ccd86d77eb760f74cfae956c7c9763baf3d4a18310b60e7e5807829",
+      "size": 20600
+    }
+  },
+  "schema": 3,
+  "status": "clean"
+}
