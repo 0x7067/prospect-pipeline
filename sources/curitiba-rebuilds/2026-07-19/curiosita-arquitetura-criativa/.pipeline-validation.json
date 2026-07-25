@@ -1,0 +1,231 @@
+{
+  "browser": {
+    "engine": "playwright chromium",
+    "error": null,
+    "required_matrix_complete": true,
+    "required_pages": [
+      "index.html",
+      "proposal.html",
+      "rationale.html"
+    ],
+    "required_viewports": {
+      "desktop": {
+        "height": 900,
+        "width": 1440
+      },
+      "mobile": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    "results": [
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:45481/index.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-desktop.png",
+        "screenshot_sha256": "40ad56b249afd100ea4fa14432fbfa71b75b58bb89af5e1fbfadc95176546d6a",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Curiosità Arquitetura Criativa — Arquitetura Escolar em Curitiba",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:45481/index.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-mobile.png",
+        "screenshot_sha256": "176ef8369fe30c1a173cd3a3cae376a7e7415aaa10560088e47c8caeefa2f246",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Curiosità Arquitetura Criativa — Arquitetura Escolar em Curitiba",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:45481/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-desktop.png",
+        "screenshot_sha256": "80a86329914f2df7961edcccbb993c5313dcca0bcb552f93d2bc240bda561d65",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta independente — Curiosità Arquitetura Criativa",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:45481/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-mobile.png",
+        "screenshot_sha256": "d4f8fa07adf11ca103238187176e9f58661a219296f4f9f54aa12100464e2f8e",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta independente — Curiosità Arquitetura Criativa",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:45481/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-desktop.png",
+        "screenshot_sha256": "80a86329914f2df7961edcccbb993c5313dcca0bcb552f93d2bc240bda561d65",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta independente — Curiosità Arquitetura Criativa",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:45481/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-mobile.png",
+        "screenshot_sha256": "d4f8fa07adf11ca103238187176e9f58661a219296f4f9f54aa12100464e2f8e",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta independente — Curiosità Arquitetura Criativa",
+        "viewport": "mobile",
+        "width": 390
+      }
+    ],
+    "status": "pass"
+  },
+  "build_id": "8827010c2db71b14ec52e5dbc09b18b558c3779f0d50f525777abd4909dc1d5f",
+  "detector": {
+    "command": "/opt/data/.venvs/curitiba/bin/python /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-19/curiosita-arquitetura-criativa",
+    "current_clean": true,
+    "current_findings": false,
+    "exit_code": 0,
+    "status": "clean",
+    "stderr": "",
+    "stdout": ""
+  },
+  "generated_at": "2026-07-20T22:23:55.275960+00:00",
+  "node_check": {
+    "command": "node --check script.js",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "preflight": {
+    "counts": {
+      "all-caps-body": 0,
+      "cramped-padding": 1,
+      "flat-type-hierarchy": 1,
+      "low-contrast-risk": 0,
+      "overused-font": 1
+    },
+    "findings": [
+      {
+        "antipattern": "cramped-padding",
+        "selector": ".hero-titleblock-meta",
+        "snippet": ".hero-titleblock-meta: visible boundary without explicit horizontal padding",
+        "suggestion": "Add explicit padding: e.g., padding: 4rem 2rem; or padding-inline: 2rem;"
+      },
+      {
+        "antipattern": "flat-type-hierarchy",
+        "selector": "styles.css",
+        "snippet": "Sizes: 10.6px, 10.9px, 11.2px, 12.5px, 12.8px, 13.1px, 13.6px, 15.2px (ratio 2.2:1)",
+        "suggestion": "Increase the spread between display and body type sizes; aim for at least 3:1."
+      },
+      {
+        "antipattern": "overused-font",
+        "selector": "index.html",
+        "snippet": "Google Fonts loads saturated font: inter",
+        "suggestion": "Choose a less common typeface or pair a system font with a deliberate display choice."
+      }
+    ],
+    "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/curiosita-arquitetura-criativa",
+    "schema": 1,
+    "status": "findings"
+  },
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/curiosita-arquitetura-criativa",
+  "release_manifest": {
+    "index.html": {
+      "sha256": "997607df30b5247c89118a2c90789f3ef9d1572e05b36289c6f39be6f3d197fd",
+      "size": 8693
+    },
+    "proposal.html": {
+      "sha256": "a15cbb50362308d8f59fb0901e501c7ee2df97eeb13a0a196233d22dee5c9da4",
+      "size": 7927
+    },
+    "rationale.html": {
+      "sha256": "0e08844b0872f631e40d518f2d1a4539d5d6bf103536b3cca4f8fdaaa6fd7098",
+      "size": 425
+    },
+    "script.js": {
+      "sha256": "a668604feeb2a6b53c96af4a394829c7989c5c969bffc463fff64b86c1fd3e37",
+      "size": 1020
+    },
+    "styles.css": {
+      "sha256": "ac853f66b5fd48d812466a2a9d97b5b34e471f2114ef01426d237d3ff5a8f8a1",
+      "size": 16501
+    }
+  },
+  "schema": 1,
+  "status": "pass"
+}

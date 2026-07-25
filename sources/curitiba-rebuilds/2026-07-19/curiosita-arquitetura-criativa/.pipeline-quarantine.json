@@ -1,0 +1,9 @@
+{
+  "at": "2026-07-19T16:51:05.681550+00:00",
+  "attempt": 3,
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/curiosita-arquitetura-criativa",
+  "reason": "retry budget exhausted at attempt 3",
+  "schema": 1,
+  "state": "quarantined",
+  "task_id": "task-f47a7bb562cf4301a2b8e16f95378a2a"
+}

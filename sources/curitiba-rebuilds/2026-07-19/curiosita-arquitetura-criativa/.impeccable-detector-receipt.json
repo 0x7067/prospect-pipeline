@@ -1,0 +1,52 @@
+{
+  "build_id": "8827010c2db71b14ec52e5dbc09b18b558c3779f0d50f525777abd4909dc1d5f",
+  "detector": {
+    "expected_cli_version": "3.2.1",
+    "path": "/opt/data/bin/impeccable",
+    "resolved_path": "/opt/data/.local/share/mise/shims/impeccable",
+    "scans": [
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "raw"
+      },
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "design-aware"
+      }
+    ],
+    "sha256": "957f4c0682af817e1b23d8325b8023d3758b0c3e0bbbf8bb86453d6f91060176"
+  },
+  "findings": [],
+  "gate_exit_code": 0,
+  "generated_at": "2026-07-20T22:23:44.277176+00:00",
+  "impeccable_skill_commit": "44c27a72af98394c32691ba79358811bff86bde6",
+  "policy_sha256": "21936021ef4272afbb508483f0e0e5a5b7ec5a4613630f864e1c8bbffe684604",
+  "policy_version": "prospect-brand-style-gate-v2",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/curiosita-arquitetura-criativa",
+  "release_manifest": {
+    "index.html": {
+      "sha256": "997607df30b5247c89118a2c90789f3ef9d1572e05b36289c6f39be6f3d197fd",
+      "size": 8693
+    },
+    "proposal.html": {
+      "sha256": "a15cbb50362308d8f59fb0901e501c7ee2df97eeb13a0a196233d22dee5c9da4",
+      "size": 7927
+    },
+    "rationale.html": {
+      "sha256": "0e08844b0872f631e40d518f2d1a4539d5d6bf103536b3cca4f8fdaaa6fd7098",
+      "size": 425
+    },
+    "script.js": {
+      "sha256": "a668604feeb2a6b53c96af4a394829c7989c5c969bffc463fff64b86c1fd3e37",
+      "size": 1020
+    },
+    "styles.css": {
+      "sha256": "ac853f66b5fd48d812466a2a9d97b5b34e471f2114ef01426d237d3ff5a8f8a1",
+      "size": 16501
+    }
+  },
+  "schema": 3,
+  "status": "clean"
+}

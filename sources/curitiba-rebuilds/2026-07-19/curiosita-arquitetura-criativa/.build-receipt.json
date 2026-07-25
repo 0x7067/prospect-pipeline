@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "status": "failed",
+  "build_id": "4ef4e592c88e3646f3b390d50f02a4b11ca2d9bfad2e9826d7fad0614c292f87",
+  "deliverable_tier": "early_visual_direction",
+  "validation_command": "/opt/data/.venvs/curitiba/bin/python /opt/data/scripts/validate_curitiba_site.py /opt/data/projects/curitiba-rebuilds/2026-07-19/curiosita-arquitetura-criativa",
+  "validation": {
+    "node_exit": 0,
+    "browser_pass": true,
+    "detector_exit": 2,
+    "detector_status": "findings"
+  },
+  "blocking_findings": [
+    "cramped-padding warnings on caminhos, principio, conversa, conversa-inner, proposta-hero, and proposta-bloco",
+    "tight-leading warning reporting a computed 1.22 line-height",
+    "tiny-text warning reporting 11.52px body text in the proposal"
+  ],
+  "summary": "The static early visual direction and all required files were implemented. Node syntax and the complete desktop/mobile browser matrix pass. The second and final permitted detector run still reports blocking advisory findings after one consolidated repair pass, so this build is not promoted or represented as ready for publication."
+}

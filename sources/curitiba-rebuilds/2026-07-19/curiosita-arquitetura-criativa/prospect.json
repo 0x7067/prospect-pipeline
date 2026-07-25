@@ -1,0 +1,98 @@
+{
+  "business_name": "Curiosità Arquitetura Criativa",
+  "official_url": "https://curiosita.com.br/",
+  "run_date": "2026-07-19",
+  "slug": "curiosita-arquitetura-criativa",
+  "category": "B2B architecture / educational environments",
+  "problems": [
+    "The official home page displays both project and experience counters as literal '0 +' even while claiming more than 17 years of experience, creating a visible credibility and quality-control failure for a trust-led professional service.",
+    "The homepage has weak conversion specificity: service descriptions, project themes, editorial posts, and a generic contact block are presented without a clear project-intake path for school leaders seeking a meeting, feasibility study, retrofit, or accessibility assessment.",
+    "The site repeats the same broad architecture-school promise across sections while the strongest differentiators—school specialization, environmental management, accessibility, retrofit, and feasibility consulting—are not organized into a concise decision path.",
+    "The current page leaves the portfolio proof surface underdeveloped: it lists 'Projetos Destaque' themes but does not expose clearly labeled case-study outcomes or a visible sequence from school challenge to delivered intervention."
+  ],
+  "rebuild_angle": "Build a focused B2B school-environment consultancy site around the decision journey of an education operator: diagnose the school challenge, show the relevant intervention lane, surface evidence and technical credibility, then convert to a scheduled meeting or budget request.",
+  "opportunity_score": 8.0,
+  "active_evidence": "On 2026-07-19, https://curiosita.com.br/ loaded as the official Curiosità Arquitetura Criativa site and described Curitiba-based architecture-school services including interiors and ambience, school specialization, facade retrofit, accessibility adaptation, project audits, feasibility studies, risk assessments, and environmental management. The official contact page listed +55 (41) 3346-1057, contato@curiosita.com.br, and Av. Brasília, 6131, sala 07, Capão Raso, Curitiba. OpenStreetMap/Nominatim matched the published street address to Curitiba.",
+  "evidence_links": [
+    "https://curiosita.com.br/ (official page observation: 2026-07-19)",
+    "https://curiosita.com.br/contato/ (official contact page observation: 2026-07-19)",
+    "https://www.openstreetmap.org/?mlat=-25.4945501&mlon=-49.2835494#map=19/-25.4945501/-49.2835494"
+  ],
+  "preserved_strengths": [
+    "The specialized school-architecture positioning rather than generic architecture.",
+    "The combination of pedagogy, functionality, inclusion, sustainability, and technical feasibility.",
+    "The founder attribution to architect Bruno Ronchi.",
+    "The service vocabulary around interiors, retrofit, accessibility, audits, and viability studies.",
+    "The Curitiba office location and direct meeting/budget contact intent.",
+    "The restrained professional category cues, without copying the current layout, text, or imagery."
+  ],
+  "brand_source": {
+    "logo_sources": [
+      "https://curiosita.com.br/ (official header/identity observation, 2026-07-19)"
+    ],
+    "colors": [
+      "The official site presents a light architectural portfolio field with restrained dark text and muted accent treatment; sample exact colors from original captures before implementation."
+    ],
+    "typography": [
+      "The official page uses a conventional readable web presentation; no prospect-specific typeface is asserted in the collected evidence."
+    ],
+    "personality_words": [
+      "inspiradores",
+      "inclusivos",
+      "sustentável",
+      "técnica",
+      "funcionalidade",
+      "confiança"
+    ],
+    "strongest_public_language": [
+      "Arquitetura Escolar",
+      "Especialista em escolas",
+      "Experiência + Técnica = Confiança!",
+      "O projeto de uma escola deve ser pensado além da estética."
+    ],
+    "services": [
+      "Projeto de interiores e ambientação",
+      "Arquitetura escolar",
+      "Retrofit de fachadas",
+      "Adequação de acessibilidade",
+      "Auditoria de projetos",
+      "Estudos de viabilidade técnica",
+      "Avaliações de risco",
+      "Gestão ambiental"
+    ],
+    "locations": [
+      "Av. Brasília, 6131, sala 07, Capão Raso, Curitiba-PR"
+    ],
+    "contacts": [
+      "+55 (41) 3346-1057",
+      "contato@curiosita.com.br"
+    ],
+    "visual_assets": [
+      "Official project imagery and portfolio sections visible on https://curiosita.com.br/",
+      "Official architectural service presentation visible on https://curiosita.com.br/",
+      "Official founder attribution visible on https://curiosita.com.br/",
+      "Official contact/brand presentation visible on https://curiosita.com.br/contato/"
+    ],
+    "original_screenshots": {
+      "desktop": "https://curiosita.com.br/ (original desktop inspection, 2026-07-19)",
+      "mobile": "https://curiosita.com.br/ (original mobile inspection, 2026-07-19)"
+    },
+    "equity_to_preserve": [
+      "School-specific expertise",
+      "Technical and pedagogical lens",
+      "Accessibility and sustainability cues",
+      "Founder-led credibility",
+      "Direct meeting and budget path",
+      "Curitiba presence"
+    ],
+    "weaknesses_not_to_copy": [
+      "Literal zero counters",
+      "Generic contact conversion",
+      "Repeated broad positioning",
+      "Portfolio themes without case-study proof",
+      "Unstructured long-scroll hierarchy"
+    ]
+  },
+  "concept_thesis": "Make the school itself the interface: a calm, evidence-led journey that lets education leaders move from a learning-space problem to the right architectural intervention and a practical first conversation.",
+  "deliverable_tier": "early_visual_direction"
+}

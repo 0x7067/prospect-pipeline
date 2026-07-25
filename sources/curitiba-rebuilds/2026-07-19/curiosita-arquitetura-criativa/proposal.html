@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proposta independente — Curiosità Arquitetura Criativa</title>
+<meta name="description" content="Proposta independente e não afiliada: conceito de redesign do site da Curiosità Arquitetura Criativa, baseado em evidências públicas observadas em 19/07/2026.">
+<link rel="stylesheet" href="styles.css">
+<style>
+  /* Ajustes de voz para o documento de proposta (mantém o sistema visual) */
+  .proposta-hero {
+    background: var(--green-deep);
+    color: var(--white);
+    padding: 3rem 2rem;
+  }
+  .proposta-hero-inner { max-width: 76rem; margin: 0 auto; }
+  .proposta-selo {
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: var(--green-deep);
+    background: var(--lime);
+    border-radius: 999px;
+    padding: 0.45rem 1.1rem;
+    margin-bottom: 1.6rem;
+  }
+  .proposta-hero h1 { font-size: clamp(2rem, 4.4vw, 3.6rem); max-width: 22ch; color: var(--white); }
+  .proposta-hero .proposta-lede { margin-top: 1.4rem; max-width: var(--measure); color: var(--white); font-size: 1.1rem; }
+  .proposta-bloco { padding: 3rem 2rem; }
+  .proposta-bloco-inner { max-width: 76rem; margin: 0 auto; }
+  .proposta-bloco h2 { font-size: clamp(1.7rem, 3.2vw, 2.6rem); max-width: 26ch; margin-bottom: 1.4rem; }
+  .proposta-bloco p { max-width: var(--measure); color: var(--ink-soft); text-wrap: pretty; }
+  .proposta-bloco p + p { margin-top: 1rem; }
+  .proposta-bloco-alt { background: var(--paper-2); border-block: 1px solid var(--line); }
+  .achados { list-style: none; margin: 1.8rem 0 0; padding: 0; max-width: 62rem; }
+  .achados li {
+    border-top: 1px solid var(--line);
+    padding: 1.2rem 0;
+    display: grid;
+    grid-template-columns: minmax(0, 3fr) minmax(0, 7fr);
+    gap: 1.5rem;
+  }
+  .achados strong { font-family: var(--font-display); font-weight: 500; font-size: 1.1rem; color: var(--ink); }
+  .achados span { color: var(--ink-soft); }
+  .proposta-links { margin-top: 2rem; display: flex; flex-wrap: wrap; gap: 0.85rem; }
+  .proposta-fonte { font-size: 0.9rem; color: var(--ink-soft); margin-top: 2.4rem; }
+  .proposta-fonte a { color: var(--green); }
+  @media (max-width: 46rem) {
+    .achados li { grid-template-columns: 1fr; gap: 0.4rem; }
+  }
+
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <a class="wordmark" href="index.html" aria-label="Ver conceito de redesign">
+    <span class="wordmark-name">Curiosità</span>
+    <span class="wordmark-sub">Arquitetura Criativa</span>
+  </a>
+  <nav class="site-nav" aria-label="Navegação da proposta">
+    <a href="index.html">Ver o conceito</a>
+    <a class="nav-cta" href="index.html#conversa">Contato do escritório</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="proposta-hero">
+    <div class="proposta-hero-inner">
+      <p class="proposta-selo">Proposta independente · não afiliada</p>
+      <h1>Uma direção visual para o site da Curiosità Arquitetura Criativa</h1>
+      <p class="proposta-lede">Este documento apresenta um conceito de redesign produzido de forma independente, sem vínculo com o escritório, a partir exclusivamente de evidências públicas observadas no site oficial em 19 de julho de 2026. É uma direção visual inicial, não um produto final pronto para publicação.</p>
+    </div>
+  </section>
+
+  <section class="proposta-bloco">
+    <div class="proposta-bloco-inner">
+      <h2>O que a evidência pública mostra hoje</h2>
+      <p>Observações feitas sobre o site oficial em 19/07/2026, sem acesso interno nem contato com o escritório:</p>
+      <ul class="achados">
+        <li><strong>Contadores em “0 +”</strong><span>A página inicial exibe contadores de projetos e de experiência como o literal “0 +”, mesmo afirmando mais de 17 anos de atuação. É uma falha visível de credibilidade e de controle de qualidade para um serviço profissional baseado em confiança.</span></li>
+        <li><strong>Conversão pouco específica</strong><span>Descrições de serviços, temas de projetos, posts editoriais e um bloco genérico de contato convivem sem um caminho claro de entrada para o gestor escolar que busca reunião, estudo de viabilidade, retrofit ou avaliação de acessibilidade.</span></li>
+        <li><strong>Posicionamento repetido</strong><span>A mesma promessa ampla de arquitetura escolar se repete entre seções. Enquanto isso, os diferenciais mais fortes, como especialização em escolas, gestão ambiental, acessibilidade, retrofit e consultoria de viabilidade, não estão organizados em um trajeto de decisão conciso.</span></li>
+        <li><strong>Prova de portfólio subdesenvolvida</strong><span>A página lista temas de “Projetos Destaque”, mas não expõe estudos de caso com resultados identificáveis nem uma sequência visível do desafio da escola à intervenção entregue.</span></li>
+      </ul>
+      <p class="proposta-fonte">Fontes: <a href="https://curiosita.com.br/">curiosita.com.br</a> e <a href="https://curiosita.com.br/contato/">curiosita.com.br/contato</a> (observação de 19/07/2026); endereço confirmado via OpenStreetMap/Nominatim.</p>
+    </div>
+  </section>
+
+  <section class="proposta-bloco proposta-bloco-alt">
+    <div class="proposta-bloco-inner">
+      <h2>A resposta deste conceito: a escola como interface</h2>
+      <p>O conceito organiza a página como uma leitura de planta: uma linha de projeto desce pela tela ligando estações de decisão. O gestor escolar entra com a pergunta da sua escola. “Os espaços não acompanham o ensino”, “a fachada envelheceu”, “precisamos de acessibilidade” e “antes de investir, é viável?” abrem caminhos técnicos correspondentes: interiores e ambientação, retrofit de fachadas, adequação de acessibilidade, viabilidade, auditoria e risco, gestão ambiental.</p>
+      <p>A jornada termina onde deveria começar a relação comercial: uma conversa prática sobre reunião, estudo de viabilidade ou orçamento, com telefone, e-mail e endereço do escritório no Capão Raso, em Curitiba.</p>
+      <p>A equidade da marca é preservada: a especialização em escolas, a combinação de pedagogia, funcionalidade, inclusão, sustentabilidade e viabilidade técnica, a autoria do arquiteto Bruno Ronchi e a linguagem pública mais forte do escritório: “O projeto de uma escola deve ser pensado além da estética” e “Experiência + Técnica = Confiança”.</p>
+      <p>O que não foi copiado, por decisão: os contadores zerados, o bloco genérico de contato, a repetição do posicionamento amplo, os temas de portfólio sem prova e a hierarquia de rolagem longa e não estruturada.</p>
+      <div class="proposta-links">
+        <a class="btn btn-primary" href="index.html">Ver o conceito navegável</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="proposta-bloco">
+    <div class="proposta-bloco-inner">
+      <h2>Limites desta entrega</h2>
+      <p>Esta é uma <strong>direção visual inicial</strong> (early visual direction). Não está marcada como completa para produção nem pronta para publicação. Para se tornar um site real, precisaria de validação do escritório, imagens e estudos de caso reais dos projetos da Curiosità, revisão de textos pelo próprio escritório e eventual registro das marcações legais do profissional. As fotografias atuais são de banco de imagens, com tratamento visual documentado.</p>
+      <p>Nenhuma métrica, depoimento, projeto ou resultado foi inventado. Todas as afirmações específicas sobre o negócio derivam das fontes públicas citadas acima.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Documento independente de proposta · sem afiliação com a Curiosità Arquitetura Criativa</p>
+  <p>Evidências públicas observadas em 19/07/2026</p>
+</footer>
+
+</body>
+</html>
