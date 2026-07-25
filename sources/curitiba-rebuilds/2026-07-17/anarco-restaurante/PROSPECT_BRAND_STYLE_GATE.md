@@ -54,17 +54,19 @@ Score each dimension from 1–5.
 | Dimension | Required |
 |---|---:|
 | Brand fidelity | ≥ 4 |
-| Distinctiveness | ≥ 4 |
-| Hero impact | ≥ 4 |
-| Below-fold art direction | ≥ 4 |
+| Distinctiveness | ≥ 4.5 |
+| Hero impact | ≥ 4.5 |
+| Below-fold art direction | ≥ 4.5 |
 | Typography | ≥ 4 |
 | Image quality/treatment | ≥ 4 |
-| Mobile intentionality | ≥ 4 |
-| Credibility/proof | ≥ 3 |
+| Mobile intentionality | ≥ 4.5 |
+| Credibility/proof | ≥ 3.5 |
 | Conversion clarity | ≥ 4 |
-| Proposal persuasiveness | ≥ 4 |
+| Proposal persuasiveness | ≥ 4.5 |
 
-**Pass conditions:** average ≥ 4.0; no dimension below 3; brand fidelity, distinctiveness, hero, below-fold, mobile, and proposal must each meet their threshold. A technical pass cannot override a visual fail.
+**Raised-bar pass conditions:** average ≥ 4.2; no dimension below 3.5; distinctiveness, hero, below-fold, mobile, and proposal must each meet 4.5. A technical pass cannot override a visual fail.
+
+A build fails the style gate if it relies on a familiar SaaS/agency/restaurant template, uses a hero-plus-card-grid default without a prospect-specific compositional thesis, has fewer than three distinct art-directed moments, repeats the same card treatment more than four times without hierarchy, or cannot pass the logo-removal and competitor-swap tests. Scores must include written evidence for every dimension; rounded scores without observations are invalid.
 
 ## 5. Art-direction checklist
 

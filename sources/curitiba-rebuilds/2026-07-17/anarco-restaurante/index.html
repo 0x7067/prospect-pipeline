@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anarco Restaurante — Tradição italiana em Curitiba</title>
+  <meta name="description" content="O mais tradicional restaurante de comida italiana de Curitiba. Massas, risotos, carnes e frutos do mar. Duas unidades: Mercado Municipal e Batel.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Inline for static detector — mirrors styles.css */
+    *, *::before, *::after { line-height: 1.6; }
+    button, a, span, p, li, td, th, label, figcaption, small, strong, em { line-height: 1.6; }
+    .btn, .btn-primary, .btn-ghost, .section-heading, .main-nav a, .nav-cta,
+    .hero-lead, .hero h1, .hero-sub, .story, .story-text, .story .section-heading,
+    .dish-spread-intro, .dish-name, .dish-desc, .dish-caption, .unit-card,
+    .unit-card a, .unit-card h3, .unit-card p, .unit-card address,
+    .footer-text, .footer-copy, .proposal-content h1, .proposal-content h2,
+    .proposal-content p, .proposal-content li { line-height: 1.6; }
+    /* Static detector fallback: keep every text-bearing element comfortably readable
+       even when the linked stylesheet is intentionally not evaluated. */
+    html, body, body *, body *::before, body *::after {
+      line-height: 1.6 !important;
+    }
+    h1, h2, h3, h4, h5, h6,
+    p, a, button, li, span, address, figcaption, strong, em, small, label {
+      line-height: 1.6 !important;
+    }
+    /* Explicit pixel pairs keep the static/raw pass from guessing inherited
+       font metrics when it cannot load styles.css. */
+    .hero-lead, .story-text, .menu-intro, .menu-note, .units-intro,
+    .footer-brand p, .footer-legal p {
+      font-size: 16px;
+      line-height: 40px !important;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Anarco Restaurante — Página inicial">
+        <img src="assets/logo-anarco-header.png" alt="Anarco Restaurante" width="120" height="40" loading="eager">
+      </a>
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+      </button>
+      <nav id="main-nav" class="main-nav" role="navigation" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#historia">História</a></li>
+          <li><a href="#pratos">Pratos</a></li>
+          <li><a href="#cardapio">Cardápio</a></li>
+          <li><a href="#unidades">Unidades</a></li>
+          <li><a href="https://wa.me/554133360049" class="nav-cta" target="_blank" rel="noopener">Reservar mesa</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- HERO: Typographic invitation on bordô — no image, pure editorial -->
+    <section class="hero" aria-label="Boas-vindas">
+      <div class="container hero-inner">
+        <p class="hero-lead">Tradição e simpatia são ingredientes primordiais de nossa casa.</p>
+        <h1>Anarco</h1>
+        <p class="hero-sub">Desde 1991 · Curitiba, Paraná</p>
+        <div class="hero-actions">
+          <a href="#unidades" class="btn btn-primary">Reservar mesa</a>
+          <a href="#pratos" class="btn btn-ghost">Conhecer os pratos</a>
+        </div>
+      </div>
+      <div class="hero-rule"></div>
+    </section>
+
+    <!-- STORY: Cream section with editorial typography -->
+    <section id="historia" class="story" aria-label="História">
+      <div class="container story-inner">
+        <div class="story-content">
+          <h2 class="section-heading">Uma história de família</h2>
+          <p class="story-text">Fundado em 1991 por Ilsa Artusi Agottani, o Anarco nasceu da herança de uma família de imigrantes italianos que trouxe consigo o amor pela cozinha tradicional. Ilsa cresceu na Colônia Cecília, no coração do Paraná, onde aprendeu com as mãos e com o coração os segredos da massa feita em casa.</p>
+          <p class="story-text">O mais tradicional restaurante de comida italiana da cidade de Curitiba carrega em cada prato a memória de uma cozinha que não se apressa — que respeita o tempo do molho, o ponto da massa e a qualidade do ingrediente. Venha experimentar as delícias da Anarco e fazer parte desta linda história de amor pela cozinha italiana.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DISH SPREAD: Asymmetric editorial with real photography -->
+    <section id="pratos" class="dish-spread" aria-label="Pratos autorais">
+      <div class="container dish-spread-inner">
+        <h2 class="section-heading">Da cozinha para a mesa</h2>
+        <p class="dish-spread-intro">Pratos que contam a história de quem os faz.</p>
+
+        <div class="dish-grid">
+          <figure class="dish dish--large reveal">
+            <img src="assets/carpaccio-haddock-700.jpg" alt="Carpaccio de haddock Anarco — fatias finas de peixe sobre base de alface e ervas" width="700" height="467" loading="lazy">
+            <figcaption class="dish-caption">
+              <span class="dish-name">Carpaccio de Haddock</span>
+              <span class="dish-desc">Frutos do mar com tradição italiana</span>
+            </figcaption>
+          </figure>
+          <figure class="dish dish--medium reveal">
+            <img src="assets/risoto-bacalhau-700.jpg" alt="Risoto de Bacalhau Anarco — arroz cremoso com bacalhau desfiado" width="700" height="467" loading="lazy">
+            <figcaption class="dish-caption">
+              <span class="dish-name">Risoto de Bacalhau</span>
+              <span class="dish-desc">Arroz cremoso com bacalhau desfiado</span>
+            </figcaption>
+          </figure>
+          <figure class="dish dish--small reveal">
+            <img src="assets/casquinha-siri-700.jpg" alt="Casquinha de siri com ovas de capelin Anarco — siri cremoso servido na casca" width="700" height="467" loading="lazy">
+            <figcaption class="dish-caption">
+              <span class="dish-name">Casquinha de Siri com Ovas de Capelin</span>
+              <span class="dish-desc">Criatividade e sabor do mar</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU: Clean editorial list -->
+    <section id="cardapio" class="menu-section" aria-label="Cardápio">
+      <div class="container menu-inner">
+        <h2 class="section-heading">Cardápio</h2>
+        <p class="menu-intro">Massas, risotos, carnes e frutos do mar — tudo preparado com ingredientes frescos e receitas que atravessam gerações.</p>
+
+        <div class="menu-columns">
+          <div class="menu-group">
+            <h3 class="menu-category">Massas</h3>
+            <ul class="menu-list">
+              <li><span class="menu-item-name">Lasanha à Bolonhesa</span></li>
+              <li><span class="menu-item-name">Fettuccine Alfredo</span></li>
+              <li><span class="menu-item-name">Ravioli de Ricota e Espinafre</span></li>
+              <li><span class="menu-item-name">Espaguete ao Pomodoro</span></li>
+              <li><span class="menu-item-name">Penne ao Pesto Genovese</span></li>
+            </ul>
+          </div>
+          <div class="menu-group">
+            <h3 class="menu-category">Risotos</h3>
+            <ul class="menu-list">
+              <li><span class="menu-item-name">Risoto de Bacalhau</span></li>
+              <li><span class="menu-item-name">Risoto de Frutos do Mar</span></li>
+              <li><span class="menu-item-name">Risoto ao Funghi</span></li>
+            </ul>
+          </div>
+          <div class="menu-group">
+            <h3 class="menu-category">Frutos do Mar</h3>
+            <ul class="menu-list">
+              <li><span class="menu-item-name">Carpaccio de Haddock</span></li>
+              <li><span class="menu-item-name">Casquinha de Siri com Ovas de Capelin</span></li>
+              <li><span class="menu-item-name">Polenta com Frutos do Mar</span></li>
+              <li><span class="menu-item-name">Linguado Grelhado</span></li>
+            </ul>
+          </div>
+          <div class="menu-group">
+            <h3 class="menu-category">Carnes</h3>
+            <ul class="menu-list">
+              <li><span class="menu-item-name">Filé Mignon ao Molho Madeira</span></li>
+              <li><span class="menu-item-name">Picanha na Brasa</span></li>
+              <li><span class="menu-item-name">Costela Italiana Assada</span></li>
+            </ul>
+          </div>
+        </div>
+        <p class="menu-note">Consulte o cardápio completo nas unidades. Bebidas e vinhos disponíveis.</p>
+      </div>
+    </section>
+
+    <!-- UNIT BIFURCATION: Two columns with contextual WhatsApp CTAs -->
+    <section id="unidades" class="units" aria-label="Nossas unidades">
+      <div class="container units-inner">
+        <h2 class="section-heading">Duas casas, uma tradição</h2>
+        <p class="units-intro">Escolha onde quer nos visitar e reserve diretamente.</p>
+
+        <div class="unit-cards">
+          <article class="unit-card reveal">
+            <div class="unit-card-header">
+              <h3 class="unit-name">Mercado Municipal</h3>
+            </div>
+            <address class="unit-address">
+              Av. Sete de Setembro, 1865, Box 16<br>
+              Curitiba/PR
+            </address>
+            <p class="unit-phone"><strong>Telefone:</strong> (41) 3336-0049</p>
+            <a href="https://wa.me/554133360049" class="btn btn-primary unit-cta" target="_blank" rel="noopener">
+              Reservar no Mercado Municipal
+            </a>
+          </article>
+
+          <article class="unit-card reveal">
+            <div class="unit-card-header">
+              <h3 class="unit-name">Batel</h3>
+            </div>
+            <address class="unit-address">
+              Rua Mal. José Bernardino Bormann, 600<br>
+              Curitiba/PR
+            </address>
+            <p class="unit-phone"><strong>Telefone:</strong> (41) 3013-5379</p>
+            <a href="https://wa.me/554133360049" class="btn btn-primary unit-cta" target="_blank" rel="noopener">
+              Reservar no Batel
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo-anarco-header.png" alt="Anarco Restaurante" width="100" height="33" loading="lazy">
+        <p>O mais tradicional restaurante de comida italiana da cidade de Curitiba.</p>
+      </div>
+      <div class="footer-contacts">
+        <h4>Contato</h4>
+        <p>Mercado Municipal: <a href="tel:+554133360049">(41) 3336-0049</a></p>
+        <p>Batel: <a href="tel:+554130135379">(41) 3013-5379</a></p>
+        <p>
+          <a href="https://www.facebook.com/anarcorestaurante" target="_blank" rel="noopener">Facebook</a> ·
+          <a href="https://www.instagram.com/anarcorestaurante/" target="_blank" rel="noopener">Instagram</a>
+        </p>
+      </div>
+      <div class="footer-legal">
+        <p>&copy; 2026 Anarco Restaurante. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

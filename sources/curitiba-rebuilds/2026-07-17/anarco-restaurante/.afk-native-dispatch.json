@@ -1,0 +1,10 @@
+{
+  "afk_queue_id": "q-1784503374873-7c63a2",
+  "agent": "afk",
+  "business_name": "Anarco Restaurante",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-17/anarco-restaurante",
+  "queued_at": "2026-07-19T23:22:54.881785+00:00",
+  "schema": 2,
+  "status": "queued",
+  "task_id": "task-a7df16d3d7124838be2c55f781409e38"
+}

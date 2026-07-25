@@ -22,9 +22,11 @@ Flat by default. Use elevation only to communicate interaction or hierarchy; avo
 
 Define one recognizable composition, one brand-connected typographic idea, one image-treatment rule, one deliberate color evolution, one verified emotional promise, and one conversion path.
 
-## Components
+## Quality bar
 
-Use semantic HTML, visible focus, touch-sized controls, inert demo actions, and a separate proposal page. Establish information hierarchy before decoration.
+Raise the visual bar above category convention. The build must have a prospect-specific compositional thesis, three distinct art-directed moments, a deliberate typographic pairing, an image-treatment rule, and a mobile-native rhythm. Reject hero-plus-card-grid defaults, repeated generic cards, decorative gradients, glassmorphism, and familiar SaaS/agency templates unless evidence and concept require them. Every major section must earn its space through brand, proof, or conversion value.
+
+## Components
 
 ## Do's and Don'ts
 

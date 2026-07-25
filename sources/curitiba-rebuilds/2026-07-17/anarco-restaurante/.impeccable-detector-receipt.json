@@ -1,0 +1,104 @@
+{
+  "build_id": "69b16c0b276ae3276dab4f44ecef7a8c7b807e779ffea191d9a9d634803d6c9d",
+  "detector": {
+    "expected_cli_version": "3.2.1",
+    "path": "/opt/data/bin/impeccable",
+    "resolved_path": "/opt/data/.local/share/mise/shims/impeccable",
+    "scans": [
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "raw"
+      },
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "design-aware"
+      }
+    ],
+    "sha256": "957f4c0682af817e1b23d8325b8023d3758b0c3e0bbbf8bb86453d6f91060176"
+  },
+  "findings": [],
+  "gate_exit_code": 0,
+  "generated_at": "2026-07-25T20:01:39.527959+00:00",
+  "impeccable_skill_commit": "44c27a72af98394c32691ba79358811bff86bde6",
+  "policy_sha256": "21936021ef4272afbb508483f0e0e5a5b7ec5a4613630f864e1c8bbffe684604",
+  "policy_version": "prospect-brand-style-gate-v2",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-17/anarco-restaurante",
+  "release_manifest": {
+    "assets/_source/carpaccio.jpg": {
+      "sha256": "3d861f7c453f0f8a09a038d8f52165c5a643240473a5d30ba54922f8e5c767cc",
+      "size": 526727
+    },
+    "assets/_source/casquinha.jpg": {
+      "sha256": "d07a63428dc5f254632b225ece95ee0ca1e0a6dcbc64d0d18002bbf4fb8c691b",
+      "size": 399052
+    },
+    "assets/_source/hero-menu.png": {
+      "sha256": "0193a9f19c3e24939000557fe9fecdfa01084979afba9d7a65c7ab939e2f2d6c",
+      "size": 581554
+    },
+    "assets/_source/logo.png": {
+      "sha256": "a2acf132a19231aa355be7d857167cc9c826d9dc99f585f9f94e26022c06fe0e",
+      "size": 102992
+    },
+    "assets/_source/risoto.jpg": {
+      "sha256": "158143719287b10f3e3deb9e0430c5f50f74b7ce6fa21edeea33a405b87f9db0",
+      "size": 412212
+    },
+    "assets/carpaccio-haddock-700.jpg": {
+      "sha256": "75ff9e31c3b7fd018634adfa4f54952cf6bad2e98254efd3639945bcd235ab82",
+      "size": 90106
+    },
+    "assets/carpaccio-haddock.jpg": {
+      "sha256": "c49cd0b805cf2817c70029ba19ef9aafd472721ccbafa600bc87415e59cd5671",
+      "size": 227017
+    },
+    "assets/casquinha-siri-700.jpg": {
+      "sha256": "010b7e94d74b4204bd4a3bfe1d20277216feec26c16686f6d61549c41be4acae",
+      "size": 56798
+    },
+    "assets/casquinha-siri.jpg": {
+      "sha256": "d66582dc52ea9709f86b9fb130abdd272194a0671e0d54915ecca50436156078",
+      "size": 138940
+    },
+    "assets/logo-anarco-header.png": {
+      "sha256": "c7095ff51467a2f24c6d4581728c1c22d7c1341eb07ca4411382ec0a5a199ea1",
+      "size": 46238
+    },
+    "assets/logo-anarco.png": {
+      "sha256": "6d1a76e81e439ac8ddae66c8f95f64806c8353439b17f5d49ac5c8e9c4bb28f7",
+      "size": 89660
+    },
+    "assets/risoto-bacalhau-700.jpg": {
+      "sha256": "eb6b64907555ab3ac3015bab45cbfef94066b61b197ae84a7c02fb461cae7447",
+      "size": 60508
+    },
+    "assets/risoto-bacalhau.jpg": {
+      "sha256": "8c973af136aef97e0cdb6d56d5de873ca0d63dc996f80298930dffc2be4501d2",
+      "size": 154012
+    },
+    "index.html": {
+      "sha256": "cd320651efba124bcd30b1765933266eda6c878edcc42f6a3a96d3859c0ef1e1",
+      "size": 11722
+    },
+    "proposal.html": {
+      "sha256": "73b8cee7449aa5189c3f6df43db5028b706d94825c4b04a40c2c83ed41ab6c87",
+      "size": 5786
+    },
+    "rationale.html": {
+      "sha256": "5825bfe64f13b50123f30309376153d175a9e3030388c2617b6dccacc159a66e",
+      "size": 468
+    },
+    "script.js": {
+      "sha256": "23e32a61ec22e0c1d4cc07e87d6a7a56ad98f976ba7462eb96a88535659013b9",
+      "size": 1782
+    },
+    "styles.css": {
+      "sha256": "0513c56fefcbf7cb53469c9a5a7b7ebe6d0db551d602efe1960ec3ef0b34f8e5",
+      "size": 14419
+    }
+  },
+  "schema": 3,
+  "status": "clean"
+}

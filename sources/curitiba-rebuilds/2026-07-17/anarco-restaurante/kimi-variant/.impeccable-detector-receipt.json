@@ -1,0 +1,127 @@
+{
+  "build_id": "a2227d04cba7d467336aff8cb5bea1ba18cfcf7f87265b876a17dc905adb35f8",
+  "detector": {
+    "expected_cli_version": "3.2.1",
+    "path": "/opt/data/bin/impeccable",
+    "resolved_path": "/opt/data/.local/share/mise/shims/impeccable",
+    "scans": [
+      {
+        "exit_code": 2,
+        "findings": [
+          {
+            "antipattern": "tight-leading",
+            "description": "Line height below 1.3x the font size makes multi-line text hard to read. Use 1.5 to 1.7 for body text so lines have room to breathe.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/anarco-restaurante/kimi-variant/index.html",
+            "line": 0,
+            "name": "Tight line height",
+            "severity": "warning",
+            "snippet": "line-height 1.28x (need >=1.3)"
+          }
+        ],
+        "mode": "raw"
+      },
+      {
+        "exit_code": 2,
+        "findings": [
+          {
+            "antipattern": "tight-leading",
+            "description": "Line height below 1.3x the font size makes multi-line text hard to read. Use 1.5 to 1.7 for body text so lines have room to breathe.",
+            "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/anarco-restaurante/kimi-variant/index.html",
+            "line": 0,
+            "name": "Tight line height",
+            "severity": "warning",
+            "snippet": "line-height 1.28x (need >=1.3)"
+          }
+        ],
+        "mode": "design-aware"
+      }
+    ],
+    "sha256": "957f4c0682af817e1b23d8325b8023d3758b0c3e0bbbf8bb86453d6f91060176"
+  },
+  "findings": [
+    {
+      "antipattern": "tight-leading",
+      "description": "Line height below 1.3x the font size makes multi-line text hard to read. Use 1.5 to 1.7 for body text so lines have room to breathe.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/anarco-restaurante/kimi-variant/index.html",
+      "line": 0,
+      "name": "Tight line height",
+      "severity": "warning",
+      "snippet": "line-height 1.28x (need >=1.3)"
+    },
+    {
+      "antipattern": "tight-leading",
+      "description": "Line height below 1.3x the font size makes multi-line text hard to read. Use 1.5 to 1.7 for body text so lines have room to breathe.",
+      "file": "/opt/data/projects/curitiba-rebuilds/2026-07-17/anarco-restaurante/kimi-variant/index.html",
+      "line": 0,
+      "name": "Tight line height",
+      "severity": "warning",
+      "snippet": "line-height 1.28x (need >=1.3)"
+    }
+  ],
+  "gate_exit_code": 2,
+  "generated_at": "2026-07-20T22:35:06.660196+00:00",
+  "impeccable_skill_commit": "44c27a72af98394c32691ba79358811bff86bde6",
+  "policy_sha256": "21936021ef4272afbb508483f0e0e5a5b7ec5a4613630f864e1c8bbffe684604",
+  "policy_version": "prospect-brand-style-gate-v2",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-17/anarco-restaurante/kimi-variant",
+  "release_manifest": {
+    "assets/carpaccio-haddock.jpg": {
+      "sha256": "3d861f7c453f0f8a09a038d8f52165c5a643240473a5d30ba54922f8e5c767cc",
+      "size": 526727
+    },
+    "assets/carpaccio.jpg": {
+      "sha256": "3d861f7c453f0f8a09a038d8f52165c5a643240473a5d30ba54922f8e5c767cc",
+      "size": 526727
+    },
+    "assets/casquinha-siri.jpg": {
+      "sha256": "d07a63428dc5f254632b225ece95ee0ca1e0a6dcbc64d0d18002bbf4fb8c691b",
+      "size": 399052
+    },
+    "assets/casquinha.jpg": {
+      "sha256": "d07a63428dc5f254632b225ece95ee0ca1e0a6dcbc64d0d18002bbf4fb8c691b",
+      "size": 399052
+    },
+    "assets/hero-anarco.png": {
+      "sha256": "0193a9f19c3e24939000557fe9fecdfa01084979afba9d7a65c7ab939e2f2d6c",
+      "size": 581554
+    },
+    "assets/logo-anarco.png": {
+      "sha256": "a2acf132a19231aa355be7d857167cc9c826d9dc99f585f9f94e26022c06fe0e",
+      "size": 102992
+    },
+    "assets/menu-anarco.png": {
+      "sha256": "0193a9f19c3e24939000557fe9fecdfa01084979afba9d7a65c7ab939e2f2d6c",
+      "size": 581554
+    },
+    "assets/risoto-bacalhau.jpg": {
+      "sha256": "158143719287b10f3e3deb9e0430c5f50f74b7ce6fa21edeea33a405b87f9db0",
+      "size": 412212
+    },
+    "assets/risoto.jpg": {
+      "sha256": "158143719287b10f3e3deb9e0430c5f50f74b7ce6fa21edeea33a405b87f9db0",
+      "size": 412212
+    },
+    "index.html": {
+      "sha256": "979669631ffd313fd3c1575afd6537eab2b1932a4275e9e7ee1794983efc5b2f",
+      "size": 8827
+    },
+    "proposal.html": {
+      "sha256": "02f2d85ff16f0570f4556fd6f90b8204627ac239328449775e51b59f0f0b80b3",
+      "size": 4720
+    },
+    "rationale.html": {
+      "sha256": "bba41746f5d5ae0d81cab2fdc61ba2bcd3124f0ed611e06cb87ef2582ed3cc08",
+      "size": 339
+    },
+    "script.js": {
+      "sha256": "7cd96a642fc1aede15df141c48ee2f2f831c4697716ee893b62f68ecc8951ce8",
+      "size": 654
+    },
+    "styles.css": {
+      "sha256": "163a921944a17a62f6feb0000157202fe0b0acbc13e8b49899dc63a2effd6eca",
+      "size": 11479
+    }
+  },
+  "schema": 3,
+  "status": "findings"
+}

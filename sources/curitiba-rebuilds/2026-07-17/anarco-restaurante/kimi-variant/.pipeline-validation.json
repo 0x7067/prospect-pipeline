@@ -1,0 +1,216 @@
+{
+  "browser": {
+    "engine": "playwright chromium",
+    "error": null,
+    "required_matrix_complete": true,
+    "required_pages": [
+      "index.html",
+      "proposal.html",
+      "rationale.html"
+    ],
+    "required_viewports": {
+      "desktop": {
+        "height": 900,
+        "width": 1440
+      },
+      "mobile": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    "results": [
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:41745/index.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-desktop.png",
+        "screenshot_sha256": "c6fe7662efcb0f1eefac5a44d753014b8874f6fb34955c318133b2d4150ade29",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Anarco Restaurante — Tradição italiana em Curitiba",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:41745/index.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-mobile.png",
+        "screenshot_sha256": "3e96f923eb656d1c7c91b87c9ef4d5f6bfcb83e003c954be91745d7e557148d3",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Anarco Restaurante — Tradição italiana em Curitiba",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:41745/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-desktop.png",
+        "screenshot_sha256": "251b29c7d91815d6b3faabd27b6b2190cd975696aeb78f47f77d2ff15c207898",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Sobre este site — Anarco Restaurante",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:41745/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-mobile.png",
+        "screenshot_sha256": "f512448ac68ebc572b60c72642c697b0d7e3ce2a2513797a28b6da8438a9bf36",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Sobre este site — Anarco Restaurante",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:41745/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-desktop.png",
+        "screenshot_sha256": "251b29c7d91815d6b3faabd27b6b2190cd975696aeb78f47f77d2ff15c207898",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Sobre este site — Anarco Restaurante",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:41745/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-mobile.png",
+        "screenshot_sha256": "f512448ac68ebc572b60c72642c697b0d7e3ce2a2513797a28b6da8438a9bf36",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Sobre este site — Anarco Restaurante",
+        "viewport": "mobile",
+        "width": 390
+      }
+    ],
+    "status": "pass"
+  },
+  "build_id": null,
+  "detector": {
+    "command": "/opt/data/.venvs/curitiba/bin/python /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-17/anarco-restaurante/kimi-variant",
+    "current_clean": false,
+    "current_findings": false,
+    "exit_code": 1,
+    "status": "failure",
+    "stderr": "",
+    "stdout": ""
+  },
+  "generated_at": "2026-07-20T22:20:56.933006+00:00",
+  "node_check": {
+    "command": "node --check script.js",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "preflight": {
+    "counts": {
+      "all-caps-body": 0,
+      "cramped-padding": 3,
+      "flat-type-hierarchy": 1,
+      "low-contrast-risk": 0,
+      "overused-font": 0
+    },
+    "findings": [
+      {
+        "antipattern": "cramped-padding",
+        "selector": ".hero",
+        "snippet": ".hero: visible boundary without explicit horizontal padding",
+        "suggestion": "Add explicit padding: e.g., padding: 4rem 2rem; or padding-inline: 2rem;"
+      },
+      {
+        "antipattern": "cramped-padding",
+        "selector": ".cta-section",
+        "snippet": ".cta-section: visible boundary without explicit horizontal padding",
+        "suggestion": "Add explicit padding: e.g., padding: 4rem 2rem; or padding-inline: 2rem;"
+      },
+      {
+        "antipattern": "cramped-padding",
+        "selector": ".footer-links a",
+        "snippet": ".footer-links a: visible boundary without explicit horizontal padding",
+        "suggestion": "Add explicit padding: e.g., padding: 4rem 2rem; or padding-inline: 2rem;"
+      },
+      {
+        "antipattern": "flat-type-hierarchy",
+        "selector": "styles.css",
+        "snippet": "Sizes: 13.6px, 14.4px, 15.2px, 16.8px, 17.6px, 20.0px, 24.0px, 25.6px (ratio 1.9:1)",
+        "suggestion": "Increase the spread between display and body type sizes; aim for at least 3:1."
+      }
+    ],
+    "project": "/opt/data/projects/curitiba-rebuilds/2026-07-17/anarco-restaurante/kimi-variant",
+    "schema": 1,
+    "status": "findings"
+  },
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-17/anarco-restaurante/kimi-variant",
+  "release_manifest": null,
+  "schema": 1,
+  "status": "fail"
+}

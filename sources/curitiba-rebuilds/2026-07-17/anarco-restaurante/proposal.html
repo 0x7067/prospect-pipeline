@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proposta de redesign — Anarco Restaurante</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #1A1A1A;
+      --ink-muted: #555;
+      --bg: #FAFAF8;
+      --border: #E0DDD8;
+      --accent: #5C0709;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, sans-serif;
+      font-size: 1rem;
+      line-height: 1.7;
+      color: var(--ink);
+      background: var(--bg);
+      padding: 2rem 1rem;
+    }
+    .container { max-width: 720px; margin: 0 auto; }
+    h1 { font-family: 'Playfair Display', Georgia, serif; font-size: 1.75rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--accent); }
+    h2 { font-family: 'Playfair Display', Georgia, serif; font-size: 1.25rem; font-weight: 600; margin: 2rem 0 0.75rem; }
+    p { margin-bottom: 1rem; }
+    .subtitle { font-size: 1.1rem; color: var(--ink-muted); margin-bottom: 2rem; }
+    .disclaimer {
+      background: #FFF3CD;
+      border: 1px solid #FFEEBA;
+      border-radius: 4px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 2rem;
+      font-size: 0.875rem;
+      line-height: 1.5;
+    }
+    .disclaimer strong { display: block; margin-bottom: 0.25rem; }
+    ul { margin: 0 0 1rem 1.25rem; list-style: disc; }
+    li { margin-bottom: 0.35rem; }
+    a { color: var(--accent); }
+    .meta { font-size: 0.8rem; color: var(--ink-muted); margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--border); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Proposta de redesign: Anarco Restaurante</h1>
+    <p class="subtitle">Uma mesa editorial de cozinha italiana para o site de um dos restaurantes mais tradicionais de Curitiba.</p>
+
+    <div class="disclaimer">
+      <strong>Aviso:</strong> Esta proposta é um documento independente de venda não afiliada. O autor não tem vínculo com a Anarco Restaurante. Este documento não é parte do site publicado e não aparece no index.html.
+    </div>
+
+    <h2>O problema atual</h2>
+    <p>O site atual do Anarco (<a href="https://anarco.com.br/" target="_blank" rel="noopener">anarco.com.br</a>) carrega sérios riscos de confiança e conversão:</p>
+    <ul>
+      <li><strong>Injeção de spam:</strong> texto e links de cassino inseridos dentro da história do restaurante. Risco direto de reputação e SEO.</li>
+      <li><strong>HTML pesado:</strong> cerca de 668 KB de HTML inicial antes de imagens e scripts, excessivo para uma página de restaurante.</li>
+      <li><strong>Navegação confusa:</strong> uma página longa que mistura história, avaliações, cardápio extenso e duas unidades sem hierarquia clara de reserva por localização.</li>
+      <li><strong>Tipografia inconsistente:</strong> Open Sans, Playfair Display e fallbacks sistêmicos misturados sem sistema.</li>
+      <li><strong>Reserva sem contexto:</strong> a ação de reserva não diferencia as duas unidades (Mercado Municipal e Batel).</li>
+    </ul>
+
+    <h2>A proposta</h2>
+    <p>Um site estático enxuto, editorial e orientado à conversão. Transforma a herança Artusi/Colônia Cecília, o cardápio de massas e frutos do mar e as duas casas em uma narrativa de mesa compartilhada. Em vez de uma vitrine genérica de restaurante.</p>
+
+    <h2>O que muda</h2>
+    <ul>
+      <li><strong>Hero tipográfico em bordô:</strong> sem imagem pesada, sem logo gigante. A marca se comunica com a própria linguagem publicada.</li>
+      <li><strong>Faixa editorial de pratos:</strong> fotografia real dos pratos em cortes amplos, sem overlays que escondam textura ou cor.</li>
+      <li><strong>Bifurcação por unidade:</strong> duas colunas claras (Mercado Municipal / Batel) com endereços, telefones e CTAs de WhatsApp contextuais.</li>
+      <li><strong>Cardápio legível:</strong> categorias organizadas, sem o peso de uma página de 668 KB.</li>
+      <li><strong>Tipografia disciplinada:</strong> Playfair Display apenas para nomes de pratos e história; Source Sans 3 para leitura, navegação e reservas.</li>
+      <li><strong>Zero spam:</strong> todo conteúdo é evidenciado a partir das fontes públicas da Anarco.</li>
+    </ul>
+
+    <h2>Mecanismo de ROI</h2>
+    <p>Reservas de almoço, jantar e grupos têm valor comercial direto. Remover spam, reduzir fricção entre unidades e tornar cardápio e reserva escaneáveis recupera visitas que hoje abandonam ou desconfiam da página. Cada reserva perdida por desconfiança é uma mesa vazia.</p>
+
+    <h2>Por que este conceito só pertence ao Anarco</h2>
+    <p>Porque não é um template de restaurante. É a história de Ilsa Artusi Agottani, fundada em 1991, a cozinha da Colônia Cecília, os frutos do mar que se cruzam com a tradição italiana. Tudo organizado como uma mesa compartilhada, não como um catálogo.</p>
+
+    <h2>Entregáveis</h2>
+    <p>O redesign completo em arquivos estáticos (HTML, CSS, JS), pronto para deploy em qualquer hospedagem estática (Netlify, Vercel, GitHub Pages, Cloudflare Pages). Sem dependências de backend, sem CMS, sem frameworks.</p>
+
+    <p class="meta">Documento gerado em 2026-07-17 · Baseado em evidências públicas de <a href="https://anarco.com.br/" target="_blank" rel="noopener">anarco.com.br</a> · Documento independente de venda não afiliada</p>
+  </div>
+</body>
+</html>
