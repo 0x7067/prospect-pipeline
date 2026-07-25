@@ -1,0 +1,10 @@
+{
+  "afk_queue_id": "q-1784490735781-f7651b",
+  "agent": "afk",
+  "business_name": "Arte & Jardim",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/arte-e-jardim",
+  "queued_at": "2026-07-19T19:52:15.792408+00:00",
+  "schema": 2,
+  "status": "queued",
+  "task_id": "task-da4588186bd243b79f07a0f9961bfae9"
+}

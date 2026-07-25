@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "status": "complete",
+  "command": "craft",
+  "skill_commit": "44c27a72af98394c32691ba79358811bff86bde6",
+  "builder_id": "hermes-afk-arte-e-jardim-20260719",
+  "summary": "Complete evidence-bounded static redesign for Arte & Jardim (landscaping, Curitiba). Built as a portfolio-led project intake experience with single-family Source Serif 4 typography, committed deep-teal color strategy (OKLCH seed 180°), three art-directed moments (archive-hero entrance, founder typographic sculpture, vertical timeline for four service stages), and a guided project-intake form. Deliverable tier: early_visual_direction. All business facts sourced from prospect.json, PRODUCT.md, and BRAND_SOURCE.md. No fabricated claims, no placeholder content. Required files: index.html, proposal.html, rationale.html, styles.css, script.js, README.md, SITE_REVIEW.md, SOURCE_MANIFEST.md."
+}

@@ -1,0 +1,225 @@
+{
+  "browser": {
+    "engine": "playwright chromium",
+    "error": null,
+    "required_matrix_complete": true,
+    "required_pages": [
+      "index.html",
+      "proposal.html",
+      "rationale.html"
+    ],
+    "required_viewports": {
+      "desktop": {
+        "height": 900,
+        "width": 1440
+      },
+      "mobile": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    "results": [
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:33659/index.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-desktop.png",
+        "screenshot_sha256": "d59895428221e0eceb95b840ec3247162c13b305d6a6f7f11a3ab8653e807fc1",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Arte & Jardim — Paisagismo e jardinagem em Curitiba",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:33659/index.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-mobile.png",
+        "screenshot_sha256": "a97c2fce9047f5791f3aeefa4534dfb03338f6ca7127984358a8772b406cbbf6",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Arte & Jardim — Paisagismo e jardinagem em Curitiba",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:33659/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-desktop.png",
+        "screenshot_sha256": "78046a91061886ce6a2ec37185a0c0202d515c9c0ba13aa70e5977e1d2a479b6",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta de redesign — Arte & Jardim",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:33659/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-mobile.png",
+        "screenshot_sha256": "bbaff4b52a8f3a468f031e7a5f2862b513f9c886773ec9596775e414794e0234",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta de redesign — Arte & Jardim",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:33659/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-desktop.png",
+        "screenshot_sha256": "78046a91061886ce6a2ec37185a0c0202d515c9c0ba13aa70e5977e1d2a479b6",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta de redesign — Arte & Jardim",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:33659/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-mobile.png",
+        "screenshot_sha256": "bbaff4b52a8f3a468f031e7a5f2862b513f9c886773ec9596775e414794e0234",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta de redesign — Arte & Jardim",
+        "viewport": "mobile",
+        "width": 390
+      }
+    ],
+    "status": "pass"
+  },
+  "build_id": "aa7939effc197c59916203b03d8b01ebf4d8f6fe1693a0e765254226690ac8d3",
+  "detector": {
+    "command": "/opt/data/.venvs/curitiba/bin/python /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-19/arte-e-jardim",
+    "current_clean": true,
+    "current_findings": false,
+    "exit_code": 0,
+    "status": "clean",
+    "stderr": "",
+    "stdout": ""
+  },
+  "generated_at": "2026-07-25T20:03:50.176960+00:00",
+  "node_check": {
+    "command": "node --check script.js",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "preflight": {
+    "counts": {
+      "all-caps-body": 0,
+      "cramped-padding": 1,
+      "flat-type-hierarchy": 0,
+      "low-contrast-risk": 0,
+      "overused-font": 1
+    },
+    "findings": [
+      {
+        "antipattern": "cramped-padding",
+        "selector": ".hero__image",
+        "snippet": ".hero__image: visible boundary without explicit horizontal padding",
+        "suggestion": "Add explicit padding: e.g., padding: 4rem 2rem; or padding-inline: 2rem;"
+      },
+      {
+        "antipattern": "overused-font",
+        "selector": "index.html",
+        "snippet": "Google Fonts loads saturated font: inter",
+        "suggestion": "Choose a less common typeface or pair a system font with a deliberate display choice."
+      }
+    ],
+    "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/arte-e-jardim",
+    "schema": 1,
+    "status": "findings"
+  },
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/arte-e-jardim",
+  "release_manifest": {
+    "index.html": {
+      "sha256": "b487b9b1520a6993b94fbcd66de18611477135006743192d2efdb08c226db14d",
+      "size": 17086
+    },
+    "proposal.html": {
+      "sha256": "ce0bf02984ae77d10e082672b688ac181d51be8bfa06aa6ba5c37ec2feb9258a",
+      "size": 9123
+    },
+    "rationale.html": {
+      "sha256": "92ab9c5a4322691354e5793d9943c8fb9964fff554cec353375e02e0295fd108",
+      "size": 372
+    },
+    "script.js": {
+      "sha256": "79c3b58cf4b60b1ebc272aeba31a4d5f98d1ecf778674692de798e10bb164409",
+      "size": 3191
+    },
+    "styles.css": {
+      "sha256": "bb19c8132b6290c8a13e6c077b61575b93956180abff548e376f5380618da379",
+      "size": 23083
+    }
+  },
+  "schema": 1,
+  "status": "pass"
+}

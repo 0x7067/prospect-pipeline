@@ -1,0 +1,52 @@
+{
+  "build_id": "aa7939effc197c59916203b03d8b01ebf4d8f6fe1693a0e765254226690ac8d3",
+  "detector": {
+    "expected_cli_version": "3.2.1",
+    "path": "/opt/data/bin/impeccable",
+    "resolved_path": "/opt/data/.local/share/mise/shims/impeccable",
+    "scans": [
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "raw"
+      },
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "design-aware"
+      }
+    ],
+    "sha256": "957f4c0682af817e1b23d8325b8023d3758b0c3e0bbbf8bb86453d6f91060176"
+  },
+  "findings": [],
+  "gate_exit_code": 0,
+  "generated_at": "2026-07-25T20:03:37.268634+00:00",
+  "impeccable_skill_commit": "44c27a72af98394c32691ba79358811bff86bde6",
+  "policy_sha256": "21936021ef4272afbb508483f0e0e5a5b7ec5a4613630f864e1c8bbffe684604",
+  "policy_version": "prospect-brand-style-gate-v2",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-19/arte-e-jardim",
+  "release_manifest": {
+    "index.html": {
+      "sha256": "b487b9b1520a6993b94fbcd66de18611477135006743192d2efdb08c226db14d",
+      "size": 17086
+    },
+    "proposal.html": {
+      "sha256": "ce0bf02984ae77d10e082672b688ac181d51be8bfa06aa6ba5c37ec2feb9258a",
+      "size": 9123
+    },
+    "rationale.html": {
+      "sha256": "92ab9c5a4322691354e5793d9943c8fb9964fff554cec353375e02e0295fd108",
+      "size": 372
+    },
+    "script.js": {
+      "sha256": "79c3b58cf4b60b1ebc272aeba31a4d5f98d1ecf778674692de798e10bb164409",
+      "size": 3191
+    },
+    "styles.css": {
+      "sha256": "bb19c8132b6290c8a13e6c077b61575b93956180abff548e376f5380618da379",
+      "size": 23083
+    }
+  },
+  "schema": 3,
+  "status": "clean"
+}
