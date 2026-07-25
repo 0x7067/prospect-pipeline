@@ -356,6 +356,7 @@ p { margin: 0; }
   gap: 0.75rem;
 }
 .mobile-nav__contact .btn { justify-content: center; width: 100%; }
+.site-header{border-bottom:1px solid rgba(38,28,20,.18);box-shadow:0 5px 18px rgba(38,28,20,.12)}#equipe .team__photo img{object-fit:contain!important;object-position:center!important;background:#f2eee8}
 
 @media (min-width: 1024px) { .mobile-nav { display: none; } }
 
