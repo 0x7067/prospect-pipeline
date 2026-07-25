@@ -1,0 +1,68 @@
+{
+  "build_id": "3bfb010554bd632674f448b57870c3fbd6c2d54ae6b6fab4bf26034f02538cf2",
+  "detector": {
+    "expected_cli_version": "3.2.1",
+    "path": "/opt/data/bin/impeccable",
+    "resolved_path": "/opt/data/.local/share/mise/shims/impeccable",
+    "scans": [
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "raw"
+      },
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "design-aware"
+      }
+    ],
+    "sha256": "957f4c0682af817e1b23d8325b8023d3758b0c3e0bbbf8bb86453d6f91060176"
+  },
+  "findings": [],
+  "gate_exit_code": 0,
+  "generated_at": "2026-07-25T22:22:10.676789+00:00",
+  "impeccable_skill_commit": "44c27a72af98394c32691ba79358811bff86bde6",
+  "policy_sha256": "21936021ef4272afbb508483f0e0e5a5b7ec5a4613630f864e1c8bbffe684604",
+  "policy_version": "prospect-brand-style-gate-v2",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-17/pousada-betania",
+  "release_manifest": {
+    "assets/detail-bosque.jpg": {
+      "sha256": "0ee1ad7c1d308266208654dca3cb44c61bcab5b482bc72f9299b1be5045281f9",
+      "size": 115622
+    },
+    "assets/gallery-convivio.jpg": {
+      "sha256": "7979d53c2048c46b23dc7ba6e531df03556e003017ef31a4fc90370e960b1993",
+      "size": 251073
+    },
+    "assets/hero-fachada.jpg": {
+      "sha256": "d8643bcdcdbf53a5ac0a685dfaacc9bea29ab55823e6d0c7161ff655ac1df1c6",
+      "size": 260157
+    },
+    "assets/logo-pousada-betania.png": {
+      "sha256": "b3ed11b6477b39b8509ce43957684b5878334a378d5ce84a16b8224facc36272",
+      "size": 22693
+    },
+    "index.html": {
+      "sha256": "8d39f991b1d54bdeda7d6f9c6193567b81e16cb04fdbd0aaf08584ec9e44e8d8",
+      "size": 15522
+    },
+    "proposal.html": {
+      "sha256": "0c8745ae84fce73a9471c9170952ec01d2161c3aa69f000f029827a0d4e356f9",
+      "size": 9920
+    },
+    "rationale.html": {
+      "sha256": "545eff4a3b2687b3efbcf59a495b0e07740345a98a4e486c7f35ea98b667eeee",
+      "size": 593
+    },
+    "script.js": {
+      "sha256": "e38b277c56396bcb2fc390ed1faccfd47406d9ee44a7cbc8aff965a9e550339a",
+      "size": 3669
+    },
+    "styles.css": {
+      "sha256": "99ea11a4722a8bc06be6e0a89681c03a0ad7e3d82a75f8e9183ac55064942ecb",
+      "size": 19180
+    }
+  },
+  "schema": 3,
+  "status": "clean"
+}

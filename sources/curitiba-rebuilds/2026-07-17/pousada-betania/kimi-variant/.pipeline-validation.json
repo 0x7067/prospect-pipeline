@@ -1,0 +1,247 @@
+{
+  "browser": {
+    "engine": "playwright chromium",
+    "error": null,
+    "required_matrix_complete": true,
+    "required_pages": [
+      "index.html",
+      "proposal.html",
+      "rationale.html"
+    ],
+    "required_viewports": {
+      "desktop": {
+        "height": 900,
+        "width": 1440
+      },
+      "mobile": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    "results": [
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:34827/index.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-desktop.png",
+        "screenshot_sha256": "2520e8cb46359a3d63872d0a516c2a4d35d7b91c72b4234fa8173ddf563c644d",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Pousada Betânia — Conforto, natureza e eventos em Curitiba",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:34827/index.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-mobile.png",
+        "screenshot_sha256": "f691c48e3a4a7f75f0d81545f791e5e9e8cda2b893fe0d13d8dc53130e42a828",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Pousada Betânia — Conforto, natureza e eventos em Curitiba",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:34827/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-desktop.png",
+        "screenshot_sha256": "dd94cc81ba2f002f25ab9f0782c30ba17f1c7bd97c87cfcfb58b6a77c2623261",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Sobre esta proposta — Pousada Betânia",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:34827/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-mobile.png",
+        "screenshot_sha256": "ad8c3849b8beb963cd351ed0cba51f3cf6189d14cf19b6e0b317a5029a2d0e9b",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Sobre esta proposta — Pousada Betânia",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:34827/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-desktop.png",
+        "screenshot_sha256": "dd94cc81ba2f002f25ab9f0782c30ba17f1c7bd97c87cfcfb58b6a77c2623261",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Sobre esta proposta — Pousada Betânia",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:34827/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-mobile.png",
+        "screenshot_sha256": "ad8c3849b8beb963cd351ed0cba51f3cf6189d14cf19b6e0b317a5029a2d0e9b",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Sobre esta proposta — Pousada Betânia",
+        "viewport": "mobile",
+        "width": 390
+      }
+    ],
+    "status": "pass"
+  },
+  "build_id": "32114eb387ee0a3140404c50cd30e12cd8b07d04244f9638dabf50895657c30b",
+  "detector": {
+    "command": "/opt/data/.venvs/curitiba/bin/python /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-17/pousada-betania/kimi-variant",
+    "current_clean": true,
+    "current_findings": false,
+    "exit_code": 0,
+    "status": "clean",
+    "stderr": "",
+    "stdout": ""
+  },
+  "generated_at": "2026-07-20T22:44:58.946972+00:00",
+  "node_check": {
+    "command": "node --check script.js",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "preflight": {
+    "counts": {
+      "all-caps-body": 0,
+      "cramped-padding": 2,
+      "flat-type-hierarchy": 0,
+      "low-contrast-risk": 0,
+      "overused-font": 1
+    },
+    "findings": [
+      {
+        "antipattern": "cramped-padding",
+        "selector": ".hero-overlay",
+        "snippet": ".hero-overlay: visible boundary without explicit horizontal padding",
+        "suggestion": "Add explicit padding: e.g., padding: 4rem 2rem; or padding-inline: 2rem;"
+      },
+      {
+        "antipattern": "cramped-padding",
+        "selector": ".split-section.alt",
+        "snippet": ".split-section.alt: visible boundary without explicit horizontal padding",
+        "suggestion": "Add explicit padding: e.g., padding: 4rem 2rem; or padding-inline: 2rem;"
+      },
+      {
+        "antipattern": "overused-font",
+        "selector": "index.html",
+        "snippet": "Google Fonts loads saturated font: montserrat",
+        "suggestion": "Choose a less common typeface or pair a system font with a deliberate display choice."
+      }
+    ],
+    "project": "/opt/data/projects/curitiba-rebuilds/2026-07-17/pousada-betania/kimi-variant",
+    "schema": 1,
+    "status": "findings"
+  },
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-17/pousada-betania/kimi-variant",
+  "release_manifest": {
+    "assets/detail.jpg": {
+      "sha256": "0ee1ad7c1d308266208654dca3cb44c61bcab5b482bc72f9299b1be5045281f9",
+      "size": 115622
+    },
+    "assets/gallery.jpg": {
+      "sha256": "7979d53c2048c46b23dc7ba6e531df03556e003017ef31a4fc90370e960b1993",
+      "size": 251073
+    },
+    "assets/hero.jpg": {
+      "sha256": "d8643bcdcdbf53a5ac0a685dfaacc9bea29ab55823e6d0c7161ff655ac1df1c6",
+      "size": 260157
+    },
+    "assets/logo.png": {
+      "sha256": "b3ed11b6477b39b8509ce43957684b5878334a378d5ce84a16b8224facc36272",
+      "size": 22693
+    },
+    "index.html": {
+      "sha256": "a315c005d807eadd5f252d92921d2ce4aa22e434d3bd9835fbefea1b1d4448d6",
+      "size": 15575
+    },
+    "proposal.html": {
+      "sha256": "b631a922f1d391935cbe05f9a020633e92a61470792d4dc513ac8e748814973a",
+      "size": 7323
+    },
+    "rationale.html": {
+      "sha256": "227ca7897c321c9eb948d37a3f1d74a7a38a029f64abbf08135edc28e35003d9",
+      "size": 407
+    },
+    "script.js": {
+      "sha256": "6616f1020e074c91e697516ec168cd6370de57d2f830b041e83172665de361b3",
+      "size": 2161
+    },
+    "styles.css": {
+      "sha256": "8a59731f71caab73d80bcd2a1f470a6edb99631f7ed27b4c053c1249686e7285",
+      "size": 16355
+    }
+  },
+  "schema": 1,
+  "status": "pass"
+}

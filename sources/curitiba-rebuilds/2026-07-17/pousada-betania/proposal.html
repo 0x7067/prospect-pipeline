@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proposta de Redesign — Pousada Betânia</title>
+  <meta name="description" content="Documento independente de proposta de redesign para o site da Pousada Betânia, baseado em evidências verificadas.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="proposal.html" class="site-logo" aria-label="Proposta Pousada Betânia">
+        <img src="assets/logo-pousada-betania.png" alt="Pousada Betânia" width="113" height="49">
+      </a>
+      <nav aria-label="Navegação da proposta">
+        <ul class="nav-desktop">
+          <li><a href="#problema">Problema</a></li>
+          <li><a href="#solucao">Solução</a></li>
+          <li><a href="#evidencias">Evidências</a></li>
+          <li><a href="#decisoes">Decisões</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-mobile-proposal">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="nav-mobile-proposal" class="nav-mobile" role="navigation" aria-label="Menu mobile da proposta">
+      <ul>
+        <li><a href="#problema">Problema</a></li>
+        <li><a href="#solucao">Solução</a></li>
+        <li><a href="#evidencias">Evidências</a></li>
+        <li><a href="#decisoes">Decisões</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="proposal-hero">
+      <div class="container">
+        <h1>Proposta de redesign para o site da Pousada Betânia</h1>
+        <p>Documento independente de análise e conceito, elaborado com base em evidências verificadas no site oficial em 17 de julho de 2026. Este documento não é afiliado à Pousada Betânia e não representa a opinião da empresa.</p>
+      </div>
+    </section>
+
+    <section id="problema" class="proposal-section">
+      <div class="container">
+        <h2>Problema identificado</h2>
+        <p>O site oficial da Pousada Betânia (<a href="https://www.pousadabetania.com/" target="_blank" rel="noopener">pousadabetania.com</a>) apresenta barreiras técnicas e de usabilidade que impedem visitantes de encontrar informações e completar reservas, especialmente no celular, que é o canal predominante de busca por hospedagem.</p>
+        <ul>
+          <li><strong>Overflow horizontal no mobile:</strong> a captura em 390px de largura registrou scrollWidth de 980px, ou seja, o conteúdo excede o dobro da largura visível. Visitantes precisam arrastar horizontalmente para ler e interagir.</li>
+          <li><strong>Navegação confusa:</strong> a home é uma página Wix longa com navegação por âncoras e múltiplos blocos de serviço, sem uma jornada clara que separe hospedagem, eventos corporativos e retiros.</li>
+          <li><strong>Conteúdo sem revisão editorial:</strong> sinais como "área vede externa", espaços vazios e pontuação inconsistente indicam baixa qualidade de revisão.</li>
+          <li><strong>CTA de reserva desconectado:</strong> o botão de reserva aponta para um motor externo (Omnibees), mas a intenção de reservar não é reforçada com informações de quarto na mesma sequência visual.</li>
+          <li><strong>Galeria e serviços difíceis de escanear:</strong> dependem de miniaturas e blocos visuais compactos que são impraticáveis no mobile.</li>
+        </ul>
+        <div class="evidence-quote">
+          "A captura mobile em 390px apresentou scrollWidth de 980px contra viewport de 390px, evidenciando overflow horizontal grave."
+        </div>
+      </div>
+    </section>
+
+    <section id="solucao" class="proposal-section">
+      <div class="container">
+        <h2>Conceito de solução: Refúgio Legível</h2>
+        <p>Este conceito só pode pertencer à Pousada Betânia porque transforma o contraste comprovado entre proximidade urbana, bosque, capela, hospitalidade e eventos em uma experiência de refúgio legível, não em um template de hotel.</p>
+        <h3>Composição em três caminhos</h3>
+        <p>A entrada organiza a visita em três intenções claras: <strong>Hospedar</strong>, <strong>Reunir</strong>, <strong>Descansar</strong>. Cada caminho recebe sua composição própria (imagem, promessa e CTA relevante), substituindo a lista plana de âncoras do site atual.</p>
+        <h3>Mobile-first responsivo</h3>
+        <p>Layout fluido sem larguras fixas, eliminando o overflow horizontal. O conteúdo se adapta da tela de celular (390px) ao desktop (1440px+) com grids que se reorganizam em vez de encolher.</p>
+        <h3>Conversão contextualizada</h3>
+        <p>Reserva via Omnibees e WhatsApp como ações primárias, repetidas em cada caminho relevante. Telefone, e-mail e endereço reunidos em área de contato curta, sem formulário longo.</p>
+      </div>
+    </section>
+
+    <section id="evidencias" class="proposal-section">
+      <div class="container">
+        <h2>Evidências e fontes</h2>
+        <p>Todas as informações deste conceito provêm exclusivamente de fontes verificadas:</p>
+        <ul>
+          <li><strong>Site oficial:</strong> <a href="https://www.pousadabetania.com/" target="_blank" rel="noopener">pousadabetania.com</a> (respondeu HTTP 200 em 2026-07-17)</li>
+          <li><strong>Página de eventos:</strong> <a href="https://www.pousadabetania.com/eventos" target="_blank" rel="noopener">pousadabetania.com/eventos</a></li>
+          <li><strong>Motor de reserva:</strong> <a href="https://book.omnibees.com/chain/3085/hotel/5651?lang=pt-BR" target="_blank" rel="noopener">Omnibees</a></li>
+          <li><strong>WhatsApp:</strong> <a href="https://bit.ly/faleconoscoieb" target="_blank" rel="noopener">bit.ly/faleconoscoieb</a></li>
+          <li><strong>Instagram:</strong> <a href="https://www.instagram.com/pousadabetaniacuritibapr/" target="_blank" rel="noopener">@pousadabetaniacuritibapr</a></li>
+        </ul>
+        <p>As imagens utilizadas são cópias locais de ativos hospedados pelo próprio Wix da Pousada Betânia, observadas no site oficial na data de captura.</p>
+        <h3>Linguagem verificada</h3>
+        <p>As frases do conceito são extraídas diretamente das frases mais fortes publicadas pelo site:</p>
+        <div class="evidence-quote">
+          "Prazer em receber bem!"
+        </div>
+        <div class="evidence-quote">
+          "Sinta-se à vontade com muito conforto, serviço de qualidade e contato com a natureza."
+        </div>
+        <div class="evidence-quote">
+          "Unindo simplicidade, aconchego e bom preço."
+        </div>
+        <div class="evidence-quote">
+          "Privacidade e tranquilidade"
+        </div>
+      </div>
+    </section>
+
+    <section id="decisoes" class="proposal-section">
+      <div class="container">
+        <h2>Decisões de design</h2>
+        <h3>Cores</h3>
+        <p>Quatro cores preservadas integralmente das observações do site oficial: preto (#000000), cinza (#737373), verde de acento (#5EBB11) e fundo neutro (#F5F5F5). Uma evolução deliberada: o tom <code>--ink-deep</code> (#11180C) deriva da mesma família de matiz do verde, usado apenas em overlay de hero e rodapé para manter a leitura como "o mundo verde da marca ao anoitecer".</p>
+        <h3>Tipografia</h3>
+        <p>O site observado usa Brandon Grot (títulos) e Arial (dados). Brandon Grotesque é comercial e não pode ser distribuída livremente; Arial está na lista de fontes sobreutilizadas. Substituição: <strong>Jost</strong> para títulos (geometria humana acolhedora similar ao Brandon) e <strong>Public Sans</strong> para corpo (grotesk neutro para dados operacionais, papel equivalente ao Arial).</p>
+        <h3>O que não foi copiado</h3>
+        <ul>
+          <li>Overflow horizontal do mobile</li>
+          <li>Estrutura de página única com âncoras</li>
+          <li>Blocos vazios e miniaturas pequenas</li>
+          <li>Erros editoriais não revisados</li>
+          <li>Jornada de reserva desconectada do contexto</li>
+        </ul>
+        <h3>O que foi preservado</h3>
+        <ul>
+          <li>Hospitalidade e simplicidade</li>
+          <li>Bosque e contato com a natureza</li>
+          <li>Pet friendly</li>
+          <li>Eventos corporativos e retiros</li>
+          <li>Capela, churrasqueira e estacionamento</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="proposal-section">
+      <div class="container">
+        <h2>Mecanismo de retorno</h2>
+        <p>Reservas de hospedagem e locações para eventos têm valor direto. Corrigir o overflow mobile e separar as jornadas pode recuperar visitantes que não conseguem ler ou reservar pelo telefone. Cada caminho termina com um CTA contextualizado: reservar quarto ou consultar disponibilidade de eventos, reduzindo a fricção entre interesse e conversão.</p>
+      </div>
+    </section>
+
+    <section class="proposal-section">
+      <div class="container">
+        <h2>Para ver o conceito</h2>
+        <p>O site reconstruído está disponível em <a href="index.html">index.html</a> neste mesmo diretório. Abra no navegador para navegar a experiência completa.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>Documento independente de proposta. Não afiliado à Pousada Betânia.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

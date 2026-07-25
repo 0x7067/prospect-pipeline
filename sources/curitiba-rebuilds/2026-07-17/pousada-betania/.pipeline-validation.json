@@ -1,0 +1,235 @@
+{
+  "browser": {
+    "engine": "playwright chromium",
+    "error": null,
+    "required_matrix_complete": true,
+    "required_pages": [
+      "index.html",
+      "proposal.html",
+      "rationale.html"
+    ],
+    "required_viewports": {
+      "desktop": {
+        "height": 900,
+        "width": 1440
+      },
+      "mobile": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    "results": [
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:34267/index.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-desktop.png",
+        "screenshot_sha256": "d92347204482f28ee21c964c725f73154075798825cdd247877edc652e9e153d",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Pousada Betânia — Hospedagem, Eventos e Tranquilidade em Curitiba",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:34267/index.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "index.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/index-mobile.png",
+        "screenshot_sha256": "d37257b4394a928ebe3bf3625280a22de679aa4295962a7b2df573be7a07874b",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Pousada Betânia — Hospedagem, Eventos e Tranquilidade em Curitiba",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:34267/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-desktop.png",
+        "screenshot_sha256": "537bece8ecbfc2022386bed7414d938e04e45d057904f60b111212c3f6ea090d",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta de Redesign — Pousada Betânia",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:34267/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "proposal.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/proposal-mobile.png",
+        "screenshot_sha256": "1c38725ac1e54f56bb724f0b99ed84ebf842497c290301bde115c491fda1607e",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta de Redesign — Pousada Betânia",
+        "viewport": "mobile",
+        "width": 390
+      },
+      {
+        "broken_images": [],
+        "client_width": 1440,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:34267/proposal.html",
+        "h1_present": true,
+        "height": 900,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-desktop.png",
+        "screenshot_sha256": "537bece8ecbfc2022386bed7414d938e04e45d057904f60b111212c3f6ea090d",
+        "scroll_width": 1440,
+        "status": "pass",
+        "title": "Proposta de Redesign — Pousada Betânia",
+        "viewport": "desktop",
+        "width": 1440
+      },
+      {
+        "broken_images": [],
+        "client_width": 390,
+        "console_errors": [],
+        "failed_requests": [],
+        "final_url": "http://127.0.0.1:34267/proposal.html",
+        "h1_present": true,
+        "height": 844,
+        "horizontal_overflow": false,
+        "http_errors": [],
+        "missing_anchors": [],
+        "navigation_error": null,
+        "page": "rationale.html",
+        "page_errors": [],
+        "screenshot": ".pipeline-validation-captures/rationale-mobile.png",
+        "screenshot_sha256": "1c38725ac1e54f56bb724f0b99ed84ebf842497c290301bde115c491fda1607e",
+        "scroll_width": 390,
+        "status": "pass",
+        "title": "Proposta de Redesign — Pousada Betânia",
+        "viewport": "mobile",
+        "width": 390
+      }
+    ],
+    "status": "pass"
+  },
+  "build_id": "3bfb010554bd632674f448b57870c3fbd6c2d54ae6b6fab4bf26034f02538cf2",
+  "detector": {
+    "command": "/opt/data/.venvs/curitiba/bin/python /opt/data/scripts/impeccable_detector_gate.py /opt/data/projects/curitiba-rebuilds/2026-07-17/pousada-betania",
+    "current_clean": true,
+    "current_findings": false,
+    "exit_code": 0,
+    "status": "clean",
+    "stderr": "",
+    "stdout": ""
+  },
+  "generated_at": "2026-07-25T22:22:24.794036+00:00",
+  "node_check": {
+    "command": "node --check script.js",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "preflight": {
+    "counts": {
+      "all-caps-body": 0,
+      "cramped-padding": 0,
+      "flat-type-hierarchy": 0,
+      "low-contrast-risk": 0,
+      "overused-font": 1
+    },
+    "findings": [
+      {
+        "antipattern": "overused-font",
+        "selector": "index.html",
+        "snippet": "Google Fonts loads saturated font: inter",
+        "suggestion": "Choose a less common typeface or pair a system font with a deliberate display choice."
+      }
+    ],
+    "project": "/opt/data/projects/curitiba-rebuilds/2026-07-17/pousada-betania",
+    "schema": 1,
+    "status": "findings"
+  },
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-17/pousada-betania",
+  "release_manifest": {
+    "assets/detail-bosque.jpg": {
+      "sha256": "0ee1ad7c1d308266208654dca3cb44c61bcab5b482bc72f9299b1be5045281f9",
+      "size": 115622
+    },
+    "assets/gallery-convivio.jpg": {
+      "sha256": "7979d53c2048c46b23dc7ba6e531df03556e003017ef31a4fc90370e960b1993",
+      "size": 251073
+    },
+    "assets/hero-fachada.jpg": {
+      "sha256": "d8643bcdcdbf53a5ac0a685dfaacc9bea29ab55823e6d0c7161ff655ac1df1c6",
+      "size": 260157
+    },
+    "assets/logo-pousada-betania.png": {
+      "sha256": "b3ed11b6477b39b8509ce43957684b5878334a378d5ce84a16b8224facc36272",
+      "size": 22693
+    },
+    "index.html": {
+      "sha256": "8d39f991b1d54bdeda7d6f9c6193567b81e16cb04fdbd0aaf08584ec9e44e8d8",
+      "size": 15522
+    },
+    "proposal.html": {
+      "sha256": "0c8745ae84fce73a9471c9170952ec01d2161c3aa69f000f029827a0d4e356f9",
+      "size": 9920
+    },
+    "rationale.html": {
+      "sha256": "545eff4a3b2687b3efbcf59a495b0e07740345a98a4e486c7f35ea98b667eeee",
+      "size": 593
+    },
+    "script.js": {
+      "sha256": "e38b277c56396bcb2fc390ed1faccfd47406d9ee44a7cbc8aff965a9e550339a",
+      "size": 3669
+    },
+    "styles.css": {
+      "sha256": "99ea11a4722a8bc06be6e0a89681c03a0ad7e3d82a75f8e9183ac55064942ecb",
+      "size": 19180
+    }
+  },
+  "schema": 1,
+  "status": "pass"
+}

@@ -1,0 +1,68 @@
+{
+  "build_id": "32114eb387ee0a3140404c50cd30e12cd8b07d04244f9638dabf50895657c30b",
+  "detector": {
+    "expected_cli_version": "3.2.1",
+    "path": "/opt/data/bin/impeccable",
+    "resolved_path": "/opt/data/.local/share/mise/shims/impeccable",
+    "scans": [
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "raw"
+      },
+      {
+        "exit_code": 0,
+        "findings": [],
+        "mode": "design-aware"
+      }
+    ],
+    "sha256": "957f4c0682af817e1b23d8325b8023d3758b0c3e0bbbf8bb86453d6f91060176"
+  },
+  "findings": [],
+  "gate_exit_code": 0,
+  "generated_at": "2026-07-20T22:44:46.352543+00:00",
+  "impeccable_skill_commit": "44c27a72af98394c32691ba79358811bff86bde6",
+  "policy_sha256": "21936021ef4272afbb508483f0e0e5a5b7ec5a4613630f864e1c8bbffe684604",
+  "policy_version": "prospect-brand-style-gate-v2",
+  "project": "/opt/data/projects/curitiba-rebuilds/2026-07-17/pousada-betania/kimi-variant",
+  "release_manifest": {
+    "assets/detail.jpg": {
+      "sha256": "0ee1ad7c1d308266208654dca3cb44c61bcab5b482bc72f9299b1be5045281f9",
+      "size": 115622
+    },
+    "assets/gallery.jpg": {
+      "sha256": "7979d53c2048c46b23dc7ba6e531df03556e003017ef31a4fc90370e960b1993",
+      "size": 251073
+    },
+    "assets/hero.jpg": {
+      "sha256": "d8643bcdcdbf53a5ac0a685dfaacc9bea29ab55823e6d0c7161ff655ac1df1c6",
+      "size": 260157
+    },
+    "assets/logo.png": {
+      "sha256": "b3ed11b6477b39b8509ce43957684b5878334a378d5ce84a16b8224facc36272",
+      "size": 22693
+    },
+    "index.html": {
+      "sha256": "a315c005d807eadd5f252d92921d2ce4aa22e434d3bd9835fbefea1b1d4448d6",
+      "size": 15575
+    },
+    "proposal.html": {
+      "sha256": "b631a922f1d391935cbe05f9a020633e92a61470792d4dc513ac8e748814973a",
+      "size": 7323
+    },
+    "rationale.html": {
+      "sha256": "227ca7897c321c9eb948d37a3f1d74a7a38a029f64abbf08135edc28e35003d9",
+      "size": 407
+    },
+    "script.js": {
+      "sha256": "6616f1020e074c91e697516ec168cd6370de57d2f830b041e83172665de361b3",
+      "size": 2161
+    },
+    "styles.css": {
+      "sha256": "8a59731f71caab73d80bcd2a1f470a6edb99631f7ed27b4c053c1249686e7285",
+      "size": 16355
+    }
+  },
+  "schema": 3,
+  "status": "clean"
+}
