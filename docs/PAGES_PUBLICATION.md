@@ -27,7 +27,11 @@ Every demo route is:
 
 The collection remains part of the route, so duplicate slugs in different collections are distinct.
 
-The root landing page presents every route as a card grouped by business sector, so the index reads as a portfolio rather than a list of build artifacts. For each site it shows the business name and category read from that project's `prospect.json`, plus the collection and date, which is what distinguishes two builds that share a business name. A site published from a `kimi-variant` is marked `variant`. Sector assignment comes from the ordered keyword rules in `SECTOR_RULES`; a project matching none of them is grouped under `Outros`, so a new project is never dropped from the index. Only the business name and category are read from the brief — no other field is copied into the artifact, and `prospect.json` itself is never published.
+The root landing page is a review console rather than a plain index. Every route is a card grouped by business sector, showing the business name and category read from that project's `prospect.json`, plus the collection and date, which is what distinguishes two builds that share a business name. A site published from a `kimi-variant` is marked `variant`. Sector assignment comes from the ordered keyword rules in `SECTOR_RULES`; a project matching none of them is grouped under `Outros`, so a new project is never dropped from the index. Only the business name and category are read from the brief — no other field is copied into the artifact, and `prospect.json` itself is never published.
+
+Each card carries a verdict (`Approved` / `Needs tweaks` / `Redo`), a free-text note, and inline desktop and mobile previews that are only created when requested. A sticky toolbar reports review progress, filters the grid by verdict (including "not reviewed"), and exports the collected feedback as Markdown grouped by verdict, ready to paste back into a chat. A note left without a verdict is exported under "Comments (no verdict given)" rather than being assumed to mean anything.
+
+Review state is held in `localStorage` under `prospect-review-v1`, so it is per-browser, never uploaded, and never part of the build. The console is inert until interacted with: no network calls, no external dependencies, and with JavaScript disabled the cards still list every site with a working link.
 
 ## Sanitization boundary
 

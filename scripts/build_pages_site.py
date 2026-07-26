@@ -281,30 +281,158 @@ def sector_for(name: str, category: str, slug: str) -> str:
 
 
 LANDING_STYLE = (
-    ":root{color-scheme:light dark;--bg:#f6f7f9;--fg:#18202a;--muted:#5b6672;--card:#fff;--line:#e2e6eb;--accent:#075985}"
-    "@media(prefers-color-scheme:dark){:root{--bg:#11151a;--fg:#e8ecf1;--muted:#9aa6b2;--card:#171d24;--line:#28313b;--accent:#7cc4ec}}"
+    ":root{color-scheme:light dark;--bg:#f6f7f9;--fg:#18202a;--muted:#5b6672;--card:#fff;--line:#e2e6eb;"
+    "--accent:#075985;--ok:#1a7f47;--tweak:#a8600a;--redo:#b3261e}"
+    "@media(prefers-color-scheme:dark){:root{--bg:#11151a;--fg:#e8ecf1;--muted:#9aa6b2;--card:#171d24;"
+    "--line:#28313b;--accent:#7cc4ec;--ok:#5cc98d;--tweak:#e0a94f;--redo:#f28b82}}"
     "*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);"
     "font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}"
-    ".wrap{max-width:1080px;margin:0 auto;padding:2rem 1.25rem 4rem}"
-    ".notice{padding:.9rem 1.1rem;background:#fff4cc;border:1px solid #c28a00;border-radius:10px;color:#3d2c00;font-size:.94rem}"
-    "h1{font-size:clamp(1.6rem,4vw,2.2rem);margin:1.6rem 0 .4rem;letter-spacing:-.01em}"
-    ".lede{color:var(--muted);margin:0 0 1.6rem}"
-    ".sector{margin:2.2rem 0 0}"
-    ".sector h2{font-size:1.05rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);"
-    "margin:0 0 .9rem;padding-bottom:.5rem;border-bottom:1px solid var(--line)}"
+    ".wrap{max-width:1180px;margin:0 auto;padding:1.25rem 1.25rem 5rem}"
+    ".notice{padding:.8rem 1rem;background:#fff4cc;border:1px solid #c28a00;border-radius:10px;color:#3d2c00;font-size:.9rem}"
+    "h1{font-size:clamp(1.5rem,4vw,2rem);margin:1.2rem 0 .3rem;letter-spacing:-.01em}"
+    ".lede{color:var(--muted);margin:0 0 1rem;font-size:.95rem}"
+    ".bar{position:sticky;top:0;z-index:20;display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;"
+    "padding:.7rem 0;margin-bottom:.5rem;background:var(--bg);border-bottom:1px solid var(--line)}"
+    ".bar .grow{flex:1 1 auto}"
+    ".progress{font-weight:600;font-size:.9rem}"
+    ".progress em{font-style:normal;color:var(--muted);font-weight:400}"
+    "button,.btn{font:inherit;font-size:.83rem;padding:.34rem .7rem;border:1px solid var(--line);"
+    "border-radius:999px;background:var(--card);color:inherit;cursor:pointer;text-decoration:none;display:inline-block}"
+    "button:hover,.btn:hover{border-color:var(--accent)}"
+    "button.on{background:var(--accent);border-color:var(--accent);color:#fff}"
+    ".sector{margin:1.8rem 0 0}"
+    ".sector h2{font-size:1rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);"
+    "margin:0 0 .8rem;padding-bottom:.45rem;border-bottom:1px solid var(--line)}"
     ".sector h2 span{font-weight:400;text-transform:none;letter-spacing:0}"
-    ".grid{display:grid;gap:.85rem;grid-template-columns:repeat(auto-fill,minmax(255px,1fr))}"
-    ".card{display:flex;flex-direction:column;gap:.3rem;padding:1rem 1.1rem;background:var(--card);"
-    "border:1px solid var(--line);border-radius:12px;text-decoration:none;color:inherit;"
-    "transition:transform .15s ease,box-shadow .15s ease,border-color .15s ease}"
-    ".card:hover,.card:focus-visible{transform:translateY(-2px);border-color:var(--accent);"
-    "box-shadow:0 10px 22px rgba(8,20,35,.10)}"
-    ".card b{font-size:1.02rem;line-height:1.3}"
-    ".card .cat{color:var(--muted);font-size:.87rem}"
-    ".card .meta{margin-top:.35rem;color:var(--muted);font-size:.76rem;letter-spacing:.03em}"
-    ".card .flag{display:inline-block;margin-left:.4rem;padding:0 .38rem;border:1px solid var(--line);"
+    ".grid{display:grid;gap:.85rem;align-items:start;grid-template-columns:repeat(auto-fill,minmax(320px,1fr))}"
+    ".card{display:flex;flex-direction:column;gap:.45rem;padding:.9rem 1rem;background:var(--card);"
+    "border:1px solid var(--line);border-left:4px solid var(--line);border-radius:12px}"
+    ".card[data-status=approved]{border-left-color:var(--ok)}"
+    ".card[data-status=tweak]{border-left-color:var(--tweak)}"
+    ".card[data-status=redo]{border-left-color:var(--redo)}"
+    ".card h3{margin:0;font-size:1rem;line-height:1.3}"
+    ".card .cat{color:var(--muted);font-size:.85rem}"
+    ".card .meta{color:var(--muted);font-size:.74rem;letter-spacing:.03em}"
+    ".flag{display:inline-block;margin-left:.4rem;padding:0 .38rem;border:1px solid var(--line);"
     "border-radius:999px;font-size:.7rem;color:var(--muted)}"
+    ".row{display:flex;flex-wrap:wrap;gap:.35rem;align-items:center}"
+    ".rate button[data-status=approved].on{background:var(--ok);border-color:var(--ok)}"
+    ".rate button[data-status=tweak].on{background:var(--tweak);border-color:var(--tweak)}"
+    ".rate button[data-status=redo].on{background:var(--redo);border-color:var(--redo)}"
+    ".note{width:100%;font:inherit;font-size:.87rem;padding:.5rem .6rem;border:1px solid var(--line);"
+    "border-radius:8px;background:var(--bg);color:inherit;resize:vertical;min-height:2.4rem}"
+    ".note:focus{outline:2px solid var(--accent);outline-offset:1px}"
+    ".frame{border:1px solid var(--line);border-radius:8px;overflow:hidden;background:#fff;height:280px}"
+    ".frame iframe{border:0;transform-origin:0 0;display:block}"
+    "#out textarea{width:100%;min-height:220px;font:13px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;"
+    "padding:.7rem;border:1px solid var(--line);border-radius:10px;background:var(--card);color:inherit}"
+    ".hide{display:none!important}"
+    "@media print{.bar,.actions,.rate,.frame{display:none!important}}"
 )
+
+# Review console. Kept dependency-free and inert on load: state lives in
+# localStorage, previews are only created when asked for, and the export is
+# plain Markdown so it can be pasted straight back into a chat.
+LANDING_SCRIPT = """
+(function(){
+var KEY='prospect-review-v1';
+var state={};
+try{state=JSON.parse(localStorage.getItem(KEY)||'{}')||{}}catch(e){state={}}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){}}
+var cards=[].slice.call(document.querySelectorAll('.card'));
+function entry(k){return state[k]||(state[k]={})}
+function reviewed(){return cards.filter(function(c){var e=state[c.dataset.key]||{};return e.status||(e.note||'').trim()}).length}
+function paint(){
+  cards.forEach(function(c){
+    var e=state[c.dataset.key]||{};
+    if(e.status){c.setAttribute('data-status',e.status)}else{c.removeAttribute('data-status')}
+    c.querySelectorAll('.rate button').forEach(function(b){b.classList.toggle('on',b.dataset.status===e.status)});
+    var n=c.querySelector('.note'); if(document.activeElement!==n){n.value=e.note||''}
+  });
+  var done=reviewed();
+  document.getElementById('count').innerHTML=done+' / '+cards.length+' <em>reviewed</em>';
+  filter();
+}
+function filter(){
+  var f=document.querySelector('.filters button.on').dataset.filter;
+  cards.forEach(function(c){
+    var e=state[c.dataset.key]||{}, s=e.status||'', show;
+    if(f==='all'){show=true}
+    else if(f==='pending'){show=!s&&!(e.note||'').trim()}
+    else{show=s===f}
+    c.classList.toggle('hide',!show);
+  });
+  document.querySelectorAll('.sector').forEach(function(sec){
+    var any=sec.querySelectorAll('.card:not(.hide)').length;
+    sec.classList.toggle('hide',!any);
+  });
+}
+document.addEventListener('click',function(ev){
+  var b=ev.target.closest('button'); if(!b)return;
+  if(b.dataset.status){
+    var c=b.closest('.card'), e=entry(c.dataset.key);
+    e.status = e.status===b.dataset.status ? '' : b.dataset.status;
+    save(); paint(); return;
+  }
+  if(b.dataset.filter){
+    document.querySelectorAll('.filters button').forEach(function(x){x.classList.toggle('on',x===b)});
+    filter(); return;
+  }
+  if(b.classList.contains('pv')){
+    var card=b.closest('.card'), box=card.querySelector('.frame');
+    if(box){box.remove();b.textContent='Preview';return}
+    box=document.createElement('div'); box.className='frame';
+    var mobile=b.dataset.w==='m', w=mobile?390:1280, h=mobile?1400:1000;
+    var scale=(card.clientWidth-34)/w, f=document.createElement('iframe');
+    f.src=card.dataset.href; f.width=w; f.height=h;
+    f.loading='lazy'; f.setAttribute('title','Preview of '+card.dataset.name);
+    f.style.transform='scale('+scale+')';
+    box.style.height=Math.min(280,Math.round(h*scale))+'px';
+    box.appendChild(f); card.appendChild(box); b.textContent='Hide';
+    return;
+  }
+});
+document.addEventListener('input',function(ev){
+  if(!ev.target.classList.contains('note'))return;
+  entry(ev.target.closest('.card').dataset.key).note=ev.target.value;
+  save();
+  var done=reviewed();
+  document.getElementById('count').innerHTML=done+' / '+cards.length+' <em>reviewed</em>';
+});
+document.getElementById('copy').addEventListener('click',function(){
+  var buckets={redo:[],tweak:[],approved:[],comment:[]};
+  var labels={redo:'Redo',tweak:'Needs tweaks',approved:'Approved',comment:'Comments (no verdict given)'};
+  var any=false;
+  cards.forEach(function(c){
+    var e=state[c.dataset.key]||{}, note=(e.note||'').trim();
+    if(!e.status&&!note)return;
+    any=true;
+    var line='- **'+c.dataset.name+'** ('+c.dataset.sector+')'+(note?' — '+note:'');
+    buckets[e.status||'comment'].push(line);
+  });
+  var md='# Site review feedback\\n\\n'+reviewed()+' of '+cards.length+' sites reviewed.\\n';
+  ['redo','tweak','approved','comment'].forEach(function(k){
+    if(!buckets[k].length)return;
+    md+='\\n## '+labels[k]+' ('+buckets[k].length+')\\n\\n'+buckets[k].join('\\n')+'\\n';
+  });
+  if(!any){md='No feedback recorded yet.'}
+  var out=document.getElementById('out'), ta=out.querySelector('textarea');
+  ta.value=md; out.hidden=false; ta.focus(); ta.select();
+  if(navigator.clipboard&&navigator.clipboard.writeText){
+    navigator.clipboard.writeText(md).then(function(){
+      var s=document.getElementById('status'); s.textContent='Copied to clipboard - paste it back to Claude.';
+    },function(){});
+  }
+  out.scrollIntoView({block:'nearest'});
+});
+document.getElementById('clear').addEventListener('click',function(){
+  if(!confirm('Clear all recorded verdicts and notes?'))return;
+  state={};save();paint();
+  document.getElementById('out').hidden=true;document.getElementById('status').textContent='';
+});
+paint();
+})();
+"""
 
 
 def landing(manifest: list[Site], base: str) -> str:
@@ -321,29 +449,65 @@ def landing(manifest: list[Site], base: str) -> str:
     if SECTOR_FALLBACK in sectors:
         order.append(SECTOR_FALLBACK)
 
+    esc = html.escape
     out = [
-        '<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">'
+        '<!doctype html><html lang="en"><head><meta charset="utf-8">'
         '<meta name="robots" content="noindex,nofollow,noarchive">'
         '<meta name="viewport" content="width=device-width,initial-scale=1">'
-        "<title>Prospect concept demos</title><style>" + LANDING_STYLE + "</style></head><body><div class=\"wrap\">"
+        "<title>Concept demo review</title><style>" + LANDING_STYLE + "</style></head><body><div class=\"wrap\">"
         '<div class="notice" role="note"><strong>Unofficial concept redesign demos.</strong> '
         "These are not the businesses' official websites.</div><main>"
-        "<h1>Prospect concept demos</h1>"
-        f'<p class="lede">{len(manifest)} concept sites for Curitiba businesses, grouped by sector.</p>'
+        "<h1>Concept demo review</h1>"
+        f'<p class="lede">{len(manifest)} sites, grouped by sector. Give each a verdict, add a note where '
+        "something should change, then use <strong>Copy feedback</strong> and paste the result back to Claude. "
+        "Your verdicts are stored in this browser only.</p>"
+        '<div class="bar">'
+        '<span class="progress" id="count">0 / 0 <em>reviewed</em></span>'
+        '<span class="filters row">'
+        '<button type="button" data-filter="all" class="on">All</button>'
+        '<button type="button" data-filter="pending">Not reviewed</button>'
+        '<button type="button" data-filter="redo">Redo</button>'
+        '<button type="button" data-filter="tweak">Needs tweaks</button>'
+        '<button type="button" data-filter="approved">Approved</button>'
+        "</span><span class=\"grow\"></span>"
+        '<button type="button" id="copy">Copy feedback</button>'
+        '<button type="button" id="clear">Clear</button>'
+        "</div>"
+        '<div id="out" hidden><p id="status" class="lede"></p><textarea readonly aria-label="Feedback to copy"></textarea></div>'
     ]
     for sector in order:
         items = sorted(sectors[sector], key=lambda row: (row[0].casefold(), row[2].public_path))
         out.append(
-            f'<section class="sector"><h2>{html.escape(sector)} <span>({len(items)})</span></h2><div class="grid">'
+            f'<section class="sector"><h2>{esc(sector)} <span>({len(items)})</span></h2><div class="grid">'
         )
         for name, category, site in items:
-            out.append(f'<a class="card" href="{base}{site.public_path}"><b>{html.escape(name)}</b>')
-            if category:
-                out.append(f'<span class="cat">{html.escape(category)}</span>')
+            href = base + site.public_path
             flag = '<span class="flag">variant</span>' if site.nested else ""
-            out.append(f'<span class="meta">{html.escape(site.collection)} · {html.escape(site.date)}{flag}</span></a>')
+            out.append(
+                f'<article class="card" data-key="{esc(site.public_path, True)}" '
+                f'data-name="{esc(name, True)}" data-sector="{esc(sector, True)}" data-href="{esc(href, True)}">'
+                f"<h3>{esc(name)}</h3>"
+            )
+            if category:
+                out.append(f'<span class="cat">{esc(category)}</span>')
+            out.append(
+                f'<span class="meta">{esc(site.collection)} · {esc(site.date)}{flag}</span>'
+                f'<span class="row actions">'
+                f'<a class="btn" href="{href}" target="_blank" rel="noopener">Open ↗</a>'
+                f'<button type="button" class="pv" data-w="d">Preview</button>'
+                f'<button type="button" class="pv" data-w="m">Mobile</button>'
+                f"</span>"
+                f'<span class="row rate" role="group" aria-label="Verdict for {esc(name, True)}">'
+                f'<button type="button" data-status="approved">Approved</button>'
+                f'<button type="button" data-status="tweak">Needs tweaks</button>'
+                f'<button type="button" data-status="redo">Redo</button>'
+                f"</span>"
+                f'<textarea class="note" rows="2" placeholder="What should change?" '
+                f'aria-label="Notes for {esc(name, True)}"></textarea>'
+                "</article>"
+            )
         out.append("</div></section>")
-    out.append("</main></div></body></html>")
+    out.append("</main></div><script>" + LANDING_SCRIPT + "</script></body></html>")
     return "".join(out)
 
 
