@@ -469,16 +469,29 @@ nav#navigation a:not(.nav-action):hover { color: var(--ink-on-dark); text-decora
 footer.site-footer {
   background: var(--void-deep);
   color: var(--muted-on-dark);
-  padding: 2.5rem var(--edge);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1.5rem;
-  flex-wrap: wrap;
+  padding: clamp(2.75rem, 5vw, 4rem) var(--edge) 1.75rem;
   border-top: 1px solid rgba(255, 255, 255, .1);
 }
-footer.site-footer .identity { font-size: .8125rem; }
-footer.site-footer p { margin: 0; font-size: .875rem; }
+footer.site-footer .footer-top {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr;
+  gap: 2.5rem;
+  padding-bottom: clamp(2rem, 4vw, 2.75rem);
+}
+footer.site-footer .identity { font-size: .8125rem; align-items: flex-start; }
+footer.site-footer .footer-tagline { margin: 1.1rem 0 0; font: italic 1.0625rem var(--display); color: var(--ink-on-dark); }
+footer.site-footer .footer-nav-label { margin: 0 0 .9rem; font-size: .75rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted-on-dark); }
+footer.site-footer .footer-nav { display: flex; flex-direction: column; gap: .65rem; align-items: flex-start; }
+footer.site-footer .footer-nav a { text-decoration: none; font-size: .9375rem; font-weight: 600; color: var(--ink-on-dark); }
+footer.site-footer .footer-nav a:hover { text-decoration: underline; text-underline-offset: 4px; }
+footer.site-footer .footer-contact address { font-style: normal; font-size: .9375rem; margin: 0 0 1rem; color: var(--muted-on-dark); }
+footer.site-footer .footer-contact .text-link { font-size: .9375rem; color: var(--gold); }
+footer.site-footer .footer-bottom { padding-top: 1.75rem; border-top: 1px solid rgba(255, 255, 255, .1); }
+footer.site-footer .footer-bottom p { margin: 0; font-size: .8125rem; }
+
+@media (max-width: 780px) {
+  footer.site-footer .footer-top { grid-template-columns: 1fr; gap: 2.25rem; }
+}
 
 /* ==========================================================================
    Reveal-on-scroll (staggered, disabled under reduced motion)
