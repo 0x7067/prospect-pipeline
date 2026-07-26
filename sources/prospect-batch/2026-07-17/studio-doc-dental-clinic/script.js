@@ -93,4 +93,27 @@
       }
     });
   });
+
+  // Prepare a guided scheduling request locally for review in WhatsApp.
+  var scheduleGuide = document.getElementById("scheduleGuide");
+  var scheduleGuideText = document.getElementById("scheduleGuideText");
+
+  if (scheduleGuide && scheduleGuideText) {
+    function updateScheduleMessage() {
+      var need = document.getElementById("scheduleNeed").value || "";
+      var professional = document.getElementById("scheduleProfessional").value || "";
+      var name = (document.getElementById("scheduleName").value || "").trim();
+      var lines = ["Olá, vim pelo site do Studio DOC e gostaria de solicitar uma avaliação."];
+
+      if (name) lines.push("", "Nome: " + name);
+      if (need) lines.push("Assunto: " + need);
+      if (professional) lines.push("Profissional de preferência: " + professional);
+      lines.push("", "Gostaria de confirmar o direcionamento e os horários disponíveis.");
+      scheduleGuideText.value = lines.join("\n");
+    }
+
+    scheduleGuide.addEventListener("input", updateScheduleMessage);
+    scheduleGuide.addEventListener("submit", updateScheduleMessage);
+    updateScheduleMessage();
+  }
 })();

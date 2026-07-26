@@ -4,3 +4,60 @@
 @media(max-width:380px){.hero h1{font-size:44px}.experience h2,.section-heading h2,.method h2,.contact h2,.proposal-page h2{font-size:36px}.contact-details div{display:block}.contact-details span{display:block;margin-bottom:5px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 :focus-visible{outline:3px solid #efb44e;outline-offset:3px}
+
+/* Production conversion upgrade */
+.decision-bar{position:relative;z-index:3;background:#fff;border-bottom:1px solid #d8dfe5;box-shadow:0 18px 45px rgba(17,44,73,.08)}
+.decision-grid{display:grid;grid-template-columns:repeat(4,1fr)}
+.decision-grid a{position:relative;display:grid;grid-template-columns:28px 1fr;gap:4px 12px;align-content:center;min-height:126px;padding:24px 26px;text-decoration:none;border-right:1px solid #d8dfe5;transition:background-color .2s,color .2s,transform .2s}
+.decision-grid a:first-child{border-left:1px solid #d8dfe5}
+.decision-grid a:hover{background:#112c49;color:#fff;transform:translateY(-4px)}
+.decision-grid span{grid-row:1/3;color:#1a59a8;font:italic 16px Georgia,serif}
+.decision-grid a:hover span{color:#a9c8eb}
+.decision-grid strong{font-size:15px;line-height:1.25;color:#112c49}
+.decision-grid a:hover strong{color:#fff}
+.decision-grid small{font-size:11px;color:#697786;letter-spacing:.04em}
+.decision-grid a:hover small{color:#d7e0e9}
+.mobile-contact-bar{display:none}
+.service-ledger article{scroll-margin-top:90px}
+.service-ledger article:hover{background:linear-gradient(90deg,rgba(26,89,168,.05),transparent 78%)}
+.service-ledger a{min-height:44px;display:flex;align-items:center}
+.button,.nav-contact{transition:transform .2s,box-shadow .2s,background-color .2s}
+.button:hover,.nav-contact:hover{transform:translateY(-2px);box-shadow:0 12px 24px rgba(17,44,73,.18)}
+@media(max-width:820px){
+body{padding-bottom:62px}
+.decision-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;margin-inline:-16px;padding-inline:16px;scrollbar-width:none}
+.decision-grid::-webkit-scrollbar{display:none}
+.decision-grid a{flex:0 0 78vw;min-height:112px;border:1px solid #d8dfe5;border-right:0;scroll-snap-align:start}
+.decision-grid a:last-child{border-right:1px solid #d8dfe5}
+.mobile-contact-bar{position:fixed;display:grid;grid-template-columns:.8fr 1.2fr;left:0;right:0;bottom:0;z-index:50;min-height:62px;background:#112c49;padding-bottom:env(safe-area-inset-bottom);box-shadow:0 -8px 26px rgba(17,44,73,.22)}
+.mobile-contact-bar a{display:flex;align-items:center;justify-content:center;color:#fff;text-decoration:none;font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:.06em}
+.mobile-contact-bar a+a{background:#1a59a8}
+}
+
+/* Brand prominence and mobile-density follow-up */
+.hero-brand-mark{width:112px;height:auto;margin:0 0 24px;padding:9px 10px;background:rgba(255,255,255,.94);box-shadow:0 12px 30px rgba(4,16,28,.18)}
+.footer-grid .footer-stacked-logo{width:108px;height:auto}
+@media(max-width:820px){
+.hero{height:730px}
+.hero-grid{padding-top:34px}
+.hero-brand-mark{width:78px;margin-bottom:13px;padding:6px 7px}
+.hero h1{font-size:44px}
+.hero-lead{margin:17px 0 20px;font-size:15px}
+.hero-image{height:40%}
+.button-accent{padding-inline:16px;font-size:12px}
+.experience{padding:62px 0}
+.experience-grid{gap:30px}
+.principles{display:flex;gap:12px;overflow-x:auto;margin-inline:-16px;padding:0 16px 8px;scroll-snap-type:x mandatory}
+.principles div{flex:0 0 72%;min-height:118px;display:grid;align-content:start;scroll-snap-align:start;padding:16px;background:rgba(255,255,255,.48);border:1px solid #d8d5cc}
+.services{padding:62px 0}
+.section-heading.split{margin-bottom:32px}
+.service-ledger{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border:0;gap:10px}
+.service-ledger article{display:flex;flex-direction:column;align-items:flex-start;min-height:196px;padding:18px 14px;border:1px solid #d9dfe4;gap:8px;background:#fff}
+.service-ledger .service-number{font-size:16px}
+.service-ledger article>div{display:contents}
+.service-ledger h3{font-size:18px;line-height:1.08}
+.service-ledger p{font-size:12px;line-height:1.4;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.service-ledger a{grid-column:auto;margin-top:auto;min-height:38px;font-size:10px;line-height:1.2}
+.service-ledger a span{font-size:15px;margin-left:5px}
+.footer-grid .footer-stacked-logo{width:90px}
+}

@@ -80,4 +80,26 @@
       yearEl.textContent = String(currentYear);
     }
   }
+
+  // Build a first-contact message locally; the visitor reviews it in WhatsApp.
+  var intakeForm = document.getElementById("contactIntake");
+  var intakeText = document.getElementById("contactIntakeText");
+  if (intakeForm && intakeText) {
+    function updateIntakeMessage() {
+      var name = (document.getElementById("contactName").value || "").trim();
+      var subject = document.getElementById("contactSubject").value || "";
+      var summary = (document.getElementById("contactSummary").value || "").trim();
+      var lines = ["Olá, gostaria de orientação inicial com o Rosetti Advogados."];
+
+      if (name) lines.push("", "Nome: " + name);
+      if (subject) lines.push("Assunto: " + subject);
+      if (summary) lines.push("", "Resumo: " + summary);
+      lines.push("", "Entendo que o atendimento e os próximos passos serão confirmados pela equipe.");
+      intakeText.value = lines.join("\n");
+    }
+
+    intakeForm.addEventListener("input", updateIntakeMessage);
+    intakeForm.addEventListener("submit", updateIntakeMessage);
+    updateIntakeMessage();
+  }
 })();

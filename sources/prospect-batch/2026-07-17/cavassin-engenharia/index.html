@@ -3,50 +3,75 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102b35">
   <meta name="description" content="Cavassin Engenharia: projetos complementares, arquitetônicos, regularização e aprovação em Curitiba e região metropolitana.">
-  <title>Cavassin Engenharia | Projetos e regularização em Curitiba</title>
+  <title>Cavassin Engenharia | Projetos, arquitetura e regularização</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="production-page">
   <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
   <header class="site-header">
     <div class="container nav-wrap">
-      <a class="brand" href="#inicio" aria-label="Cavassin Engenharia — início">
-        <img src="assets/logo-cavassin.jpg" alt="Cavassin Engenharia" width="170" height="50">
-      </a>
+      <a class="brand" href="#inicio" aria-label="Cavassin Engenharia — início"><img src="assets/logo-cavassin.jpg" alt="Cavassin Engenharia" width="170" height="50"></a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><b class="sr-only">Abrir menu</b></button>
-      <nav id="site-nav" class="site-nav" aria-label="Navegação principal">
-        <a href="#atuacao">Atuação</a><a href="#metodo">Como trabalhamos</a><a href="#empresa">Empresa</a><a class="nav-cta" href="#contato">Falar com a equipe</a>
-      </nav>
+      <nav id="site-nav" class="site-nav" aria-label="Navegação principal"><a href="#solucoes">Soluções</a><a href="#processo">Processo</a><a href="#experiencia">Experiência</a><a class="nav-cta" href="#contato">Solicitar orçamento</a></nav>
     </div>
   </header>
+
   <main id="conteudo">
-    <section id="inicio" class="hero">
-      <div class="hero-image" role="img" aria-label="Estrutura de engenharia em obra, imagem oficial da Cavassin Engenharia"></div>
-      <div class="hero-shade"></div>
-      <div class="container hero-inner">
-        <p class="eyebrow light">Engenharia e arquitetura · atuação informada desde 2005</p>
-        <h1>Projetos que organizam<br><em>cada etapa</em> da obra.</h1>
-        <p class="hero-lede">Projetos complementares, arquitetura, regularização e aprovação para construir com clareza em Curitiba e região metropolitana.</p>
-        <div class="hero-actions"><a class="button button-accent" href="#contato">Conversar sobre meu projeto <img class="ph-icon" src="assets/icons/arrow-up-right.svg" alt="" aria-hidden="true"></a><a class="text-link light" href="#atuacao">Conhecer a atuação <img class="ph-icon" src="assets/icons/arrow-down.svg" alt="" aria-hidden="true"></a></div>
+    <section id="inicio" class="ce-hero" aria-labelledby="ce-hero-title">
+      <div class="ce-hero-grid" aria-hidden="true"></div><div class="ce-hero-photo" role="img" aria-label="Imagem institucional de engenharia publicada pela Cavassin"></div>
+      <div class="container ce-hero-inner">
+        <div class="ce-hero-copy">
+          <p class="ce-label">Engenharia + arquitetura · desde 2005</p>
+          <h1 id="ce-hero-title">Antes da obra,<br>existe uma <em>decisão técnica.</em></h1>
+          <p>Projetos complementares, arquitetura, regularização e aprovação para organizar o caminho do seu imóvel em Curitiba e região metropolitana.</p>
+          <div class="ce-actions"><a class="ce-button ce-button-primary" href="#solucoes">Encontrar a frente do projeto <img class="ph-icon" src="assets/icons/arrow-down.svg" alt="" aria-hidden="true"></a><a class="ce-text-link" href="#processo">Ver como trabalhamos <img class="ph-icon" src="assets/icons/arrow-down.svg" alt="" aria-hidden="true"></a></div>
+        </div>
       </div>
-      <div class="hero-stamp" aria-hidden="true"><span>CA</span><small>engenharia<br>e arquitetura</small></div>
+      <div class="ce-hero-index"><b>CA</b><span>Engenharia<br>e projetos</span></div>
     </section>
-    <section id="atuacao" class="section services-section">
-      <div class="container split-heading"><div><p class="eyebrow">O que fazemos</p><h2>Clareza técnica<br><em>antes da obra.</em></h2></div><p class="section-intro">A Cavassin reúne projetos e regularizações em um mesmo percurso — do desenho à documentação necessária para avançar.</p></div>
-      <div class="container service-grid">
-        <article class="service-card service-feature"><span class="service-no">01</span><h3>Projetos complementares</h3><p>Elétrico, tubulações telefônicas, hidráulico e incêndio, conforme a atuação publicada pela empresa.</p><a href="#contato" aria-label="Conversar sobre projetos complementares">Saiba mais <img class="ph-icon" src="assets/icons/arrow-up-right.svg" alt="" aria-hidden="true"></a></article>
-        <article class="service-card"><span class="service-no">02</span><h3>Projetos arquitetônicos</h3><p>Desenvolvimento de projetos arquitetônicos para apoiar as próximas decisões do imóvel.</p><a href="#contato" aria-label="Conversar sobre projetos arquitetônicos">Saiba mais <img class="ph-icon" src="assets/icons/arrow-up-right.svg" alt="" aria-hidden="true"></a></article>
-        <article class="service-card"><span class="service-no">03</span><h3>Regularização e aprovação</h3><p>Regularização de obras e aprovação de projetos junto às prefeituras de Curitiba e região metropolitana.</p><a href="#contato" aria-label="Conversar sobre regularização e aprovação">Saiba mais <img class="ph-icon" src="assets/icons/arrow-up-right.svg" alt="" aria-hidden="true"></a></article>
+
+    <section class="ce-scope" aria-label="Resumo da atuação">
+      <div class="container"><span><b>01</b> Projetos complementares</span><span><b>02</b> Projetos arquitetônicos</span><span><b>03</b> Regularização e aprovação</span></div>
+    </section>
+
+    <section id="solucoes" class="ce-services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="ce-heading"><div><p class="ce-label">Uma visão integrada</p><h2 id="services-title">Qual é a etapa<br>do <em>seu projeto?</em></h2></div><p>A Cavassin reúne frentes que ajudam a dar forma técnica, documental e arquitetônica à necessidade apresentada.</p></div>
+        <div class="ce-service-grid">
+          <article><span>01 / Projetos</span><h3>Complementares</h3><p>Projetos elétrico, hidráulico, de tubulações telefônicas e de incêndio, conforme atuação publicada.</p><ul><li>Elétrico</li><li>Hidráulico</li><li>Tubulações telefônicas</li><li>Incêndio</li></ul><a href="https://wa.me/5541991049789?text=Ol%C3%A1%2C%20gostaria%20de%20conversar%20sobre%20projetos%20complementares." target="_blank" rel="noopener">Solicitar orçamento desta frente <img class="ph-icon" src="assets/icons/arrow-up-right.svg" alt="" aria-hidden="true"></a></article>
+          <article><span>02 / Arquitetura</span><h3>Projetos arquitetônicos</h3><p>Desenvolvimento de projetos arquitetônicos para apoiar definições e os próximos passos do imóvel.</p><div class="ce-card-mark" aria-hidden="true"><i></i><i></i><i></i></div><a href="https://wa.me/5541991049789?text=Ol%C3%A1%2C%20gostaria%20de%20conversar%20sobre%20um%20projeto%20arquitet%C3%B4nico." target="_blank" rel="noopener">Solicitar orçamento desta frente <img class="ph-icon" src="assets/icons/arrow-up-right.svg" alt="" aria-hidden="true"></a></article>
+          <article><span>03 / Documentação</span><h3>Regularização e aprovação</h3><p>Regularização de obras e aprovação de projetos junto às prefeituras de Curitiba e região metropolitana.</p><div class="ce-card-stamp">CURITIBA<br>+ RMC</div><a href="https://wa.me/5541991049789?text=Ol%C3%A1%2C%20gostaria%20de%20conversar%20sobre%20regulariza%C3%A7%C3%A3o%20ou%20aprova%C3%A7%C3%A3o." target="_blank" rel="noopener">Solicitar orçamento desta frente <img class="ph-icon" src="assets/icons/arrow-up-right.svg" alt="" aria-hidden="true"></a></article>
+        </div>
       </div>
     </section>
-    <section id="metodo" class="section method-section">
-      <div class="container method-layout"><div class="method-art"><div class="crosshair crosshair-a"></div><div class="crosshair crosshair-b"></div><div class="blueprint"><span>PLANTA</span><i></i><i></i><i></i></div></div><div class="method-copy"><p class="eyebrow">Um processo legível</p><h2>Menos ruído.<br><em>Mais direção.</em></h2><p>A empresa informa que segue legislações e normas técnicas para elaboração de projetos e emissão de documentos, buscando antecipar e solucionar as fases que o projeto pode apresentar.</p><ol class="steps"><li><b>01</b><span><strong>Entender</strong><br>Escopo, imóvel e documentação disponível.</span></li><li><b>02</b><span><strong>Estruturar</strong><br>Projetos e documentos de acordo com a necessidade.</span></li><li><b>03</b><span><strong>Encaminhar</strong><br>Próximos passos para aprovação ou regularização.</span></li></ol></div></div>
+
+    <section id="processo" class="ce-process" aria-labelledby="process-title">
+      <div class="container ce-process-grid">
+        <div class="ce-blueprint" aria-hidden="true"><span>LEITURA TÉCNICA</span><div class="ce-plan"><i></i><i></i><i></i><i></i></div><b>01:100</b></div>
+        <div class="ce-process-copy"><p class="ce-label">Processo claro, conversa objetiva</p><h2 id="process-title">Entender.<br><em>Estruturar.</em><br>Encaminhar.</h2><p>A empresa informa seguir legislações e normas técnicas na elaboração de projetos e documentos. O ponto de partida é compreender a necessidade e a documentação disponível.</p>
+          <ol><li><b>01</b><div><strong>Entender a demanda</strong><span>Tipo de serviço, imóvel e contexto apresentado.</span></div></li><li><b>02</b><div><strong>Estruturar o escopo</strong><span>Projeto e documentação de acordo com a necessidade.</span></div></li><li><b>03</b><div><strong>Orientar os próximos passos</strong><span>Encaminhamento para projeto, regularização ou aprovação.</span></div></li></ol>
+        </div>
+      </div>
     </section>
-    <section id="empresa" class="section company-section"><div class="container company-layout"><div><p class="eyebrow">Sobre a Cavassin</p><h2>Experiência para<br><em>decidir melhor.</em></h2></div><div class="company-text"><p>Segundo informações publicadas pela Cavassin, a empresa atua desde 2005 no mercado de projetos em Curitiba e região metropolitana. A mesma fonte informa experiência anterior de profissionais em projetos arquitetônicos e regularizações desde 1996, e em projetos complementares a partir de 2002.</p><p class="quote">“Ética, respeito, efetividade e competência.”</p><small>Valores publicados pela empresa; datas e escopo devem ser confirmados no orçamento.</small></div></div></section>
-    <section id="contato" class="contact-section"><div class="container contact-layout"><div><p class="eyebrow light">Vamos conversar</p><h2>Seu próximo passo<br><em>começa aqui.</em></h2><p class="contact-lede">Envie uma mensagem para tirar dúvidas sobre serviços, documentação ou orçamento.</p></div><div class="contact-card"><div class="contact-row"><span>Endereço</span><strong>Av. Paraná, 1755 — Sala 33<br>Curitiba/PR</strong></div><div class="contact-row"><span>Telefone</span><a href="tel:+554130198780">(41) 3019-8780</a></div><div class="contact-row"><span>WhatsApp</span><a href="https://wa.me/5541991049789" target="_blank" rel="noopener">(41) 99104-9789</a></div><div class="contact-row"><span>E-mail</span><a href="mailto:contato@cavassin.eng.br">contato@cavassin.eng.br</a></div><a class="button button-accent contact-button" href="mailto:contato@cavassin.eng.br?subject=Solicita%C3%A7%C3%A3o%20de%20or%C3%A7amento">Solicitar orçamento por e-mail <img class="ph-icon" src="assets/icons/arrow-up-right.svg" alt="" aria-hidden="true"></a></div></div></section>
+
+    <section id="experiencia" class="ce-history" aria-labelledby="history-title">
+      <div class="container ce-history-grid">
+        <div><p class="ce-label">Experiência publicada</p><h2 id="history-title">Rigor técnico<br>construído <em>no tempo.</em></h2><p>A Cavassin informa atuação no mercado de projetos desde 2005, em Curitiba e região metropolitana.</p></div>
+        <div class="ce-timeline"><div><b>1996</b><span>Experiência profissional anterior informada em projetos arquitetônicos e regularizações.</span></div><div><b>2002</b><span>Experiência profissional anterior informada em projetos complementares.</span></div><div><b>2005</b><span>Início de atuação informado da Cavassin Engenharia.</span></div></div>
+      </div>
+      <div class="container ce-values"><span>Ética</span><span>Respeito</span><span>Efetividade</span><span>Competência</span><small>Valores publicados pela empresa</small></div>
+    </section>
+
+    <section id="contato" class="ce-contact" aria-labelledby="contact-title">
+      <div class="container ce-contact-grid">
+        <div><p class="ce-label">Converse com a Cavassin</p><h2 id="contact-title">Diga em qual etapa<br><em>o seu projeto está.</em></h2><p>A equipe pode orientar sobre serviços, informações necessárias e solicitação de orçamento.</p><div class="ce-inquiry-options" aria-label="Escolha o assunto do orçamento"><span>Escolha o assunto</span><a href="https://wa.me/5541991049789?text=Ol%C3%A1%2C%20gostaria%20de%20conversar%20sobre%20projetos%20complementares." target="_blank" rel="noopener">Projetos complementares</a><a href="https://wa.me/5541991049789?text=Ol%C3%A1%2C%20gostaria%20de%20conversar%20sobre%20um%20projeto%20arquitet%C3%B4nico." target="_blank" rel="noopener">Projeto arquitetônico</a><a href="https://wa.me/5541991049789?text=Ol%C3%A1%2C%20gostaria%20de%20conversar%20sobre%20regulariza%C3%A7%C3%A3o%20ou%20aprova%C3%A7%C3%A3o." target="_blank" rel="noopener">Regularização ou aprovação</a></div><div class="ce-contact-actions"><a class="ce-button ce-button-ghost" href="mailto:contato@cavassin.eng.br?subject=Solicita%C3%A7%C3%A3o%20de%20or%C3%A7amento">Prefiro enviar e-mail</a></div></div>
+        <div class="ce-contact-card"><div><small>Telefone</small><a href="tel:+554130198780">(41) 3019-8780</a></div><div><small>WhatsApp</small><a href="https://wa.me/5541991049789" target="_blank" rel="noopener">(41) 99104-9789</a></div><div><small>E-mail</small><a href="mailto:contato@cavassin.eng.br">contato@cavassin.eng.br</a></div><div><small>Endereço</small><span>Av. Paraná, 1755 · Sala 33<br>Boa Vista · Curitiba/PR</span></div></div>
+      </div>
+    </section>
   </main>
-  <footer class="site-footer"><div class="container footer-wrap"><span>© 2026 Cavassin Engenharia</span><span>Curitiba/PR · Engenharia e arquitetura</span></div></footer>
+  <footer class="ce-footer"><div class="container"><img src="assets/logo-cavassin.jpg" alt="Cavassin Engenharia"><span>Curitiba/PR · Engenharia e arquitetura</span><span>© 2026 Cavassin Engenharia</span></div></footer>
   <script src="script.js" defer></script>
 </body>
 </html>

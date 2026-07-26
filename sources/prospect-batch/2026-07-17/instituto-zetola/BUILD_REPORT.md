@@ -206,7 +206,7 @@ verification/           run_checks.js + report.json + all screenshots (viewport,
 ## 6. Known limitations
 
 1. **No mobile screenshot of the *current* (official) site exists in `assets/proposal/`** — only `current-desktop-full.png` / `current-desktop-viewport.png` were captured (in a prior part of this build, before this session). `proposal.html` discloses this gap directly to the reader at the point where a mobile "before" image would otherwise appear, rather than omitting it silently or fabricating one. This session did not attempt to backfill it, to avoid making an additional unreviewed live-site capture outside the original evidence-gathering pass; if wanted, it is a same-day, ~1-command follow-up (`playwright` screenshot of the live official URL at 390×844) that would not require touching the finished demo pages.
-2. **The embedded Google Map depends on live network access at view time** (§3.4) — it rendered correctly in this sandboxed session, but is not a bundled asset and its availability outside this environment cannot be guaranteed by this build.
+2. **The live Google Maps embed was removed in the 2026-07-26 improvement pass.** The contact section now uses a locally rendered arrival panel with the verified address, phone number and a direct external route link, avoiding an empty third-party frame when map embeds are unavailable.
 3. **Credibility/proof deliberately caps at "meets its ≥3 floor comfortably but is the lowest-scoring dimension"** because the site publishes only one named professional (Dr. André Zétola, CRO 7877) and one attributed self-reported statistic (~90% bone-regeneration success) — by design, per `BUILD_TASK.md`'s instruction to omit anything unverified. This is a source-availability constraint, not an execution gap.
 4. **No hosting/publication step was run or attempted**, per instruction. "Published files match reviewed files by hash" (gate §7) is therefore not applicable — nothing was published to compare.
 
@@ -220,3 +220,9 @@ verification/           run_checks.js + report.json + all screenshots (viewport,
 - Zero overflow, zero console errors, zero page errors, zero failed requests across both pages at both required viewports (§3).
 - Mobile menu opens/closes via button, link, and Escape, with the required accessible-label change and focus return (§3.1).
 - **Not deployed. Not published. All work remains local to this directory.**
+
+---
+
+## 8. Improvement pass — 2026-07-26
+
+Updated `index.html` and `styles.css` only. Added brand-specific clinical wayfinding for four verified needs, local-business structured data from already verified contact facts, and a resolved arrival/contact panel in place of the network-dependent map frame. The production page was rendered and checked at 1440×900 and 390×844: scroll width matched viewport width, local assets decoded, anchors resolved, runtime/request errors were zero, and the mobile menu opened and closed with the expected ARIA label/state changes and Escape behavior. `node --check script.js`, unresolved CSS-variable detection, forbidden production-language search and `git diff --check` also passed.

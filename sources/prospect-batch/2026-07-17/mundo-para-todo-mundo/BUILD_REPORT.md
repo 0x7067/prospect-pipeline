@@ -77,3 +77,9 @@ A exigência de não autoaprovação foi respeitada: não foram usados outros ag
 ## Segurança de escopo
 
 Nenhum scheduler foi alterado, nenhum contato foi realizado, nenhum deploy foi feito e nenhum diretório irmão foi modificado.
+
+## Passagem de melhoria — 26/07/2026
+
+Foram atualizados `index.html` e `styles.css`. A nova versão reforça os dois próximos passos verificados já no hero (matrículas 2026 e telefone da secretaria), adiciona um percurso rápido para famílias, uma seção de informações essenciais e dados estruturados limitados aos contatos/endereço confirmados. O `tel:` inválido da versão anterior foi corrigido para `+554130405872`, e o tamanho do título no hero mobile foi reequilibrado para manter a mensagem, o contexto e os dois CTAs em uma primeira tela mais útil.
+
+A renderização foi validada em 1440×900 e 390×844: zero overflow horizontal, anchors ausentes, imagens quebradas, exceções de runtime ou requests com falha. O menu mobile abriu e fechou com estados/rótulos ARIA corretos e Escape. Também passaram a conferência estática de ativos/alt, `node --check script.js`, detecção de variáveis CSS sem definição, busca por linguagem proibida na produção e `git diff --check`.

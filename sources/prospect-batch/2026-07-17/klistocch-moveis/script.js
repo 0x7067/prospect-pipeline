@@ -19,6 +19,7 @@
     toggle.setAttribute('aria-expanded', 'true');
     toggle.setAttribute('aria-label', 'Fechar menu');
     menu.classList.add('is-open');
+    if (window.innerWidth <= 760) document.body.style.overflow = 'hidden';
   }
 
   function toggleMenu() {
@@ -53,5 +54,15 @@
   if (yearSpan) {
     yearSpan.textContent = new Date().getFullYear().toString();
   }
+
+  document.querySelectorAll('.depoimento-toggle').forEach(function (button) {
+    button.addEventListener('click', function () {
+      var quote = button.closest('.depoimento');
+      var expanded = button.getAttribute('aria-expanded') === 'true';
+      button.setAttribute('aria-expanded', String(!expanded));
+      button.textContent = expanded ? 'Ler depoimento completo' : 'Mostrar menos';
+      if (quote) quote.classList.toggle('is-expanded', !expanded);
+    });
+  });
 })();
 document.addEventListener('DOMContentLoaded',function(){const title=document.querySelector('.hero-panel h1');if(title){title.innerHTML=title.innerHTML.replace('planejados','<mark class="word-highlight">planejados</mark>').replace('para você','<span class="word-circle">para você</span>')}const slides=[...document.querySelectorAll('.hero-slide')],dots=[...document.querySelectorAll('.hero-dot')];let i=0;function show(n){i=n;slides.forEach((s,k)=>s.classList.toggle('is-active',k===n));dots.forEach((d,k)=>d.classList.toggle('is-active',k===n))}dots.forEach((d,k)=>d.addEventListener('click',()=>show(k)));if(slides.length>1)setInterval(()=>show((i+1)%slides.length),5000);const io=new IntersectionObserver(es=>es.forEach(e=>e.isIntersecting&&e.target.classList.add('is-visible')),{threshold:.12});document.querySelectorAll('section:not(.hero),.ambiente-card,.processo-item').forEach(e=>{e.dataset.reveal='';io.observe(e)})});

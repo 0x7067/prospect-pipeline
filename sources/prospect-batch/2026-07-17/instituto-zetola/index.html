@@ -24,6 +24,22 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,900;1,500;1,600&family=Source+Sans+Pro:wght@300;400;600;700&family=Advent+Pro:wght@300;400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "name": "Instituto Zétola Odontologia",
+  "url": "https://www.institutozetola.com.br/",
+  "telephone": "+554130242202",
+  "email": "contato@institutozetola.com.br",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua Alferes Ângelo Sampaio, 2303",
+    "addressLocality": "Curitiba",
+    "addressRegion": "PR",
+    "postalCode": "80730-460",
+    "addressCountry": "BR"
+  }
+}</script>
 </head>
 <body>
 <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
@@ -92,6 +108,11 @@
       <p class="hero__eyebrow">Instituto Zétola Odontologia · Bigorrilho, Curitiba</p>
       <h1 class="hero__title">Tratar você é <em>aquilo que sabemos fazer de melhor.</em></h1>
       <p class="hero__lede">Três gerações da família Zétola dedicadas à odontologia em Curitiba — do diagnóstico ao sorriso, com dez especialidades organizadas sob a condução do Dr. André Zétola, CRO 7877.</p>
+      <a class="hero__focus" href="#implantodontia">
+        <img src="assets/images/banner-02.png" alt="">
+        <span><small>Atuação do Dr. André Zétola</small><strong>Implantodontia e regeneração óssea</strong></span>
+        <span aria-hidden="true">↓</span>
+      </a>
       <div class="hero__ctas">
         <a class="btn btn-on-dark" href="https://wa.me/5541999631503?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%21" target="_blank" rel="noopener noreferrer">
           <svg class="icon-inline" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.03 0C5.5 0 .2 5.3.2 11.85c0 2.09.55 4.13 1.6 5.93L0 24l6.4-1.68a11.8 11.8 0 0 0 5.62 1.43h.01c6.53 0 11.83-5.3 11.83-11.85 0-3.17-1.23-6.14-3.34-8.42zM12.03 21.4a9.5 9.5 0 0 1-4.85-1.33l-.35-.2-3.8 1 1.02-3.7-.23-.38a9.53 9.53 0 1 1 17.7-5c0 5.27-4.28 9.6-9.5 9.6z"/></svg>
@@ -106,6 +127,35 @@
       </div>
     </div>
   </section>
+
+  <nav class="care-paths" aria-label="Atalhos para especialidades">
+    <div class="container care-paths__grid">
+      <div class="care-paths__intro">
+        <p class="eyebrow">Por onde começar</p>
+        <p>Encontre a área mais próxima da sua necessidade.</p>
+      </div>
+      <a href="#dtm">
+        <span>01</span>
+        <strong>DTM e dor orofacial</strong>
+        <small>Conhecer a abordagem</small>
+      </a>
+      <a href="#implantodontia">
+        <span>02</span>
+        <strong>Implantes e regeneração</strong>
+        <small>Ver a área de atuação</small>
+      </a>
+      <a href="#apneia-do-sono">
+        <span>03</span>
+        <strong>Sono e respiração</strong>
+        <small>Ver apneia do sono</small>
+      </a>
+      <a href="#odontopediatria">
+        <span>04</span>
+        <strong>Cuidado infantil</strong>
+        <small>Ver odontopediatria</small>
+      </a>
+    </div>
+  </nav>
 
   <!-- HERITAGE -->
   <section class="heritage" id="historia">
@@ -156,9 +206,22 @@
         <p class="eyebrow">Especialidades</p>
         <h2 class="section-heading">Dez especialidades, um único plano de tratamento</h2>
         <p class="section-lede" style="margin-top:1rem;">Cada caso é tratado com a singularidade que merece, sempre respeitando os anseios e as expectativas de quem nos procura — analisando o paciente como um todo, não apenas a queixa principal.</p>
+        <nav class="specialty-jump" aria-label="Ir direto para uma especialidade">
+          <span>Ir direto para:</span>
+          <a href="#regeneracao-ossea">Regeneração óssea</a>
+          <a href="#sedacao-consciente">Sedação consciente</a>
+          <a href="#apneia-do-sono">Apneia do sono</a>
+          <a href="#cirurgia-ortognatica">Cirurgia ortognática</a>
+          <a href="#dtm">DTM e dor orofacial</a>
+          <a href="#endodontia">Endodontia</a>
+          <a href="#odontologia-estetica">Odontologia estética</a>
+          <a href="#odontopediatria">Odontopediatria</a>
+          <a href="#ortodontia">Ortodontia</a>
+          <a href="#periodontia">Periodontia</a>
+        </nav>
       </div>
 
-      <article class="featured-specialty">
+      <article class="featured-specialty" id="regeneracao-ossea">
         <div class="featured-specialty__media">
           <span class="featured-specialty__tag">Especialidade em destaque</span>
           <img src="assets/images/sp-regeneracao-ossea.png" alt="Ilustração representando o tratamento de regeneração óssea do Instituto Zétola.">
@@ -383,7 +446,7 @@
           <img src="assets/images/banner-03.png" alt="Estojo de alinhador Invisalign com detalhe em azul-esverdeado, usado pelo Instituto Zétola na especialidade de ortodontia.">
           <figcaption>Ortodontia com alinhadores Invisalign, ao lado dos aparelhos tradicionais.</figcaption>
         </figure>
-        <figure>
+        <figure id="implantodontia">
           <img src="assets/images/banner-02.png" alt="Implante dentário em detalhe, imagem publicada pelo Instituto Zétola sobre sua especialidade de implantodontia.">
           <figcaption>Implantodontia, uma das áreas de atuação do Dr. André Zétola.</figcaption>
         </figure>
@@ -435,15 +498,21 @@
           </div>
         </div>
 
-        <div>
-          <div class="contact__map">
-            <div class="contact__map-fallback" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s7-7.58 7-12.5A7 7 0 0 0 5 9.5C5 14.42 12 22 12 22z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
-              <span>R. Alferes Ângelo Sampaio, 2.303 — Bigorrilho, Curitiba</span>
-            </div>
-            <iframe title="Localização do Instituto Zétola Odontologia no mapa" src="https://www.google.com/maps?q=-25.4346561,-49.2889144&z=16&output=embed" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="contact__arrival" aria-label="Informações para chegar ao Instituto Zétola">
+          <div class="contact__arrival-mark" aria-hidden="true">
+            <img src="assets/images/icone-zetola.png" alt="">
           </div>
-          <a class="contact__map-link" href="https://www.google.com/maps?q=-25.4346561,-49.2889144" target="_blank" rel="noopener noreferrer">Abrir no Google Maps ↗</a>
+          <div class="contact__arrival-copy">
+            <p class="eyebrow">Bigorrilho · Curitiba</p>
+            <h3>Seu cuidado começa antes da consulta.</h3>
+            <p>Confirme o melhor horário diretamente com a equipe e use a rota para chegar à Rua Alferes Ângelo Sampaio, 2.303.</p>
+          </div>
+          <div class="contact__arrival-actions">
+            <a class="btn btn-on-dark" href="https://www.google.com/maps/search/?api=1&amp;query=-25.4346561,-49.2889144" target="_blank" rel="noopener noreferrer">Abrir rota no mapa</a>
+            <a class="contact__arrival-phone" href="tel:+554130242202">Prefere falar? <strong>(41) 3024-2202</strong></a>
+            <button class="contact__copy" type="button" data-copy-address="R. Alferes Ângelo Sampaio, 2.303 — Bigorrilho, Curitiba – PR, 80730-460">Copiar endereço</button>
+            <span class="contact__copy-status" data-copy-status aria-live="polite"></span>
+          </div>
         </div>
       </div>
     </div>

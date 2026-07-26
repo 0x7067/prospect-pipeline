@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Condensed:wght@400;500;600;700&family=Roboto+Slab:wght@600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="styles.css?v=20260726" />
 </head>
 <body>
 <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
@@ -56,28 +56,43 @@
   <section class="hero" id="inicio">
     <div class="container hero-grid">
       <div class="hero-copy">
-        <p class="hero-figure" aria-hidden="true">03</p>
-        <h1>Especialistas na defesa dos direitos trabalhistas, previdenciários e sindicais.</h1>
-        <p class="lede">Equipe de profissionais especializada na defesa dos interesses de trabalhadores, segurados e entidades sindicais, com atendimento em Curitiba/PR.</p>
+        <p class="eyebrow hero-eyebrow">Trabalhista · Previdenciário · Sindical</p>
+        <h1>Defesa jurídica para quem trabalha, contribui e representa.</h1>
+        <p class="lede">Atuação especializada para trabalhadores, segurados e entidades sindicais, com orientação técnica e atendimento humanizado em Curitiba/PR.</p>
         <div class="hero-actions">
-          <a class="btn btn-on-dark" href="https://wa.me/5541998200917?text=Ol%C3%A1%2C%20estou%20no%20site%20e%20preciso%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener noreferrer">Falar com o escritório</a>
-          <a class="btn btn-outline" style="color:#fff;border-color:rgba(255,255,255,.6)" href="#atuacao">Ver áreas de atuação</a>
+          <a class="btn btn-on-dark" href="https://wa.me/5541998200917?text=Ol%C3%A1%2C%20estou%20no%20site%20e%20preciso%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener noreferrer">Conversar sobre meu caso</a>
+          <a class="btn btn-outline hero-outline" href="#jornadas">Encontrar meu caminho</a>
         </div>
         <dl class="hero-facts">
           <div>
-            <dt>OAB/PR</dt>
-            <dd>38.934 — Cláudio Rosetti de Campos, advogado sócio</dd>
+            <dt>38.934</dt>
+            <dd>OAB/PR do advogado sócio Cláudio Rosetti</dd>
           </div>
           <div>
-            <dt>Sede</dt>
+            <dt>Curitiba</dt>
             <dd>Centro de Curitiba/PR</dd>
           </div>
           <div>
-            <dt>Frentes</dt>
+            <dt>03 frentes</dt>
             <dd>Trabalhista · Previdenciária · Sindical</dd>
           </div>
         </dl>
       </div>
+      <aside class="hero-paths" aria-label="Escolha seu ponto de partida">
+        <p class="hero-paths-label">Comece pelo seu contexto</p>
+        <h2>Qual situação trouxe você até aqui?</h2>
+        <a href="https://wa.me/5541998200917?text=Ol%C3%A1%2C%20gostaria%20de%20orienta%C3%A7%C3%A3o%20sobre%20uma%20quest%C3%A3o%20trabalhista." target="_blank" rel="noopener noreferrer"><span>01</span><strong>Trabalho ou ex-emprego</strong><small>Questões individuais e relações de trabalho</small></a>
+        <a href="https://wa.me/5541998200917?text=Ol%C3%A1%2C%20gostaria%20de%20orienta%C3%A7%C3%A3o%20sobre%20um%20benef%C3%ADcio%20do%20INSS." target="_blank" rel="noopener noreferrer"><span>02</span><strong>Benefício do INSS</strong><small>Aposentadorias, auxílios, pensões e revisões</small></a>
+        <a href="https://wa.me/5541998200917?text=Ol%C3%A1%2C%20represento%20uma%20entidade%20sindical%20e%20gostaria%20de%20falar%20com%20o%20escrit%C3%B3rio." target="_blank" rel="noopener noreferrer"><span>03</span><strong>Entidade sindical</strong><small>Assessoria, negociação e direitos coletivos</small></a>
+      </aside>
+    </div>
+  </section>
+
+  <section class="principles" aria-label="Princípios do atendimento">
+    <div class="container principles-grid">
+      <p><strong>Ética e transparência</strong><span>Relações conduzidas com responsabilidade</span></p>
+      <p><strong>Atuação técnica</strong><span>Cada caso parte de sua realidade específica</span></p>
+      <p><strong>Atendimento humanizado</strong><span>Escuta clara para orientar os próximos passos</span></p>
     </div>
   </section>
 
@@ -355,10 +370,34 @@
         </div>
 
         <div class="contact-cta">
-          <h3>Prefere falar agora?</h3>
-          <p>Envie uma mensagem pelo WhatsApp e a equipe responde dentro do horário de atendimento.</p>
-          <a class="btn btn-on-dark" href="https://wa.me/5541998200917?text=Ol%C3%A1%2C%20estou%20no%20site%20e%20preciso%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener noreferrer">Abrir WhatsApp</a>
-          <p class="divider-note" style="color:rgba(255,255,255,.65)">Instagram, Facebook e LinkedIn oficiais no rodapé desta página.</p>
+          <p class="eyebrow contact-eyebrow">Primeiro contato</p>
+          <h3>Leve o contexto essencial para a conversa</h3>
+          <p>Escolha o assunto e prepare uma mensagem objetiva. O envio acontece pelo WhatsApp oficial do escritório.</p>
+          <form class="contact-intake" id="contactIntake" action="https://wa.me/5541998200917" method="get" target="_blank">
+            <input type="hidden" id="contactIntakeText" name="text" value="">
+            <div class="contact-field">
+              <label for="contactName">Como podemos chamar você? <span>opcional</span></label>
+              <input id="contactName" type="text" autocomplete="name">
+            </div>
+            <div class="contact-field">
+              <label for="contactSubject">Qual é o assunto?</label>
+              <select id="contactSubject" required>
+                <option value="">Selecione uma opção</option>
+                <option value="Questão trabalhista">Questão trabalhista</option>
+                <option value="Benefício do INSS">Benefício do INSS</option>
+                <option value="Entidade sindical">Entidade sindical</option>
+                <option value="Questão cível">Questão cível</option>
+                <option value="Outro assunto">Outro assunto</option>
+              </select>
+            </div>
+            <div class="contact-field">
+              <label for="contactSummary">Resumo inicial <span>opcional</span></label>
+              <textarea id="contactSummary" rows="3" maxlength="600" placeholder="Descreva brevemente o que precisa orientar."></textarea>
+            </div>
+            <button class="btn btn-on-dark" type="submit">Preparar mensagem no WhatsApp</button>
+            <p class="contact-privacy">Os dados não são armazenados por esta página. O botão abre a mensagem no WhatsApp para você revisar antes de enviar.</p>
+          </form>
+          <p class="divider-note contact-social-note">Instagram, Facebook e LinkedIn oficiais no rodapé desta página.</p>
         </div>
       </div>
     </div>

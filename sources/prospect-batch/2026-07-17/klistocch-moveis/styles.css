@@ -217,12 +217,31 @@ button:focus-visible {
 }
 
 .hero-panel {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: var(--space-xl) var(--space-lg);
   background: var(--color-cream);
 }
+
+.joinery-mark {
+  width: 62px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+.joinery-mark i {
+  display: block;
+  width: 22px;
+  height: 22px;
+  border: 2px solid var(--color-ink);
+  transform: rotate(45deg);
+  margin-right: -5px;
+}
+.joinery-mark i:nth-child(2) { border-color: var(--color-clay); background: var(--color-clay); }
+.joinery-mark i:nth-child(3) { border-color: var(--color-brown); }
 
 .hero-label {
   font-size: 0.75rem;
@@ -255,6 +274,77 @@ button:focus-visible {
   flex-wrap: wrap;
   gap: var(--space-sm);
 }
+
+.hero-proof {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.8rem;
+  padding-top: 1.5rem;
+  margin-top: 1.75rem;
+  border-top: 1px solid rgba(18,19,15,.14);
+  color: var(--color-brown);
+  font-size: .74rem;
+  letter-spacing: .02em;
+}
+.hero-proof span {
+  display: flex;
+  flex-direction: column;
+}
+.hero-proof strong {
+  color: var(--color-ink);
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+}
+
+.project-start {
+  background: var(--color-ink);
+  color: var(--color-cream);
+  padding: clamp(3rem, 7vw, 5.5rem) var(--space-md);
+}
+.project-start-inner {
+  width: min(100%, var(--max-width));
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: .8fr 1.2fr;
+  gap: clamp(2.5rem, 8vw, 8rem);
+  align-items: end;
+}
+.project-start .section-kicker { color: var(--color-clay); }
+.project-start h2 {
+  color: var(--color-cream);
+  max-width: 13ch;
+  font-size: clamp(2.2rem, 4vw, 4rem);
+  margin-bottom: 1rem;
+}
+.project-start-copy p { color: rgba(250,248,245,.68); max-width: 38ch; }
+.project-start-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 1px solid rgba(250,248,245,.24);
+}
+.project-start-links a {
+  min-height: 88px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid rgba(250,248,245,.24);
+  padding: 1rem;
+  font: 500 clamp(1.15rem, 2vw, 1.55rem)/1.1 var(--font-serif);
+  transition: color .2s ease, background .2s ease, padding .2s ease;
+}
+.project-start-links a:nth-child(odd) { border-right: 1px solid rgba(250,248,245,.24); }
+.project-start-links a:hover {
+  background: var(--color-clay);
+  color: var(--color-ink);
+  padding-left: 1.35rem;
+}
+.project-start-links span {
+  font: 600 .68rem/1 var(--font-sans);
+  letter-spacing: .12em;
+  color: var(--color-clay);
+}
+.project-start-links a:hover span { color: var(--color-ink); }
 
 .btn {
   display: inline-flex;
@@ -598,6 +688,7 @@ button:focus-visible {
   color: var(--color-ink);
   font-weight: 600;
 }
+.depoimento-toggle { display: none; }
 
 /* CTA final */
 .cta-final {
@@ -782,6 +873,10 @@ button:focus-visible {
 }
 
 @media (max-width: 760px) {
+  .project-start-inner { grid-template-columns: 1fr; gap: 2rem; }
+  .project-start-links { grid-template-columns: 1fr; }
+  .project-start-links a:nth-child(odd) { border-right: 0; }
+  .project-start-links a { min-height: 70px; }
   .header-inner {
     padding: 0.75rem var(--space-md);
   }
@@ -843,6 +938,8 @@ button:focus-visible {
     object-position: 50% 40%;
   }
 
+  .hero-media .hero-slide-human { object-position: 47% center; }
+
   .hero-panel {
     padding: var(--space-lg) var(--space-md);
   }
@@ -853,6 +950,31 @@ button:focus-visible {
 
   .hero-lead {
     font-size: 1rem;
+  }
+
+  .depoimento p {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 0.85rem;
+  }
+  .depoimento.is-expanded p {
+    display: block;
+    overflow: visible;
+  }
+  .depoimento-toggle {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    margin: 0 0 1rem;
+    border: 0;
+    border-bottom: 1px solid var(--color-clay);
+    background: transparent;
+    color: var(--color-clay-dark);
+    font: 600 0.78rem/1 var(--font-sans);
+    cursor: pointer;
   }
 
   .ambiente-grid {

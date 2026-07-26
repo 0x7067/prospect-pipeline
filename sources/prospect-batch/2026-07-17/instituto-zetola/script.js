@@ -85,4 +85,21 @@
   } else if (desktopQuery.addListener) {
     desktopQuery.addListener(handleViewportChange);
   }
+
+  var copyButton = document.querySelector('[data-copy-address]');
+  var copyStatus = document.querySelector('[data-copy-status]');
+  if (copyButton) {
+    copyButton.addEventListener('click', function () {
+      var address = copyButton.getAttribute('data-copy-address') || '';
+      if (!navigator.clipboard || !navigator.clipboard.writeText) {
+        if (copyStatus) copyStatus.textContent = address;
+        return;
+      }
+      navigator.clipboard.writeText(address).then(function () {
+        if (copyStatus) copyStatus.textContent = 'Endereço copiado.';
+      }).catch(function () {
+        if (copyStatus) copyStatus.textContent = address;
+      });
+    });
+  }
 })();

@@ -57,3 +57,9 @@ Facts and imagery are bounded by `prospect.json` and `SOURCE_MANIFEST.md`. No in
 ## Publication
 
 Not deployed by the implementation agent. Publication remains conditional on independent adversarial visual review and final acceptance.
+
+## Improvement pass — 2026-07-26
+
+Updated `index.html`, `styles.css` and `script.js`. The homepage now exposes verified proof points directly in the hero and adds a room-led project starter with direct, pre-contextualized commercial WhatsApp routes. Unsupported `priceRange` and `areaServed` structured-data fields were removed; the verified email was retained. Mobile navigation now locks background scrolling while open.
+
+Rendered validation passed at 1440×900 and 390×844: zero horizontal overflow, missing anchors, broken images, runtime exceptions or failed requests. The mobile menu opened and closed with correct ARIA state/labels and Escape behavior. Static local-asset/alt checks, `node --check script.js`, unresolved CSS-variable detection, forbidden production-language search and `git diff --check` also passed.
