@@ -17,17 +17,21 @@ if (menuButton && navigation) {
   });
 }
 
+// Content reveal: a light entrance treatment that always finishes shortly
+// after load, on a timer rather than scroll position. This keeps every
+// section fully visible for static renders (screenshots, print, crawlers,
+// reduced-motion users) instead of depending on the visitor scrolling each
+// section into view before its copy and calls to action appear.
 const reveals = document.querySelectorAll('.reveal');
-if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.12 });
-  reveals.forEach((element) => observer.observe(element));
-} else {
+if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   reveals.forEach((element) => element.classList.add('visible'));
+} else {
+  reveals.forEach((element, index) => {
+    window.setTimeout(() => element.classList.add('visible'), 80 + index * 70);
+  });
+}
+
+const yearEl = document.querySelector('#ano');
+if (yearEl) {
+  yearEl.textContent = String(new Date().getFullYear());
 }
