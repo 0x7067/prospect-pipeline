@@ -51,20 +51,6 @@
         "clientHeight": 220
       },
       {
-        "src": "assets/team-gleida.jpg",
-        "complete": true,
-        "naturalWidth": 319,
-        "clientWidth": 150,
-        "clientHeight": 150
-      },
-      {
-        "src": "assets/team-elizane.jpg",
-        "complete": true,
-        "naturalWidth": 234,
-        "clientWidth": 150,
-        "clientHeight": 150
-      },
-      {
         "src": "assets/logo.png",
         "complete": true,
         "naturalWidth": 220,
@@ -125,20 +111,6 @@
         "clientHeight": 150
       },
       {
-        "src": "assets/team-gleida.jpg",
-        "complete": true,
-        "naturalWidth": 319,
-        "clientWidth": 100,
-        "clientHeight": 100
-      },
-      {
-        "src": "assets/team-elizane.jpg",
-        "complete": true,
-        "naturalWidth": 234,
-        "clientWidth": 100,
-        "clientHeight": 100
-      },
-      {
         "src": "assets/logo.png",
         "complete": true,
         "naturalWidth": 220,
@@ -174,7 +146,7 @@
         "complete": true,
         "naturalWidth": 1440,
         "clientWidth": 580,
-        "clientHeight": 1827
+        "clientHeight": 2178
       },
       {
         "src": "evidence/current/home-mobile.png",
@@ -213,7 +185,7 @@
         "complete": true,
         "naturalWidth": 1440,
         "clientWidth": 348,
-        "clientHeight": 1096
+        "clientHeight": 1307
       },
       {
         "src": "evidence/current/home-mobile.png",

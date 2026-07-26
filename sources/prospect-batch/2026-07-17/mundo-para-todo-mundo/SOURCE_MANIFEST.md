@@ -18,7 +18,7 @@ Relatório de auditoria fornecido no briefing: `/opt/data/cron/output/bd2acb816e
 - Três palavras da presença atual: inclusiva, humana, comunitária.
 - Linguagem publicada preservada: “Uma escola para todos”; “educação inclusiva”; “protagonismo infantil”; “respeito pelas vivências das infâncias”.
 - Tese: este conceito pertence ao CEI porque transforma o próprio nome — “Mundo para Todo Mundo” — em uma composição de camadas, encontros e muitos pontos de entrada, sem inventar serviços ou promessas.
-- Ideia composicional: blocos editoriais em camadas, com círculos, recortes fotográficos e seções numeradas como um percurso.
+- Ideia composicional: blocos editoriais em camadas, com círculos, recortes fotográficos e seções numeradas como um percurso. Parte desses círculos é tratada como planetas (corpo com crateras e anel), ligando a decoração ao próprio nome “Mundo para Todo Mundo”; os demais permanecem como pontos neutros para não virar tema espacial.
 - Tipografia: Arial/Helvetica para leitura funcional, Georgia pontual em itálico para uma voz editorial humana; nenhuma fonte externa ou dependência de rede.
 - Tratamento de imagem: fotos oficiais locais em recortes amplos, sem overlay pesado, com textos alternativos úteis.
 - Paleta de direção: azul profundo `#1f5565` e coral `#e86d63` derivados da leitura do logotipo e do acervo; papel `#fffdf9`, creme `#f7f2eb`, carvão `#27282d`. Os novos tons são usados para contraste, orientação e destaque de ação.
@@ -44,6 +44,8 @@ Todos foram baixados diretamente do domínio oficial `https://mundoparatodomundo
 | assets/ods.png | `/2022/06/Selo-Sesi-ODS-2021-150x150-1.png` |
 
 `news-2026.jpg`, `popup-2025.jpg` e `ods.png` foram preservados localmente para rastreabilidade da pesquisa, mas não são usados como afirmações novas na homepage.
+
+`team-gleida.jpg` e `team-elizane.jpg` são recortes de captura de tela publicados pela fonte (234×253 e 319×302 px, visivelmente desfocados na origem). Como não existe versão nítida no domínio oficial, os arquivos permanecem arquivados para rastreabilidade, mas não são exibidos: a seção “Pessoas” usa monogramas circulares tipográficos com os nomes e funções publicados. Fotografias reais podem substituir os monogramas assim que o CEI fornecer arquivos em resolução adequada.
 
 ## Evidência visual
 
