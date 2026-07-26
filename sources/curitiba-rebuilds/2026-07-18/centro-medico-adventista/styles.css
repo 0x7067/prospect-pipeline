@@ -607,7 +607,9 @@ ul { margin: 0; padding: 0; list-style: none; }
   overflow: hidden;
 }
 .editorial-photo img {
+  display: block;
   width: 100%;
+  height: auto;
   aspect-ratio: 4 / 5;
   object-fit: cover;
   filter: saturate(0.82);

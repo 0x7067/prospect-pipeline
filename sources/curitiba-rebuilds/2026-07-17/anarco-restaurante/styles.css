@@ -286,6 +286,9 @@ ul {
 /* ---------- Hero ---------- */
 .hero {
   background-color: var(--color-bordo);
+  background-image:
+    radial-gradient(ellipse 60% 50% at 50% 0%, rgba(255, 248, 224, 0.06), transparent 70%),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.12) 0%, transparent 30%);
   padding: 6rem 3rem 4rem;
   text-align: center;
   color: var(--color-ink-on-bordo);

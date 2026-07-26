@@ -40,7 +40,9 @@ function initNav() {
 /* ---------- Intersection Observer reveal ---------- */
 function initReveal() {
   const reveals = document.querySelectorAll('.reveal');
-  if (!reveals.length || !('IntersectionObserver' in window)) {
+  if (!reveals.length) return;
+
+  if (!('IntersectionObserver' in window)) {
     reveals.forEach(el => el.classList.add('is-visible'));
     return;
   }
@@ -54,8 +56,16 @@ function initReveal() {
         }
       });
     },
-    { threshold: 0.15, rootMargin: '0px 0px -40px 0px' }
+    { threshold: 0, rootMargin: '0px 0px 400px 0px' }
   );
 
   reveals.forEach(el => observer.observe(el));
+
+  /* Failsafe: guarantee content is never permanently hidden — covers
+     no-scroll captures (bots, print, screenshot tools) and any browser
+     edge case where the observer never fires. Real users scrolling
+     normally will already see the fade-in well before this timer. */
+  window.setTimeout(() => {
+    reveals.forEach(el => el.classList.add('is-visible'));
+  }, 900);
 }
