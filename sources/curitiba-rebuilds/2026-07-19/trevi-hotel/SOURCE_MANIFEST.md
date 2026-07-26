@@ -86,3 +86,14 @@
 | Skill commit | 44c27a72af98394c32691ba79358811bff86bde6 |
 | Builder ID | hermes-qwen3.6-27b-trevi-20260719 |
 | Receipt file | `.impeccable-craft-receipt.json` |
+
+
+## Assets added in the 2026-07-26 branding pass
+
+Room and event-room photography from the hotel's own site.
+
+| File | Origin | Date added |
+|---|---|---|
+| `assets/apartamento-standard.jpg` | https://trevihotel.com.br/ | 2026-07-26 |
+| `assets/hero-apartamento.jpg` | https://trevihotel.com.br/ | 2026-07-26 |
+| `assets/sala-eventos.jpg` | https://trevihotel.com.br/ | 2026-07-26 |

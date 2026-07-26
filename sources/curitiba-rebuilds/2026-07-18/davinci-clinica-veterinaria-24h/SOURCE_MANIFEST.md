@@ -22,3 +22,14 @@
 - https://guiaemcuritiba.com.br/sao-francisco/da-vinci-clinica-veterinaria-24-horas-caes-e-gatos
 
 No new external research, publishing, upload, contact, submission, or service integration was performed.
+
+
+## Assets added in the 2026-07-26 branding pass
+
+Logo and facility photography from the clinic's own site.
+
+| File | Origin | Date added |
+|---|---|---|
+| `assets/atendimento-clinico.jpg` | https://veterinariadavinci.com.br/ | 2026-07-26 |
+| `assets/hero-recepcao.jpg` | https://veterinariadavinci.com.br/ | 2026-07-26 |
+| `assets/logo-davinci.png` | https://veterinariadavinci.com.br/ | 2026-07-26 |

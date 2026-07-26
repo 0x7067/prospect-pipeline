@@ -60,11 +60,40 @@ the other from the slug alone.
 
 ## What must not move
 
-Do not move, rename, delete, or modify any existing project/site content under
-`sources/`. In particular, preserve every
-`sources/curitiba-rebuilds/YYYY-MM-DD/<slug>` path. Organization work belongs
-in the root documentation, `docs/`, and `scripts/`, plus the generated root
-catalog.
+Do not move, rename, or delete anything under `sources/`. In particular,
+preserve every `sources/curitiba-rebuilds/YYYY-MM-DD/<slug>` path. Purely
+organizational work belongs in the root documentation, `docs/`, and
+`scripts/`, plus the generated root catalog.
+
+### Immutable versus updatable content
+
+Not everything under a project directory has the same status.
+
+**Immutable — never edit or regenerate.** These record what was observed or
+shipped at a point in time, and rewriting them would falsify the record:
+
+- Original-site evidence: `original-captures/`, `evidence/`, `screenshots/`,
+  `comparison/`, `review/`, `verification/`, `.pipeline-validation-captures/`,
+  and date-level `comparisons/`.
+- Deployment records: `PUBLICATION_MANIFEST.json` and
+  `PUBLICATION_RECEIPT.json`. The receipt pins a deployment date, URL, and the
+  manifest hash; regenerating either breaks that chain.
+- The dated directory and project slug themselves.
+
+**Updatable by an improvement pass.** The deliverable itself is expected to be
+improved over time, so a branding, accessibility, or bug-fix pass may edit:
+
+- `index.html`, `styles.css`, `script.js`, `proposal.html`, `rationale.html`,
+  and any additional pages a site serves.
+- `assets/` files the pages actually reference, including adding new assets.
+- `SOURCE_MANIFEST.md` and `CHECKSUMS.sha256`, which must be updated to stay
+  truthful when the files above change. New assets are recorded in the
+  manifest with their origin; `CHECKSUMS.sha256` is refreshed so it verifies
+  against current bytes.
+
+A pass that edits a site must leave it in a verified state: pages render with
+no broken assets or hidden sections, no console errors, and every internal
+link resolves.
 
 Do not add secrets, runtime state, generated browser binaries, virtual
 environments, `node_modules`, caches, or large build dependencies. Existing

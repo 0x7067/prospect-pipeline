@@ -25,3 +25,12 @@ No unsupported clinician names, credential numbers, outcomes, testimonials, awar
 The homepage uses only the business facts present in `prospect.json`, `PRODUCT.md`, and `BRAND_SOURCE.md`. `DESIGN.md` supplies layout, palette direction, typography intent, image treatment, color evolution and mobile behavior only. The CSS colors are directional tokens, not claimed official brand values. The phrase “CWB” and the coordinate motif are abstract Curitiba atlas bearings, not a precise location marker or geolocation service.
 
 This is an `early_visual_direction`. It does not establish final brand identity, clinically approved copy, media rights, scheduling behavior, privacy/legal compliance, browser coverage, or production readiness.
+
+
+## Assets added in the 2026-07-26 branding pass
+
+The clinic's own favicon, used as the site icon and to sample the real brand color.
+
+| File | Origin | Date added |
+|---|---|---|
+| `assets/favicon-ottoboni.png` | https://clinicaottoboni.com.br/ | 2026-07-26 |

@@ -94,3 +94,13 @@ This manifest records:
 - explicit restrictions on unsupported names, dates, metrics, awards, testimonials, direct contact details, locations, outcomes, and publication rights.
 
 Any later business-specific statement not mapped above must be omitted or added to this manifest with an authorized source before it enters the site.
+
+
+## Assets added in the 2026-07-26 branding pass
+
+`asset-5.jpg` is an official residential project photo; `a9-logo-black.png` was recolored locally from the existing white logo asset.
+
+| File | Origin | Date added |
+|---|---|---|
+| `assets/a9-logo-black.png` | https://a9arquitetura.com.br/projetos/ | 2026-07-26 |
+| `assets/asset-5.jpg` | https://a9arquitetura.com.br/projetos/ | 2026-07-26 |

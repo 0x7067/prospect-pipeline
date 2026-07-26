@@ -134,3 +134,12 @@ Método: prioridade para páginas oficiais; fontes secundárias servem apenas pa
 - Disponibilidade diária de cada prato e preços estáveis.
 
 Esses itens devem permanecer ausentes do conteúdo público até haver fonte primária atualizada; não usar placeholders que pareçam fatos.
+
+
+## Assets added in the 2026-07-26 branding pass
+
+Cropped from the official "História do Peixe ao Forno" banner listed in the prospect evidence; only the photographic region was kept, overlaid text was removed.
+
+| File | Origin | Date added |
+|---|---|---|
+| `assets/asset-4.jpg` | https://restaurantepantanal.com.br/ | 2026-07-26 |

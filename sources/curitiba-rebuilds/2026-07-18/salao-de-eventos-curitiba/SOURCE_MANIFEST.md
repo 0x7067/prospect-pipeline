@@ -240,3 +240,15 @@ Before either page leaves staging:
 - `assets/asset-0.png` through `assets/asset-4.jpeg`
 
 No other business-specific claim is approved merely because it appears elsewhere in the repository.
+
+
+## Assets added in the 2026-07-26 branding pass
+
+The three `detail-*.jpg` files are crops of the already-approved venue photo `asset-4.jpeg`; `logo-mark.png` is the icon extracted from the official logo `asset-0.png`.
+
+| File | Origin | Date added |
+|---|---|---|
+| `assets/detail-bar.jpg` | Derived from existing local assets | 2026-07-26 |
+| `assets/detail-entrada.jpg` | Derived from existing local assets | 2026-07-26 |
+| `assets/detail-pista.jpg` | Derived from existing local assets | 2026-07-26 |
+| `assets/logo-mark.png` | Derived from existing local assets | 2026-07-26 |

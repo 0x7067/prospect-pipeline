@@ -20,3 +20,14 @@ Business-specific content is bounded to the supplied local evidence. No network 
 ## Assets and links
 
 All visual treatments are original CSS/SVG geometry; no official photography or logo asset was copied. The typographic mark is text, not an assertion that it is the official logo. Outbound links are limited to the supplied official website and supplied OpenStreetMap URL.
+
+
+## Assets added in the 2026-07-26 branding pass
+
+Hotel crest, a real room photo, and a photo of the surrounding Centro area (captioned as the surrounding area, not the hotel).
+
+| File | Origin | Date added |
+|---|---|---|
+| `assets/centro-curitiba.jpg` | https://hotelestacaoexpress.com.br/ | 2026-07-26 |
+| `assets/logo-crest.png` | https://hotelestacaoexpress.com.br/ | 2026-07-26 |
+| `assets/quarto-triplo.jpg` | https://hotelestacaoexpress.com.br/ | 2026-07-26 |

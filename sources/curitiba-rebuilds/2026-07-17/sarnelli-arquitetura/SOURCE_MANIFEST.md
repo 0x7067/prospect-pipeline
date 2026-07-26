@@ -76,3 +76,14 @@ Todas as frases e conceitos usados no redesign foram extraídos do site oficial:
 - Blocos repetidos de "SARNELLI" e "PROJETOS" (placeholders não resolvidos)
 - Imagens fabricadas ou de stock genérico
 - Afirmações não verificadas sobre números de projetos, clientes ou equipe
+
+
+## Assets added in the 2026-07-26 branding pass
+
+Local copies of images the build previously hot-linked from the studio's own WordPress media library, so the page no longer depends on a third-party host.
+
+| File | Origin | Date added |
+|---|---|---|
+| `assets/sarnelli-arquitetura-centro-medico-erast.jpg` | https://sarnelliarquitetura.com.br/ | 2026-07-26 |
+| `assets/sarnelli-arquitetura-erastinho-001.jpg` | https://sarnelliarquitetura.com.br/ | 2026-07-26 |
+| `assets/sarnelli-arquitetura-marca.png` | https://sarnelliarquitetura.com.br/ | 2026-07-26 |

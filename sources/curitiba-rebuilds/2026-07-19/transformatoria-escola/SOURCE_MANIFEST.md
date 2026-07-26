@@ -41,3 +41,12 @@ Per `prospect.json.problems` and `brand_source.weaknesses_not_to_copy`, this bui
 ## Deliberate omissions
 
 No curriculum detail, course duration, schedule, price/tuition, enrollment tier names, testimonial copy, trainer roster, award, certification claim, or response-time promise is presented. These were not supported by the bounded evidence, or are exactly the ambiguity the brief instructs us to remove rather than invent a replacement for.
+
+
+## Assets added in the 2026-07-26 branding pass
+
+Open Graph preview image drawn from the project's own color tokens and verified copy.
+
+| File | Origin | Date added |
+|---|---|---|
+| `assets/og-image.svg` | Generated locally | 2026-07-26 |

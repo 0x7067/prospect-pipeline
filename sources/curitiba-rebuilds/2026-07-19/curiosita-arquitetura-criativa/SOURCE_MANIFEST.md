@@ -50,3 +50,14 @@ exigiria imagens reais do portfólio do escritório.
 - Logotipo original (não copiado; wordmark tipográfico novo).
 - Depoimentos, prêmios, números de clientes, anos de experiência em
   formato de métrica — nenhum verificável pelas fontes.
+
+
+## Assets added in the 2026-07-26 branding pass
+
+The `photo-*.jpg` files are local copies of the Unsplash stock the build previously hot-linked (still directional stock, unchanged in role); `og-image.png` was drawn locally.
+
+| File | Origin | Date added |
+|---|---|---|
+| `assets/og-image.png` | https://images.unsplash.com/ · generated locally | 2026-07-26 |
+| `assets/photo-1509062522246-3755977927d7.jpg` | https://images.unsplash.com/ · generated locally | 2026-07-26 |
+| `assets/photo-1580582932707-520aed937b7b.jpg` | https://images.unsplash.com/ · generated locally | 2026-07-26 |

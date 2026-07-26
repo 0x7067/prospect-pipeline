@@ -38,7 +38,7 @@ Only `_site` is deployable. Do not configure Pages to publish the repository roo
 - `curitiba-rebuilds` contains dated rebuilds and their archival evidence.
 - `prospect-batch` contains batch-generation output and its evidence.
 
-Do not move, rename, delete, or modify existing content under `sources/`. Do not add secrets, runtime state, browser artifacts, caches, or external publication activity.
+Do not move, rename, or delete content under `sources/`. Evidence captures and deployment records (`PUBLICATION_MANIFEST.json`, `PUBLICATION_RECEIPT.json`) are immutable; the deliverable site files and the assets they reference may be updated by an improvement pass, which must also refresh that project's `SOURCE_MANIFEST.md` and `CHECKSUMS.sha256`. See [Immutable versus updatable content](docs/REPOSITORY_LAYOUT.md#immutable-versus-updatable-content). Do not add secrets, runtime state, browser artifacts, caches, or external publication activity.
 
 ## Maintenance commands
 

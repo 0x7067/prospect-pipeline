@@ -81,3 +81,21 @@ Saved in `assets/downloads/` for audit and comparison:
 - The original Klistocch CDN serves many JPEG variants as 6 × 1029 pixel placeholders. We therefore selected the PNG equivalents or larger `.jpg` files that decoded to real dimensions.
 - The Facebook source could not be scraped; the evidence of activity is taken from the prospect.json summary and the search-result description.
 - The official site does not expose JSON-LD / structured data; we added schema.org markup based only on verified public facts.
+
+
+## Assets added in the 2026-07-26 branding pass
+
+Web-optimized re-encodes of the original files in the same directory (visually identical, ~91% smaller). Originals are retained here as archival evidence but are no longer referenced by the pages.
+
+| File | Origin | Date added |
+|---|---|---|
+| `assets/images/banheiro-web.jpg` | Derived from existing local assets | 2026-07-26 |
+| `assets/images/cozinha-web.jpg` | Derived from existing local assets | 2026-07-26 |
+| `assets/images/detalhe-quarto-web.jpg` | Derived from existing local assets | 2026-07-26 |
+| `assets/images/dormitorio-web.jpg` | Derived from existing local assets | 2026-07-26 |
+| `assets/images/fabrica-web.jpg` | Derived from existing local assets | 2026-07-26 |
+| `assets/images/gourmet-web.jpg` | Derived from existing local assets | 2026-07-26 |
+| `assets/images/home-office-web.jpg` | Derived from existing local assets | 2026-07-26 |
+| `assets/images/lavanderia-web.jpg` | Derived from existing local assets | 2026-07-26 |
+| `assets/images/sala-web.jpg` | Derived from existing local assets | 2026-07-26 |
+| `assets/images/showroom-web.jpg` | Derived from existing local assets | 2026-07-26 |

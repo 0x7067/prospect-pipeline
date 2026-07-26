@@ -40,3 +40,15 @@ No business fact appears in the site unless it is present in `prospect.json` or 
 ## Third-party runtime dependencies
 
 None. No CDN, no analytics, no tag managers, no remote fonts, no form endpoints.
+
+
+## Assets added in the 2026-07-26 branding pass
+
+Logo and published hero render taken from the studio's own site; the `-900` variant was resized locally from the same file.
+
+| File | Origin | Date added |
+|---|---|---|
+| `assets/img/hero-facade-real-900.jpg` | https://penhamoraes.arq.br/ | 2026-07-26 |
+| `assets/img/hero-facade-real.jpg` | https://penhamoraes.arq.br/ | 2026-07-26 |
+| `assets/img/penha-moraes-logo-white.png` | https://penhamoraes.arq.br/ | 2026-07-26 |
+| `assets/img/penha-moraes-logo.png` | https://penhamoraes.arq.br/ | 2026-07-26 |

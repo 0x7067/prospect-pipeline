@@ -66,3 +66,14 @@
 - No placeholder business data
 - No copied proprietary text beyond verified public language
 - No watermarked or social media screenshots used as production imagery
+
+
+## Assets added in the 2026-07-26 branding pass
+
+Logo, founder portrait and one project photo from the company's own site.
+
+| File | Origin | Date added |
+|---|---|---|
+| `assets/founder.jpg` | https://arteejardim.com.br/ | 2026-07-26 |
+| `assets/logo.png` | https://arteejardim.com.br/ | 2026-07-26 |
+| `assets/portfolio-implantacao.jpg` | https://arteejardim.com.br/ | 2026-07-26 |

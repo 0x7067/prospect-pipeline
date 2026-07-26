@@ -43,3 +43,12 @@ No image files are used. This build renders entirely with typography, color, lay
 - `#3db166` (official brand green) and `#1e2d49` (official dark navy) were sampled directly from the live site's CSS on 2026-07-18. `#237a41` is an accessibility-derived dark green used for text and CTA contrast, not a sampled source color.
 - `#f4f6f5` is a neutral surface generated to accessibly pair with the sampled colors; it is not present verbatim on the source.
 - No external fonts, analytics, forms, map embeds, uploads, or third-party service calls are made automatically. User-activated outbound destinations are the official `wa.me` WhatsApp number and `instagram.com/ceapcuritiba/`.
+
+
+## Assets added in the 2026-07-26 branding pass
+
+Open Graph preview image drawn from already-verified copy and the project's brand colors; no external source.
+
+| File | Origin | Date added |
+|---|---|---|
+| `assets/og-image.svg` | Generated locally | 2026-07-26 |

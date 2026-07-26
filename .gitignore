@@ -30,3 +30,11 @@ coverage/
 .claude/state/
 .codex/
 .kimi/
+
+# Editor and merge leftovers (never source evidence)
+*.swp
+*~
+*.orig
+*.rej
+*.bak
+Thumbs.db

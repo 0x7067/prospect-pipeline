@@ -42,3 +42,15 @@ A única correção editorial deliberada foi `Coleta de sangue venenoso` → `Co
 - Setas e o marcador de localização em `assets/icons/` são ativos regulares do `@phosphor-icons/core`, armazenados localmente e renderizados por máscara CSS. Eles substituem glifos Unicode dependentes da plataforma sem adicionar CDN em runtime.
 - O hero final é uma composição geométrica local baseada nas cores documentadas da marca. O asset `toxina-pratica.jpeg` não foi usado porque contém dados pessoais/credenciais em um certificado; `toxina-modelo.png` não foi usado no hero porque incorpora uma alegação comercial não confirmada.
 
+
+
+## Assets added in the 2026-07-26 branding pass
+
+Four inline-style SVG icons produced for the "O que está incluso" section; no external source.
+
+| File | Origin | Date added |
+|---|---|---|
+| `assets/icons/badge.svg` | Drawn locally | 2026-07-26 |
+| `assets/icons/book.svg` | Drawn locally | 2026-07-26 |
+| `assets/icons/cup.svg` | Drawn locally | 2026-07-26 |
+| `assets/icons/target.svg` | Drawn locally | 2026-07-26 |

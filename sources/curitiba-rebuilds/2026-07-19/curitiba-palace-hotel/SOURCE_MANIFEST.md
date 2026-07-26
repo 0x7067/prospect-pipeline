@@ -56,3 +56,17 @@ No canonical brand color token was extractable (BRAND_SOURCE.md states this).
 The pine + gold palette is a deliberate documented substitute, recorded in the
 craft receipt and SITE_REVIEW.md, and must be confirmed against the official
 mark before any publication.
+
+
+## Assets added in the 2026-07-26 branding pass
+
+Local copies of the Unsplash stock the build previously hot-linked. Still directional stock rather than hotel photography, as recorded elsewhere in this manifest.
+
+| File | Origin | Date added |
+|---|---|---|
+| `assets/photo-1449824913935-59a10b8d2000.jpg` | https://images.unsplash.com/ | 2026-07-26 |
+| `assets/photo-1517248135467-4c7edcad34c4.jpg` | https://images.unsplash.com/ | 2026-07-26 |
+| `assets/photo-1520250497591-112f2f40a3f4.jpg` | https://images.unsplash.com/ | 2026-07-26 |
+| `assets/photo-1533089860892-a7c6f0a88666.jpg` | https://images.unsplash.com/ | 2026-07-26 |
+| `assets/photo-1544148103-0773bf10d330.jpg` | https://images.unsplash.com/ | 2026-07-26 |
+| `assets/photo-1590381105924-c72589b9ef3f.jpg` | https://images.unsplash.com/ | 2026-07-26 |

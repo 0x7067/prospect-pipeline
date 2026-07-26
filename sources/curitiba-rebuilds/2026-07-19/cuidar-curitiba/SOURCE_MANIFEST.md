@@ -62,3 +62,12 @@ The following were **not** included because they could not be verified from publ
 
 For questions about this redesign concept:
 - Email: comercial@cuidar.curitiba.br (business contact, not affiliated with this proposal)
+
+
+## Assets added in the 2026-07-26 branding pass
+
+Favicon cropped from the logo mark already present in `assets/identidade-3.png`; no new download.
+
+| File | Origin | Date added |
+|---|---|---|
+| `assets/favicon.png` | Derived from existing local asset | 2026-07-26 |

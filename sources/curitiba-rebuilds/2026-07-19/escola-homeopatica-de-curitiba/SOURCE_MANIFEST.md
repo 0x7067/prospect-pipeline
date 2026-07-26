@@ -22,3 +22,14 @@ This build uses only the supplied project evidence. No external assets were down
 ## Deliberate omissions
 
 No curriculum, duration, faculty roster, intake date, schedule, tuition, outcomes, testimonial copy, clinic hours, eligibility detail, application promise, or response-time claim is presented. These were not supported by the bounded evidence.
+
+
+## Assets added in the 2026-07-26 branding pass
+
+School logo, AMHB accreditation seal and the institutional photo the school publishes.
+
+| File | Origin | Date added |
+|---|---|---|
+| `assets/amhb-logo.png` | https://ehc.org.br/ | 2026-07-26 |
+| `assets/ehc-logo.png` | https://ehc.org.br/ | 2026-07-26 |
+| `assets/equipe-ehc.png` | https://ehc.org.br/ | 2026-07-26 |
