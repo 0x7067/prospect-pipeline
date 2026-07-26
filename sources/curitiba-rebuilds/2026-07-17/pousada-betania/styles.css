@@ -12,8 +12,9 @@
   --text-muted: #5c5c5c;
   --text-muted-on-paper: #5c5c5c;
   --accent: #5ebb11;
-  /* Light enough for black text when used as an inline/link accent. */
-  --accent-ink: #5ebb11;
+  /* Darkened for text/link use: raw --accent on white measures 2.44:1
+     (fails WCAG AA); this tint keeps the brand hue at 5.27:1. */
+  --accent-ink: #3d7a0a;
   --ink-deep: #11180c;
 
   /* Typography scale */

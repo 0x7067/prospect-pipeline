@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Proposta de Redesign — Pousada Betânia</title>
   <meta name="description" content="Documento independente de proposta de redesign para o site da Pousada Betânia, baseado em evidências verificadas.">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2311180c'/%3E%3Cpath d='M32 12c11 4 17 13 17 22 0 9-8 16-17 16s-17-7-17-16c0-9 6-18 17-22z' fill='%235ebb11'/%3E%3Cpath d='M32 18v28' stroke='%2311180c' stroke-width='2.5' stroke-linecap='round'/%3E%3C/svg%3E">
+  <meta name="theme-color" content="#11180c">
+  <meta name="robots" content="noindex">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -30,15 +35,19 @@
         <span></span>
       </button>
     </div>
-    <div id="nav-mobile-proposal" class="nav-mobile" role="navigation" aria-label="Menu mobile da proposta">
-      <ul>
-        <li><a href="#problema">Problema</a></li>
-        <li><a href="#solucao">Solução</a></li>
-        <li><a href="#evidencias">Evidências</a></li>
-        <li><a href="#decisoes">Decisões</a></li>
-      </ul>
-    </div>
   </header>
+  <!-- Sibling of <header>, not a descendant: .site-header's backdrop-filter
+       establishes a containing block for position:fixed descendants,
+       which collapses this overlay to the header's height instead of
+       the full viewport if nested inside it. -->
+  <div id="nav-mobile-proposal" class="nav-mobile" role="navigation" aria-label="Menu mobile da proposta">
+    <ul>
+      <li><a href="#problema">Problema</a></li>
+      <li><a href="#solucao">Solução</a></li>
+      <li><a href="#evidencias">Evidências</a></li>
+      <li><a href="#decisoes">Decisões</a></li>
+    </ul>
+  </div>
 
   <main>
     <section class="proposal-hero">

@@ -79,26 +79,68 @@ document.addEventListener('DOMContentLoaded', () => {
   /* ── Intersection observer for reveal (fail-safe) ──
      Content is visible by default; JS only hides it when the
      observer is confirmed available, so a misfire never
-     leaves the page blank. */
+     leaves the page blank.
+
+     Belt-and-suspenders against three known failure modes:
+     1. Sections already in view at load time may not receive an
+        observer callback before paint on some engines, so each
+        section's own bounding box is checked synchronously right
+        after it is marked pending and revealed immediately if it
+        already qualifies.
+     2. Non-interactive renders (screenshot tools, print-to-PDF,
+        prerendering) never fire the scroll/resize events a real
+        user would, so the observer alone may never trigger for
+        below-the-fold sections. A global timeout force-reveals any
+        section still pending after a short delay, regardless of
+        scroll state.
+     3. If IntersectionObserver throws or is unavailable, the
+        try/catch below falls through and nothing is ever hidden. */
   if ('IntersectionObserver' in window &&
       !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    const sections = document.querySelectorAll('.section, .paths, .hero');
-    if (sections.length) {
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('is-revealed');
-            observer.unobserve(entry.target);
+    try {
+      const sections = document.querySelectorAll('.section, .paths, .hero');
+      if (sections.length) {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-revealed');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, {
+          threshold: 0.1,
+          rootMargin: '0px 0px -50px 0px'
+        });
+
+        sections.forEach(section => {
+          section.classList.add('reveal-pending');
+
+          /* Reveal immediately if already in (or near) the viewport
+             at setup time, instead of waiting on the observer's
+             first async callback. */
+          const rect = section.getBoundingClientRect();
+          const viewportHeight = window.innerHeight || document.documentElement.clientHeight;
+          if (rect.top < viewportHeight && rect.bottom > 0) {
+            section.classList.add('is-revealed');
+          } else {
+            observer.observe(section);
           }
         });
-      }, {
-        threshold: 0.1,
-        rootMargin: '0px 0px -50px 0px'
-      });
 
-      sections.forEach(section => {
-        section.classList.add('reveal-pending');
-        observer.observe(section);
+        /* Fail-safe: guarantee every section is visible shortly
+           after load even if no scroll/resize ever happens (e.g.
+           automated screenshots, print views, or a stalled
+           observer). */
+        window.setTimeout(() => {
+          document.querySelectorAll('.reveal-pending:not(.is-revealed)').forEach(section => {
+            section.classList.add('is-revealed');
+          });
+        }, 1200);
+      }
+    } catch (err) {
+      /* Any failure here must never leave content hidden. */
+      document.querySelectorAll('.reveal-pending').forEach(section => {
+        section.classList.add('is-revealed');
       });
     }
   }

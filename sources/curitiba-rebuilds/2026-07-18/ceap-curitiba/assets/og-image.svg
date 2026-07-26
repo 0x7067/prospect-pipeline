@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1e2d49"/>
+      <stop offset="1" stop-color="#16223a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1040" cy="90" r="220" fill="#3db166" opacity="0.10"/>
+  <circle cx="120" cy="560" r="260" fill="#3db166" opacity="0.08"/>
+  <g transform="translate(90,180)">
+    <rect width="140" height="140" rx="32" fill="#3db166"/>
+    <path d="M70 34a12 12 0 0 1 12 12v24h24a12 12 0 0 1 0 24H82v24a12 12 0 0 1-24 0v-24H34a12 12 0 0 1 0-24h24V46a12 12 0 0 1 12-12Z" fill="#1e2d49"/>
+  </g>
+  <text x="270" y="255" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800" fill="#ffffff">CEAP <tspan fill="#3db166">Curitiba</tspan></text>
+  <text x="270" y="315" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="500" fill="#c9d3d0">Cursos técnicos e profissionalizantes — Curitiba/PR</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="600" fill="#eef2f0">
+    <text x="270" y="380">Saúde</text>
+    <text x="380" y="380" fill="#3db166">·</text>
+    <text x="410" y="380">Indústria</text>
+    <text x="560" y="380" fill="#3db166">·</text>
+    <text x="590" y="380">Convênios de estágio documentados</text>
+  </g>
+</svg>

@@ -1,20 +1,24 @@
 /* Arch Odontologia — hybrid brand system
-   Palette generated per DESIGN.md (not sampled from official assets): ink-teal authority,
-   warm off-white clinical space, muted clay accent for facial-aesthetics side. */
+   Palette recalibrated against the official site's rendered visuals (colors sampled from a
+   direct screenshot of archodontologia.com: near-black section backgrounds, a warm
+   gold/bronze accent used on buttons and section labels, and white/cream clinical space).
+   Not a pixel-identical reproduction of any proprietary asset — values were re-derived and
+   adjusted for WCAG AA contrast, not lifted verbatim. */
 
 :root {
-  --ink: #10262d;
-  --teal: #1f4b4f;
-  --teal-dark: #123033;
-  --clay: #b3573d;
-  --clay-dark: #7d3c28;
-  --paper: #eef1ea;
-  --paper-alt: #e2e8dd;
-  --line: #c3cdc0;
-  --text: #16262a;
-  --text-muted: #3c5254;
+  --ink: #1a1512;
+  --teal: #1c1613;
+  --teal-dark: #0c0a08;
+  --clay: #85603f;
+  --clay-dark: #5e4128;
+  --gold-light: #c79a68;
+  --paper: #faf8f4;
+  --paper-alt: #efe9e0;
+  --line: #ddd5c7;
+  --text: #241f1a;
+  --text-muted: #5c5347;
   --white: #ffffff;
-  --focus: #2c7a7f;
+  --focus: #2f7dc4;
   --radius: 0;
   --max-width: 1180px;
   --gap: clamp(1.5rem, 3vw, 3rem);
@@ -30,14 +34,14 @@ html {
 
 body {
   margin: 0;
-  font-family: "Source Serif 4", "Iowan Old Style", "PT Serif", Georgia, serif;
+  font-family: "Archivo", "Segoe UI", Helvetica, Arial, sans-serif;
   background: var(--paper);
   color: var(--text);
   line-height: 1.55;
 }
 
 h1, h2, h3, h4 {
-  font-family: "Source Serif 4", "Iowan Old Style", "PT Serif", Georgia, serif;
+  font-family: "Quicksand", "Archivo", "Segoe UI", Helvetica, Arial, sans-serif;
   font-weight: 600;
   color: var(--ink);
   line-height: 1.15;
@@ -119,10 +123,10 @@ button:focus-visible,
 }
 
 .brand-name {
-  font-size: 1.15rem;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  font-family: "Quicksand", "Archivo", "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
 }
 
 .brand-sub {
@@ -266,7 +270,7 @@ button:focus-visible,
   position: relative;
   aspect-ratio: 4 / 5;
   border-radius: var(--radius);
-  background: linear-gradient(155deg, var(--teal) 0%, var(--teal-dark) 62%, var(--ink) 100%);
+  background: linear-gradient(155deg, #3c2c1e 0%, var(--teal) 55%, var(--teal-dark) 100%);
   overflow: hidden;
   display: flex;
   align-items: flex-end;
@@ -278,14 +282,14 @@ button:focus-visible,
   height: 90%;
   border-radius: 50% 50% 0 0 / 60% 60% 0 0;
   background: var(--paper);
-  opacity: 0.14;
+  opacity: 0.16;
 }
 
 .hero-visual .arch-shape.small {
   inset: auto -5% -55% -5%;
   height: 70%;
-  background: var(--clay);
-  opacity: 0.35;
+  background: var(--gold-light);
+  opacity: 0.55;
 }
 
 .hero-visual-caption {
@@ -431,12 +435,21 @@ section {
 }
 
 /* Gallery */
+.gallery-layout {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: var(--gap);
+  align-items: stretch;
+}
+
 .gallery-note {
-  border: 1px dashed var(--line);
+  border: 1px solid var(--line);
   border-radius: var(--radius);
   padding: 2.5rem;
-  text-align: center;
   background: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .gallery-note h3 {
@@ -445,8 +458,36 @@ section {
 
 .gallery-note p {
   max-width: 52ch;
-  margin: 0.75rem auto 0;
+  margin: 0.75rem 0 0;
   color: var(--text-muted);
+}
+
+.gallery-visual {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, var(--paper) 0%, var(--paper-alt) 100%);
+  padding: 2rem 2rem 1.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.gallery-visual svg {
+  width: 100%;
+  height: auto;
+}
+
+.arch-line-1 { stroke: var(--line); }
+.arch-line-2 { stroke: var(--clay); }
+.arch-line-3 { stroke: var(--ink); }
+
+.gallery-visual-caption {
+  margin: 0;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-style: italic;
 }
 
 /* Trust strip */
@@ -611,7 +652,8 @@ section {
 @media (max-width: 900px) {
   .hero-grid,
   .tracks,
-  .contact-panel {
+  .contact-panel,
+  .gallery-layout {
     grid-template-columns: 1fr;
   }
   .process-spine {
