@@ -25,7 +25,9 @@ Every demo route is:
 /prospect-pipeline/sites/<collection>/<YYYY-MM-DD>/<slug>/
 ```
 
-The collection remains part of the route, so duplicate slugs in different collections are distinct. The root landing page groups all routes by collection and date and reports the total count.
+The collection remains part of the route, so duplicate slugs in different collections are distinct.
+
+The root landing page presents every route as a card grouped by business sector, so the index reads as a portfolio rather than a list of build artifacts. For each site it shows the business name and category read from that project's `prospect.json`, plus the collection and date, which is what distinguishes two builds that share a business name. A site published from a `kimi-variant` is marked `variant`. Sector assignment comes from the ordered keyword rules in `SECTOR_RULES`; a project matching none of them is grouped under `Outros`, so a new project is never dropped from the index. Only the business name and category are read from the brief — no other field is copied into the artifact, and `prospect.json` itself is never published.
 
 ## Sanitization boundary
 

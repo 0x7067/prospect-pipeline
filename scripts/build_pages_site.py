@@ -232,20 +232,119 @@ def copy_site(site: Site, output: Path, base: str) -> None:
             queue.append((child, child_target))
 
 
+# Sector rules are evaluated in order; the first match wins. Keeping this
+# ordered (rather than a per-slug table) means new projects are grouped
+# automatically, and anything unmatched lands in the final catch-all.
+SECTOR_RULES: tuple[tuple[str, tuple[str, ...]], ...] = (
+    ("Odontologia", ("odonto", "dental", "dentist")),
+    ("Veterinária", ("veterin",)),
+    # Architecture is checked before education: several studios describe
+    # themselves by the sectors they build for ("arquitetura para escolas"),
+    # and the practice is what should group them.
+    ("Arquitetura e engenharia", ("arquitetur", "architecture", "engenharia", "engineering", "interiores", "construç")),
+    ("Educação", ("curso", "educa", "ensino", "escola", "colegio", "colégio", "school", "training", "treinamento", "formação", "pedagog")),
+    ("Serviços profissionais", ("contabil", "contábil", "accounting", "advocacia", "advogad", "jurídic", "juridic", "coworking", "fiscal")),
+    ("Saúde e bem-estar", ("clinic", "clínic", "medic", "médic", "saúde", "saude", "health", "psiqui", "psicolog", "neuro", "cirurgia", "surgery", "dermat", "fisioterap", "homeopat", "estétic", "estetic", "elder-care", "home-care", "cuidador")),
+    ("Hospedagem", ("hotel", "pousada", "hospedagem", "hospitality")),
+    ("Gastronomia e eventos", ("restaurante", "restaurant", "trattoria", "buffet", "catering", "gastronom", "peixe", "frutos do mar", "churrasc", "eventos")),
+    ("Casa e interiores", ("marcenaria", "móveis", "moveis", "jardim", "landscap", "garden")),
+)
+SECTOR_FALLBACK = "Outros"
+
+
+def site_metadata(site: Site) -> tuple[str, str]:
+    """Return (business name, category) for a site, falling back to its slug.
+
+    The brief lives beside the site, or one level up when the built page is a
+    nested variant. Only the display name and category are read; the rest of
+    the brief stays private and is never copied into the artifact.
+    """
+    for candidate in (site.source_root / "prospect.json", site.source_root.parent / "prospect.json"):
+        try:
+            data = json.loads(candidate.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        if isinstance(data, dict):
+            name = str(data.get("business_name") or "").strip()
+            category = str(data.get("category") or "").strip()
+            if name:
+                return name, category
+    return site.slug, ""
+
+
+def sector_for(name: str, category: str, slug: str) -> str:
+    haystack = f"{category} {slug} {name}".lower()
+    for sector, keywords in SECTOR_RULES:
+        if any(keyword in haystack for keyword in keywords):
+            return sector
+    return SECTOR_FALLBACK
+
+
+LANDING_STYLE = (
+    ":root{color-scheme:light dark;--bg:#f6f7f9;--fg:#18202a;--muted:#5b6672;--card:#fff;--line:#e2e6eb;--accent:#075985}"
+    "@media(prefers-color-scheme:dark){:root{--bg:#11151a;--fg:#e8ecf1;--muted:#9aa6b2;--card:#171d24;--line:#28313b;--accent:#7cc4ec}}"
+    "*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);"
+    "font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}"
+    ".wrap{max-width:1080px;margin:0 auto;padding:2rem 1.25rem 4rem}"
+    ".notice{padding:.9rem 1.1rem;background:#fff4cc;border:1px solid #c28a00;border-radius:10px;color:#3d2c00;font-size:.94rem}"
+    "h1{font-size:clamp(1.6rem,4vw,2.2rem);margin:1.6rem 0 .4rem;letter-spacing:-.01em}"
+    ".lede{color:var(--muted);margin:0 0 1.6rem}"
+    ".sector{margin:2.2rem 0 0}"
+    ".sector h2{font-size:1.05rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);"
+    "margin:0 0 .9rem;padding-bottom:.5rem;border-bottom:1px solid var(--line)}"
+    ".sector h2 span{font-weight:400;text-transform:none;letter-spacing:0}"
+    ".grid{display:grid;gap:.85rem;grid-template-columns:repeat(auto-fill,minmax(255px,1fr))}"
+    ".card{display:flex;flex-direction:column;gap:.3rem;padding:1rem 1.1rem;background:var(--card);"
+    "border:1px solid var(--line);border-radius:12px;text-decoration:none;color:inherit;"
+    "transition:transform .15s ease,box-shadow .15s ease,border-color .15s ease}"
+    ".card:hover,.card:focus-visible{transform:translateY(-2px);border-color:var(--accent);"
+    "box-shadow:0 10px 22px rgba(8,20,35,.10)}"
+    ".card b{font-size:1.02rem;line-height:1.3}"
+    ".card .cat{color:var(--muted);font-size:.87rem}"
+    ".card .meta{margin-top:.35rem;color:var(--muted);font-size:.76rem;letter-spacing:.03em}"
+    ".card .flag{display:inline-block;margin-left:.4rem;padding:0 .38rem;border:1px solid var(--line);"
+    "border-radius:999px;font-size:.7rem;color:var(--muted)}"
+)
+
+
 def landing(manifest: list[Site], base: str) -> str:
-    groups: dict[str, dict[str, list[Site]]] = {}
+    entries = []
     for site in manifest:
-        groups.setdefault(site.collection, {}).setdefault(site.date, []).append(site)
-    lines = ['<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow,noarchive"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Prospect concept demos</title><style>body{font:16px system-ui,sans-serif;max-width:960px;margin:0 auto;padding:2rem;color:#18202a}a{color:#075985}.notice{padding:1rem;background:#fff4cc;border:1px solid #c28a00;border-radius:8px}li{margin:.45rem 0}</style></head><body><div class="notice" role="note"><strong>Unofficial concept redesign demos.</strong> These are not the businesses\' official websites.</div><main><h1>Prospect concept demos</h1><p>Browse <strong>%d</strong> sanitized demos across <strong>%d</strong> collections.</p>' % (len(manifest), len(groups))]
-    for collection in sorted(groups):
-        lines.append(f"<section><h2>{html.escape(collection)}</h2>")
-        for date in sorted(groups[collection]):
-            lines.append(f"<h3>{html.escape(date)}</h3><ul>")
-            for site in sorted(groups[collection][date], key=lambda s: s.slug):
-                lines.append(f'<li><a href="{base}{site.public_path}">{html.escape(site.slug)}</a></li>')
-            lines.append("</ul></section>")
-    lines.append('</main></body></html>')
-    return "".join(lines)
+        name, category = site_metadata(site)
+        entries.append((sector_for(name, category, site.slug), name, category, site))
+
+    sectors: dict[str, list[tuple[str, str, Site]]] = {}
+    for sector, name, category, site in entries:
+        sectors.setdefault(sector, []).append((name, category, site))
+
+    order = [sector for sector, _ in SECTOR_RULES if sector in sectors]
+    if SECTOR_FALLBACK in sectors:
+        order.append(SECTOR_FALLBACK)
+
+    out = [
+        '<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">'
+        '<meta name="robots" content="noindex,nofollow,noarchive">'
+        '<meta name="viewport" content="width=device-width,initial-scale=1">'
+        "<title>Prospect concept demos</title><style>" + LANDING_STYLE + "</style></head><body><div class=\"wrap\">"
+        '<div class="notice" role="note"><strong>Unofficial concept redesign demos.</strong> '
+        "These are not the businesses' official websites.</div><main>"
+        "<h1>Prospect concept demos</h1>"
+        f'<p class="lede">{len(manifest)} concept sites for Curitiba businesses, grouped by sector.</p>'
+    ]
+    for sector in order:
+        items = sorted(sectors[sector], key=lambda row: (row[0].casefold(), row[2].public_path))
+        out.append(
+            f'<section class="sector"><h2>{html.escape(sector)} <span>({len(items)})</span></h2><div class="grid">'
+        )
+        for name, category, site in items:
+            out.append(f'<a class="card" href="{base}{site.public_path}"><b>{html.escape(name)}</b>')
+            if category:
+                out.append(f'<span class="cat">{html.escape(category)}</span>')
+            flag = '<span class="flag">variant</span>' if site.nested else ""
+            out.append(f'<span class="meta">{html.escape(site.collection)} · {html.escape(site.date)}{flag}</span></a>')
+        out.append("</div></section>")
+    out.append("</main></div></body></html>")
+    return "".join(out)
 
 
 def build(sources: Path, output: Path, base: str) -> list[Site]:
