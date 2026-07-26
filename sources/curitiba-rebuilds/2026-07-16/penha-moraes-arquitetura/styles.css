@@ -1,6 +1,8 @@
 /*
   Penha Moraes Arquitetura — evidence-bounded redesign concept
-  Design system: "Planta e Concreto" (plan & concrete)
+  Design system: "Planta e Concreto" (plan & concrete), accented with the
+  rose tone sampled directly from the studio's own logo mark (see
+  assets/img/penha-moraes-logo.png) instead of a generic template color.
   See rationale.html for the reasoning behind every decision below.
 */
 
@@ -44,7 +46,7 @@
   --font-display: "Frank Ruhl Libre Var", "Iowan Old Style", Georgia, "Times New Roman", serif;
   --font-body: "Archivo Var", "Helvetica Neue", Arial, sans-serif;
 
-  /* -- Color: "concreto" (cool neutral, never warm sand) + "terracota" (committed accent) -- */
+  /* -- Color: "concreto" (cool neutral, never warm sand) + "rosa Penha Moraes" (accent sampled from the studio's own logo mark) -- */
   --ink-950: #0c0f16;   /* poured concrete at night — dark surface */
   --ink-900: #14181f;
   --ink-800: #22272e;
@@ -58,11 +60,11 @@
   --concrete-400: #a0a5ab;  /* borders, dividers */
   --concrete-600: #65696f;  /* muted text, 5:1 on concrete-100 */
 
-  --terracotta-200: #f9d6bf; /* tag / badge fill */
-  --terracotta-400: #ea6f2f; /* accent text & links on ink surfaces, 6.2:1 on ink-950 */
-  --terracotta-600: #c55123; /* decorative only: large fills, icons, thick rules — not small text */
-  --terracotta-700: #a63c0c; /* accent text, links & buttons on light surfaces, 5.8:1 on concrete-100 */
-  --terracotta-800: #7c2d09;
+  --rose-200: #f8d6e9; /* tag / badge fill, sampled from the logo's light pink */
+  --rose-400: #e85fa6; /* accent text & links on ink surfaces, 6:1 on ink-950 */
+  --rose-600: #c13a85; /* decorative only: large fills, icons, thick rules — not small text */
+  --rose-700: #a82e6e; /* accent text, links & buttons on light surfaces, 5.8:1 on concrete-100 */
+  --rose-800: #7c2359;
 
   /* -- Spacing: stepped scale (breakpoint-based, not clamp — see rationale.html) -- */
   --space-3xs: 0.3rem;
@@ -177,7 +179,7 @@ body {
 
 .concept-bar {
   padding: 0.55rem 1.25rem;
-  background: var(--terracotta-700);
+  background: var(--rose-700);
   color: var(--concrete-050);
   text-align: center;
   font-size: var(--step-small);
@@ -212,15 +214,15 @@ p, li { text-wrap: pretty; }
 
 ul, ol { list-style: none; padding: 0; }
 
-::selection { background: var(--terracotta-200); color: var(--ink-950); }
+::selection { background: var(--rose-200); color: var(--ink-950); }
 
 :focus-visible {
-  outline: 2.5px solid var(--terracotta-700);
+  outline: 2.5px solid var(--rose-700);
   outline-offset: 3px;
   border-radius: var(--radius-s);
 }
 
-.on-ink :focus-visible { outline-color: var(--terracotta-400); }
+.on-ink :focus-visible { outline-color: var(--rose-400); }
 
 /* ---------------------------------------------------------------
    4. Layout primitives
@@ -306,11 +308,11 @@ ul, ol { list-style: none; padding: 0; }
   padding: var(--space-2xs) var(--space-s);
   border: 1.5px solid currentColor;
   border-radius: 999px;
-  color: var(--terracotta-400);
+  color: var(--rose-400);
 }
 
-.on-ink .eyebrow-stamp { color: var(--terracotta-400); }
-.eyebrow-stamp--light { color: var(--terracotta-700); }
+.on-ink .eyebrow-stamp { color: var(--rose-400); }
+.eyebrow-stamp--light { color: var(--rose-700); }
 
 .display {
   font-size: var(--step-display);
@@ -333,7 +335,7 @@ ul, ol { list-style: none; padding: 0; }
   font-family: var(--font-display);
   font-style: italic;
   font-weight: 500;
-  color: var(--terracotta-400);
+  color: var(--rose-400);
 }
 
 .eyebrow-stamp--light + * { margin-top: 0; }
@@ -366,18 +368,18 @@ ul, ol { list-style: none; padding: 0; }
 .btn:active { transform: translateY(1px); }
 
 .btn--primary {
-  background: var(--terracotta-700);
+  background: var(--rose-700);
   color: var(--concrete-050);
-  border-color: var(--terracotta-700);
+  border-color: var(--rose-700);
 }
-.btn--primary:hover { background: var(--terracotta-800); border-color: var(--terracotta-800); }
+.btn--primary:hover { background: var(--rose-800); border-color: var(--rose-800); }
 
 .on-ink .btn--primary {
-  background: var(--terracotta-400);
-  border-color: var(--terracotta-400);
+  background: var(--rose-400);
+  border-color: var(--rose-400);
   color: var(--ink-950);
 }
-.on-ink .btn--primary:hover { background: #ff8143; border-color: #ff8143; }
+.on-ink .btn--primary:hover { background: #f37fbb; border-color: #f37fbb; }
 
 .btn--ghost {
   background: transparent;
@@ -426,8 +428,8 @@ ul, ol { list-style: none; padding: 0; }
 .field input:focus-visible,
 .field textarea:focus-visible,
 .field select:focus-visible {
-  border-color: var(--terracotta-700);
-  box-shadow: 0 0 0 3px var(--terracotta-200);
+  border-color: var(--rose-700);
+  box-shadow: 0 0 0 3px var(--rose-200);
   outline: none;
 }
 
@@ -476,22 +478,36 @@ ul, ol { list-style: none; padding: 0; }
 }
 
 .wordmark {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 1.15rem;
-  letter-spacing: -0.01em;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  gap: var(--space-xs);
   line-height: 1.05;
+}
+
+.wordmark img {
+  height: 34px;
+  width: auto;
+  display: block;
+}
+
+@media (min-width: 60rem) {
+  .wordmark img { height: 40px; }
 }
 
 .wordmark span {
   font-family: var(--font-body);
-  font-weight: 500;
-  font-size: var(--step-small);
-  letter-spacing: 0.04em;
-  color: var(--terracotta-700);
+  font-weight: 600;
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  color: var(--ink-600);
   text-transform: uppercase;
+  border-left: 1.5px solid var(--concrete-400);
+  padding-left: var(--space-xs);
+  display: none;
+}
+
+@media (min-width: 34rem) {
+  .wordmark span { display: inline-block; }
 }
 
 .primary-nav {
@@ -510,15 +526,24 @@ ul, ol { list-style: none; padding: 0; }
 }
 
 .primary-nav a:hover,
-.primary-nav a:focus-visible { border-color: var(--terracotta-700); }
+.primary-nav a:focus-visible { border-color: var(--rose-700); }
 
-.header-cta { display: none; align-items: center; gap: var(--space-s); }
+.header-cta { display: none; align-items: center; gap: var(--space-m); }
 
 .header-phone {
   font-weight: 600;
   font-size: 0.92rem;
   white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  transition: color var(--dur-fast) var(--ease-out-quart);
 }
+
+.header-phone:hover,
+.header-phone:focus-visible { color: var(--rose-700); }
+
+.header-phone svg { flex-shrink: 0; }
 
 @media (min-width: 60rem) {
   .primary-nav { display: flex; }
@@ -596,7 +621,7 @@ ul, ol { list-style: none; padding: 0; }
 }
 
 @media (min-width: 62rem) {
-  .hero__grid { grid-template-columns: 1.15fr 0.85fr; gap: var(--space-xl); }
+  .hero__grid { grid-template-columns: 1fr 1.05fr; gap: var(--space-xl); }
 }
 
 .hero__copy > * + * { margin-top: var(--space-s); }
@@ -609,23 +634,26 @@ ul, ol { list-style: none; padding: 0; }
 
 .hero__figure {
   position: relative;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 4 / 3;
   border-radius: var(--radius-m);
   overflow: hidden;
   border: 1px solid color-mix(in oklab, var(--concrete-100) 25%, transparent);
 }
 
+@media (min-width: 62rem) {
+  .hero__figure { aspect-ratio: 16 / 11; }
+}
+
 .hero__figure img {
   width: 100%; height: 100%;
   object-fit: cover;
-  filter: grayscale(0.15) contrast(1.05);
 }
 
 .hero__figure::after {
   content: "";
   position: absolute; inset: 0;
-  background: linear-gradient(195deg, color-mix(in oklab, var(--terracotta-700) 55%, transparent) 0%, transparent 55%);
-  mix-blend-mode: multiply;
+  background: linear-gradient(0deg, color-mix(in oklab, var(--ink-950) 78%, transparent) 0%, transparent 38%);
+  pointer-events: none;
 }
 
 .hero__caption {
@@ -665,7 +693,7 @@ ul, ol { list-style: none; padding: 0; }
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 1.4rem;
-  color: var(--terracotta-400);
+  color: var(--rose-400);
   flex-shrink: 0;
 }
 
@@ -713,7 +741,7 @@ ul, ol { list-style: none; padding: 0; }
   margin-top: var(--space-2xs);
   font-size: var(--step-small);
   font-weight: 600;
-  color: var(--terracotta-700);
+  color: var(--rose-700);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
@@ -742,7 +770,7 @@ ul, ol { list-style: none; padding: 0; }
   font-family: var(--font-display);
   font-size: 0.95rem;
   font-weight: 700;
-  color: var(--terracotta-700);
+  color: var(--rose-700);
 }
 
 .service-card h3 { font-size: var(--step-h4); }
@@ -778,7 +806,7 @@ ul, ol { list-style: none; padding: 0; }
   color: var(--concrete-050);
 }
 
-.filter-chip:hover { border-color: var(--terracotta-700); }
+.filter-chip:hover { border-color: var(--rose-700); }
 
 .portfolio-grid {
   display: grid;
@@ -815,7 +843,7 @@ ul, ol { list-style: none; padding: 0; }
   display: inline-block;
   font-size: var(--step-small);
   font-weight: 600;
-  color: var(--terracotta-400);
+  color: var(--rose-400);
   text-transform: uppercase;
   letter-spacing: 0.03em;
   margin-bottom: var(--space-3xs);
@@ -887,7 +915,7 @@ ul, ol { list-style: none; padding: 0; }
   content: "";
   width: 0.6rem; height: 0.6rem;
   border-radius: 999px;
-  background: var(--terracotta-700);
+  background: var(--rose-700);
   margin-top: 0.5em;
 }
 
@@ -903,7 +931,7 @@ ul, ol { list-style: none; padding: 0; }
 }
 
 .process-step {
-  border-top: 3px solid var(--terracotta-700);
+  border-top: 3px solid var(--rose-700);
   padding-top: var(--space-s);
 }
 
@@ -952,7 +980,7 @@ ul, ol { list-style: none; padding: 0; }
   gap: var(--space-2xs);
   margin-top: var(--space-m);
   padding: var(--space-2xs) var(--space-s);
-  background: var(--terracotta-200);
+  background: var(--rose-200);
   color: var(--ink-950);
   border-radius: var(--radius-s);
   font-size: var(--step-small);
@@ -1033,7 +1061,7 @@ ul, ol { list-style: none; padding: 0; }
   margin-bottom: var(--space-l);
 }
 
-.disclosure-banner strong { color: var(--terracotta-400); }
+.disclosure-banner strong { color: var(--rose-400); }
 
 .pull-quote {
   font-family: var(--font-display);
@@ -1045,8 +1073,8 @@ ul, ol { list-style: none; padding: 0; }
   border-left: none;
   padding-top: var(--space-s);
   padding-bottom: var(--space-s);
-  border-top: 3px solid var(--terracotta-700);
-  border-bottom: 3px solid var(--terracotta-700);
+  border-top: 3px solid var(--rose-700);
+  border-bottom: 3px solid var(--rose-700);
   max-width: var(--measure);
 }
 
@@ -1108,8 +1136,10 @@ ul, ol { list-style: none; padding: 0; }
 
 .footer-grid h2, .footer-grid h3 { color: var(--concrete-050); font-size: 1rem; margin-bottom: var(--space-xs); }
 
+.footer-logo { height: 38px; width: auto; margin-bottom: var(--space-s); }
+
 .footer-links { display: flex; flex-direction: column; gap: var(--space-2xs); }
-.footer-links a:hover { color: var(--terracotta-400); }
+.footer-links a:hover { color: var(--rose-400); }
 
 .footer-note {
   border-top: 1px solid color-mix(in oklab, var(--concrete-100) 18%, transparent);

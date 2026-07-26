@@ -1,8 +1,9 @@
 /*
   Penha Moraes Arquitetura — evidence-bounded redesign concept
-  Progressive-enhancement interactions only. No tracking, no network calls,
-  no third-party scripts. Every feature below degrades to a working,
-  visible default if JavaScript fails to load.
+  Progressive-enhancement interactions only. No tracking, no analytics
+  calls, no third-party scripts. Every feature below degrades to a
+  working, visible default if JavaScript fails to load (the contact
+  form's native mailto action, in particular, works without this file).
 */
 (function () {
   "use strict";
@@ -81,14 +82,17 @@
   }
 
   /* ------------------------------------------------------------
-     Inert demo contact form — validates client-side, never sends
-     data anywhere. Explicit about its own demo status.
+     Contact form — validates client-side, then hands off to a
+     mailto: link built from the visitor's own answers. No network
+     request, no storage, no third-party endpoint. If JavaScript
+     fails to load, the form's native action="mailto:..." method="get"
+     still lets the browser attempt the same hand-off.
      ------------------------------------------------------------ */
   function initContactForm() {
     var form = doc.getElementById("briefing-form");
     var status = doc.getElementById("form-status");
-    var demoSubmit = form ? form.querySelector("[data-demo-submit]") : null;
-    if (!form || !status || !demoSubmit) return;
+    var submitBtn = form ? form.querySelector("[data-mailto-submit]") : null;
+    if (!form || !status || !submitBtn) return;
 
     function setFieldValidity(field, isValid) {
       var wrapper = field.closest(".field");
@@ -103,7 +107,31 @@
       status.setAttribute("role", kind === "error" ? "alert" : "status");
     }
 
-    function validateDemo() {
+    function buildMailto() {
+      var nome = (form.nome.value || "").trim();
+      var email = (form.email.value || "").trim();
+      var tipo = (form.tipo.value || "").trim();
+      var mensagem = (form.mensagem.value || "").trim();
+
+      var subject = "Novo contato pelo site" + (tipo ? " — " + tipo : "");
+      var bodyLines = [
+        "Nome: " + nome,
+        "E-mail: " + email,
+        "Interesse: " + (tipo || "Não informado"),
+        "",
+        "Mensagem:",
+        mensagem
+      ];
+
+      return (
+        "mailto:contato@penhamoraes.arq.br?subject=" +
+        encodeURIComponent(subject) +
+        "&body=" +
+        encodeURIComponent(bodyLines.join("\n"))
+      );
+    }
+
+    form.addEventListener("submit", function (event) {
       var requiredFields = Array.prototype.slice.call(
         form.querySelectorAll("[required]")
       );
@@ -120,21 +148,23 @@
       });
 
       if (!allValid) {
+        event.preventDefault();
         showStatus("error", "Revise os campos destacados antes de continuar.");
         return;
       }
 
-      // Explicitly inert: no network request, persistence, or navigation.
-      form.reset();
+      // JavaScript enhances the native mailto action with a real subject
+      // and body built from the visitor's own answers. Still no network
+      // request, persistence, or third-party endpoint.
+      event.preventDefault();
       requiredFields.forEach(function (field) { setFieldValidity(field, true); });
+      window.location.href = buildMailto();
       showStatus(
         "success",
-        "Formulário de demonstração — nenhum dado foi enviado ou armazenado. " +
-          "Em produção, esse envio chegaria a um único endereço no domínio oficial."
+        "Seu aplicativo de e-mail deve abrir com a mensagem pronta para contato@penhamoraes.arq.br. " +
+          "Nenhum dado é enviado a um servidor — o e-mail parte diretamente do seu dispositivo."
       );
-    }
-
-    demoSubmit.addEventListener("click", validateDemo);
+    });
   }
 
   /* ------------------------------------------------------------
