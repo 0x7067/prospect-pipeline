@@ -45,7 +45,7 @@ Todos foram baixados diretamente do domínio oficial `https://mundoparatodomundo
 
 `news-2026.jpg`, `popup-2025.jpg` e `ods.png` foram preservados localmente para rastreabilidade da pesquisa, mas não são usados como afirmações novas na homepage.
 
-`team-gleida.jpg` e `team-elizane.jpg` são recortes de captura de tela publicados pela fonte (234×253 e 319×302 px, visivelmente desfocados na origem). Como não existe versão nítida no domínio oficial, os arquivos permanecem arquivados para rastreabilidade, mas não são exibidos: a seção “Pessoas” usa monogramas circulares tipográficos com os nomes e funções publicados. Fotografias reais podem substituir os monogramas assim que o CEI fornecer arquivos em resolução adequada.
+`team-gleida.jpg` e `team-elizane.jpg` são recortes de captura de tela publicados pela fonte (319×302 e 234×253 px, já desfocados na origem). Não existe versão nítida no domínio oficial, e as fotos continuam sendo as pessoas reais publicadas pelo CEI: seguem exibidas na seção “Pessoas”, apenas em diâmetro menor (112 px, 92 px no mobile) e com moldura circular, para que a exibição não amplie o desfoque. Se o CEI fornecer arquivos em resolução maior, basta substituir os arquivos e aumentar o diâmetro.
 
 ## Evidência visual
 

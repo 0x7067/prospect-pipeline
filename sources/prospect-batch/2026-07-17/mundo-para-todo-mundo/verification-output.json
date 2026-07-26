@@ -1,5 +1,5 @@
 {
-  "testedAt": "2026-07-26T15:52:48.606Z",
+  "testedAt": "2026-07-26T15:58:22.092Z",
   "base": "http://127.0.0.1:43921",
   "viewports": {
     "home-desktop": {
@@ -13,7 +13,7 @@
         "scrollWidth": 1440
       },
       "anchors": 12,
-      "localAssets": 7,
+      "localAssets": 9,
       "errors": {
         "console": [],
         "page": [],
@@ -32,7 +32,7 @@
         "scrollWidth": 390
       },
       "anchors": 12,
-      "localAssets": 7,
+      "localAssets": 9,
       "errors": {
         "console": [],
         "page": [],
@@ -59,12 +59,12 @@
     "forbiddenProductionStrings": []
   },
   "files": {
-    "index.html": 11997,
+    "index.html": 12128,
     "proposal.html": 10035,
-    "styles.css": 21506,
+    "styles.css": 21683,
     "script.js": 1205,
-    "SOURCE_MANIFEST.md": 5658,
-    "BUILD_REPORT.md": 4903,
+    "SOURCE_MANIFEST.md": 6402,
+    "BUILD_REPORT.md": 6650,
     "verify_playwright.js": 6017
   }
 }

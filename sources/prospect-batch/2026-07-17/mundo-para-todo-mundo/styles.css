@@ -236,20 +236,20 @@ figcaption { position: absolute; bottom: 0; left: 0; right: 0; padding: 30px 18p
 .people-heading { display: flex; justify-content: space-between; align-items: end; gap: 40px; }
 .people-heading p { max-width: 300px; color: var(--muted); margin: 0; }
 .people-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 56px; }
-.person { display: grid; grid-template-columns: 150px 1fr; gap: 20px; align-items: center; border-top: 1px solid rgba(31,85,101,.18); padding-top: 16px; }
-.person-mark {
-  width: 150px;
-  height: 150px;
+.person { display: grid; grid-template-columns: 112px 1fr; gap: 20px; align-items: center; border-top: 1px solid rgba(31,85,101,.18); padding-top: 16px; }
+.person-photo {
+  position: relative;
+  display: block;
+  width: 112px;
+  height: 112px;
   border-radius: 50%;
-  display: grid;
-  place-items: center;
-  font: 700 2.1rem/1 Georgia, "Times New Roman", serif;
-  letter-spacing: .04em;
-  color: var(--blue-deep);
-  background: radial-gradient(circle at 32% 27%, #fff, var(--pastel-blue) 72%);
-  box-shadow: inset 0 0 0 1px rgba(31,85,101,.18);
+  overflow: hidden;
+  background: var(--cream);
+  box-shadow: 0 0 0 1px rgba(31,85,101,.16), 0 0 0 7px rgba(255,255,255,.72);
 }
-.person:nth-child(2) .person-mark { color: var(--coral); background: radial-gradient(circle at 32% 27%, #fff, var(--pastel-pink) 72%); }
+.person-photo img { width: 100%; height: 100%; display: block; object-fit: cover; object-position: 50% 32%; filter: saturate(1.06) contrast(1.06); }
+.person:nth-child(2) .person-photo img { object-position: 52% 42%; filter: saturate(1.06) contrast(1.04) brightness(1.14); }
+.person-photo:after { content: ""; position: absolute; inset: 0; border-radius: 50%; background: radial-gradient(circle at 50% 42%, transparent 52%, rgba(31,85,101,.14)); }
 .person h3 { margin: 0 0 9px; font-size: 1.05rem; }
 .person p { color: var(--muted); font-size: .78rem; margin: 0; max-width: 190px; }
 
@@ -350,8 +350,8 @@ figcaption { position: absolute; bottom: 0; left: 0; right: 0; padding: 30px 18p
   .admission-note { min-height: 180px; }
   .admission-actions { align-items: flex-start; flex-direction: column; }
   .people-grid { grid-template-columns: 1fr; margin-top: 38px; }
-  .person { grid-template-columns: 100px 1fr; }
-  .person-mark { width: 100px; height: 100px; font-size: 1.5rem; }
+  .person { grid-template-columns: 92px 1fr; }
+  .person-photo { width: 92px; height: 92px; }
   .contact-grid { gap: 40px; }
   .contact { padding-block: 76px; }
   .footer-row { align-items: flex-start; flex-wrap: wrap; }
