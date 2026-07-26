@@ -76,15 +76,18 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  /* ── Intersection observer for reveal ───────────── */
-  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  /* ── Intersection observer for reveal (fail-safe) ──
+     Content is visible by default; JS only hides it when the
+     observer is confirmed available, so a misfire never
+     leaves the page blank. */
+  if ('IntersectionObserver' in window &&
+      !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     const sections = document.querySelectorAll('.section, .paths, .hero');
     if (sections.length) {
       const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
           if (entry.isIntersecting) {
-            entry.target.style.opacity = '1';
-            entry.target.style.transform = 'translateY(0)';
+            entry.target.classList.add('is-revealed');
             observer.unobserve(entry.target);
           }
         });
@@ -94,9 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 
       sections.forEach(section => {
-        section.style.opacity = '0';
-        section.style.transform = 'translateY(20px)';
-        section.style.transition = 'opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1)';
+        section.classList.add('reveal-pending');
         observer.observe(section);
       });
     }

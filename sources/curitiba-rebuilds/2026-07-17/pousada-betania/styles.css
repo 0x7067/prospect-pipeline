@@ -948,3 +948,24 @@ p, li {
     background: #fff;
   }
 }
+
+/* ── Reveal-on-scroll (fail-safe: only hidden when JS adds the class) ── */
+.reveal-pending {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal-pending.is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-pending {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

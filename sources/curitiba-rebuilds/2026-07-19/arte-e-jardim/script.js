@@ -64,15 +64,16 @@
     });
   });
 
-  /* ---- Intersection observer for section reveals ---- */
+  /* ---- Intersection observer for section reveals (fail-safe) ----
+     Content is visible by default; JS only hides it when the
+     observer is confirmed available. */
   if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     var revealElements = document.querySelectorAll('.founder, .portfolio__item, .stages__item, .intake');
     var observer = new IntersectionObserver(
       function (entries) {
         entries.forEach(function (entry) {
           if (entry.isIntersecting) {
-            entry.target.style.opacity = '1';
-            entry.target.style.transform = 'translateY(0)';
+            entry.target.classList.add('is-revealed');
             observer.unobserve(entry.target);
           }
         });
@@ -81,9 +82,7 @@
     );
 
     revealElements.forEach(function (el) {
-      el.style.opacity = '0';
-      el.style.transform = 'translateY(24px)';
-      el.style.transition = 'opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1), transform 0.6s cubic-bezier(0.22, 1, 0.36, 1)';
+      el.classList.add('reveal-pending');
       observer.observe(el);
     });
   }
