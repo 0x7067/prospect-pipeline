@@ -66,7 +66,11 @@
 
   /* ---- Intersection observer for section reveals (fail-safe) ----
      Content is visible by default; JS only hides it when the
-     observer is confirmed available. */
+     observer is confirmed available. A backup timer forces every
+     pending element visible shortly after load no matter what —
+     so content never stays hidden if a scroll/resize/observer
+     event fails to fire (slow devices, automated page captures,
+     print/export tools, unusual browser quirks, etc.). */
   if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     var revealElements = document.querySelectorAll('.founder, .portfolio__item, .stages__item, .intake');
     var observer = new IntersectionObserver(
@@ -84,6 +88,44 @@
     revealElements.forEach(function (el) {
       el.classList.add('reveal-pending');
       observer.observe(el);
+    });
+
+    /* Fail-safe: guarantee reveal even if intersection never fires */
+    setTimeout(function () {
+      document.querySelectorAll('.reveal-pending:not(.is-revealed)').forEach(function (el) {
+        el.classList.add('is-revealed');
+      });
+    }, 900);
+  }
+
+  /* ---- Project intake form: degrade to WhatsApp with a pre-filled
+     message built from the visitor's answers. If JS is unavailable,
+     the form's native action/enctype falls back to a mailto: draft,
+     so submitting is never a dead end. ---- */
+  var intakeForm = document.getElementById('intake-form');
+  if (intakeForm) {
+    intakeForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var get = function (name) {
+        var field = intakeForm.querySelector('[name="' + name + '"]');
+        return field ? field.value.trim() : '';
+      };
+      var projectTypeSelect = intakeForm.querySelector('[name="project-type"]');
+      var projectTypeLabel = projectTypeSelect && projectTypeSelect.selectedIndex > 0
+        ? projectTypeSelect.options[projectTypeSelect.selectedIndex].text
+        : '';
+
+      var lines = [
+        'Olá, vim pelo site da Arte & Jardim e gostaria de falar sobre um projeto.',
+        'Nome: ' + (get('name') || '-'),
+        'Telefone: ' + (get('phone') || '-'),
+        'E-mail: ' + (get('email') || '-')
+      ];
+      if (projectTypeLabel) { lines.push('Tipo de projeto: ' + projectTypeLabel); }
+      if (get('message')) { lines.push('Ideia: ' + get('message')); }
+
+      var whatsappUrl = 'https://wa.me/5541991025129?text=' + encodeURIComponent(lines.join('\n'));
+      window.open(whatsappUrl, '_blank', 'noopener');
     });
   }
 })();
