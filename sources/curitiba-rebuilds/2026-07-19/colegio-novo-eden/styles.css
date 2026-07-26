@@ -1,34 +1,43 @@
 /* Colégio Novo Éden — "A Trilha até a Vida"
    Compositional thesis: the three evidenced education stages become a single
    literal path the visitor walks. A continuous trail rule runs down the page,
-   and the color field deepens stage by stage — near-white at the Infantil
-   opening to a deep dusk tone at the Ensino Médio / admissions close — turning
+   and the color field deepens stage by stage — warm paper at the Infantil
+   opening to the school's own gold at the admissions close — turning
    "educando para a vida" into a one-directional color arc instead of a
-   decorative palette swap. See DESIGN.md for the full system. */
+   decorative palette swap. See DESIGN.md for the full system.
+
+   Palette verified 2026-07-26 directly against the rendered official site
+   (novoeden.com.br): a navy header/footer, a gold contact/highlight band, and
+   a green primary-action button are all visible in the live render — this
+   replaces the earlier blue/green guess sampled only from link-color CSS. */
 
 :root {
   /* Light field: Infantil / hero / trail body */
-  --paper: #eff6fb;
+  --paper: #f8f6ee;
   --white: #ffffff;
-  --ink: #0d2436;
-  --mist: #40566b;
-  --line: rgba(13, 36, 54, 0.16);
+  --ink: #14285a;
+  --mist: #3d5170;
+  --line: rgba(20, 40, 90, 0.14);
 
-  /* Signal blue — sampled from the official page's link palette (#0170B9),
-     carried as the trail's own accent color, never decorative. */
-  --sign-blue: #0170b9;
-  --sign-blue-deep: #045c93;
+  /* Navy — sampled directly from the official site's header/footer/logo. */
+  --navy: #14285a;
+  --navy-deep: #0c1c40;
 
-  /* Trail green — the official page's secondary "green accents", used only
-     at Fundamental (the trail's midpoint) so the arc reads blue → green →
-     dusk, not a single accent repeated three times. */
-  --trail-green: #1b6e45;
-  --trail-green-deep: #145c3a;
+  /* Gold — sampled directly from the official site's contact/highlight band
+     and logo sunburst. Reserved for backgrounds/large marks, never small
+     text on light paper (fails contrast alone), paired with --gold-deep. */
+  --gold: #f8c301;
+  --gold-deep: #7a5f00;
 
-  /* Dusk field: Ensino Médio / admissions close */
-  --dusk: #0a2036;
-  --dusk-2: #0e2a44;
-  --dusk-line: rgba(239, 246, 251, 0.18);
+  /* Action green — sampled directly from the official site's primary button,
+     darkened slightly from the sampled #13a000 for AA text contrast. Used
+     only for real calls to action, never decoration. */
+  --action: #0c7a00;
+  --action-deep: #095e00;
+
+  /* Dark chapter fields: proposal status band + footer */
+  --dusk: #0c1c40;
+  --dusk-2: #0c1c40;
 
   --serif: Georgia, "Bitstream Charter", "Liberation Serif", serif;
   --sans: "Segoe UI", Verdana, "Liberation Sans", Arial, sans-serif;
@@ -58,7 +67,7 @@ h1, h2, h3 {
 p { margin: 0; }
 a { color: inherit; }
 a:focus-visible, button:focus-visible {
-  outline: 3px solid var(--sign-blue);
+  outline: 3px solid var(--navy);
   outline-offset: 3px;
 }
 
@@ -97,15 +106,9 @@ a:focus-visible, button:focus-visible {
   line-height: 1.2;
 }
 .identity-mark {
-  display: grid;
-  place-items: center;
+  display: block;
   width: 44px;
   height: 44px;
-  background: var(--sign-blue);
-  color: #fff;
-  font-family: var(--serif);
-  font-size: 1.05rem;
-  letter-spacing: 0.02em;
   flex: none;
 }
 nav#navigation {
@@ -125,15 +128,15 @@ nav#navigation a:not(.nav-action):focus-visible {
   text-underline-offset: 5px;
 }
 .nav-action {
-  border: 1px solid var(--sign-blue);
-  color: var(--sign-blue-deep);
+  border: 1px solid var(--navy);
+  color: var(--navy);
   padding: 0.6rem 0.95rem;
   min-height: 44px;
   display: inline-flex;
   align-items: center;
 }
 .nav-action:hover, .nav-action:focus-visible {
-  background: var(--sign-blue);
+  background: var(--navy);
   color: #fff;
 }
 .menu-button {
@@ -205,17 +208,20 @@ nav#navigation a:not(.nav-action):focus-visible {
   color: var(--mist);
 }
 .visit-strip a {
-  color: var(--sign-blue-deep);
+  color: var(--navy);
   font-weight: 600;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
+/* Primary call to action: the verified brand action-green, used everywhere a
+   visitor is being asked to actually do something (agendar, ligar) — never
+   for structural/navigation elements, which stay navy. */
 .button {
   display: inline-flex;
   align-items: center;
   gap: 1.4rem;
-  background: var(--sign-blue);
+  background: var(--action);
   color: #fff;
   text-decoration: none;
   padding: 1rem 1.35rem;
@@ -223,28 +229,28 @@ nav#navigation a:not(.nav-action):focus-visible {
   font-size: 0.95rem;
   font-weight: 700;
 }
-.button:hover, .button:focus-visible { background: var(--sign-blue-deep); }
-.button-light { background: #fff; color: var(--dusk); }
-.button-light:hover, .button-light:focus-visible { background: var(--paper); }
+.button:hover, .button:focus-visible { background: var(--action-deep); }
+.button-light { background: var(--action); color: #fff; }
+.button-light:hover, .button-light:focus-visible { background: var(--action-deep); }
 .button-outline {
   background: transparent;
-  color: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.55);
+  color: var(--ink);
+  border: 1px solid rgba(20, 40, 90, 0.5);
 }
 .button-outline:hover, .button-outline:focus-visible {
-  background: rgba(255, 255, 255, 0.12);
-  border-color: #fff;
+  background: rgba(20, 40, 90, 0.08);
+  border-color: var(--ink);
 }
 
 .text-link {
   display: inline-block;
   font-size: 0.9rem;
   font-weight: 700;
-  color: var(--sign-blue-deep);
+  color: var(--navy);
   text-decoration: underline;
   text-underline-offset: 4px;
 }
-.text-link-light { color: #fff; }
+.text-link-light { color: var(--ink); }
 
 /* The hero's trail rail: the origin marker of the path the page walks. */
 .hero-mark {
@@ -261,7 +267,7 @@ nav#navigation a:not(.nav-action):focus-visible {
   font-family: var(--serif);
   font-style: italic;
   font-size: clamp(1.4rem, 2.4vw, 1.9rem);
-  color: var(--sign-blue-deep);
+  color: var(--navy);
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   margin-bottom: 2.5rem;
@@ -270,7 +276,7 @@ nav#navigation a:not(.nav-action):focus-visible {
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  background: var(--sign-blue);
+  background: var(--navy);
   box-shadow: 0 0 0 5px var(--paper), 0 0 0 6px var(--line);
 }
 
@@ -297,8 +303,8 @@ nav#navigation a:not(.nav-action):focus-visible {
   position: relative;
 }
 /* The continuous trail rule: one line runs behind every stage, coloring
-   itself to the stage it currently passes through (blue → green → the
-   dusk chapter's own rule takes over visually at the section boundary). */
+   itself to the stage it currently passes through (navy → gold → navy-deep,
+   the school's own verified palette, deepening toward the admissions close). */
 .trail-list::before {
   content: "";
   position: absolute;
@@ -308,10 +314,10 @@ nav#navigation a:not(.nav-action):focus-visible {
   width: 2px;
   background: linear-gradient(
     to bottom,
-    var(--sign-blue) 0%,
-    var(--sign-blue) 30%,
-    var(--trail-green) 55%,
-    var(--trail-green-deep) 100%
+    var(--navy) 0%,
+    var(--navy) 30%,
+    var(--gold-deep) 55%,
+    var(--navy-deep) 100%
   );
 }
 .trail-item {
@@ -331,24 +337,24 @@ nav#navigation a:not(.nav-action):focus-visible {
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: var(--sign-blue);
+  background: var(--navy);
   box-shadow: 0 0 0 6px var(--white);
   position: relative;
   z-index: 1;
 }
-.trail-item--fundamental .trail-dot { background: var(--trail-green); }
-.trail-item--medio .trail-dot { background: var(--trail-green-deep); }
+.trail-item--fundamental .trail-dot { background: var(--gold-deep); }
+.trail-item--medio .trail-dot { background: var(--navy-deep); }
 
 .trail-content { max-width: 62ch; }
 .trail-stage {
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.04em;
-  color: var(--sign-blue-deep);
+  color: var(--navy);
   margin-bottom: 0.6rem;
 }
-.trail-item--fundamental .trail-stage { color: var(--trail-green); }
-.trail-item--medio .trail-stage { color: var(--trail-green-deep); }
+.trail-item--fundamental .trail-stage { color: var(--gold-deep); }
+.trail-item--medio .trail-stage { color: var(--navy-deep); }
 .trail-content h3 {
   font-size: clamp(1.4rem, 2.4vw, 1.9rem);
   max-width: 20ch;
@@ -382,7 +388,7 @@ nav#navigation a:not(.nav-action):focus-visible {
   font-family: var(--serif);
   font-style: italic;
   font-size: 1.1rem;
-  color: var(--sign-blue-deep);
+  color: var(--navy);
   margin-bottom: 1rem;
 }
 .valores-inner h2 {
@@ -407,10 +413,10 @@ nav#navigation a:not(.nav-action):focus-visible {
 .values-strip li {
   font-size: 0.85rem;
   font-weight: 700;
-  color: var(--sign-blue-deep);
+  color: var(--navy);
 }
-.values-strip li:nth-child(3n+2) { color: var(--trail-green); }
-.values-strip li:nth-child(3n) { color: var(--trail-green-deep); }
+.values-strip li:nth-child(3n+2) { color: var(--gold-deep); }
+.values-strip li:nth-child(3n) { color: var(--navy-deep); }
 .values-strip li:not(:last-child)::after {
   content: "·";
   margin-left: 1rem;
@@ -418,11 +424,16 @@ nav#navigation a:not(.nav-action):focus-visible {
   font-weight: 400;
 }
 
-/* ── Moment 4: Dusk / Admissions ────────────────────────────────────── */
+/* ── Moment 4: Gold / Admissions ────────────────────────────────────── */
+/* The trail's destination lands on the school's own verified gold — the same
+   tone the official site uses for its contact/highlight band — instead of an
+   invented dark "dusk" close. Navy carries every text/line value here so the
+   chapter reads as bright and welcoming, the opposite mood of the footer
+   below it. */
 .visita {
   position: relative;
-  background: var(--dusk);
-  color: var(--white);
+  background: var(--gold);
+  color: var(--ink);
   padding: clamp(5rem, 10vw, 9rem) var(--pad);
   overflow: hidden;
 }
@@ -440,16 +451,16 @@ nav#navigation a:not(.nav-action):focus-visible {
   font-style: italic;
   font-size: clamp(7rem, 22vw, 15rem);
   line-height: 1;
-  color: rgba(239, 246, 251, 0.06);
+  color: rgba(20, 40, 90, 0.1);
 }
 .visita .trail-node--end {
-  background: var(--trail-green-deep);
-  box-shadow: 0 0 0 5px var(--dusk), 0 0 0 6px var(--dusk-line);
+  background: var(--navy-deep);
+  box-shadow: 0 0 0 5px var(--gold), 0 0 0 6px rgba(20, 40, 90, 0.18);
   margin-bottom: 1.5rem;
 }
 .visita-inner { position: relative; z-index: 1; max-width: 980px; margin: 0 auto; }
 .visita .section-heading { max-width: 640px; }
-.visita .section-intro { color: rgba(239, 246, 251, 0.78); }
+.visita .section-intro { color: rgba(20, 40, 90, 0.72); }
 
 .visita-grid {
   margin-top: clamp(3rem, 6vw, 4.5rem);
@@ -457,7 +468,7 @@ nav#navigation a:not(.nav-action):focus-visible {
   grid-template-columns: 1.1fr 1fr;
   gap: clamp(2.5rem, 6vw, 5rem);
   align-items: start;
-  border-top: 1px solid var(--dusk-line);
+  border-top: 1px solid rgba(20, 40, 90, 0.2);
   padding-top: clamp(2.5rem, 5vw, 3.5rem);
 }
 address {
@@ -472,7 +483,7 @@ address p {
   margin-top: 1.25rem;
   font-family: var(--sans);
   font-size: 0.95rem;
-  color: rgba(239, 246, 251, 0.78);
+  color: rgba(20, 40, 90, 0.72);
 }
 .visita-actions {
   display: flex;
@@ -493,7 +504,6 @@ address p {
   flex-wrap: wrap;
 }
 .site-footer .identity { color: #fff; }
-.site-footer .identity-mark { background: #fff; color: var(--dusk); }
 .site-footer p { font-size: 0.85rem; }
 .footer-link {
   color: rgba(239, 246, 251, 0.82);
@@ -524,7 +534,7 @@ address p {
 .proposal-flag {
   font-size: 1.125rem;
   font-weight: 700;
-  color: var(--sign-blue-deep);
+  color: var(--navy);
   margin: 0 0 1.25rem;
 }
 .proposal-flag--bare { margin-bottom: 1rem; }
@@ -596,7 +606,7 @@ address p {
   color: var(--mist);
 }
 .proposal-footer a {
-  color: var(--sign-blue-deep);
+  color: var(--navy);
   font-weight: 700;
   text-decoration: underline;
   text-underline-offset: 3px;
