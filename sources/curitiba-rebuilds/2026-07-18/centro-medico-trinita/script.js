@@ -154,9 +154,21 @@
     });
   }
 
-  /* ---------- Reveal-on-scroll (progressive enhancement only) ---------- */
+  /* ---------- Reveal-on-scroll (progressive enhancement only) ----------
+     Below-the-fold sections must never be left permanently invisible —
+     e.g. a tool that renders/captures the full page without scrolling
+     (screenshot bots, print-to-PDF, some crawlers) would otherwise never
+     trigger the IntersectionObserver and the section would stay at
+     opacity:0 forever while still occupying its layout space, reading as
+     a large blank gap. A generous rootMargin plus a hard timeout fallback
+     guarantees every section becomes visible shortly after load either way. */
   var revealEls = document.querySelectorAll(".reveal");
   if (revealEls.length) document.documentElement.classList.add("js-reveal-ready");
+  function revealAll() {
+    revealEls.forEach(function (el) {
+      el.classList.add("is-visible");
+    });
+  }
   if (revealEls.length && "IntersectionObserver" in window) {
     var io = new IntersectionObserver(
       function (entries) {
@@ -167,14 +179,14 @@
           }
         });
       },
-      { threshold: 0.12 }
+      { threshold: 0.01, rootMargin: "0px 0px 600px 0px" }
     );
     revealEls.forEach(function (el) {
       io.observe(el);
     });
+    // Safety net: never leave content permanently invisible.
+    window.setTimeout(revealAll, 900);
   } else {
-    revealEls.forEach(function (el) {
-      el.classList.add("is-visible");
-    });
+    revealAll();
   }
 })();
