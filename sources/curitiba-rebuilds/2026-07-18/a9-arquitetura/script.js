@@ -20,7 +20,7 @@
   const routes = {
     corporativo: {
       category: 'ARQUITETURA CORPORATIVA',
-      title: 'Reforma de escritório — Agrotis',
+      title: 'Reforma de escritório: Agrotis',
       caption: 'Uma referência visual para pensar ambientes de trabalho com estratégia, funcionalidade e experiência.',
       image: 'assets/asset-1.jpg', alt: 'Sala de reunião com a marca Agrotis visível.'
     },
@@ -32,15 +32,15 @@
     },
     cenografica: {
       category: 'ARQUITETURA CENOGRÁFICA',
-      title: 'Jardim Floratta — Grupo O Boticário',
-      caption: 'Uma instalação visual em que estruturas curvas e elementos florais dão forma à experiência.',
-      image: 'assets/asset-3.jpg', alt: 'Instalação Jardim de Floratta com estruturas curvas e elementos florais.'
+      title: 'COI: Grupo O Boticário',
+      caption: 'Uma referência espacial cenográfica, com mesas, vegetação e instalações aparentes.',
+      image: 'assets/asset-4.jpg', alt: 'Ambiente interno com mesas, vegetação e instalações aparentes.'
     },
     residencial: {
       category: 'ARQUITETURA RESIDENCIAL',
-      title: 'COI — Grupo O Boticário',
-      caption: 'Uma referência espacial com mesas, vegetação e instalações aparentes.',
-      image: 'assets/asset-4.jpg', alt: 'Ambiente interno com mesas, vegetação e instalações aparentes.'
+      title: 'Residência de praia: C&L',
+      caption: 'Projeto e execução de obra para uma casa de praia, com piscina e área externa integrada à paisagem.',
+      image: 'assets/asset-5.jpg', alt: 'Casa de praia com piscina, deck de madeira e área externa arborizada.'
     }
   };
   const tabs = [...document.querySelectorAll('.route-tab')];
