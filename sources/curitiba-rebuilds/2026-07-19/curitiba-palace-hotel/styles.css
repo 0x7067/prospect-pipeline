@@ -1,31 +1,32 @@
 /* ==========================================================================
    Curitiba Palace Hotel — considered-arrival visual system
-   Early visual direction (evidence-bounded concept)
-   Palette: hue-locked pine greens + restrained gold. OKLCH throughout.
-   Type: Fraunces (display, optical sizing) + Inter (body).
+   Palette verified against the hotel's own mark and site (navy wordmark,
+   navy footer, rgb(17,36,104) sampled 2026-07-26) + a restrained gold
+   accent as the one deliberate contemporary color evolution. OKLCH throughout.
+   Type: Cormorant Garamond (display) + Manrope (body).
    ========================================================================== */
 
 :root {
-  /* hue-locked green ramp (hue ~160) */
-  --pine-950: oklch(0.20 0.028 160);
-  --pine-900: oklch(0.245 0.032 160);
-  --pine-850: oklch(0.285 0.034 159);
-  --pine-800: oklch(0.325 0.036 158);
-  --pine-700: oklch(0.40 0.04 157);
+  /* hue-locked navy ramp (hue ~266, matches the hotel's own navy mark) */
+  --navy-950: oklch(0.20 0.07 266);
+  --navy-900: oklch(0.27 0.105 266);
+  --navy-850: oklch(0.32 0.10 266);
+  --navy-800: oklch(0.38 0.095 266);
+  --navy-700: oklch(0.46 0.085 266);
 
-  /* near-white with a faint cool-green tint (chroma 0.008, no warm cream) */
-  --paper: oklch(0.962 0.008 150);
-  --paper-2: oklch(0.935 0.012 150);
+  /* near-white with a faint cool-navy tint */
+  --paper: oklch(0.968 0.006 266);
+  --paper-2: oklch(0.94 0.01 266);
 
-  --ink: oklch(0.235 0.02 160);
-  --ink-soft: oklch(0.42 0.024 158);
+  --ink: oklch(0.24 0.05 266);
+  --ink-soft: oklch(0.44 0.045 266);
 
   --gold: oklch(0.72 0.09 85);
   --gold-deep: oklch(0.52 0.085 80);      /* small text on light backgrounds */
   --gold-soft: oklch(0.80 0.07 88);
 
-  --cream: oklch(0.94 0.012 140);         /* primary text on dark */
-  --cream-soft: oklch(0.80 0.018 150);    /* secondary text on dark */
+  --cream: oklch(0.95 0.01 266);          /* primary text on dark */
+  --cream-soft: oklch(0.82 0.015 266);    /* secondary text on dark */
 
   --font-display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
   --font-body: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -106,28 +107,28 @@ p { text-wrap: pretty; }
               border-color 220ms var(--ease-out), transform 220ms var(--ease-out);
 }
 .btn:active { transform: translateY(1px); }
-.btn-gold { background: var(--gold); color: var(--pine-950); }
+.btn-gold { background: var(--gold); color: var(--navy-950); }
 .btn-gold:hover { background: var(--gold-soft); }
 .btn-ghost-light {
-  border-color: oklch(0.94 0.012 140 / 0.4);
+  border-color: oklch(0.94 0.012 266 / 0.4);
   color: var(--cream);
   background: transparent;
 }
 .btn-ghost-light:hover { border-color: var(--gold); color: var(--gold-soft); }
 .btn-ghost-dark {
-  border-color: oklch(0.235 0.02 160 / 0.35);
+  border-color: oklch(0.235 0.02 266 / 0.35);
   color: var(--ink);
   background: transparent;
 }
-.btn-ghost-dark:hover { border-color: var(--pine-800); background: var(--paper-2); }
+.btn-ghost-dark:hover { border-color: var(--navy-800); background: var(--paper-2); }
 
 /* ---------- image treatment rule ----------
-   Every photograph: pine duotone (multiply wash), gentle desaturation,
+   Every photograph: navy duotone (multiply wash), gentle desaturation,
    optional hairline gold frame offset. One rule, applied everywhere. */
 .frame {
   position: relative;
   overflow: hidden;
-  background: var(--pine-900);
+  background: var(--navy-900);
 }
 .frame img {
   width: 100%;
@@ -139,7 +140,7 @@ p { text-wrap: pretty; }
   content: "";
   position: absolute;
   inset: 0;
-  background: oklch(0.30 0.032 160 / 0.20);
+  background: oklch(0.30 0.032 266 / 0.20);
   mix-blend-mode: multiply;
   pointer-events: none;
 }
@@ -150,7 +151,7 @@ p { text-wrap: pretty; }
   position: sticky;
   top: 0;
   z-index: 20;
-  background: var(--pine-950);
+  background: var(--navy-950);
   border-bottom: 1px solid oklch(0.72 0.09 85 / 0.22);
 }
 .site-header .bar {
@@ -202,7 +203,7 @@ p { text-wrap: pretty; }
   width: 48px;
   height: 48px;
   background: transparent;
-  border: 1px solid oklch(0.94 0.012 140 / 0.35);
+  border: 1px solid oklch(0.94 0.012 266 / 0.35);
   border-radius: var(--radius);
   cursor: pointer;
 }
@@ -211,7 +212,7 @@ p { text-wrap: pretty; }
 
 .mobile-menu {
   display: none;
-  background: var(--pine-950);
+  background: var(--navy-950);
   border-bottom: 1px solid oklch(0.72 0.09 85 / 0.22);
 }
 .mobile-menu[data-open="true"] { display: block; }
@@ -224,7 +225,7 @@ p { text-wrap: pretty; }
   font-size: 1.5rem;
   color: var(--cream);
   text-decoration: none;
-  border-bottom: 1px solid oklch(0.94 0.012 140 / 0.12);
+  border-bottom: 1px solid oklch(0.94 0.012 266 / 0.12);
 }
 .mobile-menu a:hover { color: var(--gold-soft); }
 .mobile-menu .menu-phone {
@@ -241,7 +242,7 @@ p { text-wrap: pretty; }
   min-height: min(88svh, 56rem);
   display: flex;
   align-items: flex-end;
-  background: var(--pine-950);
+  background: var(--navy-950);
   isolation: isolate;
   padding-inline: 1rem;
 }
@@ -249,7 +250,7 @@ p { text-wrap: pretty; }
 .hero .frame img { filter: saturate(0.85) contrast(1.05) brightness(0.9); }
 .hero .frame::after {
   background:
-    linear-gradient(to top, oklch(0.20 0.028 160 / 0.88) 0%, oklch(0.20 0.028 160 / 0.35) 45%, oklch(0.20 0.028 160 / 0.15) 75%);
+    linear-gradient(to top, oklch(0.20 0.028 266 / 0.88) 0%, oklch(0.20 0.028 266 / 0.35) 45%, oklch(0.20 0.028 266 / 0.15) 75%);
   mix-blend-mode: normal;
 }
 .hero-inner {
@@ -289,7 +290,7 @@ p { text-wrap: pretty; }
   background: var(--paper);
   border-radius: var(--radius);
   padding: 1.6rem 1.6rem 1.4rem;
-  box-shadow: 0 24px 60px -24px oklch(0.15 0.02 160 / 0.7);
+  box-shadow: 0 24px 60px -24px oklch(0.15 0.02 266 / 0.7);
   border-top: 2px solid var(--gold);
   border-radius: 0;
 }
@@ -318,13 +319,13 @@ p { text-wrap: pretty; }
 .booking-field select {
   min-height: 46px;
   padding: 0.55rem 0.7rem;
-  border: 1px solid oklch(0.235 0.02 160 / 0.28);
+  border: 1px solid oklch(0.235 0.02 266 / 0.28);
   border-radius: var(--radius);
   background: #fff;
   color: var(--ink);
   font-size: 0.95rem;
 }
-.booking-field input:hover, .booking-field select:hover { border-color: var(--pine-700); }
+.booking-field input:hover, .booking-field select:hover { border-color: var(--navy-700); }
 .booking .btn { width: 100%; margin-top: 1.1rem; }
 .booking-note {
   margin-top: 0.9rem;
@@ -352,7 +353,7 @@ p { text-wrap: pretty; }
 .welcome-fact {
   margin-top: 2.2rem;
   padding-top: 1.6rem;
-  border-top: 1px solid oklch(0.235 0.02 160 / 0.18);
+  border-top: 1px solid oklch(0.235 0.02 266 / 0.18);
   display: flex;
   align-items: baseline;
   gap: 1.1rem;
@@ -362,7 +363,7 @@ p { text-wrap: pretty; }
   font-style: italic;
   font-size: clamp(3rem, 6vw, 4.4rem);
   line-height: 1;
-  color: var(--pine-800);
+  color: var(--navy-800);
 }
 .welcome-fact .years-label {
   max-width: 22ch;
@@ -389,7 +390,7 @@ p { text-wrap: pretty; }
   aspect-ratio: 4 / 3;
   outline: 1px solid oklch(0.72 0.09 85 / 0.7);
   outline-offset: -1px;
-  box-shadow: 0 20px 48px -20px oklch(0.15 0.02 160 / 0.55);
+  box-shadow: 0 20px 48px -20px oklch(0.15 0.02 266 / 0.55);
 }
 .quartos-copy h2 {
   font-size: clamp(2rem, 3.6vw, 3rem);
@@ -407,7 +408,7 @@ p { text-wrap: pretty; }
 }
 .quartos-points li {
   padding: 0.85rem 0;
-  border-top: 1px solid oklch(0.235 0.02 160 / 0.16);
+  border-top: 1px solid oklch(0.235 0.02 266 / 0.16);
   font-weight: 550;
   color: var(--ink);
   font-size: 1rem;
@@ -417,7 +418,7 @@ p { text-wrap: pretty; }
 
 /* ---------- café da manhã: dark editorial spread ---------- */
 .cafe {
-  background: var(--pine-950);
+  background: var(--navy-950);
   color: var(--cream);
 }
 .cafe-grid {
@@ -453,7 +454,7 @@ p { text-wrap: pretty; }
   aspect-ratio: 1 / 1;
   outline: 1px solid oklch(0.72 0.09 85 / 0.7);
   outline-offset: -1px;
-  box-shadow: 0 20px 48px -20px oklch(0.1 0.02 160 / 0.8);
+  box-shadow: 0 20px 48px -20px oklch(0.1 0.02 266 / 0.8);
 }
 .cafe-media figcaption {
   margin-top: 0.7rem;
@@ -479,9 +480,9 @@ p { text-wrap: pretty; }
 .ledger li {
   break-inside: avoid;
   padding: 1.15rem 0 1.25rem;
-  border-top: 1px solid oklch(0.235 0.02 160 / 0.18);
+  border-top: 1px solid oklch(0.235 0.02 266 / 0.18);
 }
-.ledger li:first-child, .ledger li:nth-child(2) { border-top-width: 2px; border-top-color: var(--pine-800); }
+.ledger li:first-child, .ledger li:nth-child(2) { border-top-width: 2px; border-top-color: var(--navy-800); }
 .ledger h3 {
   font-size: 1.3rem;
   font-weight: 560;
@@ -491,7 +492,7 @@ p { text-wrap: pretty; }
 
 /* ---------- localização: dark transit block ---------- */
 .local {
-  background: var(--pine-900);
+  background: var(--navy-900);
   color: var(--cream);
 }
 .local-grid {
@@ -520,9 +521,51 @@ p { text-wrap: pretty; }
 .local-contacts a:hover { text-decoration: underline; text-underline-offset: 4px; }
 .local .frame { aspect-ratio: 16 / 11; }
 
+/* ---------- depoimentos: guest proof, verified from Booking.com ---------- */
+.depoimentos { background: var(--paper); }
+.depoimentos h2 {
+  font-size: clamp(2rem, 3.6vw, 3rem);
+  color: var(--ink);
+  max-width: 22ch;
+}
+.depoimentos h2 em { font-style: italic; color: var(--gold-deep); }
+.depoimentos-lead { margin-top: 1rem; color: var(--ink-soft); }
+.depoimentos-grid {
+  list-style: none;
+  padding: 0;
+  margin-top: 2.6rem;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(1.5rem, 4vw, 2.5rem);
+}
+.depoimentos-grid li {
+  padding-top: 1.4rem;
+  border-top: 2px solid var(--navy-800);
+}
+.quote-mark {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 2.6rem;
+  line-height: 1;
+  color: var(--gold-deep);
+}
+.depoimentos-grid blockquote {
+  margin: 0.4rem 0 1rem;
+  font-size: 0.96rem;
+  line-height: 1.6;
+  color: var(--ink);
+}
+.depoimentos-grid cite {
+  font-style: normal;
+  font-weight: 650;
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+}
+.depoimentos-grid cite span { font-weight: 400; }
+
 /* ---------- reserva: the landing promise ---------- */
 .reserva {
-  background: var(--pine-950);
+  background: var(--navy-950);
   color: var(--cream);
   text-align: center;
   border-top: 1px solid oklch(0.72 0.09 85 / 0.25);
@@ -558,8 +601,8 @@ p { text-wrap: pretty; }
 
 /* ---------- footer ---------- */
 .site-footer {
-  background: var(--pine-950);
-  border-top: 1px solid oklch(0.94 0.012 140 / 0.12);
+  background: var(--navy-950);
+  border-top: 1px solid oklch(0.94 0.012 266 / 0.12);
   color: var(--cream-soft);
   padding-block: 2.5rem;
   font-size: 0.9rem;
@@ -579,7 +622,7 @@ p { text-wrap: pretty; }
 /* ---------- proposal page (independent sales document) ---------- */
 .doc { background: var(--paper); color: var(--ink); }
 .doc-header {
-  background: var(--pine-950);
+  background: var(--navy-950);
   color: var(--cream);
   padding-block: 1.25rem;
   border-bottom: 1px solid oklch(0.72 0.09 85 / 0.25);
@@ -610,14 +653,14 @@ p { text-wrap: pretty; }
 .doc-disclosure {
   margin-top: 2.2rem;
   padding: 1rem 1.25rem;
-  border: 1px solid oklch(0.235 0.02 160 / 0.25);
+  border: 1px solid oklch(0.235 0.02 266 / 0.25);
   border-radius: var(--radius);
   font-size: 0.9rem;
   color: var(--ink-soft);
   max-width: 68ch;
   background: var(--paper-2);
 }
-.doc-section { padding-block: 4rem; padding-inline: 1rem; border-top: 1px solid oklch(0.235 0.02 160 / 0.16); }
+.doc-section { padding-block: 4rem; padding-inline: 1rem; border-top: 1px solid oklch(0.235 0.02 266 / 0.16); }
 .doc-section h2 {
   font-size: clamp(1.7rem, 3.2vw, 2.5rem);
   color: var(--ink);
@@ -631,7 +674,7 @@ p { text-wrap: pretty; }
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: clamp(1.5rem, 4vw, 3.5rem);
   padding-block: 1.8rem;
-  border-top: 1px solid oklch(0.235 0.02 160 / 0.16);
+  border-top: 1px solid oklch(0.235 0.02 266 / 0.16);
 }
 .doc-pair h3 { font-size: 1.25rem; font-weight: 560; color: var(--ink); }
 .doc-pair .from h3 { color: var(--ink-soft); }
@@ -649,7 +692,7 @@ p { text-wrap: pretty; }
 .doc-list li { margin-top: 0.6rem; }
 .doc-list li::marker { color: var(--gold-deep); }
 .doc-cta {
-  background: var(--pine-950);
+  background: var(--navy-950);
   color: var(--cream);
   text-align: left;
 }
@@ -661,11 +704,17 @@ p { text-wrap: pretty; }
 .doc-appendix { font-size: 0.92rem; }
 .doc-appendix .lead, .doc-appendix .doc-list { font-size: 0.92rem; }
 
-/* ---------- reveal motion (enhances an already-visible default) ---------- */
+/* ---------- reveal motion (enhances an already-visible default) ----------
+   Content is visible by default in every case (no-JS, slow JS, print,
+   screenshot tools, reduced motion). Only elements the observer has not
+   yet reached AND that are already marked ready get the subtle entrance;
+   nothing ever depends on scroll to become visible. */
 @media (prefers-reduced-motion: no-preference) {
-  .reveal {
+  .reveal.reveal-armed:not(.is-visible) {
     opacity: 0;
     transform: translateY(18px);
+  }
+  .reveal {
     transition: opacity 700ms var(--ease-out), transform 700ms var(--ease-out);
   }
   .reveal.is-visible { opacity: 1; transform: none; }
@@ -689,9 +738,10 @@ p { text-wrap: pretty; }
   .cafe-media .frame.detail { left: var(--gutter); bottom: 0; }
   .cafe-media figcaption { padding-inline: var(--gutter); }
   .ledger { columns: 1; }
-  .ledger li:nth-child(2) { border-top-width: 1px; border-top-color: oklch(0.235 0.02 160 / 0.18); }
+  .ledger li:nth-child(2) { border-top-width: 1px; border-top-color: oklch(0.235 0.02 266 / 0.18); }
   .local-media { order: -1; }
   .doc-pair { grid-template-columns: 1fr; gap: 1rem; }
+  .depoimentos-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media (max-width: 34rem) {
@@ -700,4 +750,5 @@ p { text-wrap: pretty; }
   .booking-fields { grid-template-columns: 1fr; }
   .welcome-fact { flex-direction: column; gap: 0.5rem; }
   .reserva-actions .btn { width: 100%; }
+  .depoimentos-grid { grid-template-columns: 1fr; }
 }

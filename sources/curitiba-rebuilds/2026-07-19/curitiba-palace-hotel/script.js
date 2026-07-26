@@ -68,11 +68,23 @@
   }
 
   /* ---------- revelações de scroll ----------
-     Realçam um padrão já visível: sem JS, todo o conteúdo aparece normalmente. */
+     Realçam um padrão já visível: sem JS, todo o conteúdo aparece normalmente.
+     Um cronômetro de segurança garante que nenhuma seção fique invisível
+     para sempre (leitores de tela lentos, ferramentas de captura de tela,
+     impressão/PDF ou qualquer navegador que nunca dispare o observer). */
   var revealItems = document.querySelectorAll(".reveal");
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+  function revealAll() {
+    revealItems.forEach(function (item) {
+      item.classList.add("is-visible");
+    });
+  }
+
   if (revealItems.length && !reduceMotion && "IntersectionObserver" in window) {
+    revealItems.forEach(function (item) {
+      item.classList.add("reveal-armed");
+    });
     var observer = new IntersectionObserver(
       function (entries) {
         entries.forEach(function (entry) {
@@ -87,9 +99,12 @@
     revealItems.forEach(function (item) {
       observer.observe(item);
     });
+    // Rede de segurança: nada permanece escondido além de 1s.
+    window.setTimeout(function () {
+      observer.disconnect();
+      revealAll();
+    }, 1000);
   } else {
-    revealItems.forEach(function (item) {
-      item.classList.add("is-visible");
-    });
+    revealAll();
   }
 })();
