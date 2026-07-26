@@ -5,6 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trevi Hotel &amp; Business — Hotel no Centro de Curitiba</title>
   <meta name="description" content="Hotel no centro de Curitiba com quartos confortáveis, café da manhã, Wi-Fi, business center e duas salas de eventos. Recepção 24 horas. Reserve já pelo site oficial.">
+  <link rel="canonical" href="https://trevihotel.com.br/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Trevi Hotel &amp; Business">
+  <meta property="og:title" content="Trevi Hotel &amp; Business — Hotel no Centro de Curitiba">
+  <meta property="og:description" content="Quartos confortáveis, café da manhã, Wi-Fi, business center e duas salas de eventos no coração de Curitiba. Recepção 24 horas.">
+  <meta property="og:image" content="assets/hero-apartamento.jpg">
+  <meta property="og:url" content="https://trevihotel.com.br/">
+  <meta property="og:locale" content="pt_BR">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Trevi Hotel &amp; Business — Hotel no Centro de Curitiba">
+  <meta name="twitter:description" content="Quartos confortáveis, café da manhã, Wi-Fi, business center e duas salas de eventos no coração de Curitiba.">
+  <meta name="twitter:image" content="assets/hero-apartamento.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%23D4242C'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='34' font-weight='700' fill='%23ffffff' text-anchor='middle'%3ET%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -30,6 +43,7 @@
           <li><a href="https://trevihotel.com.br/contato/" aria-label="Página de contato">Contato</a></li>
           <li class="nav-contact"><a href="https://wa.me/554132240111" aria-label="WhatsApp">WhatsApp</a></li>
           <li class="nav-contact"><a href="tel:+554132240111">(41) 3224-0111</a></li>
+          <li class="nav-book"><a href="https://myreservations.omnibees.com/default.aspx?q=5770" target="_blank" rel="noopener" class="btn btn-primary btn-nav">Reservar</a></li>
         </ul>
       </nav>
     </div>
@@ -39,13 +53,14 @@
 
     <!-- Hero: Type-led, reservation-integrated -->
     <section class="hero" aria-label="Reserva de hospedagem">
-      <div class="hero-overlay"></div>
       <div class="container hero-inner">
         <div class="hero-content">
+          <p class="hero-eyebrow">Trevi Hotel &amp; Business</p>
           <h1>Centro de Curitiba — hospedagem prática no coração da capital</h1>
           <p class="hero-sub">Quartos confortáveis, café da manhã, business center e salas de eventos, tudo a poucos passos do centro.</p>
         </div>
-        <form class="reservation-bar" action="https://trevihotel.com.br/" method="get" aria-label="Formulário de reserva">
+        <form class="reservation-bar" action="https://myreservations.omnibees.com/default.aspx" method="get" aria-label="Formulário de reserva" target="_blank">
+          <input type="hidden" name="q" value="5770">
           <div class="form-group">
             <label for="checkin">Entrada</label>
             <input type="date" id="checkin" name="checkin" required>
@@ -82,22 +97,26 @@
       <div class="container split-grid">
         <!-- Stay side -->
         <div class="split-panel stay-panel">
-          <div class="panel-visual stay-visual"></div>
+          <div class="panel-visual stay-visual">
+            <img src="assets/apartamento-standard.jpg" alt="Apartamento do Trevi Hotel &amp; Business com camas, mesa de trabalho e TV" loading="lazy" width="1500" height="998">
+          </div>
           <div class="panel-content">
             <p class="panel-label">Hospedagem</p>
             <h2>Apartamentos preparados para sua estadia</h2>
             <p>Quartos com Wi-Fi gratuito, café da manhã incluso e recepção 24 horas, pensados para quem viaja a trabalho ou para turismo no centro de Curitiba.</p>
-            <a href="https://trevihotel.com.br/apartamentos" class="btn btn-outline">Ver apartamentos</a>
+            <a href="https://myreservations.omnibees.com/default.aspx?q=5770" target="_blank" rel="noopener" class="btn btn-outline">Ver apartamentos e reservar</a>
           </div>
         </div>
         <!-- Events side -->
         <div class="split-panel events-panel" id="eventos">
-          <div class="panel-visual events-visual"></div>
+          <div class="panel-visual events-visual">
+            <img src="assets/sala-eventos.jpg" alt="Sala de eventos do Trevi Hotel &amp; Business preparada para reunião, com cadeiras e projetor" loading="lazy" width="640" height="427">
+          </div>
           <div class="panel-content">
             <p class="panel-label">Eventos</p>
             <h2>Duas salas para seus eventos e reuniões</h2>
             <p>Salas 3 e 4 equipadas para reuniões de negócios, treinamentos e eventos corporativos, com espaço para buffet e recepção no próprio hotel.</p>
-            <a href="https://trevihotel.com.br/eventos/" class="btn btn-outline">Saiba mais sobre eventos</a>
+            <a href="https://trevihotel.com.br/eventos/" target="_blank" rel="noopener" class="btn btn-outline">Saiba mais sobre eventos</a>
           </div>
         </div>
       </div>
@@ -135,6 +154,28 @@
       </div>
     </section>
 
+    <!-- Testimonials: real guest reviews published on the official site -->
+    <section class="testimonials-section" aria-label="Depoimentos de hóspedes">
+      <div class="container">
+        <p class="section-label">Hóspedes</p>
+        <h2>O que dizem os hóspedes</h2>
+        <div class="testimonials-grid">
+          <blockquote class="testimonial">
+            <p>Atendimento da recepção é maravilhoso. Muito atenciosos. O quarto é de bom tamanho e o banheiro bem amplo.</p>
+            <footer>Elaine <span>· avaliação no Booking.com</span></footer>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p>Ótimo atendimento em geral, limpeza, ótimas condições gerais do quarto e banheiro, café da manhã muito completo, silencioso &mdash; inacreditável custo-benefício.</p>
+            <footer>Fernando F. <span>· avaliação no Booking.com</span></footer>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p>O café da manhã, o atendimento, a limpeza e o conforto são 100%. Equipe sempre simpática, disposta e atenciosa.</p>
+            <footer>Cami <span>· avaliação no Booking.com</span></footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
     <!-- Location section -->
     <section class="location-section" aria-label="Localização e contato">
       <div class="container location-grid">
@@ -154,7 +195,25 @@
           </div>
         </div>
         <div class="location-map">
-          <div class="map-visual" aria-label="Mapa da localização do hotel"></div>
+          <div class="map-visual" role="img" aria-label="Ilustração do mapa mostrando o Trevi Hotel &amp; Business no centro de Curitiba">
+            <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+              <rect width="400" height="300" fill="#EDE9E2"/>
+              <g stroke="#D8D2C6" stroke-width="2">
+                <line x1="0" y1="60" x2="400" y2="40"/>
+                <line x1="0" y1="150" x2="400" y2="140"/>
+                <line x1="0" y1="230" x2="400" y2="250"/>
+                <line x1="70" y1="0" x2="50" y2="300"/>
+                <line x1="180" y1="0" x2="170" y2="300"/>
+                <line x1="300" y1="0" x2="320" y2="300"/>
+              </g>
+              <circle cx="200" cy="150" r="70" fill="none" stroke="#C4A35A" stroke-width="1.5" stroke-dasharray="4 6"/>
+              <circle cx="200" cy="150" r="10" fill="#D4242C" opacity="0.18"/>
+              <path d="M200 120c-14 0-25 11-25 25 0 19 25 45 25 45s25-26 25-45c0-14-11-25-25-25z" fill="#D4242C"/>
+              <circle cx="200" cy="144" r="9" fill="#ffffff"/>
+            </svg>
+            <span class="map-caption">R. Ébano Pereira, 139 &mdash; Centro, Curitiba</span>
+          </div>
+          <a class="map-link" href="https://www.google.com.br/maps/place/Trevi+Hotel+%26+Business/@-25.4307248,-49.2761153,17z/data=!3m1!4b1!4m5!3m4!1s0x15cdae3e6949563:0xbcc4ec843a5f04a0!8m2!3d-25.4307248!4d-49.2745677" target="_blank" rel="noopener">Ver rota no Google Maps &rarr;</a>
         </div>
       </div>
     </section>

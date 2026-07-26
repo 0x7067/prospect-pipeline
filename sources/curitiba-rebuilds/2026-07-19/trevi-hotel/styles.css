@@ -1,6 +1,7 @@
 /* =========================================================
    Trevi Hotel & Business — Design System
-   Palette: Burgundy (#7B1E2E) from live header
+   Palette: Trevi red (#D4242C) sampled directly from the live
+             header background and script logo plate
              Charcoal (#2C2C2C) from live footer
              Warm off-white (#F7F4F0) for backgrounds
              Gold accent (#C4A35A) for selective emphasis
@@ -15,9 +16,9 @@
 }
 
 :root {
-  --burgundy: #7B1E2E;
-  --burgundy-dark: #5C1622;
-  --burgundy-light: #962840;
+  --burgundy: #D4242C;
+  --burgundy-dark: #A81B22;
+  --burgundy-light: #E6474E;
   --charcoal: #2C2C2C;
   --charcoal-light: #3D3D3D;
   --off-white: #F2F2F0;
@@ -304,6 +305,20 @@ h3 { font-size: clamp(1.125rem, 2vw, 1.5rem); }
   color: var(--gold-light);
 }
 
+.nav-book .btn-nav {
+  padding: 9px 20px;
+  font-size: 0.75rem;
+  min-width: 0;
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--charcoal);
+}
+
+.nav-book .btn-nav:hover {
+  background: var(--gold-light);
+  border-color: var(--gold-light);
+}
+
 /* =========================================================
    HERO — Type-led with integrated reservation bar
    ========================================================= */
@@ -315,13 +330,15 @@ h3 { font-size: clamp(1.125rem, 2vw, 1.5rem); }
   align-items: center;
   background:
     linear-gradient(
-      180deg,
-      rgba(44, 44, 44, 0.55) 0%,
-      rgba(123, 30, 46, 0.35) 50%,
-      rgba(44, 44, 44, 0.65) 100%
+      120deg,
+      rgba(20, 14, 14, 0.86) 0%,
+      rgba(123, 20, 28, 0.58) 45%,
+      rgba(20, 14, 14, 0.88) 100%
     ),
-    linear-gradient(135deg, #4A4A4A 0%, #2C2C2C 40%, #3D2B2B 100%);
+    url('assets/hero-apartamento.jpg');
   background-size: cover;
+  background-position: center 35%;
+  background-repeat: no-repeat;
   padding: 80px 0 100px;
 }
 
@@ -436,20 +453,34 @@ h3 { font-size: clamp(1.125rem, 2vw, 1.5rem); }
 }
 
 .split-panel .panel-visual {
-  background-size: cover;
-  background-position: center;
+  position: relative;
+  overflow: hidden;
+  background: var(--charcoal);
 }
 
-.stay-panel .panel-visual {
-  background:
-    linear-gradient(135deg, rgba(123, 30, 46, 0.15), transparent),
-    linear-gradient(180deg, #6B5B5B 0%, #4A3F3F 100%);
+.split-panel .panel-visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
-.events-panel .panel-visual {
-  background:
-    linear-gradient(135deg, rgba(44, 44, 44, 0.1), transparent),
-    linear-gradient(180deg, #3D3D3D 0%, #2C2C2C 100%);
+/* Image-treatment rule: a faint brand-color wash unifies the two
+   photographs without flattening material detail. */
+.stay-panel .panel-visual::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(155deg, rgba(123, 20, 28, 0.16), rgba(44, 44, 44, 0.04));
+  pointer-events: none;
+}
+
+.events-panel .panel-visual::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(155deg, rgba(44, 44, 44, 0.22), rgba(44, 44, 44, 0.04));
+  pointer-events: none;
 }
 
 .split-panel .panel-content {
@@ -528,6 +559,72 @@ h3 { font-size: clamp(1.125rem, 2vw, 1.5rem); }
 }
 
 /* =========================================================
+   TESTIMONIALS — real published guest reviews, quote-led (no cards)
+   ========================================================= */
+.testimonials-section {
+  padding: 72px 0;
+  background: var(--white);
+}
+
+.testimonials-section .section-label,
+.testimonials-section h2 {
+  text-align: center;
+}
+
+.testimonials-section h2 {
+  margin-bottom: 2.5rem;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+}
+
+.testimonial {
+  padding: 0 32px;
+  border-left: 1px solid #E0DDD8;
+}
+
+.testimonial:first-child {
+  border-left: none;
+}
+
+.testimonial p {
+  position: relative;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.0625rem;
+  line-height: 1.55;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.testimonial p::before {
+  content: '\201C';
+  display: block;
+  font-family: var(--font-display);
+  font-style: normal;
+  font-size: 2.75rem;
+  line-height: 1;
+  color: var(--gold);
+  margin-bottom: 0.25rem;
+}
+
+.testimonial footer {
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.testimonial footer span {
+  font-weight: 400;
+  color: var(--text-secondary);
+  opacity: 0.75;
+}
+
+/* =========================================================
    LOCATION SECTION
    ========================================================= */
 .location-section {
@@ -585,31 +682,53 @@ h3 { font-size: clamp(1.125rem, 2vw, 1.5rem); }
 }
 
 .location-map {
-  border-radius: var(--radius-md);
-  overflow: hidden;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .map-visual {
   width: 100%;
   aspect-ratio: 4 / 3;
-  background:
-    linear-gradient(135deg, #E8E4DE 0%, #D8D4CE 50%, #C8C4BE 100%);
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  border: 1px solid #E0DDD8;
 }
 
-.map-visual::after {
-  content: '';
-  width: 20px;
-  height: 20px;
-  background: var(--burgundy);
-  border-radius: 50%;
-  border: 3px solid var(--white);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+.map-visual svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.map-caption {
+  position: absolute;
+  left: 16px;
+  bottom: 14px;
+  background: var(--white);
+  color: var(--text-primary);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.map-link {
+  align-self: flex-start;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--burgundy);
+  border-bottom: 2px solid var(--burgundy);
+  padding-bottom: 2px;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.map-link:hover {
+  color: var(--burgundy-dark);
+  border-color: var(--burgundy-dark);
 }
 
 /* =========================================================
@@ -744,6 +863,23 @@ h3 { font-size: clamp(1.125rem, 2vw, 1.5rem); }
     gap: 40px;
   }
 
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .testimonial {
+    border-left: none;
+    padding: 0;
+    border-top: 1px solid #E0DDD8;
+    padding-top: 24px;
+  }
+
+  .testimonial:first-child {
+    border-top: none;
+    padding-top: 0;
+  }
+
   .footer-inner {
     grid-template-columns: 1fr 1fr;
     gap: 32px;
@@ -813,6 +949,18 @@ h3 { font-size: clamp(1.125rem, 2vw, 1.5rem); }
 
   .nav-contact a {
     color: var(--gold-light);
+  }
+
+  .nav-book {
+    margin-top: 16px;
+  }
+
+  .nav-book .btn-nav {
+    display: block;
+    width: 100%;
+    padding: 14px 0;
+    border-bottom: none;
+    text-align: center;
   }
 
   /* Mobile overlay */
